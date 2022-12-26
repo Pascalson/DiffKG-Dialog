@@ -1,0 +1,65 @@
+0	76	HasAddress	91 El Camino Real
+0	76	HasType	gas station
+0	91 El Camino Real	IsAddressOf	76
+0	gas station	IsTypeOf	76
+0	76	HasTraffic	heavy traffic
+0	76	HasDistance	2 miles
+0	heavy traffic	IsTrafficOf	76
+0	2 miles	IsDistanceFrom	76
+1	Safeway	HasAddress	452 Arcadia Pl
+1	Safeway	HasType	grocery store
+1	452 Arcadia Pl	IsAddressOf	Safeway
+1	grocery store	IsTypeOf	Safeway
+1	Safeway	HasTraffic	heavy traffic
+1	Safeway	HasDistance	1 miles
+1	heavy traffic	IsTrafficOf	Safeway
+1	1 miles	IsDistanceFrom	Safeway
+2	Sigona Farmers Market	HasAddress	638 Amherst St
+2	Sigona Farmers Market	HasType	grocery store
+2	638 Amherst St	IsAddressOf	Sigona Farmers Market
+2	grocery store	IsTypeOf	Sigona Farmers Market
+2	Sigona Farmers Market	HasTraffic	no traffic
+2	Sigona Farmers Market	HasDistance	3 miles
+2	no traffic	IsTrafficOf	Sigona Farmers Market
+2	3 miles	IsDistanceFrom	Sigona Farmers Market
+3	jills house	HasAddress	347 Alta Mesa Ave
+3	jills house	HasType	friends house
+3	347 Alta Mesa Ave	IsAddressOf	jills house
+3	friends house	IsTypeOf	jills house
+3	jills house	HasTraffic	road block nearby
+3	jills house	HasDistance	5 miles
+3	road block nearby	IsTrafficOf	jills house
+3	5 miles	IsDistanceFrom	jills house
+4	Hotel Keen	HasAddress	578 Arbol Dr
+4	Hotel Keen	HasType	rest stop
+4	578 Arbol Dr	IsAddressOf	Hotel Keen
+4	rest stop	IsTypeOf	Hotel Keen
+4	Hotel Keen	HasTraffic	no traffic
+4	Hotel Keen	HasDistance	3 miles
+4	no traffic	IsTrafficOf	Hotel Keen
+4	3 miles	IsDistanceFrom	Hotel Keen
+5	Stanford Express Care	HasAddress	214 El Camino Real
+5	Stanford Express Care	HasType	hospital
+5	214 El Camino Real	IsAddressOf	Stanford Express Care
+5	hospital	IsTypeOf	Stanford Express Care
+5	Stanford Express Care	HasTraffic	moderate traffic
+5	Stanford Express Care	HasDistance	6 miles
+5	moderate traffic	IsTrafficOf	Stanford Express Care
+5	6 miles	IsDistanceFrom	Stanford Express Care
+6	home	HasAddress	56 cadwell street
+6	home	HasType	home
+6	56 cadwell street	IsAddressOf	home
+6	home	IsTypeOf	home
+6	home	HasTraffic	no traffic
+6	home	HasDistance	1 miles
+6	no traffic	IsTrafficOf	home
+6	1 miles	IsDistanceFrom	home
+7	jacks house	HasAddress	864 Almanor Ln
+7	jacks house	HasType	friends house
+7	864 Almanor Ln	IsAddressOf	jacks house
+7	friends house	IsTypeOf	jacks house
+7	jacks house	HasTraffic	moderate traffic
+7	jacks house	HasDistance	6 miles
+7	moderate traffic	IsTrafficOf	jacks house
+7	6 miles	IsDistanceFrom	jacks house
+-1	today	IsEqualTo	monday

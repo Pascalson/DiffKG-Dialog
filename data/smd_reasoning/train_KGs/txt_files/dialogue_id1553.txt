@@ -1,0 +1,49 @@
+0	dinner	HasTime	7pm
+0	7pm	IsTimeOf	dinner
+0	dinner	HasDate	the 6th
+0	the 6th	IsDateOf	dinner
+0	dinner	HasParty	Alex
+0	Alex	IsPartyOf	dinner
+1	dentist appointment	HasTime	9am
+1	9am	IsTimeOf	dentist appointment
+1	dentist appointment	HasDate	the 8th
+1	the 8th	IsDateOf	dentist appointment
+1	dentist appointment	HasParty	Alex
+1	Alex	IsPartyOf	dentist appointment
+2	football activity	HasTime	4pm
+2	4pm	IsTimeOf	football activity
+2	football activity	HasDate	the 16th
+2	the 16th	IsDateOf	football activity
+2	football activity	HasParty	Tom
+2	Tom	IsPartyOf	football activity
+3	dinner	HasTime	8pm
+3	8pm	IsTimeOf	dinner
+3	dinner	HasDate	the 4th
+3	the 4th	IsDateOf	dinner
+3	dinner	HasParty	Jon
+3	Jon	IsPartyOf	dinner
+4	football activity	HasTime	2pm
+4	2pm	IsTimeOf	football activity
+4	football activity	HasDate	the 19th
+4	the 19th	IsDateOf	football activity
+4	football activity	HasParty	Marie
+4	Marie	IsPartyOf	football activity
+5	football activity	HasTime	3pm
+5	3pm	IsTimeOf	football activity
+5	football activity	HasDate	the 16th
+5	the 16th	IsDateOf	football activity
+5	football activity	HasParty	Tom
+5	Tom	IsPartyOf	football activity
+6	dentist appointment	HasTime	5pm
+6	5pm	IsTimeOf	dentist appointment
+6	dentist appointment	HasDate	the 19th
+6	the 19th	IsDateOf	dentist appointment
+6	dentist appointment	HasParty	Marie
+6	Marie	IsPartyOf	dentist appointment
+7	swimming activity	HasTime	4pm
+7	4pm	IsTimeOf	swimming activity
+7	swimming activity	HasDate	the 19th
+7	the 19th	IsDateOf	swimming activity
+7	swimming activity	HasParty	brother
+7	brother	IsPartyOf	swimming activity
+-1	today	IsEqualTo	monday

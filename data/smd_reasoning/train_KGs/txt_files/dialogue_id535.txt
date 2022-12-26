@@ -1,0 +1,65 @@
+0	Jing Jing	HasAddress	113 Arbol Dr
+0	Jing Jing	HasType	chinese restaurant
+0	113 Arbol Dr	IsAddressOf	Jing Jing
+0	chinese restaurant	IsTypeOf	Jing Jing
+0	Jing Jing	HasTraffic	moderate traffic
+0	Jing Jing	HasDistance	3 miles
+0	moderate traffic	IsTrafficOf	Jing Jing
+0	3 miles	IsDistanceFrom	Jing Jing
+1	The Clement Hotel	HasAddress	657 Ames Ave
+1	The Clement Hotel	HasType	rest stop
+1	657 Ames Ave	IsAddressOf	The Clement Hotel
+1	rest stop	IsTypeOf	The Clement Hotel
+1	The Clement Hotel	HasTraffic	heavy traffic
+1	The Clement Hotel	HasDistance	5 miles
+1	heavy traffic	IsTrafficOf	The Clement Hotel
+1	5 miles	IsDistanceFrom	The Clement Hotel
+2	Round Table	HasAddress	113 Anton Ct
+2	Round Table	HasType	pizza restaurant
+2	113 Anton Ct	IsAddressOf	Round Table
+2	pizza restaurant	IsTypeOf	Round Table
+2	Round Table	HasTraffic	heavy traffic
+2	Round Table	HasDistance	2 miles
+2	heavy traffic	IsTrafficOf	Round Table
+2	2 miles	IsDistanceFrom	Round Table
+3	Topanga Mall	HasAddress	171 Oak Rd
+3	Topanga Mall	HasType	shopping center
+3	171 Oak Rd	IsAddressOf	Topanga Mall
+3	shopping center	IsTypeOf	Topanga Mall
+3	Topanga Mall	HasTraffic	heavy traffic
+3	Topanga Mall	HasDistance	6 miles
+3	heavy traffic	IsTrafficOf	Topanga Mall
+3	6 miles	IsDistanceFrom	Topanga Mall
+4	Midtown Shopping Center	HasAddress	338 Alester Ave
+4	Midtown Shopping Center	HasType	shopping center
+4	338 Alester Ave	IsAddressOf	Midtown Shopping Center
+4	shopping center	IsTypeOf	Midtown Shopping Center
+4	Midtown Shopping Center	HasTraffic	moderate traffic
+4	Midtown Shopping Center	HasDistance	2 miles
+4	moderate traffic	IsTrafficOf	Midtown Shopping Center
+4	2 miles	IsDistanceFrom	Midtown Shopping Center
+5	toms house	HasAddress	580 Van Ness Ave
+5	toms house	HasType	friends house
+5	580 Van Ness Ave	IsAddressOf	toms house
+5	friends house	IsTypeOf	toms house
+5	toms house	HasTraffic	moderate traffic
+5	toms house	HasDistance	4 miles
+5	moderate traffic	IsTrafficOf	toms house
+5	4 miles	IsDistanceFrom	toms house
+6	Pizza Chicago	HasAddress	915 Arbol Dr
+6	Pizza Chicago	HasType	pizza restaurant
+6	915 Arbol Dr	IsAddressOf	Pizza Chicago
+6	pizza restaurant	IsTypeOf	Pizza Chicago
+6	Pizza Chicago	HasTraffic	road block nearby
+6	Pizza Chicago	HasDistance	1 miles
+6	road block nearby	IsTrafficOf	Pizza Chicago
+6	1 miles	IsDistanceFrom	Pizza Chicago
+7	Mandarin Roots	HasAddress	271 Springer Street
+7	Mandarin Roots	HasType	chinese restaurant
+7	271 Springer Street	IsAddressOf	Mandarin Roots
+7	chinese restaurant	IsTypeOf	Mandarin Roots
+7	Mandarin Roots	HasTraffic	car collision nearby
+7	Mandarin Roots	HasDistance	3 miles
+7	car collision nearby	IsTrafficOf	Mandarin Roots
+7	3 miles	IsDistanceFrom	Mandarin Roots
+-1	today	IsEqualTo	monday

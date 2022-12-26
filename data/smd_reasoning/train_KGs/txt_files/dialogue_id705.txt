@@ -1,0 +1,65 @@
+0	jills house	HasAddress	347 Alta Mesa Ave
+0	jills house	HasType	friends house
+0	347 Alta Mesa Ave	IsAddressOf	jills house
+0	friends house	IsTypeOf	jills house
+0	jills house	HasTraffic	heavy traffic
+0	jills house	HasDistance	5 miles
+0	heavy traffic	IsTrafficOf	jills house
+0	5 miles	IsDistanceFrom	jills house
+1	Midtown Shopping Center	HasAddress	338 Alester Ave
+1	Midtown Shopping Center	HasType	shopping center
+1	338 Alester Ave	IsAddressOf	Midtown Shopping Center
+1	shopping center	IsTypeOf	Midtown Shopping Center
+1	Midtown Shopping Center	HasTraffic	heavy traffic
+1	Midtown Shopping Center	HasDistance	5 miles
+1	heavy traffic	IsTrafficOf	Midtown Shopping Center
+1	5 miles	IsDistanceFrom	Midtown Shopping Center
+2	The Westin	HasAddress	329 El Camino Real
+2	The Westin	HasType	rest stop
+2	329 El Camino Real	IsAddressOf	The Westin
+2	rest stop	IsTypeOf	The Westin
+2	The Westin	HasTraffic	heavy traffic
+2	The Westin	HasDistance	2 miles
+2	heavy traffic	IsTrafficOf	The Westin
+2	2 miles	IsDistanceFrom	The Westin
+3	jacks house	HasAddress	864 Almanor Ln
+3	jacks house	HasType	friends house
+3	864 Almanor Ln	IsAddressOf	jacks house
+3	friends house	IsTypeOf	jacks house
+3	jacks house	HasTraffic	road block nearby
+3	jacks house	HasDistance	3 miles
+3	road block nearby	IsTrafficOf	jacks house
+3	3 miles	IsDistanceFrom	jacks house
+4	Trader Joes	HasAddress	408 University Ave
+4	Trader Joes	HasType	grocery store
+4	408 University Ave	IsAddressOf	Trader Joes
+4	grocery store	IsTypeOf	Trader Joes
+4	Trader Joes	HasTraffic	heavy traffic
+4	Trader Joes	HasDistance	6 miles
+4	heavy traffic	IsTrafficOf	Trader Joes
+4	6 miles	IsDistanceFrom	Trader Joes
+5	Topanga Mall	HasAddress	171 Oak Rd
+5	Topanga Mall	HasType	shopping center
+5	171 Oak Rd	IsAddressOf	Topanga Mall
+5	shopping center	IsTypeOf	Topanga Mall
+5	Topanga Mall	HasTraffic	moderate traffic
+5	Topanga Mall	HasDistance	5 miles
+5	moderate traffic	IsTrafficOf	Topanga Mall
+5	5 miles	IsDistanceFrom	Topanga Mall
+6	Whole Foods	HasAddress	819 Alma St
+6	Whole Foods	HasType	grocery store
+6	819 Alma St	IsAddressOf	Whole Foods
+6	grocery store	IsTypeOf	Whole Foods
+6	Whole Foods	HasTraffic	car collision nearby
+6	Whole Foods	HasDistance	1 miles
+6	car collision nearby	IsTrafficOf	Whole Foods
+6	1 miles	IsDistanceFrom	Whole Foods
+7	Mandarin Roots	HasAddress	271 Springer Street
+7	Mandarin Roots	HasType	chinese restaurant
+7	271 Springer Street	IsAddressOf	Mandarin Roots
+7	chinese restaurant	IsTypeOf	Mandarin Roots
+7	Mandarin Roots	HasTraffic	moderate traffic
+7	Mandarin Roots	HasDistance	1 miles
+7	moderate traffic	IsTrafficOf	Mandarin Roots
+7	1 miles	IsDistanceFrom	Mandarin Roots
+-1	today	IsEqualTo	monday

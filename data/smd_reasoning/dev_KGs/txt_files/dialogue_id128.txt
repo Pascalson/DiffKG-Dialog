@@ -1,0 +1,65 @@
+0	Four Seasons	HasAddress	465 Arcadia Pl
+0	Four Seasons	HasType	rest stop
+0	465 Arcadia Pl	IsAddressOf	Four Seasons
+0	rest stop	IsTypeOf	Four Seasons
+0	Four Seasons	HasTraffic	no traffic
+0	Four Seasons	HasDistance	4 miles
+0	no traffic	IsTrafficOf	Four Seasons
+0	4 miles	IsDistanceFrom	Four Seasons
+1	The Westin	HasAddress	329 El Camino Real
+1	The Westin	HasType	rest stop
+1	329 El Camino Real	IsAddressOf	The Westin
+1	rest stop	IsTypeOf	The Westin
+1	The Westin	HasTraffic	moderate traffic
+1	The Westin	HasDistance	5 miles
+1	moderate traffic	IsTrafficOf	The Westin
+1	5 miles	IsDistanceFrom	The Westin
+2	The Clement Hotel	HasAddress	657 Ames Ave
+2	The Clement Hotel	HasType	rest stop
+2	657 Ames Ave	IsAddressOf	The Clement Hotel
+2	rest stop	IsTypeOf	The Clement Hotel
+2	The Clement Hotel	HasTraffic	heavy traffic
+2	The Clement Hotel	HasDistance	2 miles
+2	heavy traffic	IsTrafficOf	The Clement Hotel
+2	2 miles	IsDistanceFrom	The Clement Hotel
+3	Teavana	HasAddress	145 Amherst St
+3	Teavana	HasType	coffee or tea place
+3	145 Amherst St	IsAddressOf	Teavana
+3	coffee or tea place	IsTypeOf	Teavana
+3	Teavana	HasTraffic	car collision nearby
+3	Teavana	HasDistance	4 miles
+3	car collision nearby	IsTrafficOf	Teavana
+3	4 miles	IsDistanceFrom	Teavana
+4	Stanford Childrens Health	HasAddress	899 Ames Ct
+4	Stanford Childrens Health	HasType	hospital
+4	899 Ames Ct	IsAddressOf	Stanford Childrens Health
+4	hospital	IsTypeOf	Stanford Childrens Health
+4	Stanford Childrens Health	HasTraffic	no traffic
+4	Stanford Childrens Health	HasDistance	1 miles
+4	no traffic	IsTrafficOf	Stanford Childrens Health
+4	1 miles	IsDistanceFrom	Stanford Childrens Health
+5	5677 southwest 4th street	HasAddress	5677 southwest 4th street
+5	5677 southwest 4th street	HasType	certain address
+5	5677 southwest 4th street	IsAddressOf	5677 southwest 4th street
+5	certain address	IsTypeOf	5677 southwest 4th street
+5	5677 southwest 4th street	HasTraffic	road block nearby
+5	5677 southwest 4th street	HasDistance	2 miles
+5	road block nearby	IsTrafficOf	5677 southwest 4th street
+5	2 miles	IsDistanceFrom	5677 southwest 4th street
+6	Travelers Lodge	HasAddress	333 Arbol Dr
+6	Travelers Lodge	HasType	rest stop
+6	333 Arbol Dr	IsAddressOf	Travelers Lodge
+6	rest stop	IsTypeOf	Travelers Lodge
+6	Travelers Lodge	HasTraffic	road block nearby
+6	Travelers Lodge	HasDistance	1 miles
+6	road block nearby	IsTrafficOf	Travelers Lodge
+6	1 miles	IsDistanceFrom	Travelers Lodge
+7	Palo Alto Garage R	HasAddress	481 Amaranta Ave
+7	Palo Alto Garage R	HasType	parking garage
+7	481 Amaranta Ave	IsAddressOf	Palo Alto Garage R
+7	parking garage	IsTypeOf	Palo Alto Garage R
+7	Palo Alto Garage R	HasTraffic	car collision nearby
+7	Palo Alto Garage R	HasDistance	2 miles
+7	car collision nearby	IsTrafficOf	Palo Alto Garage R
+7	2 miles	IsDistanceFrom	Palo Alto Garage R
+-1	today	IsEqualTo	monday

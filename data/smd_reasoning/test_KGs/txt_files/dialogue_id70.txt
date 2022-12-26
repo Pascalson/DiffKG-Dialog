@@ -1,0 +1,57 @@
+0	5677 springer street	HasAddress	5677 springer street
+0	5677 springer street	HasType	certain address
+0	5677 springer street	IsAddressOf	5677 springer street
+0	certain address	IsTypeOf	5677 springer street
+0	5677 springer street	HasTraffic	moderate traffic
+0	5677 springer street	HasDistance	5 miles
+0	moderate traffic	IsTrafficOf	5677 springer street
+0	5 miles	IsDistanceFrom	5677 springer street
+1	home	HasAddress	5671 barringer street
+1	home	HasType	home
+1	5671 barringer street	IsAddressOf	home
+1	home	IsTypeOf	home
+1	home	HasTraffic	no traffic
+1	home	HasDistance	1 miles
+1	no traffic	IsTrafficOf	home
+1	1 miles	IsDistanceFrom	home
+2	5672 barringer street	HasAddress	5672 barringer street
+2	5672 barringer street	HasType	certain address
+2	5672 barringer street	IsAddressOf	5672 barringer street
+2	certain address	IsTypeOf	5672 barringer street
+2	5672 barringer street	HasTraffic	heavy traffic
+2	5672 barringer street	HasDistance	1 miles
+2	heavy traffic	IsTrafficOf	5672 barringer street
+2	1 miles	IsDistanceFrom	5672 barringer street
+3	Stanford Oval Parking	HasAddress	610 Amarillo Ave
+3	Stanford Oval Parking	HasType	parking garage
+3	610 Amarillo Ave	IsAddressOf	Stanford Oval Parking
+3	parking garage	IsTypeOf	Stanford Oval Parking
+3	Stanford Oval Parking	HasTraffic	moderate traffic
+3	Stanford Oval Parking	HasDistance	4 miles
+3	moderate traffic	IsTrafficOf	Stanford Oval Parking
+3	4 miles	IsDistanceFrom	Stanford Oval Parking
+4	The Clement Hotel	HasAddress	657 Ames Ave
+4	The Clement Hotel	HasType	rest stop
+4	657 Ames Ave	IsAddressOf	The Clement Hotel
+4	rest stop	IsTypeOf	The Clement Hotel
+4	The Clement Hotel	HasTraffic	heavy traffic
+4	The Clement Hotel	HasDistance	3 miles
+4	heavy traffic	IsTrafficOf	The Clement Hotel
+4	3 miles	IsDistanceFrom	The Clement Hotel
+5	Midtown Shopping Center	HasAddress	338 Alester Ave
+5	Midtown Shopping Center	HasType	shopping center
+5	338 Alester Ave	IsAddressOf	Midtown Shopping Center
+5	shopping center	IsTypeOf	Midtown Shopping Center
+5	Midtown Shopping Center	HasTraffic	no traffic
+5	Midtown Shopping Center	HasDistance	6 miles
+5	no traffic	IsTrafficOf	Midtown Shopping Center
+5	6 miles	IsDistanceFrom	Midtown Shopping Center
+6	Palo Alto Garage R	HasAddress	481 Amaranta Ave
+6	Palo Alto Garage R	HasType	parking garage
+6	481 Amaranta Ave	IsAddressOf	Palo Alto Garage R
+6	parking garage	IsTypeOf	Palo Alto Garage R
+6	Palo Alto Garage R	HasTraffic	moderate traffic
+6	Palo Alto Garage R	HasDistance	5 miles
+6	moderate traffic	IsTrafficOf	Palo Alto Garage R
+6	5 miles	IsDistanceFrom	Palo Alto Garage R
+-1	today	IsEqualTo	monday

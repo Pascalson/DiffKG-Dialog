@@ -1,0 +1,65 @@
+0	Pizza Chicago	HasAddress	915 Arbol Dr
+0	Pizza Chicago	HasType	pizza restaurant
+0	915 Arbol Dr	IsAddressOf	Pizza Chicago
+0	pizza restaurant	IsTypeOf	Pizza Chicago
+0	Pizza Chicago	HasTraffic	heavy traffic
+0	Pizza Chicago	HasDistance	6 miles
+0	heavy traffic	IsTrafficOf	Pizza Chicago
+0	6 miles	IsDistanceFrom	Pizza Chicago
+1	home	HasAddress	10 ames street
+1	home	HasType	home
+1	10 ames street	IsAddressOf	home
+1	home	IsTypeOf	home
+1	home	HasTraffic	no traffic
+1	home	HasDistance	3 miles
+1	no traffic	IsTrafficOf	home
+1	3 miles	IsDistanceFrom	home
+2	Pizza Hut	HasAddress	704 El Camino Real
+2	Pizza Hut	HasType	pizza restaurant
+2	704 El Camino Real	IsAddressOf	Pizza Hut
+2	pizza restaurant	IsTypeOf	Pizza Hut
+2	Pizza Hut	HasTraffic	no traffic
+2	Pizza Hut	HasDistance	2 miles
+2	no traffic	IsTrafficOf	Pizza Hut
+2	2 miles	IsDistanceFrom	Pizza Hut
+3	Philz	HasAddress	583 Alester Ave
+3	Philz	HasType	coffee or tea place
+3	583 Alester Ave	IsAddressOf	Philz
+3	coffee or tea place	IsTypeOf	Philz
+3	Philz	HasTraffic	road block nearby
+3	Philz	HasDistance	4 miles
+3	road block nearby	IsTrafficOf	Philz
+3	4 miles	IsDistanceFrom	Philz
+4	Midtown Shopping Center	HasAddress	338 Alester Ave
+4	Midtown Shopping Center	HasType	shopping center
+4	338 Alester Ave	IsAddressOf	Midtown Shopping Center
+4	shopping center	IsTypeOf	Midtown Shopping Center
+4	Midtown Shopping Center	HasTraffic	heavy traffic
+4	Midtown Shopping Center	HasDistance	2 miles
+4	heavy traffic	IsTrafficOf	Midtown Shopping Center
+4	2 miles	IsDistanceFrom	Midtown Shopping Center
+5	76	HasAddress	91 El Camino Real
+5	76	HasType	gas station
+5	91 El Camino Real	IsAddressOf	76
+5	gas station	IsTypeOf	76
+5	76	HasTraffic	heavy traffic
+5	76	HasDistance	2 miles
+5	heavy traffic	IsTrafficOf	76
+5	2 miles	IsDistanceFrom	76
+6	Willows Market	HasAddress	409 Bollard St
+6	Willows Market	HasType	grocery store
+6	409 Bollard St	IsAddressOf	Willows Market
+6	grocery store	IsTypeOf	Willows Market
+6	Willows Market	HasTraffic	road block nearby
+6	Willows Market	HasDistance	2 miles
+6	road block nearby	IsTrafficOf	Willows Market
+6	2 miles	IsDistanceFrom	Willows Market
+7	tai pan	HasAddress	830 Almanor Ln
+7	tai pan	HasType	chinese restaurant
+7	830 Almanor Ln	IsAddressOf	tai pan
+7	chinese restaurant	IsTypeOf	tai pan
+7	tai pan	HasTraffic	moderate traffic
+7	tai pan	HasDistance	1 miles
+7	moderate traffic	IsTrafficOf	tai pan
+7	1 miles	IsDistanceFrom	tai pan
+-1	today	IsEqualTo	monday

@@ -1,0 +1,65 @@
+0	Chef Chu's	HasAddress	593 Arrowhead Way
+0	Chef Chu's	HasType	chinese restaurant
+0	593 Arrowhead Way	IsAddressOf	Chef Chu's
+0	chinese restaurant	IsTypeOf	Chef Chu's
+0	Chef Chu's	HasTraffic	road block nearby
+0	Chef Chu's	HasDistance	2 miles
+0	road block nearby	IsTrafficOf	Chef Chu's
+0	2 miles	IsDistanceFrom	Chef Chu's
+1	Valero	HasAddress	200 Alester Ave
+1	Valero	HasType	gas station
+1	200 Alester Ave	IsAddressOf	Valero
+1	gas station	IsTypeOf	Valero
+1	Valero	HasTraffic	moderate traffic
+1	Valero	HasDistance	6 miles
+1	moderate traffic	IsTrafficOf	Valero
+1	6 miles	IsDistanceFrom	Valero
+2	5677 southwest 4th street	HasAddress	5677 southwest 4th street
+2	5677 southwest 4th street	HasType	certain address
+2	5677 southwest 4th street	IsAddressOf	5677 southwest 4th street
+2	certain address	IsTypeOf	5677 southwest 4th street
+2	5677 southwest 4th street	HasTraffic	heavy traffic
+2	5677 southwest 4th street	HasDistance	2 miles
+2	heavy traffic	IsTrafficOf	5677 southwest 4th street
+2	2 miles	IsDistanceFrom	5677 southwest 4th street
+3	P.F. Changs	HasAddress	669 El Camino Real
+3	P.F. Changs	HasType	chinese restaurant
+3	669 El Camino Real	IsAddressOf	P.F. Changs
+3	chinese restaurant	IsTypeOf	P.F. Changs
+3	P.F. Changs	HasTraffic	heavy traffic
+3	P.F. Changs	HasDistance	1 miles
+3	heavy traffic	IsTrafficOf	P.F. Changs
+3	1 miles	IsDistanceFrom	P.F. Changs
+4	Chevron	HasAddress	783 Arcadia Pl
+4	Chevron	HasType	gas station
+4	783 Arcadia Pl	IsAddressOf	Chevron
+4	gas station	IsTypeOf	Chevron
+4	Chevron	HasTraffic	moderate traffic
+4	Chevron	HasDistance	4 miles
+4	moderate traffic	IsTrafficOf	Chevron
+4	4 miles	IsDistanceFrom	Chevron
+5	76	HasAddress	91 El Camino Real
+5	76	HasType	gas station
+5	91 El Camino Real	IsAddressOf	76
+5	gas station	IsTypeOf	76
+5	76	HasTraffic	car collision nearby
+5	76	HasDistance	6 miles
+5	car collision nearby	IsTrafficOf	76
+5	6 miles	IsDistanceFrom	76
+6	Palo Alto Garage R	HasAddress	481 Amaranta Ave
+6	Palo Alto Garage R	HasType	parking garage
+6	481 Amaranta Ave	IsAddressOf	Palo Alto Garage R
+6	parking garage	IsTypeOf	Palo Alto Garage R
+6	Palo Alto Garage R	HasTraffic	car collision nearby
+6	Palo Alto Garage R	HasDistance	4 miles
+6	car collision nearby	IsTrafficOf	Palo Alto Garage R
+6	4 miles	IsDistanceFrom	Palo Alto Garage R
+7	Comfort Inn	HasAddress	753 University Ave
+7	Comfort Inn	HasType	rest stop
+7	753 University Ave	IsAddressOf	Comfort Inn
+7	rest stop	IsTypeOf	Comfort Inn
+7	Comfort Inn	HasTraffic	car collision nearby
+7	Comfort Inn	HasDistance	5 miles
+7	car collision nearby	IsTrafficOf	Comfort Inn
+7	5 miles	IsDistanceFrom	Comfort Inn
+-1	today	IsEqualTo	monday

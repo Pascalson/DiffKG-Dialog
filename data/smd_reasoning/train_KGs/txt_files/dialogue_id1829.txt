@@ -1,0 +1,65 @@
+0	Mandarin Roots	HasAddress	271 Springer Street
+0	Mandarin Roots	HasType	chinese restaurant
+0	271 Springer Street	IsAddressOf	Mandarin Roots
+0	chinese restaurant	IsTypeOf	Mandarin Roots
+0	Mandarin Roots	HasTraffic	moderate traffic
+0	Mandarin Roots	HasDistance	6 miles
+0	moderate traffic	IsTrafficOf	Mandarin Roots
+0	6 miles	IsDistanceFrom	Mandarin Roots
+1	P.F. Changs	HasAddress	669 El Camino Real
+1	P.F. Changs	HasType	chinese restaurant
+1	669 El Camino Real	IsAddressOf	P.F. Changs
+1	chinese restaurant	IsTypeOf	P.F. Changs
+1	P.F. Changs	HasTraffic	moderate traffic
+1	P.F. Changs	HasDistance	2 miles
+1	moderate traffic	IsTrafficOf	P.F. Changs
+1	2 miles	IsDistanceFrom	P.F. Changs
+2	Valero	HasAddress	200 Alester Ave
+2	Valero	HasType	gas station
+2	200 Alester Ave	IsAddressOf	Valero
+2	gas station	IsTypeOf	Valero
+2	Valero	HasTraffic	heavy traffic
+2	Valero	HasDistance	5 miles
+2	heavy traffic	IsTrafficOf	Valero
+2	5 miles	IsDistanceFrom	Valero
+3	Stanford Shopping Center	HasAddress	773 Alger Dr
+3	Stanford Shopping Center	HasType	shopping center
+3	773 Alger Dr	IsAddressOf	Stanford Shopping Center
+3	shopping center	IsTypeOf	Stanford Shopping Center
+3	Stanford Shopping Center	HasTraffic	no traffic
+3	Stanford Shopping Center	HasDistance	3 miles
+3	no traffic	IsTrafficOf	Stanford Shopping Center
+3	3 miles	IsDistanceFrom	Stanford Shopping Center
+4	Town and Country	HasAddress	383 University Ave
+4	Town and Country	HasType	shopping center
+4	383 University Ave	IsAddressOf	Town and Country
+4	shopping center	IsTypeOf	Town and Country
+4	Town and Country	HasTraffic	no traffic
+4	Town and Country	HasDistance	6 miles
+4	no traffic	IsTrafficOf	Town and Country
+4	6 miles	IsDistanceFrom	Town and Country
+5	76	HasAddress	91 El Camino Real
+5	76	HasType	gas station
+5	91 El Camino Real	IsAddressOf	76
+5	gas station	IsTypeOf	76
+5	76	HasTraffic	moderate traffic
+5	76	HasDistance	1 miles
+5	moderate traffic	IsTrafficOf	76
+5	1 miles	IsDistanceFrom	76
+6	Starbucks	HasAddress	792 Bedoin Street
+6	Starbucks	HasType	coffee or tea place
+6	792 Bedoin Street	IsAddressOf	Starbucks
+6	coffee or tea place	IsTypeOf	Starbucks
+6	Starbucks	HasTraffic	car collision nearby
+6	Starbucks	HasDistance	6 miles
+6	car collision nearby	IsTrafficOf	Starbucks
+6	6 miles	IsDistanceFrom	Starbucks
+7	Four Seasons	HasAddress	465 Arcadia Pl
+7	Four Seasons	HasType	rest stop
+7	465 Arcadia Pl	IsAddressOf	Four Seasons
+7	rest stop	IsTypeOf	Four Seasons
+7	Four Seasons	HasTraffic	road block nearby
+7	Four Seasons	HasDistance	3 miles
+7	road block nearby	IsTrafficOf	Four Seasons
+7	3 miles	IsDistanceFrom	Four Seasons
+-1	today	IsEqualTo	monday

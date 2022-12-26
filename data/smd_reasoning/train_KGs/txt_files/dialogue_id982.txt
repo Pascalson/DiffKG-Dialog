@@ -1,0 +1,57 @@
+0	Sigona Farmers Market	HasAddress	638 Amherst St
+0	Sigona Farmers Market	HasType	grocery store
+0	638 Amherst St	IsAddressOf	Sigona Farmers Market
+0	grocery store	IsTypeOf	Sigona Farmers Market
+0	Sigona Farmers Market	HasTraffic	no traffic
+0	Sigona Farmers Market	HasDistance	4 miles
+0	no traffic	IsTrafficOf	Sigona Farmers Market
+0	4 miles	IsDistanceFrom	Sigona Farmers Market
+1	5677 springer street	HasAddress	5677 springer street
+1	5677 springer street	HasType	certain address
+1	5677 springer street	IsAddressOf	5677 springer street
+1	certain address	IsTypeOf	5677 springer street
+1	5677 springer street	HasTraffic	no traffic
+1	5677 springer street	HasDistance	1 miles
+1	no traffic	IsTrafficOf	5677 springer street
+1	1 miles	IsDistanceFrom	5677 springer street
+2	Pizza Hut	HasAddress	704 El Camino Real
+2	Pizza Hut	HasType	pizza restaurant
+2	704 El Camino Real	IsAddressOf	Pizza Hut
+2	pizza restaurant	IsTypeOf	Pizza Hut
+2	Pizza Hut	HasTraffic	heavy traffic
+2	Pizza Hut	HasDistance	3 miles
+2	heavy traffic	IsTrafficOf	Pizza Hut
+2	3 miles	IsDistanceFrom	Pizza Hut
+3	5677 southwest 4th street	HasAddress	5677 southwest 4th street
+3	5677 southwest 4th street	HasType	certain address
+3	5677 southwest 4th street	IsAddressOf	5677 southwest 4th street
+3	certain address	IsTypeOf	5677 southwest 4th street
+3	5677 southwest 4th street	HasTraffic	moderate traffic
+3	5677 southwest 4th street	HasDistance	5 miles
+3	moderate traffic	IsTrafficOf	5677 southwest 4th street
+3	5 miles	IsDistanceFrom	5677 southwest 4th street
+4	Chef Chu's	HasAddress	593 Arrowhead Way
+4	Chef Chu's	HasType	chinese restaurant
+4	593 Arrowhead Way	IsAddressOf	Chef Chu's
+4	chinese restaurant	IsTypeOf	Chef Chu's
+4	Chef Chu's	HasTraffic	heavy traffic
+4	Chef Chu's	HasDistance	5 miles
+4	heavy traffic	IsTrafficOf	Chef Chu's
+4	5 miles	IsDistanceFrom	Chef Chu's
+5	The Westin	HasAddress	329 El Camino Real
+5	The Westin	HasType	rest stop
+5	329 El Camino Real	IsAddressOf	The Westin
+5	rest stop	IsTypeOf	The Westin
+5	The Westin	HasTraffic	no traffic
+5	The Westin	HasDistance	4 miles
+5	no traffic	IsTrafficOf	The Westin
+5	4 miles	IsDistanceFrom	The Westin
+6	Teavana	HasAddress	145 Amherst St
+6	Teavana	HasType	coffee or tea place
+6	145 Amherst St	IsAddressOf	Teavana
+6	coffee or tea place	IsTypeOf	Teavana
+6	Teavana	HasTraffic	heavy traffic
+6	Teavana	HasDistance	2 miles
+6	heavy traffic	IsTrafficOf	Teavana
+6	2 miles	IsDistanceFrom	Teavana
+-1	today	IsEqualTo	monday

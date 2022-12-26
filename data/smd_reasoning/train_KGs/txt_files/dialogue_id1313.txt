@@ -1,0 +1,65 @@
+0	jacks house	HasAddress	864 Almanor Ln
+0	jacks house	HasType	friends house
+0	864 Almanor Ln	IsAddressOf	jacks house
+0	friends house	IsTypeOf	jacks house
+0	jacks house	HasTraffic	heavy traffic
+0	jacks house	HasDistance	3 miles
+0	heavy traffic	IsTrafficOf	jacks house
+0	3 miles	IsDistanceFrom	jacks house
+1	Starbucks	HasAddress	792 Bedoin Street
+1	Starbucks	HasType	coffee or tea place
+1	792 Bedoin Street	IsAddressOf	Starbucks
+1	coffee or tea place	IsTypeOf	Starbucks
+1	Starbucks	HasTraffic	road block nearby
+1	Starbucks	HasDistance	6 miles
+1	road block nearby	IsTrafficOf	Starbucks
+1	6 miles	IsDistanceFrom	Starbucks
+2	tai pan	HasAddress	830 Almanor Ln
+2	tai pan	HasType	chinese restaurant
+2	830 Almanor Ln	IsAddressOf	tai pan
+2	chinese restaurant	IsTypeOf	tai pan
+2	tai pan	HasTraffic	heavy traffic
+2	tai pan	HasDistance	5 miles
+2	heavy traffic	IsTrafficOf	tai pan
+2	5 miles	IsDistanceFrom	tai pan
+3	Mandarin Roots	HasAddress	271 Springer Street
+3	Mandarin Roots	HasType	chinese restaurant
+3	271 Springer Street	IsAddressOf	Mandarin Roots
+3	chinese restaurant	IsTypeOf	Mandarin Roots
+3	Mandarin Roots	HasTraffic	road block nearby
+3	Mandarin Roots	HasDistance	5 miles
+3	road block nearby	IsTrafficOf	Mandarin Roots
+3	5 miles	IsDistanceFrom	Mandarin Roots
+4	Hotel Keen	HasAddress	578 Arbol Dr
+4	Hotel Keen	HasType	rest stop
+4	578 Arbol Dr	IsAddressOf	Hotel Keen
+4	rest stop	IsTypeOf	Hotel Keen
+4	Hotel Keen	HasTraffic	heavy traffic
+4	Hotel Keen	HasDistance	2 miles
+4	heavy traffic	IsTrafficOf	Hotel Keen
+4	2 miles	IsDistanceFrom	Hotel Keen
+5	Hacienda Market	HasAddress	1313 Chester Ave
+5	Hacienda Market	HasType	grocery store
+5	1313 Chester Ave	IsAddressOf	Hacienda Market
+5	grocery store	IsTypeOf	Hacienda Market
+5	Hacienda Market	HasTraffic	road block nearby
+5	Hacienda Market	HasDistance	2 miles
+5	road block nearby	IsTrafficOf	Hacienda Market
+5	2 miles	IsDistanceFrom	Hacienda Market
+6	Safeway	HasAddress	452 Arcadia Pl
+6	Safeway	HasType	grocery store
+6	452 Arcadia Pl	IsAddressOf	Safeway
+6	grocery store	IsTypeOf	Safeway
+6	Safeway	HasTraffic	car collision nearby
+6	Safeway	HasDistance	1 miles
+6	car collision nearby	IsTrafficOf	Safeway
+6	1 miles	IsDistanceFrom	Safeway
+7	Teavana	HasAddress	145 Amherst St
+7	Teavana	HasType	coffee or tea place
+7	145 Amherst St	IsAddressOf	Teavana
+7	coffee or tea place	IsTypeOf	Teavana
+7	Teavana	HasTraffic	heavy traffic
+7	Teavana	HasDistance	5 miles
+7	heavy traffic	IsTrafficOf	Teavana
+7	5 miles	IsDistanceFrom	Teavana
+-1	today	IsEqualTo	monday

@@ -1,0 +1,65 @@
+0	Webster Garage	HasAddress	880 Ames Ct
+0	Webster Garage	HasType	parking garage
+0	880 Ames Ct	IsAddressOf	Webster Garage
+0	parking garage	IsTypeOf	Webster Garage
+0	Webster Garage	HasTraffic	heavy traffic
+0	Webster Garage	HasDistance	1 miles
+0	heavy traffic	IsTrafficOf	Webster Garage
+0	1 miles	IsDistanceFrom	Webster Garage
+1	Round Table	HasAddress	113 Anton Ct
+1	Round Table	HasType	pizza restaurant
+1	113 Anton Ct	IsAddressOf	Round Table
+1	pizza restaurant	IsTypeOf	Round Table
+1	Round Table	HasTraffic	moderate traffic
+1	Round Table	HasDistance	7 miles
+1	moderate traffic	IsTrafficOf	Round Table
+1	7 miles	IsDistanceFrom	Round Table
+2	Teavana	HasAddress	145 Amherst St
+2	Teavana	HasType	coffee or tea place
+2	145 Amherst St	IsAddressOf	Teavana
+2	coffee or tea place	IsTypeOf	Teavana
+2	Teavana	HasTraffic	no traffic
+2	Teavana	HasDistance	2 miles
+2	no traffic	IsTrafficOf	Teavana
+2	2 miles	IsDistanceFrom	Teavana
+3	Midtown Shopping Center	HasAddress	338 Alester Ave
+3	Midtown Shopping Center	HasType	shopping center
+3	338 Alester Ave	IsAddressOf	Midtown Shopping Center
+3	shopping center	IsTypeOf	Midtown Shopping Center
+3	Midtown Shopping Center	HasTraffic	road block nearby
+3	Midtown Shopping Center	HasDistance	2 miles
+3	road block nearby	IsTrafficOf	Midtown Shopping Center
+3	2 miles	IsDistanceFrom	Midtown Shopping Center
+4	76	HasAddress	91 El Camino Real
+4	76	HasType	gas station
+4	91 El Camino Real	IsAddressOf	76
+4	gas station	IsTypeOf	76
+4	76	HasTraffic	heavy traffic
+4	76	HasDistance	2 miles
+4	heavy traffic	IsTrafficOf	76
+4	2 miles	IsDistanceFrom	76
+5	Pizza Chicago	HasAddress	915 Arbol Dr
+5	Pizza Chicago	HasType	pizza restaurant
+5	915 Arbol Dr	IsAddressOf	Pizza Chicago
+5	pizza restaurant	IsTypeOf	Pizza Chicago
+5	Pizza Chicago	HasTraffic	heavy traffic
+5	Pizza Chicago	HasDistance	5 miles
+5	heavy traffic	IsTrafficOf	Pizza Chicago
+5	5 miles	IsDistanceFrom	Pizza Chicago
+6	Comfort Inn	HasAddress	753 University Ave
+6	Comfort Inn	HasType	rest stop
+6	753 University Ave	IsAddressOf	Comfort Inn
+6	rest stop	IsTypeOf	Comfort Inn
+6	Comfort Inn	HasTraffic	no traffic
+6	Comfort Inn	HasDistance	2 miles
+6	no traffic	IsTrafficOf	Comfort Inn
+6	2 miles	IsDistanceFrom	Comfort Inn
+7	Four Seasons	HasAddress	465 Arcadia Pl
+7	Four Seasons	HasType	rest stop
+7	465 Arcadia Pl	IsAddressOf	Four Seasons
+7	rest stop	IsTypeOf	Four Seasons
+7	Four Seasons	HasTraffic	heavy traffic
+7	Four Seasons	HasDistance	5 miles
+7	heavy traffic	IsTrafficOf	Four Seasons
+7	5 miles	IsDistanceFrom	Four Seasons
+-1	today	IsEqualTo	monday

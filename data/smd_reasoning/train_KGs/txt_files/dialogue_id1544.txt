@@ -1,0 +1,57 @@
+0	Trader Joes	HasAddress	408 University Ave
+0	Trader Joes	HasType	grocery store
+0	408 University Ave	IsAddressOf	Trader Joes
+0	grocery store	IsTypeOf	Trader Joes
+0	Trader Joes	HasTraffic	moderate traffic
+0	Trader Joes	HasDistance	2 miles
+0	moderate traffic	IsTrafficOf	Trader Joes
+0	2 miles	IsDistanceFrom	Trader Joes
+1	Pizza Chicago	HasAddress	915 Arbol Dr
+1	Pizza Chicago	HasType	pizza restaurant
+1	915 Arbol Dr	IsAddressOf	Pizza Chicago
+1	pizza restaurant	IsTypeOf	Pizza Chicago
+1	Pizza Chicago	HasTraffic	heavy traffic
+1	Pizza Chicago	HasDistance	4 miles
+1	heavy traffic	IsTrafficOf	Pizza Chicago
+1	4 miles	IsDistanceFrom	Pizza Chicago
+2	Comfort Inn	HasAddress	753 University Ave
+2	Comfort Inn	HasType	rest stop
+2	753 University Ave	IsAddressOf	Comfort Inn
+2	rest stop	IsTypeOf	Comfort Inn
+2	Comfort Inn	HasTraffic	heavy traffic
+2	Comfort Inn	HasDistance	4 miles
+2	heavy traffic	IsTrafficOf	Comfort Inn
+2	4 miles	IsDistanceFrom	Comfort Inn
+3	tai pan	HasAddress	830 Almanor Ln
+3	tai pan	HasType	chinese restaurant
+3	830 Almanor Ln	IsAddressOf	tai pan
+3	chinese restaurant	IsTypeOf	tai pan
+3	tai pan	HasTraffic	moderate traffic
+3	tai pan	HasDistance	6 miles
+3	moderate traffic	IsTrafficOf	tai pan
+3	6 miles	IsDistanceFrom	tai pan
+4	Midtown Shopping Center	HasAddress	338 Alester Ave
+4	Midtown Shopping Center	HasType	shopping center
+4	338 Alester Ave	IsAddressOf	Midtown Shopping Center
+4	shopping center	IsTypeOf	Midtown Shopping Center
+4	Midtown Shopping Center	HasTraffic	no traffic
+4	Midtown Shopping Center	HasDistance	2 miles
+4	no traffic	IsTrafficOf	Midtown Shopping Center
+4	2 miles	IsDistanceFrom	Midtown Shopping Center
+5	toms house	HasAddress	580 Van Ness Ave
+5	toms house	HasType	friends house
+5	580 Van Ness Ave	IsAddressOf	toms house
+5	friends house	IsTypeOf	toms house
+5	toms house	HasTraffic	heavy traffic
+5	toms house	HasDistance	5 miles
+5	heavy traffic	IsTrafficOf	toms house
+5	5 miles	IsDistanceFrom	toms house
+6	Ravenswood Shopping Center	HasAddress	434 Arastradero Rd
+6	Ravenswood Shopping Center	HasType	shopping center
+6	434 Arastradero Rd	IsAddressOf	Ravenswood Shopping Center
+6	shopping center	IsTypeOf	Ravenswood Shopping Center
+6	Ravenswood Shopping Center	HasTraffic	heavy traffic
+6	Ravenswood Shopping Center	HasDistance	6 miles
+6	heavy traffic	IsTrafficOf	Ravenswood Shopping Center
+6	6 miles	IsDistanceFrom	Ravenswood Shopping Center
+-1	today	IsEqualTo	monday

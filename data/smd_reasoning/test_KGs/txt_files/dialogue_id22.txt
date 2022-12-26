@@ -1,0 +1,65 @@
+0	Coupa	HasAddress	394 Van Ness Ave
+0	Coupa	HasType	coffee or tea place
+0	394 Van Ness Ave	IsAddressOf	Coupa
+0	coffee or tea place	IsTypeOf	Coupa
+0	Coupa	HasTraffic	no traffic
+0	Coupa	HasDistance	2 miles
+0	no traffic	IsTrafficOf	Coupa
+0	2 miles	IsDistanceFrom	Coupa
+1	Trader Joes	HasAddress	408 University Ave
+1	Trader Joes	HasType	grocery store
+1	408 University Ave	IsAddressOf	Trader Joes
+1	grocery store	IsTypeOf	Trader Joes
+1	Trader Joes	HasTraffic	road block nearby
+1	Trader Joes	HasDistance	4 miles
+1	road block nearby	IsTrafficOf	Trader Joes
+1	4 miles	IsDistanceFrom	Trader Joes
+2	Safeway	HasAddress	452 Arcadia Pl
+2	Safeway	HasType	grocery store
+2	452 Arcadia Pl	IsAddressOf	Safeway
+2	grocery store	IsTypeOf	Safeway
+2	Safeway	HasTraffic	car collision nearby
+2	Safeway	HasDistance	6 miles
+2	car collision nearby	IsTrafficOf	Safeway
+2	6 miles	IsDistanceFrom	Safeway
+3	Dominos	HasAddress	776 Arastradero Rd
+3	Dominos	HasType	pizza restaurant
+3	776 Arastradero Rd	IsAddressOf	Dominos
+3	pizza restaurant	IsTypeOf	Dominos
+3	Dominos	HasTraffic	car collision nearby
+3	Dominos	HasDistance	5 miles
+3	car collision nearby	IsTrafficOf	Dominos
+3	5 miles	IsDistanceFrom	Dominos
+4	Shell	HasAddress	53 University Av
+4	Shell	HasType	gas station
+4	53 University Av	IsAddressOf	Shell
+4	gas station	IsTypeOf	Shell
+4	Shell	HasTraffic	moderate traffic
+4	Shell	HasDistance	2 miles
+4	moderate traffic	IsTrafficOf	Shell
+4	2 miles	IsDistanceFrom	Shell
+5	Chevron	HasAddress	783 Arcadia Pl
+5	Chevron	HasType	gas station
+5	783 Arcadia Pl	IsAddressOf	Chevron
+5	gas station	IsTypeOf	Chevron
+5	Chevron	HasTraffic	car collision nearby
+5	Chevron	HasDistance	2 miles
+5	car collision nearby	IsTrafficOf	Chevron
+5	2 miles	IsDistanceFrom	Chevron
+6	Midtown Shopping Center	HasAddress	338 Alester Ave
+6	Midtown Shopping Center	HasType	shopping center
+6	338 Alester Ave	IsAddressOf	Midtown Shopping Center
+6	shopping center	IsTypeOf	Midtown Shopping Center
+6	Midtown Shopping Center	HasTraffic	no traffic
+6	Midtown Shopping Center	HasDistance	3 miles
+6	no traffic	IsTrafficOf	Midtown Shopping Center
+6	3 miles	IsDistanceFrom	Midtown Shopping Center
+7	home	HasAddress	5671 barringer street
+7	home	HasType	home
+7	5671 barringer street	IsAddressOf	home
+7	home	IsTypeOf	home
+7	home	HasTraffic	road block nearby
+7	home	HasDistance	6 miles
+7	road block nearby	IsTrafficOf	home
+7	6 miles	IsDistanceFrom	home
+-1	today	IsEqualTo	monday

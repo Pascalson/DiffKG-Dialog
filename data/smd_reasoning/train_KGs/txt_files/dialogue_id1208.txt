@@ -1,0 +1,57 @@
+0	5677 southwest 4th street	HasAddress	5677 southwest 4th street
+0	5677 southwest 4th street	HasType	certain address
+0	5677 southwest 4th street	IsAddressOf	5677 southwest 4th street
+0	certain address	IsTypeOf	5677 southwest 4th street
+0	5677 southwest 4th street	HasTraffic	heavy traffic
+0	5677 southwest 4th street	HasDistance	4 miles
+0	heavy traffic	IsTrafficOf	5677 southwest 4th street
+0	4 miles	IsDistanceFrom	5677 southwest 4th street
+1	Palo Alto Cafe	HasAddress	436 Alger Dr
+1	Palo Alto Cafe	HasType	coffee or tea place
+1	436 Alger Dr	IsAddressOf	Palo Alto Cafe
+1	coffee or tea place	IsTypeOf	Palo Alto Cafe
+1	Palo Alto Cafe	HasTraffic	no traffic
+1	Palo Alto Cafe	HasDistance	2 miles
+1	no traffic	IsTrafficOf	Palo Alto Cafe
+1	2 miles	IsDistanceFrom	Palo Alto Cafe
+2	Mandarin Roots	HasAddress	271 Springer Street
+2	Mandarin Roots	HasType	chinese restaurant
+2	271 Springer Street	IsAddressOf	Mandarin Roots
+2	chinese restaurant	IsTypeOf	Mandarin Roots
+2	Mandarin Roots	HasTraffic	no traffic
+2	Mandarin Roots	HasDistance	3 miles
+2	no traffic	IsTrafficOf	Mandarin Roots
+2	3 miles	IsDistanceFrom	Mandarin Roots
+3	tai pan	HasAddress	830 Almanor Ln
+3	tai pan	HasType	chinese restaurant
+3	830 Almanor Ln	IsAddressOf	tai pan
+3	chinese restaurant	IsTypeOf	tai pan
+3	tai pan	HasTraffic	moderate traffic
+3	tai pan	HasDistance	6 miles
+3	moderate traffic	IsTrafficOf	tai pan
+3	6 miles	IsDistanceFrom	tai pan
+4	Valero	HasAddress	200 Alester Ave
+4	Valero	HasType	gas station
+4	200 Alester Ave	IsAddressOf	Valero
+4	gas station	IsTypeOf	Valero
+4	Valero	HasTraffic	moderate traffic
+4	Valero	HasDistance	2 miles
+4	moderate traffic	IsTrafficOf	Valero
+4	2 miles	IsDistanceFrom	Valero
+5	Sigona Farmers Market	HasAddress	638 Amherst St
+5	Sigona Farmers Market	HasType	grocery store
+5	638 Amherst St	IsAddressOf	Sigona Farmers Market
+5	grocery store	IsTypeOf	Sigona Farmers Market
+5	Sigona Farmers Market	HasTraffic	moderate traffic
+5	Sigona Farmers Market	HasDistance	2 miles
+5	moderate traffic	IsTrafficOf	Sigona Farmers Market
+5	2 miles	IsDistanceFrom	Sigona Farmers Market
+6	Cafe Venetia	HasAddress	269 Alger Dr
+6	Cafe Venetia	HasType	coffee or tea place
+6	269 Alger Dr	IsAddressOf	Cafe Venetia
+6	coffee or tea place	IsTypeOf	Cafe Venetia
+6	Cafe Venetia	HasTraffic	moderate traffic
+6	Cafe Venetia	HasDistance	1 miles
+6	moderate traffic	IsTrafficOf	Cafe Venetia
+6	1 miles	IsDistanceFrom	Cafe Venetia
+-1	today	IsEqualTo	monday

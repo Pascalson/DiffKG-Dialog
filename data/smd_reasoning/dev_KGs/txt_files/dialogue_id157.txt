@@ -1,0 +1,65 @@
+0	Hacienda Market	HasAddress	1313 Chester Ave
+0	Hacienda Market	HasType	grocery store
+0	1313 Chester Ave	IsAddressOf	Hacienda Market
+0	grocery store	IsTypeOf	Hacienda Market
+0	Hacienda Market	HasTraffic	heavy traffic
+0	Hacienda Market	HasDistance	5 miles
+0	heavy traffic	IsTrafficOf	Hacienda Market
+0	5 miles	IsDistanceFrom	Hacienda Market
+1	Palo Alto Cafe	HasAddress	436 Alger Dr
+1	Palo Alto Cafe	HasType	coffee or tea place
+1	436 Alger Dr	IsAddressOf	Palo Alto Cafe
+1	coffee or tea place	IsTypeOf	Palo Alto Cafe
+1	Palo Alto Cafe	HasTraffic	road block nearby
+1	Palo Alto Cafe	HasDistance	3 miles
+1	road block nearby	IsTrafficOf	Palo Alto Cafe
+1	3 miles	IsDistanceFrom	Palo Alto Cafe
+2	Jing Jing	HasAddress	113 Arbol Dr
+2	Jing Jing	HasType	chinese restaurant
+2	113 Arbol Dr	IsAddressOf	Jing Jing
+2	chinese restaurant	IsTypeOf	Jing Jing
+2	Jing Jing	HasTraffic	road block nearby
+2	Jing Jing	HasDistance	2 miles
+2	road block nearby	IsTrafficOf	Jing Jing
+2	2 miles	IsDistanceFrom	Jing Jing
+3	76	HasAddress	91 El Camino Real
+3	76	HasType	gas station
+3	91 El Camino Real	IsAddressOf	76
+3	gas station	IsTypeOf	76
+3	76	HasTraffic	road block nearby
+3	76	HasDistance	4 miles
+3	road block nearby	IsTrafficOf	76
+3	4 miles	IsDistanceFrom	76
+4	home	HasAddress	10 ames street
+4	home	HasType	home
+4	10 ames street	IsAddressOf	home
+4	home	IsTypeOf	home
+4	home	HasTraffic	moderate traffic
+4	home	HasDistance	3 miles
+4	moderate traffic	IsTrafficOf	home
+4	3 miles	IsDistanceFrom	home
+5	Papa Johns	HasAddress	110 Arastradero Rd
+5	Papa Johns	HasType	pizza restaurant
+5	110 Arastradero Rd	IsAddressOf	Papa Johns
+5	pizza restaurant	IsTypeOf	Papa Johns
+5	Papa Johns	HasTraffic	moderate traffic
+5	Papa Johns	HasDistance	4 miles
+5	moderate traffic	IsTrafficOf	Papa Johns
+5	4 miles	IsDistanceFrom	Papa Johns
+6	home	HasAddress	10 ames street
+6	home	HasType	home
+6	10 ames street	IsAddressOf	home
+6	home	IsTypeOf	home
+6	home	HasTraffic	no traffic
+6	home	HasDistance	6 miles
+6	no traffic	IsTrafficOf	home
+6	6 miles	IsDistanceFrom	home
+7	Teavana	HasAddress	145 Amherst St
+7	Teavana	HasType	coffee or tea place
+7	145 Amherst St	IsAddressOf	Teavana
+7	coffee or tea place	IsTypeOf	Teavana
+7	Teavana	HasTraffic	moderate traffic
+7	Teavana	HasDistance	4 miles
+7	moderate traffic	IsTrafficOf	Teavana
+7	4 miles	IsDistanceFrom	Teavana
+-1	today	IsEqualTo	monday

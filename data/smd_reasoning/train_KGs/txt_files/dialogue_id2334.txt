@@ -1,0 +1,57 @@
+0	Ravenswood Shopping Center	HasAddress	434 Arastradero Rd
+0	Ravenswood Shopping Center	HasType	shopping center
+0	434 Arastradero Rd	IsAddressOf	Ravenswood Shopping Center
+0	shopping center	IsTypeOf	Ravenswood Shopping Center
+0	Ravenswood Shopping Center	HasTraffic	moderate traffic
+0	Ravenswood Shopping Center	HasDistance	5 miles
+0	moderate traffic	IsTrafficOf	Ravenswood Shopping Center
+0	5 miles	IsDistanceFrom	Ravenswood Shopping Center
+1	Chevron	HasAddress	783 Arcadia Pl
+1	Chevron	HasType	gas station
+1	783 Arcadia Pl	IsAddressOf	Chevron
+1	gas station	IsTypeOf	Chevron
+1	Chevron	HasTraffic	moderate traffic
+1	Chevron	HasDistance	5 miles
+1	moderate traffic	IsTrafficOf	Chevron
+1	5 miles	IsDistanceFrom	Chevron
+2	Jing Jing	HasAddress	113 Arbol Dr
+2	Jing Jing	HasType	chinese restaurant
+2	113 Arbol Dr	IsAddressOf	Jing Jing
+2	chinese restaurant	IsTypeOf	Jing Jing
+2	Jing Jing	HasTraffic	moderate traffic
+2	Jing Jing	HasDistance	3 miles
+2	moderate traffic	IsTrafficOf	Jing Jing
+2	3 miles	IsDistanceFrom	Jing Jing
+3	Coupa	HasAddress	394 Van Ness Ave
+3	Coupa	HasType	coffee or tea place
+3	394 Van Ness Ave	IsAddressOf	Coupa
+3	coffee or tea place	IsTypeOf	Coupa
+3	Coupa	HasTraffic	moderate traffic
+3	Coupa	HasDistance	5 miles
+3	moderate traffic	IsTrafficOf	Coupa
+3	5 miles	IsDistanceFrom	Coupa
+4	Stanford Childrens Health	HasAddress	899 Ames Ct
+4	Stanford Childrens Health	HasType	hospital
+4	899 Ames Ct	IsAddressOf	Stanford Childrens Health
+4	hospital	IsTypeOf	Stanford Childrens Health
+4	Stanford Childrens Health	HasTraffic	no traffic
+4	Stanford Childrens Health	HasDistance	2 miles
+4	no traffic	IsTrafficOf	Stanford Childrens Health
+4	2 miles	IsDistanceFrom	Stanford Childrens Health
+5	Palo Alto Garage R	HasAddress	481 Amaranta Ave
+5	Palo Alto Garage R	HasType	parking garage
+5	481 Amaranta Ave	IsAddressOf	Palo Alto Garage R
+5	parking garage	IsTypeOf	Palo Alto Garage R
+5	Palo Alto Garage R	HasTraffic	moderate traffic
+5	Palo Alto Garage R	HasDistance	6 miles
+5	moderate traffic	IsTrafficOf	Palo Alto Garage R
+5	6 miles	IsDistanceFrom	Palo Alto Garage R
+6	Sigona Farmers Market	HasAddress	638 Amherst St
+6	Sigona Farmers Market	HasType	grocery store
+6	638 Amherst St	IsAddressOf	Sigona Farmers Market
+6	grocery store	IsTypeOf	Sigona Farmers Market
+6	Sigona Farmers Market	HasTraffic	heavy traffic
+6	Sigona Farmers Market	HasDistance	5 miles
+6	heavy traffic	IsTrafficOf	Sigona Farmers Market
+6	5 miles	IsDistanceFrom	Sigona Farmers Market
+-1	today	IsEqualTo	monday

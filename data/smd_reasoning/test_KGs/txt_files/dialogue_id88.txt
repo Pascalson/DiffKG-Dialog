@@ -1,0 +1,57 @@
+0	Philz	HasAddress	583 Alester Ave
+0	Philz	HasType	coffee or tea place
+0	583 Alester Ave	IsAddressOf	Philz
+0	coffee or tea place	IsTypeOf	Philz
+0	Philz	HasTraffic	moderate traffic
+0	Philz	HasDistance	3 miles
+0	moderate traffic	IsTrafficOf	Philz
+0	3 miles	IsDistanceFrom	Philz
+1	Stanford Childrens Health	HasAddress	899 Ames Ct
+1	Stanford Childrens Health	HasType	hospital
+1	899 Ames Ct	IsAddressOf	Stanford Childrens Health
+1	hospital	IsTypeOf	Stanford Childrens Health
+1	Stanford Childrens Health	HasTraffic	no traffic
+1	Stanford Childrens Health	HasDistance	1 miles
+1	no traffic	IsTrafficOf	Stanford Childrens Health
+1	1 miles	IsDistanceFrom	Stanford Childrens Health
+2	Jing Jing	HasAddress	113 Arbol Dr
+2	Jing Jing	HasType	chinese restaurant
+2	113 Arbol Dr	IsAddressOf	Jing Jing
+2	chinese restaurant	IsTypeOf	Jing Jing
+2	Jing Jing	HasTraffic	moderate traffic
+2	Jing Jing	HasDistance	1 miles
+2	moderate traffic	IsTrafficOf	Jing Jing
+2	1 miles	IsDistanceFrom	Jing Jing
+3	Teavana	HasAddress	145 Amherst St
+3	Teavana	HasType	coffee or tea place
+3	145 Amherst St	IsAddressOf	Teavana
+3	coffee or tea place	IsTypeOf	Teavana
+3	Teavana	HasTraffic	heavy traffic
+3	Teavana	HasDistance	3 miles
+3	heavy traffic	IsTrafficOf	Teavana
+3	3 miles	IsDistanceFrom	Teavana
+4	Palo Alto Cafe	HasAddress	436 Alger Dr
+4	Palo Alto Cafe	HasType	coffee or tea place
+4	436 Alger Dr	IsAddressOf	Palo Alto Cafe
+4	coffee or tea place	IsTypeOf	Palo Alto Cafe
+4	Palo Alto Cafe	HasTraffic	moderate traffic
+4	Palo Alto Cafe	HasDistance	3 miles
+4	moderate traffic	IsTrafficOf	Palo Alto Cafe
+4	3 miles	IsDistanceFrom	Palo Alto Cafe
+5	Town and Country	HasAddress	383 University Ave
+5	Town and Country	HasType	shopping center
+5	383 University Ave	IsAddressOf	Town and Country
+5	shopping center	IsTypeOf	Town and Country
+5	Town and Country	HasTraffic	no traffic
+5	Town and Country	HasDistance	1 miles
+5	no traffic	IsTrafficOf	Town and Country
+5	1 miles	IsDistanceFrom	Town and Country
+6	P.F. Changs	HasAddress	669 El Camino Real
+6	P.F. Changs	HasType	chinese restaurant
+6	669 El Camino Real	IsAddressOf	P.F. Changs
+6	chinese restaurant	IsTypeOf	P.F. Changs
+6	P.F. Changs	HasTraffic	moderate traffic
+6	P.F. Changs	HasDistance	4 miles
+6	moderate traffic	IsTrafficOf	P.F. Changs
+6	4 miles	IsDistanceFrom	P.F. Changs
+-1	today	IsEqualTo	monday

@@ -1,0 +1,65 @@
+0	Mandarin Roots	HasAddress	271 Springer Street
+0	Mandarin Roots	HasType	chinese restaurant
+0	271 Springer Street	IsAddressOf	Mandarin Roots
+0	chinese restaurant	IsTypeOf	Mandarin Roots
+0	Mandarin Roots	HasTraffic	road block nearby
+0	Mandarin Roots	HasDistance	5 miles
+0	road block nearby	IsTrafficOf	Mandarin Roots
+0	5 miles	IsDistanceFrom	Mandarin Roots
+1	Starbucks	HasAddress	792 Bedoin Street
+1	Starbucks	HasType	coffee or tea place
+1	792 Bedoin Street	IsAddressOf	Starbucks
+1	coffee or tea place	IsTypeOf	Starbucks
+1	Starbucks	HasTraffic	heavy traffic
+1	Starbucks	HasDistance	2 miles
+1	heavy traffic	IsTrafficOf	Starbucks
+1	2 miles	IsDistanceFrom	Starbucks
+2	Travelers Lodge	HasAddress	333 Arbol Dr
+2	Travelers Lodge	HasType	rest stop
+2	333 Arbol Dr	IsAddressOf	Travelers Lodge
+2	rest stop	IsTypeOf	Travelers Lodge
+2	Travelers Lodge	HasTraffic	car collision nearby
+2	Travelers Lodge	HasDistance	3 miles
+2	car collision nearby	IsTrafficOf	Travelers Lodge
+2	3 miles	IsDistanceFrom	Travelers Lodge
+3	Palo Alto Medical Foundation	HasAddress	611 Ames Ave
+3	Palo Alto Medical Foundation	HasType	hospital
+3	611 Ames Ave	IsAddressOf	Palo Alto Medical Foundation
+3	hospital	IsTypeOf	Palo Alto Medical Foundation
+3	Palo Alto Medical Foundation	HasTraffic	no traffic
+3	Palo Alto Medical Foundation	HasDistance	2 miles
+3	no traffic	IsTrafficOf	Palo Alto Medical Foundation
+3	2 miles	IsDistanceFrom	Palo Alto Medical Foundation
+4	Civic Center Garage	HasAddress	270 Altaire Walk
+4	Civic Center Garage	HasType	parking garage
+4	270 Altaire Walk	IsAddressOf	Civic Center Garage
+4	parking garage	IsTypeOf	Civic Center Garage
+4	Civic Center Garage	HasTraffic	car collision nearby
+4	Civic Center Garage	HasDistance	2 miles
+4	car collision nearby	IsTrafficOf	Civic Center Garage
+4	2 miles	IsDistanceFrom	Civic Center Garage
+5	Ravenswood Shopping Center	HasAddress	434 Arastradero Rd
+5	Ravenswood Shopping Center	HasType	shopping center
+5	434 Arastradero Rd	IsAddressOf	Ravenswood Shopping Center
+5	shopping center	IsTypeOf	Ravenswood Shopping Center
+5	Ravenswood Shopping Center	HasTraffic	car collision nearby
+5	Ravenswood Shopping Center	HasDistance	4 miles
+5	car collision nearby	IsTrafficOf	Ravenswood Shopping Center
+5	4 miles	IsDistanceFrom	Ravenswood Shopping Center
+6	Shell	HasAddress	53 University Av
+6	Shell	HasType	gas station
+6	53 University Av	IsAddressOf	Shell
+6	gas station	IsTypeOf	Shell
+6	Shell	HasTraffic	car collision nearby
+6	Shell	HasDistance	5 miles
+6	car collision nearby	IsTrafficOf	Shell
+6	5 miles	IsDistanceFrom	Shell
+7	jills house	HasAddress	347 Alta Mesa Ave
+7	jills house	HasType	friends house
+7	347 Alta Mesa Ave	IsAddressOf	jills house
+7	friends house	IsTypeOf	jills house
+7	jills house	HasTraffic	no traffic
+7	jills house	HasDistance	2 miles
+7	no traffic	IsTrafficOf	jills house
+7	2 miles	IsDistanceFrom	jills house
+-1	today	IsEqualTo	monday

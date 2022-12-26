@@ -1,0 +1,57 @@
+0	5677 southwest 4th street	HasAddress	5677 southwest 4th street
+0	5677 southwest 4th street	HasType	certain address
+0	5677 southwest 4th street	IsAddressOf	5677 southwest 4th street
+0	certain address	IsTypeOf	5677 southwest 4th street
+0	5677 southwest 4th street	HasTraffic	moderate traffic
+0	5677 southwest 4th street	HasDistance	5 miles
+0	moderate traffic	IsTrafficOf	5677 southwest 4th street
+0	5 miles	IsDistanceFrom	5677 southwest 4th street
+1	Stanford Childrens Health	HasAddress	899 Ames Ct
+1	Stanford Childrens Health	HasType	hospital
+1	899 Ames Ct	IsAddressOf	Stanford Childrens Health
+1	hospital	IsTypeOf	Stanford Childrens Health
+1	Stanford Childrens Health	HasTraffic	heavy traffic
+1	Stanford Childrens Health	HasDistance	5 miles
+1	heavy traffic	IsTrafficOf	Stanford Childrens Health
+1	5 miles	IsDistanceFrom	Stanford Childrens Health
+2	Stanford Express Care	HasAddress	214 El Camino Real
+2	Stanford Express Care	HasType	hospital
+2	214 El Camino Real	IsAddressOf	Stanford Express Care
+2	hospital	IsTypeOf	Stanford Express Care
+2	Stanford Express Care	HasTraffic	no traffic
+2	Stanford Express Care	HasDistance	3 miles
+2	no traffic	IsTrafficOf	Stanford Express Care
+2	3 miles	IsDistanceFrom	Stanford Express Care
+3	5672 barringer street	HasAddress	5672 barringer street
+3	5672 barringer street	HasType	certain address
+3	5672 barringer street	IsAddressOf	5672 barringer street
+3	certain address	IsTypeOf	5672 barringer street
+3	5672 barringer street	HasTraffic	heavy traffic
+3	5672 barringer street	HasDistance	5 miles
+3	heavy traffic	IsTrafficOf	5672 barringer street
+3	5 miles	IsDistanceFrom	5672 barringer street
+4	Pizza Chicago	HasAddress	915 Arbol Dr
+4	Pizza Chicago	HasType	pizza restaurant
+4	915 Arbol Dr	IsAddressOf	Pizza Chicago
+4	pizza restaurant	IsTypeOf	Pizza Chicago
+4	Pizza Chicago	HasTraffic	heavy traffic
+4	Pizza Chicago	HasDistance	6 miles
+4	heavy traffic	IsTrafficOf	Pizza Chicago
+4	6 miles	IsDistanceFrom	Pizza Chicago
+5	Pizza My Heart	HasAddress	528 Anton Ct
+5	Pizza My Heart	HasType	pizza restaurant
+5	528 Anton Ct	IsAddressOf	Pizza My Heart
+5	pizza restaurant	IsTypeOf	Pizza My Heart
+5	Pizza My Heart	HasTraffic	moderate traffic
+5	Pizza My Heart	HasDistance	6 miles
+5	moderate traffic	IsTrafficOf	Pizza My Heart
+5	6 miles	IsDistanceFrom	Pizza My Heart
+6	Cafe Venetia	HasAddress	269 Alger Dr
+6	Cafe Venetia	HasType	coffee or tea place
+6	269 Alger Dr	IsAddressOf	Cafe Venetia
+6	coffee or tea place	IsTypeOf	Cafe Venetia
+6	Cafe Venetia	HasTraffic	no traffic
+6	Cafe Venetia	HasDistance	4 miles
+6	no traffic	IsTrafficOf	Cafe Venetia
+6	4 miles	IsDistanceFrom	Cafe Venetia
+-1	today	IsEqualTo	monday

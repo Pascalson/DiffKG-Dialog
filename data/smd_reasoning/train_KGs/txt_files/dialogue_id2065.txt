@@ -1,0 +1,65 @@
+0	Teavana	HasAddress	145 Amherst St
+0	Teavana	HasType	coffee or tea place
+0	145 Amherst St	IsAddressOf	Teavana
+0	coffee or tea place	IsTypeOf	Teavana
+0	Teavana	HasTraffic	road block nearby
+0	Teavana	HasDistance	6 miles
+0	road block nearby	IsTrafficOf	Teavana
+0	6 miles	IsDistanceFrom	Teavana
+1	home	HasAddress	5671 barringer street
+1	home	HasType	home
+1	5671 barringer street	IsAddressOf	home
+1	home	IsTypeOf	home
+1	home	HasTraffic	car collision nearby
+1	home	HasDistance	5 miles
+1	car collision nearby	IsTrafficOf	home
+1	5 miles	IsDistanceFrom	home
+2	Town and Country	HasAddress	383 University Ave
+2	Town and Country	HasType	shopping center
+2	383 University Ave	IsAddressOf	Town and Country
+2	shopping center	IsTypeOf	Town and Country
+2	Town and Country	HasTraffic	car collision nearby
+2	Town and Country	HasDistance	4 miles
+2	car collision nearby	IsTrafficOf	Town and Country
+2	4 miles	IsDistanceFrom	Town and Country
+3	Trader Joes	HasAddress	408 University Ave
+3	Trader Joes	HasType	grocery store
+3	408 University Ave	IsAddressOf	Trader Joes
+3	grocery store	IsTypeOf	Trader Joes
+3	Trader Joes	HasTraffic	road block nearby
+3	Trader Joes	HasDistance	3 miles
+3	road block nearby	IsTrafficOf	Trader Joes
+3	3 miles	IsDistanceFrom	Trader Joes
+4	Coupa	HasAddress	394 Van Ness Ave
+4	Coupa	HasType	coffee or tea place
+4	394 Van Ness Ave	IsAddressOf	Coupa
+4	coffee or tea place	IsTypeOf	Coupa
+4	Coupa	HasTraffic	heavy traffic
+4	Coupa	HasDistance	2 miles
+4	heavy traffic	IsTrafficOf	Coupa
+4	2 miles	IsDistanceFrom	Coupa
+5	Valero	HasAddress	200 Alester Ave
+5	Valero	HasType	gas station
+5	200 Alester Ave	IsAddressOf	Valero
+5	gas station	IsTypeOf	Valero
+5	Valero	HasTraffic	moderate traffic
+5	Valero	HasDistance	5 miles
+5	moderate traffic	IsTrafficOf	Valero
+5	5 miles	IsDistanceFrom	Valero
+6	Topanga Mall	HasAddress	171 Oak Rd
+6	Topanga Mall	HasType	shopping center
+6	171 Oak Rd	IsAddressOf	Topanga Mall
+6	shopping center	IsTypeOf	Topanga Mall
+6	Topanga Mall	HasTraffic	heavy traffic
+6	Topanga Mall	HasDistance	5 miles
+6	heavy traffic	IsTrafficOf	Topanga Mall
+6	5 miles	IsDistanceFrom	Topanga Mall
+7	jills house	HasAddress	347 Alta Mesa Ave
+7	jills house	HasType	friends house
+7	347 Alta Mesa Ave	IsAddressOf	jills house
+7	friends house	IsTypeOf	jills house
+7	jills house	HasTraffic	road block nearby
+7	jills house	HasDistance	2 miles
+7	road block nearby	IsTrafficOf	jills house
+7	2 miles	IsDistanceFrom	jills house
+-1	today	IsEqualTo	monday

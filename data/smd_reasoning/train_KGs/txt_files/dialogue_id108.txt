@@ -1,0 +1,57 @@
+0	home	HasAddress	10 ames street
+0	home	HasType	home
+0	10 ames street	IsAddressOf	home
+0	home	IsTypeOf	home
+0	home	HasTraffic	moderate traffic
+0	home	HasDistance	4 miles
+0	moderate traffic	IsTrafficOf	home
+0	4 miles	IsDistanceFrom	home
+1	Starbucks	HasAddress	792 Bedoin Street
+1	Starbucks	HasType	coffee or tea place
+1	792 Bedoin Street	IsAddressOf	Starbucks
+1	coffee or tea place	IsTypeOf	Starbucks
+1	Starbucks	HasTraffic	moderate traffic
+1	Starbucks	HasDistance	3 miles
+1	moderate traffic	IsTrafficOf	Starbucks
+1	3 miles	IsDistanceFrom	Starbucks
+2	Round Table	HasAddress	113 Anton Ct
+2	Round Table	HasType	pizza restaurant
+2	113 Anton Ct	IsAddressOf	Round Table
+2	pizza restaurant	IsTypeOf	Round Table
+2	Round Table	HasTraffic	moderate traffic
+2	Round Table	HasDistance	5 miles
+2	moderate traffic	IsTrafficOf	Round Table
+2	5 miles	IsDistanceFrom	Round Table
+3	5677 southwest 4th street	HasAddress	5677 southwest 4th street
+3	5677 southwest 4th street	HasType	certain address
+3	5677 southwest 4th street	IsAddressOf	5677 southwest 4th street
+3	certain address	IsTypeOf	5677 southwest 4th street
+3	5677 southwest 4th street	HasTraffic	moderate traffic
+3	5677 southwest 4th street	HasDistance	4 miles
+3	moderate traffic	IsTrafficOf	5677 southwest 4th street
+3	4 miles	IsDistanceFrom	5677 southwest 4th street
+4	P.F. Changs	HasAddress	669 El Camino Real
+4	P.F. Changs	HasType	chinese restaurant
+4	669 El Camino Real	IsAddressOf	P.F. Changs
+4	chinese restaurant	IsTypeOf	P.F. Changs
+4	P.F. Changs	HasTraffic	heavy traffic
+4	P.F. Changs	HasDistance	5 miles
+4	heavy traffic	IsTrafficOf	P.F. Changs
+4	5 miles	IsDistanceFrom	P.F. Changs
+5	home	HasAddress	10 ames street
+5	home	HasType	home
+5	10 ames street	IsAddressOf	home
+5	home	IsTypeOf	home
+5	home	HasTraffic	no traffic
+5	home	HasDistance	3 miles
+5	no traffic	IsTrafficOf	home
+5	3 miles	IsDistanceFrom	home
+6	Palo Alto Cafe	HasAddress	436 Alger Dr
+6	Palo Alto Cafe	HasType	coffee or tea place
+6	436 Alger Dr	IsAddressOf	Palo Alto Cafe
+6	coffee or tea place	IsTypeOf	Palo Alto Cafe
+6	Palo Alto Cafe	HasTraffic	heavy traffic
+6	Palo Alto Cafe	HasDistance	5 miles
+6	heavy traffic	IsTrafficOf	Palo Alto Cafe
+6	5 miles	IsDistanceFrom	Palo Alto Cafe
+-1	today	IsEqualTo	monday

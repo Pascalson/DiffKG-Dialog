@@ -1,0 +1,65 @@
+0	Webster Garage	HasAddress	880 Ames Ct
+0	Webster Garage	HasType	parking garage
+0	880 Ames Ct	IsAddressOf	Webster Garage
+0	parking garage	IsTypeOf	Webster Garage
+0	Webster Garage	HasTraffic	heavy traffic
+0	Webster Garage	HasDistance	3 miles
+0	heavy traffic	IsTrafficOf	Webster Garage
+0	3 miles	IsDistanceFrom	Webster Garage
+1	Civic Center Garage	HasAddress	270 Altaire Walk
+1	Civic Center Garage	HasType	parking garage
+1	270 Altaire Walk	IsAddressOf	Civic Center Garage
+1	parking garage	IsTypeOf	Civic Center Garage
+1	Civic Center Garage	HasTraffic	moderate traffic
+1	Civic Center Garage	HasDistance	6 miles
+1	moderate traffic	IsTrafficOf	Civic Center Garage
+1	6 miles	IsDistanceFrom	Civic Center Garage
+2	home	HasAddress	56 cadwell street
+2	home	HasType	home
+2	56 cadwell street	IsAddressOf	home
+2	home	IsTypeOf	home
+2	home	HasTraffic	heavy traffic
+2	home	HasDistance	8 miles
+2	heavy traffic	IsTrafficOf	home
+2	8 miles	IsDistanceFrom	home
+3	Hotel Keen	HasAddress	578 Arbol Dr
+3	Hotel Keen	HasType	rest stop
+3	578 Arbol Dr	IsAddressOf	Hotel Keen
+3	rest stop	IsTypeOf	Hotel Keen
+3	Hotel Keen	HasTraffic	moderate traffic
+3	Hotel Keen	HasDistance	6 miles
+3	moderate traffic	IsTrafficOf	Hotel Keen
+3	6 miles	IsDistanceFrom	Hotel Keen
+4	Jing Jing	HasAddress	113 Arbol Dr
+4	Jing Jing	HasType	chinese restaurant
+4	113 Arbol Dr	IsAddressOf	Jing Jing
+4	chinese restaurant	IsTypeOf	Jing Jing
+4	Jing Jing	HasTraffic	moderate traffic
+4	Jing Jing	HasDistance	4 miles
+4	moderate traffic	IsTrafficOf	Jing Jing
+4	4 miles	IsDistanceFrom	Jing Jing
+5	Pizza Chicago	HasAddress	915 Arbol Dr
+5	Pizza Chicago	HasType	pizza restaurant
+5	915 Arbol Dr	IsAddressOf	Pizza Chicago
+5	pizza restaurant	IsTypeOf	Pizza Chicago
+5	Pizza Chicago	HasTraffic	heavy traffic
+5	Pizza Chicago	HasDistance	6 miles
+5	heavy traffic	IsTrafficOf	Pizza Chicago
+5	6 miles	IsDistanceFrom	Pizza Chicago
+6	Willows Market	HasAddress	409 Bollard St
+6	Willows Market	HasType	grocery store
+6	409 Bollard St	IsAddressOf	Willows Market
+6	grocery store	IsTypeOf	Willows Market
+6	Willows Market	HasTraffic	car collision nearby
+6	Willows Market	HasDistance	2 miles
+6	car collision nearby	IsTrafficOf	Willows Market
+6	2 miles	IsDistanceFrom	Willows Market
+7	Round Table	HasAddress	113 Anton Ct
+7	Round Table	HasType	pizza restaurant
+7	113 Anton Ct	IsAddressOf	Round Table
+7	pizza restaurant	IsTypeOf	Round Table
+7	Round Table	HasTraffic	road block nearby
+7	Round Table	HasDistance	1 miles
+7	road block nearby	IsTrafficOf	Round Table
+7	1 miles	IsDistanceFrom	Round Table
+-1	today	IsEqualTo	monday

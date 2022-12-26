@@ -1,0 +1,57 @@
+0	Philz	HasAddress	583 Alester Ave
+0	Philz	HasType	coffee or tea place
+0	583 Alester Ave	IsAddressOf	Philz
+0	coffee or tea place	IsTypeOf	Philz
+0	Philz	HasTraffic	moderate traffic
+0	Philz	HasDistance	2 miles
+0	moderate traffic	IsTrafficOf	Philz
+0	2 miles	IsDistanceFrom	Philz
+1	home	HasAddress	5671 barringer street
+1	home	HasType	home
+1	5671 barringer street	IsAddressOf	home
+1	home	IsTypeOf	home
+1	home	HasTraffic	heavy traffic
+1	home	HasDistance	3 miles
+1	heavy traffic	IsTrafficOf	home
+1	3 miles	IsDistanceFrom	home
+2	Safeway	HasAddress	452 Arcadia Pl
+2	Safeway	HasType	grocery store
+2	452 Arcadia Pl	IsAddressOf	Safeway
+2	grocery store	IsTypeOf	Safeway
+2	Safeway	HasTraffic	moderate traffic
+2	Safeway	HasDistance	6 miles
+2	moderate traffic	IsTrafficOf	Safeway
+2	6 miles	IsDistanceFrom	Safeway
+3	Town and Country	HasAddress	383 University Ave
+3	Town and Country	HasType	shopping center
+3	383 University Ave	IsAddressOf	Town and Country
+3	shopping center	IsTypeOf	Town and Country
+3	Town and Country	HasTraffic	moderate traffic
+3	Town and Country	HasDistance	2 miles
+3	moderate traffic	IsTrafficOf	Town and Country
+3	2 miles	IsDistanceFrom	Town and Country
+4	The Westin	HasAddress	329 El Camino Real
+4	The Westin	HasType	rest stop
+4	329 El Camino Real	IsAddressOf	The Westin
+4	rest stop	IsTypeOf	The Westin
+4	The Westin	HasTraffic	moderate traffic
+4	The Westin	HasDistance	6 miles
+4	moderate traffic	IsTrafficOf	The Westin
+4	6 miles	IsDistanceFrom	The Westin
+5	Stanford Childrens Health	HasAddress	899 Ames Ct
+5	Stanford Childrens Health	HasType	hospital
+5	899 Ames Ct	IsAddressOf	Stanford Childrens Health
+5	hospital	IsTypeOf	Stanford Childrens Health
+5	Stanford Childrens Health	HasTraffic	moderate traffic
+5	Stanford Childrens Health	HasDistance	4 miles
+5	moderate traffic	IsTrafficOf	Stanford Childrens Health
+5	4 miles	IsDistanceFrom	Stanford Childrens Health
+6	jacks house	HasAddress	864 Almanor Ln
+6	jacks house	HasType	friends house
+6	864 Almanor Ln	IsAddressOf	jacks house
+6	friends house	IsTypeOf	jacks house
+6	jacks house	HasTraffic	heavy traffic
+6	jacks house	HasDistance	1 miles
+6	heavy traffic	IsTrafficOf	jacks house
+6	1 miles	IsDistanceFrom	jacks house
+-1	today	IsEqualTo	monday

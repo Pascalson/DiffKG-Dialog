@@ -1,0 +1,65 @@
+0	Philz	HasAddress	583 Alester Ave
+0	Philz	HasType	coffee or tea place
+0	583 Alester Ave	IsAddressOf	Philz
+0	coffee or tea place	IsTypeOf	Philz
+0	Philz	HasTraffic	car collision nearby
+0	Philz	HasDistance	4 miles
+0	car collision nearby	IsTrafficOf	Philz
+0	4 miles	IsDistanceFrom	Philz
+1	jacks house	HasAddress	864 Almanor Ln
+1	jacks house	HasType	friends house
+1	864 Almanor Ln	IsAddressOf	jacks house
+1	friends house	IsTypeOf	jacks house
+1	jacks house	HasTraffic	moderate traffic
+1	jacks house	HasDistance	2 miles
+1	moderate traffic	IsTrafficOf	jacks house
+1	2 miles	IsDistanceFrom	jacks house
+2	jills house	HasAddress	347 Alta Mesa Ave
+2	jills house	HasType	friends house
+2	347 Alta Mesa Ave	IsAddressOf	jills house
+2	friends house	IsTypeOf	jills house
+2	jills house	HasTraffic	no traffic
+2	jills house	HasDistance	6 miles
+2	no traffic	IsTrafficOf	jills house
+2	6 miles	IsDistanceFrom	jills house
+3	Palo Alto Medical Foundation	HasAddress	611 Ames Ave
+3	Palo Alto Medical Foundation	HasType	hospital
+3	611 Ames Ave	IsAddressOf	Palo Alto Medical Foundation
+3	hospital	IsTypeOf	Palo Alto Medical Foundation
+3	Palo Alto Medical Foundation	HasTraffic	heavy traffic
+3	Palo Alto Medical Foundation	HasDistance	6 miles
+3	heavy traffic	IsTrafficOf	Palo Alto Medical Foundation
+3	6 miles	IsDistanceFrom	Palo Alto Medical Foundation
+4	Jing Jing	HasAddress	113 Arbol Dr
+4	Jing Jing	HasType	chinese restaurant
+4	113 Arbol Dr	IsAddressOf	Jing Jing
+4	chinese restaurant	IsTypeOf	Jing Jing
+4	Jing Jing	HasTraffic	road block nearby
+4	Jing Jing	HasDistance	6 miles
+4	road block nearby	IsTrafficOf	Jing Jing
+4	6 miles	IsDistanceFrom	Jing Jing
+5	Four Seasons	HasAddress	465 Arcadia Pl
+5	Four Seasons	HasType	rest stop
+5	465 Arcadia Pl	IsAddressOf	Four Seasons
+5	rest stop	IsTypeOf	Four Seasons
+5	Four Seasons	HasTraffic	no traffic
+5	Four Seasons	HasDistance	3 miles
+5	no traffic	IsTrafficOf	Four Seasons
+5	3 miles	IsDistanceFrom	Four Seasons
+6	Travelers Lodge	HasAddress	333 Arbol Dr
+6	Travelers Lodge	HasType	rest stop
+6	333 Arbol Dr	IsAddressOf	Travelers Lodge
+6	rest stop	IsTypeOf	Travelers Lodge
+6	Travelers Lodge	HasTraffic	no traffic
+6	Travelers Lodge	HasDistance	6 miles
+6	no traffic	IsTrafficOf	Travelers Lodge
+6	6 miles	IsDistanceFrom	Travelers Lodge
+7	Chef Chu's	HasAddress	593 Arrowhead Way
+7	Chef Chu's	HasType	chinese restaurant
+7	593 Arrowhead Way	IsAddressOf	Chef Chu's
+7	chinese restaurant	IsTypeOf	Chef Chu's
+7	Chef Chu's	HasTraffic	heavy traffic
+7	Chef Chu's	HasDistance	2 miles
+7	heavy traffic	IsTrafficOf	Chef Chu's
+7	2 miles	IsDistanceFrom	Chef Chu's
+-1	today	IsEqualTo	monday

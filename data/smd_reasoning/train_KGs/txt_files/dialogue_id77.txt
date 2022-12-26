@@ -1,0 +1,65 @@
+0	Palo Alto Medical Foundation	HasAddress	611 Ames Ave
+0	Palo Alto Medical Foundation	HasType	hospital
+0	611 Ames Ave	IsAddressOf	Palo Alto Medical Foundation
+0	hospital	IsTypeOf	Palo Alto Medical Foundation
+0	Palo Alto Medical Foundation	HasTraffic	moderate traffic
+0	Palo Alto Medical Foundation	HasDistance	4 miles
+0	moderate traffic	IsTrafficOf	Palo Alto Medical Foundation
+0	4 miles	IsDistanceFrom	Palo Alto Medical Foundation
+1	Civic Center Garage	HasAddress	270 Altaire Walk
+1	Civic Center Garage	HasType	parking garage
+1	270 Altaire Walk	IsAddressOf	Civic Center Garage
+1	parking garage	IsTypeOf	Civic Center Garage
+1	Civic Center Garage	HasTraffic	moderate traffic
+1	Civic Center Garage	HasDistance	2 miles
+1	moderate traffic	IsTrafficOf	Civic Center Garage
+1	2 miles	IsDistanceFrom	Civic Center Garage
+2	toms house	HasAddress	580 Van Ness Ave
+2	toms house	HasType	friends house
+2	580 Van Ness Ave	IsAddressOf	toms house
+2	friends house	IsTypeOf	toms house
+2	toms house	HasTraffic	road block nearby
+2	toms house	HasDistance	4 miles
+2	road block nearby	IsTrafficOf	toms house
+2	4 miles	IsDistanceFrom	toms house
+3	Shell	HasAddress	53 University Av
+3	Shell	HasType	gas station
+3	53 University Av	IsAddressOf	Shell
+3	gas station	IsTypeOf	Shell
+3	Shell	HasTraffic	moderate traffic
+3	Shell	HasDistance	4 miles
+3	moderate traffic	IsTrafficOf	Shell
+3	4 miles	IsDistanceFrom	Shell
+4	Peets Coffee	HasAddress	9981 Archuleta Ave
+4	Peets Coffee	HasType	coffee or tea place
+4	9981 Archuleta Ave	IsAddressOf	Peets Coffee
+4	coffee or tea place	IsTypeOf	Peets Coffee
+4	Peets Coffee	HasTraffic	moderate traffic
+4	Peets Coffee	HasDistance	5 miles
+4	moderate traffic	IsTrafficOf	Peets Coffee
+4	5 miles	IsDistanceFrom	Peets Coffee
+5	Whole Foods	HasAddress	819 Alma St
+5	Whole Foods	HasType	grocery store
+5	819 Alma St	IsAddressOf	Whole Foods
+5	grocery store	IsTypeOf	Whole Foods
+5	Whole Foods	HasTraffic	heavy traffic
+5	Whole Foods	HasDistance	3 miles
+5	heavy traffic	IsTrafficOf	Whole Foods
+5	3 miles	IsDistanceFrom	Whole Foods
+6	P.F. Changs	HasAddress	669 El Camino Real
+6	P.F. Changs	HasType	chinese restaurant
+6	669 El Camino Real	IsAddressOf	P.F. Changs
+6	chinese restaurant	IsTypeOf	P.F. Changs
+6	P.F. Changs	HasTraffic	no traffic
+6	P.F. Changs	HasDistance	2 miles
+6	no traffic	IsTrafficOf	P.F. Changs
+6	2 miles	IsDistanceFrom	P.F. Changs
+7	Chef Chu's	HasAddress	593 Arrowhead Way
+7	Chef Chu's	HasType	chinese restaurant
+7	593 Arrowhead Way	IsAddressOf	Chef Chu's
+7	chinese restaurant	IsTypeOf	Chef Chu's
+7	Chef Chu's	HasTraffic	no traffic
+7	Chef Chu's	HasDistance	6 miles
+7	no traffic	IsTrafficOf	Chef Chu's
+7	6 miles	IsDistanceFrom	Chef Chu's
+-1	today	IsEqualTo	monday

@@ -1,0 +1,65 @@
+0	Round Table	HasAddress	113 Anton Ct
+0	Round Table	HasType	pizza restaurant
+0	113 Anton Ct	IsAddressOf	Round Table
+0	pizza restaurant	IsTypeOf	Round Table
+0	Round Table	HasTraffic	car collision nearby
+0	Round Table	HasDistance	5 miles
+0	car collision nearby	IsTrafficOf	Round Table
+0	5 miles	IsDistanceFrom	Round Table
+1	Philz	HasAddress	583 Alester Ave
+1	Philz	HasType	coffee or tea place
+1	583 Alester Ave	IsAddressOf	Philz
+1	coffee or tea place	IsTypeOf	Philz
+1	Philz	HasTraffic	moderate traffic
+1	Philz	HasDistance	5 miles
+1	moderate traffic	IsTrafficOf	Philz
+1	5 miles	IsDistanceFrom	Philz
+2	Papa Johns	HasAddress	110 Arastradero Rd
+2	Papa Johns	HasType	pizza restaurant
+2	110 Arastradero Rd	IsAddressOf	Papa Johns
+2	pizza restaurant	IsTypeOf	Papa Johns
+2	Papa Johns	HasTraffic	no traffic
+2	Papa Johns	HasDistance	2 miles
+2	no traffic	IsTrafficOf	Papa Johns
+2	2 miles	IsDistanceFrom	Papa Johns
+3	Hotel Keen	HasAddress	578 Arbol Dr
+3	Hotel Keen	HasType	rest stop
+3	578 Arbol Dr	IsAddressOf	Hotel Keen
+3	rest stop	IsTypeOf	Hotel Keen
+3	Hotel Keen	HasTraffic	heavy traffic
+3	Hotel Keen	HasDistance	5 miles
+3	heavy traffic	IsTrafficOf	Hotel Keen
+3	5 miles	IsDistanceFrom	Hotel Keen
+4	Pizza Chicago	HasAddress	915 Arbol Dr
+4	Pizza Chicago	HasType	pizza restaurant
+4	915 Arbol Dr	IsAddressOf	Pizza Chicago
+4	pizza restaurant	IsTypeOf	Pizza Chicago
+4	Pizza Chicago	HasTraffic	heavy traffic
+4	Pizza Chicago	HasDistance	6 miles
+4	heavy traffic	IsTrafficOf	Pizza Chicago
+4	6 miles	IsDistanceFrom	Pizza Chicago
+5	Four Seasons	HasAddress	465 Arcadia Pl
+5	Four Seasons	HasType	rest stop
+5	465 Arcadia Pl	IsAddressOf	Four Seasons
+5	rest stop	IsTypeOf	Four Seasons
+5	Four Seasons	HasTraffic	car collision nearby
+5	Four Seasons	HasDistance	6 miles
+5	car collision nearby	IsTrafficOf	Four Seasons
+5	6 miles	IsDistanceFrom	Four Seasons
+6	Dish Parking	HasAddress	550 Alester Ave
+6	Dish Parking	HasType	parking garage
+6	550 Alester Ave	IsAddressOf	Dish Parking
+6	parking garage	IsTypeOf	Dish Parking
+6	Dish Parking	HasTraffic	road block nearby
+6	Dish Parking	HasDistance	4 miles
+6	road block nearby	IsTrafficOf	Dish Parking
+6	4 miles	IsDistanceFrom	Dish Parking
+7	Willows Market	HasAddress	409 Bollard St
+7	Willows Market	HasType	grocery store
+7	409 Bollard St	IsAddressOf	Willows Market
+7	grocery store	IsTypeOf	Willows Market
+7	Willows Market	HasTraffic	moderate traffic
+7	Willows Market	HasDistance	3 miles
+7	moderate traffic	IsTrafficOf	Willows Market
+7	3 miles	IsDistanceFrom	Willows Market
+-1	today	IsEqualTo	monday

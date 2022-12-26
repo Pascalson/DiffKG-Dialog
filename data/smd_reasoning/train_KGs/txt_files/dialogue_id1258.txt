@@ -1,0 +1,65 @@
+0	Panda Express	HasAddress	842 Arrowhead Way
+0	Panda Express	HasType	chinese restaurant
+0	842 Arrowhead Way	IsAddressOf	Panda Express
+0	chinese restaurant	IsTypeOf	Panda Express
+0	Panda Express	HasTraffic	road block nearby
+0	Panda Express	HasDistance	2 miles
+0	road block nearby	IsTrafficOf	Panda Express
+0	2 miles	IsDistanceFrom	Panda Express
+1	Travelers Lodge	HasAddress	333 Arbol Dr
+1	Travelers Lodge	HasType	rest stop
+1	333 Arbol Dr	IsAddressOf	Travelers Lodge
+1	rest stop	IsTypeOf	Travelers Lodge
+1	Travelers Lodge	HasTraffic	moderate traffic
+1	Travelers Lodge	HasDistance	1 miles
+1	moderate traffic	IsTrafficOf	Travelers Lodge
+1	1 miles	IsDistanceFrom	Travelers Lodge
+2	home	HasAddress	5671 barringer street
+2	home	HasType	home
+2	5671 barringer street	IsAddressOf	home
+2	home	IsTypeOf	home
+2	home	HasTraffic	heavy traffic
+2	home	HasDistance	5 miles
+2	heavy traffic	IsTrafficOf	home
+2	5 miles	IsDistanceFrom	home
+3	home	HasAddress	10 ames street
+3	home	HasType	home
+3	10 ames street	IsAddressOf	home
+3	home	IsTypeOf	home
+3	home	HasTraffic	road block nearby
+3	home	HasDistance	2 miles
+3	road block nearby	IsTrafficOf	home
+3	2 miles	IsDistanceFrom	home
+4	Stanford Oval Parking	HasAddress	610 Amarillo Ave
+4	Stanford Oval Parking	HasType	parking garage
+4	610 Amarillo Ave	IsAddressOf	Stanford Oval Parking
+4	parking garage	IsTypeOf	Stanford Oval Parking
+4	Stanford Oval Parking	HasTraffic	no traffic
+4	Stanford Oval Parking	HasDistance	4 miles
+4	no traffic	IsTrafficOf	Stanford Oval Parking
+4	4 miles	IsDistanceFrom	Stanford Oval Parking
+5	Stanford Childrens Health	HasAddress	899 Ames Ct
+5	Stanford Childrens Health	HasType	hospital
+5	899 Ames Ct	IsAddressOf	Stanford Childrens Health
+5	hospital	IsTypeOf	Stanford Childrens Health
+5	Stanford Childrens Health	HasTraffic	car collision nearby
+5	Stanford Childrens Health	HasDistance	6 miles
+5	car collision nearby	IsTrafficOf	Stanford Childrens Health
+5	6 miles	IsDistanceFrom	Stanford Childrens Health
+6	Webster Garage	HasAddress	880 Ames Ct
+6	Webster Garage	HasType	parking garage
+6	880 Ames Ct	IsAddressOf	Webster Garage
+6	parking garage	IsTypeOf	Webster Garage
+6	Webster Garage	HasTraffic	road block nearby
+6	Webster Garage	HasDistance	1 miles
+6	road block nearby	IsTrafficOf	Webster Garage
+6	1 miles	IsDistanceFrom	Webster Garage
+7	5677 southwest 4th street	HasAddress	5677 southwest 4th street
+7	5677 southwest 4th street	HasType	certain address
+7	5677 southwest 4th street	IsAddressOf	5677 southwest 4th street
+7	certain address	IsTypeOf	5677 southwest 4th street
+7	5677 southwest 4th street	HasTraffic	moderate traffic
+7	5677 southwest 4th street	HasDistance	3 miles
+7	moderate traffic	IsTrafficOf	5677 southwest 4th street
+7	3 miles	IsDistanceFrom	5677 southwest 4th street
+-1	today	IsEqualTo	monday

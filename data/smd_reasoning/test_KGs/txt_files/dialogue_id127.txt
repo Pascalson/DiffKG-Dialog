@@ -1,0 +1,65 @@
+0	Teavana	HasAddress	145 Amherst St
+0	Teavana	HasType	coffee or tea place
+0	145 Amherst St	IsAddressOf	Teavana
+0	coffee or tea place	IsTypeOf	Teavana
+0	Teavana	HasTraffic	moderate traffic
+0	Teavana	HasDistance	5 miles
+0	moderate traffic	IsTrafficOf	Teavana
+0	5 miles	IsDistanceFrom	Teavana
+1	5672 barringer street	HasAddress	5672 barringer street
+1	5672 barringer street	HasType	certain address
+1	5672 barringer street	IsAddressOf	5672 barringer street
+1	certain address	IsTypeOf	5672 barringer street
+1	5672 barringer street	HasTraffic	car collision nearby
+1	5672 barringer street	HasDistance	4 miles
+1	car collision nearby	IsTrafficOf	5672 barringer street
+1	4 miles	IsDistanceFrom	5672 barringer street
+2	Palo Alto Garage R	HasAddress	481 Amaranta Ave
+2	Palo Alto Garage R	HasType	parking garage
+2	481 Amaranta Ave	IsAddressOf	Palo Alto Garage R
+2	parking garage	IsTypeOf	Palo Alto Garage R
+2	Palo Alto Garage R	HasTraffic	road block nearby
+2	Palo Alto Garage R	HasDistance	1 miles
+2	road block nearby	IsTrafficOf	Palo Alto Garage R
+2	1 miles	IsDistanceFrom	Palo Alto Garage R
+3	Stanford Shopping Center	HasAddress	773 Alger Dr
+3	Stanford Shopping Center	HasType	shopping center
+3	773 Alger Dr	IsAddressOf	Stanford Shopping Center
+3	shopping center	IsTypeOf	Stanford Shopping Center
+3	Stanford Shopping Center	HasTraffic	moderate traffic
+3	Stanford Shopping Center	HasDistance	2 miles
+3	moderate traffic	IsTrafficOf	Stanford Shopping Center
+3	2 miles	IsDistanceFrom	Stanford Shopping Center
+4	5677 southwest 4th street	HasAddress	5677 southwest 4th street
+4	5677 southwest 4th street	HasType	certain address
+4	5677 southwest 4th street	IsAddressOf	5677 southwest 4th street
+4	certain address	IsTypeOf	5677 southwest 4th street
+4	5677 southwest 4th street	HasTraffic	car collision nearby
+4	5677 southwest 4th street	HasDistance	1 miles
+4	car collision nearby	IsTrafficOf	5677 southwest 4th street
+4	1 miles	IsDistanceFrom	5677 southwest 4th street
+5	Pizza Chicago	HasAddress	915 Arbol Dr
+5	Pizza Chicago	HasType	pizza restaurant
+5	915 Arbol Dr	IsAddressOf	Pizza Chicago
+5	pizza restaurant	IsTypeOf	Pizza Chicago
+5	Pizza Chicago	HasTraffic	heavy traffic
+5	Pizza Chicago	HasDistance	1 miles
+5	heavy traffic	IsTrafficOf	Pizza Chicago
+5	1 miles	IsDistanceFrom	Pizza Chicago
+6	Pizza My Heart	HasAddress	528 Anton Ct
+6	Pizza My Heart	HasType	pizza restaurant
+6	528 Anton Ct	IsAddressOf	Pizza My Heart
+6	pizza restaurant	IsTypeOf	Pizza My Heart
+6	Pizza My Heart	HasTraffic	heavy traffic
+6	Pizza My Heart	HasDistance	6 miles
+6	heavy traffic	IsTrafficOf	Pizza My Heart
+6	6 miles	IsDistanceFrom	Pizza My Heart
+7	Travelers Lodge	HasAddress	333 Arbol Dr
+7	Travelers Lodge	HasType	rest stop
+7	333 Arbol Dr	IsAddressOf	Travelers Lodge
+7	rest stop	IsTypeOf	Travelers Lodge
+7	Travelers Lodge	HasTraffic	moderate traffic
+7	Travelers Lodge	HasDistance	5 miles
+7	moderate traffic	IsTrafficOf	Travelers Lodge
+7	5 miles	IsDistanceFrom	Travelers Lodge
+-1	today	IsEqualTo	monday

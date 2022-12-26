@@ -1,0 +1,65 @@
+0	Stanford Shopping Center	HasAddress	773 Alger Dr
+0	Stanford Shopping Center	HasType	shopping center
+0	773 Alger Dr	IsAddressOf	Stanford Shopping Center
+0	shopping center	IsTypeOf	Stanford Shopping Center
+0	Stanford Shopping Center	HasTraffic	car collision nearby
+0	Stanford Shopping Center	HasDistance	4 miles
+0	car collision nearby	IsTrafficOf	Stanford Shopping Center
+0	4 miles	IsDistanceFrom	Stanford Shopping Center
+1	Papa Johns	HasAddress	110 Arastradero Rd
+1	Papa Johns	HasType	pizza restaurant
+1	110 Arastradero Rd	IsAddressOf	Papa Johns
+1	pizza restaurant	IsTypeOf	Papa Johns
+1	Papa Johns	HasTraffic	no traffic
+1	Papa Johns	HasDistance	4 miles
+1	no traffic	IsTrafficOf	Papa Johns
+1	4 miles	IsDistanceFrom	Papa Johns
+2	Palo Alto Garage R	HasAddress	481 Amaranta Ave
+2	Palo Alto Garage R	HasType	parking garage
+2	481 Amaranta Ave	IsAddressOf	Palo Alto Garage R
+2	parking garage	IsTypeOf	Palo Alto Garage R
+2	Palo Alto Garage R	HasTraffic	moderate traffic
+2	Palo Alto Garage R	HasDistance	2 miles
+2	moderate traffic	IsTrafficOf	Palo Alto Garage R
+2	2 miles	IsDistanceFrom	Palo Alto Garage R
+3	home	HasAddress	56 cadwell street
+3	home	HasType	home
+3	56 cadwell street	IsAddressOf	home
+3	home	IsTypeOf	home
+3	home	HasTraffic	heavy traffic
+3	home	HasDistance	2 miles
+3	heavy traffic	IsTrafficOf	home
+3	2 miles	IsDistanceFrom	home
+4	Panda Express	HasAddress	842 Arrowhead Way
+4	Panda Express	HasType	chinese restaurant
+4	842 Arrowhead Way	IsAddressOf	Panda Express
+4	chinese restaurant	IsTypeOf	Panda Express
+4	Panda Express	HasTraffic	no traffic
+4	Panda Express	HasDistance	5 miles
+4	no traffic	IsTrafficOf	Panda Express
+4	5 miles	IsDistanceFrom	Panda Express
+5	Coupa	HasAddress	394 Van Ness Ave
+5	Coupa	HasType	coffee or tea place
+5	394 Van Ness Ave	IsAddressOf	Coupa
+5	coffee or tea place	IsTypeOf	Coupa
+5	Coupa	HasTraffic	car collision nearby
+5	Coupa	HasDistance	1 miles
+5	car collision nearby	IsTrafficOf	Coupa
+5	1 miles	IsDistanceFrom	Coupa
+6	Civic Center Garage	HasAddress	270 Altaire Walk
+6	Civic Center Garage	HasType	parking garage
+6	270 Altaire Walk	IsAddressOf	Civic Center Garage
+6	parking garage	IsTypeOf	Civic Center Garage
+6	Civic Center Garage	HasTraffic	car collision nearby
+6	Civic Center Garage	HasDistance	4 miles
+6	car collision nearby	IsTrafficOf	Civic Center Garage
+6	4 miles	IsDistanceFrom	Civic Center Garage
+7	Jing Jing	HasAddress	113 Arbol Dr
+7	Jing Jing	HasType	chinese restaurant
+7	113 Arbol Dr	IsAddressOf	Jing Jing
+7	chinese restaurant	IsTypeOf	Jing Jing
+7	Jing Jing	HasTraffic	heavy traffic
+7	Jing Jing	HasDistance	6 miles
+7	heavy traffic	IsTrafficOf	Jing Jing
+7	6 miles	IsDistanceFrom	Jing Jing
+-1	today	IsEqualTo	monday

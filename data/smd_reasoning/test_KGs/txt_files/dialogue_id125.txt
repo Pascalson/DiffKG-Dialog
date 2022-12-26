@@ -1,0 +1,41 @@
+0	conference	HasTime	7pm
+0	7pm	IsTimeOf	conference
+0	conference	HasDate	monday
+0	monday	IsDateOf	conference
+0	conference	HasParty	boss
+0	boss	IsPartyOf	conference
+0	conference	HasRoom	conference room 102
+0	conference room 102	IsRoomOf	conference
+0	conference	HasAgenda	go over budget
+0	go over budget	IsAgendaOf	conference
+1	lab appointment	HasTime	9am
+1	9am	IsTimeOf	lab appointment
+1	lab appointment	HasDate	tuesday
+1	tuesday	IsDateOf	lab appointment
+1	lab appointment	HasParty	Tom
+1	Tom	IsPartyOf	lab appointment
+2	dinner	HasTime	7pm
+2	7pm	IsTimeOf	dinner
+2	dinner	HasDate	tuesday
+2	tuesday	IsDateOf	dinner
+2	dinner	HasParty	Martha
+2	Martha	IsPartyOf	dinner
+3	optometrist appointment	HasTime	5pm
+3	5pm	IsTimeOf	optometrist appointment
+3	optometrist appointment	HasDate	the 5th
+3	the 5th	IsDateOf	optometrist appointment
+3	optometrist appointment	HasParty	brother
+3	brother	IsPartyOf	optometrist appointment
+4	tennis activity	HasTime	9am
+4	9am	IsTimeOf	tennis activity
+4	tennis activity	HasDate	the 13th
+4	the 13th	IsDateOf	tennis activity
+4	tennis activity	HasParty	Alex
+4	Alex	IsPartyOf	tennis activity
+5	dentist appointment	HasTime	9am
+5	9am	IsTimeOf	dentist appointment
+5	dentist appointment	HasDate	saturday
+5	saturday	IsDateOf	dentist appointment
+5	dentist appointment	HasParty	Alex
+5	Alex	IsPartyOf	dentist appointment
+-1	today	IsEqualTo	monday

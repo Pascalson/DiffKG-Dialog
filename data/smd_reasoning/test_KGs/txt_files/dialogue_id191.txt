@@ -1,0 +1,57 @@
+0	doctor appointment	HasTime	9am
+0	9am	IsTimeOf	doctor appointment
+0	doctor appointment	HasDate	saturday
+0	saturday	IsDateOf	doctor appointment
+0	doctor appointment	HasParty	Jon
+0	Jon	IsPartyOf	doctor appointment
+1	taking medicine	HasTime	4pm
+1	4pm	IsTimeOf	taking medicine
+1	taking medicine	HasDate	the 13th
+1	the 13th	IsDateOf	taking medicine
+1	taking medicine	HasParty	mother
+1	mother	IsPartyOf	taking medicine
+2	tennis activity	HasTime	7pm
+2	7pm	IsTimeOf	tennis activity
+2	tennis activity	HasDate	thursday
+2	thursday	IsDateOf	tennis activity
+2	tennis activity	HasParty	mother
+2	mother	IsPartyOf	tennis activity
+3	doctor appointment	HasTime	9am
+3	9am	IsTimeOf	doctor appointment
+3	doctor appointment	HasDate	friday
+3	friday	IsDateOf	doctor appointment
+3	doctor appointment	HasParty	aunt
+3	aunt	IsPartyOf	doctor appointment
+4	tennis activity	HasTime	2pm
+4	2pm	IsTimeOf	tennis activity
+4	tennis activity	HasDate	the 10th
+4	the 10th	IsDateOf	tennis activity
+4	tennis activity	HasParty	sister
+4	sister	IsPartyOf	tennis activity
+5	taking medicine	HasTime	11am
+5	11am	IsTimeOf	taking medicine
+5	taking medicine	HasDate	monday
+5	monday	IsDateOf	taking medicine
+5	taking medicine	HasParty	Marie
+5	Marie	IsPartyOf	taking medicine
+6	meeting	HasTime	11am
+6	11am	IsTimeOf	meeting
+6	meeting	HasDate	monday
+6	monday	IsDateOf	meeting
+6	meeting	HasParty	infrastructure team
+6	infrastructure team	IsPartyOf	meeting
+6	meeting	HasRoom	conference room 100
+6	conference room 100	IsRoomOf	meeting
+6	meeting	HasAgenda	go over budget
+6	go over budget	IsAgendaOf	meeting
+7	conference	HasTime	5pm
+7	5pm	IsTimeOf	conference
+7	conference	HasDate	the 5th
+7	the 5th	IsDateOf	conference
+7	conference	HasParty	sales team
+7	sales team	IsPartyOf	conference
+7	conference	HasRoom	conference room 100
+7	conference room 100	IsRoomOf	conference
+7	conference	HasAgenda	discuss dress code
+7	discuss dress code	IsAgendaOf	conference
+-1	today	IsEqualTo	monday

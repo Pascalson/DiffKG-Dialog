@@ -1,0 +1,65 @@
+0	Shell	HasAddress	53 University Av
+0	Shell	HasType	gas station
+0	53 University Av	IsAddressOf	Shell
+0	gas station	IsTypeOf	Shell
+0	Shell	HasTraffic	road block nearby
+0	Shell	HasDistance	6 miles
+0	road block nearby	IsTrafficOf	Shell
+0	6 miles	IsDistanceFrom	Shell
+1	Palo Alto Cafe	HasAddress	436 Alger Dr
+1	Palo Alto Cafe	HasType	coffee or tea place
+1	436 Alger Dr	IsAddressOf	Palo Alto Cafe
+1	coffee or tea place	IsTypeOf	Palo Alto Cafe
+1	Palo Alto Cafe	HasTraffic	moderate traffic
+1	Palo Alto Cafe	HasDistance	2 miles
+1	moderate traffic	IsTrafficOf	Palo Alto Cafe
+1	2 miles	IsDistanceFrom	Palo Alto Cafe
+2	P.F. Changs	HasAddress	669 El Camino Real
+2	P.F. Changs	HasType	chinese restaurant
+2	669 El Camino Real	IsAddressOf	P.F. Changs
+2	chinese restaurant	IsTypeOf	P.F. Changs
+2	P.F. Changs	HasTraffic	moderate traffic
+2	P.F. Changs	HasDistance	3 miles
+2	moderate traffic	IsTrafficOf	P.F. Changs
+2	3 miles	IsDistanceFrom	P.F. Changs
+3	Willows Market	HasAddress	409 Bollard St
+3	Willows Market	HasType	grocery store
+3	409 Bollard St	IsAddressOf	Willows Market
+3	grocery store	IsTypeOf	Willows Market
+3	Willows Market	HasTraffic	road block nearby
+3	Willows Market	HasDistance	2 miles
+3	road block nearby	IsTrafficOf	Willows Market
+3	2 miles	IsDistanceFrom	Willows Market
+4	Panda Express	HasAddress	842 Arrowhead Way
+4	Panda Express	HasType	chinese restaurant
+4	842 Arrowhead Way	IsAddressOf	Panda Express
+4	chinese restaurant	IsTypeOf	Panda Express
+4	Panda Express	HasTraffic	moderate traffic
+4	Panda Express	HasDistance	2 miles
+4	moderate traffic	IsTrafficOf	Panda Express
+4	2 miles	IsDistanceFrom	Panda Express
+5	jacks house	HasAddress	864 Almanor Ln
+5	jacks house	HasType	friends house
+5	864 Almanor Ln	IsAddressOf	jacks house
+5	friends house	IsTypeOf	jacks house
+5	jacks house	HasTraffic	moderate traffic
+5	jacks house	HasDistance	5 miles
+5	moderate traffic	IsTrafficOf	jacks house
+5	5 miles	IsDistanceFrom	jacks house
+6	5677 southwest 4th street	HasAddress	5677 southwest 4th street
+6	5677 southwest 4th street	HasType	certain address
+6	5677 southwest 4th street	IsAddressOf	5677 southwest 4th street
+6	certain address	IsTypeOf	5677 southwest 4th street
+6	5677 southwest 4th street	HasTraffic	moderate traffic
+6	5677 southwest 4th street	HasDistance	6 miles
+6	moderate traffic	IsTrafficOf	5677 southwest 4th street
+6	6 miles	IsDistanceFrom	5677 southwest 4th street
+7	Pizza Chicago	HasAddress	915 Arbol Dr
+7	Pizza Chicago	HasType	pizza restaurant
+7	915 Arbol Dr	IsAddressOf	Pizza Chicago
+7	pizza restaurant	IsTypeOf	Pizza Chicago
+7	Pizza Chicago	HasTraffic	heavy traffic
+7	Pizza Chicago	HasDistance	5 miles
+7	heavy traffic	IsTrafficOf	Pizza Chicago
+7	5 miles	IsDistanceFrom	Pizza Chicago
+-1	today	IsEqualTo	monday

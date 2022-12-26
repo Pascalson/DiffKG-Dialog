@@ -1,0 +1,65 @@
+0	Chef Chu's	HasAddress	593 Arrowhead Way
+0	Chef Chu's	HasType	chinese restaurant
+0	593 Arrowhead Way	IsAddressOf	Chef Chu's
+0	chinese restaurant	IsTypeOf	Chef Chu's
+0	Chef Chu's	HasTraffic	no traffic
+0	Chef Chu's	HasDistance	6 miles
+0	no traffic	IsTrafficOf	Chef Chu's
+0	6 miles	IsDistanceFrom	Chef Chu's
+1	Starbucks	HasAddress	792 Bedoin Street
+1	Starbucks	HasType	coffee or tea place
+1	792 Bedoin Street	IsAddressOf	Starbucks
+1	coffee or tea place	IsTypeOf	Starbucks
+1	Starbucks	HasTraffic	heavy traffic
+1	Starbucks	HasDistance	3 miles
+1	heavy traffic	IsTrafficOf	Starbucks
+1	3 miles	IsDistanceFrom	Starbucks
+2	Stanford Express Care	HasAddress	214 El Camino Real
+2	Stanford Express Care	HasType	hospital
+2	214 El Camino Real	IsAddressOf	Stanford Express Care
+2	hospital	IsTypeOf	Stanford Express Care
+2	Stanford Express Care	HasTraffic	car collision nearby
+2	Stanford Express Care	HasDistance	6 miles
+2	car collision nearby	IsTrafficOf	Stanford Express Care
+2	6 miles	IsDistanceFrom	Stanford Express Care
+3	The Clement Hotel	HasAddress	657 Ames Ave
+3	The Clement Hotel	HasType	rest stop
+3	657 Ames Ave	IsAddressOf	The Clement Hotel
+3	rest stop	IsTypeOf	The Clement Hotel
+3	The Clement Hotel	HasTraffic	car collision nearby
+3	The Clement Hotel	HasDistance	6 miles
+3	car collision nearby	IsTrafficOf	The Clement Hotel
+3	6 miles	IsDistanceFrom	The Clement Hotel
+4	5677 southwest 4th street	HasAddress	5677 southwest 4th street
+4	5677 southwest 4th street	HasType	certain address
+4	5677 southwest 4th street	IsAddressOf	5677 southwest 4th street
+4	certain address	IsTypeOf	5677 southwest 4th street
+4	5677 southwest 4th street	HasTraffic	no traffic
+4	5677 southwest 4th street	HasDistance	1 miles
+4	no traffic	IsTrafficOf	5677 southwest 4th street
+4	1 miles	IsDistanceFrom	5677 southwest 4th street
+5	Pizza Hut	HasAddress	704 El Camino Real
+5	Pizza Hut	HasType	pizza restaurant
+5	704 El Camino Real	IsAddressOf	Pizza Hut
+5	pizza restaurant	IsTypeOf	Pizza Hut
+5	Pizza Hut	HasTraffic	road block nearby
+5	Pizza Hut	HasDistance	3 miles
+5	road block nearby	IsTrafficOf	Pizza Hut
+5	3 miles	IsDistanceFrom	Pizza Hut
+6	Jing Jing	HasAddress	113 Arbol Dr
+6	Jing Jing	HasType	chinese restaurant
+6	113 Arbol Dr	IsAddressOf	Jing Jing
+6	chinese restaurant	IsTypeOf	Jing Jing
+6	Jing Jing	HasTraffic	car collision nearby
+6	Jing Jing	HasDistance	5 miles
+6	car collision nearby	IsTrafficOf	Jing Jing
+6	5 miles	IsDistanceFrom	Jing Jing
+7	home	HasAddress	10 ames street
+7	home	HasType	home
+7	10 ames street	IsAddressOf	home
+7	home	IsTypeOf	home
+7	home	HasTraffic	heavy traffic
+7	home	HasDistance	1 miles
+7	heavy traffic	IsTrafficOf	home
+7	1 miles	IsDistanceFrom	home
+-1	today	IsEqualTo	monday

@@ -1,0 +1,57 @@
+0	home	HasAddress	56 cadwell street
+0	home	HasType	home
+0	56 cadwell street	IsAddressOf	home
+0	home	IsTypeOf	home
+0	home	HasTraffic	heavy traffic
+0	home	HasDistance	1 miles
+0	heavy traffic	IsTrafficOf	home
+0	1 miles	IsDistanceFrom	home
+1	Pizza My Heart	HasAddress	528 Anton Ct
+1	Pizza My Heart	HasType	pizza restaurant
+1	528 Anton Ct	IsAddressOf	Pizza My Heart
+1	pizza restaurant	IsTypeOf	Pizza My Heart
+1	Pizza My Heart	HasTraffic	heavy traffic
+1	Pizza My Heart	HasDistance	1 miles
+1	heavy traffic	IsTrafficOf	Pizza My Heart
+1	1 miles	IsDistanceFrom	Pizza My Heart
+2	Stanford Oval Parking	HasAddress	610 Amarillo Ave
+2	Stanford Oval Parking	HasType	parking garage
+2	610 Amarillo Ave	IsAddressOf	Stanford Oval Parking
+2	parking garage	IsTypeOf	Stanford Oval Parking
+2	Stanford Oval Parking	HasTraffic	no traffic
+2	Stanford Oval Parking	HasDistance	6 miles
+2	no traffic	IsTrafficOf	Stanford Oval Parking
+2	6 miles	IsDistanceFrom	Stanford Oval Parking
+3	The Clement Hotel	HasAddress	657 Ames Ave
+3	The Clement Hotel	HasType	rest stop
+3	657 Ames Ave	IsAddressOf	The Clement Hotel
+3	rest stop	IsTypeOf	The Clement Hotel
+3	The Clement Hotel	HasTraffic	no traffic
+3	The Clement Hotel	HasDistance	5 miles
+3	no traffic	IsTrafficOf	The Clement Hotel
+3	5 miles	IsDistanceFrom	The Clement Hotel
+4	Dominos	HasAddress	776 Arastradero Rd
+4	Dominos	HasType	pizza restaurant
+4	776 Arastradero Rd	IsAddressOf	Dominos
+4	pizza restaurant	IsTypeOf	Dominos
+4	Dominos	HasTraffic	no traffic
+4	Dominos	HasDistance	1 miles
+4	no traffic	IsTrafficOf	Dominos
+4	1 miles	IsDistanceFrom	Dominos
+5	jills house	HasAddress	347 Alta Mesa Ave
+5	jills house	HasType	friends house
+5	347 Alta Mesa Ave	IsAddressOf	jills house
+5	friends house	IsTypeOf	jills house
+5	jills house	HasTraffic	no traffic
+5	jills house	HasDistance	5 miles
+5	no traffic	IsTrafficOf	jills house
+5	5 miles	IsDistanceFrom	jills house
+6	Chef Chu's	HasAddress	593 Arrowhead Way
+6	Chef Chu's	HasType	chinese restaurant
+6	593 Arrowhead Way	IsAddressOf	Chef Chu's
+6	chinese restaurant	IsTypeOf	Chef Chu's
+6	Chef Chu's	HasTraffic	no traffic
+6	Chef Chu's	HasDistance	4 miles
+6	no traffic	IsTrafficOf	Chef Chu's
+6	4 miles	IsDistanceFrom	Chef Chu's
+-1	today	IsEqualTo	monday

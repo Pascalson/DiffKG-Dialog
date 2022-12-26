@@ -1,0 +1,57 @@
+0	The Clement Hotel	HasAddress	657 Ames Ave
+0	The Clement Hotel	HasType	rest stop
+0	657 Ames Ave	IsAddressOf	The Clement Hotel
+0	rest stop	IsTypeOf	The Clement Hotel
+0	The Clement Hotel	HasTraffic	no traffic
+0	The Clement Hotel	HasDistance	5 miles
+0	no traffic	IsTrafficOf	The Clement Hotel
+0	5 miles	IsDistanceFrom	The Clement Hotel
+1	Valero	HasAddress	200 Alester Ave
+1	Valero	HasType	gas station
+1	200 Alester Ave	IsAddressOf	Valero
+1	gas station	IsTypeOf	Valero
+1	Valero	HasTraffic	no traffic
+1	Valero	HasDistance	2 miles
+1	no traffic	IsTrafficOf	Valero
+1	2 miles	IsDistanceFrom	Valero
+2	Cafe Venetia	HasAddress	269 Alger Dr
+2	Cafe Venetia	HasType	coffee or tea place
+2	269 Alger Dr	IsAddressOf	Cafe Venetia
+2	coffee or tea place	IsTypeOf	Cafe Venetia
+2	Cafe Venetia	HasTraffic	no traffic
+2	Cafe Venetia	HasDistance	4 miles
+2	no traffic	IsTrafficOf	Cafe Venetia
+2	4 miles	IsDistanceFrom	Cafe Venetia
+3	Ravenswood Shopping Center	HasAddress	434 Arastradero Rd
+3	Ravenswood Shopping Center	HasType	shopping center
+3	434 Arastradero Rd	IsAddressOf	Ravenswood Shopping Center
+3	shopping center	IsTypeOf	Ravenswood Shopping Center
+3	Ravenswood Shopping Center	HasTraffic	heavy traffic
+3	Ravenswood Shopping Center	HasDistance	4 miles
+3	heavy traffic	IsTrafficOf	Ravenswood Shopping Center
+3	4 miles	IsDistanceFrom	Ravenswood Shopping Center
+4	jacks house	HasAddress	864 Almanor Ln
+4	jacks house	HasType	friends house
+4	864 Almanor Ln	IsAddressOf	jacks house
+4	friends house	IsTypeOf	jacks house
+4	jacks house	HasTraffic	no traffic
+4	jacks house	HasDistance	6 miles
+4	no traffic	IsTrafficOf	jacks house
+4	6 miles	IsDistanceFrom	jacks house
+5	Jing Jing	HasAddress	113 Arbol Dr
+5	Jing Jing	HasType	chinese restaurant
+5	113 Arbol Dr	IsAddressOf	Jing Jing
+5	chinese restaurant	IsTypeOf	Jing Jing
+5	Jing Jing	HasTraffic	heavy traffic
+5	Jing Jing	HasDistance	5 miles
+5	heavy traffic	IsTrafficOf	Jing Jing
+5	5 miles	IsDistanceFrom	Jing Jing
+6	Dominos	HasAddress	776 Arastradero Rd
+6	Dominos	HasType	pizza restaurant
+6	776 Arastradero Rd	IsAddressOf	Dominos
+6	pizza restaurant	IsTypeOf	Dominos
+6	Dominos	HasTraffic	no traffic
+6	Dominos	HasDistance	1 miles
+6	no traffic	IsTrafficOf	Dominos
+6	1 miles	IsDistanceFrom	Dominos
+-1	today	IsEqualTo	monday

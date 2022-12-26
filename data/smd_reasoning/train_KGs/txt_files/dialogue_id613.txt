@@ -1,0 +1,57 @@
+0	dinner	HasTime	6pm
+0	6pm	IsTimeOf	dinner
+0	dinner	HasDate	the 15th
+0	the 15th	IsDateOf	dinner
+0	dinner	HasParty	Martha
+0	Martha	IsPartyOf	dinner
+1	meeting	HasTime	9am
+1	9am	IsTimeOf	meeting
+1	meeting	HasDate	the 16th
+1	the 16th	IsDateOf	meeting
+1	meeting	HasParty	management
+1	management	IsPartyOf	meeting
+1	meeting	HasRoom	conference room 50
+1	conference room 50	IsRoomOf	meeting
+1	meeting	HasAgenda	go over budget
+1	go over budget	IsAgendaOf	meeting
+2	dinner	HasTime	7pm
+2	7pm	IsTimeOf	dinner
+2	dinner	HasDate	wednesday
+2	wednesday	IsDateOf	dinner
+2	dinner	HasParty	father
+2	father	IsPartyOf	dinner
+3	dinner	HasTime	5pm
+3	5pm	IsTimeOf	dinner
+3	dinner	HasDate	the 11th
+3	the 11th	IsDateOf	dinner
+3	dinner	HasParty	Tom
+3	Tom	IsPartyOf	dinner
+4	swimming activity	HasTime	6pm
+4	6pm	IsTimeOf	swimming activity
+4	swimming activity	HasDate	the 13th
+4	the 13th	IsDateOf	swimming activity
+4	swimming activity	HasParty	father
+4	father	IsPartyOf	swimming activity
+5	meeting	HasTime	9am
+5	9am	IsTimeOf	meeting
+5	meeting	HasDate	the 7th
+5	the 7th	IsDateOf	meeting
+5	meeting	HasParty	management
+5	management	IsPartyOf	meeting
+5	meeting	HasRoom	conference room 100
+5	conference room 100	IsRoomOf	meeting
+5	meeting	HasAgenda	discuss the merger
+5	discuss the merger	IsAgendaOf	meeting
+6	tennis activity	HasTime	2pm
+6	2pm	IsTimeOf	tennis activity
+6	tennis activity	HasDate	the 18th
+6	the 18th	IsDateOf	tennis activity
+6	tennis activity	HasParty	Tom
+6	Tom	IsPartyOf	tennis activity
+7	doctor appointment	HasTime	10am
+7	10am	IsTimeOf	doctor appointment
+7	doctor appointment	HasDate	the 13th
+7	the 13th	IsDateOf	doctor appointment
+7	doctor appointment	HasParty	mother
+7	mother	IsPartyOf	doctor appointment
+-1	today	IsEqualTo	monday

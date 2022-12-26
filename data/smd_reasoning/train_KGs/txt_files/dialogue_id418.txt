@@ -1,0 +1,65 @@
+0	Dominos	HasAddress	776 Arastradero Rd
+0	Dominos	HasType	pizza restaurant
+0	776 Arastradero Rd	IsAddressOf	Dominos
+0	pizza restaurant	IsTypeOf	Dominos
+0	Dominos	HasTraffic	moderate traffic
+0	Dominos	HasDistance	1 miles
+0	moderate traffic	IsTrafficOf	Dominos
+0	1 miles	IsDistanceFrom	Dominos
+1	Pizza Hut	HasAddress	704 El Camino Real
+1	Pizza Hut	HasType	pizza restaurant
+1	704 El Camino Real	IsAddressOf	Pizza Hut
+1	pizza restaurant	IsTypeOf	Pizza Hut
+1	Pizza Hut	HasTraffic	moderate traffic
+1	Pizza Hut	HasDistance	2 miles
+1	moderate traffic	IsTrafficOf	Pizza Hut
+1	2 miles	IsDistanceFrom	Pizza Hut
+2	Chevron	HasAddress	783 Arcadia Pl
+2	Chevron	HasType	gas station
+2	783 Arcadia Pl	IsAddressOf	Chevron
+2	gas station	IsTypeOf	Chevron
+2	Chevron	HasTraffic	heavy traffic
+2	Chevron	HasDistance	3 miles
+2	heavy traffic	IsTrafficOf	Chevron
+2	3 miles	IsDistanceFrom	Chevron
+3	Panda Express	HasAddress	842 Arrowhead Way
+3	Panda Express	HasType	chinese restaurant
+3	842 Arrowhead Way	IsAddressOf	Panda Express
+3	chinese restaurant	IsTypeOf	Panda Express
+3	Panda Express	HasTraffic	car collision nearby
+3	Panda Express	HasDistance	1 miles
+3	car collision nearby	IsTrafficOf	Panda Express
+3	1 miles	IsDistanceFrom	Panda Express
+4	Ravenswood Shopping Center	HasAddress	434 Arastradero Rd
+4	Ravenswood Shopping Center	HasType	shopping center
+4	434 Arastradero Rd	IsAddressOf	Ravenswood Shopping Center
+4	shopping center	IsTypeOf	Ravenswood Shopping Center
+4	Ravenswood Shopping Center	HasTraffic	heavy traffic
+4	Ravenswood Shopping Center	HasDistance	4 miles
+4	heavy traffic	IsTrafficOf	Ravenswood Shopping Center
+4	4 miles	IsDistanceFrom	Ravenswood Shopping Center
+5	Palo Alto Medical Foundation	HasAddress	611 Ames Ave
+5	Palo Alto Medical Foundation	HasType	hospital
+5	611 Ames Ave	IsAddressOf	Palo Alto Medical Foundation
+5	hospital	IsTypeOf	Palo Alto Medical Foundation
+5	Palo Alto Medical Foundation	HasTraffic	no traffic
+5	Palo Alto Medical Foundation	HasDistance	7 miles
+5	no traffic	IsTrafficOf	Palo Alto Medical Foundation
+5	7 miles	IsDistanceFrom	Palo Alto Medical Foundation
+6	Stanford Oval Parking	HasAddress	610 Amarillo Ave
+6	Stanford Oval Parking	HasType	parking garage
+6	610 Amarillo Ave	IsAddressOf	Stanford Oval Parking
+6	parking garage	IsTypeOf	Stanford Oval Parking
+6	Stanford Oval Parking	HasTraffic	moderate traffic
+6	Stanford Oval Parking	HasDistance	1 miles
+6	moderate traffic	IsTrafficOf	Stanford Oval Parking
+6	1 miles	IsDistanceFrom	Stanford Oval Parking
+7	Pizza My Heart	HasAddress	528 Anton Ct
+7	Pizza My Heart	HasType	pizza restaurant
+7	528 Anton Ct	IsAddressOf	Pizza My Heart
+7	pizza restaurant	IsTypeOf	Pizza My Heart
+7	Pizza My Heart	HasTraffic	moderate traffic
+7	Pizza My Heart	HasDistance	6 miles
+7	moderate traffic	IsTrafficOf	Pizza My Heart
+7	6 miles	IsDistanceFrom	Pizza My Heart
+-1	today	IsEqualTo	monday

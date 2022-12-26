@@ -1,0 +1,65 @@
+0	Jing Jing	HasAddress	113 Arbol Dr
+0	Jing Jing	HasType	chinese restaurant
+0	113 Arbol Dr	IsAddressOf	Jing Jing
+0	chinese restaurant	IsTypeOf	Jing Jing
+0	Jing Jing	HasTraffic	no traffic
+0	Jing Jing	HasDistance	2 miles
+0	no traffic	IsTrafficOf	Jing Jing
+0	2 miles	IsDistanceFrom	Jing Jing
+1	Mandarin Roots	HasAddress	271 Springer Street
+1	Mandarin Roots	HasType	chinese restaurant
+1	271 Springer Street	IsAddressOf	Mandarin Roots
+1	chinese restaurant	IsTypeOf	Mandarin Roots
+1	Mandarin Roots	HasTraffic	road block nearby
+1	Mandarin Roots	HasDistance	6 miles
+1	road block nearby	IsTrafficOf	Mandarin Roots
+1	6 miles	IsDistanceFrom	Mandarin Roots
+2	Hotel Keen	HasAddress	578 Arbol Dr
+2	Hotel Keen	HasType	rest stop
+2	578 Arbol Dr	IsAddressOf	Hotel Keen
+2	rest stop	IsTypeOf	Hotel Keen
+2	Hotel Keen	HasTraffic	heavy traffic
+2	Hotel Keen	HasDistance	4 miles
+2	heavy traffic	IsTrafficOf	Hotel Keen
+2	4 miles	IsDistanceFrom	Hotel Keen
+3	Ravenswood Shopping Center	HasAddress	434 Arastradero Rd
+3	Ravenswood Shopping Center	HasType	shopping center
+3	434 Arastradero Rd	IsAddressOf	Ravenswood Shopping Center
+3	shopping center	IsTypeOf	Ravenswood Shopping Center
+3	Ravenswood Shopping Center	HasTraffic	road block nearby
+3	Ravenswood Shopping Center	HasDistance	7 miles
+3	road block nearby	IsTrafficOf	Ravenswood Shopping Center
+3	7 miles	IsDistanceFrom	Ravenswood Shopping Center
+4	Coupa	HasAddress	394 Van Ness Ave
+4	Coupa	HasType	coffee or tea place
+4	394 Van Ness Ave	IsAddressOf	Coupa
+4	coffee or tea place	IsTypeOf	Coupa
+4	Coupa	HasTraffic	car collision nearby
+4	Coupa	HasDistance	3 miles
+4	car collision nearby	IsTrafficOf	Coupa
+4	3 miles	IsDistanceFrom	Coupa
+5	Pizza My Heart	HasAddress	528 Anton Ct
+5	Pizza My Heart	HasType	pizza restaurant
+5	528 Anton Ct	IsAddressOf	Pizza My Heart
+5	pizza restaurant	IsTypeOf	Pizza My Heart
+5	Pizza My Heart	HasTraffic	heavy traffic
+5	Pizza My Heart	HasDistance	2 miles
+5	heavy traffic	IsTrafficOf	Pizza My Heart
+5	2 miles	IsDistanceFrom	Pizza My Heart
+6	Dish Parking	HasAddress	550 Alester Ave
+6	Dish Parking	HasType	parking garage
+6	550 Alester Ave	IsAddressOf	Dish Parking
+6	parking garage	IsTypeOf	Dish Parking
+6	Dish Parking	HasTraffic	no traffic
+6	Dish Parking	HasDistance	4 miles
+6	no traffic	IsTrafficOf	Dish Parking
+6	4 miles	IsDistanceFrom	Dish Parking
+7	Travelers Lodge	HasAddress	333 Arbol Dr
+7	Travelers Lodge	HasType	rest stop
+7	333 Arbol Dr	IsAddressOf	Travelers Lodge
+7	rest stop	IsTypeOf	Travelers Lodge
+7	Travelers Lodge	HasTraffic	car collision nearby
+7	Travelers Lodge	HasDistance	3 miles
+7	car collision nearby	IsTrafficOf	Travelers Lodge
+7	3 miles	IsDistanceFrom	Travelers Lodge
+-1	today	IsEqualTo	monday

@@ -1,0 +1,57 @@
+0	Panda Express	HasAddress	842 Arrowhead Way
+0	Panda Express	HasType	chinese restaurant
+0	842 Arrowhead Way	IsAddressOf	Panda Express
+0	chinese restaurant	IsTypeOf	Panda Express
+0	Panda Express	HasTraffic	no traffic
+0	Panda Express	HasDistance	5 miles
+0	no traffic	IsTrafficOf	Panda Express
+0	5 miles	IsDistanceFrom	Panda Express
+1	Mandarin Roots	HasAddress	271 Springer Street
+1	Mandarin Roots	HasType	chinese restaurant
+1	271 Springer Street	IsAddressOf	Mandarin Roots
+1	chinese restaurant	IsTypeOf	Mandarin Roots
+1	Mandarin Roots	HasTraffic	no traffic
+1	Mandarin Roots	HasDistance	4 miles
+1	no traffic	IsTrafficOf	Mandarin Roots
+1	4 miles	IsDistanceFrom	Mandarin Roots
+2	Pizza Hut	HasAddress	704 El Camino Real
+2	Pizza Hut	HasType	pizza restaurant
+2	704 El Camino Real	IsAddressOf	Pizza Hut
+2	pizza restaurant	IsTypeOf	Pizza Hut
+2	Pizza Hut	HasTraffic	heavy traffic
+2	Pizza Hut	HasDistance	4 miles
+2	heavy traffic	IsTrafficOf	Pizza Hut
+2	4 miles	IsDistanceFrom	Pizza Hut
+3	Whole Foods	HasAddress	819 Alma St
+3	Whole Foods	HasType	grocery store
+3	819 Alma St	IsAddressOf	Whole Foods
+3	grocery store	IsTypeOf	Whole Foods
+3	Whole Foods	HasTraffic	no traffic
+3	Whole Foods	HasDistance	6 miles
+3	no traffic	IsTrafficOf	Whole Foods
+3	6 miles	IsDistanceFrom	Whole Foods
+4	Pizza My Heart	HasAddress	528 Anton Ct
+4	Pizza My Heart	HasType	pizza restaurant
+4	528 Anton Ct	IsAddressOf	Pizza My Heart
+4	pizza restaurant	IsTypeOf	Pizza My Heart
+4	Pizza My Heart	HasTraffic	heavy traffic
+4	Pizza My Heart	HasDistance	1 miles
+4	heavy traffic	IsTrafficOf	Pizza My Heart
+4	1 miles	IsDistanceFrom	Pizza My Heart
+5	Stanford Childrens Health	HasAddress	899 Ames Ct
+5	Stanford Childrens Health	HasType	hospital
+5	899 Ames Ct	IsAddressOf	Stanford Childrens Health
+5	hospital	IsTypeOf	Stanford Childrens Health
+5	Stanford Childrens Health	HasTraffic	heavy traffic
+5	Stanford Childrens Health	HasDistance	5 miles
+5	heavy traffic	IsTrafficOf	Stanford Childrens Health
+5	5 miles	IsDistanceFrom	Stanford Childrens Health
+6	The Clement Hotel	HasAddress	657 Ames Ave
+6	The Clement Hotel	HasType	rest stop
+6	657 Ames Ave	IsAddressOf	The Clement Hotel
+6	rest stop	IsTypeOf	The Clement Hotel
+6	The Clement Hotel	HasTraffic	no traffic
+6	The Clement Hotel	HasDistance	5 miles
+6	no traffic	IsTrafficOf	The Clement Hotel
+6	5 miles	IsDistanceFrom	The Clement Hotel
+-1	today	IsEqualTo	monday

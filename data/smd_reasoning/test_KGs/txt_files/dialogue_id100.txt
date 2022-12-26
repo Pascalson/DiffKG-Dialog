@@ -1,0 +1,57 @@
+0	Pizza Hut	HasAddress	704 El Camino Real
+0	Pizza Hut	HasType	pizza restaurant
+0	704 El Camino Real	IsAddressOf	Pizza Hut
+0	pizza restaurant	IsTypeOf	Pizza Hut
+0	Pizza Hut	HasTraffic	no traffic
+0	Pizza Hut	HasDistance	6 miles
+0	no traffic	IsTrafficOf	Pizza Hut
+0	6 miles	IsDistanceFrom	Pizza Hut
+1	Stanford Oval Parking	HasAddress	610 Amarillo Ave
+1	Stanford Oval Parking	HasType	parking garage
+1	610 Amarillo Ave	IsAddressOf	Stanford Oval Parking
+1	parking garage	IsTypeOf	Stanford Oval Parking
+1	Stanford Oval Parking	HasTraffic	moderate traffic
+1	Stanford Oval Parking	HasDistance	2 miles
+1	moderate traffic	IsTrafficOf	Stanford Oval Parking
+1	2 miles	IsDistanceFrom	Stanford Oval Parking
+2	Town and Country	HasAddress	383 University Ave
+2	Town and Country	HasType	shopping center
+2	383 University Ave	IsAddressOf	Town and Country
+2	shopping center	IsTypeOf	Town and Country
+2	Town and Country	HasTraffic	moderate traffic
+2	Town and Country	HasDistance	5 miles
+2	moderate traffic	IsTrafficOf	Town and Country
+2	5 miles	IsDistanceFrom	Town and Country
+3	Pizza Chicago	HasAddress	915 Arbol Dr
+3	Pizza Chicago	HasType	pizza restaurant
+3	915 Arbol Dr	IsAddressOf	Pizza Chicago
+3	pizza restaurant	IsTypeOf	Pizza Chicago
+3	Pizza Chicago	HasTraffic	moderate traffic
+3	Pizza Chicago	HasDistance	5 miles
+3	moderate traffic	IsTrafficOf	Pizza Chicago
+3	5 miles	IsDistanceFrom	Pizza Chicago
+4	The Westin	HasAddress	329 El Camino Real
+4	The Westin	HasType	rest stop
+4	329 El Camino Real	IsAddressOf	The Westin
+4	rest stop	IsTypeOf	The Westin
+4	The Westin	HasTraffic	moderate traffic
+4	The Westin	HasDistance	4 miles
+4	moderate traffic	IsTrafficOf	The Westin
+4	4 miles	IsDistanceFrom	The Westin
+5	home	HasAddress	10 ames street
+5	home	HasType	home
+5	10 ames street	IsAddressOf	home
+5	home	IsTypeOf	home
+5	home	HasTraffic	no traffic
+5	home	HasDistance	4 miles
+5	no traffic	IsTrafficOf	home
+5	4 miles	IsDistanceFrom	home
+6	Mandarin Roots	HasAddress	271 Springer Street
+6	Mandarin Roots	HasType	chinese restaurant
+6	271 Springer Street	IsAddressOf	Mandarin Roots
+6	chinese restaurant	IsTypeOf	Mandarin Roots
+6	Mandarin Roots	HasTraffic	heavy traffic
+6	Mandarin Roots	HasDistance	4 miles
+6	heavy traffic	IsTrafficOf	Mandarin Roots
+6	4 miles	IsDistanceFrom	Mandarin Roots
+-1	today	IsEqualTo	monday

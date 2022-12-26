@@ -1,0 +1,57 @@
+0	Midtown Shopping Center	HasAddress	338 Alester Ave
+0	Midtown Shopping Center	HasType	shopping center
+0	338 Alester Ave	IsAddressOf	Midtown Shopping Center
+0	shopping center	IsTypeOf	Midtown Shopping Center
+0	Midtown Shopping Center	HasTraffic	no traffic
+0	Midtown Shopping Center	HasDistance	3 miles
+0	no traffic	IsTrafficOf	Midtown Shopping Center
+0	3 miles	IsDistanceFrom	Midtown Shopping Center
+1	Sigona Farmers Market	HasAddress	638 Amherst St
+1	Sigona Farmers Market	HasType	grocery store
+1	638 Amherst St	IsAddressOf	Sigona Farmers Market
+1	grocery store	IsTypeOf	Sigona Farmers Market
+1	Sigona Farmers Market	HasTraffic	no traffic
+1	Sigona Farmers Market	HasDistance	4 miles
+1	no traffic	IsTrafficOf	Sigona Farmers Market
+1	4 miles	IsDistanceFrom	Sigona Farmers Market
+2	Pizza My Heart	HasAddress	528 Anton Ct
+2	Pizza My Heart	HasType	pizza restaurant
+2	528 Anton Ct	IsAddressOf	Pizza My Heart
+2	pizza restaurant	IsTypeOf	Pizza My Heart
+2	Pizza My Heart	HasTraffic	moderate traffic
+2	Pizza My Heart	HasDistance	6 miles
+2	moderate traffic	IsTrafficOf	Pizza My Heart
+2	6 miles	IsDistanceFrom	Pizza My Heart
+3	home	HasAddress	5671 barringer street
+3	home	HasType	home
+3	5671 barringer street	IsAddressOf	home
+3	home	IsTypeOf	home
+3	home	HasTraffic	heavy traffic
+3	home	HasDistance	4 miles
+3	heavy traffic	IsTrafficOf	home
+3	4 miles	IsDistanceFrom	home
+4	Jing Jing	HasAddress	113 Arbol Dr
+4	Jing Jing	HasType	chinese restaurant
+4	113 Arbol Dr	IsAddressOf	Jing Jing
+4	chinese restaurant	IsTypeOf	Jing Jing
+4	Jing Jing	HasTraffic	heavy traffic
+4	Jing Jing	HasDistance	5 miles
+4	heavy traffic	IsTrafficOf	Jing Jing
+4	5 miles	IsDistanceFrom	Jing Jing
+5	Comfort Inn	HasAddress	753 University Ave
+5	Comfort Inn	HasType	rest stop
+5	753 University Ave	IsAddressOf	Comfort Inn
+5	rest stop	IsTypeOf	Comfort Inn
+5	Comfort Inn	HasTraffic	no traffic
+5	Comfort Inn	HasDistance	5 miles
+5	no traffic	IsTrafficOf	Comfort Inn
+5	5 miles	IsDistanceFrom	Comfort Inn
+6	Four Seasons	HasAddress	465 Arcadia Pl
+6	Four Seasons	HasType	rest stop
+6	465 Arcadia Pl	IsAddressOf	Four Seasons
+6	rest stop	IsTypeOf	Four Seasons
+6	Four Seasons	HasTraffic	heavy traffic
+6	Four Seasons	HasDistance	3 miles
+6	heavy traffic	IsTrafficOf	Four Seasons
+6	3 miles	IsDistanceFrom	Four Seasons
+-1	today	IsEqualTo	monday

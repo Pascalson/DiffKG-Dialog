@@ -1,0 +1,65 @@
+0	Civic Center Garage	HasAddress	270 Altaire Walk
+0	Civic Center Garage	HasType	parking garage
+0	270 Altaire Walk	IsAddressOf	Civic Center Garage
+0	parking garage	IsTypeOf	Civic Center Garage
+0	Civic Center Garage	HasTraffic	heavy traffic
+0	Civic Center Garage	HasDistance	1 miles
+0	heavy traffic	IsTrafficOf	Civic Center Garage
+0	1 miles	IsDistanceFrom	Civic Center Garage
+1	Teavana	HasAddress	145 Amherst St
+1	Teavana	HasType	coffee or tea place
+1	145 Amherst St	IsAddressOf	Teavana
+1	coffee or tea place	IsTypeOf	Teavana
+1	Teavana	HasTraffic	road block nearby
+1	Teavana	HasDistance	1 miles
+1	road block nearby	IsTrafficOf	Teavana
+1	1 miles	IsDistanceFrom	Teavana
+2	Topanga Mall	HasAddress	171 Oak Rd
+2	Topanga Mall	HasType	shopping center
+2	171 Oak Rd	IsAddressOf	Topanga Mall
+2	shopping center	IsTypeOf	Topanga Mall
+2	Topanga Mall	HasTraffic	no traffic
+2	Topanga Mall	HasDistance	5 miles
+2	no traffic	IsTrafficOf	Topanga Mall
+2	5 miles	IsDistanceFrom	Topanga Mall
+3	Chef Chu's	HasAddress	593 Arrowhead Way
+3	Chef Chu's	HasType	chinese restaurant
+3	593 Arrowhead Way	IsAddressOf	Chef Chu's
+3	chinese restaurant	IsTypeOf	Chef Chu's
+3	Chef Chu's	HasTraffic	car collision nearby
+3	Chef Chu's	HasDistance	4 miles
+3	car collision nearby	IsTrafficOf	Chef Chu's
+3	4 miles	IsDistanceFrom	Chef Chu's
+4	Stanford Childrens Health	HasAddress	899 Ames Ct
+4	Stanford Childrens Health	HasType	hospital
+4	899 Ames Ct	IsAddressOf	Stanford Childrens Health
+4	hospital	IsTypeOf	Stanford Childrens Health
+4	Stanford Childrens Health	HasTraffic	heavy traffic
+4	Stanford Childrens Health	HasDistance	3 miles
+4	heavy traffic	IsTrafficOf	Stanford Childrens Health
+4	3 miles	IsDistanceFrom	Stanford Childrens Health
+5	P.F. Changs	HasAddress	669 El Camino Real
+5	P.F. Changs	HasType	chinese restaurant
+5	669 El Camino Real	IsAddressOf	P.F. Changs
+5	chinese restaurant	IsTypeOf	P.F. Changs
+5	P.F. Changs	HasTraffic	no traffic
+5	P.F. Changs	HasDistance	5 miles
+5	no traffic	IsTrafficOf	P.F. Changs
+5	5 miles	IsDistanceFrom	P.F. Changs
+6	Round Table	HasAddress	113 Anton Ct
+6	Round Table	HasType	pizza restaurant
+6	113 Anton Ct	IsAddressOf	Round Table
+6	pizza restaurant	IsTypeOf	Round Table
+6	Round Table	HasTraffic	moderate traffic
+6	Round Table	HasDistance	1 miles
+6	moderate traffic	IsTrafficOf	Round Table
+6	1 miles	IsDistanceFrom	Round Table
+7	76	HasAddress	91 El Camino Real
+7	76	HasType	gas station
+7	91 El Camino Real	IsAddressOf	76
+7	gas station	IsTypeOf	76
+7	76	HasTraffic	no traffic
+7	76	HasDistance	6 miles
+7	no traffic	IsTrafficOf	76
+7	6 miles	IsDistanceFrom	76
+-1	today	IsEqualTo	monday

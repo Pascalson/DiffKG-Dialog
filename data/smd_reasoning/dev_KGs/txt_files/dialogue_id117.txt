@@ -1,0 +1,57 @@
+0	jills house	HasAddress	347 Alta Mesa Ave
+0	jills house	HasType	friends house
+0	347 Alta Mesa Ave	IsAddressOf	jills house
+0	friends house	IsTypeOf	jills house
+0	jills house	HasTraffic	heavy traffic
+0	jills house	HasDistance	4 miles
+0	heavy traffic	IsTrafficOf	jills house
+0	4 miles	IsDistanceFrom	jills house
+1	Coupa	HasAddress	394 Van Ness Ave
+1	Coupa	HasType	coffee or tea place
+1	394 Van Ness Ave	IsAddressOf	Coupa
+1	coffee or tea place	IsTypeOf	Coupa
+1	Coupa	HasTraffic	moderate traffic
+1	Coupa	HasDistance	6 miles
+1	moderate traffic	IsTrafficOf	Coupa
+1	6 miles	IsDistanceFrom	Coupa
+2	Chef Chu's	HasAddress	593 Arrowhead Way
+2	Chef Chu's	HasType	chinese restaurant
+2	593 Arrowhead Way	IsAddressOf	Chef Chu's
+2	chinese restaurant	IsTypeOf	Chef Chu's
+2	Chef Chu's	HasTraffic	heavy traffic
+2	Chef Chu's	HasDistance	5 miles
+2	heavy traffic	IsTrafficOf	Chef Chu's
+2	5 miles	IsDistanceFrom	Chef Chu's
+3	Starbucks	HasAddress	792 Bedoin Street
+3	Starbucks	HasType	coffee or tea place
+3	792 Bedoin Street	IsAddressOf	Starbucks
+3	coffee or tea place	IsTypeOf	Starbucks
+3	Starbucks	HasTraffic	no traffic
+3	Starbucks	HasDistance	6 miles
+3	no traffic	IsTrafficOf	Starbucks
+3	6 miles	IsDistanceFrom	Starbucks
+4	Safeway	HasAddress	452 Arcadia Pl
+4	Safeway	HasType	grocery store
+4	452 Arcadia Pl	IsAddressOf	Safeway
+4	grocery store	IsTypeOf	Safeway
+4	Safeway	HasTraffic	moderate traffic
+4	Safeway	HasDistance	4 miles
+4	moderate traffic	IsTrafficOf	Safeway
+4	4 miles	IsDistanceFrom	Safeway
+5	Midtown Shopping Center	HasAddress	338 Alester Ave
+5	Midtown Shopping Center	HasType	shopping center
+5	338 Alester Ave	IsAddressOf	Midtown Shopping Center
+5	shopping center	IsTypeOf	Midtown Shopping Center
+5	Midtown Shopping Center	HasTraffic	no traffic
+5	Midtown Shopping Center	HasDistance	3 miles
+5	no traffic	IsTrafficOf	Midtown Shopping Center
+5	3 miles	IsDistanceFrom	Midtown Shopping Center
+6	Mandarin Roots	HasAddress	271 Springer Street
+6	Mandarin Roots	HasType	chinese restaurant
+6	271 Springer Street	IsAddressOf	Mandarin Roots
+6	chinese restaurant	IsTypeOf	Mandarin Roots
+6	Mandarin Roots	HasTraffic	moderate traffic
+6	Mandarin Roots	HasDistance	4 miles
+6	moderate traffic	IsTrafficOf	Mandarin Roots
+6	4 miles	IsDistanceFrom	Mandarin Roots
+-1	today	IsEqualTo	monday

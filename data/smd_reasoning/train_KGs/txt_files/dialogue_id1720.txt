@@ -1,0 +1,57 @@
+0	jacks house	HasAddress	864 Almanor Ln
+0	jacks house	HasType	friends house
+0	864 Almanor Ln	IsAddressOf	jacks house
+0	friends house	IsTypeOf	jacks house
+0	jacks house	HasTraffic	no traffic
+0	jacks house	HasDistance	1 miles
+0	no traffic	IsTrafficOf	jacks house
+0	1 miles	IsDistanceFrom	jacks house
+1	jills house	HasAddress	347 Alta Mesa Ave
+1	jills house	HasType	friends house
+1	347 Alta Mesa Ave	IsAddressOf	jills house
+1	friends house	IsTypeOf	jills house
+1	jills house	HasTraffic	moderate traffic
+1	jills house	HasDistance	2 miles
+1	moderate traffic	IsTrafficOf	jills house
+1	2 miles	IsDistanceFrom	jills house
+2	The Westin	HasAddress	329 El Camino Real
+2	The Westin	HasType	rest stop
+2	329 El Camino Real	IsAddressOf	The Westin
+2	rest stop	IsTypeOf	The Westin
+2	The Westin	HasTraffic	moderate traffic
+2	The Westin	HasDistance	2 miles
+2	moderate traffic	IsTrafficOf	The Westin
+2	2 miles	IsDistanceFrom	The Westin
+3	5677 southwest 4th street	HasAddress	5677 southwest 4th street
+3	5677 southwest 4th street	HasType	certain address
+3	5677 southwest 4th street	IsAddressOf	5677 southwest 4th street
+3	certain address	IsTypeOf	5677 southwest 4th street
+3	5677 southwest 4th street	HasTraffic	heavy traffic
+3	5677 southwest 4th street	HasDistance	4 miles
+3	heavy traffic	IsTrafficOf	5677 southwest 4th street
+3	4 miles	IsDistanceFrom	5677 southwest 4th street
+4	Civic Center Garage	HasAddress	270 Altaire Walk
+4	Civic Center Garage	HasType	parking garage
+4	270 Altaire Walk	IsAddressOf	Civic Center Garage
+4	parking garage	IsTypeOf	Civic Center Garage
+4	Civic Center Garage	HasTraffic	moderate traffic
+4	Civic Center Garage	HasDistance	4 miles
+4	moderate traffic	IsTrafficOf	Civic Center Garage
+4	4 miles	IsDistanceFrom	Civic Center Garage
+5	Dish Parking	HasAddress	550 Alester Ave
+5	Dish Parking	HasType	parking garage
+5	550 Alester Ave	IsAddressOf	Dish Parking
+5	parking garage	IsTypeOf	Dish Parking
+5	Dish Parking	HasTraffic	no traffic
+5	Dish Parking	HasDistance	3 miles
+5	no traffic	IsTrafficOf	Dish Parking
+5	3 miles	IsDistanceFrom	Dish Parking
+6	Sigona Farmers Market	HasAddress	638 Amherst St
+6	Sigona Farmers Market	HasType	grocery store
+6	638 Amherst St	IsAddressOf	Sigona Farmers Market
+6	grocery store	IsTypeOf	Sigona Farmers Market
+6	Sigona Farmers Market	HasTraffic	heavy traffic
+6	Sigona Farmers Market	HasDistance	6 miles
+6	heavy traffic	IsTrafficOf	Sigona Farmers Market
+6	6 miles	IsDistanceFrom	Sigona Farmers Market
+-1	today	IsEqualTo	monday

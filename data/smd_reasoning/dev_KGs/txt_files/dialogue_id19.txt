@@ -1,0 +1,65 @@
+0	Dominos	HasAddress	776 Arastradero Rd
+0	Dominos	HasType	pizza restaurant
+0	776 Arastradero Rd	IsAddressOf	Dominos
+0	pizza restaurant	IsTypeOf	Dominos
+0	Dominos	HasTraffic	moderate traffic
+0	Dominos	HasDistance	3 miles
+0	moderate traffic	IsTrafficOf	Dominos
+0	3 miles	IsDistanceFrom	Dominos
+1	Papa Johns	HasAddress	110 Arastradero Rd
+1	Papa Johns	HasType	pizza restaurant
+1	110 Arastradero Rd	IsAddressOf	Papa Johns
+1	pizza restaurant	IsTypeOf	Papa Johns
+1	Papa Johns	HasTraffic	car collision nearby
+1	Papa Johns	HasDistance	5 miles
+1	car collision nearby	IsTrafficOf	Papa Johns
+1	5 miles	IsDistanceFrom	Papa Johns
+2	5677 springer street	HasAddress	5677 springer street
+2	5677 springer street	HasType	certain address
+2	5677 springer street	IsAddressOf	5677 springer street
+2	certain address	IsTypeOf	5677 springer street
+2	5677 springer street	HasTraffic	moderate traffic
+2	5677 springer street	HasDistance	6 miles
+2	moderate traffic	IsTrafficOf	5677 springer street
+2	6 miles	IsDistanceFrom	5677 springer street
+3	Chef Chu's	HasAddress	593 Arrowhead Way
+3	Chef Chu's	HasType	chinese restaurant
+3	593 Arrowhead Way	IsAddressOf	Chef Chu's
+3	chinese restaurant	IsTypeOf	Chef Chu's
+3	Chef Chu's	HasTraffic	no traffic
+3	Chef Chu's	HasDistance	2 miles
+3	no traffic	IsTrafficOf	Chef Chu's
+3	2 miles	IsDistanceFrom	Chef Chu's
+4	home	HasAddress	10 ames street
+4	home	HasType	home
+4	10 ames street	IsAddressOf	home
+4	home	IsTypeOf	home
+4	home	HasTraffic	no traffic
+4	home	HasDistance	8 miles
+4	no traffic	IsTrafficOf	home
+4	8 miles	IsDistanceFrom	home
+5	Shell	HasAddress	53 University Av
+5	Shell	HasType	gas station
+5	53 University Av	IsAddressOf	Shell
+5	gas station	IsTypeOf	Shell
+5	Shell	HasTraffic	heavy traffic
+5	Shell	HasDistance	2 miles
+5	heavy traffic	IsTrafficOf	Shell
+5	2 miles	IsDistanceFrom	Shell
+6	Cafe Venetia	HasAddress	269 Alger Dr
+6	Cafe Venetia	HasType	coffee or tea place
+6	269 Alger Dr	IsAddressOf	Cafe Venetia
+6	coffee or tea place	IsTypeOf	Cafe Venetia
+6	Cafe Venetia	HasTraffic	heavy traffic
+6	Cafe Venetia	HasDistance	6 miles
+6	heavy traffic	IsTrafficOf	Cafe Venetia
+6	6 miles	IsDistanceFrom	Cafe Venetia
+7	Stanford Oval Parking	HasAddress	610 Amarillo Ave
+7	Stanford Oval Parking	HasType	parking garage
+7	610 Amarillo Ave	IsAddressOf	Stanford Oval Parking
+7	parking garage	IsTypeOf	Stanford Oval Parking
+7	Stanford Oval Parking	HasTraffic	car collision nearby
+7	Stanford Oval Parking	HasDistance	2 miles
+7	car collision nearby	IsTrafficOf	Stanford Oval Parking
+7	2 miles	IsDistanceFrom	Stanford Oval Parking
+-1	today	IsEqualTo	monday

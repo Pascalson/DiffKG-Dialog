@@ -1,0 +1,57 @@
+0	Stanford Childrens Health	HasAddress	899 Ames Ct
+0	Stanford Childrens Health	HasType	hospital
+0	899 Ames Ct	IsAddressOf	Stanford Childrens Health
+0	hospital	IsTypeOf	Stanford Childrens Health
+0	Stanford Childrens Health	HasTraffic	heavy traffic
+0	Stanford Childrens Health	HasDistance	3 miles
+0	heavy traffic	IsTrafficOf	Stanford Childrens Health
+0	3 miles	IsDistanceFrom	Stanford Childrens Health
+1	Dominos	HasAddress	776 Arastradero Rd
+1	Dominos	HasType	pizza restaurant
+1	776 Arastradero Rd	IsAddressOf	Dominos
+1	pizza restaurant	IsTypeOf	Dominos
+1	Dominos	HasTraffic	moderate traffic
+1	Dominos	HasDistance	5 miles
+1	moderate traffic	IsTrafficOf	Dominos
+1	5 miles	IsDistanceFrom	Dominos
+2	Round Table	HasAddress	113 Anton Ct
+2	Round Table	HasType	pizza restaurant
+2	113 Anton Ct	IsAddressOf	Round Table
+2	pizza restaurant	IsTypeOf	Round Table
+2	Round Table	HasTraffic	no traffic
+2	Round Table	HasDistance	2 miles
+2	no traffic	IsTrafficOf	Round Table
+2	2 miles	IsDistanceFrom	Round Table
+3	Starbucks	HasAddress	792 Bedoin Street
+3	Starbucks	HasType	coffee or tea place
+3	792 Bedoin Street	IsAddressOf	Starbucks
+3	coffee or tea place	IsTypeOf	Starbucks
+3	Starbucks	HasTraffic	no traffic
+3	Starbucks	HasDistance	1 miles
+3	no traffic	IsTrafficOf	Starbucks
+3	1 miles	IsDistanceFrom	Starbucks
+4	Panda Express	HasAddress	842 Arrowhead Way
+4	Panda Express	HasType	chinese restaurant
+4	842 Arrowhead Way	IsAddressOf	Panda Express
+4	chinese restaurant	IsTypeOf	Panda Express
+4	Panda Express	HasTraffic	moderate traffic
+4	Panda Express	HasDistance	4 miles
+4	moderate traffic	IsTrafficOf	Panda Express
+4	4 miles	IsDistanceFrom	Panda Express
+5	Stanford Shopping Center	HasAddress	773 Alger Dr
+5	Stanford Shopping Center	HasType	shopping center
+5	773 Alger Dr	IsAddressOf	Stanford Shopping Center
+5	shopping center	IsTypeOf	Stanford Shopping Center
+5	Stanford Shopping Center	HasTraffic	no traffic
+5	Stanford Shopping Center	HasDistance	1 miles
+5	no traffic	IsTrafficOf	Stanford Shopping Center
+5	1 miles	IsDistanceFrom	Stanford Shopping Center
+6	5672 barringer street	HasAddress	5672 barringer street
+6	5672 barringer street	HasType	certain address
+6	5672 barringer street	IsAddressOf	5672 barringer street
+6	certain address	IsTypeOf	5672 barringer street
+6	5672 barringer street	HasTraffic	no traffic
+6	5672 barringer street	HasDistance	5 miles
+6	no traffic	IsTrafficOf	5672 barringer street
+6	5 miles	IsDistanceFrom	5672 barringer street
+-1	today	IsEqualTo	monday

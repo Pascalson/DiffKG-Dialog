@@ -1,0 +1,57 @@
+0	P.F. Changs	HasAddress	669 El Camino Real
+0	P.F. Changs	HasType	chinese restaurant
+0	669 El Camino Real	IsAddressOf	P.F. Changs
+0	chinese restaurant	IsTypeOf	P.F. Changs
+0	P.F. Changs	HasTraffic	heavy traffic
+0	P.F. Changs	HasDistance	2 miles
+0	heavy traffic	IsTrafficOf	P.F. Changs
+0	2 miles	IsDistanceFrom	P.F. Changs
+1	Comfort Inn	HasAddress	753 University Ave
+1	Comfort Inn	HasType	rest stop
+1	753 University Ave	IsAddressOf	Comfort Inn
+1	rest stop	IsTypeOf	Comfort Inn
+1	Comfort Inn	HasTraffic	moderate traffic
+1	Comfort Inn	HasDistance	5 miles
+1	moderate traffic	IsTrafficOf	Comfort Inn
+1	5 miles	IsDistanceFrom	Comfort Inn
+2	Pizza Chicago	HasAddress	915 Arbol Dr
+2	Pizza Chicago	HasType	pizza restaurant
+2	915 Arbol Dr	IsAddressOf	Pizza Chicago
+2	pizza restaurant	IsTypeOf	Pizza Chicago
+2	Pizza Chicago	HasTraffic	moderate traffic
+2	Pizza Chicago	HasDistance	4 miles
+2	moderate traffic	IsTrafficOf	Pizza Chicago
+2	4 miles	IsDistanceFrom	Pizza Chicago
+3	tai pan	HasAddress	830 Almanor Ln
+3	tai pan	HasType	chinese restaurant
+3	830 Almanor Ln	IsAddressOf	tai pan
+3	chinese restaurant	IsTypeOf	tai pan
+3	tai pan	HasTraffic	moderate traffic
+3	tai pan	HasDistance	6 miles
+3	moderate traffic	IsTrafficOf	tai pan
+3	6 miles	IsDistanceFrom	tai pan
+4	Hotel Keen	HasAddress	578 Arbol Dr
+4	Hotel Keen	HasType	rest stop
+4	578 Arbol Dr	IsAddressOf	Hotel Keen
+4	rest stop	IsTypeOf	Hotel Keen
+4	Hotel Keen	HasTraffic	no traffic
+4	Hotel Keen	HasDistance	4 miles
+4	no traffic	IsTrafficOf	Hotel Keen
+4	4 miles	IsDistanceFrom	Hotel Keen
+5	Town and Country	HasAddress	383 University Ave
+5	Town and Country	HasType	shopping center
+5	383 University Ave	IsAddressOf	Town and Country
+5	shopping center	IsTypeOf	Town and Country
+5	Town and Country	HasTraffic	moderate traffic
+5	Town and Country	HasDistance	5 miles
+5	moderate traffic	IsTrafficOf	Town and Country
+5	5 miles	IsDistanceFrom	Town and Country
+6	Jing Jing	HasAddress	113 Arbol Dr
+6	Jing Jing	HasType	chinese restaurant
+6	113 Arbol Dr	IsAddressOf	Jing Jing
+6	chinese restaurant	IsTypeOf	Jing Jing
+6	Jing Jing	HasTraffic	heavy traffic
+6	Jing Jing	HasDistance	3 miles
+6	heavy traffic	IsTrafficOf	Jing Jing
+6	3 miles	IsDistanceFrom	Jing Jing
+-1	today	IsEqualTo	monday

@@ -1,0 +1,57 @@
+0	Stanford Childrens Health	HasAddress	899 Ames Ct
+0	Stanford Childrens Health	HasType	hospital
+0	899 Ames Ct	IsAddressOf	Stanford Childrens Health
+0	hospital	IsTypeOf	Stanford Childrens Health
+0	Stanford Childrens Health	HasTraffic	heavy traffic
+0	Stanford Childrens Health	HasDistance	5 miles
+0	heavy traffic	IsTrafficOf	Stanford Childrens Health
+0	5 miles	IsDistanceFrom	Stanford Childrens Health
+1	Cafe Venetia	HasAddress	269 Alger Dr
+1	Cafe Venetia	HasType	coffee or tea place
+1	269 Alger Dr	IsAddressOf	Cafe Venetia
+1	coffee or tea place	IsTypeOf	Cafe Venetia
+1	Cafe Venetia	HasTraffic	no traffic
+1	Cafe Venetia	HasDistance	4 miles
+1	no traffic	IsTrafficOf	Cafe Venetia
+1	4 miles	IsDistanceFrom	Cafe Venetia
+2	Hotel Keen	HasAddress	578 Arbol Dr
+2	Hotel Keen	HasType	rest stop
+2	578 Arbol Dr	IsAddressOf	Hotel Keen
+2	rest stop	IsTypeOf	Hotel Keen
+2	Hotel Keen	HasTraffic	heavy traffic
+2	Hotel Keen	HasDistance	5 miles
+2	heavy traffic	IsTrafficOf	Hotel Keen
+2	5 miles	IsDistanceFrom	Hotel Keen
+3	Town and Country	HasAddress	383 University Ave
+3	Town and Country	HasType	shopping center
+3	383 University Ave	IsAddressOf	Town and Country
+3	shopping center	IsTypeOf	Town and Country
+3	Town and Country	HasTraffic	heavy traffic
+3	Town and Country	HasDistance	4 miles
+3	heavy traffic	IsTrafficOf	Town and Country
+3	4 miles	IsDistanceFrom	Town and Country
+4	The Westin	HasAddress	329 El Camino Real
+4	The Westin	HasType	rest stop
+4	329 El Camino Real	IsAddressOf	The Westin
+4	rest stop	IsTypeOf	The Westin
+4	The Westin	HasTraffic	no traffic
+4	The Westin	HasDistance	4 miles
+4	no traffic	IsTrafficOf	The Westin
+4	4 miles	IsDistanceFrom	The Westin
+5	Pizza Hut	HasAddress	704 El Camino Real
+5	Pizza Hut	HasType	pizza restaurant
+5	704 El Camino Real	IsAddressOf	Pizza Hut
+5	pizza restaurant	IsTypeOf	Pizza Hut
+5	Pizza Hut	HasTraffic	heavy traffic
+5	Pizza Hut	HasDistance	3 miles
+5	heavy traffic	IsTrafficOf	Pizza Hut
+5	3 miles	IsDistanceFrom	Pizza Hut
+6	Four Seasons	HasAddress	465 Arcadia Pl
+6	Four Seasons	HasType	rest stop
+6	465 Arcadia Pl	IsAddressOf	Four Seasons
+6	rest stop	IsTypeOf	Four Seasons
+6	Four Seasons	HasTraffic	heavy traffic
+6	Four Seasons	HasDistance	3 miles
+6	heavy traffic	IsTrafficOf	Four Seasons
+6	3 miles	IsDistanceFrom	Four Seasons
+-1	today	IsEqualTo	monday

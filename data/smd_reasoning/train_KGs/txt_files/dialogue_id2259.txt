@@ -1,0 +1,61 @@
+0	dinner	HasTime	5pm
+0	5pm	IsTimeOf	dinner
+0	dinner	HasDate	tuesday
+0	tuesday	IsDateOf	dinner
+0	dinner	HasParty	Jon
+0	Jon	IsPartyOf	dinner
+1	dinner	HasTime	6pm
+1	6pm	IsTimeOf	dinner
+1	dinner	HasDate	the 4th
+1	the 4th	IsDateOf	dinner
+1	dinner	HasParty	father
+1	father	IsPartyOf	dinner
+2	football activity	HasTime	2pm
+2	2pm	IsTimeOf	football activity
+2	football activity	HasDate	tuesday
+2	tuesday	IsDateOf	football activity
+2	football activity	HasParty	father
+2	father	IsPartyOf	football activity
+3	conference	HasTime	3pm
+3	3pm	IsTimeOf	conference
+3	conference	HasDate	the 2nd
+3	the 2nd	IsDateOf	conference
+3	conference	HasParty	boss
+3	boss	IsPartyOf	conference
+3	conference	HasRoom	conference room 102
+3	conference room 102	IsRoomOf	conference
+3	conference	HasAgenda	sign the NDA
+3	sign the NDA	IsAgendaOf	conference
+4	meeting	HasTime	2pm
+4	2pm	IsTimeOf	meeting
+4	meeting	HasDate	the 19th
+4	the 19th	IsDateOf	meeting
+4	meeting	HasParty	executive team
+4	executive team	IsPartyOf	meeting
+4	meeting	HasRoom	conference room 50
+4	conference room 50	IsRoomOf	meeting
+4	meeting	HasAgenda	go over budget
+4	go over budget	IsAgendaOf	meeting
+5	swimming activity	HasTime	11am
+5	11am	IsTimeOf	swimming activity
+5	swimming activity	HasDate	the 8th
+5	the 8th	IsDateOf	swimming activity
+5	swimming activity	HasParty	Marie
+5	Marie	IsPartyOf	swimming activity
+6	swimming activity	HasTime	7pm
+6	7pm	IsTimeOf	swimming activity
+6	swimming activity	HasDate	the 13th
+6	the 13th	IsDateOf	swimming activity
+6	swimming activity	HasParty	Ana
+6	Ana	IsPartyOf	swimming activity
+7	conference	HasTime	7pm
+7	7pm	IsTimeOf	conference
+7	conference	HasDate	the 14th
+7	the 14th	IsDateOf	conference
+7	conference	HasParty	HR
+7	HR	IsPartyOf	conference
+7	conference	HasRoom	conference room 100
+7	conference room 100	IsRoomOf	conference
+7	conference	HasAgenda	discuss the merger
+7	discuss the merger	IsAgendaOf	conference
+-1	today	IsEqualTo	monday

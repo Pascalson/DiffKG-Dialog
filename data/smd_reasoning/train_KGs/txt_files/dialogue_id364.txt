@@ -1,0 +1,57 @@
+0	Webster Garage	HasAddress	880 Ames Ct
+0	Webster Garage	HasType	parking garage
+0	880 Ames Ct	IsAddressOf	Webster Garage
+0	parking garage	IsTypeOf	Webster Garage
+0	Webster Garage	HasTraffic	heavy traffic
+0	Webster Garage	HasDistance	1 miles
+0	heavy traffic	IsTrafficOf	Webster Garage
+0	1 miles	IsDistanceFrom	Webster Garage
+1	Stanford Childrens Health	HasAddress	899 Ames Ct
+1	Stanford Childrens Health	HasType	hospital
+1	899 Ames Ct	IsAddressOf	Stanford Childrens Health
+1	hospital	IsTypeOf	Stanford Childrens Health
+1	Stanford Childrens Health	HasTraffic	moderate traffic
+1	Stanford Childrens Health	HasDistance	6 miles
+1	moderate traffic	IsTrafficOf	Stanford Childrens Health
+1	6 miles	IsDistanceFrom	Stanford Childrens Health
+2	The Clement Hotel	HasAddress	657 Ames Ave
+2	The Clement Hotel	HasType	rest stop
+2	657 Ames Ave	IsAddressOf	The Clement Hotel
+2	rest stop	IsTypeOf	The Clement Hotel
+2	The Clement Hotel	HasTraffic	moderate traffic
+2	The Clement Hotel	HasDistance	6 miles
+2	moderate traffic	IsTrafficOf	The Clement Hotel
+2	6 miles	IsDistanceFrom	The Clement Hotel
+3	Starbucks	HasAddress	792 Bedoin Street
+3	Starbucks	HasType	coffee or tea place
+3	792 Bedoin Street	IsAddressOf	Starbucks
+3	coffee or tea place	IsTypeOf	Starbucks
+3	Starbucks	HasTraffic	no traffic
+3	Starbucks	HasDistance	3 miles
+3	no traffic	IsTrafficOf	Starbucks
+3	3 miles	IsDistanceFrom	Starbucks
+4	home	HasAddress	5671 barringer street
+4	home	HasType	home
+4	5671 barringer street	IsAddressOf	home
+4	home	IsTypeOf	home
+4	home	HasTraffic	heavy traffic
+4	home	HasDistance	4 miles
+4	heavy traffic	IsTrafficOf	home
+4	4 miles	IsDistanceFrom	home
+5	Pizza My Heart	HasAddress	528 Anton Ct
+5	Pizza My Heart	HasType	pizza restaurant
+5	528 Anton Ct	IsAddressOf	Pizza My Heart
+5	pizza restaurant	IsTypeOf	Pizza My Heart
+5	Pizza My Heart	HasTraffic	moderate traffic
+5	Pizza My Heart	HasDistance	1 miles
+5	moderate traffic	IsTrafficOf	Pizza My Heart
+5	1 miles	IsDistanceFrom	Pizza My Heart
+6	Pizza Chicago	HasAddress	915 Arbol Dr
+6	Pizza Chicago	HasType	pizza restaurant
+6	915 Arbol Dr	IsAddressOf	Pizza Chicago
+6	pizza restaurant	IsTypeOf	Pizza Chicago
+6	Pizza Chicago	HasTraffic	moderate traffic
+6	Pizza Chicago	HasDistance	1 miles
+6	moderate traffic	IsTrafficOf	Pizza Chicago
+6	1 miles	IsDistanceFrom	Pizza Chicago
+-1	today	IsEqualTo	monday

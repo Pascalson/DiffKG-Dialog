@@ -1,0 +1,57 @@
+0	Round Table	HasAddress	113 Anton Ct
+0	Round Table	HasType	pizza restaurant
+0	113 Anton Ct	IsAddressOf	Round Table
+0	pizza restaurant	IsTypeOf	Round Table
+0	Round Table	HasTraffic	heavy traffic
+0	Round Table	HasDistance	5 miles
+0	heavy traffic	IsTrafficOf	Round Table
+0	5 miles	IsDistanceFrom	Round Table
+1	Valero	HasAddress	200 Alester Ave
+1	Valero	HasType	gas station
+1	200 Alester Ave	IsAddressOf	Valero
+1	gas station	IsTypeOf	Valero
+1	Valero	HasTraffic	moderate traffic
+1	Valero	HasDistance	1 miles
+1	moderate traffic	IsTrafficOf	Valero
+1	1 miles	IsDistanceFrom	Valero
+2	Hotel Keen	HasAddress	578 Arbol Dr
+2	Hotel Keen	HasType	rest stop
+2	578 Arbol Dr	IsAddressOf	Hotel Keen
+2	rest stop	IsTypeOf	Hotel Keen
+2	Hotel Keen	HasTraffic	no traffic
+2	Hotel Keen	HasDistance	3 miles
+2	no traffic	IsTrafficOf	Hotel Keen
+2	3 miles	IsDistanceFrom	Hotel Keen
+3	Teavana	HasAddress	145 Amherst St
+3	Teavana	HasType	coffee or tea place
+3	145 Amherst St	IsAddressOf	Teavana
+3	coffee or tea place	IsTypeOf	Teavana
+3	Teavana	HasTraffic	heavy traffic
+3	Teavana	HasDistance	6 miles
+3	heavy traffic	IsTrafficOf	Teavana
+3	6 miles	IsDistanceFrom	Teavana
+4	Chef Chu's	HasAddress	593 Arrowhead Way
+4	Chef Chu's	HasType	chinese restaurant
+4	593 Arrowhead Way	IsAddressOf	Chef Chu's
+4	chinese restaurant	IsTypeOf	Chef Chu's
+4	Chef Chu's	HasTraffic	moderate traffic
+4	Chef Chu's	HasDistance	2 miles
+4	moderate traffic	IsTrafficOf	Chef Chu's
+4	2 miles	IsDistanceFrom	Chef Chu's
+5	The Clement Hotel	HasAddress	657 Ames Ave
+5	The Clement Hotel	HasType	rest stop
+5	657 Ames Ave	IsAddressOf	The Clement Hotel
+5	rest stop	IsTypeOf	The Clement Hotel
+5	The Clement Hotel	HasTraffic	moderate traffic
+5	The Clement Hotel	HasDistance	4 miles
+5	moderate traffic	IsTrafficOf	The Clement Hotel
+5	4 miles	IsDistanceFrom	The Clement Hotel
+6	toms house	HasAddress	580 Van Ness Ave
+6	toms house	HasType	friends house
+6	580 Van Ness Ave	IsAddressOf	toms house
+6	friends house	IsTypeOf	toms house
+6	toms house	HasTraffic	moderate traffic
+6	toms house	HasDistance	6 miles
+6	moderate traffic	IsTrafficOf	toms house
+6	6 miles	IsDistanceFrom	toms house
+-1	today	IsEqualTo	monday

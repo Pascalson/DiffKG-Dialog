@@ -1,0 +1,57 @@
+0	Round Table	HasAddress	113 Anton Ct
+0	Round Table	HasType	pizza restaurant
+0	113 Anton Ct	IsAddressOf	Round Table
+0	pizza restaurant	IsTypeOf	Round Table
+0	Round Table	HasTraffic	heavy traffic
+0	Round Table	HasDistance	2 miles
+0	heavy traffic	IsTrafficOf	Round Table
+0	2 miles	IsDistanceFrom	Round Table
+1	Palo Alto Cafe	HasAddress	436 Alger Dr
+1	Palo Alto Cafe	HasType	coffee or tea place
+1	436 Alger Dr	IsAddressOf	Palo Alto Cafe
+1	coffee or tea place	IsTypeOf	Palo Alto Cafe
+1	Palo Alto Cafe	HasTraffic	no traffic
+1	Palo Alto Cafe	HasDistance	5 miles
+1	no traffic	IsTrafficOf	Palo Alto Cafe
+1	5 miles	IsDistanceFrom	Palo Alto Cafe
+2	Safeway	HasAddress	452 Arcadia Pl
+2	Safeway	HasType	grocery store
+2	452 Arcadia Pl	IsAddressOf	Safeway
+2	grocery store	IsTypeOf	Safeway
+2	Safeway	HasTraffic	moderate traffic
+2	Safeway	HasDistance	4 miles
+2	moderate traffic	IsTrafficOf	Safeway
+2	4 miles	IsDistanceFrom	Safeway
+3	Palo Alto Garage R	HasAddress	481 Amaranta Ave
+3	Palo Alto Garage R	HasType	parking garage
+3	481 Amaranta Ave	IsAddressOf	Palo Alto Garage R
+3	parking garage	IsTypeOf	Palo Alto Garage R
+3	Palo Alto Garage R	HasTraffic	moderate traffic
+3	Palo Alto Garage R	HasDistance	2 miles
+3	moderate traffic	IsTrafficOf	Palo Alto Garage R
+3	2 miles	IsDistanceFrom	Palo Alto Garage R
+4	Coupa	HasAddress	394 Van Ness Ave
+4	Coupa	HasType	coffee or tea place
+4	394 Van Ness Ave	IsAddressOf	Coupa
+4	coffee or tea place	IsTypeOf	Coupa
+4	Coupa	HasTraffic	moderate traffic
+4	Coupa	HasDistance	6 miles
+4	moderate traffic	IsTrafficOf	Coupa
+4	6 miles	IsDistanceFrom	Coupa
+5	Starbucks	HasAddress	792 Bedoin Street
+5	Starbucks	HasType	coffee or tea place
+5	792 Bedoin Street	IsAddressOf	Starbucks
+5	coffee or tea place	IsTypeOf	Starbucks
+5	Starbucks	HasTraffic	no traffic
+5	Starbucks	HasDistance	6 miles
+5	no traffic	IsTrafficOf	Starbucks
+5	6 miles	IsDistanceFrom	Starbucks
+6	Midtown Shopping Center	HasAddress	338 Alester Ave
+6	Midtown Shopping Center	HasType	shopping center
+6	338 Alester Ave	IsAddressOf	Midtown Shopping Center
+6	shopping center	IsTypeOf	Midtown Shopping Center
+6	Midtown Shopping Center	HasTraffic	no traffic
+6	Midtown Shopping Center	HasDistance	3 miles
+6	no traffic	IsTrafficOf	Midtown Shopping Center
+6	3 miles	IsDistanceFrom	Midtown Shopping Center
+-1	today	IsEqualTo	monday

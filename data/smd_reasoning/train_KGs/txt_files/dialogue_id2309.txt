@@ -1,0 +1,45 @@
+0	conference	HasTime	1pm
+0	1pm	IsTimeOf	conference
+0	conference	HasDate	the 4th
+0	the 4th	IsDateOf	conference
+0	conference	HasParty	boss
+0	boss	IsPartyOf	conference
+0	conference	HasRoom	conference room 50
+0	conference room 50	IsRoomOf	conference
+0	conference	HasAgenda	discuss the company picnic
+0	discuss the company picnic	IsAgendaOf	conference
+1	doctor appointment	HasTime	4pm
+1	4pm	IsTimeOf	doctor appointment
+1	doctor appointment	HasDate	the 13th
+1	the 13th	IsDateOf	doctor appointment
+1	doctor appointment	HasParty	Martha
+1	Martha	IsPartyOf	doctor appointment
+2	dentist appointment	HasTime	10am
+2	10am	IsTimeOf	dentist appointment
+2	dentist appointment	HasDate	the 4th
+2	the 4th	IsDateOf	dentist appointment
+2	dentist appointment	HasParty	sister
+2	sister	IsPartyOf	dentist appointment
+3	football activity	HasTime	4pm
+3	4pm	IsTimeOf	football activity
+3	football activity	HasDate	thursday
+3	thursday	IsDateOf	football activity
+3	football activity	HasParty	Jon
+3	Jon	IsPartyOf	football activity
+4	swimming activity	HasTime	11am
+4	11am	IsTimeOf	swimming activity
+4	swimming activity	HasDate	the 3rd
+4	the 3rd	IsDateOf	swimming activity
+4	swimming activity	HasParty	Tom
+4	Tom	IsPartyOf	swimming activity
+5	meeting	HasTime	6pm
+5	6pm	IsTimeOf	meeting
+5	meeting	HasDate	the 4th
+5	the 4th	IsDateOf	meeting
+5	meeting	HasParty	executive team
+5	executive team	IsPartyOf	meeting
+5	meeting	HasRoom	conference room 102
+5	conference room 102	IsRoomOf	meeting
+5	meeting	HasAgenda	discuss dress code
+5	discuss dress code	IsAgendaOf	meeting
+-1	today	IsEqualTo	monday

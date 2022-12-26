@@ -1,0 +1,57 @@
+0	Jing Jing	HasAddress	113 Arbol Dr
+0	Jing Jing	HasType	chinese restaurant
+0	113 Arbol Dr	IsAddressOf	Jing Jing
+0	chinese restaurant	IsTypeOf	Jing Jing
+0	Jing Jing	HasTraffic	moderate traffic
+0	Jing Jing	HasDistance	1 miles
+0	moderate traffic	IsTrafficOf	Jing Jing
+0	1 miles	IsDistanceFrom	Jing Jing
+1	Stanford Shopping Center	HasAddress	773 Alger Dr
+1	Stanford Shopping Center	HasType	shopping center
+1	773 Alger Dr	IsAddressOf	Stanford Shopping Center
+1	shopping center	IsTypeOf	Stanford Shopping Center
+1	Stanford Shopping Center	HasTraffic	moderate traffic
+1	Stanford Shopping Center	HasDistance	4 miles
+1	moderate traffic	IsTrafficOf	Stanford Shopping Center
+1	4 miles	IsDistanceFrom	Stanford Shopping Center
+2	Hotel Keen	HasAddress	578 Arbol Dr
+2	Hotel Keen	HasType	rest stop
+2	578 Arbol Dr	IsAddressOf	Hotel Keen
+2	rest stop	IsTypeOf	Hotel Keen
+2	Hotel Keen	HasTraffic	moderate traffic
+2	Hotel Keen	HasDistance	6 miles
+2	moderate traffic	IsTrafficOf	Hotel Keen
+2	6 miles	IsDistanceFrom	Hotel Keen
+3	The Clement Hotel	HasAddress	657 Ames Ave
+3	The Clement Hotel	HasType	rest stop
+3	657 Ames Ave	IsAddressOf	The Clement Hotel
+3	rest stop	IsTypeOf	The Clement Hotel
+3	The Clement Hotel	HasTraffic	moderate traffic
+3	The Clement Hotel	HasDistance	6 miles
+3	moderate traffic	IsTrafficOf	The Clement Hotel
+3	6 miles	IsDistanceFrom	The Clement Hotel
+4	Four Seasons	HasAddress	465 Arcadia Pl
+4	Four Seasons	HasType	rest stop
+4	465 Arcadia Pl	IsAddressOf	Four Seasons
+4	rest stop	IsTypeOf	Four Seasons
+4	Four Seasons	HasTraffic	moderate traffic
+4	Four Seasons	HasDistance	6 miles
+4	moderate traffic	IsTrafficOf	Four Seasons
+4	6 miles	IsDistanceFrom	Four Seasons
+5	Stanford Oval Parking	HasAddress	610 Amarillo Ave
+5	Stanford Oval Parking	HasType	parking garage
+5	610 Amarillo Ave	IsAddressOf	Stanford Oval Parking
+5	parking garage	IsTypeOf	Stanford Oval Parking
+5	Stanford Oval Parking	HasTraffic	moderate traffic
+5	Stanford Oval Parking	HasDistance	5 miles
+5	moderate traffic	IsTrafficOf	Stanford Oval Parking
+5	5 miles	IsDistanceFrom	Stanford Oval Parking
+6	Stanford Express Care	HasAddress	214 El Camino Real
+6	Stanford Express Care	HasType	hospital
+6	214 El Camino Real	IsAddressOf	Stanford Express Care
+6	hospital	IsTypeOf	Stanford Express Care
+6	Stanford Express Care	HasTraffic	moderate traffic
+6	Stanford Express Care	HasDistance	4 miles
+6	moderate traffic	IsTrafficOf	Stanford Express Care
+6	4 miles	IsDistanceFrom	Stanford Express Care
+-1	today	IsEqualTo	monday

@@ -1,0 +1,10 @@
+transformers==4.3.3
+sentencepiece==0.1.95
+pandas==1.2.3
+pyarrow==3.0.0
+multiprocess==0.70.11.1
+xxhash==2.0.0
+nvidia-ml-py3
+pytorch-ignite
+tensorboardX
+nltk

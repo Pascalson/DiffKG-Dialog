@@ -1,0 +1,57 @@
+0	Starbucks	HasAddress	792 Bedoin Street
+0	Starbucks	HasType	coffee or tea place
+0	792 Bedoin Street	IsAddressOf	Starbucks
+0	coffee or tea place	IsTypeOf	Starbucks
+0	Starbucks	HasTraffic	moderate traffic
+0	Starbucks	HasDistance	2 miles
+0	moderate traffic	IsTrafficOf	Starbucks
+0	2 miles	IsDistanceFrom	Starbucks
+1	Cafe Venetia	HasAddress	269 Alger Dr
+1	Cafe Venetia	HasType	coffee or tea place
+1	269 Alger Dr	IsAddressOf	Cafe Venetia
+1	coffee or tea place	IsTypeOf	Cafe Venetia
+1	Cafe Venetia	HasTraffic	moderate traffic
+1	Cafe Venetia	HasDistance	2 miles
+1	moderate traffic	IsTrafficOf	Cafe Venetia
+1	2 miles	IsDistanceFrom	Cafe Venetia
+2	Four Seasons	HasAddress	465 Arcadia Pl
+2	Four Seasons	HasType	rest stop
+2	465 Arcadia Pl	IsAddressOf	Four Seasons
+2	rest stop	IsTypeOf	Four Seasons
+2	Four Seasons	HasTraffic	moderate traffic
+2	Four Seasons	HasDistance	1 miles
+2	moderate traffic	IsTrafficOf	Four Seasons
+2	1 miles	IsDistanceFrom	Four Seasons
+3	Safeway	HasAddress	452 Arcadia Pl
+3	Safeway	HasType	grocery store
+3	452 Arcadia Pl	IsAddressOf	Safeway
+3	grocery store	IsTypeOf	Safeway
+3	Safeway	HasTraffic	no traffic
+3	Safeway	HasDistance	5 miles
+3	no traffic	IsTrafficOf	Safeway
+3	5 miles	IsDistanceFrom	Safeway
+4	home	HasAddress	5671 barringer street
+4	home	HasType	home
+4	5671 barringer street	IsAddressOf	home
+4	home	IsTypeOf	home
+4	home	HasTraffic	no traffic
+4	home	HasDistance	1 miles
+4	no traffic	IsTrafficOf	home
+4	1 miles	IsDistanceFrom	home
+5	5677 southwest 4th street	HasAddress	5677 southwest 4th street
+5	5677 southwest 4th street	HasType	certain address
+5	5677 southwest 4th street	IsAddressOf	5677 southwest 4th street
+5	certain address	IsTypeOf	5677 southwest 4th street
+5	5677 southwest 4th street	HasTraffic	no traffic
+5	5677 southwest 4th street	HasDistance	6 miles
+5	no traffic	IsTrafficOf	5677 southwest 4th street
+5	6 miles	IsDistanceFrom	5677 southwest 4th street
+6	tai pan	HasAddress	830 Almanor Ln
+6	tai pan	HasType	chinese restaurant
+6	830 Almanor Ln	IsAddressOf	tai pan
+6	chinese restaurant	IsTypeOf	tai pan
+6	tai pan	HasTraffic	no traffic
+6	tai pan	HasDistance	2 miles
+6	no traffic	IsTrafficOf	tai pan
+6	2 miles	IsDistanceFrom	tai pan
+-1	today	IsEqualTo	monday

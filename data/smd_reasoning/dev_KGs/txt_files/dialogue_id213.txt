@@ -1,0 +1,61 @@
+0	conference	HasTime	4pm
+0	4pm	IsTimeOf	conference
+0	conference	HasDate	wednesday
+0	wednesday	IsDateOf	conference
+0	conference	HasParty	management
+0	management	IsPartyOf	conference
+0	conference	HasRoom	conference room 50
+0	conference room 50	IsRoomOf	conference
+0	conference	HasAgenda	discuss the merger
+0	discuss the merger	IsAgendaOf	conference
+1	lab appointment	HasTime	3pm
+1	3pm	IsTimeOf	lab appointment
+1	lab appointment	HasDate	the 3rd
+1	the 3rd	IsDateOf	lab appointment
+1	lab appointment	HasParty	Martha
+1	Martha	IsPartyOf	lab appointment
+2	yoga activity	HasTime	1pm
+2	1pm	IsTimeOf	yoga activity
+2	yoga activity	HasDate	the 8th
+2	the 8th	IsDateOf	yoga activity
+2	yoga activity	HasParty	brother
+2	brother	IsPartyOf	yoga activity
+3	lab appointment	HasTime	7pm
+3	7pm	IsTimeOf	lab appointment
+3	lab appointment	HasDate	the 13th
+3	the 13th	IsDateOf	lab appointment
+3	lab appointment	HasParty	brother
+3	brother	IsPartyOf	lab appointment
+4	taking medicine	HasTime	1pm
+4	1pm	IsTimeOf	taking medicine
+4	taking medicine	HasDate	tuesday
+4	tuesday	IsDateOf	taking medicine
+4	taking medicine	HasParty	Marie
+4	Marie	IsPartyOf	taking medicine
+5	doctor appointment	HasTime	4pm
+5	4pm	IsTimeOf	doctor appointment
+5	doctor appointment	HasDate	the 3rd
+5	the 3rd	IsDateOf	doctor appointment
+5	doctor appointment	HasParty	Marie
+5	Marie	IsPartyOf	doctor appointment
+6	meeting	HasTime	1pm
+6	1pm	IsTimeOf	meeting
+6	meeting	HasDate	thursday
+6	thursday	IsDateOf	meeting
+6	meeting	HasParty	executive team
+6	executive team	IsPartyOf	meeting
+6	meeting	HasRoom	conference room 102
+6	conference room 102	IsRoomOf	meeting
+6	meeting	HasAgenda	discuss the company picnic
+6	discuss the company picnic	IsAgendaOf	meeting
+7	conference	HasTime	9am
+7	9am	IsTimeOf	conference
+7	conference	HasDate	thursday
+7	thursday	IsDateOf	conference
+7	conference	HasParty	vice president
+7	vice president	IsPartyOf	conference
+7	conference	HasRoom	conference room 50
+7	conference room 50	IsRoomOf	conference
+7	conference	HasAgenda	discuss dress code
+7	discuss dress code	IsAgendaOf	conference
+-1	today	IsEqualTo	monday

@@ -1,0 +1,65 @@
+0	Pizza Hut	HasAddress	704 El Camino Real
+0	Pizza Hut	HasType	pizza restaurant
+0	704 El Camino Real	IsAddressOf	Pizza Hut
+0	pizza restaurant	IsTypeOf	Pizza Hut
+0	Pizza Hut	HasTraffic	car collision nearby
+0	Pizza Hut	HasDistance	4 miles
+0	car collision nearby	IsTrafficOf	Pizza Hut
+0	4 miles	IsDistanceFrom	Pizza Hut
+1	Sigona Farmers Market	HasAddress	638 Amherst St
+1	Sigona Farmers Market	HasType	grocery store
+1	638 Amherst St	IsAddressOf	Sigona Farmers Market
+1	grocery store	IsTypeOf	Sigona Farmers Market
+1	Sigona Farmers Market	HasTraffic	heavy traffic
+1	Sigona Farmers Market	HasDistance	6 miles
+1	heavy traffic	IsTrafficOf	Sigona Farmers Market
+1	6 miles	IsDistanceFrom	Sigona Farmers Market
+2	Comfort Inn	HasAddress	753 University Ave
+2	Comfort Inn	HasType	rest stop
+2	753 University Ave	IsAddressOf	Comfort Inn
+2	rest stop	IsTypeOf	Comfort Inn
+2	Comfort Inn	HasTraffic	car collision nearby
+2	Comfort Inn	HasDistance	2 miles
+2	car collision nearby	IsTrafficOf	Comfort Inn
+2	2 miles	IsDistanceFrom	Comfort Inn
+3	Jing Jing	HasAddress	113 Arbol Dr
+3	Jing Jing	HasType	chinese restaurant
+3	113 Arbol Dr	IsAddressOf	Jing Jing
+3	chinese restaurant	IsTypeOf	Jing Jing
+3	Jing Jing	HasTraffic	car collision nearby
+3	Jing Jing	HasDistance	4 miles
+3	car collision nearby	IsTrafficOf	Jing Jing
+3	4 miles	IsDistanceFrom	Jing Jing
+4	Shell	HasAddress	53 University Av
+4	Shell	HasType	gas station
+4	53 University Av	IsAddressOf	Shell
+4	gas station	IsTypeOf	Shell
+4	Shell	HasTraffic	heavy traffic
+4	Shell	HasDistance	5 miles
+4	heavy traffic	IsTrafficOf	Shell
+4	5 miles	IsDistanceFrom	Shell
+5	Starbucks	HasAddress	792 Bedoin Street
+5	Starbucks	HasType	coffee or tea place
+5	792 Bedoin Street	IsAddressOf	Starbucks
+5	coffee or tea place	IsTypeOf	Starbucks
+5	Starbucks	HasTraffic	moderate traffic
+5	Starbucks	HasDistance	4 miles
+5	moderate traffic	IsTrafficOf	Starbucks
+5	4 miles	IsDistanceFrom	Starbucks
+6	Stanford Oval Parking	HasAddress	610 Amarillo Ave
+6	Stanford Oval Parking	HasType	parking garage
+6	610 Amarillo Ave	IsAddressOf	Stanford Oval Parking
+6	parking garage	IsTypeOf	Stanford Oval Parking
+6	Stanford Oval Parking	HasTraffic	car collision nearby
+6	Stanford Oval Parking	HasDistance	6 miles
+6	car collision nearby	IsTrafficOf	Stanford Oval Parking
+6	6 miles	IsDistanceFrom	Stanford Oval Parking
+7	P.F. Changs	HasAddress	669 El Camino Real
+7	P.F. Changs	HasType	chinese restaurant
+7	669 El Camino Real	IsAddressOf	P.F. Changs
+7	chinese restaurant	IsTypeOf	P.F. Changs
+7	P.F. Changs	HasTraffic	road block nearby
+7	P.F. Changs	HasDistance	6 miles
+7	road block nearby	IsTrafficOf	P.F. Changs
+7	6 miles	IsDistanceFrom	P.F. Changs
+-1	today	IsEqualTo	monday

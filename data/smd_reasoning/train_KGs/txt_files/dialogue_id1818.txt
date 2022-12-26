@@ -1,0 +1,57 @@
+0	Palo Alto Cafe	HasAddress	436 Alger Dr
+0	Palo Alto Cafe	HasType	coffee or tea place
+0	436 Alger Dr	IsAddressOf	Palo Alto Cafe
+0	coffee or tea place	IsTypeOf	Palo Alto Cafe
+0	Palo Alto Cafe	HasTraffic	no traffic
+0	Palo Alto Cafe	HasDistance	5 miles
+0	no traffic	IsTrafficOf	Palo Alto Cafe
+0	5 miles	IsDistanceFrom	Palo Alto Cafe
+1	Stanford Childrens Health	HasAddress	899 Ames Ct
+1	Stanford Childrens Health	HasType	hospital
+1	899 Ames Ct	IsAddressOf	Stanford Childrens Health
+1	hospital	IsTypeOf	Stanford Childrens Health
+1	Stanford Childrens Health	HasTraffic	heavy traffic
+1	Stanford Childrens Health	HasDistance	5 miles
+1	heavy traffic	IsTrafficOf	Stanford Childrens Health
+1	5 miles	IsDistanceFrom	Stanford Childrens Health
+2	toms house	HasAddress	580 Van Ness Ave
+2	toms house	HasType	friends house
+2	580 Van Ness Ave	IsAddressOf	toms house
+2	friends house	IsTypeOf	toms house
+2	toms house	HasTraffic	no traffic
+2	toms house	HasDistance	1 miles
+2	no traffic	IsTrafficOf	toms house
+2	1 miles	IsDistanceFrom	toms house
+3	Webster Garage	HasAddress	880 Ames Ct
+3	Webster Garage	HasType	parking garage
+3	880 Ames Ct	IsAddressOf	Webster Garage
+3	parking garage	IsTypeOf	Webster Garage
+3	Webster Garage	HasTraffic	heavy traffic
+3	Webster Garage	HasDistance	3 miles
+3	heavy traffic	IsTrafficOf	Webster Garage
+3	3 miles	IsDistanceFrom	Webster Garage
+4	Chef Chu's	HasAddress	593 Arrowhead Way
+4	Chef Chu's	HasType	chinese restaurant
+4	593 Arrowhead Way	IsAddressOf	Chef Chu's
+4	chinese restaurant	IsTypeOf	Chef Chu's
+4	Chef Chu's	HasTraffic	heavy traffic
+4	Chef Chu's	HasDistance	5 miles
+4	heavy traffic	IsTrafficOf	Chef Chu's
+4	5 miles	IsDistanceFrom	Chef Chu's
+5	Starbucks	HasAddress	792 Bedoin Street
+5	Starbucks	HasType	coffee or tea place
+5	792 Bedoin Street	IsAddressOf	Starbucks
+5	coffee or tea place	IsTypeOf	Starbucks
+5	Starbucks	HasTraffic	no traffic
+5	Starbucks	HasDistance	6 miles
+5	no traffic	IsTrafficOf	Starbucks
+5	6 miles	IsDistanceFrom	Starbucks
+6	Coupa	HasAddress	394 Van Ness Ave
+6	Coupa	HasType	coffee or tea place
+6	394 Van Ness Ave	IsAddressOf	Coupa
+6	coffee or tea place	IsTypeOf	Coupa
+6	Coupa	HasTraffic	moderate traffic
+6	Coupa	HasDistance	6 miles
+6	moderate traffic	IsTrafficOf	Coupa
+6	6 miles	IsDistanceFrom	Coupa
+-1	today	IsEqualTo	monday

@@ -1,0 +1,65 @@
+0	tennis activity	HasTime	11am
+0	11am	IsTimeOf	tennis activity
+0	tennis activity	HasDate	the 2nd
+0	the 2nd	IsDateOf	tennis activity
+0	tennis activity	HasParty	Tom
+0	Tom	IsPartyOf	tennis activity
+1	meeting	HasTime	1pm
+1	1pm	IsTimeOf	meeting
+1	meeting	HasDate	the 12th
+1	the 12th	IsDateOf	meeting
+1	meeting	HasParty	sales team
+1	sales team	IsPartyOf	meeting
+1	meeting	HasRoom	conference room 100
+1	conference room 100	IsRoomOf	meeting
+1	meeting	HasAgenda	discuss dress code
+1	discuss dress code	IsAgendaOf	meeting
+2	conference	HasTime	1pm
+2	1pm	IsTimeOf	conference
+2	conference	HasDate	the 11th
+2	the 11th	IsDateOf	conference
+2	conference	HasParty	management
+2	management	IsPartyOf	conference
+2	conference	HasRoom	conference room 100
+2	conference room 100	IsRoomOf	conference
+2	conference	HasAgenda	go over budget
+2	go over budget	IsAgendaOf	conference
+3	taking medicine	HasTime	9am
+3	9am	IsTimeOf	taking medicine
+3	taking medicine	HasDate	the 4th
+3	the 4th	IsDateOf	taking medicine
+3	taking medicine	HasParty	Marie
+3	Marie	IsPartyOf	taking medicine
+4	dentist appointment	HasTime	10am
+4	10am	IsTimeOf	dentist appointment
+4	dentist appointment	HasDate	friday
+4	friday	IsDateOf	dentist appointment
+4	dentist appointment	HasParty	Jon
+4	Jon	IsPartyOf	dentist appointment
+5	conference	HasTime	2pm
+5	2pm	IsTimeOf	conference
+5	conference	HasDate	the 17th
+5	the 17th	IsDateOf	conference
+5	conference	HasParty	executive team
+5	executive team	IsPartyOf	conference
+5	conference	HasRoom	conference room 100
+5	conference room 100	IsRoomOf	conference
+5	conference	HasAgenda	onboard new members
+5	onboard new members	IsAgendaOf	conference
+6	meeting	HasTime	3pm
+6	3pm	IsTimeOf	meeting
+6	meeting	HasDate	the 17th
+6	the 17th	IsDateOf	meeting
+6	meeting	HasParty	executive team
+6	executive team	IsPartyOf	meeting
+6	meeting	HasRoom	conference room 102
+6	conference room 102	IsRoomOf	meeting
+6	meeting	HasAgenda	go over budget
+6	go over budget	IsAgendaOf	meeting
+7	swimming activity	HasTime	4pm
+7	4pm	IsTimeOf	swimming activity
+7	swimming activity	HasDate	the 4th
+7	the 4th	IsDateOf	swimming activity
+7	swimming activity	HasParty	sister
+7	sister	IsPartyOf	swimming activity
+-1	today	IsEqualTo	monday

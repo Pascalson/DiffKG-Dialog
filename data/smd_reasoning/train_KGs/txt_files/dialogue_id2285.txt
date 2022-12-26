@@ -1,0 +1,57 @@
+0	Webster Garage	HasAddress	880 Ames Ct
+0	Webster Garage	HasType	parking garage
+0	880 Ames Ct	IsAddressOf	Webster Garage
+0	parking garage	IsTypeOf	Webster Garage
+0	Webster Garage	HasTraffic	moderate traffic
+0	Webster Garage	HasDistance	2 miles
+0	moderate traffic	IsTrafficOf	Webster Garage
+0	2 miles	IsDistanceFrom	Webster Garage
+1	The Clement Hotel	HasAddress	657 Ames Ave
+1	The Clement Hotel	HasType	rest stop
+1	657 Ames Ave	IsAddressOf	The Clement Hotel
+1	rest stop	IsTypeOf	The Clement Hotel
+1	The Clement Hotel	HasTraffic	moderate traffic
+1	The Clement Hotel	HasDistance	2 miles
+1	moderate traffic	IsTrafficOf	The Clement Hotel
+1	2 miles	IsDistanceFrom	The Clement Hotel
+2	Starbucks	HasAddress	792 Bedoin Street
+2	Starbucks	HasType	coffee or tea place
+2	792 Bedoin Street	IsAddressOf	Starbucks
+2	coffee or tea place	IsTypeOf	Starbucks
+2	Starbucks	HasTraffic	heavy traffic
+2	Starbucks	HasDistance	2 miles
+2	heavy traffic	IsTrafficOf	Starbucks
+2	2 miles	IsDistanceFrom	Starbucks
+3	jills house	HasAddress	347 Alta Mesa Ave
+3	jills house	HasType	friends house
+3	347 Alta Mesa Ave	IsAddressOf	jills house
+3	friends house	IsTypeOf	jills house
+3	jills house	HasTraffic	heavy traffic
+3	jills house	HasDistance	6 miles
+3	heavy traffic	IsTrafficOf	jills house
+3	6 miles	IsDistanceFrom	jills house
+4	Valero	HasAddress	200 Alester Ave
+4	Valero	HasType	gas station
+4	200 Alester Ave	IsAddressOf	Valero
+4	gas station	IsTypeOf	Valero
+4	Valero	HasTraffic	no traffic
+4	Valero	HasDistance	1 miles
+4	no traffic	IsTrafficOf	Valero
+4	1 miles	IsDistanceFrom	Valero
+5	5672 barringer street	HasAddress	5672 barringer street
+5	5672 barringer street	HasType	certain address
+5	5672 barringer street	IsAddressOf	5672 barringer street
+5	certain address	IsTypeOf	5672 barringer street
+5	5672 barringer street	HasTraffic	heavy traffic
+5	5672 barringer street	HasDistance	3 miles
+5	heavy traffic	IsTrafficOf	5672 barringer street
+5	3 miles	IsDistanceFrom	5672 barringer street
+6	Jing Jing	HasAddress	113 Arbol Dr
+6	Jing Jing	HasType	chinese restaurant
+6	113 Arbol Dr	IsAddressOf	Jing Jing
+6	chinese restaurant	IsTypeOf	Jing Jing
+6	Jing Jing	HasTraffic	moderate traffic
+6	Jing Jing	HasDistance	4 miles
+6	moderate traffic	IsTrafficOf	Jing Jing
+6	4 miles	IsDistanceFrom	Jing Jing
+-1	today	IsEqualTo	monday

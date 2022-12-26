@@ -1,0 +1,65 @@
+0	Webster Garage	HasAddress	880 Ames Ct
+0	Webster Garage	HasType	parking garage
+0	880 Ames Ct	IsAddressOf	Webster Garage
+0	parking garage	IsTypeOf	Webster Garage
+0	Webster Garage	HasTraffic	no traffic
+0	Webster Garage	HasDistance	4 miles
+0	no traffic	IsTrafficOf	Webster Garage
+0	4 miles	IsDistanceFrom	Webster Garage
+1	Starbucks	HasAddress	792 Bedoin Street
+1	Starbucks	HasType	coffee or tea place
+1	792 Bedoin Street	IsAddressOf	Starbucks
+1	coffee or tea place	IsTypeOf	Starbucks
+1	Starbucks	HasTraffic	heavy traffic
+1	Starbucks	HasDistance	4 miles
+1	heavy traffic	IsTrafficOf	Starbucks
+1	4 miles	IsDistanceFrom	Starbucks
+2	Panda Express	HasAddress	842 Arrowhead Way
+2	Panda Express	HasType	chinese restaurant
+2	842 Arrowhead Way	IsAddressOf	Panda Express
+2	chinese restaurant	IsTypeOf	Panda Express
+2	Panda Express	HasTraffic	no traffic
+2	Panda Express	HasDistance	5 miles
+2	no traffic	IsTrafficOf	Panda Express
+2	5 miles	IsDistanceFrom	Panda Express
+3	Stanford Oval Parking	HasAddress	610 Amarillo Ave
+3	Stanford Oval Parking	HasType	parking garage
+3	610 Amarillo Ave	IsAddressOf	Stanford Oval Parking
+3	parking garage	IsTypeOf	Stanford Oval Parking
+3	Stanford Oval Parking	HasTraffic	heavy traffic
+3	Stanford Oval Parking	HasDistance	5 miles
+3	heavy traffic	IsTrafficOf	Stanford Oval Parking
+3	5 miles	IsDistanceFrom	Stanford Oval Parking
+4	Topanga Mall	HasAddress	171 Oak Rd
+4	Topanga Mall	HasType	shopping center
+4	171 Oak Rd	IsAddressOf	Topanga Mall
+4	shopping center	IsTypeOf	Topanga Mall
+4	Topanga Mall	HasTraffic	heavy traffic
+4	Topanga Mall	HasDistance	3 miles
+4	heavy traffic	IsTrafficOf	Topanga Mall
+4	3 miles	IsDistanceFrom	Topanga Mall
+5	toms house	HasAddress	580 Van Ness Ave
+5	toms house	HasType	friends house
+5	580 Van Ness Ave	IsAddressOf	toms house
+5	friends house	IsTypeOf	toms house
+5	toms house	HasTraffic	moderate traffic
+5	toms house	HasDistance	4 miles
+5	moderate traffic	IsTrafficOf	toms house
+5	4 miles	IsDistanceFrom	toms house
+6	Hotel Keen	HasAddress	578 Arbol Dr
+6	Hotel Keen	HasType	rest stop
+6	578 Arbol Dr	IsAddressOf	Hotel Keen
+6	rest stop	IsTypeOf	Hotel Keen
+6	Hotel Keen	HasTraffic	road block nearby
+6	Hotel Keen	HasDistance	1 miles
+6	road block nearby	IsTrafficOf	Hotel Keen
+6	1 miles	IsDistanceFrom	Hotel Keen
+7	Jing Jing	HasAddress	113 Arbol Dr
+7	Jing Jing	HasType	chinese restaurant
+7	113 Arbol Dr	IsAddressOf	Jing Jing
+7	chinese restaurant	IsTypeOf	Jing Jing
+7	Jing Jing	HasTraffic	heavy traffic
+7	Jing Jing	HasDistance	1 miles
+7	heavy traffic	IsTrafficOf	Jing Jing
+7	1 miles	IsDistanceFrom	Jing Jing
+-1	today	IsEqualTo	monday

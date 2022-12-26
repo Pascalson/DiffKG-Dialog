@@ -1,0 +1,57 @@
+0	jacks house	HasAddress	864 Almanor Ln
+0	jacks house	HasType	friends house
+0	864 Almanor Ln	IsAddressOf	jacks house
+0	friends house	IsTypeOf	jacks house
+0	jacks house	HasTraffic	no traffic
+0	jacks house	HasDistance	6 miles
+0	no traffic	IsTrafficOf	jacks house
+0	6 miles	IsDistanceFrom	jacks house
+1	Round Table	HasAddress	113 Anton Ct
+1	Round Table	HasType	pizza restaurant
+1	113 Anton Ct	IsAddressOf	Round Table
+1	pizza restaurant	IsTypeOf	Round Table
+1	Round Table	HasTraffic	heavy traffic
+1	Round Table	HasDistance	2 miles
+1	heavy traffic	IsTrafficOf	Round Table
+1	2 miles	IsDistanceFrom	Round Table
+2	Palo Alto Garage R	HasAddress	481 Amaranta Ave
+2	Palo Alto Garage R	HasType	parking garage
+2	481 Amaranta Ave	IsAddressOf	Palo Alto Garage R
+2	parking garage	IsTypeOf	Palo Alto Garage R
+2	Palo Alto Garage R	HasTraffic	moderate traffic
+2	Palo Alto Garage R	HasDistance	2 miles
+2	moderate traffic	IsTrafficOf	Palo Alto Garage R
+2	2 miles	IsDistanceFrom	Palo Alto Garage R
+3	Panda Express	HasAddress	842 Arrowhead Way
+3	Panda Express	HasType	chinese restaurant
+3	842 Arrowhead Way	IsAddressOf	Panda Express
+3	chinese restaurant	IsTypeOf	Panda Express
+3	Panda Express	HasTraffic	moderate traffic
+3	Panda Express	HasDistance	1 miles
+3	moderate traffic	IsTrafficOf	Panda Express
+3	1 miles	IsDistanceFrom	Panda Express
+4	Midtown Shopping Center	HasAddress	338 Alester Ave
+4	Midtown Shopping Center	HasType	shopping center
+4	338 Alester Ave	IsAddressOf	Midtown Shopping Center
+4	shopping center	IsTypeOf	Midtown Shopping Center
+4	Midtown Shopping Center	HasTraffic	no traffic
+4	Midtown Shopping Center	HasDistance	3 miles
+4	no traffic	IsTrafficOf	Midtown Shopping Center
+4	3 miles	IsDistanceFrom	Midtown Shopping Center
+5	toms house	HasAddress	580 Van Ness Ave
+5	toms house	HasType	friends house
+5	580 Van Ness Ave	IsAddressOf	toms house
+5	friends house	IsTypeOf	toms house
+5	toms house	HasTraffic	no traffic
+5	toms house	HasDistance	1 miles
+5	no traffic	IsTrafficOf	toms house
+5	1 miles	IsDistanceFrom	toms house
+6	Dish Parking	HasAddress	550 Alester Ave
+6	Dish Parking	HasType	parking garage
+6	550 Alester Ave	IsAddressOf	Dish Parking
+6	parking garage	IsTypeOf	Dish Parking
+6	Dish Parking	HasTraffic	heavy traffic
+6	Dish Parking	HasDistance	5 miles
+6	heavy traffic	IsTrafficOf	Dish Parking
+6	5 miles	IsDistanceFrom	Dish Parking
+-1	today	IsEqualTo	monday

@@ -1,0 +1,57 @@
+0	Chevron	HasAddress	783 Arcadia Pl
+0	Chevron	HasType	gas station
+0	783 Arcadia Pl	IsAddressOf	Chevron
+0	gas station	IsTypeOf	Chevron
+0	Chevron	HasTraffic	heavy traffic
+0	Chevron	HasDistance	1 miles
+0	heavy traffic	IsTrafficOf	Chevron
+0	1 miles	IsDistanceFrom	Chevron
+1	Hotel Keen	HasAddress	578 Arbol Dr
+1	Hotel Keen	HasType	rest stop
+1	578 Arbol Dr	IsAddressOf	Hotel Keen
+1	rest stop	IsTypeOf	Hotel Keen
+1	Hotel Keen	HasTraffic	no traffic
+1	Hotel Keen	HasDistance	2 miles
+1	no traffic	IsTrafficOf	Hotel Keen
+1	2 miles	IsDistanceFrom	Hotel Keen
+2	Webster Garage	HasAddress	880 Ames Ct
+2	Webster Garage	HasType	parking garage
+2	880 Ames Ct	IsAddressOf	Webster Garage
+2	parking garage	IsTypeOf	Webster Garage
+2	Webster Garage	HasTraffic	moderate traffic
+2	Webster Garage	HasDistance	4 miles
+2	moderate traffic	IsTrafficOf	Webster Garage
+2	4 miles	IsDistanceFrom	Webster Garage
+3	Stanford Shopping Center	HasAddress	773 Alger Dr
+3	Stanford Shopping Center	HasType	shopping center
+3	773 Alger Dr	IsAddressOf	Stanford Shopping Center
+3	shopping center	IsTypeOf	Stanford Shopping Center
+3	Stanford Shopping Center	HasTraffic	heavy traffic
+3	Stanford Shopping Center	HasDistance	3 miles
+3	heavy traffic	IsTrafficOf	Stanford Shopping Center
+3	3 miles	IsDistanceFrom	Stanford Shopping Center
+4	Stanford Childrens Health	HasAddress	899 Ames Ct
+4	Stanford Childrens Health	HasType	hospital
+4	899 Ames Ct	IsAddressOf	Stanford Childrens Health
+4	hospital	IsTypeOf	Stanford Childrens Health
+4	Stanford Childrens Health	HasTraffic	heavy traffic
+4	Stanford Childrens Health	HasDistance	1 miles
+4	heavy traffic	IsTrafficOf	Stanford Childrens Health
+4	1 miles	IsDistanceFrom	Stanford Childrens Health
+5	jills house	HasAddress	347 Alta Mesa Ave
+5	jills house	HasType	friends house
+5	347 Alta Mesa Ave	IsAddressOf	jills house
+5	friends house	IsTypeOf	jills house
+5	jills house	HasTraffic	moderate traffic
+5	jills house	HasDistance	2 miles
+5	moderate traffic	IsTrafficOf	jills house
+5	2 miles	IsDistanceFrom	jills house
+6	Pizza Chicago	HasAddress	915 Arbol Dr
+6	Pizza Chicago	HasType	pizza restaurant
+6	915 Arbol Dr	IsAddressOf	Pizza Chicago
+6	pizza restaurant	IsTypeOf	Pizza Chicago
+6	Pizza Chicago	HasTraffic	moderate traffic
+6	Pizza Chicago	HasDistance	5 miles
+6	moderate traffic	IsTrafficOf	Pizza Chicago
+6	5 miles	IsDistanceFrom	Pizza Chicago
+-1	today	IsEqualTo	monday

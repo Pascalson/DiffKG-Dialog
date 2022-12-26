@@ -1,0 +1,57 @@
+0	Trader Joes	HasAddress	408 University Ave
+0	Trader Joes	HasType	grocery store
+0	408 University Ave	IsAddressOf	Trader Joes
+0	grocery store	IsTypeOf	Trader Joes
+0	Trader Joes	HasTraffic	heavy traffic
+0	Trader Joes	HasDistance	6 miles
+0	heavy traffic	IsTrafficOf	Trader Joes
+0	6 miles	IsDistanceFrom	Trader Joes
+1	Whole Foods	HasAddress	819 Alma St
+1	Whole Foods	HasType	grocery store
+1	819 Alma St	IsAddressOf	Whole Foods
+1	grocery store	IsTypeOf	Whole Foods
+1	Whole Foods	HasTraffic	no traffic
+1	Whole Foods	HasDistance	4 miles
+1	no traffic	IsTrafficOf	Whole Foods
+1	4 miles	IsDistanceFrom	Whole Foods
+2	Dish Parking	HasAddress	550 Alester Ave
+2	Dish Parking	HasType	parking garage
+2	550 Alester Ave	IsAddressOf	Dish Parking
+2	parking garage	IsTypeOf	Dish Parking
+2	Dish Parking	HasTraffic	no traffic
+2	Dish Parking	HasDistance	3 miles
+2	no traffic	IsTrafficOf	Dish Parking
+2	3 miles	IsDistanceFrom	Dish Parking
+3	Pizza Chicago	HasAddress	915 Arbol Dr
+3	Pizza Chicago	HasType	pizza restaurant
+3	915 Arbol Dr	IsAddressOf	Pizza Chicago
+3	pizza restaurant	IsTypeOf	Pizza Chicago
+3	Pizza Chicago	HasTraffic	moderate traffic
+3	Pizza Chicago	HasDistance	6 miles
+3	moderate traffic	IsTrafficOf	Pizza Chicago
+3	6 miles	IsDistanceFrom	Pizza Chicago
+4	jacks house	HasAddress	864 Almanor Ln
+4	jacks house	HasType	friends house
+4	864 Almanor Ln	IsAddressOf	jacks house
+4	friends house	IsTypeOf	jacks house
+4	jacks house	HasTraffic	moderate traffic
+4	jacks house	HasDistance	2 miles
+4	moderate traffic	IsTrafficOf	jacks house
+4	2 miles	IsDistanceFrom	jacks house
+5	tai pan	HasAddress	830 Almanor Ln
+5	tai pan	HasType	chinese restaurant
+5	830 Almanor Ln	IsAddressOf	tai pan
+5	chinese restaurant	IsTypeOf	tai pan
+5	tai pan	HasTraffic	moderate traffic
+5	tai pan	HasDistance	1 miles
+5	moderate traffic	IsTrafficOf	tai pan
+5	1 miles	IsDistanceFrom	tai pan
+6	Civic Center Garage	HasAddress	270 Altaire Walk
+6	Civic Center Garage	HasType	parking garage
+6	270 Altaire Walk	IsAddressOf	Civic Center Garage
+6	parking garage	IsTypeOf	Civic Center Garage
+6	Civic Center Garage	HasTraffic	no traffic
+6	Civic Center Garage	HasDistance	5 miles
+6	no traffic	IsTrafficOf	Civic Center Garage
+6	5 miles	IsDistanceFrom	Civic Center Garage
+-1	today	IsEqualTo	monday

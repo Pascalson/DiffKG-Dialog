@@ -1,0 +1,61 @@
+0	taking medicine	HasTime	3pm
+0	3pm	IsTimeOf	taking medicine
+0	taking medicine	HasDate	monday
+0	monday	IsDateOf	taking medicine
+0	taking medicine	HasParty	mother
+0	mother	IsPartyOf	taking medicine
+1	meeting	HasTime	3pm
+1	3pm	IsTimeOf	meeting
+1	meeting	HasDate	the 18th
+1	the 18th	IsDateOf	meeting
+1	meeting	HasParty	infrastructure team
+1	infrastructure team	IsPartyOf	meeting
+1	meeting	HasRoom	conference room 100
+1	conference room 100	IsRoomOf	meeting
+1	meeting	HasAgenda	sign the NDA
+1	sign the NDA	IsAgendaOf	meeting
+2	doctor appointment	HasTime	3pm
+2	3pm	IsTimeOf	doctor appointment
+2	doctor appointment	HasDate	the 11th
+2	the 11th	IsDateOf	doctor appointment
+2	doctor appointment	HasParty	father
+2	father	IsPartyOf	doctor appointment
+3	lab appointment	HasTime	6pm
+3	6pm	IsTimeOf	lab appointment
+3	lab appointment	HasDate	the 20th
+3	the 20th	IsDateOf	lab appointment
+3	lab appointment	HasParty	mother
+3	mother	IsPartyOf	lab appointment
+4	conference	HasTime	11am
+4	11am	IsTimeOf	conference
+4	conference	HasDate	the 15th
+4	the 15th	IsDateOf	conference
+4	conference	HasParty	management
+4	management	IsPartyOf	conference
+4	conference	HasRoom	conference room 102
+4	conference room 102	IsRoomOf	conference
+4	conference	HasAgenda	discuss the merger
+4	discuss the merger	IsAgendaOf	conference
+5	yoga activity	HasTime	7pm
+5	7pm	IsTimeOf	yoga activity
+5	yoga activity	HasDate	friday
+5	friday	IsDateOf	yoga activity
+5	yoga activity	HasParty	Jon
+5	Jon	IsPartyOf	yoga activity
+6	conference	HasTime	4pm
+6	4pm	IsTimeOf	conference
+6	conference	HasDate	the 11th
+6	the 11th	IsDateOf	conference
+6	conference	HasParty	management
+6	management	IsPartyOf	conference
+6	conference	HasRoom	conference room 102
+6	conference room 102	IsRoomOf	conference
+6	conference	HasAgenda	discuss the company picnic
+6	discuss the company picnic	IsAgendaOf	conference
+7	taking medicine	HasTime	6pm
+7	6pm	IsTimeOf	taking medicine
+7	taking medicine	HasDate	the 11th
+7	the 11th	IsDateOf	taking medicine
+7	taking medicine	HasParty	Tom
+7	Tom	IsPartyOf	taking medicine
+-1	today	IsEqualTo	monday

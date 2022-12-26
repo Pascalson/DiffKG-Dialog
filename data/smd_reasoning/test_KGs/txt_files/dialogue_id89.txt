@@ -1,0 +1,61 @@
+0	conference	HasTime	4pm
+0	4pm	IsTimeOf	conference
+0	conference	HasDate	the 3rd
+0	the 3rd	IsDateOf	conference
+0	conference	HasParty	management
+0	management	IsPartyOf	conference
+0	conference	HasRoom	conference room 100
+0	conference room 100	IsRoomOf	conference
+0	conference	HasAgenda	go over quarterly report
+0	go over quarterly report	IsAgendaOf	conference
+1	conference	HasTime	1pm
+1	1pm	IsTimeOf	conference
+1	conference	HasDate	friday
+1	friday	IsDateOf	conference
+1	conference	HasParty	infrastructure team
+1	infrastructure team	IsPartyOf	conference
+1	conference	HasRoom	conference room 50
+1	conference room 50	IsRoomOf	conference
+1	conference	HasAgenda	onboard new members
+1	onboard new members	IsAgendaOf	conference
+2	conference	HasTime	3pm
+2	3pm	IsTimeOf	conference
+2	conference	HasDate	monday
+2	monday	IsDateOf	conference
+2	conference	HasParty	management
+2	management	IsPartyOf	conference
+2	conference	HasRoom	conference room 102
+2	conference room 102	IsRoomOf	conference
+2	conference	HasAgenda	onboard new members
+2	onboard new members	IsAgendaOf	conference
+3	yoga activity	HasTime	5pm
+3	5pm	IsTimeOf	yoga activity
+3	yoga activity	HasDate	the 10th
+3	the 10th	IsDateOf	yoga activity
+3	yoga activity	HasParty	Alex
+3	Alex	IsPartyOf	yoga activity
+4	taking medicine	HasTime	11am
+4	11am	IsTimeOf	taking medicine
+4	taking medicine	HasDate	sunday
+4	sunday	IsDateOf	taking medicine
+4	taking medicine	HasParty	Martha
+4	Martha	IsPartyOf	taking medicine
+5	lab appointment	HasTime	11am
+5	11am	IsTimeOf	lab appointment
+5	lab appointment	HasDate	the 10th
+5	the 10th	IsDateOf	lab appointment
+5	lab appointment	HasParty	aunt
+5	aunt	IsPartyOf	lab appointment
+6	tennis activity	HasTime	10am
+6	10am	IsTimeOf	tennis activity
+6	tennis activity	HasDate	the 8th
+6	the 8th	IsDateOf	tennis activity
+6	tennis activity	HasParty	aunt
+6	aunt	IsPartyOf	tennis activity
+7	yoga activity	HasTime	11am
+7	11am	IsTimeOf	yoga activity
+7	yoga activity	HasDate	thursday
+7	thursday	IsDateOf	yoga activity
+7	yoga activity	HasParty	Alex
+7	Alex	IsPartyOf	yoga activity
+-1	today	IsEqualTo	monday

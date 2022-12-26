@@ -1,0 +1,65 @@
+0	5677 southwest 4th street	HasAddress	5677 southwest 4th street
+0	5677 southwest 4th street	HasType	certain address
+0	5677 southwest 4th street	IsAddressOf	5677 southwest 4th street
+0	certain address	IsTypeOf	5677 southwest 4th street
+0	5677 southwest 4th street	HasTraffic	heavy traffic
+0	5677 southwest 4th street	HasDistance	1 miles
+0	heavy traffic	IsTrafficOf	5677 southwest 4th street
+0	1 miles	IsDistanceFrom	5677 southwest 4th street
+1	Pizza Hut	HasAddress	704 El Camino Real
+1	Pizza Hut	HasType	pizza restaurant
+1	704 El Camino Real	IsAddressOf	Pizza Hut
+1	pizza restaurant	IsTypeOf	Pizza Hut
+1	Pizza Hut	HasTraffic	heavy traffic
+1	Pizza Hut	HasDistance	5 miles
+1	heavy traffic	IsTrafficOf	Pizza Hut
+1	5 miles	IsDistanceFrom	Pizza Hut
+2	Trader Joes	HasAddress	408 University Ave
+2	Trader Joes	HasType	grocery store
+2	408 University Ave	IsAddressOf	Trader Joes
+2	grocery store	IsTypeOf	Trader Joes
+2	Trader Joes	HasTraffic	car collision nearby
+2	Trader Joes	HasDistance	3 miles
+2	car collision nearby	IsTrafficOf	Trader Joes
+2	3 miles	IsDistanceFrom	Trader Joes
+3	Stanford Childrens Health	HasAddress	899 Ames Ct
+3	Stanford Childrens Health	HasType	hospital
+3	899 Ames Ct	IsAddressOf	Stanford Childrens Health
+3	hospital	IsTypeOf	Stanford Childrens Health
+3	Stanford Childrens Health	HasTraffic	no traffic
+3	Stanford Childrens Health	HasDistance	5 miles
+3	no traffic	IsTrafficOf	Stanford Childrens Health
+3	5 miles	IsDistanceFrom	Stanford Childrens Health
+4	jills house	HasAddress	347 Alta Mesa Ave
+4	jills house	HasType	friends house
+4	347 Alta Mesa Ave	IsAddressOf	jills house
+4	friends house	IsTypeOf	jills house
+4	jills house	HasTraffic	car collision nearby
+4	jills house	HasDistance	2 miles
+4	car collision nearby	IsTrafficOf	jills house
+4	2 miles	IsDistanceFrom	jills house
+5	home	HasAddress	56 cadwell street
+5	home	HasType	home
+5	56 cadwell street	IsAddressOf	home
+5	home	IsTypeOf	home
+5	home	HasTraffic	no traffic
+5	home	HasDistance	2 miles
+5	no traffic	IsTrafficOf	home
+5	2 miles	IsDistanceFrom	home
+6	Mandarin Roots	HasAddress	271 Springer Street
+6	Mandarin Roots	HasType	chinese restaurant
+6	271 Springer Street	IsAddressOf	Mandarin Roots
+6	chinese restaurant	IsTypeOf	Mandarin Roots
+6	Mandarin Roots	HasTraffic	heavy traffic
+6	Mandarin Roots	HasDistance	3 miles
+6	heavy traffic	IsTrafficOf	Mandarin Roots
+6	3 miles	IsDistanceFrom	Mandarin Roots
+7	Papa Johns	HasAddress	110 Arastradero Rd
+7	Papa Johns	HasType	pizza restaurant
+7	110 Arastradero Rd	IsAddressOf	Papa Johns
+7	pizza restaurant	IsTypeOf	Papa Johns
+7	Papa Johns	HasTraffic	moderate traffic
+7	Papa Johns	HasDistance	6 miles
+7	moderate traffic	IsTrafficOf	Papa Johns
+7	6 miles	IsDistanceFrom	Papa Johns
+-1	today	IsEqualTo	monday

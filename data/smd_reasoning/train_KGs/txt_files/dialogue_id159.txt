@@ -1,0 +1,57 @@
+0	Hotel Keen	HasAddress	578 Arbol Dr
+0	Hotel Keen	HasType	rest stop
+0	578 Arbol Dr	IsAddressOf	Hotel Keen
+0	rest stop	IsTypeOf	Hotel Keen
+0	Hotel Keen	HasTraffic	no traffic
+0	Hotel Keen	HasDistance	5 miles
+0	no traffic	IsTrafficOf	Hotel Keen
+0	5 miles	IsDistanceFrom	Hotel Keen
+1	Philz	HasAddress	583 Alester Ave
+1	Philz	HasType	coffee or tea place
+1	583 Alester Ave	IsAddressOf	Philz
+1	coffee or tea place	IsTypeOf	Philz
+1	Philz	HasTraffic	no traffic
+1	Philz	HasDistance	4 miles
+1	no traffic	IsTrafficOf	Philz
+1	4 miles	IsDistanceFrom	Philz
+2	Jing Jing	HasAddress	113 Arbol Dr
+2	Jing Jing	HasType	chinese restaurant
+2	113 Arbol Dr	IsAddressOf	Jing Jing
+2	chinese restaurant	IsTypeOf	Jing Jing
+2	Jing Jing	HasTraffic	heavy traffic
+2	Jing Jing	HasDistance	2 miles
+2	heavy traffic	IsTrafficOf	Jing Jing
+2	2 miles	IsDistanceFrom	Jing Jing
+3	Round Table	HasAddress	113 Anton Ct
+3	Round Table	HasType	pizza restaurant
+3	113 Anton Ct	IsAddressOf	Round Table
+3	pizza restaurant	IsTypeOf	Round Table
+3	Round Table	HasTraffic	moderate traffic
+3	Round Table	HasDistance	5 miles
+3	moderate traffic	IsTrafficOf	Round Table
+3	5 miles	IsDistanceFrom	Round Table
+4	Pizza My Heart	HasAddress	528 Anton Ct
+4	Pizza My Heart	HasType	pizza restaurant
+4	528 Anton Ct	IsAddressOf	Pizza My Heart
+4	pizza restaurant	IsTypeOf	Pizza My Heart
+4	Pizza My Heart	HasTraffic	moderate traffic
+4	Pizza My Heart	HasDistance	1 miles
+4	moderate traffic	IsTrafficOf	Pizza My Heart
+4	1 miles	IsDistanceFrom	Pizza My Heart
+5	Mandarin Roots	HasAddress	271 Springer Street
+5	Mandarin Roots	HasType	chinese restaurant
+5	271 Springer Street	IsAddressOf	Mandarin Roots
+5	chinese restaurant	IsTypeOf	Mandarin Roots
+5	Mandarin Roots	HasTraffic	moderate traffic
+5	Mandarin Roots	HasDistance	4 miles
+5	moderate traffic	IsTrafficOf	Mandarin Roots
+5	4 miles	IsDistanceFrom	Mandarin Roots
+6	Stanford Oval Parking	HasAddress	610 Amarillo Ave
+6	Stanford Oval Parking	HasType	parking garage
+6	610 Amarillo Ave	IsAddressOf	Stanford Oval Parking
+6	parking garage	IsTypeOf	Stanford Oval Parking
+6	Stanford Oval Parking	HasTraffic	no traffic
+6	Stanford Oval Parking	HasDistance	2 miles
+6	no traffic	IsTrafficOf	Stanford Oval Parking
+6	2 miles	IsDistanceFrom	Stanford Oval Parking
+-1	today	IsEqualTo	monday

@@ -1,0 +1,65 @@
+0	Topanga Mall	HasAddress	171 Oak Rd
+0	Topanga Mall	HasType	shopping center
+0	171 Oak Rd	IsAddressOf	Topanga Mall
+0	shopping center	IsTypeOf	Topanga Mall
+0	Topanga Mall	HasTraffic	moderate traffic
+0	Topanga Mall	HasDistance	2 miles
+0	moderate traffic	IsTrafficOf	Topanga Mall
+0	2 miles	IsDistanceFrom	Topanga Mall
+1	Stanford Shopping Center	HasAddress	773 Alger Dr
+1	Stanford Shopping Center	HasType	shopping center
+1	773 Alger Dr	IsAddressOf	Stanford Shopping Center
+1	shopping center	IsTypeOf	Stanford Shopping Center
+1	Stanford Shopping Center	HasTraffic	moderate traffic
+1	Stanford Shopping Center	HasDistance	6 miles
+1	moderate traffic	IsTrafficOf	Stanford Shopping Center
+1	6 miles	IsDistanceFrom	Stanford Shopping Center
+2	Hotel Keen	HasAddress	578 Arbol Dr
+2	Hotel Keen	HasType	rest stop
+2	578 Arbol Dr	IsAddressOf	Hotel Keen
+2	rest stop	IsTypeOf	Hotel Keen
+2	Hotel Keen	HasTraffic	moderate traffic
+2	Hotel Keen	HasDistance	1 miles
+2	moderate traffic	IsTrafficOf	Hotel Keen
+2	1 miles	IsDistanceFrom	Hotel Keen
+3	5677 southwest 4th street	HasAddress	5677 southwest 4th street
+3	5677 southwest 4th street	HasType	certain address
+3	5677 southwest 4th street	IsAddressOf	5677 southwest 4th street
+3	certain address	IsTypeOf	5677 southwest 4th street
+3	5677 southwest 4th street	HasTraffic	heavy traffic
+3	5677 southwest 4th street	HasDistance	1 miles
+3	heavy traffic	IsTrafficOf	5677 southwest 4th street
+3	1 miles	IsDistanceFrom	5677 southwest 4th street
+4	Cafe Venetia	HasAddress	269 Alger Dr
+4	Cafe Venetia	HasType	coffee or tea place
+4	269 Alger Dr	IsAddressOf	Cafe Venetia
+4	coffee or tea place	IsTypeOf	Cafe Venetia
+4	Cafe Venetia	HasTraffic	no traffic
+4	Cafe Venetia	HasDistance	6 miles
+4	no traffic	IsTrafficOf	Cafe Venetia
+4	6 miles	IsDistanceFrom	Cafe Venetia
+5	Midtown Shopping Center	HasAddress	338 Alester Ave
+5	Midtown Shopping Center	HasType	shopping center
+5	338 Alester Ave	IsAddressOf	Midtown Shopping Center
+5	shopping center	IsTypeOf	Midtown Shopping Center
+5	Midtown Shopping Center	HasTraffic	no traffic
+5	Midtown Shopping Center	HasDistance	5 miles
+5	no traffic	IsTrafficOf	Midtown Shopping Center
+5	5 miles	IsDistanceFrom	Midtown Shopping Center
+6	Town and Country	HasAddress	383 University Ave
+6	Town and Country	HasType	shopping center
+6	383 University Ave	IsAddressOf	Town and Country
+6	shopping center	IsTypeOf	Town and Country
+6	Town and Country	HasTraffic	no traffic
+6	Town and Country	HasDistance	6 miles
+6	no traffic	IsTrafficOf	Town and Country
+6	6 miles	IsDistanceFrom	Town and Country
+7	home	HasAddress	56 cadwell street
+7	home	HasType	home
+7	56 cadwell street	IsAddressOf	home
+7	home	IsTypeOf	home
+7	home	HasTraffic	heavy traffic
+7	home	HasDistance	3 miles
+7	heavy traffic	IsTrafficOf	home
+7	3 miles	IsDistanceFrom	home
+-1	today	IsEqualTo	monday

@@ -1,0 +1,65 @@
+0	Stanford Express Care	HasAddress	214 El Camino Real
+0	Stanford Express Care	HasType	hospital
+0	214 El Camino Real	IsAddressOf	Stanford Express Care
+0	hospital	IsTypeOf	Stanford Express Care
+0	Stanford Express Care	HasTraffic	road block nearby
+0	Stanford Express Care	HasDistance	6 miles
+0	road block nearby	IsTrafficOf	Stanford Express Care
+0	6 miles	IsDistanceFrom	Stanford Express Care
+1	Dominos	HasAddress	776 Arastradero Rd
+1	Dominos	HasType	pizza restaurant
+1	776 Arastradero Rd	IsAddressOf	Dominos
+1	pizza restaurant	IsTypeOf	Dominos
+1	Dominos	HasTraffic	no traffic
+1	Dominos	HasDistance	5 miles
+1	no traffic	IsTrafficOf	Dominos
+1	5 miles	IsDistanceFrom	Dominos
+2	Chevron	HasAddress	783 Arcadia Pl
+2	Chevron	HasType	gas station
+2	783 Arcadia Pl	IsAddressOf	Chevron
+2	gas station	IsTypeOf	Chevron
+2	Chevron	HasTraffic	no traffic
+2	Chevron	HasDistance	4 miles
+2	no traffic	IsTrafficOf	Chevron
+2	4 miles	IsDistanceFrom	Chevron
+3	Ravenswood Shopping Center	HasAddress	434 Arastradero Rd
+3	Ravenswood Shopping Center	HasType	shopping center
+3	434 Arastradero Rd	IsAddressOf	Ravenswood Shopping Center
+3	shopping center	IsTypeOf	Ravenswood Shopping Center
+3	Ravenswood Shopping Center	HasTraffic	road block nearby
+3	Ravenswood Shopping Center	HasDistance	8 miles
+3	road block nearby	IsTrafficOf	Ravenswood Shopping Center
+3	8 miles	IsDistanceFrom	Ravenswood Shopping Center
+4	5677 southwest 4th street	HasAddress	5677 southwest 4th street
+4	5677 southwest 4th street	HasType	certain address
+4	5677 southwest 4th street	IsAddressOf	5677 southwest 4th street
+4	certain address	IsTypeOf	5677 southwest 4th street
+4	5677 southwest 4th street	HasTraffic	moderate traffic
+4	5677 southwest 4th street	HasDistance	5 miles
+4	moderate traffic	IsTrafficOf	5677 southwest 4th street
+4	5 miles	IsDistanceFrom	5677 southwest 4th street
+5	Palo Alto Cafe	HasAddress	436 Alger Dr
+5	Palo Alto Cafe	HasType	coffee or tea place
+5	436 Alger Dr	IsAddressOf	Palo Alto Cafe
+5	coffee or tea place	IsTypeOf	Palo Alto Cafe
+5	Palo Alto Cafe	HasTraffic	moderate traffic
+5	Palo Alto Cafe	HasDistance	4 miles
+5	moderate traffic	IsTrafficOf	Palo Alto Cafe
+5	4 miles	IsDistanceFrom	Palo Alto Cafe
+6	Safeway	HasAddress	452 Arcadia Pl
+6	Safeway	HasType	grocery store
+6	452 Arcadia Pl	IsAddressOf	Safeway
+6	grocery store	IsTypeOf	Safeway
+6	Safeway	HasTraffic	no traffic
+6	Safeway	HasDistance	5 miles
+6	no traffic	IsTrafficOf	Safeway
+6	5 miles	IsDistanceFrom	Safeway
+7	Town and Country	HasAddress	383 University Ave
+7	Town and Country	HasType	shopping center
+7	383 University Ave	IsAddressOf	Town and Country
+7	shopping center	IsTypeOf	Town and Country
+7	Town and Country	HasTraffic	moderate traffic
+7	Town and Country	HasDistance	4 miles
+7	moderate traffic	IsTrafficOf	Town and Country
+7	4 miles	IsDistanceFrom	Town and Country
+-1	today	IsEqualTo	monday

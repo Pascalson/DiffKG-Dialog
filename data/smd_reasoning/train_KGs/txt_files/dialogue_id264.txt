@@ -1,0 +1,57 @@
+0	Round Table	HasAddress	113 Anton Ct
+0	Round Table	HasType	pizza restaurant
+0	113 Anton Ct	IsAddressOf	Round Table
+0	pizza restaurant	IsTypeOf	Round Table
+0	Round Table	HasTraffic	moderate traffic
+0	Round Table	HasDistance	2 miles
+0	moderate traffic	IsTrafficOf	Round Table
+0	2 miles	IsDistanceFrom	Round Table
+1	5672 barringer street	HasAddress	5672 barringer street
+1	5672 barringer street	HasType	certain address
+1	5672 barringer street	IsAddressOf	5672 barringer street
+1	certain address	IsTypeOf	5672 barringer street
+1	5672 barringer street	HasTraffic	heavy traffic
+1	5672 barringer street	HasDistance	5 miles
+1	heavy traffic	IsTrafficOf	5672 barringer street
+1	5 miles	IsDistanceFrom	5672 barringer street
+2	Trader Joes	HasAddress	408 University Ave
+2	Trader Joes	HasType	grocery store
+2	408 University Ave	IsAddressOf	Trader Joes
+2	grocery store	IsTypeOf	Trader Joes
+2	Trader Joes	HasTraffic	moderate traffic
+2	Trader Joes	HasDistance	6 miles
+2	moderate traffic	IsTrafficOf	Trader Joes
+2	6 miles	IsDistanceFrom	Trader Joes
+3	Philz	HasAddress	583 Alester Ave
+3	Philz	HasType	coffee or tea place
+3	583 Alester Ave	IsAddressOf	Philz
+3	coffee or tea place	IsTypeOf	Philz
+3	Philz	HasTraffic	no traffic
+3	Philz	HasDistance	2 miles
+3	no traffic	IsTrafficOf	Philz
+3	2 miles	IsDistanceFrom	Philz
+4	home	HasAddress	56 cadwell street
+4	home	HasType	home
+4	56 cadwell street	IsAddressOf	home
+4	home	IsTypeOf	home
+4	home	HasTraffic	heavy traffic
+4	home	HasDistance	6 miles
+4	heavy traffic	IsTrafficOf	home
+4	6 miles	IsDistanceFrom	home
+5	Town and Country	HasAddress	383 University Ave
+5	Town and Country	HasType	shopping center
+5	383 University Ave	IsAddressOf	Town and Country
+5	shopping center	IsTypeOf	Town and Country
+5	Town and Country	HasTraffic	no traffic
+5	Town and Country	HasDistance	6 miles
+5	no traffic	IsTrafficOf	Town and Country
+5	6 miles	IsDistanceFrom	Town and Country
+6	Cafe Venetia	HasAddress	269 Alger Dr
+6	Cafe Venetia	HasType	coffee or tea place
+6	269 Alger Dr	IsAddressOf	Cafe Venetia
+6	coffee or tea place	IsTypeOf	Cafe Venetia
+6	Cafe Venetia	HasTraffic	no traffic
+6	Cafe Venetia	HasDistance	5 miles
+6	no traffic	IsTrafficOf	Cafe Venetia
+6	5 miles	IsDistanceFrom	Cafe Venetia
+-1	today	IsEqualTo	monday

@@ -1,0 +1,65 @@
+0	The Westin	HasAddress	329 El Camino Real
+0	The Westin	HasType	rest stop
+0	329 El Camino Real	IsAddressOf	The Westin
+0	rest stop	IsTypeOf	The Westin
+0	The Westin	HasTraffic	heavy traffic
+0	The Westin	HasDistance	6 miles
+0	heavy traffic	IsTrafficOf	The Westin
+0	6 miles	IsDistanceFrom	The Westin
+1	Round Table	HasAddress	113 Anton Ct
+1	Round Table	HasType	pizza restaurant
+1	113 Anton Ct	IsAddressOf	Round Table
+1	pizza restaurant	IsTypeOf	Round Table
+1	Round Table	HasTraffic	no traffic
+1	Round Table	HasDistance	4 miles
+1	no traffic	IsTrafficOf	Round Table
+1	4 miles	IsDistanceFrom	Round Table
+2	Coupa	HasAddress	394 Van Ness Ave
+2	Coupa	HasType	coffee or tea place
+2	394 Van Ness Ave	IsAddressOf	Coupa
+2	coffee or tea place	IsTypeOf	Coupa
+2	Coupa	HasTraffic	heavy traffic
+2	Coupa	HasDistance	5 miles
+2	heavy traffic	IsTrafficOf	Coupa
+2	5 miles	IsDistanceFrom	Coupa
+3	Webster Garage	HasAddress	880 Ames Ct
+3	Webster Garage	HasType	parking garage
+3	880 Ames Ct	IsAddressOf	Webster Garage
+3	parking garage	IsTypeOf	Webster Garage
+3	Webster Garage	HasTraffic	heavy traffic
+3	Webster Garage	HasDistance	1 miles
+3	heavy traffic	IsTrafficOf	Webster Garage
+3	1 miles	IsDistanceFrom	Webster Garage
+4	Peets Coffee	HasAddress	9981 Archuleta Ave
+4	Peets Coffee	HasType	coffee or tea place
+4	9981 Archuleta Ave	IsAddressOf	Peets Coffee
+4	coffee or tea place	IsTypeOf	Peets Coffee
+4	Peets Coffee	HasTraffic	moderate traffic
+4	Peets Coffee	HasDistance	3 miles
+4	moderate traffic	IsTrafficOf	Peets Coffee
+4	3 miles	IsDistanceFrom	Peets Coffee
+5	home	HasAddress	10 ames street
+5	home	HasType	home
+5	10 ames street	IsAddressOf	home
+5	home	IsTypeOf	home
+5	home	HasTraffic	no traffic
+5	home	HasDistance	5 miles
+5	no traffic	IsTrafficOf	home
+5	5 miles	IsDistanceFrom	home
+6	Papa Johns	HasAddress	110 Arastradero Rd
+6	Papa Johns	HasType	pizza restaurant
+6	110 Arastradero Rd	IsAddressOf	Papa Johns
+6	pizza restaurant	IsTypeOf	Papa Johns
+6	Papa Johns	HasTraffic	moderate traffic
+6	Papa Johns	HasDistance	2 miles
+6	moderate traffic	IsTrafficOf	Papa Johns
+6	2 miles	IsDistanceFrom	Papa Johns
+7	Teavana	HasAddress	145 Amherst St
+7	Teavana	HasType	coffee or tea place
+7	145 Amherst St	IsAddressOf	Teavana
+7	coffee or tea place	IsTypeOf	Teavana
+7	Teavana	HasTraffic	heavy traffic
+7	Teavana	HasDistance	6 miles
+7	heavy traffic	IsTrafficOf	Teavana
+7	6 miles	IsDistanceFrom	Teavana
+-1	today	IsEqualTo	monday

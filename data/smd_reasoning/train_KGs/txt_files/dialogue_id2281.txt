@@ -1,0 +1,65 @@
+0	Philz	HasAddress	583 Alester Ave
+0	Philz	HasType	coffee or tea place
+0	583 Alester Ave	IsAddressOf	Philz
+0	coffee or tea place	IsTypeOf	Philz
+0	Philz	HasTraffic	heavy traffic
+0	Philz	HasDistance	3 miles
+0	heavy traffic	IsTrafficOf	Philz
+0	3 miles	IsDistanceFrom	Philz
+1	Palo Alto Garage R	HasAddress	481 Amaranta Ave
+1	Palo Alto Garage R	HasType	parking garage
+1	481 Amaranta Ave	IsAddressOf	Palo Alto Garage R
+1	parking garage	IsTypeOf	Palo Alto Garage R
+1	Palo Alto Garage R	HasTraffic	moderate traffic
+1	Palo Alto Garage R	HasDistance	5 miles
+1	moderate traffic	IsTrafficOf	Palo Alto Garage R
+1	5 miles	IsDistanceFrom	Palo Alto Garage R
+2	Shell	HasAddress	53 University Av
+2	Shell	HasType	gas station
+2	53 University Av	IsAddressOf	Shell
+2	gas station	IsTypeOf	Shell
+2	Shell	HasTraffic	no traffic
+2	Shell	HasDistance	5 miles
+2	no traffic	IsTrafficOf	Shell
+2	5 miles	IsDistanceFrom	Shell
+3	Papa Johns	HasAddress	110 Arastradero Rd
+3	Papa Johns	HasType	pizza restaurant
+3	110 Arastradero Rd	IsAddressOf	Papa Johns
+3	pizza restaurant	IsTypeOf	Papa Johns
+3	Papa Johns	HasTraffic	car collision nearby
+3	Papa Johns	HasDistance	1 miles
+3	car collision nearby	IsTrafficOf	Papa Johns
+3	1 miles	IsDistanceFrom	Papa Johns
+4	Travelers Lodge	HasAddress	333 Arbol Dr
+4	Travelers Lodge	HasType	rest stop
+4	333 Arbol Dr	IsAddressOf	Travelers Lodge
+4	rest stop	IsTypeOf	Travelers Lodge
+4	Travelers Lodge	HasTraffic	road block nearby
+4	Travelers Lodge	HasDistance	4 miles
+4	road block nearby	IsTrafficOf	Travelers Lodge
+4	4 miles	IsDistanceFrom	Travelers Lodge
+5	jills house	HasAddress	347 Alta Mesa Ave
+5	jills house	HasType	friends house
+5	347 Alta Mesa Ave	IsAddressOf	jills house
+5	friends house	IsTypeOf	jills house
+5	jills house	HasTraffic	no traffic
+5	jills house	HasDistance	4 miles
+5	no traffic	IsTrafficOf	jills house
+5	4 miles	IsDistanceFrom	jills house
+6	Panda Express	HasAddress	842 Arrowhead Way
+6	Panda Express	HasType	chinese restaurant
+6	842 Arrowhead Way	IsAddressOf	Panda Express
+6	chinese restaurant	IsTypeOf	Panda Express
+6	Panda Express	HasTraffic	road block nearby
+6	Panda Express	HasDistance	6 miles
+6	road block nearby	IsTrafficOf	Panda Express
+6	6 miles	IsDistanceFrom	Panda Express
+7	Teavana	HasAddress	145 Amherst St
+7	Teavana	HasType	coffee or tea place
+7	145 Amherst St	IsAddressOf	Teavana
+7	coffee or tea place	IsTypeOf	Teavana
+7	Teavana	HasTraffic	moderate traffic
+7	Teavana	HasDistance	1 miles
+7	moderate traffic	IsTrafficOf	Teavana
+7	1 miles	IsDistanceFrom	Teavana
+-1	today	IsEqualTo	monday

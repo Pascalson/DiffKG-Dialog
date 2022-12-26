@@ -1,0 +1,57 @@
+0	Webster Garage	HasAddress	880 Ames Ct
+0	Webster Garage	HasType	parking garage
+0	880 Ames Ct	IsAddressOf	Webster Garage
+0	parking garage	IsTypeOf	Webster Garage
+0	Webster Garage	HasTraffic	no traffic
+0	Webster Garage	HasDistance	3 miles
+0	no traffic	IsTrafficOf	Webster Garage
+0	3 miles	IsDistanceFrom	Webster Garage
+1	Stanford Oval Parking	HasAddress	610 Amarillo Ave
+1	Stanford Oval Parking	HasType	parking garage
+1	610 Amarillo Ave	IsAddressOf	Stanford Oval Parking
+1	parking garage	IsTypeOf	Stanford Oval Parking
+1	Stanford Oval Parking	HasTraffic	no traffic
+1	Stanford Oval Parking	HasDistance	2 miles
+1	no traffic	IsTrafficOf	Stanford Oval Parking
+1	2 miles	IsDistanceFrom	Stanford Oval Parking
+2	Trader Joes	HasAddress	408 University Ave
+2	Trader Joes	HasType	grocery store
+2	408 University Ave	IsAddressOf	Trader Joes
+2	grocery store	IsTypeOf	Trader Joes
+2	Trader Joes	HasTraffic	heavy traffic
+2	Trader Joes	HasDistance	1 miles
+2	heavy traffic	IsTrafficOf	Trader Joes
+2	1 miles	IsDistanceFrom	Trader Joes
+3	Teavana	HasAddress	145 Amherst St
+3	Teavana	HasType	coffee or tea place
+3	145 Amherst St	IsAddressOf	Teavana
+3	coffee or tea place	IsTypeOf	Teavana
+3	Teavana	HasTraffic	no traffic
+3	Teavana	HasDistance	1 miles
+3	no traffic	IsTrafficOf	Teavana
+3	1 miles	IsDistanceFrom	Teavana
+4	Chevron	HasAddress	783 Arcadia Pl
+4	Chevron	HasType	gas station
+4	783 Arcadia Pl	IsAddressOf	Chevron
+4	gas station	IsTypeOf	Chevron
+4	Chevron	HasTraffic	moderate traffic
+4	Chevron	HasDistance	1 miles
+4	moderate traffic	IsTrafficOf	Chevron
+4	1 miles	IsDistanceFrom	Chevron
+5	Midtown Shopping Center	HasAddress	338 Alester Ave
+5	Midtown Shopping Center	HasType	shopping center
+5	338 Alester Ave	IsAddressOf	Midtown Shopping Center
+5	shopping center	IsTypeOf	Midtown Shopping Center
+5	Midtown Shopping Center	HasTraffic	no traffic
+5	Midtown Shopping Center	HasDistance	2 miles
+5	no traffic	IsTrafficOf	Midtown Shopping Center
+5	2 miles	IsDistanceFrom	Midtown Shopping Center
+6	Cafe Venetia	HasAddress	269 Alger Dr
+6	Cafe Venetia	HasType	coffee or tea place
+6	269 Alger Dr	IsAddressOf	Cafe Venetia
+6	coffee or tea place	IsTypeOf	Cafe Venetia
+6	Cafe Venetia	HasTraffic	heavy traffic
+6	Cafe Venetia	HasDistance	6 miles
+6	heavy traffic	IsTrafficOf	Cafe Venetia
+6	6 miles	IsDistanceFrom	Cafe Venetia
+-1	today	IsEqualTo	monday

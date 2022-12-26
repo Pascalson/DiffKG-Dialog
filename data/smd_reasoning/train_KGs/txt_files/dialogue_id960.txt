@@ -1,0 +1,57 @@
+0	Coupa	HasAddress	394 Van Ness Ave
+0	Coupa	HasType	coffee or tea place
+0	394 Van Ness Ave	IsAddressOf	Coupa
+0	coffee or tea place	IsTypeOf	Coupa
+0	Coupa	HasTraffic	no traffic
+0	Coupa	HasDistance	6 miles
+0	no traffic	IsTrafficOf	Coupa
+0	6 miles	IsDistanceFrom	Coupa
+1	Stanford Childrens Health	HasAddress	899 Ames Ct
+1	Stanford Childrens Health	HasType	hospital
+1	899 Ames Ct	IsAddressOf	Stanford Childrens Health
+1	hospital	IsTypeOf	Stanford Childrens Health
+1	Stanford Childrens Health	HasTraffic	no traffic
+1	Stanford Childrens Health	HasDistance	6 miles
+1	no traffic	IsTrafficOf	Stanford Childrens Health
+1	6 miles	IsDistanceFrom	Stanford Childrens Health
+2	Cafe Venetia	HasAddress	269 Alger Dr
+2	Cafe Venetia	HasType	coffee or tea place
+2	269 Alger Dr	IsAddressOf	Cafe Venetia
+2	coffee or tea place	IsTypeOf	Cafe Venetia
+2	Cafe Venetia	HasTraffic	heavy traffic
+2	Cafe Venetia	HasDistance	2 miles
+2	heavy traffic	IsTrafficOf	Cafe Venetia
+2	2 miles	IsDistanceFrom	Cafe Venetia
+3	Palo Alto Medical Foundation	HasAddress	611 Ames Ave
+3	Palo Alto Medical Foundation	HasType	hospital
+3	611 Ames Ave	IsAddressOf	Palo Alto Medical Foundation
+3	hospital	IsTypeOf	Palo Alto Medical Foundation
+3	Palo Alto Medical Foundation	HasTraffic	no traffic
+3	Palo Alto Medical Foundation	HasDistance	4 miles
+3	no traffic	IsTrafficOf	Palo Alto Medical Foundation
+3	4 miles	IsDistanceFrom	Palo Alto Medical Foundation
+4	home	HasAddress	56 cadwell street
+4	home	HasType	home
+4	56 cadwell street	IsAddressOf	home
+4	home	IsTypeOf	home
+4	home	HasTraffic	heavy traffic
+4	home	HasDistance	3 miles
+4	heavy traffic	IsTrafficOf	home
+4	3 miles	IsDistanceFrom	home
+5	The Westin	HasAddress	329 El Camino Real
+5	The Westin	HasType	rest stop
+5	329 El Camino Real	IsAddressOf	The Westin
+5	rest stop	IsTypeOf	The Westin
+5	The Westin	HasTraffic	no traffic
+5	The Westin	HasDistance	4 miles
+5	no traffic	IsTrafficOf	The Westin
+5	4 miles	IsDistanceFrom	The Westin
+6	Sigona Farmers Market	HasAddress	638 Amherst St
+6	Sigona Farmers Market	HasType	grocery store
+6	638 Amherst St	IsAddressOf	Sigona Farmers Market
+6	grocery store	IsTypeOf	Sigona Farmers Market
+6	Sigona Farmers Market	HasTraffic	moderate traffic
+6	Sigona Farmers Market	HasDistance	5 miles
+6	moderate traffic	IsTrafficOf	Sigona Farmers Market
+6	5 miles	IsDistanceFrom	Sigona Farmers Market
+-1	today	IsEqualTo	monday

@@ -1,0 +1,65 @@
+0	Chef Chu's	HasAddress	593 Arrowhead Way
+0	Chef Chu's	HasType	chinese restaurant
+0	593 Arrowhead Way	IsAddressOf	Chef Chu's
+0	chinese restaurant	IsTypeOf	Chef Chu's
+0	Chef Chu's	HasTraffic	no traffic
+0	Chef Chu's	HasDistance	3 miles
+0	no traffic	IsTrafficOf	Chef Chu's
+0	3 miles	IsDistanceFrom	Chef Chu's
+1	P.F. Changs	HasAddress	669 El Camino Real
+1	P.F. Changs	HasType	chinese restaurant
+1	669 El Camino Real	IsAddressOf	P.F. Changs
+1	chinese restaurant	IsTypeOf	P.F. Changs
+1	P.F. Changs	HasTraffic	no traffic
+1	P.F. Changs	HasDistance	1 miles
+1	no traffic	IsTrafficOf	P.F. Changs
+1	1 miles	IsDistanceFrom	P.F. Changs
+2	Valero	HasAddress	200 Alester Ave
+2	Valero	HasType	gas station
+2	200 Alester Ave	IsAddressOf	Valero
+2	gas station	IsTypeOf	Valero
+2	Valero	HasTraffic	road block nearby
+2	Valero	HasDistance	5 miles
+2	road block nearby	IsTrafficOf	Valero
+2	5 miles	IsDistanceFrom	Valero
+3	Pizza My Heart	HasAddress	528 Anton Ct
+3	Pizza My Heart	HasType	pizza restaurant
+3	528 Anton Ct	IsAddressOf	Pizza My Heart
+3	pizza restaurant	IsTypeOf	Pizza My Heart
+3	Pizza My Heart	HasTraffic	no traffic
+3	Pizza My Heart	HasDistance	3 miles
+3	no traffic	IsTrafficOf	Pizza My Heart
+3	3 miles	IsDistanceFrom	Pizza My Heart
+4	Comfort Inn	HasAddress	753 University Ave
+4	Comfort Inn	HasType	rest stop
+4	753 University Ave	IsAddressOf	Comfort Inn
+4	rest stop	IsTypeOf	Comfort Inn
+4	Comfort Inn	HasTraffic	heavy traffic
+4	Comfort Inn	HasDistance	4 miles
+4	heavy traffic	IsTrafficOf	Comfort Inn
+4	4 miles	IsDistanceFrom	Comfort Inn
+5	Panda Express	HasAddress	842 Arrowhead Way
+5	Panda Express	HasType	chinese restaurant
+5	842 Arrowhead Way	IsAddressOf	Panda Express
+5	chinese restaurant	IsTypeOf	Panda Express
+5	Panda Express	HasTraffic	heavy traffic
+5	Panda Express	HasDistance	5 miles
+5	heavy traffic	IsTrafficOf	Panda Express
+5	5 miles	IsDistanceFrom	Panda Express
+6	Pizza Hut	HasAddress	704 El Camino Real
+6	Pizza Hut	HasType	pizza restaurant
+6	704 El Camino Real	IsAddressOf	Pizza Hut
+6	pizza restaurant	IsTypeOf	Pizza Hut
+6	Pizza Hut	HasTraffic	heavy traffic
+6	Pizza Hut	HasDistance	2 miles
+6	heavy traffic	IsTrafficOf	Pizza Hut
+6	2 miles	IsDistanceFrom	Pizza Hut
+7	jacks house	HasAddress	864 Almanor Ln
+7	jacks house	HasType	friends house
+7	864 Almanor Ln	IsAddressOf	jacks house
+7	friends house	IsTypeOf	jacks house
+7	jacks house	HasTraffic	no traffic
+7	jacks house	HasDistance	6 miles
+7	no traffic	IsTrafficOf	jacks house
+7	6 miles	IsDistanceFrom	jacks house
+-1	today	IsEqualTo	monday

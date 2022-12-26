@@ -1,0 +1,65 @@
+0	Four Seasons	HasAddress	465 Arcadia Pl
+0	Four Seasons	HasType	rest stop
+0	465 Arcadia Pl	IsAddressOf	Four Seasons
+0	rest stop	IsTypeOf	Four Seasons
+0	Four Seasons	HasTraffic	road block nearby
+0	Four Seasons	HasDistance	4 miles
+0	road block nearby	IsTrafficOf	Four Seasons
+0	4 miles	IsDistanceFrom	Four Seasons
+1	5677 southwest 4th street	HasAddress	5677 southwest 4th street
+1	5677 southwest 4th street	HasType	certain address
+1	5677 southwest 4th street	IsAddressOf	5677 southwest 4th street
+1	certain address	IsTypeOf	5677 southwest 4th street
+1	5677 southwest 4th street	HasTraffic	road block nearby
+1	5677 southwest 4th street	HasDistance	3 miles
+1	road block nearby	IsTrafficOf	5677 southwest 4th street
+1	3 miles	IsDistanceFrom	5677 southwest 4th street
+2	Coupa	HasAddress	394 Van Ness Ave
+2	Coupa	HasType	coffee or tea place
+2	394 Van Ness Ave	IsAddressOf	Coupa
+2	coffee or tea place	IsTypeOf	Coupa
+2	Coupa	HasTraffic	car collision nearby
+2	Coupa	HasDistance	4 miles
+2	car collision nearby	IsTrafficOf	Coupa
+2	4 miles	IsDistanceFrom	Coupa
+3	Hotel Keen	HasAddress	578 Arbol Dr
+3	Hotel Keen	HasType	rest stop
+3	578 Arbol Dr	IsAddressOf	Hotel Keen
+3	rest stop	IsTypeOf	Hotel Keen
+3	Hotel Keen	HasTraffic	heavy traffic
+3	Hotel Keen	HasDistance	6 miles
+3	heavy traffic	IsTrafficOf	Hotel Keen
+3	6 miles	IsDistanceFrom	Hotel Keen
+4	toms house	HasAddress	580 Van Ness Ave
+4	toms house	HasType	friends house
+4	580 Van Ness Ave	IsAddressOf	toms house
+4	friends house	IsTypeOf	toms house
+4	toms house	HasTraffic	road block nearby
+4	toms house	HasDistance	5 miles
+4	road block nearby	IsTrafficOf	toms house
+4	5 miles	IsDistanceFrom	toms house
+5	Pizza My Heart	HasAddress	528 Anton Ct
+5	Pizza My Heart	HasType	pizza restaurant
+5	528 Anton Ct	IsAddressOf	Pizza My Heart
+5	pizza restaurant	IsTypeOf	Pizza My Heart
+5	Pizza My Heart	HasTraffic	moderate traffic
+5	Pizza My Heart	HasDistance	4 miles
+5	moderate traffic	IsTrafficOf	Pizza My Heart
+5	4 miles	IsDistanceFrom	Pizza My Heart
+6	Starbucks	HasAddress	792 Bedoin Street
+6	Starbucks	HasType	coffee or tea place
+6	792 Bedoin Street	IsAddressOf	Starbucks
+6	coffee or tea place	IsTypeOf	Starbucks
+6	Starbucks	HasTraffic	no traffic
+6	Starbucks	HasDistance	1 miles
+6	no traffic	IsTrafficOf	Starbucks
+6	1 miles	IsDistanceFrom	Starbucks
+7	Stanford Express Care	HasAddress	214 El Camino Real
+7	Stanford Express Care	HasType	hospital
+7	214 El Camino Real	IsAddressOf	Stanford Express Care
+7	hospital	IsTypeOf	Stanford Express Care
+7	Stanford Express Care	HasTraffic	heavy traffic
+7	Stanford Express Care	HasDistance	2 miles
+7	heavy traffic	IsTrafficOf	Stanford Express Care
+7	2 miles	IsDistanceFrom	Stanford Express Care
+-1	today	IsEqualTo	monday

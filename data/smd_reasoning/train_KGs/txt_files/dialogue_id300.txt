@@ -1,0 +1,65 @@
+0	Hacienda Market	HasAddress	1313 Chester Ave
+0	Hacienda Market	HasType	grocery store
+0	1313 Chester Ave	IsAddressOf	Hacienda Market
+0	grocery store	IsTypeOf	Hacienda Market
+0	Hacienda Market	HasTraffic	road block nearby
+0	Hacienda Market	HasDistance	3 miles
+0	road block nearby	IsTrafficOf	Hacienda Market
+0	3 miles	IsDistanceFrom	Hacienda Market
+1	Stanford Oval Parking	HasAddress	610 Amarillo Ave
+1	Stanford Oval Parking	HasType	parking garage
+1	610 Amarillo Ave	IsAddressOf	Stanford Oval Parking
+1	parking garage	IsTypeOf	Stanford Oval Parking
+1	Stanford Oval Parking	HasTraffic	heavy traffic
+1	Stanford Oval Parking	HasDistance	5 miles
+1	heavy traffic	IsTrafficOf	Stanford Oval Parking
+1	5 miles	IsDistanceFrom	Stanford Oval Parking
+2	Webster Garage	HasAddress	880 Ames Ct
+2	Webster Garage	HasType	parking garage
+2	880 Ames Ct	IsAddressOf	Webster Garage
+2	parking garage	IsTypeOf	Webster Garage
+2	Webster Garage	HasTraffic	moderate traffic
+2	Webster Garage	HasDistance	4 miles
+2	moderate traffic	IsTrafficOf	Webster Garage
+2	4 miles	IsDistanceFrom	Webster Garage
+3	Stanford Shopping Center	HasAddress	773 Alger Dr
+3	Stanford Shopping Center	HasType	shopping center
+3	773 Alger Dr	IsAddressOf	Stanford Shopping Center
+3	shopping center	IsTypeOf	Stanford Shopping Center
+3	Stanford Shopping Center	HasTraffic	no traffic
+3	Stanford Shopping Center	HasDistance	1 miles
+3	no traffic	IsTrafficOf	Stanford Shopping Center
+3	1 miles	IsDistanceFrom	Stanford Shopping Center
+4	jills house	HasAddress	347 Alta Mesa Ave
+4	jills house	HasType	friends house
+4	347 Alta Mesa Ave	IsAddressOf	jills house
+4	friends house	IsTypeOf	jills house
+4	jills house	HasTraffic	heavy traffic
+4	jills house	HasDistance	1 miles
+4	heavy traffic	IsTrafficOf	jills house
+4	1 miles	IsDistanceFrom	jills house
+5	Cafe Venetia	HasAddress	269 Alger Dr
+5	Cafe Venetia	HasType	coffee or tea place
+5	269 Alger Dr	IsAddressOf	Cafe Venetia
+5	coffee or tea place	IsTypeOf	Cafe Venetia
+5	Cafe Venetia	HasTraffic	heavy traffic
+5	Cafe Venetia	HasDistance	3 miles
+5	heavy traffic	IsTrafficOf	Cafe Venetia
+5	3 miles	IsDistanceFrom	Cafe Venetia
+6	Philz	HasAddress	583 Alester Ave
+6	Philz	HasType	coffee or tea place
+6	583 Alester Ave	IsAddressOf	Philz
+6	coffee or tea place	IsTypeOf	Philz
+6	Philz	HasTraffic	moderate traffic
+6	Philz	HasDistance	5 miles
+6	moderate traffic	IsTrafficOf	Philz
+6	5 miles	IsDistanceFrom	Philz
+7	Starbucks	HasAddress	792 Bedoin Street
+7	Starbucks	HasType	coffee or tea place
+7	792 Bedoin Street	IsAddressOf	Starbucks
+7	coffee or tea place	IsTypeOf	Starbucks
+7	Starbucks	HasTraffic	moderate traffic
+7	Starbucks	HasDistance	6 miles
+7	moderate traffic	IsTrafficOf	Starbucks
+7	6 miles	IsDistanceFrom	Starbucks
+-1	today	IsEqualTo	monday

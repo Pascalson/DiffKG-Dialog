@@ -1,0 +1,53 @@
+0	lab appointment	HasTime	2pm
+0	2pm	IsTimeOf	lab appointment
+0	lab appointment	HasDate	the 20th
+0	the 20th	IsDateOf	lab appointment
+0	lab appointment	HasParty	father
+0	father	IsPartyOf	lab appointment
+1	conference	HasTime	11am
+1	11am	IsTimeOf	conference
+1	conference	HasDate	the 8th
+1	the 8th	IsDateOf	conference
+1	conference	HasParty	executive team
+1	executive team	IsPartyOf	conference
+1	conference	HasRoom	conference room 100
+1	conference room 100	IsRoomOf	conference
+1	conference	HasAgenda	discuss dress code
+1	discuss dress code	IsAgendaOf	conference
+2	optometrist appointment	HasTime	10am
+2	10am	IsTimeOf	optometrist appointment
+2	optometrist appointment	HasDate	tuesday
+2	tuesday	IsDateOf	optometrist appointment
+2	optometrist appointment	HasParty	Alex
+2	Alex	IsPartyOf	optometrist appointment
+3	lab appointment	HasTime	4pm
+3	4pm	IsTimeOf	lab appointment
+3	lab appointment	HasDate	the 19th
+3	the 19th	IsDateOf	lab appointment
+3	lab appointment	HasParty	father
+3	father	IsPartyOf	lab appointment
+4	football activity	HasTime	10am
+4	10am	IsTimeOf	football activity
+4	football activity	HasDate	the 18th
+4	the 18th	IsDateOf	football activity
+4	football activity	HasParty	mother
+4	mother	IsPartyOf	football activity
+5	optometrist appointment	HasTime	2pm
+5	2pm	IsTimeOf	optometrist appointment
+5	optometrist appointment	HasDate	the 9th
+5	the 9th	IsDateOf	optometrist appointment
+5	optometrist appointment	HasParty	Jon
+5	Jon	IsPartyOf	optometrist appointment
+6	dentist appointment	HasTime	7pm
+6	7pm	IsTimeOf	dentist appointment
+6	dentist appointment	HasDate	friday
+6	friday	IsDateOf	dentist appointment
+6	dentist appointment	HasParty	father
+6	father	IsPartyOf	dentist appointment
+7	doctor appointment	HasTime	10am
+7	10am	IsTimeOf	doctor appointment
+7	doctor appointment	HasDate	the 17th
+7	the 17th	IsDateOf	doctor appointment
+7	doctor appointment	HasParty	sister
+7	sister	IsPartyOf	doctor appointment
+-1	today	IsEqualTo	monday

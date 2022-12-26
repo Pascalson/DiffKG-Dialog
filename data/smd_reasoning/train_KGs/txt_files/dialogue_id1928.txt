@@ -1,0 +1,65 @@
+0	Midtown Shopping Center	HasAddress	338 Alester Ave
+0	Midtown Shopping Center	HasType	shopping center
+0	338 Alester Ave	IsAddressOf	Midtown Shopping Center
+0	shopping center	IsTypeOf	Midtown Shopping Center
+0	Midtown Shopping Center	HasTraffic	road block nearby
+0	Midtown Shopping Center	HasDistance	5 miles
+0	road block nearby	IsTrafficOf	Midtown Shopping Center
+0	5 miles	IsDistanceFrom	Midtown Shopping Center
+1	Topanga Mall	HasAddress	171 Oak Rd
+1	Topanga Mall	HasType	shopping center
+1	171 Oak Rd	IsAddressOf	Topanga Mall
+1	shopping center	IsTypeOf	Topanga Mall
+1	Topanga Mall	HasTraffic	no traffic
+1	Topanga Mall	HasDistance	6 miles
+1	no traffic	IsTrafficOf	Topanga Mall
+1	6 miles	IsDistanceFrom	Topanga Mall
+2	home	HasAddress	56 cadwell street
+2	home	HasType	home
+2	56 cadwell street	IsAddressOf	home
+2	home	IsTypeOf	home
+2	home	HasTraffic	road block nearby
+2	home	HasDistance	4 miles
+2	road block nearby	IsTrafficOf	home
+2	4 miles	IsDistanceFrom	home
+3	Four Seasons	HasAddress	465 Arcadia Pl
+3	Four Seasons	HasType	rest stop
+3	465 Arcadia Pl	IsAddressOf	Four Seasons
+3	rest stop	IsTypeOf	Four Seasons
+3	Four Seasons	HasTraffic	heavy traffic
+3	Four Seasons	HasDistance	5 miles
+3	heavy traffic	IsTrafficOf	Four Seasons
+3	5 miles	IsDistanceFrom	Four Seasons
+4	Pizza My Heart	HasAddress	528 Anton Ct
+4	Pizza My Heart	HasType	pizza restaurant
+4	528 Anton Ct	IsAddressOf	Pizza My Heart
+4	pizza restaurant	IsTypeOf	Pizza My Heart
+4	Pizza My Heart	HasTraffic	heavy traffic
+4	Pizza My Heart	HasDistance	5 miles
+4	heavy traffic	IsTrafficOf	Pizza My Heart
+4	5 miles	IsDistanceFrom	Pizza My Heart
+5	Webster Garage	HasAddress	880 Ames Ct
+5	Webster Garage	HasType	parking garage
+5	880 Ames Ct	IsAddressOf	Webster Garage
+5	parking garage	IsTypeOf	Webster Garage
+5	Webster Garage	HasTraffic	road block nearby
+5	Webster Garage	HasDistance	6 miles
+5	road block nearby	IsTrafficOf	Webster Garage
+5	6 miles	IsDistanceFrom	Webster Garage
+6	Teavana	HasAddress	145 Amherst St
+6	Teavana	HasType	coffee or tea place
+6	145 Amherst St	IsAddressOf	Teavana
+6	coffee or tea place	IsTypeOf	Teavana
+6	Teavana	HasTraffic	moderate traffic
+6	Teavana	HasDistance	2 miles
+6	moderate traffic	IsTrafficOf	Teavana
+6	2 miles	IsDistanceFrom	Teavana
+7	Pizza Hut	HasAddress	704 El Camino Real
+7	Pizza Hut	HasType	pizza restaurant
+7	704 El Camino Real	IsAddressOf	Pizza Hut
+7	pizza restaurant	IsTypeOf	Pizza Hut
+7	Pizza Hut	HasTraffic	car collision nearby
+7	Pizza Hut	HasDistance	5 miles
+7	car collision nearby	IsTrafficOf	Pizza Hut
+7	5 miles	IsDistanceFrom	Pizza Hut
+-1	today	IsEqualTo	monday

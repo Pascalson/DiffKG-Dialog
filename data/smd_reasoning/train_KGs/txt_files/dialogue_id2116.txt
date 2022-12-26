@@ -1,0 +1,61 @@
+0	lab appointment	HasTime	5pm
+0	5pm	IsTimeOf	lab appointment
+0	lab appointment	HasDate	the 19th
+0	the 19th	IsDateOf	lab appointment
+0	lab appointment	HasParty	aunt
+0	aunt	IsPartyOf	lab appointment
+1	conference	HasTime	6pm
+1	6pm	IsTimeOf	conference
+1	conference	HasDate	monday
+1	monday	IsDateOf	conference
+1	conference	HasParty	management
+1	management	IsPartyOf	conference
+1	conference	HasRoom	conference room 50
+1	conference room 50	IsRoomOf	conference
+1	conference	HasAgenda	discuss the company picnic
+1	discuss the company picnic	IsAgendaOf	conference
+2	lab appointment	HasTime	1pm
+2	1pm	IsTimeOf	lab appointment
+2	lab appointment	HasDate	tuesday
+2	tuesday	IsDateOf	lab appointment
+2	lab appointment	HasParty	aunt
+2	aunt	IsPartyOf	lab appointment
+3	lab appointment	HasTime	5pm
+3	5pm	IsTimeOf	lab appointment
+3	lab appointment	HasDate	the 15th
+3	the 15th	IsDateOf	lab appointment
+3	lab appointment	HasParty	Tom
+3	Tom	IsPartyOf	lab appointment
+4	conference	HasTime	3pm
+4	3pm	IsTimeOf	conference
+4	conference	HasDate	the 17th
+4	the 17th	IsDateOf	conference
+4	conference	HasParty	boss
+4	boss	IsPartyOf	conference
+4	conference	HasRoom	conference room 50
+4	conference room 50	IsRoomOf	conference
+4	conference	HasAgenda	discuss dress code
+4	discuss dress code	IsAgendaOf	conference
+5	tennis activity	HasTime	9am
+5	9am	IsTimeOf	tennis activity
+5	tennis activity	HasDate	monday
+5	monday	IsDateOf	tennis activity
+5	tennis activity	HasParty	Tom
+5	Tom	IsPartyOf	tennis activity
+6	lab appointment	HasTime	2pm
+6	2pm	IsTimeOf	lab appointment
+6	lab appointment	HasDate	the 6th
+6	the 6th	IsDateOf	lab appointment
+6	lab appointment	HasParty	Marie
+6	Marie	IsPartyOf	lab appointment
+7	conference	HasTime	2pm
+7	2pm	IsTimeOf	conference
+7	conference	HasDate	the 13th
+7	the 13th	IsDateOf	conference
+7	conference	HasParty	HR
+7	HR	IsPartyOf	conference
+7	conference	HasRoom	conference room 50
+7	conference room 50	IsRoomOf	conference
+7	conference	HasAgenda	sign the NDA
+7	sign the NDA	IsAgendaOf	conference
+-1	today	IsEqualTo	monday

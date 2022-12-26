@@ -1,0 +1,65 @@
+0	76	HasAddress	91 El Camino Real
+0	76	HasType	gas station
+0	91 El Camino Real	IsAddressOf	76
+0	gas station	IsTypeOf	76
+0	76	HasTraffic	no traffic
+0	76	HasDistance	4 miles
+0	no traffic	IsTrafficOf	76
+0	4 miles	IsDistanceFrom	76
+1	Chevron	HasAddress	783 Arcadia Pl
+1	Chevron	HasType	gas station
+1	783 Arcadia Pl	IsAddressOf	Chevron
+1	gas station	IsTypeOf	Chevron
+1	Chevron	HasTraffic	car collision nearby
+1	Chevron	HasDistance	3 miles
+1	car collision nearby	IsTrafficOf	Chevron
+1	3 miles	IsDistanceFrom	Chevron
+2	Stanford Shopping Center	HasAddress	773 Alger Dr
+2	Stanford Shopping Center	HasType	shopping center
+2	773 Alger Dr	IsAddressOf	Stanford Shopping Center
+2	shopping center	IsTypeOf	Stanford Shopping Center
+2	Stanford Shopping Center	HasTraffic	no traffic
+2	Stanford Shopping Center	HasDistance	5 miles
+2	no traffic	IsTrafficOf	Stanford Shopping Center
+2	5 miles	IsDistanceFrom	Stanford Shopping Center
+3	Peets Coffee	HasAddress	9981 Archuleta Ave
+3	Peets Coffee	HasType	coffee or tea place
+3	9981 Archuleta Ave	IsAddressOf	Peets Coffee
+3	coffee or tea place	IsTypeOf	Peets Coffee
+3	Peets Coffee	HasTraffic	moderate traffic
+3	Peets Coffee	HasDistance	5 miles
+3	moderate traffic	IsTrafficOf	Peets Coffee
+3	5 miles	IsDistanceFrom	Peets Coffee
+4	Mandarin Roots	HasAddress	271 Springer Street
+4	Mandarin Roots	HasType	chinese restaurant
+4	271 Springer Street	IsAddressOf	Mandarin Roots
+4	chinese restaurant	IsTypeOf	Mandarin Roots
+4	Mandarin Roots	HasTraffic	car collision nearby
+4	Mandarin Roots	HasDistance	2 miles
+4	car collision nearby	IsTrafficOf	Mandarin Roots
+4	2 miles	IsDistanceFrom	Mandarin Roots
+5	tai pan	HasAddress	830 Almanor Ln
+5	tai pan	HasType	chinese restaurant
+5	830 Almanor Ln	IsAddressOf	tai pan
+5	chinese restaurant	IsTypeOf	tai pan
+5	tai pan	HasTraffic	moderate traffic
+5	tai pan	HasDistance	3 miles
+5	moderate traffic	IsTrafficOf	tai pan
+5	3 miles	IsDistanceFrom	tai pan
+6	Stanford Express Care	HasAddress	214 El Camino Real
+6	Stanford Express Care	HasType	hospital
+6	214 El Camino Real	IsAddressOf	Stanford Express Care
+6	hospital	IsTypeOf	Stanford Express Care
+6	Stanford Express Care	HasTraffic	road block nearby
+6	Stanford Express Care	HasDistance	1 miles
+6	road block nearby	IsTrafficOf	Stanford Express Care
+6	1 miles	IsDistanceFrom	Stanford Express Care
+7	Coupa	HasAddress	394 Van Ness Ave
+7	Coupa	HasType	coffee or tea place
+7	394 Van Ness Ave	IsAddressOf	Coupa
+7	coffee or tea place	IsTypeOf	Coupa
+7	Coupa	HasTraffic	car collision nearby
+7	Coupa	HasDistance	6 miles
+7	car collision nearby	IsTrafficOf	Coupa
+7	6 miles	IsDistanceFrom	Coupa
+-1	today	IsEqualTo	monday

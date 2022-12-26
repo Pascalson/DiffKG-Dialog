@@ -1,0 +1,57 @@
+0	Jing Jing	HasAddress	113 Arbol Dr
+0	Jing Jing	HasType	chinese restaurant
+0	113 Arbol Dr	IsAddressOf	Jing Jing
+0	chinese restaurant	IsTypeOf	Jing Jing
+0	Jing Jing	HasTraffic	heavy traffic
+0	Jing Jing	HasDistance	6 miles
+0	heavy traffic	IsTrafficOf	Jing Jing
+0	6 miles	IsDistanceFrom	Jing Jing
+1	Teavana	HasAddress	145 Amherst St
+1	Teavana	HasType	coffee or tea place
+1	145 Amherst St	IsAddressOf	Teavana
+1	coffee or tea place	IsTypeOf	Teavana
+1	Teavana	HasTraffic	moderate traffic
+1	Teavana	HasDistance	6 miles
+1	moderate traffic	IsTrafficOf	Teavana
+1	6 miles	IsDistanceFrom	Teavana
+2	Town and Country	HasAddress	383 University Ave
+2	Town and Country	HasType	shopping center
+2	383 University Ave	IsAddressOf	Town and Country
+2	shopping center	IsTypeOf	Town and Country
+2	Town and Country	HasTraffic	heavy traffic
+2	Town and Country	HasDistance	1 miles
+2	heavy traffic	IsTrafficOf	Town and Country
+2	1 miles	IsDistanceFrom	Town and Country
+3	The Clement Hotel	HasAddress	657 Ames Ave
+3	The Clement Hotel	HasType	rest stop
+3	657 Ames Ave	IsAddressOf	The Clement Hotel
+3	rest stop	IsTypeOf	The Clement Hotel
+3	The Clement Hotel	HasTraffic	heavy traffic
+3	The Clement Hotel	HasDistance	1 miles
+3	heavy traffic	IsTrafficOf	The Clement Hotel
+3	1 miles	IsDistanceFrom	The Clement Hotel
+4	Pizza Chicago	HasAddress	915 Arbol Dr
+4	Pizza Chicago	HasType	pizza restaurant
+4	915 Arbol Dr	IsAddressOf	Pizza Chicago
+4	pizza restaurant	IsTypeOf	Pizza Chicago
+4	Pizza Chicago	HasTraffic	no traffic
+4	Pizza Chicago	HasDistance	6 miles
+4	no traffic	IsTrafficOf	Pizza Chicago
+4	6 miles	IsDistanceFrom	Pizza Chicago
+5	home	HasAddress	56 cadwell street
+5	home	HasType	home
+5	56 cadwell street	IsAddressOf	home
+5	home	IsTypeOf	home
+5	home	HasTraffic	no traffic
+5	home	HasDistance	3 miles
+5	no traffic	IsTrafficOf	home
+5	3 miles	IsDistanceFrom	home
+6	Coupa	HasAddress	394 Van Ness Ave
+6	Coupa	HasType	coffee or tea place
+6	394 Van Ness Ave	IsAddressOf	Coupa
+6	coffee or tea place	IsTypeOf	Coupa
+6	Coupa	HasTraffic	heavy traffic
+6	Coupa	HasDistance	6 miles
+6	heavy traffic	IsTrafficOf	Coupa
+6	6 miles	IsDistanceFrom	Coupa
+-1	today	IsEqualTo	monday

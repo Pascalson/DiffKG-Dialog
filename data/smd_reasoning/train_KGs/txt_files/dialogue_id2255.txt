@@ -1,0 +1,65 @@
+0	Round Table	HasAddress	113 Anton Ct
+0	Round Table	HasType	pizza restaurant
+0	113 Anton Ct	IsAddressOf	Round Table
+0	pizza restaurant	IsTypeOf	Round Table
+0	Round Table	HasTraffic	heavy traffic
+0	Round Table	HasDistance	2 miles
+0	heavy traffic	IsTrafficOf	Round Table
+0	2 miles	IsDistanceFrom	Round Table
+1	Trader Joes	HasAddress	408 University Ave
+1	Trader Joes	HasType	grocery store
+1	408 University Ave	IsAddressOf	Trader Joes
+1	grocery store	IsTypeOf	Trader Joes
+1	Trader Joes	HasTraffic	no traffic
+1	Trader Joes	HasDistance	5 miles
+1	no traffic	IsTrafficOf	Trader Joes
+1	5 miles	IsDistanceFrom	Trader Joes
+2	Ravenswood Shopping Center	HasAddress	434 Arastradero Rd
+2	Ravenswood Shopping Center	HasType	shopping center
+2	434 Arastradero Rd	IsAddressOf	Ravenswood Shopping Center
+2	shopping center	IsTypeOf	Ravenswood Shopping Center
+2	Ravenswood Shopping Center	HasTraffic	heavy traffic
+2	Ravenswood Shopping Center	HasDistance	6 miles
+2	heavy traffic	IsTrafficOf	Ravenswood Shopping Center
+2	6 miles	IsDistanceFrom	Ravenswood Shopping Center
+3	Philz	HasAddress	583 Alester Ave
+3	Philz	HasType	coffee or tea place
+3	583 Alester Ave	IsAddressOf	Philz
+3	coffee or tea place	IsTypeOf	Philz
+3	Philz	HasTraffic	heavy traffic
+3	Philz	HasDistance	4 miles
+3	heavy traffic	IsTrafficOf	Philz
+3	4 miles	IsDistanceFrom	Philz
+4	Hotel Keen	HasAddress	578 Arbol Dr
+4	Hotel Keen	HasType	rest stop
+4	578 Arbol Dr	IsAddressOf	Hotel Keen
+4	rest stop	IsTypeOf	Hotel Keen
+4	Hotel Keen	HasTraffic	road block nearby
+4	Hotel Keen	HasDistance	6 miles
+4	road block nearby	IsTrafficOf	Hotel Keen
+4	6 miles	IsDistanceFrom	Hotel Keen
+5	Pizza Hut	HasAddress	704 El Camino Real
+5	Pizza Hut	HasType	pizza restaurant
+5	704 El Camino Real	IsAddressOf	Pizza Hut
+5	pizza restaurant	IsTypeOf	Pizza Hut
+5	Pizza Hut	HasTraffic	moderate traffic
+5	Pizza Hut	HasDistance	1 miles
+5	moderate traffic	IsTrafficOf	Pizza Hut
+5	1 miles	IsDistanceFrom	Pizza Hut
+6	5677 southwest 4th street	HasAddress	5677 southwest 4th street
+6	5677 southwest 4th street	HasType	certain address
+6	5677 southwest 4th street	IsAddressOf	5677 southwest 4th street
+6	certain address	IsTypeOf	5677 southwest 4th street
+6	5677 southwest 4th street	HasTraffic	car collision nearby
+6	5677 southwest 4th street	HasDistance	6 miles
+6	car collision nearby	IsTrafficOf	5677 southwest 4th street
+6	6 miles	IsDistanceFrom	5677 southwest 4th street
+7	Town and Country	HasAddress	383 University Ave
+7	Town and Country	HasType	shopping center
+7	383 University Ave	IsAddressOf	Town and Country
+7	shopping center	IsTypeOf	Town and Country
+7	Town and Country	HasTraffic	road block nearby
+7	Town and Country	HasDistance	6 miles
+7	road block nearby	IsTrafficOf	Town and Country
+7	6 miles	IsDistanceFrom	Town and Country
+-1	today	IsEqualTo	monday

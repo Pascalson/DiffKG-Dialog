@@ -1,0 +1,57 @@
+0	Ravenswood Shopping Center	HasAddress	434 Arastradero Rd
+0	Ravenswood Shopping Center	HasType	shopping center
+0	434 Arastradero Rd	IsAddressOf	Ravenswood Shopping Center
+0	shopping center	IsTypeOf	Ravenswood Shopping Center
+0	Ravenswood Shopping Center	HasTraffic	heavy traffic
+0	Ravenswood Shopping Center	HasDistance	4 miles
+0	heavy traffic	IsTrafficOf	Ravenswood Shopping Center
+0	4 miles	IsDistanceFrom	Ravenswood Shopping Center
+1	Dominos	HasAddress	776 Arastradero Rd
+1	Dominos	HasType	pizza restaurant
+1	776 Arastradero Rd	IsAddressOf	Dominos
+1	pizza restaurant	IsTypeOf	Dominos
+1	Dominos	HasTraffic	no traffic
+1	Dominos	HasDistance	1 miles
+1	no traffic	IsTrafficOf	Dominos
+1	1 miles	IsDistanceFrom	Dominos
+2	toms house	HasAddress	580 Van Ness Ave
+2	toms house	HasType	friends house
+2	580 Van Ness Ave	IsAddressOf	toms house
+2	friends house	IsTypeOf	toms house
+2	toms house	HasTraffic	no traffic
+2	toms house	HasDistance	1 miles
+2	no traffic	IsTrafficOf	toms house
+2	1 miles	IsDistanceFrom	toms house
+3	Safeway	HasAddress	452 Arcadia Pl
+3	Safeway	HasType	grocery store
+3	452 Arcadia Pl	IsAddressOf	Safeway
+3	grocery store	IsTypeOf	Safeway
+3	Safeway	HasTraffic	moderate traffic
+3	Safeway	HasDistance	4 miles
+3	moderate traffic	IsTrafficOf	Safeway
+3	4 miles	IsDistanceFrom	Safeway
+4	jills house	HasAddress	347 Alta Mesa Ave
+4	jills house	HasType	friends house
+4	347 Alta Mesa Ave	IsAddressOf	jills house
+4	friends house	IsTypeOf	jills house
+4	jills house	HasTraffic	heavy traffic
+4	jills house	HasDistance	4 miles
+4	heavy traffic	IsTrafficOf	jills house
+4	4 miles	IsDistanceFrom	jills house
+5	Civic Center Garage	HasAddress	270 Altaire Walk
+5	Civic Center Garage	HasType	parking garage
+5	270 Altaire Walk	IsAddressOf	Civic Center Garage
+5	parking garage	IsTypeOf	Civic Center Garage
+5	Civic Center Garage	HasTraffic	no traffic
+5	Civic Center Garage	HasDistance	4 miles
+5	no traffic	IsTrafficOf	Civic Center Garage
+5	4 miles	IsDistanceFrom	Civic Center Garage
+6	Stanford Shopping Center	HasAddress	773 Alger Dr
+6	Stanford Shopping Center	HasType	shopping center
+6	773 Alger Dr	IsAddressOf	Stanford Shopping Center
+6	shopping center	IsTypeOf	Stanford Shopping Center
+6	Stanford Shopping Center	HasTraffic	moderate traffic
+6	Stanford Shopping Center	HasDistance	2 miles
+6	moderate traffic	IsTrafficOf	Stanford Shopping Center
+6	2 miles	IsDistanceFrom	Stanford Shopping Center
+-1	today	IsEqualTo	monday

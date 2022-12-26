@@ -1,0 +1,65 @@
+0	meeting	HasTime	10am
+0	10am	IsTimeOf	meeting
+0	meeting	HasDate	tuesday
+0	tuesday	IsDateOf	meeting
+0	meeting	HasParty	HR
+0	HR	IsPartyOf	meeting
+0	meeting	HasRoom	conference room 100
+0	conference room 100	IsRoomOf	meeting
+0	meeting	HasAgenda	sign the NDA
+0	sign the NDA	IsAgendaOf	meeting
+1	yoga activity	HasTime	11am
+1	11am	IsTimeOf	yoga activity
+1	yoga activity	HasDate	monday
+1	monday	IsDateOf	yoga activity
+1	yoga activity	HasParty	Tom
+1	Tom	IsPartyOf	yoga activity
+2	meeting	HasTime	4pm
+2	4pm	IsTimeOf	meeting
+2	meeting	HasDate	wednesday
+2	wednesday	IsDateOf	meeting
+2	meeting	HasParty	management
+2	management	IsPartyOf	meeting
+2	meeting	HasRoom	conference room 100
+2	conference room 100	IsRoomOf	meeting
+2	meeting	HasAgenda	go over quarterly report
+2	go over quarterly report	IsAgendaOf	meeting
+3	taking medicine	HasTime	9am
+3	9am	IsTimeOf	taking medicine
+3	taking medicine	HasDate	wednesday
+3	wednesday	IsDateOf	taking medicine
+3	taking medicine	HasParty	Marie
+3	Marie	IsPartyOf	taking medicine
+4	conference	HasTime	4pm
+4	4pm	IsTimeOf	conference
+4	conference	HasDate	the 13th
+4	the 13th	IsDateOf	conference
+4	conference	HasParty	executive team
+4	executive team	IsPartyOf	conference
+4	conference	HasRoom	conference room 100
+4	conference room 100	IsRoomOf	conference
+4	conference	HasAgenda	sign the NDA
+4	sign the NDA	IsAgendaOf	conference
+5	optometrist appointment	HasTime	4pm
+5	4pm	IsTimeOf	optometrist appointment
+5	optometrist appointment	HasDate	the 10th
+5	the 10th	IsDateOf	optometrist appointment
+5	optometrist appointment	HasParty	Jon
+5	Jon	IsPartyOf	optometrist appointment
+6	meeting	HasTime	9am
+6	9am	IsTimeOf	meeting
+6	meeting	HasDate	thursday
+6	thursday	IsDateOf	meeting
+6	meeting	HasParty	executive team
+6	executive team	IsPartyOf	meeting
+6	meeting	HasRoom	conference room 102
+6	conference room 102	IsRoomOf	meeting
+6	meeting	HasAgenda	discuss the merger
+6	discuss the merger	IsAgendaOf	meeting
+7	optometrist appointment	HasTime	10am
+7	10am	IsTimeOf	optometrist appointment
+7	optometrist appointment	HasDate	wednesday
+7	wednesday	IsDateOf	optometrist appointment
+7	optometrist appointment	HasParty	sister
+7	sister	IsPartyOf	optometrist appointment
+-1	today	IsEqualTo	monday

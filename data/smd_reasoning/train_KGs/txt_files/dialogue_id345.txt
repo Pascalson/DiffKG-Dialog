@@ -1,0 +1,41 @@
+0	doctor appointment	HasTime	6pm
+0	6pm	IsTimeOf	doctor appointment
+0	doctor appointment	HasDate	the 8th
+0	the 8th	IsDateOf	doctor appointment
+0	doctor appointment	HasParty	Tom
+0	Tom	IsPartyOf	doctor appointment
+1	swimming activity	HasTime	6pm
+1	6pm	IsTimeOf	swimming activity
+1	swimming activity	HasDate	the 3rd
+1	the 3rd	IsDateOf	swimming activity
+1	swimming activity	HasParty	Martha
+1	Martha	IsPartyOf	swimming activity
+2	conference	HasTime	3pm
+2	3pm	IsTimeOf	conference
+2	conference	HasDate	the 10th
+2	the 10th	IsDateOf	conference
+2	conference	HasParty	boss
+2	boss	IsPartyOf	conference
+2	conference	HasRoom	conference room 100
+2	conference room 100	IsRoomOf	conference
+2	conference	HasAgenda	discuss the company picnic
+2	discuss the company picnic	IsAgendaOf	conference
+3	dinner	HasTime	6pm
+3	6pm	IsTimeOf	dinner
+3	dinner	HasDate	the 4th
+3	the 4th	IsDateOf	dinner
+3	dinner	HasParty	brother
+3	brother	IsPartyOf	dinner
+4	tennis activity	HasTime	7pm
+4	7pm	IsTimeOf	tennis activity
+4	tennis activity	HasDate	sunday
+4	sunday	IsDateOf	tennis activity
+4	tennis activity	HasParty	Alex
+4	Alex	IsPartyOf	tennis activity
+5	taking medicine	HasTime	11am
+5	11am	IsTimeOf	taking medicine
+5	taking medicine	HasDate	the 10th
+5	the 10th	IsDateOf	taking medicine
+5	taking medicine	HasParty	aunt
+5	aunt	IsPartyOf	taking medicine
+-1	today	IsEqualTo	monday

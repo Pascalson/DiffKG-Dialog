@@ -1,0 +1,65 @@
+0	Whole Foods	HasAddress	819 Alma St
+0	Whole Foods	HasType	grocery store
+0	819 Alma St	IsAddressOf	Whole Foods
+0	grocery store	IsTypeOf	Whole Foods
+0	Whole Foods	HasTraffic	car collision nearby
+0	Whole Foods	HasDistance	1 miles
+0	car collision nearby	IsTrafficOf	Whole Foods
+0	1 miles	IsDistanceFrom	Whole Foods
+1	home	HasAddress	10 ames street
+1	home	HasType	home
+1	10 ames street	IsAddressOf	home
+1	home	IsTypeOf	home
+1	home	HasTraffic	no traffic
+1	home	HasDistance	2 miles
+1	no traffic	IsTrafficOf	home
+1	2 miles	IsDistanceFrom	home
+2	Four Seasons	HasAddress	465 Arcadia Pl
+2	Four Seasons	HasType	rest stop
+2	465 Arcadia Pl	IsAddressOf	Four Seasons
+2	rest stop	IsTypeOf	Four Seasons
+2	Four Seasons	HasTraffic	moderate traffic
+2	Four Seasons	HasDistance	2 miles
+2	moderate traffic	IsTrafficOf	Four Seasons
+2	2 miles	IsDistanceFrom	Four Seasons
+3	Topanga Mall	HasAddress	171 Oak Rd
+3	Topanga Mall	HasType	shopping center
+3	171 Oak Rd	IsAddressOf	Topanga Mall
+3	shopping center	IsTypeOf	Topanga Mall
+3	Topanga Mall	HasTraffic	car collision nearby
+3	Topanga Mall	HasDistance	5 miles
+3	car collision nearby	IsTrafficOf	Topanga Mall
+3	5 miles	IsDistanceFrom	Topanga Mall
+4	Shell	HasAddress	53 University Av
+4	Shell	HasType	gas station
+4	53 University Av	IsAddressOf	Shell
+4	gas station	IsTypeOf	Shell
+4	Shell	HasTraffic	car collision nearby
+4	Shell	HasDistance	6 miles
+4	car collision nearby	IsTrafficOf	Shell
+4	6 miles	IsDistanceFrom	Shell
+5	Coupa	HasAddress	394 Van Ness Ave
+5	Coupa	HasType	coffee or tea place
+5	394 Van Ness Ave	IsAddressOf	Coupa
+5	coffee or tea place	IsTypeOf	Coupa
+5	Coupa	HasTraffic	heavy traffic
+5	Coupa	HasDistance	6 miles
+5	heavy traffic	IsTrafficOf	Coupa
+5	6 miles	IsDistanceFrom	Coupa
+6	Pizza My Heart	HasAddress	528 Anton Ct
+6	Pizza My Heart	HasType	pizza restaurant
+6	528 Anton Ct	IsAddressOf	Pizza My Heart
+6	pizza restaurant	IsTypeOf	Pizza My Heart
+6	Pizza My Heart	HasTraffic	moderate traffic
+6	Pizza My Heart	HasDistance	4 miles
+6	moderate traffic	IsTrafficOf	Pizza My Heart
+6	4 miles	IsDistanceFrom	Pizza My Heart
+7	toms house	HasAddress	580 Van Ness Ave
+7	toms house	HasType	friends house
+7	580 Van Ness Ave	IsAddressOf	toms house
+7	friends house	IsTypeOf	toms house
+7	toms house	HasTraffic	moderate traffic
+7	toms house	HasDistance	4 miles
+7	moderate traffic	IsTrafficOf	toms house
+7	4 miles	IsDistanceFrom	toms house
+-1	today	IsEqualTo	monday

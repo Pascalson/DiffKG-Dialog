@@ -1,0 +1,57 @@
+0	jills house	HasAddress	347 Alta Mesa Ave
+0	jills house	HasType	friends house
+0	347 Alta Mesa Ave	IsAddressOf	jills house
+0	friends house	IsTypeOf	jills house
+0	jills house	HasTraffic	moderate traffic
+0	jills house	HasDistance	4 miles
+0	moderate traffic	IsTrafficOf	jills house
+0	4 miles	IsDistanceFrom	jills house
+1	home	HasAddress	10 ames street
+1	home	HasType	home
+1	10 ames street	IsAddressOf	home
+1	home	IsTypeOf	home
+1	home	HasTraffic	heavy traffic
+1	home	HasDistance	2 miles
+1	heavy traffic	IsTrafficOf	home
+1	2 miles	IsDistanceFrom	home
+2	Coupa	HasAddress	394 Van Ness Ave
+2	Coupa	HasType	coffee or tea place
+2	394 Van Ness Ave	IsAddressOf	Coupa
+2	coffee or tea place	IsTypeOf	Coupa
+2	Coupa	HasTraffic	heavy traffic
+2	Coupa	HasDistance	4 miles
+2	heavy traffic	IsTrafficOf	Coupa
+2	4 miles	IsDistanceFrom	Coupa
+3	Civic Center Garage	HasAddress	270 Altaire Walk
+3	Civic Center Garage	HasType	parking garage
+3	270 Altaire Walk	IsAddressOf	Civic Center Garage
+3	parking garage	IsTypeOf	Civic Center Garage
+3	Civic Center Garage	HasTraffic	no traffic
+3	Civic Center Garage	HasDistance	1 miles
+3	no traffic	IsTrafficOf	Civic Center Garage
+3	1 miles	IsDistanceFrom	Civic Center Garage
+4	Dish Parking	HasAddress	550 Alester Ave
+4	Dish Parking	HasType	parking garage
+4	550 Alester Ave	IsAddressOf	Dish Parking
+4	parking garage	IsTypeOf	Dish Parking
+4	Dish Parking	HasTraffic	no traffic
+4	Dish Parking	HasDistance	4 miles
+4	no traffic	IsTrafficOf	Dish Parking
+4	4 miles	IsDistanceFrom	Dish Parking
+5	home	HasAddress	5671 barringer street
+5	home	HasType	home
+5	5671 barringer street	IsAddressOf	home
+5	home	IsTypeOf	home
+5	home	HasTraffic	heavy traffic
+5	home	HasDistance	3 miles
+5	heavy traffic	IsTrafficOf	home
+5	3 miles	IsDistanceFrom	home
+6	Webster Garage	HasAddress	880 Ames Ct
+6	Webster Garage	HasType	parking garage
+6	880 Ames Ct	IsAddressOf	Webster Garage
+6	parking garage	IsTypeOf	Webster Garage
+6	Webster Garage	HasTraffic	heavy traffic
+6	Webster Garage	HasDistance	3 miles
+6	heavy traffic	IsTrafficOf	Webster Garage
+6	3 miles	IsDistanceFrom	Webster Garage
+-1	today	IsEqualTo	monday

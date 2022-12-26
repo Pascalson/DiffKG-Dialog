@@ -1,0 +1,57 @@
+0	Town and Country	HasAddress	383 University Ave
+0	Town and Country	HasType	shopping center
+0	383 University Ave	IsAddressOf	Town and Country
+0	shopping center	IsTypeOf	Town and Country
+0	Town and Country	HasTraffic	no traffic
+0	Town and Country	HasDistance	6 miles
+0	no traffic	IsTrafficOf	Town and Country
+0	6 miles	IsDistanceFrom	Town and Country
+1	jills house	HasAddress	347 Alta Mesa Ave
+1	jills house	HasType	friends house
+1	347 Alta Mesa Ave	IsAddressOf	jills house
+1	friends house	IsTypeOf	jills house
+1	jills house	HasTraffic	moderate traffic
+1	jills house	HasDistance	3 miles
+1	moderate traffic	IsTrafficOf	jills house
+1	3 miles	IsDistanceFrom	jills house
+2	Palo Alto Cafe	HasAddress	436 Alger Dr
+2	Palo Alto Cafe	HasType	coffee or tea place
+2	436 Alger Dr	IsAddressOf	Palo Alto Cafe
+2	coffee or tea place	IsTypeOf	Palo Alto Cafe
+2	Palo Alto Cafe	HasTraffic	no traffic
+2	Palo Alto Cafe	HasDistance	1 miles
+2	no traffic	IsTrafficOf	Palo Alto Cafe
+2	1 miles	IsDistanceFrom	Palo Alto Cafe
+3	P.F. Changs	HasAddress	669 El Camino Real
+3	P.F. Changs	HasType	chinese restaurant
+3	669 El Camino Real	IsAddressOf	P.F. Changs
+3	chinese restaurant	IsTypeOf	P.F. Changs
+3	P.F. Changs	HasTraffic	moderate traffic
+3	P.F. Changs	HasDistance	1 miles
+3	moderate traffic	IsTrafficOf	P.F. Changs
+3	1 miles	IsDistanceFrom	P.F. Changs
+4	Philz	HasAddress	583 Alester Ave
+4	Philz	HasType	coffee or tea place
+4	583 Alester Ave	IsAddressOf	Philz
+4	coffee or tea place	IsTypeOf	Philz
+4	Philz	HasTraffic	heavy traffic
+4	Philz	HasDistance	2 miles
+4	heavy traffic	IsTrafficOf	Philz
+4	2 miles	IsDistanceFrom	Philz
+5	Pizza My Heart	HasAddress	528 Anton Ct
+5	Pizza My Heart	HasType	pizza restaurant
+5	528 Anton Ct	IsAddressOf	Pizza My Heart
+5	pizza restaurant	IsTypeOf	Pizza My Heart
+5	Pizza My Heart	HasTraffic	moderate traffic
+5	Pizza My Heart	HasDistance	2 miles
+5	moderate traffic	IsTrafficOf	Pizza My Heart
+5	2 miles	IsDistanceFrom	Pizza My Heart
+6	Safeway	HasAddress	452 Arcadia Pl
+6	Safeway	HasType	grocery store
+6	452 Arcadia Pl	IsAddressOf	Safeway
+6	grocery store	IsTypeOf	Safeway
+6	Safeway	HasTraffic	no traffic
+6	Safeway	HasDistance	4 miles
+6	no traffic	IsTrafficOf	Safeway
+6	4 miles	IsDistanceFrom	Safeway
+-1	today	IsEqualTo	monday

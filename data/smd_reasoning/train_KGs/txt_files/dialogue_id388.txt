@@ -1,0 +1,57 @@
+0	Cafe Venetia	HasAddress	269 Alger Dr
+0	Cafe Venetia	HasType	coffee or tea place
+0	269 Alger Dr	IsAddressOf	Cafe Venetia
+0	coffee or tea place	IsTypeOf	Cafe Venetia
+0	Cafe Venetia	HasTraffic	moderate traffic
+0	Cafe Venetia	HasDistance	1 miles
+0	moderate traffic	IsTrafficOf	Cafe Venetia
+0	1 miles	IsDistanceFrom	Cafe Venetia
+1	Palo Alto Garage R	HasAddress	481 Amaranta Ave
+1	Palo Alto Garage R	HasType	parking garage
+1	481 Amaranta Ave	IsAddressOf	Palo Alto Garage R
+1	parking garage	IsTypeOf	Palo Alto Garage R
+1	Palo Alto Garage R	HasTraffic	no traffic
+1	Palo Alto Garage R	HasDistance	2 miles
+1	no traffic	IsTrafficOf	Palo Alto Garage R
+1	2 miles	IsDistanceFrom	Palo Alto Garage R
+2	Jing Jing	HasAddress	113 Arbol Dr
+2	Jing Jing	HasType	chinese restaurant
+2	113 Arbol Dr	IsAddressOf	Jing Jing
+2	chinese restaurant	IsTypeOf	Jing Jing
+2	Jing Jing	HasTraffic	no traffic
+2	Jing Jing	HasDistance	3 miles
+2	no traffic	IsTrafficOf	Jing Jing
+2	3 miles	IsDistanceFrom	Jing Jing
+3	Panda Express	HasAddress	842 Arrowhead Way
+3	Panda Express	HasType	chinese restaurant
+3	842 Arrowhead Way	IsAddressOf	Panda Express
+3	chinese restaurant	IsTypeOf	Panda Express
+3	Panda Express	HasTraffic	heavy traffic
+3	Panda Express	HasDistance	1 miles
+3	heavy traffic	IsTrafficOf	Panda Express
+3	1 miles	IsDistanceFrom	Panda Express
+4	Philz	HasAddress	583 Alester Ave
+4	Philz	HasType	coffee or tea place
+4	583 Alester Ave	IsAddressOf	Philz
+4	coffee or tea place	IsTypeOf	Philz
+4	Philz	HasTraffic	moderate traffic
+4	Philz	HasDistance	1 miles
+4	moderate traffic	IsTrafficOf	Philz
+4	1 miles	IsDistanceFrom	Philz
+5	Teavana	HasAddress	145 Amherst St
+5	Teavana	HasType	coffee or tea place
+5	145 Amherst St	IsAddressOf	Teavana
+5	coffee or tea place	IsTypeOf	Teavana
+5	Teavana	HasTraffic	moderate traffic
+5	Teavana	HasDistance	4 miles
+5	moderate traffic	IsTrafficOf	Teavana
+5	4 miles	IsDistanceFrom	Teavana
+6	Pizza Hut	HasAddress	704 El Camino Real
+6	Pizza Hut	HasType	pizza restaurant
+6	704 El Camino Real	IsAddressOf	Pizza Hut
+6	pizza restaurant	IsTypeOf	Pizza Hut
+6	Pizza Hut	HasTraffic	moderate traffic
+6	Pizza Hut	HasDistance	6 miles
+6	moderate traffic	IsTrafficOf	Pizza Hut
+6	6 miles	IsDistanceFrom	Pizza Hut
+-1	today	IsEqualTo	monday

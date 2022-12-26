@@ -1,0 +1,65 @@
+0	Town and Country	HasAddress	383 University Ave
+0	Town and Country	HasType	shopping center
+0	383 University Ave	IsAddressOf	Town and Country
+0	shopping center	IsTypeOf	Town and Country
+0	Town and Country	HasTraffic	car collision nearby
+0	Town and Country	HasDistance	3 miles
+0	car collision nearby	IsTrafficOf	Town and Country
+0	3 miles	IsDistanceFrom	Town and Country
+1	Papa Johns	HasAddress	110 Arastradero Rd
+1	Papa Johns	HasType	pizza restaurant
+1	110 Arastradero Rd	IsAddressOf	Papa Johns
+1	pizza restaurant	IsTypeOf	Papa Johns
+1	Papa Johns	HasTraffic	road block nearby
+1	Papa Johns	HasDistance	5 miles
+1	road block nearby	IsTrafficOf	Papa Johns
+1	5 miles	IsDistanceFrom	Papa Johns
+2	5677 springer street	HasAddress	5677 springer street
+2	5677 springer street	HasType	certain address
+2	5677 springer street	IsAddressOf	5677 springer street
+2	certain address	IsTypeOf	5677 springer street
+2	5677 springer street	HasTraffic	no traffic
+2	5677 springer street	HasDistance	1 miles
+2	no traffic	IsTrafficOf	5677 springer street
+2	1 miles	IsDistanceFrom	5677 springer street
+3	Palo Alto Cafe	HasAddress	436 Alger Dr
+3	Palo Alto Cafe	HasType	coffee or tea place
+3	436 Alger Dr	IsAddressOf	Palo Alto Cafe
+3	coffee or tea place	IsTypeOf	Palo Alto Cafe
+3	Palo Alto Cafe	HasTraffic	no traffic
+3	Palo Alto Cafe	HasDistance	5 miles
+3	no traffic	IsTrafficOf	Palo Alto Cafe
+3	5 miles	IsDistanceFrom	Palo Alto Cafe
+4	P.F. Changs	HasAddress	669 El Camino Real
+4	P.F. Changs	HasType	chinese restaurant
+4	669 El Camino Real	IsAddressOf	P.F. Changs
+4	chinese restaurant	IsTypeOf	P.F. Changs
+4	P.F. Changs	HasTraffic	car collision nearby
+4	P.F. Changs	HasDistance	4 miles
+4	car collision nearby	IsTrafficOf	P.F. Changs
+4	4 miles	IsDistanceFrom	P.F. Changs
+5	jacks house	HasAddress	864 Almanor Ln
+5	jacks house	HasType	friends house
+5	864 Almanor Ln	IsAddressOf	jacks house
+5	friends house	IsTypeOf	jacks house
+5	jacks house	HasTraffic	road block nearby
+5	jacks house	HasDistance	4 miles
+5	road block nearby	IsTrafficOf	jacks house
+5	4 miles	IsDistanceFrom	jacks house
+6	Chevron	HasAddress	783 Arcadia Pl
+6	Chevron	HasType	gas station
+6	783 Arcadia Pl	IsAddressOf	Chevron
+6	gas station	IsTypeOf	Chevron
+6	Chevron	HasTraffic	car collision nearby
+6	Chevron	HasDistance	3 miles
+6	car collision nearby	IsTrafficOf	Chevron
+6	3 miles	IsDistanceFrom	Chevron
+7	Stanford Express Care	HasAddress	214 El Camino Real
+7	Stanford Express Care	HasType	hospital
+7	214 El Camino Real	IsAddressOf	Stanford Express Care
+7	hospital	IsTypeOf	Stanford Express Care
+7	Stanford Express Care	HasTraffic	moderate traffic
+7	Stanford Express Care	HasDistance	2 miles
+7	moderate traffic	IsTrafficOf	Stanford Express Care
+7	2 miles	IsDistanceFrom	Stanford Express Care
+-1	today	IsEqualTo	monday

@@ -1,0 +1,65 @@
+0	Sigona Farmers Market	HasAddress	638 Amherst St
+0	Sigona Farmers Market	HasType	grocery store
+0	638 Amherst St	IsAddressOf	Sigona Farmers Market
+0	grocery store	IsTypeOf	Sigona Farmers Market
+0	Sigona Farmers Market	HasTraffic	heavy traffic
+0	Sigona Farmers Market	HasDistance	7 miles
+0	heavy traffic	IsTrafficOf	Sigona Farmers Market
+0	7 miles	IsDistanceFrom	Sigona Farmers Market
+1	Starbucks	HasAddress	792 Bedoin Street
+1	Starbucks	HasType	coffee or tea place
+1	792 Bedoin Street	IsAddressOf	Starbucks
+1	coffee or tea place	IsTypeOf	Starbucks
+1	Starbucks	HasTraffic	moderate traffic
+1	Starbucks	HasDistance	1 miles
+1	moderate traffic	IsTrafficOf	Starbucks
+1	1 miles	IsDistanceFrom	Starbucks
+2	Chevron	HasAddress	783 Arcadia Pl
+2	Chevron	HasType	gas station
+2	783 Arcadia Pl	IsAddressOf	Chevron
+2	gas station	IsTypeOf	Chevron
+2	Chevron	HasTraffic	heavy traffic
+2	Chevron	HasDistance	6 miles
+2	heavy traffic	IsTrafficOf	Chevron
+2	6 miles	IsDistanceFrom	Chevron
+3	The Westin	HasAddress	329 El Camino Real
+3	The Westin	HasType	rest stop
+3	329 El Camino Real	IsAddressOf	The Westin
+3	rest stop	IsTypeOf	The Westin
+3	The Westin	HasTraffic	heavy traffic
+3	The Westin	HasDistance	6 miles
+3	heavy traffic	IsTrafficOf	The Westin
+3	6 miles	IsDistanceFrom	The Westin
+4	Dominos	HasAddress	776 Arastradero Rd
+4	Dominos	HasType	pizza restaurant
+4	776 Arastradero Rd	IsAddressOf	Dominos
+4	pizza restaurant	IsTypeOf	Dominos
+4	Dominos	HasTraffic	no traffic
+4	Dominos	HasDistance	4 miles
+4	no traffic	IsTrafficOf	Dominos
+4	4 miles	IsDistanceFrom	Dominos
+5	Valero	HasAddress	200 Alester Ave
+5	Valero	HasType	gas station
+5	200 Alester Ave	IsAddressOf	Valero
+5	gas station	IsTypeOf	Valero
+5	Valero	HasTraffic	no traffic
+5	Valero	HasDistance	4 miles
+5	no traffic	IsTrafficOf	Valero
+5	4 miles	IsDistanceFrom	Valero
+6	Stanford Childrens Health	HasAddress	899 Ames Ct
+6	Stanford Childrens Health	HasType	hospital
+6	899 Ames Ct	IsAddressOf	Stanford Childrens Health
+6	hospital	IsTypeOf	Stanford Childrens Health
+6	Stanford Childrens Health	HasTraffic	heavy traffic
+6	Stanford Childrens Health	HasDistance	3 miles
+6	heavy traffic	IsTrafficOf	Stanford Childrens Health
+6	3 miles	IsDistanceFrom	Stanford Childrens Health
+7	Trader Joes	HasAddress	408 University Ave
+7	Trader Joes	HasType	grocery store
+7	408 University Ave	IsAddressOf	Trader Joes
+7	grocery store	IsTypeOf	Trader Joes
+7	Trader Joes	HasTraffic	moderate traffic
+7	Trader Joes	HasDistance	1 miles
+7	moderate traffic	IsTrafficOf	Trader Joes
+7	1 miles	IsDistanceFrom	Trader Joes
+-1	today	IsEqualTo	monday

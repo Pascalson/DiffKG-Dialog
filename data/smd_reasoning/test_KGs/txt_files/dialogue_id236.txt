@@ -1,0 +1,57 @@
+0	Comfort Inn	HasAddress	753 University Ave
+0	Comfort Inn	HasType	rest stop
+0	753 University Ave	IsAddressOf	Comfort Inn
+0	rest stop	IsTypeOf	Comfort Inn
+0	Comfort Inn	HasTraffic	no traffic
+0	Comfort Inn	HasDistance	2 miles
+0	no traffic	IsTrafficOf	Comfort Inn
+0	2 miles	IsDistanceFrom	Comfort Inn
+1	Stanford Express Care	HasAddress	214 El Camino Real
+1	Stanford Express Care	HasType	hospital
+1	214 El Camino Real	IsAddressOf	Stanford Express Care
+1	hospital	IsTypeOf	Stanford Express Care
+1	Stanford Express Care	HasTraffic	heavy traffic
+1	Stanford Express Care	HasDistance	4 miles
+1	heavy traffic	IsTrafficOf	Stanford Express Care
+1	4 miles	IsDistanceFrom	Stanford Express Care
+2	tai pan	HasAddress	830 Almanor Ln
+2	tai pan	HasType	chinese restaurant
+2	830 Almanor Ln	IsAddressOf	tai pan
+2	chinese restaurant	IsTypeOf	tai pan
+2	tai pan	HasTraffic	heavy traffic
+2	tai pan	HasDistance	5 miles
+2	heavy traffic	IsTrafficOf	tai pan
+2	5 miles	IsDistanceFrom	tai pan
+3	Starbucks	HasAddress	792 Bedoin Street
+3	Starbucks	HasType	coffee or tea place
+3	792 Bedoin Street	IsAddressOf	Starbucks
+3	coffee or tea place	IsTypeOf	Starbucks
+3	Starbucks	HasTraffic	heavy traffic
+3	Starbucks	HasDistance	4 miles
+3	heavy traffic	IsTrafficOf	Starbucks
+3	4 miles	IsDistanceFrom	Starbucks
+4	Stanford Childrens Health	HasAddress	899 Ames Ct
+4	Stanford Childrens Health	HasType	hospital
+4	899 Ames Ct	IsAddressOf	Stanford Childrens Health
+4	hospital	IsTypeOf	Stanford Childrens Health
+4	Stanford Childrens Health	HasTraffic	no traffic
+4	Stanford Childrens Health	HasDistance	1 miles
+4	no traffic	IsTrafficOf	Stanford Childrens Health
+4	1 miles	IsDistanceFrom	Stanford Childrens Health
+5	Panda Express	HasAddress	842 Arrowhead Way
+5	Panda Express	HasType	chinese restaurant
+5	842 Arrowhead Way	IsAddressOf	Panda Express
+5	chinese restaurant	IsTypeOf	Panda Express
+5	Panda Express	HasTraffic	no traffic
+5	Panda Express	HasDistance	3 miles
+5	no traffic	IsTrafficOf	Panda Express
+5	3 miles	IsDistanceFrom	Panda Express
+6	Trader Joes	HasAddress	408 University Ave
+6	Trader Joes	HasType	grocery store
+6	408 University Ave	IsAddressOf	Trader Joes
+6	grocery store	IsTypeOf	Trader Joes
+6	Trader Joes	HasTraffic	moderate traffic
+6	Trader Joes	HasDistance	3 miles
+6	moderate traffic	IsTrafficOf	Trader Joes
+6	3 miles	IsDistanceFrom	Trader Joes
+-1	today	IsEqualTo	monday

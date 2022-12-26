@@ -1,0 +1,65 @@
+0	home	HasAddress	10 ames street
+0	home	HasType	home
+0	10 ames street	IsAddressOf	home
+0	home	IsTypeOf	home
+0	home	HasTraffic	car collision nearby
+0	home	HasDistance	1 miles
+0	car collision nearby	IsTrafficOf	home
+0	1 miles	IsDistanceFrom	home
+1	Stanford Shopping Center	HasAddress	773 Alger Dr
+1	Stanford Shopping Center	HasType	shopping center
+1	773 Alger Dr	IsAddressOf	Stanford Shopping Center
+1	shopping center	IsTypeOf	Stanford Shopping Center
+1	Stanford Shopping Center	HasTraffic	moderate traffic
+1	Stanford Shopping Center	HasDistance	2 miles
+1	moderate traffic	IsTrafficOf	Stanford Shopping Center
+1	2 miles	IsDistanceFrom	Stanford Shopping Center
+2	Topanga Mall	HasAddress	171 Oak Rd
+2	Topanga Mall	HasType	shopping center
+2	171 Oak Rd	IsAddressOf	Topanga Mall
+2	shopping center	IsTypeOf	Topanga Mall
+2	Topanga Mall	HasTraffic	no traffic
+2	Topanga Mall	HasDistance	1 miles
+2	no traffic	IsTrafficOf	Topanga Mall
+2	1 miles	IsDistanceFrom	Topanga Mall
+3	Safeway	HasAddress	452 Arcadia Pl
+3	Safeway	HasType	grocery store
+3	452 Arcadia Pl	IsAddressOf	Safeway
+3	grocery store	IsTypeOf	Safeway
+3	Safeway	HasTraffic	road block nearby
+3	Safeway	HasDistance	4 miles
+3	road block nearby	IsTrafficOf	Safeway
+3	4 miles	IsDistanceFrom	Safeway
+4	Round Table	HasAddress	113 Anton Ct
+4	Round Table	HasType	pizza restaurant
+4	113 Anton Ct	IsAddressOf	Round Table
+4	pizza restaurant	IsTypeOf	Round Table
+4	Round Table	HasTraffic	car collision nearby
+4	Round Table	HasDistance	6 miles
+4	car collision nearby	IsTrafficOf	Round Table
+4	6 miles	IsDistanceFrom	Round Table
+5	Midtown Shopping Center	HasAddress	338 Alester Ave
+5	Midtown Shopping Center	HasType	shopping center
+5	338 Alester Ave	IsAddressOf	Midtown Shopping Center
+5	shopping center	IsTypeOf	Midtown Shopping Center
+5	Midtown Shopping Center	HasTraffic	heavy traffic
+5	Midtown Shopping Center	HasDistance	2 miles
+5	heavy traffic	IsTrafficOf	Midtown Shopping Center
+5	2 miles	IsDistanceFrom	Midtown Shopping Center
+6	The Westin	HasAddress	329 El Camino Real
+6	The Westin	HasType	rest stop
+6	329 El Camino Real	IsAddressOf	The Westin
+6	rest stop	IsTypeOf	The Westin
+6	The Westin	HasTraffic	road block nearby
+6	The Westin	HasDistance	5 miles
+6	road block nearby	IsTrafficOf	The Westin
+6	5 miles	IsDistanceFrom	The Westin
+7	5677 springer street	HasAddress	5677 springer street
+7	5677 springer street	HasType	certain address
+7	5677 springer street	IsAddressOf	5677 springer street
+7	certain address	IsTypeOf	5677 springer street
+7	5677 springer street	HasTraffic	heavy traffic
+7	5677 springer street	HasDistance	3 miles
+7	heavy traffic	IsTrafficOf	5677 springer street
+7	3 miles	IsDistanceFrom	5677 springer street
+-1	today	IsEqualTo	monday

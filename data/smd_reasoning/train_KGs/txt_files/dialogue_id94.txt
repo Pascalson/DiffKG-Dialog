@@ -1,0 +1,57 @@
+0	Jing Jing	HasAddress	113 Arbol Dr
+0	Jing Jing	HasType	chinese restaurant
+0	113 Arbol Dr	IsAddressOf	Jing Jing
+0	chinese restaurant	IsTypeOf	Jing Jing
+0	Jing Jing	HasTraffic	heavy traffic
+0	Jing Jing	HasDistance	1 miles
+0	heavy traffic	IsTrafficOf	Jing Jing
+0	1 miles	IsDistanceFrom	Jing Jing
+1	home	HasAddress	56 cadwell street
+1	home	HasType	home
+1	56 cadwell street	IsAddressOf	home
+1	home	IsTypeOf	home
+1	home	HasTraffic	moderate traffic
+1	home	HasDistance	5 miles
+1	moderate traffic	IsTrafficOf	home
+1	5 miles	IsDistanceFrom	home
+2	home	HasAddress	56 cadwell street
+2	home	HasType	home
+2	56 cadwell street	IsAddressOf	home
+2	home	IsTypeOf	home
+2	home	HasTraffic	moderate traffic
+2	home	HasDistance	6 miles
+2	moderate traffic	IsTrafficOf	home
+2	6 miles	IsDistanceFrom	home
+3	Panda Express	HasAddress	842 Arrowhead Way
+3	Panda Express	HasType	chinese restaurant
+3	842 Arrowhead Way	IsAddressOf	Panda Express
+3	chinese restaurant	IsTypeOf	Panda Express
+3	Panda Express	HasTraffic	heavy traffic
+3	Panda Express	HasDistance	3 miles
+3	heavy traffic	IsTrafficOf	Panda Express
+3	3 miles	IsDistanceFrom	Panda Express
+4	Valero	HasAddress	200 Alester Ave
+4	Valero	HasType	gas station
+4	200 Alester Ave	IsAddressOf	Valero
+4	gas station	IsTypeOf	Valero
+4	Valero	HasTraffic	moderate traffic
+4	Valero	HasDistance	4 miles
+4	moderate traffic	IsTrafficOf	Valero
+4	4 miles	IsDistanceFrom	Valero
+5	Philz	HasAddress	583 Alester Ave
+5	Philz	HasType	coffee or tea place
+5	583 Alester Ave	IsAddressOf	Philz
+5	coffee or tea place	IsTypeOf	Philz
+5	Philz	HasTraffic	heavy traffic
+5	Philz	HasDistance	5 miles
+5	heavy traffic	IsTrafficOf	Philz
+5	5 miles	IsDistanceFrom	Philz
+6	Whole Foods	HasAddress	819 Alma St
+6	Whole Foods	HasType	grocery store
+6	819 Alma St	IsAddressOf	Whole Foods
+6	grocery store	IsTypeOf	Whole Foods
+6	Whole Foods	HasTraffic	heavy traffic
+6	Whole Foods	HasDistance	2 miles
+6	heavy traffic	IsTrafficOf	Whole Foods
+6	2 miles	IsDistanceFrom	Whole Foods
+-1	today	IsEqualTo	monday

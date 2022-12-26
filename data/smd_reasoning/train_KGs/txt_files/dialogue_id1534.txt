@@ -1,0 +1,57 @@
+0	Sigona Farmers Market	HasAddress	638 Amherst St
+0	Sigona Farmers Market	HasType	grocery store
+0	638 Amherst St	IsAddressOf	Sigona Farmers Market
+0	grocery store	IsTypeOf	Sigona Farmers Market
+0	Sigona Farmers Market	HasTraffic	moderate traffic
+0	Sigona Farmers Market	HasDistance	3 miles
+0	moderate traffic	IsTrafficOf	Sigona Farmers Market
+0	3 miles	IsDistanceFrom	Sigona Farmers Market
+1	Philz	HasAddress	583 Alester Ave
+1	Philz	HasType	coffee or tea place
+1	583 Alester Ave	IsAddressOf	Philz
+1	coffee or tea place	IsTypeOf	Philz
+1	Philz	HasTraffic	no traffic
+1	Philz	HasDistance	4 miles
+1	no traffic	IsTrafficOf	Philz
+1	4 miles	IsDistanceFrom	Philz
+2	Ravenswood Shopping Center	HasAddress	434 Arastradero Rd
+2	Ravenswood Shopping Center	HasType	shopping center
+2	434 Arastradero Rd	IsAddressOf	Ravenswood Shopping Center
+2	shopping center	IsTypeOf	Ravenswood Shopping Center
+2	Ravenswood Shopping Center	HasTraffic	heavy traffic
+2	Ravenswood Shopping Center	HasDistance	2 miles
+2	heavy traffic	IsTrafficOf	Ravenswood Shopping Center
+2	2 miles	IsDistanceFrom	Ravenswood Shopping Center
+3	Palo Alto Cafe	HasAddress	436 Alger Dr
+3	Palo Alto Cafe	HasType	coffee or tea place
+3	436 Alger Dr	IsAddressOf	Palo Alto Cafe
+3	coffee or tea place	IsTypeOf	Palo Alto Cafe
+3	Palo Alto Cafe	HasTraffic	moderate traffic
+3	Palo Alto Cafe	HasDistance	1 miles
+3	moderate traffic	IsTrafficOf	Palo Alto Cafe
+3	1 miles	IsDistanceFrom	Palo Alto Cafe
+4	Starbucks	HasAddress	792 Bedoin Street
+4	Starbucks	HasType	coffee or tea place
+4	792 Bedoin Street	IsAddressOf	Starbucks
+4	coffee or tea place	IsTypeOf	Starbucks
+4	Starbucks	HasTraffic	heavy traffic
+4	Starbucks	HasDistance	1 miles
+4	heavy traffic	IsTrafficOf	Starbucks
+4	1 miles	IsDistanceFrom	Starbucks
+5	Dish Parking	HasAddress	550 Alester Ave
+5	Dish Parking	HasType	parking garage
+5	550 Alester Ave	IsAddressOf	Dish Parking
+5	parking garage	IsTypeOf	Dish Parking
+5	Dish Parking	HasTraffic	moderate traffic
+5	Dish Parking	HasDistance	4 miles
+5	moderate traffic	IsTrafficOf	Dish Parking
+5	4 miles	IsDistanceFrom	Dish Parking
+6	Cafe Venetia	HasAddress	269 Alger Dr
+6	Cafe Venetia	HasType	coffee or tea place
+6	269 Alger Dr	IsAddressOf	Cafe Venetia
+6	coffee or tea place	IsTypeOf	Cafe Venetia
+6	Cafe Venetia	HasTraffic	no traffic
+6	Cafe Venetia	HasDistance	2 miles
+6	no traffic	IsTrafficOf	Cafe Venetia
+6	2 miles	IsDistanceFrom	Cafe Venetia
+-1	today	IsEqualTo	monday

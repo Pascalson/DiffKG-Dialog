@@ -1,0 +1,57 @@
+0	Palo Alto Medical Foundation	HasAddress	611 Ames Ave
+0	Palo Alto Medical Foundation	HasType	hospital
+0	611 Ames Ave	IsAddressOf	Palo Alto Medical Foundation
+0	hospital	IsTypeOf	Palo Alto Medical Foundation
+0	Palo Alto Medical Foundation	HasTraffic	no traffic
+0	Palo Alto Medical Foundation	HasDistance	4 miles
+0	no traffic	IsTrafficOf	Palo Alto Medical Foundation
+0	4 miles	IsDistanceFrom	Palo Alto Medical Foundation
+1	tai pan	HasAddress	830 Almanor Ln
+1	tai pan	HasType	chinese restaurant
+1	830 Almanor Ln	IsAddressOf	tai pan
+1	chinese restaurant	IsTypeOf	tai pan
+1	tai pan	HasTraffic	no traffic
+1	tai pan	HasDistance	5 miles
+1	no traffic	IsTrafficOf	tai pan
+1	5 miles	IsDistanceFrom	tai pan
+2	jacks house	HasAddress	864 Almanor Ln
+2	jacks house	HasType	friends house
+2	864 Almanor Ln	IsAddressOf	jacks house
+2	friends house	IsTypeOf	jacks house
+2	jacks house	HasTraffic	no traffic
+2	jacks house	HasDistance	1 miles
+2	no traffic	IsTrafficOf	jacks house
+2	1 miles	IsDistanceFrom	jacks house
+3	Stanford Oval Parking	HasAddress	610 Amarillo Ave
+3	Stanford Oval Parking	HasType	parking garage
+3	610 Amarillo Ave	IsAddressOf	Stanford Oval Parking
+3	parking garage	IsTypeOf	Stanford Oval Parking
+3	Stanford Oval Parking	HasTraffic	no traffic
+3	Stanford Oval Parking	HasDistance	6 miles
+3	no traffic	IsTrafficOf	Stanford Oval Parking
+3	6 miles	IsDistanceFrom	Stanford Oval Parking
+4	Trader Joes	HasAddress	408 University Ave
+4	Trader Joes	HasType	grocery store
+4	408 University Ave	IsAddressOf	Trader Joes
+4	grocery store	IsTypeOf	Trader Joes
+4	Trader Joes	HasTraffic	no traffic
+4	Trader Joes	HasDistance	5 miles
+4	no traffic	IsTrafficOf	Trader Joes
+4	5 miles	IsDistanceFrom	Trader Joes
+5	Starbucks	HasAddress	792 Bedoin Street
+5	Starbucks	HasType	coffee or tea place
+5	792 Bedoin Street	IsAddressOf	Starbucks
+5	coffee or tea place	IsTypeOf	Starbucks
+5	Starbucks	HasTraffic	moderate traffic
+5	Starbucks	HasDistance	4 miles
+5	moderate traffic	IsTrafficOf	Starbucks
+5	4 miles	IsDistanceFrom	Starbucks
+6	Mandarin Roots	HasAddress	271 Springer Street
+6	Mandarin Roots	HasType	chinese restaurant
+6	271 Springer Street	IsAddressOf	Mandarin Roots
+6	chinese restaurant	IsTypeOf	Mandarin Roots
+6	Mandarin Roots	HasTraffic	heavy traffic
+6	Mandarin Roots	HasDistance	1 miles
+6	heavy traffic	IsTrafficOf	Mandarin Roots
+6	1 miles	IsDistanceFrom	Mandarin Roots
+-1	today	IsEqualTo	monday

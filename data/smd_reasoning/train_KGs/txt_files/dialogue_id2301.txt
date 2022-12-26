@@ -1,0 +1,65 @@
+0	Civic Center Garage	HasAddress	270 Altaire Walk
+0	Civic Center Garage	HasType	parking garage
+0	270 Altaire Walk	IsAddressOf	Civic Center Garage
+0	parking garage	IsTypeOf	Civic Center Garage
+0	Civic Center Garage	HasTraffic	no traffic
+0	Civic Center Garage	HasDistance	2 miles
+0	no traffic	IsTrafficOf	Civic Center Garage
+0	2 miles	IsDistanceFrom	Civic Center Garage
+1	Valero	HasAddress	200 Alester Ave
+1	Valero	HasType	gas station
+1	200 Alester Ave	IsAddressOf	Valero
+1	gas station	IsTypeOf	Valero
+1	Valero	HasTraffic	moderate traffic
+1	Valero	HasDistance	4 miles
+1	moderate traffic	IsTrafficOf	Valero
+1	4 miles	IsDistanceFrom	Valero
+2	Ravenswood Shopping Center	HasAddress	434 Arastradero Rd
+2	Ravenswood Shopping Center	HasType	shopping center
+2	434 Arastradero Rd	IsAddressOf	Ravenswood Shopping Center
+2	shopping center	IsTypeOf	Ravenswood Shopping Center
+2	Ravenswood Shopping Center	HasTraffic	no traffic
+2	Ravenswood Shopping Center	HasDistance	1 miles
+2	no traffic	IsTrafficOf	Ravenswood Shopping Center
+2	1 miles	IsDistanceFrom	Ravenswood Shopping Center
+3	Stanford Childrens Health	HasAddress	899 Ames Ct
+3	Stanford Childrens Health	HasType	hospital
+3	899 Ames Ct	IsAddressOf	Stanford Childrens Health
+3	hospital	IsTypeOf	Stanford Childrens Health
+3	Stanford Childrens Health	HasTraffic	heavy traffic
+3	Stanford Childrens Health	HasDistance	1 miles
+3	heavy traffic	IsTrafficOf	Stanford Childrens Health
+3	1 miles	IsDistanceFrom	Stanford Childrens Health
+4	Topanga Mall	HasAddress	171 Oak Rd
+4	Topanga Mall	HasType	shopping center
+4	171 Oak Rd	IsAddressOf	Topanga Mall
+4	shopping center	IsTypeOf	Topanga Mall
+4	Topanga Mall	HasTraffic	car collision nearby
+4	Topanga Mall	HasDistance	1 miles
+4	car collision nearby	IsTrafficOf	Topanga Mall
+4	1 miles	IsDistanceFrom	Topanga Mall
+5	5677 southwest 4th street	HasAddress	5677 southwest 4th street
+5	5677 southwest 4th street	HasType	certain address
+5	5677 southwest 4th street	IsAddressOf	5677 southwest 4th street
+5	certain address	IsTypeOf	5677 southwest 4th street
+5	5677 southwest 4th street	HasTraffic	no traffic
+5	5677 southwest 4th street	HasDistance	1 miles
+5	no traffic	IsTrafficOf	5677 southwest 4th street
+5	1 miles	IsDistanceFrom	5677 southwest 4th street
+6	Dish Parking	HasAddress	550 Alester Ave
+6	Dish Parking	HasType	parking garage
+6	550 Alester Ave	IsAddressOf	Dish Parking
+6	parking garage	IsTypeOf	Dish Parking
+6	Dish Parking	HasTraffic	no traffic
+6	Dish Parking	HasDistance	2 miles
+6	no traffic	IsTrafficOf	Dish Parking
+6	2 miles	IsDistanceFrom	Dish Parking
+7	toms house	HasAddress	580 Van Ness Ave
+7	toms house	HasType	friends house
+7	580 Van Ness Ave	IsAddressOf	toms house
+7	friends house	IsTypeOf	toms house
+7	toms house	HasTraffic	road block nearby
+7	toms house	HasDistance	2 miles
+7	road block nearby	IsTrafficOf	toms house
+7	2 miles	IsDistanceFrom	toms house
+-1	today	IsEqualTo	monday

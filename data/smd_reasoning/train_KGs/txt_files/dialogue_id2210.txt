@@ -1,0 +1,57 @@
+0	home	HasAddress	10 ames street
+0	home	HasType	home
+0	10 ames street	IsAddressOf	home
+0	home	IsTypeOf	home
+0	home	HasTraffic	moderate traffic
+0	home	HasDistance	1 miles
+0	moderate traffic	IsTrafficOf	home
+0	1 miles	IsDistanceFrom	home
+1	5677 southwest 4th street	HasAddress	5677 southwest 4th street
+1	5677 southwest 4th street	HasType	certain address
+1	5677 southwest 4th street	IsAddressOf	5677 southwest 4th street
+1	certain address	IsTypeOf	5677 southwest 4th street
+1	5677 southwest 4th street	HasTraffic	no traffic
+1	5677 southwest 4th street	HasDistance	4 miles
+1	no traffic	IsTrafficOf	5677 southwest 4th street
+1	4 miles	IsDistanceFrom	5677 southwest 4th street
+2	Civic Center Garage	HasAddress	270 Altaire Walk
+2	Civic Center Garage	HasType	parking garage
+2	270 Altaire Walk	IsAddressOf	Civic Center Garage
+2	parking garage	IsTypeOf	Civic Center Garage
+2	Civic Center Garage	HasTraffic	moderate traffic
+2	Civic Center Garage	HasDistance	5 miles
+2	moderate traffic	IsTrafficOf	Civic Center Garage
+2	5 miles	IsDistanceFrom	Civic Center Garage
+3	Webster Garage	HasAddress	880 Ames Ct
+3	Webster Garage	HasType	parking garage
+3	880 Ames Ct	IsAddressOf	Webster Garage
+3	parking garage	IsTypeOf	Webster Garage
+3	Webster Garage	HasTraffic	no traffic
+3	Webster Garage	HasDistance	1 miles
+3	no traffic	IsTrafficOf	Webster Garage
+3	1 miles	IsDistanceFrom	Webster Garage
+4	Palo Alto Medical Foundation	HasAddress	611 Ames Ave
+4	Palo Alto Medical Foundation	HasType	hospital
+4	611 Ames Ave	IsAddressOf	Palo Alto Medical Foundation
+4	hospital	IsTypeOf	Palo Alto Medical Foundation
+4	Palo Alto Medical Foundation	HasTraffic	no traffic
+4	Palo Alto Medical Foundation	HasDistance	5 miles
+4	no traffic	IsTrafficOf	Palo Alto Medical Foundation
+4	5 miles	IsDistanceFrom	Palo Alto Medical Foundation
+5	Starbucks	HasAddress	792 Bedoin Street
+5	Starbucks	HasType	coffee or tea place
+5	792 Bedoin Street	IsAddressOf	Starbucks
+5	coffee or tea place	IsTypeOf	Starbucks
+5	Starbucks	HasTraffic	no traffic
+5	Starbucks	HasDistance	6 miles
+5	no traffic	IsTrafficOf	Starbucks
+5	6 miles	IsDistanceFrom	Starbucks
+6	Hotel Keen	HasAddress	578 Arbol Dr
+6	Hotel Keen	HasType	rest stop
+6	578 Arbol Dr	IsAddressOf	Hotel Keen
+6	rest stop	IsTypeOf	Hotel Keen
+6	Hotel Keen	HasTraffic	no traffic
+6	Hotel Keen	HasDistance	4 miles
+6	no traffic	IsTrafficOf	Hotel Keen
+6	4 miles	IsDistanceFrom	Hotel Keen
+-1	today	IsEqualTo	monday

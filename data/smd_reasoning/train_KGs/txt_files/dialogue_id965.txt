@@ -1,0 +1,57 @@
+0	Pizza Chicago	HasAddress	915 Arbol Dr
+0	Pizza Chicago	HasType	pizza restaurant
+0	915 Arbol Dr	IsAddressOf	Pizza Chicago
+0	pizza restaurant	IsTypeOf	Pizza Chicago
+0	Pizza Chicago	HasTraffic	no traffic
+0	Pizza Chicago	HasDistance	1 miles
+0	no traffic	IsTrafficOf	Pizza Chicago
+0	1 miles	IsDistanceFrom	Pizza Chicago
+1	Palo Alto Cafe	HasAddress	436 Alger Dr
+1	Palo Alto Cafe	HasType	coffee or tea place
+1	436 Alger Dr	IsAddressOf	Palo Alto Cafe
+1	coffee or tea place	IsTypeOf	Palo Alto Cafe
+1	Palo Alto Cafe	HasTraffic	no traffic
+1	Palo Alto Cafe	HasDistance	2 miles
+1	no traffic	IsTrafficOf	Palo Alto Cafe
+1	2 miles	IsDistanceFrom	Palo Alto Cafe
+2	Chef Chu's	HasAddress	593 Arrowhead Way
+2	Chef Chu's	HasType	chinese restaurant
+2	593 Arrowhead Way	IsAddressOf	Chef Chu's
+2	chinese restaurant	IsTypeOf	Chef Chu's
+2	Chef Chu's	HasTraffic	moderate traffic
+2	Chef Chu's	HasDistance	3 miles
+2	moderate traffic	IsTrafficOf	Chef Chu's
+2	3 miles	IsDistanceFrom	Chef Chu's
+3	toms house	HasAddress	580 Van Ness Ave
+3	toms house	HasType	friends house
+3	580 Van Ness Ave	IsAddressOf	toms house
+3	friends house	IsTypeOf	toms house
+3	toms house	HasTraffic	heavy traffic
+3	toms house	HasDistance	4 miles
+3	heavy traffic	IsTrafficOf	toms house
+3	4 miles	IsDistanceFrom	toms house
+4	home	HasAddress	10 ames street
+4	home	HasType	home
+4	10 ames street	IsAddressOf	home
+4	home	IsTypeOf	home
+4	home	HasTraffic	no traffic
+4	home	HasDistance	6 miles
+4	no traffic	IsTrafficOf	home
+4	6 miles	IsDistanceFrom	home
+5	Webster Garage	HasAddress	880 Ames Ct
+5	Webster Garage	HasType	parking garage
+5	880 Ames Ct	IsAddressOf	Webster Garage
+5	parking garage	IsTypeOf	Webster Garage
+5	Webster Garage	HasTraffic	no traffic
+5	Webster Garage	HasDistance	1 miles
+5	no traffic	IsTrafficOf	Webster Garage
+5	1 miles	IsDistanceFrom	Webster Garage
+6	Comfort Inn	HasAddress	753 University Ave
+6	Comfort Inn	HasType	rest stop
+6	753 University Ave	IsAddressOf	Comfort Inn
+6	rest stop	IsTypeOf	Comfort Inn
+6	Comfort Inn	HasTraffic	moderate traffic
+6	Comfort Inn	HasDistance	1 miles
+6	moderate traffic	IsTrafficOf	Comfort Inn
+6	1 miles	IsDistanceFrom	Comfort Inn
+-1	today	IsEqualTo	monday

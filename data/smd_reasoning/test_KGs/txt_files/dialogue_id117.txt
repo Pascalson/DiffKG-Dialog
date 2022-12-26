@@ -1,0 +1,65 @@
+0	Palo Alto Medical Foundation	HasAddress	611 Ames Ave
+0	Palo Alto Medical Foundation	HasType	hospital
+0	611 Ames Ave	IsAddressOf	Palo Alto Medical Foundation
+0	hospital	IsTypeOf	Palo Alto Medical Foundation
+0	Palo Alto Medical Foundation	HasTraffic	moderate traffic
+0	Palo Alto Medical Foundation	HasDistance	4 miles
+0	moderate traffic	IsTrafficOf	Palo Alto Medical Foundation
+0	4 miles	IsDistanceFrom	Palo Alto Medical Foundation
+1	Stanford Childrens Health	HasAddress	899 Ames Ct
+1	Stanford Childrens Health	HasType	hospital
+1	899 Ames Ct	IsAddressOf	Stanford Childrens Health
+1	hospital	IsTypeOf	Stanford Childrens Health
+1	Stanford Childrens Health	HasTraffic	road block nearby
+1	Stanford Childrens Health	HasDistance	4 miles
+1	road block nearby	IsTrafficOf	Stanford Childrens Health
+1	4 miles	IsDistanceFrom	Stanford Childrens Health
+2	Midtown Shopping Center	HasAddress	338 Alester Ave
+2	Midtown Shopping Center	HasType	shopping center
+2	338 Alester Ave	IsAddressOf	Midtown Shopping Center
+2	shopping center	IsTypeOf	Midtown Shopping Center
+2	Midtown Shopping Center	HasTraffic	no traffic
+2	Midtown Shopping Center	HasDistance	1 miles
+2	no traffic	IsTrafficOf	Midtown Shopping Center
+2	1 miles	IsDistanceFrom	Midtown Shopping Center
+3	5677 springer street	HasAddress	5677 springer street
+3	5677 springer street	HasType	certain address
+3	5677 springer street	IsAddressOf	5677 springer street
+3	certain address	IsTypeOf	5677 springer street
+3	5677 springer street	HasTraffic	moderate traffic
+3	5677 springer street	HasDistance	3 miles
+3	moderate traffic	IsTrafficOf	5677 springer street
+3	3 miles	IsDistanceFrom	5677 springer street
+4	Philz	HasAddress	583 Alester Ave
+4	Philz	HasType	coffee or tea place
+4	583 Alester Ave	IsAddressOf	Philz
+4	coffee or tea place	IsTypeOf	Philz
+4	Philz	HasTraffic	road block nearby
+4	Philz	HasDistance	3 miles
+4	road block nearby	IsTrafficOf	Philz
+4	3 miles	IsDistanceFrom	Philz
+5	Willows Market	HasAddress	409 Bollard St
+5	Willows Market	HasType	grocery store
+5	409 Bollard St	IsAddressOf	Willows Market
+5	grocery store	IsTypeOf	Willows Market
+5	Willows Market	HasTraffic	no traffic
+5	Willows Market	HasDistance	1 miles
+5	no traffic	IsTrafficOf	Willows Market
+5	1 miles	IsDistanceFrom	Willows Market
+6	Trader Joes	HasAddress	408 University Ave
+6	Trader Joes	HasType	grocery store
+6	408 University Ave	IsAddressOf	Trader Joes
+6	grocery store	IsTypeOf	Trader Joes
+6	Trader Joes	HasTraffic	heavy traffic
+6	Trader Joes	HasDistance	1 miles
+6	heavy traffic	IsTrafficOf	Trader Joes
+6	1 miles	IsDistanceFrom	Trader Joes
+7	Chef Chu's	HasAddress	593 Arrowhead Way
+7	Chef Chu's	HasType	chinese restaurant
+7	593 Arrowhead Way	IsAddressOf	Chef Chu's
+7	chinese restaurant	IsTypeOf	Chef Chu's
+7	Chef Chu's	HasTraffic	moderate traffic
+7	Chef Chu's	HasDistance	1 miles
+7	moderate traffic	IsTrafficOf	Chef Chu's
+7	1 miles	IsDistanceFrom	Chef Chu's
+-1	today	IsEqualTo	monday

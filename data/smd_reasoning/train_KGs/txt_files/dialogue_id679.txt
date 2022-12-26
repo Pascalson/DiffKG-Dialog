@@ -1,0 +1,57 @@
+0	Jing Jing	HasAddress	113 Arbol Dr
+0	Jing Jing	HasType	chinese restaurant
+0	113 Arbol Dr	IsAddressOf	Jing Jing
+0	chinese restaurant	IsTypeOf	Jing Jing
+0	Jing Jing	HasTraffic	moderate traffic
+0	Jing Jing	HasDistance	6 miles
+0	moderate traffic	IsTrafficOf	Jing Jing
+0	6 miles	IsDistanceFrom	Jing Jing
+1	Mandarin Roots	HasAddress	271 Springer Street
+1	Mandarin Roots	HasType	chinese restaurant
+1	271 Springer Street	IsAddressOf	Mandarin Roots
+1	chinese restaurant	IsTypeOf	Mandarin Roots
+1	Mandarin Roots	HasTraffic	no traffic
+1	Mandarin Roots	HasDistance	5 miles
+1	no traffic	IsTrafficOf	Mandarin Roots
+1	5 miles	IsDistanceFrom	Mandarin Roots
+2	Stanford Childrens Health	HasAddress	899 Ames Ct
+2	Stanford Childrens Health	HasType	hospital
+2	899 Ames Ct	IsAddressOf	Stanford Childrens Health
+2	hospital	IsTypeOf	Stanford Childrens Health
+2	Stanford Childrens Health	HasTraffic	moderate traffic
+2	Stanford Childrens Health	HasDistance	5 miles
+2	moderate traffic	IsTrafficOf	Stanford Childrens Health
+2	5 miles	IsDistanceFrom	Stanford Childrens Health
+3	Palo Alto Garage R	HasAddress	481 Amaranta Ave
+3	Palo Alto Garage R	HasType	parking garage
+3	481 Amaranta Ave	IsAddressOf	Palo Alto Garage R
+3	parking garage	IsTypeOf	Palo Alto Garage R
+3	Palo Alto Garage R	HasTraffic	heavy traffic
+3	Palo Alto Garage R	HasDistance	4 miles
+3	heavy traffic	IsTrafficOf	Palo Alto Garage R
+3	4 miles	IsDistanceFrom	Palo Alto Garage R
+4	Palo Alto Cafe	HasAddress	436 Alger Dr
+4	Palo Alto Cafe	HasType	coffee or tea place
+4	436 Alger Dr	IsAddressOf	Palo Alto Cafe
+4	coffee or tea place	IsTypeOf	Palo Alto Cafe
+4	Palo Alto Cafe	HasTraffic	moderate traffic
+4	Palo Alto Cafe	HasDistance	3 miles
+4	moderate traffic	IsTrafficOf	Palo Alto Cafe
+4	3 miles	IsDistanceFrom	Palo Alto Cafe
+5	Ravenswood Shopping Center	HasAddress	434 Arastradero Rd
+5	Ravenswood Shopping Center	HasType	shopping center
+5	434 Arastradero Rd	IsAddressOf	Ravenswood Shopping Center
+5	shopping center	IsTypeOf	Ravenswood Shopping Center
+5	Ravenswood Shopping Center	HasTraffic	heavy traffic
+5	Ravenswood Shopping Center	HasDistance	3 miles
+5	heavy traffic	IsTrafficOf	Ravenswood Shopping Center
+5	3 miles	IsDistanceFrom	Ravenswood Shopping Center
+6	Teavana	HasAddress	145 Amherst St
+6	Teavana	HasType	coffee or tea place
+6	145 Amherst St	IsAddressOf	Teavana
+6	coffee or tea place	IsTypeOf	Teavana
+6	Teavana	HasTraffic	no traffic
+6	Teavana	HasDistance	6 miles
+6	no traffic	IsTrafficOf	Teavana
+6	6 miles	IsDistanceFrom	Teavana
+-1	today	IsEqualTo	monday

@@ -1,0 +1,57 @@
+0	Pizza Chicago	HasAddress	915 Arbol Dr
+0	Pizza Chicago	HasType	pizza restaurant
+0	915 Arbol Dr	IsAddressOf	Pizza Chicago
+0	pizza restaurant	IsTypeOf	Pizza Chicago
+0	Pizza Chicago	HasTraffic	no traffic
+0	Pizza Chicago	HasDistance	2 miles
+0	no traffic	IsTrafficOf	Pizza Chicago
+0	2 miles	IsDistanceFrom	Pizza Chicago
+1	Pizza Hut	HasAddress	704 El Camino Real
+1	Pizza Hut	HasType	pizza restaurant
+1	704 El Camino Real	IsAddressOf	Pizza Hut
+1	pizza restaurant	IsTypeOf	Pizza Hut
+1	Pizza Hut	HasTraffic	heavy traffic
+1	Pizza Hut	HasDistance	6 miles
+1	heavy traffic	IsTrafficOf	Pizza Hut
+1	6 miles	IsDistanceFrom	Pizza Hut
+2	Sigona Farmers Market	HasAddress	638 Amherst St
+2	Sigona Farmers Market	HasType	grocery store
+2	638 Amherst St	IsAddressOf	Sigona Farmers Market
+2	grocery store	IsTypeOf	Sigona Farmers Market
+2	Sigona Farmers Market	HasTraffic	moderate traffic
+2	Sigona Farmers Market	HasDistance	3 miles
+2	moderate traffic	IsTrafficOf	Sigona Farmers Market
+2	3 miles	IsDistanceFrom	Sigona Farmers Market
+3	Dish Parking	HasAddress	550 Alester Ave
+3	Dish Parking	HasType	parking garage
+3	550 Alester Ave	IsAddressOf	Dish Parking
+3	parking garage	IsTypeOf	Dish Parking
+3	Dish Parking	HasTraffic	heavy traffic
+3	Dish Parking	HasDistance	4 miles
+3	heavy traffic	IsTrafficOf	Dish Parking
+3	4 miles	IsDistanceFrom	Dish Parking
+4	Pizza My Heart	HasAddress	528 Anton Ct
+4	Pizza My Heart	HasType	pizza restaurant
+4	528 Anton Ct	IsAddressOf	Pizza My Heart
+4	pizza restaurant	IsTypeOf	Pizza My Heart
+4	Pizza My Heart	HasTraffic	heavy traffic
+4	Pizza My Heart	HasDistance	5 miles
+4	heavy traffic	IsTrafficOf	Pizza My Heart
+4	5 miles	IsDistanceFrom	Pizza My Heart
+5	jills house	HasAddress	347 Alta Mesa Ave
+5	jills house	HasType	friends house
+5	347 Alta Mesa Ave	IsAddressOf	jills house
+5	friends house	IsTypeOf	jills house
+5	jills house	HasTraffic	moderate traffic
+5	jills house	HasDistance	5 miles
+5	moderate traffic	IsTrafficOf	jills house
+5	5 miles	IsDistanceFrom	jills house
+6	Jing Jing	HasAddress	113 Arbol Dr
+6	Jing Jing	HasType	chinese restaurant
+6	113 Arbol Dr	IsAddressOf	Jing Jing
+6	chinese restaurant	IsTypeOf	Jing Jing
+6	Jing Jing	HasTraffic	no traffic
+6	Jing Jing	HasDistance	1 miles
+6	no traffic	IsTrafficOf	Jing Jing
+6	1 miles	IsDistanceFrom	Jing Jing
+-1	today	IsEqualTo	monday

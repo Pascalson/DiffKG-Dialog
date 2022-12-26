@@ -1,0 +1,65 @@
+0	Ravenswood Shopping Center	HasAddress	434 Arastradero Rd
+0	Ravenswood Shopping Center	HasType	shopping center
+0	434 Arastradero Rd	IsAddressOf	Ravenswood Shopping Center
+0	shopping center	IsTypeOf	Ravenswood Shopping Center
+0	Ravenswood Shopping Center	HasTraffic	moderate traffic
+0	Ravenswood Shopping Center	HasDistance	2 miles
+0	moderate traffic	IsTrafficOf	Ravenswood Shopping Center
+0	2 miles	IsDistanceFrom	Ravenswood Shopping Center
+1	Whole Foods	HasAddress	819 Alma St
+1	Whole Foods	HasType	grocery store
+1	819 Alma St	IsAddressOf	Whole Foods
+1	grocery store	IsTypeOf	Whole Foods
+1	Whole Foods	HasTraffic	road block nearby
+1	Whole Foods	HasDistance	4 miles
+1	road block nearby	IsTrafficOf	Whole Foods
+1	4 miles	IsDistanceFrom	Whole Foods
+2	Dish Parking	HasAddress	550 Alester Ave
+2	Dish Parking	HasType	parking garage
+2	550 Alester Ave	IsAddressOf	Dish Parking
+2	parking garage	IsTypeOf	Dish Parking
+2	Dish Parking	HasTraffic	car collision nearby
+2	Dish Parking	HasDistance	5 miles
+2	car collision nearby	IsTrafficOf	Dish Parking
+2	5 miles	IsDistanceFrom	Dish Parking
+3	Town and Country	HasAddress	383 University Ave
+3	Town and Country	HasType	shopping center
+3	383 University Ave	IsAddressOf	Town and Country
+3	shopping center	IsTypeOf	Town and Country
+3	Town and Country	HasTraffic	heavy traffic
+3	Town and Country	HasDistance	5 miles
+3	heavy traffic	IsTrafficOf	Town and Country
+3	5 miles	IsDistanceFrom	Town and Country
+4	Palo Alto Medical Foundation	HasAddress	611 Ames Ave
+4	Palo Alto Medical Foundation	HasType	hospital
+4	611 Ames Ave	IsAddressOf	Palo Alto Medical Foundation
+4	hospital	IsTypeOf	Palo Alto Medical Foundation
+4	Palo Alto Medical Foundation	HasTraffic	car collision nearby
+4	Palo Alto Medical Foundation	HasDistance	4 miles
+4	car collision nearby	IsTrafficOf	Palo Alto Medical Foundation
+4	4 miles	IsDistanceFrom	Palo Alto Medical Foundation
+5	Four Seasons	HasAddress	465 Arcadia Pl
+5	Four Seasons	HasType	rest stop
+5	465 Arcadia Pl	IsAddressOf	Four Seasons
+5	rest stop	IsTypeOf	Four Seasons
+5	Four Seasons	HasTraffic	no traffic
+5	Four Seasons	HasDistance	2 miles
+5	no traffic	IsTrafficOf	Four Seasons
+5	2 miles	IsDistanceFrom	Four Seasons
+6	Cafe Venetia	HasAddress	269 Alger Dr
+6	Cafe Venetia	HasType	coffee or tea place
+6	269 Alger Dr	IsAddressOf	Cafe Venetia
+6	coffee or tea place	IsTypeOf	Cafe Venetia
+6	Cafe Venetia	HasTraffic	no traffic
+6	Cafe Venetia	HasDistance	4 miles
+6	no traffic	IsTrafficOf	Cafe Venetia
+6	4 miles	IsDistanceFrom	Cafe Venetia
+7	P.F. Changs	HasAddress	669 El Camino Real
+7	P.F. Changs	HasType	chinese restaurant
+7	669 El Camino Real	IsAddressOf	P.F. Changs
+7	chinese restaurant	IsTypeOf	P.F. Changs
+7	P.F. Changs	HasTraffic	heavy traffic
+7	P.F. Changs	HasDistance	5 miles
+7	heavy traffic	IsTrafficOf	P.F. Changs
+7	5 miles	IsDistanceFrom	P.F. Changs
+-1	today	IsEqualTo	monday

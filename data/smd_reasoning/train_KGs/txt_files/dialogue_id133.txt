@@ -1,0 +1,57 @@
+0	Pizza Hut	HasAddress	704 El Camino Real
+0	Pizza Hut	HasType	pizza restaurant
+0	704 El Camino Real	IsAddressOf	Pizza Hut
+0	pizza restaurant	IsTypeOf	Pizza Hut
+0	Pizza Hut	HasTraffic	moderate traffic
+0	Pizza Hut	HasDistance	1 miles
+0	moderate traffic	IsTrafficOf	Pizza Hut
+0	1 miles	IsDistanceFrom	Pizza Hut
+1	Palo Alto Garage R	HasAddress	481 Amaranta Ave
+1	Palo Alto Garage R	HasType	parking garage
+1	481 Amaranta Ave	IsAddressOf	Palo Alto Garage R
+1	parking garage	IsTypeOf	Palo Alto Garage R
+1	Palo Alto Garage R	HasTraffic	heavy traffic
+1	Palo Alto Garage R	HasDistance	3 miles
+1	heavy traffic	IsTrafficOf	Palo Alto Garage R
+1	3 miles	IsDistanceFrom	Palo Alto Garage R
+2	Whole Foods	HasAddress	819 Alma St
+2	Whole Foods	HasType	grocery store
+2	819 Alma St	IsAddressOf	Whole Foods
+2	grocery store	IsTypeOf	Whole Foods
+2	Whole Foods	HasTraffic	moderate traffic
+2	Whole Foods	HasDistance	1 miles
+2	moderate traffic	IsTrafficOf	Whole Foods
+2	1 miles	IsDistanceFrom	Whole Foods
+3	jacks house	HasAddress	864 Almanor Ln
+3	jacks house	HasType	friends house
+3	864 Almanor Ln	IsAddressOf	jacks house
+3	friends house	IsTypeOf	jacks house
+3	jacks house	HasTraffic	heavy traffic
+3	jacks house	HasDistance	3 miles
+3	heavy traffic	IsTrafficOf	jacks house
+3	3 miles	IsDistanceFrom	jacks house
+4	Jing Jing	HasAddress	113 Arbol Dr
+4	Jing Jing	HasType	chinese restaurant
+4	113 Arbol Dr	IsAddressOf	Jing Jing
+4	chinese restaurant	IsTypeOf	Jing Jing
+4	Jing Jing	HasTraffic	moderate traffic
+4	Jing Jing	HasDistance	4 miles
+4	moderate traffic	IsTrafficOf	Jing Jing
+4	4 miles	IsDistanceFrom	Jing Jing
+5	Panda Express	HasAddress	842 Arrowhead Way
+5	Panda Express	HasType	chinese restaurant
+5	842 Arrowhead Way	IsAddressOf	Panda Express
+5	chinese restaurant	IsTypeOf	Panda Express
+5	Panda Express	HasTraffic	moderate traffic
+5	Panda Express	HasDistance	3 miles
+5	moderate traffic	IsTrafficOf	Panda Express
+5	3 miles	IsDistanceFrom	Panda Express
+6	Hotel Keen	HasAddress	578 Arbol Dr
+6	Hotel Keen	HasType	rest stop
+6	578 Arbol Dr	IsAddressOf	Hotel Keen
+6	rest stop	IsTypeOf	Hotel Keen
+6	Hotel Keen	HasTraffic	moderate traffic
+6	Hotel Keen	HasDistance	4 miles
+6	moderate traffic	IsTrafficOf	Hotel Keen
+6	4 miles	IsDistanceFrom	Hotel Keen
+-1	today	IsEqualTo	monday

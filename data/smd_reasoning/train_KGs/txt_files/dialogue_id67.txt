@@ -1,0 +1,65 @@
+0	Coupa	HasAddress	394 Van Ness Ave
+0	Coupa	HasType	coffee or tea place
+0	394 Van Ness Ave	IsAddressOf	Coupa
+0	coffee or tea place	IsTypeOf	Coupa
+0	Coupa	HasTraffic	no traffic
+0	Coupa	HasDistance	2 miles
+0	no traffic	IsTrafficOf	Coupa
+0	2 miles	IsDistanceFrom	Coupa
+1	Civic Center Garage	HasAddress	270 Altaire Walk
+1	Civic Center Garage	HasType	parking garage
+1	270 Altaire Walk	IsAddressOf	Civic Center Garage
+1	parking garage	IsTypeOf	Civic Center Garage
+1	Civic Center Garage	HasTraffic	heavy traffic
+1	Civic Center Garage	HasDistance	4 miles
+1	heavy traffic	IsTrafficOf	Civic Center Garage
+1	4 miles	IsDistanceFrom	Civic Center Garage
+2	Cafe Venetia	HasAddress	269 Alger Dr
+2	Cafe Venetia	HasType	coffee or tea place
+2	269 Alger Dr	IsAddressOf	Cafe Venetia
+2	coffee or tea place	IsTypeOf	Cafe Venetia
+2	Cafe Venetia	HasTraffic	no traffic
+2	Cafe Venetia	HasDistance	5 miles
+2	no traffic	IsTrafficOf	Cafe Venetia
+2	5 miles	IsDistanceFrom	Cafe Venetia
+3	Stanford Oval Parking	HasAddress	610 Amarillo Ave
+3	Stanford Oval Parking	HasType	parking garage
+3	610 Amarillo Ave	IsAddressOf	Stanford Oval Parking
+3	parking garage	IsTypeOf	Stanford Oval Parking
+3	Stanford Oval Parking	HasTraffic	car collision nearby
+3	Stanford Oval Parking	HasDistance	6 miles
+3	car collision nearby	IsTrafficOf	Stanford Oval Parking
+3	6 miles	IsDistanceFrom	Stanford Oval Parking
+4	Midtown Shopping Center	HasAddress	338 Alester Ave
+4	Midtown Shopping Center	HasType	shopping center
+4	338 Alester Ave	IsAddressOf	Midtown Shopping Center
+4	shopping center	IsTypeOf	Midtown Shopping Center
+4	Midtown Shopping Center	HasTraffic	no traffic
+4	Midtown Shopping Center	HasDistance	4 miles
+4	no traffic	IsTrafficOf	Midtown Shopping Center
+4	4 miles	IsDistanceFrom	Midtown Shopping Center
+5	Four Seasons	HasAddress	465 Arcadia Pl
+5	Four Seasons	HasType	rest stop
+5	465 Arcadia Pl	IsAddressOf	Four Seasons
+5	rest stop	IsTypeOf	Four Seasons
+5	Four Seasons	HasTraffic	moderate traffic
+5	Four Seasons	HasDistance	5 miles
+5	moderate traffic	IsTrafficOf	Four Seasons
+5	5 miles	IsDistanceFrom	Four Seasons
+6	Stanford Childrens Health	HasAddress	899 Ames Ct
+6	Stanford Childrens Health	HasType	hospital
+6	899 Ames Ct	IsAddressOf	Stanford Childrens Health
+6	hospital	IsTypeOf	Stanford Childrens Health
+6	Stanford Childrens Health	HasTraffic	heavy traffic
+6	Stanford Childrens Health	HasDistance	6 miles
+6	heavy traffic	IsTrafficOf	Stanford Childrens Health
+6	6 miles	IsDistanceFrom	Stanford Childrens Health
+7	jills house	HasAddress	347 Alta Mesa Ave
+7	jills house	HasType	friends house
+7	347 Alta Mesa Ave	IsAddressOf	jills house
+7	friends house	IsTypeOf	jills house
+7	jills house	HasTraffic	moderate traffic
+7	jills house	HasDistance	2 miles
+7	moderate traffic	IsTrafficOf	jills house
+7	2 miles	IsDistanceFrom	jills house
+-1	today	IsEqualTo	monday

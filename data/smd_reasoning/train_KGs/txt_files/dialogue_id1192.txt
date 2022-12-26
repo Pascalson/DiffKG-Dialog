@@ -1,0 +1,65 @@
+0	Comfort Inn	HasAddress	753 University Ave
+0	Comfort Inn	HasType	rest stop
+0	753 University Ave	IsAddressOf	Comfort Inn
+0	rest stop	IsTypeOf	Comfort Inn
+0	Comfort Inn	HasTraffic	road block nearby
+0	Comfort Inn	HasDistance	3 miles
+0	road block nearby	IsTrafficOf	Comfort Inn
+0	3 miles	IsDistanceFrom	Comfort Inn
+1	5672 barringer street	HasAddress	5672 barringer street
+1	5672 barringer street	HasType	certain address
+1	5672 barringer street	IsAddressOf	5672 barringer street
+1	certain address	IsTypeOf	5672 barringer street
+1	5672 barringer street	HasTraffic	car collision nearby
+1	5672 barringer street	HasDistance	2 miles
+1	car collision nearby	IsTrafficOf	5672 barringer street
+1	2 miles	IsDistanceFrom	5672 barringer street
+2	Valero	HasAddress	200 Alester Ave
+2	Valero	HasType	gas station
+2	200 Alester Ave	IsAddressOf	Valero
+2	gas station	IsTypeOf	Valero
+2	Valero	HasTraffic	heavy traffic
+2	Valero	HasDistance	2 miles
+2	heavy traffic	IsTrafficOf	Valero
+2	2 miles	IsDistanceFrom	Valero
+3	Coupa	HasAddress	394 Van Ness Ave
+3	Coupa	HasType	coffee or tea place
+3	394 Van Ness Ave	IsAddressOf	Coupa
+3	coffee or tea place	IsTypeOf	Coupa
+3	Coupa	HasTraffic	moderate traffic
+3	Coupa	HasDistance	1 miles
+3	moderate traffic	IsTrafficOf	Coupa
+3	1 miles	IsDistanceFrom	Coupa
+4	jacks house	HasAddress	864 Almanor Ln
+4	jacks house	HasType	friends house
+4	864 Almanor Ln	IsAddressOf	jacks house
+4	friends house	IsTypeOf	jacks house
+4	jacks house	HasTraffic	heavy traffic
+4	jacks house	HasDistance	3 miles
+4	heavy traffic	IsTrafficOf	jacks house
+4	3 miles	IsDistanceFrom	jacks house
+5	Stanford Oval Parking	HasAddress	610 Amarillo Ave
+5	Stanford Oval Parking	HasType	parking garage
+5	610 Amarillo Ave	IsAddressOf	Stanford Oval Parking
+5	parking garage	IsTypeOf	Stanford Oval Parking
+5	Stanford Oval Parking	HasTraffic	heavy traffic
+5	Stanford Oval Parking	HasDistance	1 miles
+5	heavy traffic	IsTrafficOf	Stanford Oval Parking
+5	1 miles	IsDistanceFrom	Stanford Oval Parking
+6	Palo Alto Garage R	HasAddress	481 Amaranta Ave
+6	Palo Alto Garage R	HasType	parking garage
+6	481 Amaranta Ave	IsAddressOf	Palo Alto Garage R
+6	parking garage	IsTypeOf	Palo Alto Garage R
+6	Palo Alto Garage R	HasTraffic	no traffic
+6	Palo Alto Garage R	HasDistance	4 miles
+6	no traffic	IsTrafficOf	Palo Alto Garage R
+6	4 miles	IsDistanceFrom	Palo Alto Garage R
+7	Whole Foods	HasAddress	819 Alma St
+7	Whole Foods	HasType	grocery store
+7	819 Alma St	IsAddressOf	Whole Foods
+7	grocery store	IsTypeOf	Whole Foods
+7	Whole Foods	HasTraffic	heavy traffic
+7	Whole Foods	HasDistance	6 miles
+7	heavy traffic	IsTrafficOf	Whole Foods
+7	6 miles	IsDistanceFrom	Whole Foods
+-1	today	IsEqualTo	monday

@@ -1,0 +1,57 @@
+0	P.F. Changs	HasAddress	669 El Camino Real
+0	P.F. Changs	HasType	chinese restaurant
+0	669 El Camino Real	IsAddressOf	P.F. Changs
+0	chinese restaurant	IsTypeOf	P.F. Changs
+0	P.F. Changs	HasTraffic	no traffic
+0	P.F. Changs	HasDistance	6 miles
+0	no traffic	IsTrafficOf	P.F. Changs
+0	6 miles	IsDistanceFrom	P.F. Changs
+1	Pizza My Heart	HasAddress	528 Anton Ct
+1	Pizza My Heart	HasType	pizza restaurant
+1	528 Anton Ct	IsAddressOf	Pizza My Heart
+1	pizza restaurant	IsTypeOf	Pizza My Heart
+1	Pizza My Heart	HasTraffic	moderate traffic
+1	Pizza My Heart	HasDistance	2 miles
+1	moderate traffic	IsTrafficOf	Pizza My Heart
+1	2 miles	IsDistanceFrom	Pizza My Heart
+2	home	HasAddress	56 cadwell street
+2	home	HasType	home
+2	56 cadwell street	IsAddressOf	home
+2	home	IsTypeOf	home
+2	home	HasTraffic	heavy traffic
+2	home	HasDistance	3 miles
+2	heavy traffic	IsTrafficOf	home
+2	3 miles	IsDistanceFrom	home
+3	tai pan	HasAddress	830 Almanor Ln
+3	tai pan	HasType	chinese restaurant
+3	830 Almanor Ln	IsAddressOf	tai pan
+3	chinese restaurant	IsTypeOf	tai pan
+3	tai pan	HasTraffic	no traffic
+3	tai pan	HasDistance	4 miles
+3	no traffic	IsTrafficOf	tai pan
+3	4 miles	IsDistanceFrom	tai pan
+4	home	HasAddress	5671 barringer street
+4	home	HasType	home
+4	5671 barringer street	IsAddressOf	home
+4	home	IsTypeOf	home
+4	home	HasTraffic	no traffic
+4	home	HasDistance	2 miles
+4	no traffic	IsTrafficOf	home
+4	2 miles	IsDistanceFrom	home
+5	Valero	HasAddress	200 Alester Ave
+5	Valero	HasType	gas station
+5	200 Alester Ave	IsAddressOf	Valero
+5	gas station	IsTypeOf	Valero
+5	Valero	HasTraffic	heavy traffic
+5	Valero	HasDistance	3 miles
+5	heavy traffic	IsTrafficOf	Valero
+5	3 miles	IsDistanceFrom	Valero
+6	Trader Joes	HasAddress	408 University Ave
+6	Trader Joes	HasType	grocery store
+6	408 University Ave	IsAddressOf	Trader Joes
+6	grocery store	IsTypeOf	Trader Joes
+6	Trader Joes	HasTraffic	no traffic
+6	Trader Joes	HasDistance	1 miles
+6	no traffic	IsTrafficOf	Trader Joes
+6	1 miles	IsDistanceFrom	Trader Joes
+-1	today	IsEqualTo	monday

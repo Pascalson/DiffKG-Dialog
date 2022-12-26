@@ -1,0 +1,57 @@
+0	Palo Alto Cafe	HasAddress	436 Alger Dr
+0	Palo Alto Cafe	HasType	coffee or tea place
+0	436 Alger Dr	IsAddressOf	Palo Alto Cafe
+0	coffee or tea place	IsTypeOf	Palo Alto Cafe
+0	Palo Alto Cafe	HasTraffic	no traffic
+0	Palo Alto Cafe	HasDistance	5 miles
+0	no traffic	IsTrafficOf	Palo Alto Cafe
+0	5 miles	IsDistanceFrom	Palo Alto Cafe
+1	Mandarin Roots	HasAddress	271 Springer Street
+1	Mandarin Roots	HasType	chinese restaurant
+1	271 Springer Street	IsAddressOf	Mandarin Roots
+1	chinese restaurant	IsTypeOf	Mandarin Roots
+1	Mandarin Roots	HasTraffic	moderate traffic
+1	Mandarin Roots	HasDistance	4 miles
+1	moderate traffic	IsTrafficOf	Mandarin Roots
+1	4 miles	IsDistanceFrom	Mandarin Roots
+2	5677 springer street	HasAddress	5677 springer street
+2	5677 springer street	HasType	certain address
+2	5677 springer street	IsAddressOf	5677 springer street
+2	certain address	IsTypeOf	5677 springer street
+2	5677 springer street	HasTraffic	no traffic
+2	5677 springer street	HasDistance	1 miles
+2	no traffic	IsTrafficOf	5677 springer street
+2	1 miles	IsDistanceFrom	5677 springer street
+3	Palo Alto Medical Foundation	HasAddress	611 Ames Ave
+3	Palo Alto Medical Foundation	HasType	hospital
+3	611 Ames Ave	IsAddressOf	Palo Alto Medical Foundation
+3	hospital	IsTypeOf	Palo Alto Medical Foundation
+3	Palo Alto Medical Foundation	HasTraffic	no traffic
+3	Palo Alto Medical Foundation	HasDistance	5 miles
+3	no traffic	IsTrafficOf	Palo Alto Medical Foundation
+3	5 miles	IsDistanceFrom	Palo Alto Medical Foundation
+4	Panda Express	HasAddress	842 Arrowhead Way
+4	Panda Express	HasType	chinese restaurant
+4	842 Arrowhead Way	IsAddressOf	Panda Express
+4	chinese restaurant	IsTypeOf	Panda Express
+4	Panda Express	HasTraffic	moderate traffic
+4	Panda Express	HasDistance	1 miles
+4	moderate traffic	IsTrafficOf	Panda Express
+4	1 miles	IsDistanceFrom	Panda Express
+5	Coupa	HasAddress	394 Van Ness Ave
+5	Coupa	HasType	coffee or tea place
+5	394 Van Ness Ave	IsAddressOf	Coupa
+5	coffee or tea place	IsTypeOf	Coupa
+5	Coupa	HasTraffic	moderate traffic
+5	Coupa	HasDistance	6 miles
+5	moderate traffic	IsTrafficOf	Coupa
+5	6 miles	IsDistanceFrom	Coupa
+6	5677 southwest 4th street	HasAddress	5677 southwest 4th street
+6	5677 southwest 4th street	HasType	certain address
+6	5677 southwest 4th street	IsAddressOf	5677 southwest 4th street
+6	certain address	IsTypeOf	5677 southwest 4th street
+6	5677 southwest 4th street	HasTraffic	moderate traffic
+6	5677 southwest 4th street	HasDistance	5 miles
+6	moderate traffic	IsTrafficOf	5677 southwest 4th street
+6	5 miles	IsDistanceFrom	5677 southwest 4th street
+-1	today	IsEqualTo	monday

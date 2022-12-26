@@ -1,0 +1,65 @@
+0	jills house	HasAddress	347 Alta Mesa Ave
+0	jills house	HasType	friends house
+0	347 Alta Mesa Ave	IsAddressOf	jills house
+0	friends house	IsTypeOf	jills house
+0	jills house	HasTraffic	heavy traffic
+0	jills house	HasDistance	7 miles
+0	heavy traffic	IsTrafficOf	jills house
+0	7 miles	IsDistanceFrom	jills house
+1	Pizza Hut	HasAddress	704 El Camino Real
+1	Pizza Hut	HasType	pizza restaurant
+1	704 El Camino Real	IsAddressOf	Pizza Hut
+1	pizza restaurant	IsTypeOf	Pizza Hut
+1	Pizza Hut	HasTraffic	road block nearby
+1	Pizza Hut	HasDistance	6 miles
+1	road block nearby	IsTrafficOf	Pizza Hut
+1	6 miles	IsDistanceFrom	Pizza Hut
+2	Stanford Oval Parking	HasAddress	610 Amarillo Ave
+2	Stanford Oval Parking	HasType	parking garage
+2	610 Amarillo Ave	IsAddressOf	Stanford Oval Parking
+2	parking garage	IsTypeOf	Stanford Oval Parking
+2	Stanford Oval Parking	HasTraffic	no traffic
+2	Stanford Oval Parking	HasDistance	3 miles
+2	no traffic	IsTrafficOf	Stanford Oval Parking
+2	3 miles	IsDistanceFrom	Stanford Oval Parking
+3	5672 barringer street	HasAddress	5672 barringer street
+3	5672 barringer street	HasType	certain address
+3	5672 barringer street	IsAddressOf	5672 barringer street
+3	certain address	IsTypeOf	5672 barringer street
+3	5672 barringer street	HasTraffic	car collision nearby
+3	5672 barringer street	HasDistance	1 miles
+3	car collision nearby	IsTrafficOf	5672 barringer street
+3	1 miles	IsDistanceFrom	5672 barringer street
+4	Philz	HasAddress	583 Alester Ave
+4	Philz	HasType	coffee or tea place
+4	583 Alester Ave	IsAddressOf	Philz
+4	coffee or tea place	IsTypeOf	Philz
+4	Philz	HasTraffic	road block nearby
+4	Philz	HasDistance	2 miles
+4	road block nearby	IsTrafficOf	Philz
+4	2 miles	IsDistanceFrom	Philz
+5	tai pan	HasAddress	830 Almanor Ln
+5	tai pan	HasType	chinese restaurant
+5	830 Almanor Ln	IsAddressOf	tai pan
+5	chinese restaurant	IsTypeOf	tai pan
+5	tai pan	HasTraffic	moderate traffic
+5	tai pan	HasDistance	4 miles
+5	moderate traffic	IsTrafficOf	tai pan
+5	4 miles	IsDistanceFrom	tai pan
+6	Stanford Shopping Center	HasAddress	773 Alger Dr
+6	Stanford Shopping Center	HasType	shopping center
+6	773 Alger Dr	IsAddressOf	Stanford Shopping Center
+6	shopping center	IsTypeOf	Stanford Shopping Center
+6	Stanford Shopping Center	HasTraffic	moderate traffic
+6	Stanford Shopping Center	HasDistance	5 miles
+6	moderate traffic	IsTrafficOf	Stanford Shopping Center
+6	5 miles	IsDistanceFrom	Stanford Shopping Center
+7	Comfort Inn	HasAddress	753 University Ave
+7	Comfort Inn	HasType	rest stop
+7	753 University Ave	IsAddressOf	Comfort Inn
+7	rest stop	IsTypeOf	Comfort Inn
+7	Comfort Inn	HasTraffic	car collision nearby
+7	Comfort Inn	HasDistance	2 miles
+7	car collision nearby	IsTrafficOf	Comfort Inn
+7	2 miles	IsDistanceFrom	Comfort Inn
+-1	today	IsEqualTo	monday

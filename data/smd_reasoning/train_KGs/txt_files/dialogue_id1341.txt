@@ -1,0 +1,57 @@
+0	Town and Country	HasAddress	383 University Ave
+0	Town and Country	HasType	shopping center
+0	383 University Ave	IsAddressOf	Town and Country
+0	shopping center	IsTypeOf	Town and Country
+0	Town and Country	HasTraffic	moderate traffic
+0	Town and Country	HasDistance	1 miles
+0	moderate traffic	IsTrafficOf	Town and Country
+0	1 miles	IsDistanceFrom	Town and Country
+1	Philz	HasAddress	583 Alester Ave
+1	Philz	HasType	coffee or tea place
+1	583 Alester Ave	IsAddressOf	Philz
+1	coffee or tea place	IsTypeOf	Philz
+1	Philz	HasTraffic	heavy traffic
+1	Philz	HasDistance	2 miles
+1	heavy traffic	IsTrafficOf	Philz
+1	2 miles	IsDistanceFrom	Philz
+2	Pizza My Heart	HasAddress	528 Anton Ct
+2	Pizza My Heart	HasType	pizza restaurant
+2	528 Anton Ct	IsAddressOf	Pizza My Heart
+2	pizza restaurant	IsTypeOf	Pizza My Heart
+2	Pizza My Heart	HasTraffic	heavy traffic
+2	Pizza My Heart	HasDistance	5 miles
+2	heavy traffic	IsTrafficOf	Pizza My Heart
+2	5 miles	IsDistanceFrom	Pizza My Heart
+3	Civic Center Garage	HasAddress	270 Altaire Walk
+3	Civic Center Garage	HasType	parking garage
+3	270 Altaire Walk	IsAddressOf	Civic Center Garage
+3	parking garage	IsTypeOf	Civic Center Garage
+3	Civic Center Garage	HasTraffic	no traffic
+3	Civic Center Garage	HasDistance	5 miles
+3	no traffic	IsTrafficOf	Civic Center Garage
+3	5 miles	IsDistanceFrom	Civic Center Garage
+4	Pizza Chicago	HasAddress	915 Arbol Dr
+4	Pizza Chicago	HasType	pizza restaurant
+4	915 Arbol Dr	IsAddressOf	Pizza Chicago
+4	pizza restaurant	IsTypeOf	Pizza Chicago
+4	Pizza Chicago	HasTraffic	no traffic
+4	Pizza Chicago	HasDistance	6 miles
+4	no traffic	IsTrafficOf	Pizza Chicago
+4	6 miles	IsDistanceFrom	Pizza Chicago
+5	Dish Parking	HasAddress	550 Alester Ave
+5	Dish Parking	HasType	parking garage
+5	550 Alester Ave	IsAddressOf	Dish Parking
+5	parking garage	IsTypeOf	Dish Parking
+5	Dish Parking	HasTraffic	heavy traffic
+5	Dish Parking	HasDistance	2 miles
+5	heavy traffic	IsTrafficOf	Dish Parking
+5	2 miles	IsDistanceFrom	Dish Parking
+6	Chevron	HasAddress	783 Arcadia Pl
+6	Chevron	HasType	gas station
+6	783 Arcadia Pl	IsAddressOf	Chevron
+6	gas station	IsTypeOf	Chevron
+6	Chevron	HasTraffic	no traffic
+6	Chevron	HasDistance	1 miles
+6	no traffic	IsTrafficOf	Chevron
+6	1 miles	IsDistanceFrom	Chevron
+-1	today	IsEqualTo	monday

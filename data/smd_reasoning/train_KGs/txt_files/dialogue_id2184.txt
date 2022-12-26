@@ -1,0 +1,57 @@
+0	Four Seasons	HasAddress	465 Arcadia Pl
+0	Four Seasons	HasType	rest stop
+0	465 Arcadia Pl	IsAddressOf	Four Seasons
+0	rest stop	IsTypeOf	Four Seasons
+0	Four Seasons	HasTraffic	heavy traffic
+0	Four Seasons	HasDistance	3 miles
+0	heavy traffic	IsTrafficOf	Four Seasons
+0	3 miles	IsDistanceFrom	Four Seasons
+1	Cafe Venetia	HasAddress	269 Alger Dr
+1	Cafe Venetia	HasType	coffee or tea place
+1	269 Alger Dr	IsAddressOf	Cafe Venetia
+1	coffee or tea place	IsTypeOf	Cafe Venetia
+1	Cafe Venetia	HasTraffic	no traffic
+1	Cafe Venetia	HasDistance	4 miles
+1	no traffic	IsTrafficOf	Cafe Venetia
+1	4 miles	IsDistanceFrom	Cafe Venetia
+2	Stanford Childrens Health	HasAddress	899 Ames Ct
+2	Stanford Childrens Health	HasType	hospital
+2	899 Ames Ct	IsAddressOf	Stanford Childrens Health
+2	hospital	IsTypeOf	Stanford Childrens Health
+2	Stanford Childrens Health	HasTraffic	heavy traffic
+2	Stanford Childrens Health	HasDistance	5 miles
+2	heavy traffic	IsTrafficOf	Stanford Childrens Health
+2	5 miles	IsDistanceFrom	Stanford Childrens Health
+3	Civic Center Garage	HasAddress	270 Altaire Walk
+3	Civic Center Garage	HasType	parking garage
+3	270 Altaire Walk	IsAddressOf	Civic Center Garage
+3	parking garage	IsTypeOf	Civic Center Garage
+3	Civic Center Garage	HasTraffic	no traffic
+3	Civic Center Garage	HasDistance	4 miles
+3	no traffic	IsTrafficOf	Civic Center Garage
+3	4 miles	IsDistanceFrom	Civic Center Garage
+4	Dominos	HasAddress	776 Arastradero Rd
+4	Dominos	HasType	pizza restaurant
+4	776 Arastradero Rd	IsAddressOf	Dominos
+4	pizza restaurant	IsTypeOf	Dominos
+4	Dominos	HasTraffic	no traffic
+4	Dominos	HasDistance	1 miles
+4	no traffic	IsTrafficOf	Dominos
+4	1 miles	IsDistanceFrom	Dominos
+5	Valero	HasAddress	200 Alester Ave
+5	Valero	HasType	gas station
+5	200 Alester Ave	IsAddressOf	Valero
+5	gas station	IsTypeOf	Valero
+5	Valero	HasTraffic	no traffic
+5	Valero	HasDistance	2 miles
+5	no traffic	IsTrafficOf	Valero
+5	2 miles	IsDistanceFrom	Valero
+6	Palo Alto Cafe	HasAddress	436 Alger Dr
+6	Palo Alto Cafe	HasType	coffee or tea place
+6	436 Alger Dr	IsAddressOf	Palo Alto Cafe
+6	coffee or tea place	IsTypeOf	Palo Alto Cafe
+6	Palo Alto Cafe	HasTraffic	no traffic
+6	Palo Alto Cafe	HasDistance	5 miles
+6	no traffic	IsTrafficOf	Palo Alto Cafe
+6	5 miles	IsDistanceFrom	Palo Alto Cafe
+-1	today	IsEqualTo	monday

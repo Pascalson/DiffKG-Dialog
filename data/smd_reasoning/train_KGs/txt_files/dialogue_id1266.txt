@@ -1,0 +1,57 @@
+0	Philz	HasAddress	583 Alester Ave
+0	Philz	HasType	coffee or tea place
+0	583 Alester Ave	IsAddressOf	Philz
+0	coffee or tea place	IsTypeOf	Philz
+0	Philz	HasTraffic	heavy traffic
+0	Philz	HasDistance	3 miles
+0	heavy traffic	IsTrafficOf	Philz
+0	3 miles	IsDistanceFrom	Philz
+1	Chef Chu's	HasAddress	593 Arrowhead Way
+1	Chef Chu's	HasType	chinese restaurant
+1	593 Arrowhead Way	IsAddressOf	Chef Chu's
+1	chinese restaurant	IsTypeOf	Chef Chu's
+1	Chef Chu's	HasTraffic	moderate traffic
+1	Chef Chu's	HasDistance	1 miles
+1	moderate traffic	IsTrafficOf	Chef Chu's
+1	1 miles	IsDistanceFrom	Chef Chu's
+2	Palo Alto Medical Foundation	HasAddress	611 Ames Ave
+2	Palo Alto Medical Foundation	HasType	hospital
+2	611 Ames Ave	IsAddressOf	Palo Alto Medical Foundation
+2	hospital	IsTypeOf	Palo Alto Medical Foundation
+2	Palo Alto Medical Foundation	HasTraffic	moderate traffic
+2	Palo Alto Medical Foundation	HasDistance	5 miles
+2	moderate traffic	IsTrafficOf	Palo Alto Medical Foundation
+2	5 miles	IsDistanceFrom	Palo Alto Medical Foundation
+3	Stanford Shopping Center	HasAddress	773 Alger Dr
+3	Stanford Shopping Center	HasType	shopping center
+3	773 Alger Dr	IsAddressOf	Stanford Shopping Center
+3	shopping center	IsTypeOf	Stanford Shopping Center
+3	Stanford Shopping Center	HasTraffic	heavy traffic
+3	Stanford Shopping Center	HasDistance	2 miles
+3	heavy traffic	IsTrafficOf	Stanford Shopping Center
+3	2 miles	IsDistanceFrom	Stanford Shopping Center
+4	Jing Jing	HasAddress	113 Arbol Dr
+4	Jing Jing	HasType	chinese restaurant
+4	113 Arbol Dr	IsAddressOf	Jing Jing
+4	chinese restaurant	IsTypeOf	Jing Jing
+4	Jing Jing	HasTraffic	heavy traffic
+4	Jing Jing	HasDistance	3 miles
+4	heavy traffic	IsTrafficOf	Jing Jing
+4	3 miles	IsDistanceFrom	Jing Jing
+5	Ravenswood Shopping Center	HasAddress	434 Arastradero Rd
+5	Ravenswood Shopping Center	HasType	shopping center
+5	434 Arastradero Rd	IsAddressOf	Ravenswood Shopping Center
+5	shopping center	IsTypeOf	Ravenswood Shopping Center
+5	Ravenswood Shopping Center	HasTraffic	moderate traffic
+5	Ravenswood Shopping Center	HasDistance	4 miles
+5	moderate traffic	IsTrafficOf	Ravenswood Shopping Center
+5	4 miles	IsDistanceFrom	Ravenswood Shopping Center
+6	tai pan	HasAddress	830 Almanor Ln
+6	tai pan	HasType	chinese restaurant
+6	830 Almanor Ln	IsAddressOf	tai pan
+6	chinese restaurant	IsTypeOf	tai pan
+6	tai pan	HasTraffic	no traffic
+6	tai pan	HasDistance	3 miles
+6	no traffic	IsTrafficOf	tai pan
+6	3 miles	IsDistanceFrom	tai pan
+-1	today	IsEqualTo	monday

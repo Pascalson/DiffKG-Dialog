@@ -1,0 +1,57 @@
+0	5677 southwest 4th street	HasAddress	5677 southwest 4th street
+0	5677 southwest 4th street	HasType	certain address
+0	5677 southwest 4th street	IsAddressOf	5677 southwest 4th street
+0	certain address	IsTypeOf	5677 southwest 4th street
+0	5677 southwest 4th street	HasTraffic	no traffic
+0	5677 southwest 4th street	HasDistance	6 miles
+0	no traffic	IsTrafficOf	5677 southwest 4th street
+0	6 miles	IsDistanceFrom	5677 southwest 4th street
+1	Coupa	HasAddress	394 Van Ness Ave
+1	Coupa	HasType	coffee or tea place
+1	394 Van Ness Ave	IsAddressOf	Coupa
+1	coffee or tea place	IsTypeOf	Coupa
+1	Coupa	HasTraffic	no traffic
+1	Coupa	HasDistance	5 miles
+1	no traffic	IsTrafficOf	Coupa
+1	5 miles	IsDistanceFrom	Coupa
+2	Civic Center Garage	HasAddress	270 Altaire Walk
+2	Civic Center Garage	HasType	parking garage
+2	270 Altaire Walk	IsAddressOf	Civic Center Garage
+2	parking garage	IsTypeOf	Civic Center Garage
+2	Civic Center Garage	HasTraffic	moderate traffic
+2	Civic Center Garage	HasDistance	4 miles
+2	moderate traffic	IsTrafficOf	Civic Center Garage
+2	4 miles	IsDistanceFrom	Civic Center Garage
+3	Valero	HasAddress	200 Alester Ave
+3	Valero	HasType	gas station
+3	200 Alester Ave	IsAddressOf	Valero
+3	gas station	IsTypeOf	Valero
+3	Valero	HasTraffic	moderate traffic
+3	Valero	HasDistance	2 miles
+3	moderate traffic	IsTrafficOf	Valero
+3	2 miles	IsDistanceFrom	Valero
+4	Philz	HasAddress	583 Alester Ave
+4	Philz	HasType	coffee or tea place
+4	583 Alester Ave	IsAddressOf	Philz
+4	coffee or tea place	IsTypeOf	Philz
+4	Philz	HasTraffic	moderate traffic
+4	Philz	HasDistance	1 miles
+4	moderate traffic	IsTrafficOf	Philz
+4	1 miles	IsDistanceFrom	Philz
+5	Webster Garage	HasAddress	880 Ames Ct
+5	Webster Garage	HasType	parking garage
+5	880 Ames Ct	IsAddressOf	Webster Garage
+5	parking garage	IsTypeOf	Webster Garage
+5	Webster Garage	HasTraffic	heavy traffic
+5	Webster Garage	HasDistance	1 miles
+5	heavy traffic	IsTrafficOf	Webster Garage
+5	1 miles	IsDistanceFrom	Webster Garage
+6	Stanford Shopping Center	HasAddress	773 Alger Dr
+6	Stanford Shopping Center	HasType	shopping center
+6	773 Alger Dr	IsAddressOf	Stanford Shopping Center
+6	shopping center	IsTypeOf	Stanford Shopping Center
+6	Stanford Shopping Center	HasTraffic	no traffic
+6	Stanford Shopping Center	HasDistance	1 miles
+6	no traffic	IsTrafficOf	Stanford Shopping Center
+6	1 miles	IsDistanceFrom	Stanford Shopping Center
+-1	today	IsEqualTo	monday

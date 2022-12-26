@@ -1,0 +1,65 @@
+0	P.F. Changs	HasAddress	669 El Camino Real
+0	P.F. Changs	HasType	chinese restaurant
+0	669 El Camino Real	IsAddressOf	P.F. Changs
+0	chinese restaurant	IsTypeOf	P.F. Changs
+0	P.F. Changs	HasTraffic	heavy traffic
+0	P.F. Changs	HasDistance	6 miles
+0	heavy traffic	IsTrafficOf	P.F. Changs
+0	6 miles	IsDistanceFrom	P.F. Changs
+1	Hotel Keen	HasAddress	578 Arbol Dr
+1	Hotel Keen	HasType	rest stop
+1	578 Arbol Dr	IsAddressOf	Hotel Keen
+1	rest stop	IsTypeOf	Hotel Keen
+1	Hotel Keen	HasTraffic	no traffic
+1	Hotel Keen	HasDistance	2 miles
+1	no traffic	IsTrafficOf	Hotel Keen
+1	2 miles	IsDistanceFrom	Hotel Keen
+2	Sigona Farmers Market	HasAddress	638 Amherst St
+2	Sigona Farmers Market	HasType	grocery store
+2	638 Amherst St	IsAddressOf	Sigona Farmers Market
+2	grocery store	IsTypeOf	Sigona Farmers Market
+2	Sigona Farmers Market	HasTraffic	moderate traffic
+2	Sigona Farmers Market	HasDistance	5 miles
+2	moderate traffic	IsTrafficOf	Sigona Farmers Market
+2	5 miles	IsDistanceFrom	Sigona Farmers Market
+3	Stanford Express Care	HasAddress	214 El Camino Real
+3	Stanford Express Care	HasType	hospital
+3	214 El Camino Real	IsAddressOf	Stanford Express Care
+3	hospital	IsTypeOf	Stanford Express Care
+3	Stanford Express Care	HasTraffic	road block nearby
+3	Stanford Express Care	HasDistance	4 miles
+3	road block nearby	IsTrafficOf	Stanford Express Care
+3	4 miles	IsDistanceFrom	Stanford Express Care
+4	5677 southwest 4th street	HasAddress	5677 southwest 4th street
+4	5677 southwest 4th street	HasType	certain address
+4	5677 southwest 4th street	IsAddressOf	5677 southwest 4th street
+4	certain address	IsTypeOf	5677 southwest 4th street
+4	5677 southwest 4th street	HasTraffic	car collision nearby
+4	5677 southwest 4th street	HasDistance	4 miles
+4	car collision nearby	IsTrafficOf	5677 southwest 4th street
+4	4 miles	IsDistanceFrom	5677 southwest 4th street
+5	Coupa	HasAddress	394 Van Ness Ave
+5	Coupa	HasType	coffee or tea place
+5	394 Van Ness Ave	IsAddressOf	Coupa
+5	coffee or tea place	IsTypeOf	Coupa
+5	Coupa	HasTraffic	road block nearby
+5	Coupa	HasDistance	1 miles
+5	road block nearby	IsTrafficOf	Coupa
+5	1 miles	IsDistanceFrom	Coupa
+6	5672 barringer street	HasAddress	5672 barringer street
+6	5672 barringer street	HasType	certain address
+6	5672 barringer street	IsAddressOf	5672 barringer street
+6	certain address	IsTypeOf	5672 barringer street
+6	5672 barringer street	HasTraffic	car collision nearby
+6	5672 barringer street	HasDistance	3 miles
+6	car collision nearby	IsTrafficOf	5672 barringer street
+6	3 miles	IsDistanceFrom	5672 barringer street
+7	Hacienda Market	HasAddress	1313 Chester Ave
+7	Hacienda Market	HasType	grocery store
+7	1313 Chester Ave	IsAddressOf	Hacienda Market
+7	grocery store	IsTypeOf	Hacienda Market
+7	Hacienda Market	HasTraffic	road block nearby
+7	Hacienda Market	HasDistance	1 miles
+7	road block nearby	IsTrafficOf	Hacienda Market
+7	1 miles	IsDistanceFrom	Hacienda Market
+-1	today	IsEqualTo	monday

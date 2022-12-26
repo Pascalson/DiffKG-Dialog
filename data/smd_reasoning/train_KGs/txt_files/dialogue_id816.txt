@@ -1,0 +1,57 @@
+0	Ravenswood Shopping Center	HasAddress	434 Arastradero Rd
+0	Ravenswood Shopping Center	HasType	shopping center
+0	434 Arastradero Rd	IsAddressOf	Ravenswood Shopping Center
+0	shopping center	IsTypeOf	Ravenswood Shopping Center
+0	Ravenswood Shopping Center	HasTraffic	no traffic
+0	Ravenswood Shopping Center	HasDistance	1 miles
+0	no traffic	IsTrafficOf	Ravenswood Shopping Center
+0	1 miles	IsDistanceFrom	Ravenswood Shopping Center
+1	jills house	HasAddress	347 Alta Mesa Ave
+1	jills house	HasType	friends house
+1	347 Alta Mesa Ave	IsAddressOf	jills house
+1	friends house	IsTypeOf	jills house
+1	jills house	HasTraffic	moderate traffic
+1	jills house	HasDistance	2 miles
+1	moderate traffic	IsTrafficOf	jills house
+1	2 miles	IsDistanceFrom	jills house
+2	Palo Alto Garage R	HasAddress	481 Amaranta Ave
+2	Palo Alto Garage R	HasType	parking garage
+2	481 Amaranta Ave	IsAddressOf	Palo Alto Garage R
+2	parking garage	IsTypeOf	Palo Alto Garage R
+2	Palo Alto Garage R	HasTraffic	moderate traffic
+2	Palo Alto Garage R	HasDistance	3 miles
+2	moderate traffic	IsTrafficOf	Palo Alto Garage R
+2	3 miles	IsDistanceFrom	Palo Alto Garage R
+3	The Westin	HasAddress	329 El Camino Real
+3	The Westin	HasType	rest stop
+3	329 El Camino Real	IsAddressOf	The Westin
+3	rest stop	IsTypeOf	The Westin
+3	The Westin	HasTraffic	heavy traffic
+3	The Westin	HasDistance	6 miles
+3	heavy traffic	IsTrafficOf	The Westin
+3	6 miles	IsDistanceFrom	The Westin
+4	Philz	HasAddress	583 Alester Ave
+4	Philz	HasType	coffee or tea place
+4	583 Alester Ave	IsAddressOf	Philz
+4	coffee or tea place	IsTypeOf	Philz
+4	Philz	HasTraffic	heavy traffic
+4	Philz	HasDistance	1 miles
+4	heavy traffic	IsTrafficOf	Philz
+4	1 miles	IsDistanceFrom	Philz
+5	Hotel Keen	HasAddress	578 Arbol Dr
+5	Hotel Keen	HasType	rest stop
+5	578 Arbol Dr	IsAddressOf	Hotel Keen
+5	rest stop	IsTypeOf	Hotel Keen
+5	Hotel Keen	HasTraffic	heavy traffic
+5	Hotel Keen	HasDistance	4 miles
+5	heavy traffic	IsTrafficOf	Hotel Keen
+5	4 miles	IsDistanceFrom	Hotel Keen
+6	tai pan	HasAddress	830 Almanor Ln
+6	tai pan	HasType	chinese restaurant
+6	830 Almanor Ln	IsAddressOf	tai pan
+6	chinese restaurant	IsTypeOf	tai pan
+6	tai pan	HasTraffic	moderate traffic
+6	tai pan	HasDistance	5 miles
+6	moderate traffic	IsTrafficOf	tai pan
+6	5 miles	IsDistanceFrom	tai pan
+-1	today	IsEqualTo	monday

@@ -1,0 +1,65 @@
+0	Webster Garage	HasAddress	880 Ames Ct
+0	Webster Garage	HasType	parking garage
+0	880 Ames Ct	IsAddressOf	Webster Garage
+0	parking garage	IsTypeOf	Webster Garage
+0	Webster Garage	HasTraffic	no traffic
+0	Webster Garage	HasDistance	3 miles
+0	no traffic	IsTrafficOf	Webster Garage
+0	3 miles	IsDistanceFrom	Webster Garage
+1	Chef Chu's	HasAddress	593 Arrowhead Way
+1	Chef Chu's	HasType	chinese restaurant
+1	593 Arrowhead Way	IsAddressOf	Chef Chu's
+1	chinese restaurant	IsTypeOf	Chef Chu's
+1	Chef Chu's	HasTraffic	car collision nearby
+1	Chef Chu's	HasDistance	3 miles
+1	car collision nearby	IsTrafficOf	Chef Chu's
+1	3 miles	IsDistanceFrom	Chef Chu's
+2	Valero	HasAddress	200 Alester Ave
+2	Valero	HasType	gas station
+2	200 Alester Ave	IsAddressOf	Valero
+2	gas station	IsTypeOf	Valero
+2	Valero	HasTraffic	no traffic
+2	Valero	HasDistance	3 miles
+2	no traffic	IsTrafficOf	Valero
+2	3 miles	IsDistanceFrom	Valero
+3	Hacienda Market	HasAddress	1313 Chester Ave
+3	Hacienda Market	HasType	grocery store
+3	1313 Chester Ave	IsAddressOf	Hacienda Market
+3	grocery store	IsTypeOf	Hacienda Market
+3	Hacienda Market	HasTraffic	car collision nearby
+3	Hacienda Market	HasDistance	6 miles
+3	car collision nearby	IsTrafficOf	Hacienda Market
+3	6 miles	IsDistanceFrom	Hacienda Market
+4	Jing Jing	HasAddress	113 Arbol Dr
+4	Jing Jing	HasType	chinese restaurant
+4	113 Arbol Dr	IsAddressOf	Jing Jing
+4	chinese restaurant	IsTypeOf	Jing Jing
+4	Jing Jing	HasTraffic	car collision nearby
+4	Jing Jing	HasDistance	6 miles
+4	car collision nearby	IsTrafficOf	Jing Jing
+4	6 miles	IsDistanceFrom	Jing Jing
+5	Round Table	HasAddress	113 Anton Ct
+5	Round Table	HasType	pizza restaurant
+5	113 Anton Ct	IsAddressOf	Round Table
+5	pizza restaurant	IsTypeOf	Round Table
+5	Round Table	HasTraffic	heavy traffic
+5	Round Table	HasDistance	6 miles
+5	heavy traffic	IsTrafficOf	Round Table
+5	6 miles	IsDistanceFrom	Round Table
+6	Sigona Farmers Market	HasAddress	638 Amherst St
+6	Sigona Farmers Market	HasType	grocery store
+6	638 Amherst St	IsAddressOf	Sigona Farmers Market
+6	grocery store	IsTypeOf	Sigona Farmers Market
+6	Sigona Farmers Market	HasTraffic	moderate traffic
+6	Sigona Farmers Market	HasDistance	4 miles
+6	moderate traffic	IsTrafficOf	Sigona Farmers Market
+6	4 miles	IsDistanceFrom	Sigona Farmers Market
+7	Stanford Oval Parking	HasAddress	610 Amarillo Ave
+7	Stanford Oval Parking	HasType	parking garage
+7	610 Amarillo Ave	IsAddressOf	Stanford Oval Parking
+7	parking garage	IsTypeOf	Stanford Oval Parking
+7	Stanford Oval Parking	HasTraffic	road block nearby
+7	Stanford Oval Parking	HasDistance	2 miles
+7	road block nearby	IsTrafficOf	Stanford Oval Parking
+7	2 miles	IsDistanceFrom	Stanford Oval Parking
+-1	today	IsEqualTo	monday

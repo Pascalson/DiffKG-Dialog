@@ -1,0 +1,57 @@
+0	Jing Jing	HasAddress	113 Arbol Dr
+0	Jing Jing	HasType	chinese restaurant
+0	113 Arbol Dr	IsAddressOf	Jing Jing
+0	chinese restaurant	IsTypeOf	Jing Jing
+0	Jing Jing	HasTraffic	heavy traffic
+0	Jing Jing	HasDistance	1 miles
+0	heavy traffic	IsTrafficOf	Jing Jing
+0	1 miles	IsDistanceFrom	Jing Jing
+1	Four Seasons	HasAddress	465 Arcadia Pl
+1	Four Seasons	HasType	rest stop
+1	465 Arcadia Pl	IsAddressOf	Four Seasons
+1	rest stop	IsTypeOf	Four Seasons
+1	Four Seasons	HasTraffic	heavy traffic
+1	Four Seasons	HasDistance	1 miles
+1	heavy traffic	IsTrafficOf	Four Seasons
+1	1 miles	IsDistanceFrom	Four Seasons
+2	Ravenswood Shopping Center	HasAddress	434 Arastradero Rd
+2	Ravenswood Shopping Center	HasType	shopping center
+2	434 Arastradero Rd	IsAddressOf	Ravenswood Shopping Center
+2	shopping center	IsTypeOf	Ravenswood Shopping Center
+2	Ravenswood Shopping Center	HasTraffic	no traffic
+2	Ravenswood Shopping Center	HasDistance	1 miles
+2	no traffic	IsTrafficOf	Ravenswood Shopping Center
+2	1 miles	IsDistanceFrom	Ravenswood Shopping Center
+3	home	HasAddress	5671 barringer street
+3	home	HasType	home
+3	5671 barringer street	IsAddressOf	home
+3	home	IsTypeOf	home
+3	home	HasTraffic	heavy traffic
+3	home	HasDistance	2 miles
+3	heavy traffic	IsTrafficOf	home
+3	2 miles	IsDistanceFrom	home
+4	Starbucks	HasAddress	792 Bedoin Street
+4	Starbucks	HasType	coffee or tea place
+4	792 Bedoin Street	IsAddressOf	Starbucks
+4	coffee or tea place	IsTypeOf	Starbucks
+4	Starbucks	HasTraffic	heavy traffic
+4	Starbucks	HasDistance	3 miles
+4	heavy traffic	IsTrafficOf	Starbucks
+4	3 miles	IsDistanceFrom	Starbucks
+5	P.F. Changs	HasAddress	669 El Camino Real
+5	P.F. Changs	HasType	chinese restaurant
+5	669 El Camino Real	IsAddressOf	P.F. Changs
+5	chinese restaurant	IsTypeOf	P.F. Changs
+5	P.F. Changs	HasTraffic	no traffic
+5	P.F. Changs	HasDistance	4 miles
+5	no traffic	IsTrafficOf	P.F. Changs
+5	4 miles	IsDistanceFrom	P.F. Changs
+6	jills house	HasAddress	347 Alta Mesa Ave
+6	jills house	HasType	friends house
+6	347 Alta Mesa Ave	IsAddressOf	jills house
+6	friends house	IsTypeOf	jills house
+6	jills house	HasTraffic	moderate traffic
+6	jills house	HasDistance	1 miles
+6	moderate traffic	IsTrafficOf	jills house
+6	1 miles	IsDistanceFrom	jills house
+-1	today	IsEqualTo	monday

@@ -1,0 +1,57 @@
+0	Starbucks	HasAddress	792 Bedoin Street
+0	Starbucks	HasType	coffee or tea place
+0	792 Bedoin Street	IsAddressOf	Starbucks
+0	coffee or tea place	IsTypeOf	Starbucks
+0	Starbucks	HasTraffic	no traffic
+0	Starbucks	HasDistance	3 miles
+0	no traffic	IsTrafficOf	Starbucks
+0	3 miles	IsDistanceFrom	Starbucks
+1	Stanford Shopping Center	HasAddress	773 Alger Dr
+1	Stanford Shopping Center	HasType	shopping center
+1	773 Alger Dr	IsAddressOf	Stanford Shopping Center
+1	shopping center	IsTypeOf	Stanford Shopping Center
+1	Stanford Shopping Center	HasTraffic	heavy traffic
+1	Stanford Shopping Center	HasDistance	3 miles
+1	heavy traffic	IsTrafficOf	Stanford Shopping Center
+1	3 miles	IsDistanceFrom	Stanford Shopping Center
+2	jacks house	HasAddress	864 Almanor Ln
+2	jacks house	HasType	friends house
+2	864 Almanor Ln	IsAddressOf	jacks house
+2	friends house	IsTypeOf	jacks house
+2	jacks house	HasTraffic	heavy traffic
+2	jacks house	HasDistance	4 miles
+2	heavy traffic	IsTrafficOf	jacks house
+2	4 miles	IsDistanceFrom	jacks house
+3	Dominos	HasAddress	776 Arastradero Rd
+3	Dominos	HasType	pizza restaurant
+3	776 Arastradero Rd	IsAddressOf	Dominos
+3	pizza restaurant	IsTypeOf	Dominos
+3	Dominos	HasTraffic	heavy traffic
+3	Dominos	HasDistance	2 miles
+3	heavy traffic	IsTrafficOf	Dominos
+3	2 miles	IsDistanceFrom	Dominos
+4	Dish Parking	HasAddress	550 Alester Ave
+4	Dish Parking	HasType	parking garage
+4	550 Alester Ave	IsAddressOf	Dish Parking
+4	parking garage	IsTypeOf	Dish Parking
+4	Dish Parking	HasTraffic	heavy traffic
+4	Dish Parking	HasDistance	1 miles
+4	heavy traffic	IsTrafficOf	Dish Parking
+4	1 miles	IsDistanceFrom	Dish Parking
+5	Safeway	HasAddress	452 Arcadia Pl
+5	Safeway	HasType	grocery store
+5	452 Arcadia Pl	IsAddressOf	Safeway
+5	grocery store	IsTypeOf	Safeway
+5	Safeway	HasTraffic	heavy traffic
+5	Safeway	HasDistance	3 miles
+5	heavy traffic	IsTrafficOf	Safeway
+5	3 miles	IsDistanceFrom	Safeway
+6	Stanford Childrens Health	HasAddress	899 Ames Ct
+6	Stanford Childrens Health	HasType	hospital
+6	899 Ames Ct	IsAddressOf	Stanford Childrens Health
+6	hospital	IsTypeOf	Stanford Childrens Health
+6	Stanford Childrens Health	HasTraffic	moderate traffic
+6	Stanford Childrens Health	HasDistance	3 miles
+6	moderate traffic	IsTrafficOf	Stanford Childrens Health
+6	3 miles	IsDistanceFrom	Stanford Childrens Health
+-1	today	IsEqualTo	monday

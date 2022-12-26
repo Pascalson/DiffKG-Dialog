@@ -1,0 +1,57 @@
+0	The Westin	HasAddress	329 El Camino Real
+0	The Westin	HasType	rest stop
+0	329 El Camino Real	IsAddressOf	The Westin
+0	rest stop	IsTypeOf	The Westin
+0	The Westin	HasTraffic	no traffic
+0	The Westin	HasDistance	4 miles
+0	no traffic	IsTrafficOf	The Westin
+0	4 miles	IsDistanceFrom	The Westin
+1	Palo Alto Garage R	HasAddress	481 Amaranta Ave
+1	Palo Alto Garage R	HasType	parking garage
+1	481 Amaranta Ave	IsAddressOf	Palo Alto Garage R
+1	parking garage	IsTypeOf	Palo Alto Garage R
+1	Palo Alto Garage R	HasTraffic	moderate traffic
+1	Palo Alto Garage R	HasDistance	2 miles
+1	moderate traffic	IsTrafficOf	Palo Alto Garage R
+1	2 miles	IsDistanceFrom	Palo Alto Garage R
+2	Mandarin Roots	HasAddress	271 Springer Street
+2	Mandarin Roots	HasType	chinese restaurant
+2	271 Springer Street	IsAddressOf	Mandarin Roots
+2	chinese restaurant	IsTypeOf	Mandarin Roots
+2	Mandarin Roots	HasTraffic	moderate traffic
+2	Mandarin Roots	HasDistance	4 miles
+2	moderate traffic	IsTrafficOf	Mandarin Roots
+2	4 miles	IsDistanceFrom	Mandarin Roots
+3	Sigona Farmers Market	HasAddress	638 Amherst St
+3	Sigona Farmers Market	HasType	grocery store
+3	638 Amherst St	IsAddressOf	Sigona Farmers Market
+3	grocery store	IsTypeOf	Sigona Farmers Market
+3	Sigona Farmers Market	HasTraffic	no traffic
+3	Sigona Farmers Market	HasDistance	4 miles
+3	no traffic	IsTrafficOf	Sigona Farmers Market
+3	4 miles	IsDistanceFrom	Sigona Farmers Market
+4	Whole Foods	HasAddress	819 Alma St
+4	Whole Foods	HasType	grocery store
+4	819 Alma St	IsAddressOf	Whole Foods
+4	grocery store	IsTypeOf	Whole Foods
+4	Whole Foods	HasTraffic	heavy traffic
+4	Whole Foods	HasDistance	2 miles
+4	heavy traffic	IsTrafficOf	Whole Foods
+4	2 miles	IsDistanceFrom	Whole Foods
+5	Stanford Shopping Center	HasAddress	773 Alger Dr
+5	Stanford Shopping Center	HasType	shopping center
+5	773 Alger Dr	IsAddressOf	Stanford Shopping Center
+5	shopping center	IsTypeOf	Stanford Shopping Center
+5	Stanford Shopping Center	HasTraffic	moderate traffic
+5	Stanford Shopping Center	HasDistance	2 miles
+5	moderate traffic	IsTrafficOf	Stanford Shopping Center
+5	2 miles	IsDistanceFrom	Stanford Shopping Center
+6	toms house	HasAddress	580 Van Ness Ave
+6	toms house	HasType	friends house
+6	580 Van Ness Ave	IsAddressOf	toms house
+6	friends house	IsTypeOf	toms house
+6	toms house	HasTraffic	no traffic
+6	toms house	HasDistance	1 miles
+6	no traffic	IsTrafficOf	toms house
+6	1 miles	IsDistanceFrom	toms house
+-1	today	IsEqualTo	monday

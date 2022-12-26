@@ -1,0 +1,57 @@
+0	Stanford Childrens Health	HasAddress	899 Ames Ct
+0	Stanford Childrens Health	HasType	hospital
+0	899 Ames Ct	IsAddressOf	Stanford Childrens Health
+0	hospital	IsTypeOf	Stanford Childrens Health
+0	Stanford Childrens Health	HasTraffic	moderate traffic
+0	Stanford Childrens Health	HasDistance	1 miles
+0	moderate traffic	IsTrafficOf	Stanford Childrens Health
+0	1 miles	IsDistanceFrom	Stanford Childrens Health
+1	Whole Foods	HasAddress	819 Alma St
+1	Whole Foods	HasType	grocery store
+1	819 Alma St	IsAddressOf	Whole Foods
+1	grocery store	IsTypeOf	Whole Foods
+1	Whole Foods	HasTraffic	no traffic
+1	Whole Foods	HasDistance	2 miles
+1	no traffic	IsTrafficOf	Whole Foods
+1	2 miles	IsDistanceFrom	Whole Foods
+2	Palo Alto Medical Foundation	HasAddress	611 Ames Ave
+2	Palo Alto Medical Foundation	HasType	hospital
+2	611 Ames Ave	IsAddressOf	Palo Alto Medical Foundation
+2	hospital	IsTypeOf	Palo Alto Medical Foundation
+2	Palo Alto Medical Foundation	HasTraffic	no traffic
+2	Palo Alto Medical Foundation	HasDistance	4 miles
+2	no traffic	IsTrafficOf	Palo Alto Medical Foundation
+2	4 miles	IsDistanceFrom	Palo Alto Medical Foundation
+3	Chef Chu's	HasAddress	593 Arrowhead Way
+3	Chef Chu's	HasType	chinese restaurant
+3	593 Arrowhead Way	IsAddressOf	Chef Chu's
+3	chinese restaurant	IsTypeOf	Chef Chu's
+3	Chef Chu's	HasTraffic	moderate traffic
+3	Chef Chu's	HasDistance	6 miles
+3	moderate traffic	IsTrafficOf	Chef Chu's
+3	6 miles	IsDistanceFrom	Chef Chu's
+4	Dominos	HasAddress	776 Arastradero Rd
+4	Dominos	HasType	pizza restaurant
+4	776 Arastradero Rd	IsAddressOf	Dominos
+4	pizza restaurant	IsTypeOf	Dominos
+4	Dominos	HasTraffic	no traffic
+4	Dominos	HasDistance	2 miles
+4	no traffic	IsTrafficOf	Dominos
+4	2 miles	IsDistanceFrom	Dominos
+5	Stanford Oval Parking	HasAddress	610 Amarillo Ave
+5	Stanford Oval Parking	HasType	parking garage
+5	610 Amarillo Ave	IsAddressOf	Stanford Oval Parking
+5	parking garage	IsTypeOf	Stanford Oval Parking
+5	Stanford Oval Parking	HasTraffic	moderate traffic
+5	Stanford Oval Parking	HasDistance	1 miles
+5	moderate traffic	IsTrafficOf	Stanford Oval Parking
+5	1 miles	IsDistanceFrom	Stanford Oval Parking
+6	Teavana	HasAddress	145 Amherst St
+6	Teavana	HasType	coffee or tea place
+6	145 Amherst St	IsAddressOf	Teavana
+6	coffee or tea place	IsTypeOf	Teavana
+6	Teavana	HasTraffic	heavy traffic
+6	Teavana	HasDistance	2 miles
+6	heavy traffic	IsTrafficOf	Teavana
+6	2 miles	IsDistanceFrom	Teavana
+-1	today	IsEqualTo	monday

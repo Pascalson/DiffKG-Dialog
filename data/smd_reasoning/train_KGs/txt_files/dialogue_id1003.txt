@@ -1,0 +1,65 @@
+0	Trader Joes	HasAddress	408 University Ave
+0	Trader Joes	HasType	grocery store
+0	408 University Ave	IsAddressOf	Trader Joes
+0	grocery store	IsTypeOf	Trader Joes
+0	Trader Joes	HasTraffic	car collision nearby
+0	Trader Joes	HasDistance	4 miles
+0	car collision nearby	IsTrafficOf	Trader Joes
+0	4 miles	IsDistanceFrom	Trader Joes
+1	home	HasAddress	56 cadwell street
+1	home	HasType	home
+1	56 cadwell street	IsAddressOf	home
+1	home	IsTypeOf	home
+1	home	HasTraffic	moderate traffic
+1	home	HasDistance	4 miles
+1	moderate traffic	IsTrafficOf	home
+1	4 miles	IsDistanceFrom	home
+2	Hacienda Market	HasAddress	1313 Chester Ave
+2	Hacienda Market	HasType	grocery store
+2	1313 Chester Ave	IsAddressOf	Hacienda Market
+2	grocery store	IsTypeOf	Hacienda Market
+2	Hacienda Market	HasTraffic	heavy traffic
+2	Hacienda Market	HasDistance	1 miles
+2	heavy traffic	IsTrafficOf	Hacienda Market
+2	1 miles	IsDistanceFrom	Hacienda Market
+3	Stanford Childrens Health	HasAddress	899 Ames Ct
+3	Stanford Childrens Health	HasType	hospital
+3	899 Ames Ct	IsAddressOf	Stanford Childrens Health
+3	hospital	IsTypeOf	Stanford Childrens Health
+3	Stanford Childrens Health	HasTraffic	road block nearby
+3	Stanford Childrens Health	HasDistance	4 miles
+3	road block nearby	IsTrafficOf	Stanford Childrens Health
+3	4 miles	IsDistanceFrom	Stanford Childrens Health
+4	The Clement Hotel	HasAddress	657 Ames Ave
+4	The Clement Hotel	HasType	rest stop
+4	657 Ames Ave	IsAddressOf	The Clement Hotel
+4	rest stop	IsTypeOf	The Clement Hotel
+4	The Clement Hotel	HasTraffic	no traffic
+4	The Clement Hotel	HasDistance	1 miles
+4	no traffic	IsTrafficOf	The Clement Hotel
+4	1 miles	IsDistanceFrom	The Clement Hotel
+5	Round Table	HasAddress	113 Anton Ct
+5	Round Table	HasType	pizza restaurant
+5	113 Anton Ct	IsAddressOf	Round Table
+5	pizza restaurant	IsTypeOf	Round Table
+5	Round Table	HasTraffic	car collision nearby
+5	Round Table	HasDistance	2 miles
+5	car collision nearby	IsTrafficOf	Round Table
+5	2 miles	IsDistanceFrom	Round Table
+6	Webster Garage	HasAddress	880 Ames Ct
+6	Webster Garage	HasType	parking garage
+6	880 Ames Ct	IsAddressOf	Webster Garage
+6	parking garage	IsTypeOf	Webster Garage
+6	Webster Garage	HasTraffic	car collision nearby
+6	Webster Garage	HasDistance	6 miles
+6	car collision nearby	IsTrafficOf	Webster Garage
+6	6 miles	IsDistanceFrom	Webster Garage
+7	The Westin	HasAddress	329 El Camino Real
+7	The Westin	HasType	rest stop
+7	329 El Camino Real	IsAddressOf	The Westin
+7	rest stop	IsTypeOf	The Westin
+7	The Westin	HasTraffic	road block nearby
+7	The Westin	HasDistance	1 miles
+7	road block nearby	IsTrafficOf	The Westin
+7	1 miles	IsDistanceFrom	The Westin
+-1	today	IsEqualTo	monday

@@ -1,0 +1,57 @@
+0	Hotel Keen	HasAddress	578 Arbol Dr
+0	Hotel Keen	HasType	rest stop
+0	578 Arbol Dr	IsAddressOf	Hotel Keen
+0	rest stop	IsTypeOf	Hotel Keen
+0	Hotel Keen	HasTraffic	no traffic
+0	Hotel Keen	HasDistance	5 miles
+0	no traffic	IsTrafficOf	Hotel Keen
+0	5 miles	IsDistanceFrom	Hotel Keen
+1	Dish Parking	HasAddress	550 Alester Ave
+1	Dish Parking	HasType	parking garage
+1	550 Alester Ave	IsAddressOf	Dish Parking
+1	parking garage	IsTypeOf	Dish Parking
+1	Dish Parking	HasTraffic	heavy traffic
+1	Dish Parking	HasDistance	4 miles
+1	heavy traffic	IsTrafficOf	Dish Parking
+1	4 miles	IsDistanceFrom	Dish Parking
+2	home	HasAddress	10 ames street
+2	home	HasType	home
+2	10 ames street	IsAddressOf	home
+2	home	IsTypeOf	home
+2	home	HasTraffic	moderate traffic
+2	home	HasDistance	5 miles
+2	moderate traffic	IsTrafficOf	home
+2	5 miles	IsDistanceFrom	home
+3	Stanford Express Care	HasAddress	214 El Camino Real
+3	Stanford Express Care	HasType	hospital
+3	214 El Camino Real	IsAddressOf	Stanford Express Care
+3	hospital	IsTypeOf	Stanford Express Care
+3	Stanford Express Care	HasTraffic	moderate traffic
+3	Stanford Express Care	HasDistance	5 miles
+3	moderate traffic	IsTrafficOf	Stanford Express Care
+3	5 miles	IsDistanceFrom	Stanford Express Care
+4	jacks house	HasAddress	864 Almanor Ln
+4	jacks house	HasType	friends house
+4	864 Almanor Ln	IsAddressOf	jacks house
+4	friends house	IsTypeOf	jacks house
+4	jacks house	HasTraffic	no traffic
+4	jacks house	HasDistance	5 miles
+4	no traffic	IsTrafficOf	jacks house
+4	5 miles	IsDistanceFrom	jacks house
+5	P.F. Changs	HasAddress	669 El Camino Real
+5	P.F. Changs	HasType	chinese restaurant
+5	669 El Camino Real	IsAddressOf	P.F. Changs
+5	chinese restaurant	IsTypeOf	P.F. Changs
+5	P.F. Changs	HasTraffic	moderate traffic
+5	P.F. Changs	HasDistance	6 miles
+5	moderate traffic	IsTrafficOf	P.F. Changs
+5	6 miles	IsDistanceFrom	P.F. Changs
+6	Palo Alto Medical Foundation	HasAddress	611 Ames Ave
+6	Palo Alto Medical Foundation	HasType	hospital
+6	611 Ames Ave	IsAddressOf	Palo Alto Medical Foundation
+6	hospital	IsTypeOf	Palo Alto Medical Foundation
+6	Palo Alto Medical Foundation	HasTraffic	heavy traffic
+6	Palo Alto Medical Foundation	HasDistance	5 miles
+6	heavy traffic	IsTrafficOf	Palo Alto Medical Foundation
+6	5 miles	IsDistanceFrom	Palo Alto Medical Foundation
+-1	today	IsEqualTo	monday

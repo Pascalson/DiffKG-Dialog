@@ -1,0 +1,65 @@
+0	Starbucks	HasAddress	792 Bedoin Street
+0	Starbucks	HasType	coffee or tea place
+0	792 Bedoin Street	IsAddressOf	Starbucks
+0	coffee or tea place	IsTypeOf	Starbucks
+0	Starbucks	HasTraffic	heavy traffic
+0	Starbucks	HasDistance	2 miles
+0	heavy traffic	IsTrafficOf	Starbucks
+0	2 miles	IsDistanceFrom	Starbucks
+1	Chevron	HasAddress	783 Arcadia Pl
+1	Chevron	HasType	gas station
+1	783 Arcadia Pl	IsAddressOf	Chevron
+1	gas station	IsTypeOf	Chevron
+1	Chevron	HasTraffic	road block nearby
+1	Chevron	HasDistance	6 miles
+1	road block nearby	IsTrafficOf	Chevron
+1	6 miles	IsDistanceFrom	Chevron
+2	Cafe Venetia	HasAddress	269 Alger Dr
+2	Cafe Venetia	HasType	coffee or tea place
+2	269 Alger Dr	IsAddressOf	Cafe Venetia
+2	coffee or tea place	IsTypeOf	Cafe Venetia
+2	Cafe Venetia	HasTraffic	car collision nearby
+2	Cafe Venetia	HasDistance	6 miles
+2	car collision nearby	IsTrafficOf	Cafe Venetia
+2	6 miles	IsDistanceFrom	Cafe Venetia
+3	Round Table	HasAddress	113 Anton Ct
+3	Round Table	HasType	pizza restaurant
+3	113 Anton Ct	IsAddressOf	Round Table
+3	pizza restaurant	IsTypeOf	Round Table
+3	Round Table	HasTraffic	moderate traffic
+3	Round Table	HasDistance	4 miles
+3	moderate traffic	IsTrafficOf	Round Table
+3	4 miles	IsDistanceFrom	Round Table
+4	Mandarin Roots	HasAddress	271 Springer Street
+4	Mandarin Roots	HasType	chinese restaurant
+4	271 Springer Street	IsAddressOf	Mandarin Roots
+4	chinese restaurant	IsTypeOf	Mandarin Roots
+4	Mandarin Roots	HasTraffic	road block nearby
+4	Mandarin Roots	HasDistance	5 miles
+4	road block nearby	IsTrafficOf	Mandarin Roots
+4	5 miles	IsDistanceFrom	Mandarin Roots
+5	Town and Country	HasAddress	383 University Ave
+5	Town and Country	HasType	shopping center
+5	383 University Ave	IsAddressOf	Town and Country
+5	shopping center	IsTypeOf	Town and Country
+5	Town and Country	HasTraffic	heavy traffic
+5	Town and Country	HasDistance	4 miles
+5	heavy traffic	IsTrafficOf	Town and Country
+5	4 miles	IsDistanceFrom	Town and Country
+6	Pizza Hut	HasAddress	704 El Camino Real
+6	Pizza Hut	HasType	pizza restaurant
+6	704 El Camino Real	IsAddressOf	Pizza Hut
+6	pizza restaurant	IsTypeOf	Pizza Hut
+6	Pizza Hut	HasTraffic	moderate traffic
+6	Pizza Hut	HasDistance	6 miles
+6	moderate traffic	IsTrafficOf	Pizza Hut
+6	6 miles	IsDistanceFrom	Pizza Hut
+7	The Westin	HasAddress	329 El Camino Real
+7	The Westin	HasType	rest stop
+7	329 El Camino Real	IsAddressOf	The Westin
+7	rest stop	IsTypeOf	The Westin
+7	The Westin	HasTraffic	car collision nearby
+7	The Westin	HasDistance	5 miles
+7	car collision nearby	IsTrafficOf	The Westin
+7	5 miles	IsDistanceFrom	The Westin
+-1	today	IsEqualTo	monday

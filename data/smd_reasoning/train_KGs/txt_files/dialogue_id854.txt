@@ -1,0 +1,57 @@
+0	The Clement Hotel	HasAddress	657 Ames Ave
+0	The Clement Hotel	HasType	rest stop
+0	657 Ames Ave	IsAddressOf	The Clement Hotel
+0	rest stop	IsTypeOf	The Clement Hotel
+0	The Clement Hotel	HasTraffic	moderate traffic
+0	The Clement Hotel	HasDistance	2 miles
+0	moderate traffic	IsTrafficOf	The Clement Hotel
+0	2 miles	IsDistanceFrom	The Clement Hotel
+1	Pizza My Heart	HasAddress	528 Anton Ct
+1	Pizza My Heart	HasType	pizza restaurant
+1	528 Anton Ct	IsAddressOf	Pizza My Heart
+1	pizza restaurant	IsTypeOf	Pizza My Heart
+1	Pizza My Heart	HasTraffic	no traffic
+1	Pizza My Heart	HasDistance	2 miles
+1	no traffic	IsTrafficOf	Pizza My Heart
+1	2 miles	IsDistanceFrom	Pizza My Heart
+2	5677 southwest 4th street	HasAddress	5677 southwest 4th street
+2	5677 southwest 4th street	HasType	certain address
+2	5677 southwest 4th street	IsAddressOf	5677 southwest 4th street
+2	certain address	IsTypeOf	5677 southwest 4th street
+2	5677 southwest 4th street	HasTraffic	moderate traffic
+2	5677 southwest 4th street	HasDistance	5 miles
+2	moderate traffic	IsTrafficOf	5677 southwest 4th street
+2	5 miles	IsDistanceFrom	5677 southwest 4th street
+3	P.F. Changs	HasAddress	669 El Camino Real
+3	P.F. Changs	HasType	chinese restaurant
+3	669 El Camino Real	IsAddressOf	P.F. Changs
+3	chinese restaurant	IsTypeOf	P.F. Changs
+3	P.F. Changs	HasTraffic	heavy traffic
+3	P.F. Changs	HasDistance	5 miles
+3	heavy traffic	IsTrafficOf	P.F. Changs
+3	5 miles	IsDistanceFrom	P.F. Changs
+4	jacks house	HasAddress	864 Almanor Ln
+4	jacks house	HasType	friends house
+4	864 Almanor Ln	IsAddressOf	jacks house
+4	friends house	IsTypeOf	jacks house
+4	jacks house	HasTraffic	no traffic
+4	jacks house	HasDistance	5 miles
+4	no traffic	IsTrafficOf	jacks house
+4	5 miles	IsDistanceFrom	jacks house
+5	Ravenswood Shopping Center	HasAddress	434 Arastradero Rd
+5	Ravenswood Shopping Center	HasType	shopping center
+5	434 Arastradero Rd	IsAddressOf	Ravenswood Shopping Center
+5	shopping center	IsTypeOf	Ravenswood Shopping Center
+5	Ravenswood Shopping Center	HasTraffic	moderate traffic
+5	Ravenswood Shopping Center	HasDistance	4 miles
+5	moderate traffic	IsTrafficOf	Ravenswood Shopping Center
+5	4 miles	IsDistanceFrom	Ravenswood Shopping Center
+6	Palo Alto Cafe	HasAddress	436 Alger Dr
+6	Palo Alto Cafe	HasType	coffee or tea place
+6	436 Alger Dr	IsAddressOf	Palo Alto Cafe
+6	coffee or tea place	IsTypeOf	Palo Alto Cafe
+6	Palo Alto Cafe	HasTraffic	no traffic
+6	Palo Alto Cafe	HasDistance	5 miles
+6	no traffic	IsTrafficOf	Palo Alto Cafe
+6	5 miles	IsDistanceFrom	Palo Alto Cafe
+-1	today	IsEqualTo	monday

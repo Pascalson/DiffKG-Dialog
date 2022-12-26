@@ -1,0 +1,65 @@
+0	Pizza Hut	HasAddress	704 El Camino Real
+0	Pizza Hut	HasType	pizza restaurant
+0	704 El Camino Real	IsAddressOf	Pizza Hut
+0	pizza restaurant	IsTypeOf	Pizza Hut
+0	Pizza Hut	HasTraffic	car collision nearby
+0	Pizza Hut	HasDistance	4 miles
+0	car collision nearby	IsTrafficOf	Pizza Hut
+0	4 miles	IsDistanceFrom	Pizza Hut
+1	Webster Garage	HasAddress	880 Ames Ct
+1	Webster Garage	HasType	parking garage
+1	880 Ames Ct	IsAddressOf	Webster Garage
+1	parking garage	IsTypeOf	Webster Garage
+1	Webster Garage	HasTraffic	moderate traffic
+1	Webster Garage	HasDistance	1 miles
+1	moderate traffic	IsTrafficOf	Webster Garage
+1	1 miles	IsDistanceFrom	Webster Garage
+2	Topanga Mall	HasAddress	171 Oak Rd
+2	Topanga Mall	HasType	shopping center
+2	171 Oak Rd	IsAddressOf	Topanga Mall
+2	shopping center	IsTypeOf	Topanga Mall
+2	Topanga Mall	HasTraffic	road block nearby
+2	Topanga Mall	HasDistance	2 miles
+2	road block nearby	IsTrafficOf	Topanga Mall
+2	2 miles	IsDistanceFrom	Topanga Mall
+3	Travelers Lodge	HasAddress	333 Arbol Dr
+3	Travelers Lodge	HasType	rest stop
+3	333 Arbol Dr	IsAddressOf	Travelers Lodge
+3	rest stop	IsTypeOf	Travelers Lodge
+3	Travelers Lodge	HasTraffic	road block nearby
+3	Travelers Lodge	HasDistance	6 miles
+3	road block nearby	IsTrafficOf	Travelers Lodge
+3	6 miles	IsDistanceFrom	Travelers Lodge
+4	Whole Foods	HasAddress	819 Alma St
+4	Whole Foods	HasType	grocery store
+4	819 Alma St	IsAddressOf	Whole Foods
+4	grocery store	IsTypeOf	Whole Foods
+4	Whole Foods	HasTraffic	car collision nearby
+4	Whole Foods	HasDistance	4 miles
+4	car collision nearby	IsTrafficOf	Whole Foods
+4	4 miles	IsDistanceFrom	Whole Foods
+5	tai pan	HasAddress	830 Almanor Ln
+5	tai pan	HasType	chinese restaurant
+5	830 Almanor Ln	IsAddressOf	tai pan
+5	chinese restaurant	IsTypeOf	tai pan
+5	tai pan	HasTraffic	no traffic
+5	tai pan	HasDistance	6 miles
+5	no traffic	IsTrafficOf	tai pan
+5	6 miles	IsDistanceFrom	tai pan
+6	Philz	HasAddress	583 Alester Ave
+6	Philz	HasType	coffee or tea place
+6	583 Alester Ave	IsAddressOf	Philz
+6	coffee or tea place	IsTypeOf	Philz
+6	Philz	HasTraffic	moderate traffic
+6	Philz	HasDistance	1 miles
+6	moderate traffic	IsTrafficOf	Philz
+6	1 miles	IsDistanceFrom	Philz
+7	Coupa	HasAddress	394 Van Ness Ave
+7	Coupa	HasType	coffee or tea place
+7	394 Van Ness Ave	IsAddressOf	Coupa
+7	coffee or tea place	IsTypeOf	Coupa
+7	Coupa	HasTraffic	heavy traffic
+7	Coupa	HasDistance	1 miles
+7	heavy traffic	IsTrafficOf	Coupa
+7	1 miles	IsDistanceFrom	Coupa
+-1	today	IsEqualTo	monday

@@ -1,0 +1,65 @@
+0	Midtown Shopping Center	HasAddress	338 Alester Ave
+0	Midtown Shopping Center	HasType	shopping center
+0	338 Alester Ave	IsAddressOf	Midtown Shopping Center
+0	shopping center	IsTypeOf	Midtown Shopping Center
+0	Midtown Shopping Center	HasTraffic	no traffic
+0	Midtown Shopping Center	HasDistance	1 miles
+0	no traffic	IsTrafficOf	Midtown Shopping Center
+0	1 miles	IsDistanceFrom	Midtown Shopping Center
+1	toms house	HasAddress	580 Van Ness Ave
+1	toms house	HasType	friends house
+1	580 Van Ness Ave	IsAddressOf	toms house
+1	friends house	IsTypeOf	toms house
+1	toms house	HasTraffic	heavy traffic
+1	toms house	HasDistance	6 miles
+1	heavy traffic	IsTrafficOf	toms house
+1	6 miles	IsDistanceFrom	toms house
+2	Cafe Venetia	HasAddress	269 Alger Dr
+2	Cafe Venetia	HasType	coffee or tea place
+2	269 Alger Dr	IsAddressOf	Cafe Venetia
+2	coffee or tea place	IsTypeOf	Cafe Venetia
+2	Cafe Venetia	HasTraffic	car collision nearby
+2	Cafe Venetia	HasDistance	3 miles
+2	car collision nearby	IsTrafficOf	Cafe Venetia
+2	3 miles	IsDistanceFrom	Cafe Venetia
+3	The Westin	HasAddress	329 El Camino Real
+3	The Westin	HasType	rest stop
+3	329 El Camino Real	IsAddressOf	The Westin
+3	rest stop	IsTypeOf	The Westin
+3	The Westin	HasTraffic	moderate traffic
+3	The Westin	HasDistance	6 miles
+3	moderate traffic	IsTrafficOf	The Westin
+3	6 miles	IsDistanceFrom	The Westin
+4	Hacienda Market	HasAddress	1313 Chester Ave
+4	Hacienda Market	HasType	grocery store
+4	1313 Chester Ave	IsAddressOf	Hacienda Market
+4	grocery store	IsTypeOf	Hacienda Market
+4	Hacienda Market	HasTraffic	road block nearby
+4	Hacienda Market	HasDistance	1 miles
+4	road block nearby	IsTrafficOf	Hacienda Market
+4	1 miles	IsDistanceFrom	Hacienda Market
+5	Palo Alto Medical Foundation	HasAddress	611 Ames Ave
+5	Palo Alto Medical Foundation	HasType	hospital
+5	611 Ames Ave	IsAddressOf	Palo Alto Medical Foundation
+5	hospital	IsTypeOf	Palo Alto Medical Foundation
+5	Palo Alto Medical Foundation	HasTraffic	no traffic
+5	Palo Alto Medical Foundation	HasDistance	1 miles
+5	no traffic	IsTrafficOf	Palo Alto Medical Foundation
+5	1 miles	IsDistanceFrom	Palo Alto Medical Foundation
+6	Webster Garage	HasAddress	880 Ames Ct
+6	Webster Garage	HasType	parking garage
+6	880 Ames Ct	IsAddressOf	Webster Garage
+6	parking garage	IsTypeOf	Webster Garage
+6	Webster Garage	HasTraffic	car collision nearby
+6	Webster Garage	HasDistance	3 miles
+6	car collision nearby	IsTrafficOf	Webster Garage
+6	3 miles	IsDistanceFrom	Webster Garage
+7	P.F. Changs	HasAddress	669 El Camino Real
+7	P.F. Changs	HasType	chinese restaurant
+7	669 El Camino Real	IsAddressOf	P.F. Changs
+7	chinese restaurant	IsTypeOf	P.F. Changs
+7	P.F. Changs	HasTraffic	heavy traffic
+7	P.F. Changs	HasDistance	5 miles
+7	heavy traffic	IsTrafficOf	P.F. Changs
+7	5 miles	IsDistanceFrom	P.F. Changs
+-1	today	IsEqualTo	monday

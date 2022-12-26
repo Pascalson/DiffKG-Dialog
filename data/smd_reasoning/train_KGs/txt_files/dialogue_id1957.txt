@@ -1,0 +1,65 @@
+0	Webster Garage	HasAddress	880 Ames Ct
+0	Webster Garage	HasType	parking garage
+0	880 Ames Ct	IsAddressOf	Webster Garage
+0	parking garage	IsTypeOf	Webster Garage
+0	Webster Garage	HasTraffic	road block nearby
+0	Webster Garage	HasDistance	4 miles
+0	road block nearby	IsTrafficOf	Webster Garage
+0	4 miles	IsDistanceFrom	Webster Garage
+1	Panda Express	HasAddress	842 Arrowhead Way
+1	Panda Express	HasType	chinese restaurant
+1	842 Arrowhead Way	IsAddressOf	Panda Express
+1	chinese restaurant	IsTypeOf	Panda Express
+1	Panda Express	HasTraffic	moderate traffic
+1	Panda Express	HasDistance	3 miles
+1	moderate traffic	IsTrafficOf	Panda Express
+1	3 miles	IsDistanceFrom	Panda Express
+2	Safeway	HasAddress	452 Arcadia Pl
+2	Safeway	HasType	grocery store
+2	452 Arcadia Pl	IsAddressOf	Safeway
+2	grocery store	IsTypeOf	Safeway
+2	Safeway	HasTraffic	road block nearby
+2	Safeway	HasDistance	6 miles
+2	road block nearby	IsTrafficOf	Safeway
+2	6 miles	IsDistanceFrom	Safeway
+3	Trader Joes	HasAddress	408 University Ave
+3	Trader Joes	HasType	grocery store
+3	408 University Ave	IsAddressOf	Trader Joes
+3	grocery store	IsTypeOf	Trader Joes
+3	Trader Joes	HasTraffic	road block nearby
+3	Trader Joes	HasDistance	6 miles
+3	road block nearby	IsTrafficOf	Trader Joes
+3	6 miles	IsDistanceFrom	Trader Joes
+4	toms house	HasAddress	580 Van Ness Ave
+4	toms house	HasType	friends house
+4	580 Van Ness Ave	IsAddressOf	toms house
+4	friends house	IsTypeOf	toms house
+4	toms house	HasTraffic	no traffic
+4	toms house	HasDistance	4 miles
+4	no traffic	IsTrafficOf	toms house
+4	4 miles	IsDistanceFrom	toms house
+5	Stanford Oval Parking	HasAddress	610 Amarillo Ave
+5	Stanford Oval Parking	HasType	parking garage
+5	610 Amarillo Ave	IsAddressOf	Stanford Oval Parking
+5	parking garage	IsTypeOf	Stanford Oval Parking
+5	Stanford Oval Parking	HasTraffic	no traffic
+5	Stanford Oval Parking	HasDistance	3 miles
+5	no traffic	IsTrafficOf	Stanford Oval Parking
+5	3 miles	IsDistanceFrom	Stanford Oval Parking
+6	Stanford Childrens Health	HasAddress	899 Ames Ct
+6	Stanford Childrens Health	HasType	hospital
+6	899 Ames Ct	IsAddressOf	Stanford Childrens Health
+6	hospital	IsTypeOf	Stanford Childrens Health
+6	Stanford Childrens Health	HasTraffic	heavy traffic
+6	Stanford Childrens Health	HasDistance	4 miles
+6	heavy traffic	IsTrafficOf	Stanford Childrens Health
+6	4 miles	IsDistanceFrom	Stanford Childrens Health
+7	Stanford Shopping Center	HasAddress	773 Alger Dr
+7	Stanford Shopping Center	HasType	shopping center
+7	773 Alger Dr	IsAddressOf	Stanford Shopping Center
+7	shopping center	IsTypeOf	Stanford Shopping Center
+7	Stanford Shopping Center	HasTraffic	no traffic
+7	Stanford Shopping Center	HasDistance	1 miles
+7	no traffic	IsTrafficOf	Stanford Shopping Center
+7	1 miles	IsDistanceFrom	Stanford Shopping Center
+-1	today	IsEqualTo	monday

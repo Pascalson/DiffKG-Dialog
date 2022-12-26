@@ -1,0 +1,57 @@
+0	Whole Foods	HasAddress	819 Alma St
+0	Whole Foods	HasType	grocery store
+0	819 Alma St	IsAddressOf	Whole Foods
+0	grocery store	IsTypeOf	Whole Foods
+0	Whole Foods	HasTraffic	heavy traffic
+0	Whole Foods	HasDistance	2 miles
+0	heavy traffic	IsTrafficOf	Whole Foods
+0	2 miles	IsDistanceFrom	Whole Foods
+1	Panda Express	HasAddress	842 Arrowhead Way
+1	Panda Express	HasType	chinese restaurant
+1	842 Arrowhead Way	IsAddressOf	Panda Express
+1	chinese restaurant	IsTypeOf	Panda Express
+1	Panda Express	HasTraffic	moderate traffic
+1	Panda Express	HasDistance	1 miles
+1	moderate traffic	IsTrafficOf	Panda Express
+1	1 miles	IsDistanceFrom	Panda Express
+2	P.F. Changs	HasAddress	669 El Camino Real
+2	P.F. Changs	HasType	chinese restaurant
+2	669 El Camino Real	IsAddressOf	P.F. Changs
+2	chinese restaurant	IsTypeOf	P.F. Changs
+2	P.F. Changs	HasTraffic	moderate traffic
+2	P.F. Changs	HasDistance	6 miles
+2	moderate traffic	IsTrafficOf	P.F. Changs
+2	6 miles	IsDistanceFrom	P.F. Changs
+3	Starbucks	HasAddress	792 Bedoin Street
+3	Starbucks	HasType	coffee or tea place
+3	792 Bedoin Street	IsAddressOf	Starbucks
+3	coffee or tea place	IsTypeOf	Starbucks
+3	Starbucks	HasTraffic	no traffic
+3	Starbucks	HasDistance	6 miles
+3	no traffic	IsTrafficOf	Starbucks
+3	6 miles	IsDistanceFrom	Starbucks
+4	5672 barringer street	HasAddress	5672 barringer street
+4	5672 barringer street	HasType	certain address
+4	5672 barringer street	IsAddressOf	5672 barringer street
+4	certain address	IsTypeOf	5672 barringer street
+4	5672 barringer street	HasTraffic	heavy traffic
+4	5672 barringer street	HasDistance	5 miles
+4	heavy traffic	IsTrafficOf	5672 barringer street
+4	5 miles	IsDistanceFrom	5672 barringer street
+5	Pizza Hut	HasAddress	704 El Camino Real
+5	Pizza Hut	HasType	pizza restaurant
+5	704 El Camino Real	IsAddressOf	Pizza Hut
+5	pizza restaurant	IsTypeOf	Pizza Hut
+5	Pizza Hut	HasTraffic	heavy traffic
+5	Pizza Hut	HasDistance	3 miles
+5	heavy traffic	IsTrafficOf	Pizza Hut
+5	3 miles	IsDistanceFrom	Pizza Hut
+6	toms house	HasAddress	580 Van Ness Ave
+6	toms house	HasType	friends house
+6	580 Van Ness Ave	IsAddressOf	toms house
+6	friends house	IsTypeOf	toms house
+6	toms house	HasTraffic	no traffic
+6	toms house	HasDistance	1 miles
+6	no traffic	IsTrafficOf	toms house
+6	1 miles	IsDistanceFrom	toms house
+-1	today	IsEqualTo	monday

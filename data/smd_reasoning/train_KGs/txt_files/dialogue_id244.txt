@@ -1,0 +1,57 @@
+0	Cafe Venetia	HasAddress	269 Alger Dr
+0	Cafe Venetia	HasType	coffee or tea place
+0	269 Alger Dr	IsAddressOf	Cafe Venetia
+0	coffee or tea place	IsTypeOf	Cafe Venetia
+0	Cafe Venetia	HasTraffic	heavy traffic
+0	Cafe Venetia	HasDistance	2 miles
+0	heavy traffic	IsTrafficOf	Cafe Venetia
+0	2 miles	IsDistanceFrom	Cafe Venetia
+1	Coupa	HasAddress	394 Van Ness Ave
+1	Coupa	HasType	coffee or tea place
+1	394 Van Ness Ave	IsAddressOf	Coupa
+1	coffee or tea place	IsTypeOf	Coupa
+1	Coupa	HasTraffic	heavy traffic
+1	Coupa	HasDistance	3 miles
+1	heavy traffic	IsTrafficOf	Coupa
+1	3 miles	IsDistanceFrom	Coupa
+2	Jing Jing	HasAddress	113 Arbol Dr
+2	Jing Jing	HasType	chinese restaurant
+2	113 Arbol Dr	IsAddressOf	Jing Jing
+2	chinese restaurant	IsTypeOf	Jing Jing
+2	Jing Jing	HasTraffic	no traffic
+2	Jing Jing	HasDistance	2 miles
+2	no traffic	IsTrafficOf	Jing Jing
+2	2 miles	IsDistanceFrom	Jing Jing
+3	Dish Parking	HasAddress	550 Alester Ave
+3	Dish Parking	HasType	parking garage
+3	550 Alester Ave	IsAddressOf	Dish Parking
+3	parking garage	IsTypeOf	Dish Parking
+3	Dish Parking	HasTraffic	moderate traffic
+3	Dish Parking	HasDistance	6 miles
+3	moderate traffic	IsTrafficOf	Dish Parking
+3	6 miles	IsDistanceFrom	Dish Parking
+4	5677 springer street	HasAddress	5677 springer street
+4	5677 springer street	HasType	certain address
+4	5677 springer street	IsAddressOf	5677 springer street
+4	certain address	IsTypeOf	5677 springer street
+4	5677 springer street	HasTraffic	moderate traffic
+4	5677 springer street	HasDistance	1 miles
+4	moderate traffic	IsTrafficOf	5677 springer street
+4	1 miles	IsDistanceFrom	5677 springer street
+5	Round Table	HasAddress	113 Anton Ct
+5	Round Table	HasType	pizza restaurant
+5	113 Anton Ct	IsAddressOf	Round Table
+5	pizza restaurant	IsTypeOf	Round Table
+5	Round Table	HasTraffic	moderate traffic
+5	Round Table	HasDistance	5 miles
+5	moderate traffic	IsTrafficOf	Round Table
+5	5 miles	IsDistanceFrom	Round Table
+6	Teavana	HasAddress	145 Amherst St
+6	Teavana	HasType	coffee or tea place
+6	145 Amherst St	IsAddressOf	Teavana
+6	coffee or tea place	IsTypeOf	Teavana
+6	Teavana	HasTraffic	no traffic
+6	Teavana	HasDistance	6 miles
+6	no traffic	IsTrafficOf	Teavana
+6	6 miles	IsDistanceFrom	Teavana
+-1	today	IsEqualTo	monday

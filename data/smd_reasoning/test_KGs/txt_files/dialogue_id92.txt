@@ -1,0 +1,57 @@
+0	optometrist appointment	HasTime	1pm
+0	1pm	IsTimeOf	optometrist appointment
+0	optometrist appointment	HasDate	the 8th
+0	the 8th	IsDateOf	optometrist appointment
+0	optometrist appointment	HasParty	Jon
+0	Jon	IsPartyOf	optometrist appointment
+1	meeting	HasTime	4pm
+1	4pm	IsTimeOf	meeting
+1	meeting	HasDate	monday
+1	monday	IsDateOf	meeting
+1	meeting	HasParty	vice president
+1	vice president	IsPartyOf	meeting
+1	meeting	HasRoom	conference room 102
+1	conference room 102	IsRoomOf	meeting
+1	meeting	HasAgenda	discuss the company picnic
+1	discuss the company picnic	IsAgendaOf	meeting
+2	dentist appointment	HasTime	9am
+2	9am	IsTimeOf	dentist appointment
+2	dentist appointment	HasDate	the 13th
+2	the 13th	IsDateOf	dentist appointment
+2	dentist appointment	HasParty	Martha
+2	Martha	IsPartyOf	dentist appointment
+3	taking medicine	HasTime	7pm
+3	7pm	IsTimeOf	taking medicine
+3	taking medicine	HasDate	the 10th
+3	the 10th	IsDateOf	taking medicine
+3	taking medicine	HasParty	aunt
+3	aunt	IsPartyOf	taking medicine
+4	meeting	HasTime	6pm
+4	6pm	IsTimeOf	meeting
+4	meeting	HasDate	friday
+4	friday	IsDateOf	meeting
+4	meeting	HasParty	vice president
+4	vice president	IsPartyOf	meeting
+4	meeting	HasRoom	conference room 100
+4	conference room 100	IsRoomOf	meeting
+4	meeting	HasAgenda	go over quarterly report
+4	go over quarterly report	IsAgendaOf	meeting
+5	tennis activity	HasTime	10am
+5	10am	IsTimeOf	tennis activity
+5	tennis activity	HasDate	the 5th
+5	the 5th	IsDateOf	tennis activity
+5	tennis activity	HasParty	Ana
+5	Ana	IsPartyOf	tennis activity
+6	swimming activity	HasTime	6pm
+6	6pm	IsTimeOf	swimming activity
+6	swimming activity	HasDate	thursday
+6	thursday	IsDateOf	swimming activity
+6	swimming activity	HasParty	Marie
+6	Marie	IsPartyOf	swimming activity
+7	swimming activity	HasTime	9am
+7	9am	IsTimeOf	swimming activity
+7	swimming activity	HasDate	the 5th
+7	the 5th	IsDateOf	swimming activity
+7	swimming activity	HasParty	Ana
+7	Ana	IsPartyOf	swimming activity
+-1	today	IsEqualTo	monday

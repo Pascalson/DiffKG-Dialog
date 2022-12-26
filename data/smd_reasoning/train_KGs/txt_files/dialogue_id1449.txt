@@ -1,0 +1,65 @@
+0	Pizza Hut	HasAddress	704 El Camino Real
+0	Pizza Hut	HasType	pizza restaurant
+0	704 El Camino Real	IsAddressOf	Pizza Hut
+0	pizza restaurant	IsTypeOf	Pizza Hut
+0	Pizza Hut	HasTraffic	no traffic
+0	Pizza Hut	HasDistance	4 miles
+0	no traffic	IsTrafficOf	Pizza Hut
+0	4 miles	IsDistanceFrom	Pizza Hut
+1	Safeway	HasAddress	452 Arcadia Pl
+1	Safeway	HasType	grocery store
+1	452 Arcadia Pl	IsAddressOf	Safeway
+1	grocery store	IsTypeOf	Safeway
+1	Safeway	HasTraffic	heavy traffic
+1	Safeway	HasDistance	6 miles
+1	heavy traffic	IsTrafficOf	Safeway
+1	6 miles	IsDistanceFrom	Safeway
+2	Trader Joes	HasAddress	408 University Ave
+2	Trader Joes	HasType	grocery store
+2	408 University Ave	IsAddressOf	Trader Joes
+2	grocery store	IsTypeOf	Trader Joes
+2	Trader Joes	HasTraffic	heavy traffic
+2	Trader Joes	HasDistance	3 miles
+2	heavy traffic	IsTrafficOf	Trader Joes
+2	3 miles	IsDistanceFrom	Trader Joes
+3	jacks house	HasAddress	864 Almanor Ln
+3	jacks house	HasType	friends house
+3	864 Almanor Ln	IsAddressOf	jacks house
+3	friends house	IsTypeOf	jacks house
+3	jacks house	HasTraffic	heavy traffic
+3	jacks house	HasDistance	2 miles
+3	heavy traffic	IsTrafficOf	jacks house
+3	2 miles	IsDistanceFrom	jacks house
+4	Town and Country	HasAddress	383 University Ave
+4	Town and Country	HasType	shopping center
+4	383 University Ave	IsAddressOf	Town and Country
+4	shopping center	IsTypeOf	Town and Country
+4	Town and Country	HasTraffic	no traffic
+4	Town and Country	HasDistance	3 miles
+4	no traffic	IsTrafficOf	Town and Country
+4	3 miles	IsDistanceFrom	Town and Country
+5	Philz	HasAddress	583 Alester Ave
+5	Philz	HasType	coffee or tea place
+5	583 Alester Ave	IsAddressOf	Philz
+5	coffee or tea place	IsTypeOf	Philz
+5	Philz	HasTraffic	car collision nearby
+5	Philz	HasDistance	6 miles
+5	car collision nearby	IsTrafficOf	Philz
+5	6 miles	IsDistanceFrom	Philz
+6	Mandarin Roots	HasAddress	271 Springer Street
+6	Mandarin Roots	HasType	chinese restaurant
+6	271 Springer Street	IsAddressOf	Mandarin Roots
+6	chinese restaurant	IsTypeOf	Mandarin Roots
+6	Mandarin Roots	HasTraffic	moderate traffic
+6	Mandarin Roots	HasDistance	3 miles
+6	moderate traffic	IsTrafficOf	Mandarin Roots
+6	3 miles	IsDistanceFrom	Mandarin Roots
+7	home	HasAddress	56 cadwell street
+7	home	HasType	home
+7	56 cadwell street	IsAddressOf	home
+7	home	IsTypeOf	home
+7	home	HasTraffic	no traffic
+7	home	HasDistance	1 miles
+7	no traffic	IsTrafficOf	home
+7	1 miles	IsDistanceFrom	home
+-1	today	IsEqualTo	monday

@@ -1,0 +1,65 @@
+0	Ravenswood Shopping Center	HasAddress	434 Arastradero Rd
+0	Ravenswood Shopping Center	HasType	shopping center
+0	434 Arastradero Rd	IsAddressOf	Ravenswood Shopping Center
+0	shopping center	IsTypeOf	Ravenswood Shopping Center
+0	Ravenswood Shopping Center	HasTraffic	car collision nearby
+0	Ravenswood Shopping Center	HasDistance	4 miles
+0	car collision nearby	IsTrafficOf	Ravenswood Shopping Center
+0	4 miles	IsDistanceFrom	Ravenswood Shopping Center
+1	Mandarin Roots	HasAddress	271 Springer Street
+1	Mandarin Roots	HasType	chinese restaurant
+1	271 Springer Street	IsAddressOf	Mandarin Roots
+1	chinese restaurant	IsTypeOf	Mandarin Roots
+1	Mandarin Roots	HasTraffic	heavy traffic
+1	Mandarin Roots	HasDistance	5 miles
+1	heavy traffic	IsTrafficOf	Mandarin Roots
+1	5 miles	IsDistanceFrom	Mandarin Roots
+2	Hacienda Market	HasAddress	1313 Chester Ave
+2	Hacienda Market	HasType	grocery store
+2	1313 Chester Ave	IsAddressOf	Hacienda Market
+2	grocery store	IsTypeOf	Hacienda Market
+2	Hacienda Market	HasTraffic	car collision nearby
+2	Hacienda Market	HasDistance	5 miles
+2	car collision nearby	IsTrafficOf	Hacienda Market
+2	5 miles	IsDistanceFrom	Hacienda Market
+3	Starbucks	HasAddress	792 Bedoin Street
+3	Starbucks	HasType	coffee or tea place
+3	792 Bedoin Street	IsAddressOf	Starbucks
+3	coffee or tea place	IsTypeOf	Starbucks
+3	Starbucks	HasTraffic	heavy traffic
+3	Starbucks	HasDistance	2 miles
+3	heavy traffic	IsTrafficOf	Starbucks
+3	2 miles	IsDistanceFrom	Starbucks
+4	The Clement Hotel	HasAddress	657 Ames Ave
+4	The Clement Hotel	HasType	rest stop
+4	657 Ames Ave	IsAddressOf	The Clement Hotel
+4	rest stop	IsTypeOf	The Clement Hotel
+4	The Clement Hotel	HasTraffic	road block nearby
+4	The Clement Hotel	HasDistance	6 miles
+4	road block nearby	IsTrafficOf	The Clement Hotel
+4	6 miles	IsDistanceFrom	The Clement Hotel
+5	5677 southwest 4th street	HasAddress	5677 southwest 4th street
+5	5677 southwest 4th street	HasType	certain address
+5	5677 southwest 4th street	IsAddressOf	5677 southwest 4th street
+5	certain address	IsTypeOf	5677 southwest 4th street
+5	5677 southwest 4th street	HasTraffic	no traffic
+5	5677 southwest 4th street	HasDistance	2 miles
+5	no traffic	IsTrafficOf	5677 southwest 4th street
+5	2 miles	IsDistanceFrom	5677 southwest 4th street
+6	Teavana	HasAddress	145 Amherst St
+6	Teavana	HasType	coffee or tea place
+6	145 Amherst St	IsAddressOf	Teavana
+6	coffee or tea place	IsTypeOf	Teavana
+6	Teavana	HasTraffic	road block nearby
+6	Teavana	HasDistance	4 miles
+6	road block nearby	IsTrafficOf	Teavana
+6	4 miles	IsDistanceFrom	Teavana
+7	toms house	HasAddress	580 Van Ness Ave
+7	toms house	HasType	friends house
+7	580 Van Ness Ave	IsAddressOf	toms house
+7	friends house	IsTypeOf	toms house
+7	toms house	HasTraffic	road block nearby
+7	toms house	HasDistance	3 miles
+7	road block nearby	IsTrafficOf	toms house
+7	3 miles	IsDistanceFrom	toms house
+-1	today	IsEqualTo	monday

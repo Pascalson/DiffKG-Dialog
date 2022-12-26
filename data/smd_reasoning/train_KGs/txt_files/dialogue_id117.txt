@@ -1,0 +1,65 @@
+0	5677 springer street	HasAddress	5677 springer street
+0	5677 springer street	HasType	certain address
+0	5677 springer street	IsAddressOf	5677 springer street
+0	certain address	IsTypeOf	5677 springer street
+0	5677 springer street	HasTraffic	heavy traffic
+0	5677 springer street	HasDistance	3 miles
+0	heavy traffic	IsTrafficOf	5677 springer street
+0	3 miles	IsDistanceFrom	5677 springer street
+1	P.F. Changs	HasAddress	669 El Camino Real
+1	P.F. Changs	HasType	chinese restaurant
+1	669 El Camino Real	IsAddressOf	P.F. Changs
+1	chinese restaurant	IsTypeOf	P.F. Changs
+1	P.F. Changs	HasTraffic	no traffic
+1	P.F. Changs	HasDistance	5 miles
+1	no traffic	IsTrafficOf	P.F. Changs
+1	5 miles	IsDistanceFrom	P.F. Changs
+2	Sigona Farmers Market	HasAddress	638 Amherst St
+2	Sigona Farmers Market	HasType	grocery store
+2	638 Amherst St	IsAddressOf	Sigona Farmers Market
+2	grocery store	IsTypeOf	Sigona Farmers Market
+2	Sigona Farmers Market	HasTraffic	heavy traffic
+2	Sigona Farmers Market	HasDistance	2 miles
+2	heavy traffic	IsTrafficOf	Sigona Farmers Market
+2	2 miles	IsDistanceFrom	Sigona Farmers Market
+3	Shell	HasAddress	53 University Av
+3	Shell	HasType	gas station
+3	53 University Av	IsAddressOf	Shell
+3	gas station	IsTypeOf	Shell
+3	Shell	HasTraffic	moderate traffic
+3	Shell	HasDistance	4 miles
+3	moderate traffic	IsTrafficOf	Shell
+3	4 miles	IsDistanceFrom	Shell
+4	Chef Chu's	HasAddress	593 Arrowhead Way
+4	Chef Chu's	HasType	chinese restaurant
+4	593 Arrowhead Way	IsAddressOf	Chef Chu's
+4	chinese restaurant	IsTypeOf	Chef Chu's
+4	Chef Chu's	HasTraffic	car collision nearby
+4	Chef Chu's	HasDistance	2 miles
+4	car collision nearby	IsTrafficOf	Chef Chu's
+4	2 miles	IsDistanceFrom	Chef Chu's
+5	Topanga Mall	HasAddress	171 Oak Rd
+5	Topanga Mall	HasType	shopping center
+5	171 Oak Rd	IsAddressOf	Topanga Mall
+5	shopping center	IsTypeOf	Topanga Mall
+5	Topanga Mall	HasTraffic	car collision nearby
+5	Topanga Mall	HasDistance	1 miles
+5	car collision nearby	IsTrafficOf	Topanga Mall
+5	1 miles	IsDistanceFrom	Topanga Mall
+6	home	HasAddress	5671 barringer street
+6	home	HasType	home
+6	5671 barringer street	IsAddressOf	home
+6	home	IsTypeOf	home
+6	home	HasTraffic	moderate traffic
+6	home	HasDistance	3 miles
+6	moderate traffic	IsTrafficOf	home
+6	3 miles	IsDistanceFrom	home
+7	Starbucks	HasAddress	792 Bedoin Street
+7	Starbucks	HasType	coffee or tea place
+7	792 Bedoin Street	IsAddressOf	Starbucks
+7	coffee or tea place	IsTypeOf	Starbucks
+7	Starbucks	HasTraffic	moderate traffic
+7	Starbucks	HasDistance	4 miles
+7	moderate traffic	IsTrafficOf	Starbucks
+7	4 miles	IsDistanceFrom	Starbucks
+-1	today	IsEqualTo	monday

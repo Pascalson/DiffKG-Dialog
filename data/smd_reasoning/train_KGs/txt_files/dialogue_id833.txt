@@ -1,0 +1,65 @@
+0	jills house	HasAddress	347 Alta Mesa Ave
+0	jills house	HasType	friends house
+0	347 Alta Mesa Ave	IsAddressOf	jills house
+0	friends house	IsTypeOf	jills house
+0	jills house	HasTraffic	no traffic
+0	jills house	HasDistance	8 miles
+0	no traffic	IsTrafficOf	jills house
+0	8 miles	IsDistanceFrom	jills house
+1	Chef Chu's	HasAddress	593 Arrowhead Way
+1	Chef Chu's	HasType	chinese restaurant
+1	593 Arrowhead Way	IsAddressOf	Chef Chu's
+1	chinese restaurant	IsTypeOf	Chef Chu's
+1	Chef Chu's	HasTraffic	no traffic
+1	Chef Chu's	HasDistance	3 miles
+1	no traffic	IsTrafficOf	Chef Chu's
+1	3 miles	IsDistanceFrom	Chef Chu's
+2	Whole Foods	HasAddress	819 Alma St
+2	Whole Foods	HasType	grocery store
+2	819 Alma St	IsAddressOf	Whole Foods
+2	grocery store	IsTypeOf	Whole Foods
+2	Whole Foods	HasTraffic	car collision nearby
+2	Whole Foods	HasDistance	1 miles
+2	car collision nearby	IsTrafficOf	Whole Foods
+2	1 miles	IsDistanceFrom	Whole Foods
+3	Stanford Childrens Health	HasAddress	899 Ames Ct
+3	Stanford Childrens Health	HasType	hospital
+3	899 Ames Ct	IsAddressOf	Stanford Childrens Health
+3	hospital	IsTypeOf	Stanford Childrens Health
+3	Stanford Childrens Health	HasTraffic	heavy traffic
+3	Stanford Childrens Health	HasDistance	3 miles
+3	heavy traffic	IsTrafficOf	Stanford Childrens Health
+3	3 miles	IsDistanceFrom	Stanford Childrens Health
+4	Stanford Express Care	HasAddress	214 El Camino Real
+4	Stanford Express Care	HasType	hospital
+4	214 El Camino Real	IsAddressOf	Stanford Express Care
+4	hospital	IsTypeOf	Stanford Express Care
+4	Stanford Express Care	HasTraffic	heavy traffic
+4	Stanford Express Care	HasDistance	4 miles
+4	heavy traffic	IsTrafficOf	Stanford Express Care
+4	4 miles	IsDistanceFrom	Stanford Express Care
+5	Panda Express	HasAddress	842 Arrowhead Way
+5	Panda Express	HasType	chinese restaurant
+5	842 Arrowhead Way	IsAddressOf	Panda Express
+5	chinese restaurant	IsTypeOf	Panda Express
+5	Panda Express	HasTraffic	no traffic
+5	Panda Express	HasDistance	2 miles
+5	no traffic	IsTrafficOf	Panda Express
+5	2 miles	IsDistanceFrom	Panda Express
+6	5677 southwest 4th street	HasAddress	5677 southwest 4th street
+6	5677 southwest 4th street	HasType	certain address
+6	5677 southwest 4th street	IsAddressOf	5677 southwest 4th street
+6	certain address	IsTypeOf	5677 southwest 4th street
+6	5677 southwest 4th street	HasTraffic	road block nearby
+6	5677 southwest 4th street	HasDistance	3 miles
+6	road block nearby	IsTrafficOf	5677 southwest 4th street
+6	3 miles	IsDistanceFrom	5677 southwest 4th street
+7	Round Table	HasAddress	113 Anton Ct
+7	Round Table	HasType	pizza restaurant
+7	113 Anton Ct	IsAddressOf	Round Table
+7	pizza restaurant	IsTypeOf	Round Table
+7	Round Table	HasTraffic	moderate traffic
+7	Round Table	HasDistance	5 miles
+7	moderate traffic	IsTrafficOf	Round Table
+7	5 miles	IsDistanceFrom	Round Table
+-1	today	IsEqualTo	monday

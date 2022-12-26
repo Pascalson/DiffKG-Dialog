@@ -1,0 +1,57 @@
+0	Whole Foods	HasAddress	819 Alma St
+0	Whole Foods	HasType	grocery store
+0	819 Alma St	IsAddressOf	Whole Foods
+0	grocery store	IsTypeOf	Whole Foods
+0	Whole Foods	HasTraffic	heavy traffic
+0	Whole Foods	HasDistance	2 miles
+0	heavy traffic	IsTrafficOf	Whole Foods
+0	2 miles	IsDistanceFrom	Whole Foods
+1	Sigona Farmers Market	HasAddress	638 Amherst St
+1	Sigona Farmers Market	HasType	grocery store
+1	638 Amherst St	IsAddressOf	Sigona Farmers Market
+1	grocery store	IsTypeOf	Sigona Farmers Market
+1	Sigona Farmers Market	HasTraffic	no traffic
+1	Sigona Farmers Market	HasDistance	4 miles
+1	no traffic	IsTrafficOf	Sigona Farmers Market
+1	4 miles	IsDistanceFrom	Sigona Farmers Market
+2	The Clement Hotel	HasAddress	657 Ames Ave
+2	The Clement Hotel	HasType	rest stop
+2	657 Ames Ave	IsAddressOf	The Clement Hotel
+2	rest stop	IsTypeOf	The Clement Hotel
+2	The Clement Hotel	HasTraffic	no traffic
+2	The Clement Hotel	HasDistance	5 miles
+2	no traffic	IsTrafficOf	The Clement Hotel
+2	5 miles	IsDistanceFrom	The Clement Hotel
+3	Round Table	HasAddress	113 Anton Ct
+3	Round Table	HasType	pizza restaurant
+3	113 Anton Ct	IsAddressOf	Round Table
+3	pizza restaurant	IsTypeOf	Round Table
+3	Round Table	HasTraffic	heavy traffic
+3	Round Table	HasDistance	2 miles
+3	heavy traffic	IsTrafficOf	Round Table
+3	2 miles	IsDistanceFrom	Round Table
+4	home	HasAddress	5671 barringer street
+4	home	HasType	home
+4	5671 barringer street	IsAddressOf	home
+4	home	IsTypeOf	home
+4	home	HasTraffic	heavy traffic
+4	home	HasDistance	4 miles
+4	heavy traffic	IsTrafficOf	home
+4	4 miles	IsDistanceFrom	home
+5	Four Seasons	HasAddress	465 Arcadia Pl
+5	Four Seasons	HasType	rest stop
+5	465 Arcadia Pl	IsAddressOf	Four Seasons
+5	rest stop	IsTypeOf	Four Seasons
+5	Four Seasons	HasTraffic	heavy traffic
+5	Four Seasons	HasDistance	3 miles
+5	heavy traffic	IsTrafficOf	Four Seasons
+5	3 miles	IsDistanceFrom	Four Seasons
+6	jacks house	HasAddress	864 Almanor Ln
+6	jacks house	HasType	friends house
+6	864 Almanor Ln	IsAddressOf	jacks house
+6	friends house	IsTypeOf	jacks house
+6	jacks house	HasTraffic	no traffic
+6	jacks house	HasDistance	6 miles
+6	no traffic	IsTrafficOf	jacks house
+6	6 miles	IsDistanceFrom	jacks house
+-1	today	IsEqualTo	monday

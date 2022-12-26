@@ -1,0 +1,57 @@
+0	home	HasAddress	5671 barringer street
+0	home	HasType	home
+0	5671 barringer street	IsAddressOf	home
+0	home	IsTypeOf	home
+0	home	HasTraffic	no traffic
+0	home	HasDistance	4 miles
+0	no traffic	IsTrafficOf	home
+0	4 miles	IsDistanceFrom	home
+1	Chef Chu's	HasAddress	593 Arrowhead Way
+1	Chef Chu's	HasType	chinese restaurant
+1	593 Arrowhead Way	IsAddressOf	Chef Chu's
+1	chinese restaurant	IsTypeOf	Chef Chu's
+1	Chef Chu's	HasTraffic	no traffic
+1	Chef Chu's	HasDistance	5 miles
+1	no traffic	IsTrafficOf	Chef Chu's
+1	5 miles	IsDistanceFrom	Chef Chu's
+2	5672 barringer street	HasAddress	5672 barringer street
+2	5672 barringer street	HasType	certain address
+2	5672 barringer street	IsAddressOf	5672 barringer street
+2	certain address	IsTypeOf	5672 barringer street
+2	5672 barringer street	HasTraffic	heavy traffic
+2	5672 barringer street	HasDistance	5 miles
+2	heavy traffic	IsTrafficOf	5672 barringer street
+2	5 miles	IsDistanceFrom	5672 barringer street
+3	Pizza My Heart	HasAddress	528 Anton Ct
+3	Pizza My Heart	HasType	pizza restaurant
+3	528 Anton Ct	IsAddressOf	Pizza My Heart
+3	pizza restaurant	IsTypeOf	Pizza My Heart
+3	Pizza My Heart	HasTraffic	moderate traffic
+3	Pizza My Heart	HasDistance	1 miles
+3	moderate traffic	IsTrafficOf	Pizza My Heart
+3	1 miles	IsDistanceFrom	Pizza My Heart
+4	Coupa	HasAddress	394 Van Ness Ave
+4	Coupa	HasType	coffee or tea place
+4	394 Van Ness Ave	IsAddressOf	Coupa
+4	coffee or tea place	IsTypeOf	Coupa
+4	Coupa	HasTraffic	heavy traffic
+4	Coupa	HasDistance	5 miles
+4	heavy traffic	IsTrafficOf	Coupa
+4	5 miles	IsDistanceFrom	Coupa
+5	Comfort Inn	HasAddress	753 University Ave
+5	Comfort Inn	HasType	rest stop
+5	753 University Ave	IsAddressOf	Comfort Inn
+5	rest stop	IsTypeOf	Comfort Inn
+5	Comfort Inn	HasTraffic	heavy traffic
+5	Comfort Inn	HasDistance	3 miles
+5	heavy traffic	IsTrafficOf	Comfort Inn
+5	3 miles	IsDistanceFrom	Comfort Inn
+6	toms house	HasAddress	580 Van Ness Ave
+6	toms house	HasType	friends house
+6	580 Van Ness Ave	IsAddressOf	toms house
+6	friends house	IsTypeOf	toms house
+6	toms house	HasTraffic	heavy traffic
+6	toms house	HasDistance	1 miles
+6	heavy traffic	IsTrafficOf	toms house
+6	1 miles	IsDistanceFrom	toms house
+-1	today	IsEqualTo	monday

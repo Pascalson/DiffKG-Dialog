@@ -1,0 +1,49 @@
+0	optometrist appointment	HasTime	10am
+0	10am	IsTimeOf	optometrist appointment
+0	optometrist appointment	HasDate	the 3rd
+0	the 3rd	IsDateOf	optometrist appointment
+0	optometrist appointment	HasParty	Jeff
+0	Jeff	IsPartyOf	optometrist appointment
+1	taking medicine	HasTime	4pm
+1	4pm	IsTimeOf	taking medicine
+1	taking medicine	HasDate	the 18th
+1	the 18th	IsDateOf	taking medicine
+1	taking medicine	HasParty	Alex
+1	Alex	IsPartyOf	taking medicine
+2	lab appointment	HasTime	7pm
+2	7pm	IsTimeOf	lab appointment
+2	lab appointment	HasDate	the 14th
+2	the 14th	IsDateOf	lab appointment
+2	lab appointment	HasParty	sister
+2	sister	IsPartyOf	lab appointment
+3	dentist appointment	HasTime	10am
+3	10am	IsTimeOf	dentist appointment
+3	dentist appointment	HasDate	sunday
+3	sunday	IsDateOf	dentist appointment
+3	dentist appointment	HasParty	aunt
+3	aunt	IsPartyOf	dentist appointment
+4	taking medicine	HasTime	9am
+4	9am	IsTimeOf	taking medicine
+4	taking medicine	HasDate	the 12th
+4	the 12th	IsDateOf	taking medicine
+4	taking medicine	HasParty	Ana
+4	Ana	IsPartyOf	taking medicine
+5	optometrist appointment	HasTime	3pm
+5	3pm	IsTimeOf	optometrist appointment
+5	optometrist appointment	HasDate	the 7th
+5	the 7th	IsDateOf	optometrist appointment
+5	optometrist appointment	HasParty	Martha
+5	Martha	IsPartyOf	optometrist appointment
+6	doctor appointment	HasTime	4pm
+6	4pm	IsTimeOf	doctor appointment
+6	doctor appointment	HasDate	wednesday
+6	wednesday	IsDateOf	doctor appointment
+6	doctor appointment	HasParty	Alex
+6	Alex	IsPartyOf	doctor appointment
+7	yoga activity	HasTime	4pm
+7	4pm	IsTimeOf	yoga activity
+7	yoga activity	HasDate	the 5th
+7	the 5th	IsDateOf	yoga activity
+7	yoga activity	HasParty	Jeff
+7	Jeff	IsPartyOf	yoga activity
+-1	today	IsEqualTo	monday

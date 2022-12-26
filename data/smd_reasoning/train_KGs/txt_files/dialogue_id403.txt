@@ -1,0 +1,65 @@
+0	Teavana	HasAddress	145 Amherst St
+0	Teavana	HasType	coffee or tea place
+0	145 Amherst St	IsAddressOf	Teavana
+0	coffee or tea place	IsTypeOf	Teavana
+0	Teavana	HasTraffic	moderate traffic
+0	Teavana	HasDistance	4 miles
+0	moderate traffic	IsTrafficOf	Teavana
+0	4 miles	IsDistanceFrom	Teavana
+1	Whole Foods	HasAddress	819 Alma St
+1	Whole Foods	HasType	grocery store
+1	819 Alma St	IsAddressOf	Whole Foods
+1	grocery store	IsTypeOf	Whole Foods
+1	Whole Foods	HasTraffic	moderate traffic
+1	Whole Foods	HasDistance	2 miles
+1	moderate traffic	IsTrafficOf	Whole Foods
+1	2 miles	IsDistanceFrom	Whole Foods
+2	Dominos	HasAddress	776 Arastradero Rd
+2	Dominos	HasType	pizza restaurant
+2	776 Arastradero Rd	IsAddressOf	Dominos
+2	pizza restaurant	IsTypeOf	Dominos
+2	Dominos	HasTraffic	no traffic
+2	Dominos	HasDistance	2 miles
+2	no traffic	IsTrafficOf	Dominos
+2	2 miles	IsDistanceFrom	Dominos
+3	Comfort Inn	HasAddress	753 University Ave
+3	Comfort Inn	HasType	rest stop
+3	753 University Ave	IsAddressOf	Comfort Inn
+3	rest stop	IsTypeOf	Comfort Inn
+3	Comfort Inn	HasTraffic	no traffic
+3	Comfort Inn	HasDistance	6 miles
+3	no traffic	IsTrafficOf	Comfort Inn
+3	6 miles	IsDistanceFrom	Comfort Inn
+4	Chef Chu's	HasAddress	593 Arrowhead Way
+4	Chef Chu's	HasType	chinese restaurant
+4	593 Arrowhead Way	IsAddressOf	Chef Chu's
+4	chinese restaurant	IsTypeOf	Chef Chu's
+4	Chef Chu's	HasTraffic	no traffic
+4	Chef Chu's	HasDistance	6 miles
+4	no traffic	IsTrafficOf	Chef Chu's
+4	6 miles	IsDistanceFrom	Chef Chu's
+5	jills house	HasAddress	347 Alta Mesa Ave
+5	jills house	HasType	friends house
+5	347 Alta Mesa Ave	IsAddressOf	jills house
+5	friends house	IsTypeOf	jills house
+5	jills house	HasTraffic	heavy traffic
+5	jills house	HasDistance	5 miles
+5	heavy traffic	IsTrafficOf	jills house
+5	5 miles	IsDistanceFrom	jills house
+6	Philz	HasAddress	583 Alester Ave
+6	Philz	HasType	coffee or tea place
+6	583 Alester Ave	IsAddressOf	Philz
+6	coffee or tea place	IsTypeOf	Philz
+6	Philz	HasTraffic	road block nearby
+6	Philz	HasDistance	1 miles
+6	road block nearby	IsTrafficOf	Philz
+6	1 miles	IsDistanceFrom	Philz
+7	Palo Alto Garage R	HasAddress	481 Amaranta Ave
+7	Palo Alto Garage R	HasType	parking garage
+7	481 Amaranta Ave	IsAddressOf	Palo Alto Garage R
+7	parking garage	IsTypeOf	Palo Alto Garage R
+7	Palo Alto Garage R	HasTraffic	road block nearby
+7	Palo Alto Garage R	HasDistance	6 miles
+7	road block nearby	IsTrafficOf	Palo Alto Garage R
+7	6 miles	IsDistanceFrom	Palo Alto Garage R
+-1	today	IsEqualTo	monday

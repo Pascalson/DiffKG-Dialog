@@ -1,0 +1,65 @@
+0	Trader Joes	HasAddress	408 University Ave
+0	Trader Joes	HasType	grocery store
+0	408 University Ave	IsAddressOf	Trader Joes
+0	grocery store	IsTypeOf	Trader Joes
+0	Trader Joes	HasTraffic	road block nearby
+0	Trader Joes	HasDistance	7 miles
+0	road block nearby	IsTrafficOf	Trader Joes
+0	7 miles	IsDistanceFrom	Trader Joes
+1	Round Table	HasAddress	113 Anton Ct
+1	Round Table	HasType	pizza restaurant
+1	113 Anton Ct	IsAddressOf	Round Table
+1	pizza restaurant	IsTypeOf	Round Table
+1	Round Table	HasTraffic	moderate traffic
+1	Round Table	HasDistance	5 miles
+1	moderate traffic	IsTrafficOf	Round Table
+1	5 miles	IsDistanceFrom	Round Table
+2	Coupa	HasAddress	394 Van Ness Ave
+2	Coupa	HasType	coffee or tea place
+2	394 Van Ness Ave	IsAddressOf	Coupa
+2	coffee or tea place	IsTypeOf	Coupa
+2	Coupa	HasTraffic	moderate traffic
+2	Coupa	HasDistance	1 miles
+2	moderate traffic	IsTrafficOf	Coupa
+2	1 miles	IsDistanceFrom	Coupa
+3	Chevron	HasAddress	783 Arcadia Pl
+3	Chevron	HasType	gas station
+3	783 Arcadia Pl	IsAddressOf	Chevron
+3	gas station	IsTypeOf	Chevron
+3	Chevron	HasTraffic	car collision nearby
+3	Chevron	HasDistance	1 miles
+3	car collision nearby	IsTrafficOf	Chevron
+3	1 miles	IsDistanceFrom	Chevron
+4	P.F. Changs	HasAddress	669 El Camino Real
+4	P.F. Changs	HasType	chinese restaurant
+4	669 El Camino Real	IsAddressOf	P.F. Changs
+4	chinese restaurant	IsTypeOf	P.F. Changs
+4	P.F. Changs	HasTraffic	moderate traffic
+4	P.F. Changs	HasDistance	2 miles
+4	moderate traffic	IsTrafficOf	P.F. Changs
+4	2 miles	IsDistanceFrom	P.F. Changs
+5	Willows Market	HasAddress	409 Bollard St
+5	Willows Market	HasType	grocery store
+5	409 Bollard St	IsAddressOf	Willows Market
+5	grocery store	IsTypeOf	Willows Market
+5	Willows Market	HasTraffic	no traffic
+5	Willows Market	HasDistance	1 miles
+5	no traffic	IsTrafficOf	Willows Market
+5	1 miles	IsDistanceFrom	Willows Market
+6	5677 springer street	HasAddress	5677 springer street
+6	5677 springer street	HasType	certain address
+6	5677 springer street	IsAddressOf	5677 springer street
+6	certain address	IsTypeOf	5677 springer street
+6	5677 springer street	HasTraffic	moderate traffic
+6	5677 springer street	HasDistance	3 miles
+6	moderate traffic	IsTrafficOf	5677 springer street
+6	3 miles	IsDistanceFrom	5677 springer street
+7	Palo Alto Garage R	HasAddress	481 Amaranta Ave
+7	Palo Alto Garage R	HasType	parking garage
+7	481 Amaranta Ave	IsAddressOf	Palo Alto Garage R
+7	parking garage	IsTypeOf	Palo Alto Garage R
+7	Palo Alto Garage R	HasTraffic	moderate traffic
+7	Palo Alto Garage R	HasDistance	2 miles
+7	moderate traffic	IsTrafficOf	Palo Alto Garage R
+7	2 miles	IsDistanceFrom	Palo Alto Garage R
+-1	today	IsEqualTo	monday

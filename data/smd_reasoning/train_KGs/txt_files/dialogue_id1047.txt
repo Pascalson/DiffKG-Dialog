@@ -1,0 +1,57 @@
+0	Stanford Shopping Center	HasAddress	773 Alger Dr
+0	Stanford Shopping Center	HasType	shopping center
+0	773 Alger Dr	IsAddressOf	Stanford Shopping Center
+0	shopping center	IsTypeOf	Stanford Shopping Center
+0	Stanford Shopping Center	HasTraffic	moderate traffic
+0	Stanford Shopping Center	HasDistance	3 miles
+0	moderate traffic	IsTrafficOf	Stanford Shopping Center
+0	3 miles	IsDistanceFrom	Stanford Shopping Center
+1	home	HasAddress	10 ames street
+1	home	HasType	home
+1	10 ames street	IsAddressOf	home
+1	home	IsTypeOf	home
+1	home	HasTraffic	heavy traffic
+1	home	HasDistance	2 miles
+1	heavy traffic	IsTrafficOf	home
+1	2 miles	IsDistanceFrom	home
+2	Cafe Venetia	HasAddress	269 Alger Dr
+2	Cafe Venetia	HasType	coffee or tea place
+2	269 Alger Dr	IsAddressOf	Cafe Venetia
+2	coffee or tea place	IsTypeOf	Cafe Venetia
+2	Cafe Venetia	HasTraffic	no traffic
+2	Cafe Venetia	HasDistance	4 miles
+2	no traffic	IsTrafficOf	Cafe Venetia
+2	4 miles	IsDistanceFrom	Cafe Venetia
+3	Midtown Shopping Center	HasAddress	338 Alester Ave
+3	Midtown Shopping Center	HasType	shopping center
+3	338 Alester Ave	IsAddressOf	Midtown Shopping Center
+3	shopping center	IsTypeOf	Midtown Shopping Center
+3	Midtown Shopping Center	HasTraffic	moderate traffic
+3	Midtown Shopping Center	HasDistance	5 miles
+3	moderate traffic	IsTrafficOf	Midtown Shopping Center
+3	5 miles	IsDistanceFrom	Midtown Shopping Center
+4	P.F. Changs	HasAddress	669 El Camino Real
+4	P.F. Changs	HasType	chinese restaurant
+4	669 El Camino Real	IsAddressOf	P.F. Changs
+4	chinese restaurant	IsTypeOf	P.F. Changs
+4	P.F. Changs	HasTraffic	no traffic
+4	P.F. Changs	HasDistance	5 miles
+4	no traffic	IsTrafficOf	P.F. Changs
+4	5 miles	IsDistanceFrom	P.F. Changs
+5	Philz	HasAddress	583 Alester Ave
+5	Philz	HasType	coffee or tea place
+5	583 Alester Ave	IsAddressOf	Philz
+5	coffee or tea place	IsTypeOf	Philz
+5	Philz	HasTraffic	heavy traffic
+5	Philz	HasDistance	4 miles
+5	heavy traffic	IsTrafficOf	Philz
+5	4 miles	IsDistanceFrom	Philz
+6	5677 springer street	HasAddress	5677 springer street
+6	5677 springer street	HasType	certain address
+6	5677 springer street	IsAddressOf	5677 springer street
+6	certain address	IsTypeOf	5677 springer street
+6	5677 springer street	HasTraffic	no traffic
+6	5677 springer street	HasDistance	3 miles
+6	no traffic	IsTrafficOf	5677 springer street
+6	3 miles	IsDistanceFrom	5677 springer street
+-1	today	IsEqualTo	monday

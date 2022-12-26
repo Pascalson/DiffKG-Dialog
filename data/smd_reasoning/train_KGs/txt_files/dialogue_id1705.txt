@@ -1,0 +1,57 @@
+0	Philz	HasAddress	583 Alester Ave
+0	Philz	HasType	coffee or tea place
+0	583 Alester Ave	IsAddressOf	Philz
+0	coffee or tea place	IsTypeOf	Philz
+0	Philz	HasTraffic	heavy traffic
+0	Philz	HasDistance	3 miles
+0	heavy traffic	IsTrafficOf	Philz
+0	3 miles	IsDistanceFrom	Philz
+1	Safeway	HasAddress	452 Arcadia Pl
+1	Safeway	HasType	grocery store
+1	452 Arcadia Pl	IsAddressOf	Safeway
+1	grocery store	IsTypeOf	Safeway
+1	Safeway	HasTraffic	moderate traffic
+1	Safeway	HasDistance	4 miles
+1	moderate traffic	IsTrafficOf	Safeway
+1	4 miles	IsDistanceFrom	Safeway
+2	5672 barringer street	HasAddress	5672 barringer street
+2	5672 barringer street	HasType	certain address
+2	5672 barringer street	IsAddressOf	5672 barringer street
+2	certain address	IsTypeOf	5672 barringer street
+2	5672 barringer street	HasTraffic	moderate traffic
+2	5672 barringer street	HasDistance	3 miles
+2	moderate traffic	IsTrafficOf	5672 barringer street
+2	3 miles	IsDistanceFrom	5672 barringer street
+3	home	HasAddress	5671 barringer street
+3	home	HasType	home
+3	5671 barringer street	IsAddressOf	home
+3	home	IsTypeOf	home
+3	home	HasTraffic	moderate traffic
+3	home	HasDistance	6 miles
+3	moderate traffic	IsTrafficOf	home
+3	6 miles	IsDistanceFrom	home
+4	Teavana	HasAddress	145 Amherst St
+4	Teavana	HasType	coffee or tea place
+4	145 Amherst St	IsAddressOf	Teavana
+4	coffee or tea place	IsTypeOf	Teavana
+4	Teavana	HasTraffic	moderate traffic
+4	Teavana	HasDistance	2 miles
+4	moderate traffic	IsTrafficOf	Teavana
+4	2 miles	IsDistanceFrom	Teavana
+5	tai pan	HasAddress	830 Almanor Ln
+5	tai pan	HasType	chinese restaurant
+5	830 Almanor Ln	IsAddressOf	tai pan
+5	chinese restaurant	IsTypeOf	tai pan
+5	tai pan	HasTraffic	no traffic
+5	tai pan	HasDistance	4 miles
+5	no traffic	IsTrafficOf	tai pan
+5	4 miles	IsDistanceFrom	tai pan
+6	Stanford Childrens Health	HasAddress	899 Ames Ct
+6	Stanford Childrens Health	HasType	hospital
+6	899 Ames Ct	IsAddressOf	Stanford Childrens Health
+6	hospital	IsTypeOf	Stanford Childrens Health
+6	Stanford Childrens Health	HasTraffic	no traffic
+6	Stanford Childrens Health	HasDistance	5 miles
+6	no traffic	IsTrafficOf	Stanford Childrens Health
+6	5 miles	IsDistanceFrom	Stanford Childrens Health
+-1	today	IsEqualTo	monday

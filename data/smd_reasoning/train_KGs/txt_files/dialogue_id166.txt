@@ -1,0 +1,57 @@
+0	jacks house	HasAddress	864 Almanor Ln
+0	jacks house	HasType	friends house
+0	864 Almanor Ln	IsAddressOf	jacks house
+0	friends house	IsTypeOf	jacks house
+0	jacks house	HasTraffic	no traffic
+0	jacks house	HasDistance	5 miles
+0	no traffic	IsTrafficOf	jacks house
+0	5 miles	IsDistanceFrom	jacks house
+1	Teavana	HasAddress	145 Amherst St
+1	Teavana	HasType	coffee or tea place
+1	145 Amherst St	IsAddressOf	Teavana
+1	coffee or tea place	IsTypeOf	Teavana
+1	Teavana	HasTraffic	moderate traffic
+1	Teavana	HasDistance	5 miles
+1	moderate traffic	IsTrafficOf	Teavana
+1	5 miles	IsDistanceFrom	Teavana
+2	The Clement Hotel	HasAddress	657 Ames Ave
+2	The Clement Hotel	HasType	rest stop
+2	657 Ames Ave	IsAddressOf	The Clement Hotel
+2	rest stop	IsTypeOf	The Clement Hotel
+2	The Clement Hotel	HasTraffic	moderate traffic
+2	The Clement Hotel	HasDistance	6 miles
+2	moderate traffic	IsTrafficOf	The Clement Hotel
+2	6 miles	IsDistanceFrom	The Clement Hotel
+3	Stanford Childrens Health	HasAddress	899 Ames Ct
+3	Stanford Childrens Health	HasType	hospital
+3	899 Ames Ct	IsAddressOf	Stanford Childrens Health
+3	hospital	IsTypeOf	Stanford Childrens Health
+3	Stanford Childrens Health	HasTraffic	no traffic
+3	Stanford Childrens Health	HasDistance	6 miles
+3	no traffic	IsTrafficOf	Stanford Childrens Health
+3	6 miles	IsDistanceFrom	Stanford Childrens Health
+4	Starbucks	HasAddress	792 Bedoin Street
+4	Starbucks	HasType	coffee or tea place
+4	792 Bedoin Street	IsAddressOf	Starbucks
+4	coffee or tea place	IsTypeOf	Starbucks
+4	Starbucks	HasTraffic	heavy traffic
+4	Starbucks	HasDistance	3 miles
+4	heavy traffic	IsTrafficOf	Starbucks
+4	3 miles	IsDistanceFrom	Starbucks
+5	Town and Country	HasAddress	383 University Ave
+5	Town and Country	HasType	shopping center
+5	383 University Ave	IsAddressOf	Town and Country
+5	shopping center	IsTypeOf	Town and Country
+5	Town and Country	HasTraffic	no traffic
+5	Town and Country	HasDistance	3 miles
+5	no traffic	IsTrafficOf	Town and Country
+5	3 miles	IsDistanceFrom	Town and Country
+6	Panda Express	HasAddress	842 Arrowhead Way
+6	Panda Express	HasType	chinese restaurant
+6	842 Arrowhead Way	IsAddressOf	Panda Express
+6	chinese restaurant	IsTypeOf	Panda Express
+6	Panda Express	HasTraffic	moderate traffic
+6	Panda Express	HasDistance	5 miles
+6	moderate traffic	IsTrafficOf	Panda Express
+6	5 miles	IsDistanceFrom	Panda Express
+-1	today	IsEqualTo	monday

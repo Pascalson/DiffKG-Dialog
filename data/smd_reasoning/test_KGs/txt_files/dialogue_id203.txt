@@ -1,0 +1,57 @@
+0	Mandarin Roots	HasAddress	271 Springer Street
+0	Mandarin Roots	HasType	chinese restaurant
+0	271 Springer Street	IsAddressOf	Mandarin Roots
+0	chinese restaurant	IsTypeOf	Mandarin Roots
+0	Mandarin Roots	HasTraffic	no traffic
+0	Mandarin Roots	HasDistance	4 miles
+0	no traffic	IsTrafficOf	Mandarin Roots
+0	4 miles	IsDistanceFrom	Mandarin Roots
+1	Pizza My Heart	HasAddress	528 Anton Ct
+1	Pizza My Heart	HasType	pizza restaurant
+1	528 Anton Ct	IsAddressOf	Pizza My Heart
+1	pizza restaurant	IsTypeOf	Pizza My Heart
+1	Pizza My Heart	HasTraffic	moderate traffic
+1	Pizza My Heart	HasDistance	6 miles
+1	moderate traffic	IsTrafficOf	Pizza My Heart
+1	6 miles	IsDistanceFrom	Pizza My Heart
+2	Dish Parking	HasAddress	550 Alester Ave
+2	Dish Parking	HasType	parking garage
+2	550 Alester Ave	IsAddressOf	Dish Parking
+2	parking garage	IsTypeOf	Dish Parking
+2	Dish Parking	HasTraffic	heavy traffic
+2	Dish Parking	HasDistance	3 miles
+2	heavy traffic	IsTrafficOf	Dish Parking
+2	3 miles	IsDistanceFrom	Dish Parking
+3	Stanford Shopping Center	HasAddress	773 Alger Dr
+3	Stanford Shopping Center	HasType	shopping center
+3	773 Alger Dr	IsAddressOf	Stanford Shopping Center
+3	shopping center	IsTypeOf	Stanford Shopping Center
+3	Stanford Shopping Center	HasTraffic	heavy traffic
+3	Stanford Shopping Center	HasDistance	3 miles
+3	heavy traffic	IsTrafficOf	Stanford Shopping Center
+3	3 miles	IsDistanceFrom	Stanford Shopping Center
+4	Coupa	HasAddress	394 Van Ness Ave
+4	Coupa	HasType	coffee or tea place
+4	394 Van Ness Ave	IsAddressOf	Coupa
+4	coffee or tea place	IsTypeOf	Coupa
+4	Coupa	HasTraffic	moderate traffic
+4	Coupa	HasDistance	6 miles
+4	moderate traffic	IsTrafficOf	Coupa
+4	6 miles	IsDistanceFrom	Coupa
+5	Dominos	HasAddress	776 Arastradero Rd
+5	Dominos	HasType	pizza restaurant
+5	776 Arastradero Rd	IsAddressOf	Dominos
+5	pizza restaurant	IsTypeOf	Dominos
+5	Dominos	HasTraffic	heavy traffic
+5	Dominos	HasDistance	1 miles
+5	heavy traffic	IsTrafficOf	Dominos
+5	1 miles	IsDistanceFrom	Dominos
+6	Cafe Venetia	HasAddress	269 Alger Dr
+6	Cafe Venetia	HasType	coffee or tea place
+6	269 Alger Dr	IsAddressOf	Cafe Venetia
+6	coffee or tea place	IsTypeOf	Cafe Venetia
+6	Cafe Venetia	HasTraffic	heavy traffic
+6	Cafe Venetia	HasDistance	3 miles
+6	heavy traffic	IsTrafficOf	Cafe Venetia
+6	3 miles	IsDistanceFrom	Cafe Venetia
+-1	today	IsEqualTo	monday

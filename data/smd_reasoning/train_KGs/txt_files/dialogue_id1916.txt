@@ -1,0 +1,65 @@
+0	Stanford Shopping Center	HasAddress	773 Alger Dr
+0	Stanford Shopping Center	HasType	shopping center
+0	773 Alger Dr	IsAddressOf	Stanford Shopping Center
+0	shopping center	IsTypeOf	Stanford Shopping Center
+0	Stanford Shopping Center	HasTraffic	no traffic
+0	Stanford Shopping Center	HasDistance	5 miles
+0	no traffic	IsTrafficOf	Stanford Shopping Center
+0	5 miles	IsDistanceFrom	Stanford Shopping Center
+1	Comfort Inn	HasAddress	753 University Ave
+1	Comfort Inn	HasType	rest stop
+1	753 University Ave	IsAddressOf	Comfort Inn
+1	rest stop	IsTypeOf	Comfort Inn
+1	Comfort Inn	HasTraffic	car collision nearby
+1	Comfort Inn	HasDistance	1 miles
+1	car collision nearby	IsTrafficOf	Comfort Inn
+1	1 miles	IsDistanceFrom	Comfort Inn
+2	5677 southwest 4th street	HasAddress	5677 southwest 4th street
+2	5677 southwest 4th street	HasType	certain address
+2	5677 southwest 4th street	IsAddressOf	5677 southwest 4th street
+2	certain address	IsTypeOf	5677 southwest 4th street
+2	5677 southwest 4th street	HasTraffic	no traffic
+2	5677 southwest 4th street	HasDistance	6 miles
+2	no traffic	IsTrafficOf	5677 southwest 4th street
+2	6 miles	IsDistanceFrom	5677 southwest 4th street
+3	Palo Alto Garage R	HasAddress	481 Amaranta Ave
+3	Palo Alto Garage R	HasType	parking garage
+3	481 Amaranta Ave	IsAddressOf	Palo Alto Garage R
+3	parking garage	IsTypeOf	Palo Alto Garage R
+3	Palo Alto Garage R	HasTraffic	moderate traffic
+3	Palo Alto Garage R	HasDistance	1 miles
+3	moderate traffic	IsTrafficOf	Palo Alto Garage R
+3	1 miles	IsDistanceFrom	Palo Alto Garage R
+4	Cafe Venetia	HasAddress	269 Alger Dr
+4	Cafe Venetia	HasType	coffee or tea place
+4	269 Alger Dr	IsAddressOf	Cafe Venetia
+4	coffee or tea place	IsTypeOf	Cafe Venetia
+4	Cafe Venetia	HasTraffic	road block nearby
+4	Cafe Venetia	HasDistance	5 miles
+4	road block nearby	IsTrafficOf	Cafe Venetia
+4	5 miles	IsDistanceFrom	Cafe Venetia
+5	Dominos	HasAddress	776 Arastradero Rd
+5	Dominos	HasType	pizza restaurant
+5	776 Arastradero Rd	IsAddressOf	Dominos
+5	pizza restaurant	IsTypeOf	Dominos
+5	Dominos	HasTraffic	no traffic
+5	Dominos	HasDistance	5 miles
+5	no traffic	IsTrafficOf	Dominos
+5	5 miles	IsDistanceFrom	Dominos
+6	5677 springer street	HasAddress	5677 springer street
+6	5677 springer street	HasType	certain address
+6	5677 springer street	IsAddressOf	5677 springer street
+6	certain address	IsTypeOf	5677 springer street
+6	5677 springer street	HasTraffic	heavy traffic
+6	5677 springer street	HasDistance	3 miles
+6	heavy traffic	IsTrafficOf	5677 springer street
+6	3 miles	IsDistanceFrom	5677 springer street
+7	Ravenswood Shopping Center	HasAddress	434 Arastradero Rd
+7	Ravenswood Shopping Center	HasType	shopping center
+7	434 Arastradero Rd	IsAddressOf	Ravenswood Shopping Center
+7	shopping center	IsTypeOf	Ravenswood Shopping Center
+7	Ravenswood Shopping Center	HasTraffic	moderate traffic
+7	Ravenswood Shopping Center	HasDistance	6 miles
+7	moderate traffic	IsTrafficOf	Ravenswood Shopping Center
+7	6 miles	IsDistanceFrom	Ravenswood Shopping Center
+-1	today	IsEqualTo	monday

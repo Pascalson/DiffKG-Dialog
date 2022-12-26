@@ -1,0 +1,57 @@
+0	5677 springer street	HasAddress	5677 springer street
+0	5677 springer street	HasType	certain address
+0	5677 springer street	IsAddressOf	5677 springer street
+0	certain address	IsTypeOf	5677 springer street
+0	5677 springer street	HasTraffic	moderate traffic
+0	5677 springer street	HasDistance	5 miles
+0	moderate traffic	IsTrafficOf	5677 springer street
+0	5 miles	IsDistanceFrom	5677 springer street
+1	home	HasAddress	10 ames street
+1	home	HasType	home
+1	10 ames street	IsAddressOf	home
+1	home	IsTypeOf	home
+1	home	HasTraffic	heavy traffic
+1	home	HasDistance	1 miles
+1	heavy traffic	IsTrafficOf	home
+1	1 miles	IsDistanceFrom	home
+2	Four Seasons	HasAddress	465 Arcadia Pl
+2	Four Seasons	HasType	rest stop
+2	465 Arcadia Pl	IsAddressOf	Four Seasons
+2	rest stop	IsTypeOf	Four Seasons
+2	Four Seasons	HasTraffic	no traffic
+2	Four Seasons	HasDistance	5 miles
+2	no traffic	IsTrafficOf	Four Seasons
+2	5 miles	IsDistanceFrom	Four Seasons
+3	Round Table	HasAddress	113 Anton Ct
+3	Round Table	HasType	pizza restaurant
+3	113 Anton Ct	IsAddressOf	Round Table
+3	pizza restaurant	IsTypeOf	Round Table
+3	Round Table	HasTraffic	moderate traffic
+3	Round Table	HasDistance	1 miles
+3	moderate traffic	IsTrafficOf	Round Table
+3	1 miles	IsDistanceFrom	Round Table
+4	Palo Alto Cafe	HasAddress	436 Alger Dr
+4	Palo Alto Cafe	HasType	coffee or tea place
+4	436 Alger Dr	IsAddressOf	Palo Alto Cafe
+4	coffee or tea place	IsTypeOf	Palo Alto Cafe
+4	Palo Alto Cafe	HasTraffic	heavy traffic
+4	Palo Alto Cafe	HasDistance	5 miles
+4	heavy traffic	IsTrafficOf	Palo Alto Cafe
+4	5 miles	IsDistanceFrom	Palo Alto Cafe
+5	home	HasAddress	56 cadwell street
+5	home	HasType	home
+5	56 cadwell street	IsAddressOf	home
+5	home	IsTypeOf	home
+5	home	HasTraffic	no traffic
+5	home	HasDistance	4 miles
+5	no traffic	IsTrafficOf	home
+5	4 miles	IsDistanceFrom	home
+6	Midtown Shopping Center	HasAddress	338 Alester Ave
+6	Midtown Shopping Center	HasType	shopping center
+6	338 Alester Ave	IsAddressOf	Midtown Shopping Center
+6	shopping center	IsTypeOf	Midtown Shopping Center
+6	Midtown Shopping Center	HasTraffic	heavy traffic
+6	Midtown Shopping Center	HasDistance	1 miles
+6	heavy traffic	IsTrafficOf	Midtown Shopping Center
+6	1 miles	IsDistanceFrom	Midtown Shopping Center
+-1	today	IsEqualTo	monday

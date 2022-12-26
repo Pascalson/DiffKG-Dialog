@@ -1,0 +1,61 @@
+0	meeting	HasTime	10am
+0	10am	IsTimeOf	meeting
+0	meeting	HasDate	the 5th
+0	the 5th	IsDateOf	meeting
+0	meeting	HasParty	executive team
+0	executive team	IsPartyOf	meeting
+0	meeting	HasRoom	conference room 100
+0	conference room 100	IsRoomOf	meeting
+0	meeting	HasAgenda	onboard new members
+0	onboard new members	IsAgendaOf	meeting
+1	meeting	HasTime	6pm
+1	6pm	IsTimeOf	meeting
+1	meeting	HasDate	the 10th
+1	the 10th	IsDateOf	meeting
+1	meeting	HasParty	executive team
+1	executive team	IsPartyOf	meeting
+1	meeting	HasRoom	conference room 100
+1	conference room 100	IsRoomOf	meeting
+1	meeting	HasAgenda	go over budget
+1	go over budget	IsAgendaOf	meeting
+2	dentist appointment	HasTime	2pm
+2	2pm	IsTimeOf	dentist appointment
+2	dentist appointment	HasDate	the 15th
+2	the 15th	IsDateOf	dentist appointment
+2	dentist appointment	HasParty	father
+2	father	IsPartyOf	dentist appointment
+3	swimming activity	HasTime	4pm
+3	4pm	IsTimeOf	swimming activity
+3	swimming activity	HasDate	the 5th
+3	the 5th	IsDateOf	swimming activity
+3	swimming activity	HasParty	mother
+3	mother	IsPartyOf	swimming activity
+4	football activity	HasTime	1pm
+4	1pm	IsTimeOf	football activity
+4	football activity	HasDate	the 17th
+4	the 17th	IsDateOf	football activity
+4	football activity	HasParty	sister
+4	sister	IsPartyOf	football activity
+5	swimming activity	HasTime	5pm
+5	5pm	IsTimeOf	swimming activity
+5	swimming activity	HasDate	wednesday
+5	wednesday	IsDateOf	swimming activity
+5	swimming activity	HasParty	Ana
+5	Ana	IsPartyOf	swimming activity
+6	conference	HasTime	4pm
+6	4pm	IsTimeOf	conference
+6	conference	HasDate	the 2nd
+6	the 2nd	IsDateOf	conference
+6	conference	HasParty	executive team
+6	executive team	IsPartyOf	conference
+6	conference	HasRoom	conference room 100
+6	conference room 100	IsRoomOf	conference
+6	conference	HasAgenda	go over budget
+6	go over budget	IsAgendaOf	conference
+7	dinner	HasTime	8pm
+7	8pm	IsTimeOf	dinner
+7	dinner	HasDate	saturday
+7	saturday	IsDateOf	dinner
+7	dinner	HasParty	Ana
+7	Ana	IsPartyOf	dinner
+-1	today	IsEqualTo	monday

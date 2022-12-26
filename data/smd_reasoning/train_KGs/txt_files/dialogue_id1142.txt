@@ -1,0 +1,57 @@
+0	dinner	HasTime	6pm
+0	6pm	IsTimeOf	dinner
+0	dinner	HasDate	the 16th
+0	the 16th	IsDateOf	dinner
+0	dinner	HasParty	father
+0	father	IsPartyOf	dinner
+1	yoga activity	HasTime	4pm
+1	4pm	IsTimeOf	yoga activity
+1	yoga activity	HasDate	sunday
+1	sunday	IsDateOf	yoga activity
+1	yoga activity	HasParty	Jeff
+1	Jeff	IsPartyOf	yoga activity
+2	meeting	HasTime	9am
+2	9am	IsTimeOf	meeting
+2	meeting	HasDate	the 9th
+2	the 9th	IsDateOf	meeting
+2	meeting	HasParty	executive team
+2	executive team	IsPartyOf	meeting
+2	meeting	HasRoom	conference room 50
+2	conference room 50	IsRoomOf	meeting
+2	meeting	HasAgenda	sign the NDA
+2	sign the NDA	IsAgendaOf	meeting
+3	lab appointment	HasTime	10am
+3	10am	IsTimeOf	lab appointment
+3	lab appointment	HasDate	the 12th
+3	the 12th	IsDateOf	lab appointment
+3	lab appointment	HasParty	father
+3	father	IsPartyOf	lab appointment
+4	meeting	HasTime	3pm
+4	3pm	IsTimeOf	meeting
+4	meeting	HasDate	the 20th
+4	the 20th	IsDateOf	meeting
+4	meeting	HasParty	vice president
+4	vice president	IsPartyOf	meeting
+4	meeting	HasRoom	conference room 102
+4	conference room 102	IsRoomOf	meeting
+4	meeting	HasAgenda	go over quarterly report
+4	go over quarterly report	IsAgendaOf	meeting
+5	swimming activity	HasTime	10am
+5	10am	IsTimeOf	swimming activity
+5	swimming activity	HasDate	the 20th
+5	the 20th	IsDateOf	swimming activity
+5	swimming activity	HasParty	Martha
+5	Martha	IsPartyOf	swimming activity
+6	swimming activity	HasTime	6pm
+6	6pm	IsTimeOf	swimming activity
+6	swimming activity	HasDate	monday
+6	monday	IsDateOf	swimming activity
+6	swimming activity	HasParty	Ana
+6	Ana	IsPartyOf	swimming activity
+7	doctor appointment	HasTime	4pm
+7	4pm	IsTimeOf	doctor appointment
+7	doctor appointment	HasDate	sunday
+7	sunday	IsDateOf	doctor appointment
+7	doctor appointment	HasParty	Martha
+7	Martha	IsPartyOf	doctor appointment
+-1	today	IsEqualTo	monday

@@ -1,0 +1,57 @@
+0	Webster Garage	HasAddress	880 Ames Ct
+0	Webster Garage	HasType	parking garage
+0	880 Ames Ct	IsAddressOf	Webster Garage
+0	parking garage	IsTypeOf	Webster Garage
+0	Webster Garage	HasTraffic	moderate traffic
+0	Webster Garage	HasDistance	5 miles
+0	moderate traffic	IsTrafficOf	Webster Garage
+0	5 miles	IsDistanceFrom	Webster Garage
+1	Jing Jing	HasAddress	113 Arbol Dr
+1	Jing Jing	HasType	chinese restaurant
+1	113 Arbol Dr	IsAddressOf	Jing Jing
+1	chinese restaurant	IsTypeOf	Jing Jing
+1	Jing Jing	HasTraffic	no traffic
+1	Jing Jing	HasDistance	2 miles
+1	no traffic	IsTrafficOf	Jing Jing
+1	2 miles	IsDistanceFrom	Jing Jing
+2	The Clement Hotel	HasAddress	657 Ames Ave
+2	The Clement Hotel	HasType	rest stop
+2	657 Ames Ave	IsAddressOf	The Clement Hotel
+2	rest stop	IsTypeOf	The Clement Hotel
+2	The Clement Hotel	HasTraffic	no traffic
+2	The Clement Hotel	HasDistance	5 miles
+2	no traffic	IsTrafficOf	The Clement Hotel
+2	5 miles	IsDistanceFrom	The Clement Hotel
+3	Pizza My Heart	HasAddress	528 Anton Ct
+3	Pizza My Heart	HasType	pizza restaurant
+3	528 Anton Ct	IsAddressOf	Pizza My Heart
+3	pizza restaurant	IsTypeOf	Pizza My Heart
+3	Pizza My Heart	HasTraffic	heavy traffic
+3	Pizza My Heart	HasDistance	1 miles
+3	heavy traffic	IsTrafficOf	Pizza My Heart
+3	1 miles	IsDistanceFrom	Pizza My Heart
+4	Round Table	HasAddress	113 Anton Ct
+4	Round Table	HasType	pizza restaurant
+4	113 Anton Ct	IsAddressOf	Round Table
+4	pizza restaurant	IsTypeOf	Round Table
+4	Round Table	HasTraffic	no traffic
+4	Round Table	HasDistance	1 miles
+4	no traffic	IsTrafficOf	Round Table
+4	1 miles	IsDistanceFrom	Round Table
+5	Pizza Chicago	HasAddress	915 Arbol Dr
+5	Pizza Chicago	HasType	pizza restaurant
+5	915 Arbol Dr	IsAddressOf	Pizza Chicago
+5	pizza restaurant	IsTypeOf	Pizza Chicago
+5	Pizza Chicago	HasTraffic	moderate traffic
+5	Pizza Chicago	HasDistance	1 miles
+5	moderate traffic	IsTrafficOf	Pizza Chicago
+5	1 miles	IsDistanceFrom	Pizza Chicago
+6	Four Seasons	HasAddress	465 Arcadia Pl
+6	Four Seasons	HasType	rest stop
+6	465 Arcadia Pl	IsAddressOf	Four Seasons
+6	rest stop	IsTypeOf	Four Seasons
+6	Four Seasons	HasTraffic	heavy traffic
+6	Four Seasons	HasDistance	1 miles
+6	heavy traffic	IsTrafficOf	Four Seasons
+6	1 miles	IsDistanceFrom	Four Seasons
+-1	today	IsEqualTo	monday

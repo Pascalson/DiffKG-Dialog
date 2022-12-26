@@ -1,0 +1,65 @@
+0	Topanga Mall	HasAddress	171 Oak Rd
+0	Topanga Mall	HasType	shopping center
+0	171 Oak Rd	IsAddressOf	Topanga Mall
+0	shopping center	IsTypeOf	Topanga Mall
+0	Topanga Mall	HasTraffic	car collision nearby
+0	Topanga Mall	HasDistance	1 miles
+0	car collision nearby	IsTrafficOf	Topanga Mall
+0	1 miles	IsDistanceFrom	Topanga Mall
+1	Peets Coffee	HasAddress	9981 Archuleta Ave
+1	Peets Coffee	HasType	coffee or tea place
+1	9981 Archuleta Ave	IsAddressOf	Peets Coffee
+1	coffee or tea place	IsTypeOf	Peets Coffee
+1	Peets Coffee	HasTraffic	no traffic
+1	Peets Coffee	HasDistance	4 miles
+1	no traffic	IsTrafficOf	Peets Coffee
+1	4 miles	IsDistanceFrom	Peets Coffee
+2	Hotel Keen	HasAddress	578 Arbol Dr
+2	Hotel Keen	HasType	rest stop
+2	578 Arbol Dr	IsAddressOf	Hotel Keen
+2	rest stop	IsTypeOf	Hotel Keen
+2	Hotel Keen	HasTraffic	no traffic
+2	Hotel Keen	HasDistance	3 miles
+2	no traffic	IsTrafficOf	Hotel Keen
+2	3 miles	IsDistanceFrom	Hotel Keen
+3	Teavana	HasAddress	145 Amherst St
+3	Teavana	HasType	coffee or tea place
+3	145 Amherst St	IsAddressOf	Teavana
+3	coffee or tea place	IsTypeOf	Teavana
+3	Teavana	HasTraffic	no traffic
+3	Teavana	HasDistance	4 miles
+3	no traffic	IsTrafficOf	Teavana
+3	4 miles	IsDistanceFrom	Teavana
+4	Valero	HasAddress	200 Alester Ave
+4	Valero	HasType	gas station
+4	200 Alester Ave	IsAddressOf	Valero
+4	gas station	IsTypeOf	Valero
+4	Valero	HasTraffic	heavy traffic
+4	Valero	HasDistance	2 miles
+4	heavy traffic	IsTrafficOf	Valero
+4	2 miles	IsDistanceFrom	Valero
+5	Town and Country	HasAddress	383 University Ave
+5	Town and Country	HasType	shopping center
+5	383 University Ave	IsAddressOf	Town and Country
+5	shopping center	IsTypeOf	Town and Country
+5	Town and Country	HasTraffic	heavy traffic
+5	Town and Country	HasDistance	4 miles
+5	heavy traffic	IsTrafficOf	Town and Country
+5	4 miles	IsDistanceFrom	Town and Country
+6	jacks house	HasAddress	864 Almanor Ln
+6	jacks house	HasType	friends house
+6	864 Almanor Ln	IsAddressOf	jacks house
+6	friends house	IsTypeOf	jacks house
+6	jacks house	HasTraffic	no traffic
+6	jacks house	HasDistance	1 miles
+6	no traffic	IsTrafficOf	jacks house
+6	1 miles	IsDistanceFrom	jacks house
+7	Round Table	HasAddress	113 Anton Ct
+7	Round Table	HasType	pizza restaurant
+7	113 Anton Ct	IsAddressOf	Round Table
+7	pizza restaurant	IsTypeOf	Round Table
+7	Round Table	HasTraffic	moderate traffic
+7	Round Table	HasDistance	6 miles
+7	moderate traffic	IsTrafficOf	Round Table
+7	6 miles	IsDistanceFrom	Round Table
+-1	today	IsEqualTo	monday

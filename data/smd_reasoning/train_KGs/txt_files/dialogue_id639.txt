@@ -1,0 +1,65 @@
+0	Chef Chu's	HasAddress	593 Arrowhead Way
+0	Chef Chu's	HasType	chinese restaurant
+0	593 Arrowhead Way	IsAddressOf	Chef Chu's
+0	chinese restaurant	IsTypeOf	Chef Chu's
+0	Chef Chu's	HasTraffic	no traffic
+0	Chef Chu's	HasDistance	3 miles
+0	no traffic	IsTrafficOf	Chef Chu's
+0	3 miles	IsDistanceFrom	Chef Chu's
+1	The Clement Hotel	HasAddress	657 Ames Ave
+1	The Clement Hotel	HasType	rest stop
+1	657 Ames Ave	IsAddressOf	The Clement Hotel
+1	rest stop	IsTypeOf	The Clement Hotel
+1	The Clement Hotel	HasTraffic	road block nearby
+1	The Clement Hotel	HasDistance	4 miles
+1	road block nearby	IsTrafficOf	The Clement Hotel
+1	4 miles	IsDistanceFrom	The Clement Hotel
+2	5677 southwest 4th street	HasAddress	5677 southwest 4th street
+2	5677 southwest 4th street	HasType	certain address
+2	5677 southwest 4th street	IsAddressOf	5677 southwest 4th street
+2	certain address	IsTypeOf	5677 southwest 4th street
+2	5677 southwest 4th street	HasTraffic	no traffic
+2	5677 southwest 4th street	HasDistance	3 miles
+2	no traffic	IsTrafficOf	5677 southwest 4th street
+2	3 miles	IsDistanceFrom	5677 southwest 4th street
+3	Mandarin Roots	HasAddress	271 Springer Street
+3	Mandarin Roots	HasType	chinese restaurant
+3	271 Springer Street	IsAddressOf	Mandarin Roots
+3	chinese restaurant	IsTypeOf	Mandarin Roots
+3	Mandarin Roots	HasTraffic	moderate traffic
+3	Mandarin Roots	HasDistance	3 miles
+3	moderate traffic	IsTrafficOf	Mandarin Roots
+3	3 miles	IsDistanceFrom	Mandarin Roots
+4	Pizza My Heart	HasAddress	528 Anton Ct
+4	Pizza My Heart	HasType	pizza restaurant
+4	528 Anton Ct	IsAddressOf	Pizza My Heart
+4	pizza restaurant	IsTypeOf	Pizza My Heart
+4	Pizza My Heart	HasTraffic	moderate traffic
+4	Pizza My Heart	HasDistance	2 miles
+4	moderate traffic	IsTrafficOf	Pizza My Heart
+4	2 miles	IsDistanceFrom	Pizza My Heart
+5	Cafe Venetia	HasAddress	269 Alger Dr
+5	Cafe Venetia	HasType	coffee or tea place
+5	269 Alger Dr	IsAddressOf	Cafe Venetia
+5	coffee or tea place	IsTypeOf	Cafe Venetia
+5	Cafe Venetia	HasTraffic	no traffic
+5	Cafe Venetia	HasDistance	3 miles
+5	no traffic	IsTrafficOf	Cafe Venetia
+5	3 miles	IsDistanceFrom	Cafe Venetia
+6	The Westin	HasAddress	329 El Camino Real
+6	The Westin	HasType	rest stop
+6	329 El Camino Real	IsAddressOf	The Westin
+6	rest stop	IsTypeOf	The Westin
+6	The Westin	HasTraffic	moderate traffic
+6	The Westin	HasDistance	2 miles
+6	moderate traffic	IsTrafficOf	The Westin
+6	2 miles	IsDistanceFrom	The Westin
+7	Jing Jing	HasAddress	113 Arbol Dr
+7	Jing Jing	HasType	chinese restaurant
+7	113 Arbol Dr	IsAddressOf	Jing Jing
+7	chinese restaurant	IsTypeOf	Jing Jing
+7	Jing Jing	HasTraffic	moderate traffic
+7	Jing Jing	HasDistance	1 miles
+7	moderate traffic	IsTrafficOf	Jing Jing
+7	1 miles	IsDistanceFrom	Jing Jing
+-1	today	IsEqualTo	monday

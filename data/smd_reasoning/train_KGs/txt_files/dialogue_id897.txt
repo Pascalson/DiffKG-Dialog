@@ -1,0 +1,65 @@
+0	Valero	HasAddress	200 Alester Ave
+0	Valero	HasType	gas station
+0	200 Alester Ave	IsAddressOf	Valero
+0	gas station	IsTypeOf	Valero
+0	Valero	HasTraffic	road block nearby
+0	Valero	HasDistance	5 miles
+0	road block nearby	IsTrafficOf	Valero
+0	5 miles	IsDistanceFrom	Valero
+1	Stanford Express Care	HasAddress	214 El Camino Real
+1	Stanford Express Care	HasType	hospital
+1	214 El Camino Real	IsAddressOf	Stanford Express Care
+1	hospital	IsTypeOf	Stanford Express Care
+1	Stanford Express Care	HasTraffic	heavy traffic
+1	Stanford Express Care	HasDistance	3 miles
+1	heavy traffic	IsTrafficOf	Stanford Express Care
+1	3 miles	IsDistanceFrom	Stanford Express Care
+2	tai pan	HasAddress	830 Almanor Ln
+2	tai pan	HasType	chinese restaurant
+2	830 Almanor Ln	IsAddressOf	tai pan
+2	chinese restaurant	IsTypeOf	tai pan
+2	tai pan	HasTraffic	car collision nearby
+2	tai pan	HasDistance	1 miles
+2	car collision nearby	IsTrafficOf	tai pan
+2	1 miles	IsDistanceFrom	tai pan
+3	Palo Alto Medical Foundation	HasAddress	611 Ames Ave
+3	Palo Alto Medical Foundation	HasType	hospital
+3	611 Ames Ave	IsAddressOf	Palo Alto Medical Foundation
+3	hospital	IsTypeOf	Palo Alto Medical Foundation
+3	Palo Alto Medical Foundation	HasTraffic	heavy traffic
+3	Palo Alto Medical Foundation	HasDistance	4 miles
+3	heavy traffic	IsTrafficOf	Palo Alto Medical Foundation
+3	4 miles	IsDistanceFrom	Palo Alto Medical Foundation
+4	Philz	HasAddress	583 Alester Ave
+4	Philz	HasType	coffee or tea place
+4	583 Alester Ave	IsAddressOf	Philz
+4	coffee or tea place	IsTypeOf	Philz
+4	Philz	HasTraffic	heavy traffic
+4	Philz	HasDistance	5 miles
+4	heavy traffic	IsTrafficOf	Philz
+4	5 miles	IsDistanceFrom	Philz
+5	Palo Alto Cafe	HasAddress	436 Alger Dr
+5	Palo Alto Cafe	HasType	coffee or tea place
+5	436 Alger Dr	IsAddressOf	Palo Alto Cafe
+5	coffee or tea place	IsTypeOf	Palo Alto Cafe
+5	Palo Alto Cafe	HasTraffic	car collision nearby
+5	Palo Alto Cafe	HasDistance	5 miles
+5	car collision nearby	IsTrafficOf	Palo Alto Cafe
+5	5 miles	IsDistanceFrom	Palo Alto Cafe
+6	Town and Country	HasAddress	383 University Ave
+6	Town and Country	HasType	shopping center
+6	383 University Ave	IsAddressOf	Town and Country
+6	shopping center	IsTypeOf	Town and Country
+6	Town and Country	HasTraffic	heavy traffic
+6	Town and Country	HasDistance	2 miles
+6	heavy traffic	IsTrafficOf	Town and Country
+6	2 miles	IsDistanceFrom	Town and Country
+7	Jing Jing	HasAddress	113 Arbol Dr
+7	Jing Jing	HasType	chinese restaurant
+7	113 Arbol Dr	IsAddressOf	Jing Jing
+7	chinese restaurant	IsTypeOf	Jing Jing
+7	Jing Jing	HasTraffic	no traffic
+7	Jing Jing	HasDistance	3 miles
+7	no traffic	IsTrafficOf	Jing Jing
+7	3 miles	IsDistanceFrom	Jing Jing
+-1	today	IsEqualTo	monday

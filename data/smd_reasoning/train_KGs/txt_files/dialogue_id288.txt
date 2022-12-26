@@ -1,0 +1,65 @@
+0	Whole Foods	HasAddress	819 Alma St
+0	Whole Foods	HasType	grocery store
+0	819 Alma St	IsAddressOf	Whole Foods
+0	grocery store	IsTypeOf	Whole Foods
+0	Whole Foods	HasTraffic	moderate traffic
+0	Whole Foods	HasDistance	1 miles
+0	moderate traffic	IsTrafficOf	Whole Foods
+0	1 miles	IsDistanceFrom	Whole Foods
+1	Cafe Venetia	HasAddress	269 Alger Dr
+1	Cafe Venetia	HasType	coffee or tea place
+1	269 Alger Dr	IsAddressOf	Cafe Venetia
+1	coffee or tea place	IsTypeOf	Cafe Venetia
+1	Cafe Venetia	HasTraffic	road block nearby
+1	Cafe Venetia	HasDistance	3 miles
+1	road block nearby	IsTrafficOf	Cafe Venetia
+1	3 miles	IsDistanceFrom	Cafe Venetia
+2	5672 barringer street	HasAddress	5672 barringer street
+2	5672 barringer street	HasType	certain address
+2	5672 barringer street	IsAddressOf	5672 barringer street
+2	certain address	IsTypeOf	5672 barringer street
+2	5672 barringer street	HasTraffic	heavy traffic
+2	5672 barringer street	HasDistance	6 miles
+2	heavy traffic	IsTrafficOf	5672 barringer street
+2	6 miles	IsDistanceFrom	5672 barringer street
+3	Travelers Lodge	HasAddress	333 Arbol Dr
+3	Travelers Lodge	HasType	rest stop
+3	333 Arbol Dr	IsAddressOf	Travelers Lodge
+3	rest stop	IsTypeOf	Travelers Lodge
+3	Travelers Lodge	HasTraffic	no traffic
+3	Travelers Lodge	HasDistance	2 miles
+3	no traffic	IsTrafficOf	Travelers Lodge
+3	2 miles	IsDistanceFrom	Travelers Lodge
+4	Jing Jing	HasAddress	113 Arbol Dr
+4	Jing Jing	HasType	chinese restaurant
+4	113 Arbol Dr	IsAddressOf	Jing Jing
+4	chinese restaurant	IsTypeOf	Jing Jing
+4	Jing Jing	HasTraffic	moderate traffic
+4	Jing Jing	HasDistance	5 miles
+4	moderate traffic	IsTrafficOf	Jing Jing
+4	5 miles	IsDistanceFrom	Jing Jing
+5	76	HasAddress	91 El Camino Real
+5	76	HasType	gas station
+5	91 El Camino Real	IsAddressOf	76
+5	gas station	IsTypeOf	76
+5	76	HasTraffic	heavy traffic
+5	76	HasDistance	1 miles
+5	heavy traffic	IsTrafficOf	76
+5	1 miles	IsDistanceFrom	76
+6	Papa Johns	HasAddress	110 Arastradero Rd
+6	Papa Johns	HasType	pizza restaurant
+6	110 Arastradero Rd	IsAddressOf	Papa Johns
+6	pizza restaurant	IsTypeOf	Papa Johns
+6	Papa Johns	HasTraffic	moderate traffic
+6	Papa Johns	HasDistance	3 miles
+6	moderate traffic	IsTrafficOf	Papa Johns
+6	3 miles	IsDistanceFrom	Papa Johns
+7	jacks house	HasAddress	864 Almanor Ln
+7	jacks house	HasType	friends house
+7	864 Almanor Ln	IsAddressOf	jacks house
+7	friends house	IsTypeOf	jacks house
+7	jacks house	HasTraffic	heavy traffic
+7	jacks house	HasDistance	2 miles
+7	heavy traffic	IsTrafficOf	jacks house
+7	2 miles	IsDistanceFrom	jacks house
+-1	today	IsEqualTo	monday

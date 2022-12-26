@@ -1,0 +1,49 @@
+0	taking medicine	HasTime	4pm
+0	4pm	IsTimeOf	taking medicine
+0	taking medicine	HasDate	wednesday
+0	wednesday	IsDateOf	taking medicine
+0	taking medicine	HasParty	Tom
+0	Tom	IsPartyOf	taking medicine
+1	lab appointment	HasTime	2pm
+1	2pm	IsTimeOf	lab appointment
+1	lab appointment	HasDate	the 20th
+1	the 20th	IsDateOf	lab appointment
+1	lab appointment	HasParty	Alex
+1	Alex	IsPartyOf	lab appointment
+2	swimming activity	HasTime	7pm
+2	7pm	IsTimeOf	swimming activity
+2	swimming activity	HasDate	the 16th
+2	the 16th	IsDateOf	swimming activity
+2	swimming activity	HasParty	Martha
+2	Martha	IsPartyOf	swimming activity
+3	optometrist appointment	HasTime	1pm
+3	1pm	IsTimeOf	optometrist appointment
+3	optometrist appointment	HasDate	the 16th
+3	the 16th	IsDateOf	optometrist appointment
+3	optometrist appointment	HasParty	father
+3	father	IsPartyOf	optometrist appointment
+4	optometrist appointment	HasTime	10am
+4	10am	IsTimeOf	optometrist appointment
+4	optometrist appointment	HasDate	the 14th
+4	the 14th	IsDateOf	optometrist appointment
+4	optometrist appointment	HasParty	Martha
+4	Martha	IsPartyOf	optometrist appointment
+5	taking medicine	HasTime	3pm
+5	3pm	IsTimeOf	taking medicine
+5	taking medicine	HasDate	the 2nd
+5	the 2nd	IsDateOf	taking medicine
+5	taking medicine	HasParty	Marie
+5	Marie	IsPartyOf	taking medicine
+6	lab appointment	HasTime	7pm
+6	7pm	IsTimeOf	lab appointment
+6	lab appointment	HasDate	the 12th
+6	the 12th	IsDateOf	lab appointment
+6	lab appointment	HasParty	Jon
+6	Jon	IsPartyOf	lab appointment
+7	swimming activity	HasTime	4pm
+7	4pm	IsTimeOf	swimming activity
+7	swimming activity	HasDate	the 15th
+7	the 15th	IsDateOf	swimming activity
+7	swimming activity	HasParty	mother
+7	mother	IsPartyOf	swimming activity
+-1	today	IsEqualTo	monday

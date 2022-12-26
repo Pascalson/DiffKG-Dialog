@@ -1,0 +1,57 @@
+0	Trader Joes	HasAddress	408 University Ave
+0	Trader Joes	HasType	grocery store
+0	408 University Ave	IsAddressOf	Trader Joes
+0	grocery store	IsTypeOf	Trader Joes
+0	Trader Joes	HasTraffic	no traffic
+0	Trader Joes	HasDistance	5 miles
+0	no traffic	IsTrafficOf	Trader Joes
+0	5 miles	IsDistanceFrom	Trader Joes
+1	Palo Alto Cafe	HasAddress	436 Alger Dr
+1	Palo Alto Cafe	HasType	coffee or tea place
+1	436 Alger Dr	IsAddressOf	Palo Alto Cafe
+1	coffee or tea place	IsTypeOf	Palo Alto Cafe
+1	Palo Alto Cafe	HasTraffic	no traffic
+1	Palo Alto Cafe	HasDistance	5 miles
+1	no traffic	IsTrafficOf	Palo Alto Cafe
+1	5 miles	IsDistanceFrom	Palo Alto Cafe
+2	Palo Alto Medical Foundation	HasAddress	611 Ames Ave
+2	Palo Alto Medical Foundation	HasType	hospital
+2	611 Ames Ave	IsAddressOf	Palo Alto Medical Foundation
+2	hospital	IsTypeOf	Palo Alto Medical Foundation
+2	Palo Alto Medical Foundation	HasTraffic	no traffic
+2	Palo Alto Medical Foundation	HasDistance	5 miles
+2	no traffic	IsTrafficOf	Palo Alto Medical Foundation
+2	5 miles	IsDistanceFrom	Palo Alto Medical Foundation
+3	Civic Center Garage	HasAddress	270 Altaire Walk
+3	Civic Center Garage	HasType	parking garage
+3	270 Altaire Walk	IsAddressOf	Civic Center Garage
+3	parking garage	IsTypeOf	Civic Center Garage
+3	Civic Center Garage	HasTraffic	no traffic
+3	Civic Center Garage	HasDistance	4 miles
+3	no traffic	IsTrafficOf	Civic Center Garage
+3	4 miles	IsDistanceFrom	Civic Center Garage
+4	Stanford Express Care	HasAddress	214 El Camino Real
+4	Stanford Express Care	HasType	hospital
+4	214 El Camino Real	IsAddressOf	Stanford Express Care
+4	hospital	IsTypeOf	Stanford Express Care
+4	Stanford Express Care	HasTraffic	no traffic
+4	Stanford Express Care	HasDistance	3 miles
+4	no traffic	IsTrafficOf	Stanford Express Care
+4	3 miles	IsDistanceFrom	Stanford Express Care
+5	jills house	HasAddress	347 Alta Mesa Ave
+5	jills house	HasType	friends house
+5	347 Alta Mesa Ave	IsAddressOf	jills house
+5	friends house	IsTypeOf	jills house
+5	jills house	HasTraffic	heavy traffic
+5	jills house	HasDistance	4 miles
+5	heavy traffic	IsTrafficOf	jills house
+5	4 miles	IsDistanceFrom	jills house
+6	The Westin	HasAddress	329 El Camino Real
+6	The Westin	HasType	rest stop
+6	329 El Camino Real	IsAddressOf	The Westin
+6	rest stop	IsTypeOf	The Westin
+6	The Westin	HasTraffic	no traffic
+6	The Westin	HasDistance	4 miles
+6	no traffic	IsTrafficOf	The Westin
+6	4 miles	IsDistanceFrom	The Westin
+-1	today	IsEqualTo	monday

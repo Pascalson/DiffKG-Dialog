@@ -1,0 +1,65 @@
+0	Chef Chu's	HasAddress	593 Arrowhead Way
+0	Chef Chu's	HasType	chinese restaurant
+0	593 Arrowhead Way	IsAddressOf	Chef Chu's
+0	chinese restaurant	IsTypeOf	Chef Chu's
+0	Chef Chu's	HasTraffic	heavy traffic
+0	Chef Chu's	HasDistance	5 miles
+0	heavy traffic	IsTrafficOf	Chef Chu's
+0	5 miles	IsDistanceFrom	Chef Chu's
+1	Pizza Chicago	HasAddress	915 Arbol Dr
+1	Pizza Chicago	HasType	pizza restaurant
+1	915 Arbol Dr	IsAddressOf	Pizza Chicago
+1	pizza restaurant	IsTypeOf	Pizza Chicago
+1	Pizza Chicago	HasTraffic	moderate traffic
+1	Pizza Chicago	HasDistance	2 miles
+1	moderate traffic	IsTrafficOf	Pizza Chicago
+1	2 miles	IsDistanceFrom	Pizza Chicago
+2	Four Seasons	HasAddress	465 Arcadia Pl
+2	Four Seasons	HasType	rest stop
+2	465 Arcadia Pl	IsAddressOf	Four Seasons
+2	rest stop	IsTypeOf	Four Seasons
+2	Four Seasons	HasTraffic	no traffic
+2	Four Seasons	HasDistance	6 miles
+2	no traffic	IsTrafficOf	Four Seasons
+2	6 miles	IsDistanceFrom	Four Seasons
+3	Dish Parking	HasAddress	550 Alester Ave
+3	Dish Parking	HasType	parking garage
+3	550 Alester Ave	IsAddressOf	Dish Parking
+3	parking garage	IsTypeOf	Dish Parking
+3	Dish Parking	HasTraffic	road block nearby
+3	Dish Parking	HasDistance	3 miles
+3	road block nearby	IsTrafficOf	Dish Parking
+3	3 miles	IsDistanceFrom	Dish Parking
+4	Ravenswood Shopping Center	HasAddress	434 Arastradero Rd
+4	Ravenswood Shopping Center	HasType	shopping center
+4	434 Arastradero Rd	IsAddressOf	Ravenswood Shopping Center
+4	shopping center	IsTypeOf	Ravenswood Shopping Center
+4	Ravenswood Shopping Center	HasTraffic	car collision nearby
+4	Ravenswood Shopping Center	HasDistance	2 miles
+4	car collision nearby	IsTrafficOf	Ravenswood Shopping Center
+4	2 miles	IsDistanceFrom	Ravenswood Shopping Center
+5	Comfort Inn	HasAddress	753 University Ave
+5	Comfort Inn	HasType	rest stop
+5	753 University Ave	IsAddressOf	Comfort Inn
+5	rest stop	IsTypeOf	Comfort Inn
+5	Comfort Inn	HasTraffic	road block nearby
+5	Comfort Inn	HasDistance	4 miles
+5	road block nearby	IsTrafficOf	Comfort Inn
+5	4 miles	IsDistanceFrom	Comfort Inn
+6	Webster Garage	HasAddress	880 Ames Ct
+6	Webster Garage	HasType	parking garage
+6	880 Ames Ct	IsAddressOf	Webster Garage
+6	parking garage	IsTypeOf	Webster Garage
+6	Webster Garage	HasTraffic	car collision nearby
+6	Webster Garage	HasDistance	4 miles
+6	car collision nearby	IsTrafficOf	Webster Garage
+6	4 miles	IsDistanceFrom	Webster Garage
+7	home	HasAddress	56 cadwell street
+7	home	HasType	home
+7	56 cadwell street	IsAddressOf	home
+7	home	IsTypeOf	home
+7	home	HasTraffic	car collision nearby
+7	home	HasDistance	2 miles
+7	car collision nearby	IsTrafficOf	home
+7	2 miles	IsDistanceFrom	home
+-1	today	IsEqualTo	monday

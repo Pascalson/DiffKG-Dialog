@@ -1,0 +1,57 @@
+0	Stanford Oval Parking	HasAddress	610 Amarillo Ave
+0	Stanford Oval Parking	HasType	parking garage
+0	610 Amarillo Ave	IsAddressOf	Stanford Oval Parking
+0	parking garage	IsTypeOf	Stanford Oval Parking
+0	Stanford Oval Parking	HasTraffic	no traffic
+0	Stanford Oval Parking	HasDistance	4 miles
+0	no traffic	IsTrafficOf	Stanford Oval Parking
+0	4 miles	IsDistanceFrom	Stanford Oval Parking
+1	Four Seasons	HasAddress	465 Arcadia Pl
+1	Four Seasons	HasType	rest stop
+1	465 Arcadia Pl	IsAddressOf	Four Seasons
+1	rest stop	IsTypeOf	Four Seasons
+1	Four Seasons	HasTraffic	moderate traffic
+1	Four Seasons	HasDistance	2 miles
+1	moderate traffic	IsTrafficOf	Four Seasons
+1	2 miles	IsDistanceFrom	Four Seasons
+2	Palo Alto Medical Foundation	HasAddress	611 Ames Ave
+2	Palo Alto Medical Foundation	HasType	hospital
+2	611 Ames Ave	IsAddressOf	Palo Alto Medical Foundation
+2	hospital	IsTypeOf	Palo Alto Medical Foundation
+2	Palo Alto Medical Foundation	HasTraffic	no traffic
+2	Palo Alto Medical Foundation	HasDistance	1 miles
+2	no traffic	IsTrafficOf	Palo Alto Medical Foundation
+2	1 miles	IsDistanceFrom	Palo Alto Medical Foundation
+3	Round Table	HasAddress	113 Anton Ct
+3	Round Table	HasType	pizza restaurant
+3	113 Anton Ct	IsAddressOf	Round Table
+3	pizza restaurant	IsTypeOf	Round Table
+3	Round Table	HasTraffic	heavy traffic
+3	Round Table	HasDistance	3 miles
+3	heavy traffic	IsTrafficOf	Round Table
+3	3 miles	IsDistanceFrom	Round Table
+4	jills house	HasAddress	347 Alta Mesa Ave
+4	jills house	HasType	friends house
+4	347 Alta Mesa Ave	IsAddressOf	jills house
+4	friends house	IsTypeOf	jills house
+4	jills house	HasTraffic	heavy traffic
+4	jills house	HasDistance	5 miles
+4	heavy traffic	IsTrafficOf	jills house
+4	5 miles	IsDistanceFrom	jills house
+5	Hotel Keen	HasAddress	578 Arbol Dr
+5	Hotel Keen	HasType	rest stop
+5	578 Arbol Dr	IsAddressOf	Hotel Keen
+5	rest stop	IsTypeOf	Hotel Keen
+5	Hotel Keen	HasTraffic	heavy traffic
+5	Hotel Keen	HasDistance	6 miles
+5	heavy traffic	IsTrafficOf	Hotel Keen
+5	6 miles	IsDistanceFrom	Hotel Keen
+6	Ravenswood Shopping Center	HasAddress	434 Arastradero Rd
+6	Ravenswood Shopping Center	HasType	shopping center
+6	434 Arastradero Rd	IsAddressOf	Ravenswood Shopping Center
+6	shopping center	IsTypeOf	Ravenswood Shopping Center
+6	Ravenswood Shopping Center	HasTraffic	no traffic
+6	Ravenswood Shopping Center	HasDistance	4 miles
+6	no traffic	IsTrafficOf	Ravenswood Shopping Center
+6	4 miles	IsDistanceFrom	Ravenswood Shopping Center
+-1	today	IsEqualTo	monday

@@ -1,0 +1,57 @@
+0	Teavana	HasAddress	145 Amherst St
+0	Teavana	HasType	coffee or tea place
+0	145 Amherst St	IsAddressOf	Teavana
+0	coffee or tea place	IsTypeOf	Teavana
+0	Teavana	HasTraffic	heavy traffic
+0	Teavana	HasDistance	2 miles
+0	heavy traffic	IsTrafficOf	Teavana
+0	2 miles	IsDistanceFrom	Teavana
+1	Palo Alto Medical Foundation	HasAddress	611 Ames Ave
+1	Palo Alto Medical Foundation	HasType	hospital
+1	611 Ames Ave	IsAddressOf	Palo Alto Medical Foundation
+1	hospital	IsTypeOf	Palo Alto Medical Foundation
+1	Palo Alto Medical Foundation	HasTraffic	no traffic
+1	Palo Alto Medical Foundation	HasDistance	5 miles
+1	no traffic	IsTrafficOf	Palo Alto Medical Foundation
+1	5 miles	IsDistanceFrom	Palo Alto Medical Foundation
+2	Stanford Childrens Health	HasAddress	899 Ames Ct
+2	Stanford Childrens Health	HasType	hospital
+2	899 Ames Ct	IsAddressOf	Stanford Childrens Health
+2	hospital	IsTypeOf	Stanford Childrens Health
+2	Stanford Childrens Health	HasTraffic	heavy traffic
+2	Stanford Childrens Health	HasDistance	5 miles
+2	heavy traffic	IsTrafficOf	Stanford Childrens Health
+2	5 miles	IsDistanceFrom	Stanford Childrens Health
+3	Coupa	HasAddress	394 Van Ness Ave
+3	Coupa	HasType	coffee or tea place
+3	394 Van Ness Ave	IsAddressOf	Coupa
+3	coffee or tea place	IsTypeOf	Coupa
+3	Coupa	HasTraffic	moderate traffic
+3	Coupa	HasDistance	6 miles
+3	moderate traffic	IsTrafficOf	Coupa
+3	6 miles	IsDistanceFrom	Coupa
+4	Four Seasons	HasAddress	465 Arcadia Pl
+4	Four Seasons	HasType	rest stop
+4	465 Arcadia Pl	IsAddressOf	Four Seasons
+4	rest stop	IsTypeOf	Four Seasons
+4	Four Seasons	HasTraffic	heavy traffic
+4	Four Seasons	HasDistance	3 miles
+4	heavy traffic	IsTrafficOf	Four Seasons
+4	3 miles	IsDistanceFrom	Four Seasons
+5	Jing Jing	HasAddress	113 Arbol Dr
+5	Jing Jing	HasType	chinese restaurant
+5	113 Arbol Dr	IsAddressOf	Jing Jing
+5	chinese restaurant	IsTypeOf	Jing Jing
+5	Jing Jing	HasTraffic	heavy traffic
+5	Jing Jing	HasDistance	5 miles
+5	heavy traffic	IsTrafficOf	Jing Jing
+5	5 miles	IsDistanceFrom	Jing Jing
+6	5672 barringer street	HasAddress	5672 barringer street
+6	5672 barringer street	HasType	certain address
+6	5672 barringer street	IsAddressOf	5672 barringer street
+6	certain address	IsTypeOf	5672 barringer street
+6	5672 barringer street	HasTraffic	heavy traffic
+6	5672 barringer street	HasDistance	5 miles
+6	heavy traffic	IsTrafficOf	5672 barringer street
+6	5 miles	IsDistanceFrom	5672 barringer street
+-1	today	IsEqualTo	monday

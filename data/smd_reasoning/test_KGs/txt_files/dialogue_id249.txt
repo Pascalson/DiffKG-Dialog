@@ -1,0 +1,65 @@
+0	5677 springer street	HasAddress	5677 springer street
+0	5677 springer street	HasType	certain address
+0	5677 springer street	IsAddressOf	5677 springer street
+0	certain address	IsTypeOf	5677 springer street
+0	5677 springer street	HasTraffic	no traffic
+0	5677 springer street	HasDistance	3 miles
+0	no traffic	IsTrafficOf	5677 springer street
+0	3 miles	IsDistanceFrom	5677 springer street
+1	home	HasAddress	56 cadwell street
+1	home	HasType	home
+1	56 cadwell street	IsAddressOf	home
+1	home	IsTypeOf	home
+1	home	HasTraffic	moderate traffic
+1	home	HasDistance	3 miles
+1	moderate traffic	IsTrafficOf	home
+1	3 miles	IsDistanceFrom	home
+2	Comfort Inn	HasAddress	753 University Ave
+2	Comfort Inn	HasType	rest stop
+2	753 University Ave	IsAddressOf	Comfort Inn
+2	rest stop	IsTypeOf	Comfort Inn
+2	Comfort Inn	HasTraffic	road block nearby
+2	Comfort Inn	HasDistance	1 miles
+2	road block nearby	IsTrafficOf	Comfort Inn
+2	1 miles	IsDistanceFrom	Comfort Inn
+3	The Westin	HasAddress	329 El Camino Real
+3	The Westin	HasType	rest stop
+3	329 El Camino Real	IsAddressOf	The Westin
+3	rest stop	IsTypeOf	The Westin
+3	The Westin	HasTraffic	heavy traffic
+3	The Westin	HasDistance	5 miles
+3	heavy traffic	IsTrafficOf	The Westin
+3	5 miles	IsDistanceFrom	The Westin
+4	Jing Jing	HasAddress	113 Arbol Dr
+4	Jing Jing	HasType	chinese restaurant
+4	113 Arbol Dr	IsAddressOf	Jing Jing
+4	chinese restaurant	IsTypeOf	Jing Jing
+4	Jing Jing	HasTraffic	car collision nearby
+4	Jing Jing	HasDistance	6 miles
+4	car collision nearby	IsTrafficOf	Jing Jing
+4	6 miles	IsDistanceFrom	Jing Jing
+5	Palo Alto Medical Foundation	HasAddress	611 Ames Ave
+5	Palo Alto Medical Foundation	HasType	hospital
+5	611 Ames Ave	IsAddressOf	Palo Alto Medical Foundation
+5	hospital	IsTypeOf	Palo Alto Medical Foundation
+5	Palo Alto Medical Foundation	HasTraffic	no traffic
+5	Palo Alto Medical Foundation	HasDistance	4 miles
+5	no traffic	IsTrafficOf	Palo Alto Medical Foundation
+5	4 miles	IsDistanceFrom	Palo Alto Medical Foundation
+6	Whole Foods	HasAddress	819 Alma St
+6	Whole Foods	HasType	grocery store
+6	819 Alma St	IsAddressOf	Whole Foods
+6	grocery store	IsTypeOf	Whole Foods
+6	Whole Foods	HasTraffic	road block nearby
+6	Whole Foods	HasDistance	2 miles
+6	road block nearby	IsTrafficOf	Whole Foods
+6	2 miles	IsDistanceFrom	Whole Foods
+7	jills house	HasAddress	347 Alta Mesa Ave
+7	jills house	HasType	friends house
+7	347 Alta Mesa Ave	IsAddressOf	jills house
+7	friends house	IsTypeOf	jills house
+7	jills house	HasTraffic	car collision nearby
+7	jills house	HasDistance	8 miles
+7	car collision nearby	IsTrafficOf	jills house
+7	8 miles	IsDistanceFrom	jills house
+-1	today	IsEqualTo	monday

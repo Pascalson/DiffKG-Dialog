@@ -1,0 +1,65 @@
+0	home	HasAddress	56 cadwell street
+0	home	HasType	home
+0	56 cadwell street	IsAddressOf	home
+0	home	IsTypeOf	home
+0	home	HasTraffic	no traffic
+0	home	HasDistance	1 miles
+0	no traffic	IsTrafficOf	home
+0	1 miles	IsDistanceFrom	home
+1	Papa Johns	HasAddress	110 Arastradero Rd
+1	Papa Johns	HasType	pizza restaurant
+1	110 Arastradero Rd	IsAddressOf	Papa Johns
+1	pizza restaurant	IsTypeOf	Papa Johns
+1	Papa Johns	HasTraffic	heavy traffic
+1	Papa Johns	HasDistance	2 miles
+1	heavy traffic	IsTrafficOf	Papa Johns
+1	2 miles	IsDistanceFrom	Papa Johns
+2	Dominos	HasAddress	776 Arastradero Rd
+2	Dominos	HasType	pizza restaurant
+2	776 Arastradero Rd	IsAddressOf	Dominos
+2	pizza restaurant	IsTypeOf	Dominos
+2	Dominos	HasTraffic	no traffic
+2	Dominos	HasDistance	1 miles
+2	no traffic	IsTrafficOf	Dominos
+2	1 miles	IsDistanceFrom	Dominos
+3	Teavana	HasAddress	145 Amherst St
+3	Teavana	HasType	coffee or tea place
+3	145 Amherst St	IsAddressOf	Teavana
+3	coffee or tea place	IsTypeOf	Teavana
+3	Teavana	HasTraffic	moderate traffic
+3	Teavana	HasDistance	6 miles
+3	moderate traffic	IsTrafficOf	Teavana
+3	6 miles	IsDistanceFrom	Teavana
+4	P.F. Changs	HasAddress	669 El Camino Real
+4	P.F. Changs	HasType	chinese restaurant
+4	669 El Camino Real	IsAddressOf	P.F. Changs
+4	chinese restaurant	IsTypeOf	P.F. Changs
+4	P.F. Changs	HasTraffic	moderate traffic
+4	P.F. Changs	HasDistance	6 miles
+4	moderate traffic	IsTrafficOf	P.F. Changs
+4	6 miles	IsDistanceFrom	P.F. Changs
+5	5677 southwest 4th street	HasAddress	5677 southwest 4th street
+5	5677 southwest 4th street	HasType	certain address
+5	5677 southwest 4th street	IsAddressOf	5677 southwest 4th street
+5	certain address	IsTypeOf	5677 southwest 4th street
+5	5677 southwest 4th street	HasTraffic	no traffic
+5	5677 southwest 4th street	HasDistance	1 miles
+5	no traffic	IsTrafficOf	5677 southwest 4th street
+5	1 miles	IsDistanceFrom	5677 southwest 4th street
+6	Palo Alto Medical Foundation	HasAddress	611 Ames Ave
+6	Palo Alto Medical Foundation	HasType	hospital
+6	611 Ames Ave	IsAddressOf	Palo Alto Medical Foundation
+6	hospital	IsTypeOf	Palo Alto Medical Foundation
+6	Palo Alto Medical Foundation	HasTraffic	moderate traffic
+6	Palo Alto Medical Foundation	HasDistance	5 miles
+6	moderate traffic	IsTrafficOf	Palo Alto Medical Foundation
+6	5 miles	IsDistanceFrom	Palo Alto Medical Foundation
+7	tai pan	HasAddress	830 Almanor Ln
+7	tai pan	HasType	chinese restaurant
+7	830 Almanor Ln	IsAddressOf	tai pan
+7	chinese restaurant	IsTypeOf	tai pan
+7	tai pan	HasTraffic	road block nearby
+7	tai pan	HasDistance	6 miles
+7	road block nearby	IsTrafficOf	tai pan
+7	6 miles	IsDistanceFrom	tai pan
+-1	today	IsEqualTo	monday

@@ -1,0 +1,57 @@
+0	Starbucks	HasAddress	792 Bedoin Street
+0	Starbucks	HasType	coffee or tea place
+0	792 Bedoin Street	IsAddressOf	Starbucks
+0	coffee or tea place	IsTypeOf	Starbucks
+0	Starbucks	HasTraffic	no traffic
+0	Starbucks	HasDistance	6 miles
+0	no traffic	IsTrafficOf	Starbucks
+0	6 miles	IsDistanceFrom	Starbucks
+1	Coupa	HasAddress	394 Van Ness Ave
+1	Coupa	HasType	coffee or tea place
+1	394 Van Ness Ave	IsAddressOf	Coupa
+1	coffee or tea place	IsTypeOf	Coupa
+1	Coupa	HasTraffic	moderate traffic
+1	Coupa	HasDistance	6 miles
+1	moderate traffic	IsTrafficOf	Coupa
+1	6 miles	IsDistanceFrom	Coupa
+2	5672 barringer street	HasAddress	5672 barringer street
+2	5672 barringer street	HasType	certain address
+2	5672 barringer street	IsAddressOf	5672 barringer street
+2	certain address	IsTypeOf	5672 barringer street
+2	5672 barringer street	HasTraffic	no traffic
+2	5672 barringer street	HasDistance	5 miles
+2	no traffic	IsTrafficOf	5672 barringer street
+2	5 miles	IsDistanceFrom	5672 barringer street
+3	Palo Alto Cafe	HasAddress	436 Alger Dr
+3	Palo Alto Cafe	HasType	coffee or tea place
+3	436 Alger Dr	IsAddressOf	Palo Alto Cafe
+3	coffee or tea place	IsTypeOf	Palo Alto Cafe
+3	Palo Alto Cafe	HasTraffic	moderate traffic
+3	Palo Alto Cafe	HasDistance	3 miles
+3	moderate traffic	IsTrafficOf	Palo Alto Cafe
+3	3 miles	IsDistanceFrom	Palo Alto Cafe
+4	Teavana	HasAddress	145 Amherst St
+4	Teavana	HasType	coffee or tea place
+4	145 Amherst St	IsAddressOf	Teavana
+4	coffee or tea place	IsTypeOf	Teavana
+4	Teavana	HasTraffic	moderate traffic
+4	Teavana	HasDistance	1 miles
+4	moderate traffic	IsTrafficOf	Teavana
+4	1 miles	IsDistanceFrom	Teavana
+5	tai pan	HasAddress	830 Almanor Ln
+5	tai pan	HasType	chinese restaurant
+5	830 Almanor Ln	IsAddressOf	tai pan
+5	chinese restaurant	IsTypeOf	tai pan
+5	tai pan	HasTraffic	no traffic
+5	tai pan	HasDistance	2 miles
+5	no traffic	IsTrafficOf	tai pan
+5	2 miles	IsDistanceFrom	tai pan
+6	Jing Jing	HasAddress	113 Arbol Dr
+6	Jing Jing	HasType	chinese restaurant
+6	113 Arbol Dr	IsAddressOf	Jing Jing
+6	chinese restaurant	IsTypeOf	Jing Jing
+6	Jing Jing	HasTraffic	no traffic
+6	Jing Jing	HasDistance	2 miles
+6	no traffic	IsTrafficOf	Jing Jing
+6	2 miles	IsDistanceFrom	Jing Jing
+-1	today	IsEqualTo	monday

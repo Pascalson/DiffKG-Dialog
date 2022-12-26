@@ -1,0 +1,57 @@
+0	5677 springer street	HasAddress	5677 springer street
+0	5677 springer street	HasType	certain address
+0	5677 springer street	IsAddressOf	5677 springer street
+0	certain address	IsTypeOf	5677 springer street
+0	5677 springer street	HasTraffic	no traffic
+0	5677 springer street	HasDistance	1 miles
+0	no traffic	IsTrafficOf	5677 springer street
+0	1 miles	IsDistanceFrom	5677 springer street
+1	Palo Alto Medical Foundation	HasAddress	611 Ames Ave
+1	Palo Alto Medical Foundation	HasType	hospital
+1	611 Ames Ave	IsAddressOf	Palo Alto Medical Foundation
+1	hospital	IsTypeOf	Palo Alto Medical Foundation
+1	Palo Alto Medical Foundation	HasTraffic	no traffic
+1	Palo Alto Medical Foundation	HasDistance	5 miles
+1	no traffic	IsTrafficOf	Palo Alto Medical Foundation
+1	5 miles	IsDistanceFrom	Palo Alto Medical Foundation
+2	Midtown Shopping Center	HasAddress	338 Alester Ave
+2	Midtown Shopping Center	HasType	shopping center
+2	338 Alester Ave	IsAddressOf	Midtown Shopping Center
+2	shopping center	IsTypeOf	Midtown Shopping Center
+2	Midtown Shopping Center	HasTraffic	no traffic
+2	Midtown Shopping Center	HasDistance	3 miles
+2	no traffic	IsTrafficOf	Midtown Shopping Center
+2	3 miles	IsDistanceFrom	Midtown Shopping Center
+3	Mandarin Roots	HasAddress	271 Springer Street
+3	Mandarin Roots	HasType	chinese restaurant
+3	271 Springer Street	IsAddressOf	Mandarin Roots
+3	chinese restaurant	IsTypeOf	Mandarin Roots
+3	Mandarin Roots	HasTraffic	moderate traffic
+3	Mandarin Roots	HasDistance	4 miles
+3	moderate traffic	IsTrafficOf	Mandarin Roots
+3	4 miles	IsDistanceFrom	Mandarin Roots
+4	Cafe Venetia	HasAddress	269 Alger Dr
+4	Cafe Venetia	HasType	coffee or tea place
+4	269 Alger Dr	IsAddressOf	Cafe Venetia
+4	coffee or tea place	IsTypeOf	Cafe Venetia
+4	Cafe Venetia	HasTraffic	no traffic
+4	Cafe Venetia	HasDistance	4 miles
+4	no traffic	IsTrafficOf	Cafe Venetia
+4	4 miles	IsDistanceFrom	Cafe Venetia
+5	Pizza Chicago	HasAddress	915 Arbol Dr
+5	Pizza Chicago	HasType	pizza restaurant
+5	915 Arbol Dr	IsAddressOf	Pizza Chicago
+5	pizza restaurant	IsTypeOf	Pizza Chicago
+5	Pizza Chicago	HasTraffic	heavy traffic
+5	Pizza Chicago	HasDistance	6 miles
+5	heavy traffic	IsTrafficOf	Pizza Chicago
+5	6 miles	IsDistanceFrom	Pizza Chicago
+6	Dominos	HasAddress	776 Arastradero Rd
+6	Dominos	HasType	pizza restaurant
+6	776 Arastradero Rd	IsAddressOf	Dominos
+6	pizza restaurant	IsTypeOf	Dominos
+6	Dominos	HasTraffic	no traffic
+6	Dominos	HasDistance	1 miles
+6	no traffic	IsTrafficOf	Dominos
+6	1 miles	IsDistanceFrom	Dominos
+-1	today	IsEqualTo	monday

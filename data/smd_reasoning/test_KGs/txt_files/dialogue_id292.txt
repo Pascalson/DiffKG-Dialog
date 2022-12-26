@@ -1,0 +1,65 @@
+0	Mandarin Roots	HasAddress	271 Springer Street
+0	Mandarin Roots	HasType	chinese restaurant
+0	271 Springer Street	IsAddressOf	Mandarin Roots
+0	chinese restaurant	IsTypeOf	Mandarin Roots
+0	Mandarin Roots	HasTraffic	heavy traffic
+0	Mandarin Roots	HasDistance	4 miles
+0	heavy traffic	IsTrafficOf	Mandarin Roots
+0	4 miles	IsDistanceFrom	Mandarin Roots
+1	Shell	HasAddress	53 University Av
+1	Shell	HasType	gas station
+1	53 University Av	IsAddressOf	Shell
+1	gas station	IsTypeOf	Shell
+1	Shell	HasTraffic	no traffic
+1	Shell	HasDistance	6 miles
+1	no traffic	IsTrafficOf	Shell
+1	6 miles	IsDistanceFrom	Shell
+2	jills house	HasAddress	347 Alta Mesa Ave
+2	jills house	HasType	friends house
+2	347 Alta Mesa Ave	IsAddressOf	jills house
+2	friends house	IsTypeOf	jills house
+2	jills house	HasTraffic	moderate traffic
+2	jills house	HasDistance	4 miles
+2	moderate traffic	IsTrafficOf	jills house
+2	4 miles	IsDistanceFrom	jills house
+3	Panda Express	HasAddress	842 Arrowhead Way
+3	Panda Express	HasType	chinese restaurant
+3	842 Arrowhead Way	IsAddressOf	Panda Express
+3	chinese restaurant	IsTypeOf	Panda Express
+3	Panda Express	HasTraffic	no traffic
+3	Panda Express	HasDistance	6 miles
+3	no traffic	IsTrafficOf	Panda Express
+3	6 miles	IsDistanceFrom	Panda Express
+4	Hacienda Market	HasAddress	1313 Chester Ave
+4	Hacienda Market	HasType	grocery store
+4	1313 Chester Ave	IsAddressOf	Hacienda Market
+4	grocery store	IsTypeOf	Hacienda Market
+4	Hacienda Market	HasTraffic	heavy traffic
+4	Hacienda Market	HasDistance	2 miles
+4	heavy traffic	IsTrafficOf	Hacienda Market
+4	2 miles	IsDistanceFrom	Hacienda Market
+5	Sigona Farmers Market	HasAddress	638 Amherst St
+5	Sigona Farmers Market	HasType	grocery store
+5	638 Amherst St	IsAddressOf	Sigona Farmers Market
+5	grocery store	IsTypeOf	Sigona Farmers Market
+5	Sigona Farmers Market	HasTraffic	moderate traffic
+5	Sigona Farmers Market	HasDistance	6 miles
+5	moderate traffic	IsTrafficOf	Sigona Farmers Market
+5	6 miles	IsDistanceFrom	Sigona Farmers Market
+6	P.F. Changs	HasAddress	669 El Camino Real
+6	P.F. Changs	HasType	chinese restaurant
+6	669 El Camino Real	IsAddressOf	P.F. Changs
+6	chinese restaurant	IsTypeOf	P.F. Changs
+6	P.F. Changs	HasTraffic	car collision nearby
+6	P.F. Changs	HasDistance	4 miles
+6	car collision nearby	IsTrafficOf	P.F. Changs
+6	4 miles	IsDistanceFrom	P.F. Changs
+7	home	HasAddress	10 ames street
+7	home	HasType	home
+7	10 ames street	IsAddressOf	home
+7	home	IsTypeOf	home
+7	home	HasTraffic	heavy traffic
+7	home	HasDistance	7 miles
+7	heavy traffic	IsTrafficOf	home
+7	7 miles	IsDistanceFrom	home
+-1	today	IsEqualTo	monday

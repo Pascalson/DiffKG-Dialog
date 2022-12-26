@@ -1,0 +1,31 @@
+0	meeting	HasTime	10am
+0	10am	IsTimeOf	meeting
+0	meeting	HasDate	friday
+0	friday	IsDateOf	meeting
+0	meeting	HasParty	infrastructure team
+0	infrastructure team	IsPartyOf	meeting
+0	meeting	HasRoom	conference room 100
+0	conference room 100	IsRoomOf	meeting
+0	meeting	HasAgenda	discuss the company picnic
+0	discuss the company picnic	IsAgendaOf	meeting
+1	tennis activity	HasTime	10am
+1	10am	IsTimeOf	tennis activity
+1	tennis activity	HasDate	thursday
+1	thursday	IsDateOf	tennis activity
+2	dinner	HasTime	5pm
+2	5pm	IsTimeOf	dinner
+2	dinner	HasDate	monday
+2	monday	IsDateOf	dinner
+3	dentist appointment	HasTime	11am
+3	11am	IsTimeOf	dentist appointment
+3	dentist appointment	HasDate	tuesday
+3	tuesday	IsDateOf	dentist appointment
+4	swimming activity	HasTime	2pm
+4	2pm	IsTimeOf	swimming activity
+4	swimming activity	HasDate	tuesday
+4	tuesday	IsDateOf	swimming activity
+5	doctor appointment	HasTime	10am
+5	10am	IsTimeOf	doctor appointment
+5	doctor appointment	HasDate	wednesday
+5	wednesday	IsDateOf	doctor appointment
+-1	today	IsEqualTo	monday

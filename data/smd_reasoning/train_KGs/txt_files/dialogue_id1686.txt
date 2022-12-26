@@ -1,0 +1,57 @@
+0	Chef Chu's	HasAddress	593 Arrowhead Way
+0	Chef Chu's	HasType	chinese restaurant
+0	593 Arrowhead Way	IsAddressOf	Chef Chu's
+0	chinese restaurant	IsTypeOf	Chef Chu's
+0	Chef Chu's	HasTraffic	heavy traffic
+0	Chef Chu's	HasDistance	5 miles
+0	heavy traffic	IsTrafficOf	Chef Chu's
+0	5 miles	IsDistanceFrom	Chef Chu's
+1	Town and Country	HasAddress	383 University Ave
+1	Town and Country	HasType	shopping center
+1	383 University Ave	IsAddressOf	Town and Country
+1	shopping center	IsTypeOf	Town and Country
+1	Town and Country	HasTraffic	heavy traffic
+1	Town and Country	HasDistance	4 miles
+1	heavy traffic	IsTrafficOf	Town and Country
+1	4 miles	IsDistanceFrom	Town and Country
+2	Comfort Inn	HasAddress	753 University Ave
+2	Comfort Inn	HasType	rest stop
+2	753 University Ave	IsAddressOf	Comfort Inn
+2	rest stop	IsTypeOf	Comfort Inn
+2	Comfort Inn	HasTraffic	no traffic
+2	Comfort Inn	HasDistance	5 miles
+2	no traffic	IsTrafficOf	Comfort Inn
+2	5 miles	IsDistanceFrom	Comfort Inn
+3	Philz	HasAddress	583 Alester Ave
+3	Philz	HasType	coffee or tea place
+3	583 Alester Ave	IsAddressOf	Philz
+3	coffee or tea place	IsTypeOf	Philz
+3	Philz	HasTraffic	moderate traffic
+3	Philz	HasDistance	2 miles
+3	moderate traffic	IsTrafficOf	Philz
+3	2 miles	IsDistanceFrom	Philz
+4	5672 barringer street	HasAddress	5672 barringer street
+4	5672 barringer street	HasType	certain address
+4	5672 barringer street	IsAddressOf	5672 barringer street
+4	certain address	IsTypeOf	5672 barringer street
+4	5672 barringer street	HasTraffic	heavy traffic
+4	5672 barringer street	HasDistance	5 miles
+4	heavy traffic	IsTrafficOf	5672 barringer street
+4	5 miles	IsDistanceFrom	5672 barringer street
+5	home	HasAddress	5671 barringer street
+5	home	HasType	home
+5	5671 barringer street	IsAddressOf	home
+5	home	IsTypeOf	home
+5	home	HasTraffic	heavy traffic
+5	home	HasDistance	4 miles
+5	heavy traffic	IsTrafficOf	home
+5	4 miles	IsDistanceFrom	home
+6	Cafe Venetia	HasAddress	269 Alger Dr
+6	Cafe Venetia	HasType	coffee or tea place
+6	269 Alger Dr	IsAddressOf	Cafe Venetia
+6	coffee or tea place	IsTypeOf	Cafe Venetia
+6	Cafe Venetia	HasTraffic	no traffic
+6	Cafe Venetia	HasDistance	4 miles
+6	no traffic	IsTrafficOf	Cafe Venetia
+6	4 miles	IsDistanceFrom	Cafe Venetia
+-1	today	IsEqualTo	monday

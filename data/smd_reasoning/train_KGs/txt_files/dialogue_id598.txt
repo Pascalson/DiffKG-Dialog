@@ -1,0 +1,57 @@
+0	Hotel Keen	HasAddress	578 Arbol Dr
+0	Hotel Keen	HasType	rest stop
+0	578 Arbol Dr	IsAddressOf	Hotel Keen
+0	rest stop	IsTypeOf	Hotel Keen
+0	Hotel Keen	HasTraffic	heavy traffic
+0	Hotel Keen	HasDistance	5 miles
+0	heavy traffic	IsTrafficOf	Hotel Keen
+0	5 miles	IsDistanceFrom	Hotel Keen
+1	Pizza Chicago	HasAddress	915 Arbol Dr
+1	Pizza Chicago	HasType	pizza restaurant
+1	915 Arbol Dr	IsAddressOf	Pizza Chicago
+1	pizza restaurant	IsTypeOf	Pizza Chicago
+1	Pizza Chicago	HasTraffic	heavy traffic
+1	Pizza Chicago	HasDistance	6 miles
+1	heavy traffic	IsTrafficOf	Pizza Chicago
+1	6 miles	IsDistanceFrom	Pizza Chicago
+2	Palo Alto Cafe	HasAddress	436 Alger Dr
+2	Palo Alto Cafe	HasType	coffee or tea place
+2	436 Alger Dr	IsAddressOf	Palo Alto Cafe
+2	coffee or tea place	IsTypeOf	Palo Alto Cafe
+2	Palo Alto Cafe	HasTraffic	no traffic
+2	Palo Alto Cafe	HasDistance	5 miles
+2	no traffic	IsTrafficOf	Palo Alto Cafe
+2	5 miles	IsDistanceFrom	Palo Alto Cafe
+3	Starbucks	HasAddress	792 Bedoin Street
+3	Starbucks	HasType	coffee or tea place
+3	792 Bedoin Street	IsAddressOf	Starbucks
+3	coffee or tea place	IsTypeOf	Starbucks
+3	Starbucks	HasTraffic	no traffic
+3	Starbucks	HasDistance	6 miles
+3	no traffic	IsTrafficOf	Starbucks
+3	6 miles	IsDistanceFrom	Starbucks
+4	Whole Foods	HasAddress	819 Alma St
+4	Whole Foods	HasType	grocery store
+4	819 Alma St	IsAddressOf	Whole Foods
+4	grocery store	IsTypeOf	Whole Foods
+4	Whole Foods	HasTraffic	heavy traffic
+4	Whole Foods	HasDistance	2 miles
+4	heavy traffic	IsTrafficOf	Whole Foods
+4	2 miles	IsDistanceFrom	Whole Foods
+5	Philz	HasAddress	583 Alester Ave
+5	Philz	HasType	coffee or tea place
+5	583 Alester Ave	IsAddressOf	Philz
+5	coffee or tea place	IsTypeOf	Philz
+5	Philz	HasTraffic	moderate traffic
+5	Philz	HasDistance	2 miles
+5	moderate traffic	IsTrafficOf	Philz
+5	2 miles	IsDistanceFrom	Philz
+6	Ravenswood Shopping Center	HasAddress	434 Arastradero Rd
+6	Ravenswood Shopping Center	HasType	shopping center
+6	434 Arastradero Rd	IsAddressOf	Ravenswood Shopping Center
+6	shopping center	IsTypeOf	Ravenswood Shopping Center
+6	Ravenswood Shopping Center	HasTraffic	heavy traffic
+6	Ravenswood Shopping Center	HasDistance	4 miles
+6	heavy traffic	IsTrafficOf	Ravenswood Shopping Center
+6	4 miles	IsDistanceFrom	Ravenswood Shopping Center
+-1	today	IsEqualTo	monday

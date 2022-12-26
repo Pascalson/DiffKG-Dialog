@@ -1,0 +1,65 @@
+0	The Westin	HasAddress	329 El Camino Real
+0	The Westin	HasType	rest stop
+0	329 El Camino Real	IsAddressOf	The Westin
+0	rest stop	IsTypeOf	The Westin
+0	The Westin	HasTraffic	heavy traffic
+0	The Westin	HasDistance	5 miles
+0	heavy traffic	IsTrafficOf	The Westin
+0	5 miles	IsDistanceFrom	The Westin
+1	Civic Center Garage	HasAddress	270 Altaire Walk
+1	Civic Center Garage	HasType	parking garage
+1	270 Altaire Walk	IsAddressOf	Civic Center Garage
+1	parking garage	IsTypeOf	Civic Center Garage
+1	Civic Center Garage	HasTraffic	road block nearby
+1	Civic Center Garage	HasDistance	6 miles
+1	road block nearby	IsTrafficOf	Civic Center Garage
+1	6 miles	IsDistanceFrom	Civic Center Garage
+2	jills house	HasAddress	347 Alta Mesa Ave
+2	jills house	HasType	friends house
+2	347 Alta Mesa Ave	IsAddressOf	jills house
+2	friends house	IsTypeOf	jills house
+2	jills house	HasTraffic	car collision nearby
+2	jills house	HasDistance	4 miles
+2	car collision nearby	IsTrafficOf	jills house
+2	4 miles	IsDistanceFrom	jills house
+3	jacks house	HasAddress	864 Almanor Ln
+3	jacks house	HasType	friends house
+3	864 Almanor Ln	IsAddressOf	jacks house
+3	friends house	IsTypeOf	jacks house
+3	jacks house	HasTraffic	car collision nearby
+3	jacks house	HasDistance	2 miles
+3	car collision nearby	IsTrafficOf	jacks house
+3	2 miles	IsDistanceFrom	jacks house
+4	Chevron	HasAddress	783 Arcadia Pl
+4	Chevron	HasType	gas station
+4	783 Arcadia Pl	IsAddressOf	Chevron
+4	gas station	IsTypeOf	Chevron
+4	Chevron	HasTraffic	no traffic
+4	Chevron	HasDistance	8 miles
+4	no traffic	IsTrafficOf	Chevron
+4	8 miles	IsDistanceFrom	Chevron
+5	Town and Country	HasAddress	383 University Ave
+5	Town and Country	HasType	shopping center
+5	383 University Ave	IsAddressOf	Town and Country
+5	shopping center	IsTypeOf	Town and Country
+5	Town and Country	HasTraffic	no traffic
+5	Town and Country	HasDistance	4 miles
+5	no traffic	IsTrafficOf	Town and Country
+5	4 miles	IsDistanceFrom	Town and Country
+6	The Clement Hotel	HasAddress	657 Ames Ave
+6	The Clement Hotel	HasType	rest stop
+6	657 Ames Ave	IsAddressOf	The Clement Hotel
+6	rest stop	IsTypeOf	The Clement Hotel
+6	The Clement Hotel	HasTraffic	heavy traffic
+6	The Clement Hotel	HasDistance	3 miles
+6	heavy traffic	IsTrafficOf	The Clement Hotel
+6	3 miles	IsDistanceFrom	The Clement Hotel
+7	Midtown Shopping Center	HasAddress	338 Alester Ave
+7	Midtown Shopping Center	HasType	shopping center
+7	338 Alester Ave	IsAddressOf	Midtown Shopping Center
+7	shopping center	IsTypeOf	Midtown Shopping Center
+7	Midtown Shopping Center	HasTraffic	road block nearby
+7	Midtown Shopping Center	HasDistance	1 miles
+7	road block nearby	IsTrafficOf	Midtown Shopping Center
+7	1 miles	IsDistanceFrom	Midtown Shopping Center
+-1	today	IsEqualTo	monday

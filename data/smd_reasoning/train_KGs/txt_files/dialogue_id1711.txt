@@ -1,0 +1,57 @@
+0	5677 springer street	HasAddress	5677 springer street
+0	5677 springer street	HasType	certain address
+0	5677 springer street	IsAddressOf	5677 springer street
+0	certain address	IsTypeOf	5677 springer street
+0	5677 springer street	HasTraffic	no traffic
+0	5677 springer street	HasDistance	4 miles
+0	no traffic	IsTrafficOf	5677 springer street
+0	4 miles	IsDistanceFrom	5677 springer street
+1	Trader Joes	HasAddress	408 University Ave
+1	Trader Joes	HasType	grocery store
+1	408 University Ave	IsAddressOf	Trader Joes
+1	grocery store	IsTypeOf	Trader Joes
+1	Trader Joes	HasTraffic	heavy traffic
+1	Trader Joes	HasDistance	6 miles
+1	heavy traffic	IsTrafficOf	Trader Joes
+1	6 miles	IsDistanceFrom	Trader Joes
+2	Chevron	HasAddress	783 Arcadia Pl
+2	Chevron	HasType	gas station
+2	783 Arcadia Pl	IsAddressOf	Chevron
+2	gas station	IsTypeOf	Chevron
+2	Chevron	HasTraffic	heavy traffic
+2	Chevron	HasDistance	6 miles
+2	heavy traffic	IsTrafficOf	Chevron
+2	6 miles	IsDistanceFrom	Chevron
+3	Hotel Keen	HasAddress	578 Arbol Dr
+3	Hotel Keen	HasType	rest stop
+3	578 Arbol Dr	IsAddressOf	Hotel Keen
+3	rest stop	IsTypeOf	Hotel Keen
+3	Hotel Keen	HasTraffic	no traffic
+3	Hotel Keen	HasDistance	2 miles
+3	no traffic	IsTrafficOf	Hotel Keen
+3	2 miles	IsDistanceFrom	Hotel Keen
+4	Valero	HasAddress	200 Alester Ave
+4	Valero	HasType	gas station
+4	200 Alester Ave	IsAddressOf	Valero
+4	gas station	IsTypeOf	Valero
+4	Valero	HasTraffic	moderate traffic
+4	Valero	HasDistance	6 miles
+4	moderate traffic	IsTrafficOf	Valero
+4	6 miles	IsDistanceFrom	Valero
+5	Pizza Hut	HasAddress	704 El Camino Real
+5	Pizza Hut	HasType	pizza restaurant
+5	704 El Camino Real	IsAddressOf	Pizza Hut
+5	pizza restaurant	IsTypeOf	Pizza Hut
+5	Pizza Hut	HasTraffic	moderate traffic
+5	Pizza Hut	HasDistance	5 miles
+5	moderate traffic	IsTrafficOf	Pizza Hut
+5	5 miles	IsDistanceFrom	Pizza Hut
+6	P.F. Changs	HasAddress	669 El Camino Real
+6	P.F. Changs	HasType	chinese restaurant
+6	669 El Camino Real	IsAddressOf	P.F. Changs
+6	chinese restaurant	IsTypeOf	P.F. Changs
+6	P.F. Changs	HasTraffic	no traffic
+6	P.F. Changs	HasDistance	6 miles
+6	no traffic	IsTrafficOf	P.F. Changs
+6	6 miles	IsDistanceFrom	P.F. Changs
+-1	today	IsEqualTo	monday

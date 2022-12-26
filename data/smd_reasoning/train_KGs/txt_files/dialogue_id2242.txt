@@ -1,0 +1,31 @@
+0	lab appointment	HasTime	11am
+0	11am	IsTimeOf	lab appointment
+0	lab appointment	HasDate	monday
+0	monday	IsDateOf	lab appointment
+1	swimming activity	HasTime	3pm
+1	3pm	IsTimeOf	swimming activity
+1	swimming activity	HasDate	wednesday
+1	wednesday	IsDateOf	swimming activity
+2	yoga activity	HasTime	3pm
+2	3pm	IsTimeOf	yoga activity
+2	yoga activity	HasDate	friday
+2	friday	IsDateOf	yoga activity
+3	doctor appointment	HasTime	2pm
+3	2pm	IsTimeOf	doctor appointment
+3	doctor appointment	HasDate	friday
+3	friday	IsDateOf	doctor appointment
+4	conference	HasTime	3pm
+4	3pm	IsTimeOf	conference
+4	conference	HasDate	wednesday
+4	wednesday	IsDateOf	conference
+4	conference	HasParty	executive team
+4	executive team	IsPartyOf	conference
+4	conference	HasRoom	conference room 100
+4	conference room 100	IsRoomOf	conference
+4	conference	HasAgenda	discuss the company picnic
+4	discuss the company picnic	IsAgendaOf	conference
+5	dentist appointment	HasTime	1pm
+5	1pm	IsTimeOf	dentist appointment
+5	dentist appointment	HasDate	tuesday
+5	tuesday	IsDateOf	dentist appointment
+-1	today	IsEqualTo	monday

@@ -1,0 +1,65 @@
+0	Travelers Lodge	HasAddress	333 Arbol Dr
+0	Travelers Lodge	HasType	rest stop
+0	333 Arbol Dr	IsAddressOf	Travelers Lodge
+0	rest stop	IsTypeOf	Travelers Lodge
+0	Travelers Lodge	HasTraffic	car collision nearby
+0	Travelers Lodge	HasDistance	3 miles
+0	car collision nearby	IsTrafficOf	Travelers Lodge
+0	3 miles	IsDistanceFrom	Travelers Lodge
+1	tai pan	HasAddress	830 Almanor Ln
+1	tai pan	HasType	chinese restaurant
+1	830 Almanor Ln	IsAddressOf	tai pan
+1	chinese restaurant	IsTypeOf	tai pan
+1	tai pan	HasTraffic	car collision nearby
+1	tai pan	HasDistance	2 miles
+1	car collision nearby	IsTrafficOf	tai pan
+1	2 miles	IsDistanceFrom	tai pan
+2	Coupa	HasAddress	394 Van Ness Ave
+2	Coupa	HasType	coffee or tea place
+2	394 Van Ness Ave	IsAddressOf	Coupa
+2	coffee or tea place	IsTypeOf	Coupa
+2	Coupa	HasTraffic	road block nearby
+2	Coupa	HasDistance	5 miles
+2	road block nearby	IsTrafficOf	Coupa
+2	5 miles	IsDistanceFrom	Coupa
+3	Round Table	HasAddress	113 Anton Ct
+3	Round Table	HasType	pizza restaurant
+3	113 Anton Ct	IsAddressOf	Round Table
+3	pizza restaurant	IsTypeOf	Round Table
+3	Round Table	HasTraffic	heavy traffic
+3	Round Table	HasDistance	2 miles
+3	heavy traffic	IsTrafficOf	Round Table
+3	2 miles	IsDistanceFrom	Round Table
+4	Teavana	HasAddress	145 Amherst St
+4	Teavana	HasType	coffee or tea place
+4	145 Amherst St	IsAddressOf	Teavana
+4	coffee or tea place	IsTypeOf	Teavana
+4	Teavana	HasTraffic	heavy traffic
+4	Teavana	HasDistance	3 miles
+4	heavy traffic	IsTrafficOf	Teavana
+4	3 miles	IsDistanceFrom	Teavana
+5	Topanga Mall	HasAddress	171 Oak Rd
+5	Topanga Mall	HasType	shopping center
+5	171 Oak Rd	IsAddressOf	Topanga Mall
+5	shopping center	IsTypeOf	Topanga Mall
+5	Topanga Mall	HasTraffic	road block nearby
+5	Topanga Mall	HasDistance	8 miles
+5	road block nearby	IsTrafficOf	Topanga Mall
+5	8 miles	IsDistanceFrom	Topanga Mall
+6	P.F. Changs	HasAddress	669 El Camino Real
+6	P.F. Changs	HasType	chinese restaurant
+6	669 El Camino Real	IsAddressOf	P.F. Changs
+6	chinese restaurant	IsTypeOf	P.F. Changs
+6	P.F. Changs	HasTraffic	no traffic
+6	P.F. Changs	HasDistance	6 miles
+6	no traffic	IsTrafficOf	P.F. Changs
+6	6 miles	IsDistanceFrom	P.F. Changs
+7	5677 southwest 4th street	HasAddress	5677 southwest 4th street
+7	5677 southwest 4th street	HasType	certain address
+7	5677 southwest 4th street	IsAddressOf	5677 southwest 4th street
+7	certain address	IsTypeOf	5677 southwest 4th street
+7	5677 southwest 4th street	HasTraffic	road block nearby
+7	5677 southwest 4th street	HasDistance	2 miles
+7	road block nearby	IsTrafficOf	5677 southwest 4th street
+7	2 miles	IsDistanceFrom	5677 southwest 4th street
+-1	today	IsEqualTo	monday

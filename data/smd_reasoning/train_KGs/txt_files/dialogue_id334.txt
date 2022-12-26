@@ -1,0 +1,65 @@
+0	Jing Jing	HasAddress	113 Arbol Dr
+0	Jing Jing	HasType	chinese restaurant
+0	113 Arbol Dr	IsAddressOf	Jing Jing
+0	chinese restaurant	IsTypeOf	Jing Jing
+0	Jing Jing	HasTraffic	car collision nearby
+0	Jing Jing	HasDistance	7 miles
+0	car collision nearby	IsTrafficOf	Jing Jing
+0	7 miles	IsDistanceFrom	Jing Jing
+1	Mandarin Roots	HasAddress	271 Springer Street
+1	Mandarin Roots	HasType	chinese restaurant
+1	271 Springer Street	IsAddressOf	Mandarin Roots
+1	chinese restaurant	IsTypeOf	Mandarin Roots
+1	Mandarin Roots	HasTraffic	heavy traffic
+1	Mandarin Roots	HasDistance	4 miles
+1	heavy traffic	IsTrafficOf	Mandarin Roots
+1	4 miles	IsDistanceFrom	Mandarin Roots
+2	tai pan	HasAddress	830 Almanor Ln
+2	tai pan	HasType	chinese restaurant
+2	830 Almanor Ln	IsAddressOf	tai pan
+2	chinese restaurant	IsTypeOf	tai pan
+2	tai pan	HasTraffic	moderate traffic
+2	tai pan	HasDistance	1 miles
+2	moderate traffic	IsTrafficOf	tai pan
+2	1 miles	IsDistanceFrom	tai pan
+3	Papa Johns	HasAddress	110 Arastradero Rd
+3	Papa Johns	HasType	pizza restaurant
+3	110 Arastradero Rd	IsAddressOf	Papa Johns
+3	pizza restaurant	IsTypeOf	Papa Johns
+3	Papa Johns	HasTraffic	car collision nearby
+3	Papa Johns	HasDistance	4 miles
+3	car collision nearby	IsTrafficOf	Papa Johns
+3	4 miles	IsDistanceFrom	Papa Johns
+4	Stanford Shopping Center	HasAddress	773 Alger Dr
+4	Stanford Shopping Center	HasType	shopping center
+4	773 Alger Dr	IsAddressOf	Stanford Shopping Center
+4	shopping center	IsTypeOf	Stanford Shopping Center
+4	Stanford Shopping Center	HasTraffic	heavy traffic
+4	Stanford Shopping Center	HasDistance	6 miles
+4	heavy traffic	IsTrafficOf	Stanford Shopping Center
+4	6 miles	IsDistanceFrom	Stanford Shopping Center
+5	Palo Alto Garage R	HasAddress	481 Amaranta Ave
+5	Palo Alto Garage R	HasType	parking garage
+5	481 Amaranta Ave	IsAddressOf	Palo Alto Garage R
+5	parking garage	IsTypeOf	Palo Alto Garage R
+5	Palo Alto Garage R	HasTraffic	road block nearby
+5	Palo Alto Garage R	HasDistance	1 miles
+5	road block nearby	IsTrafficOf	Palo Alto Garage R
+5	1 miles	IsDistanceFrom	Palo Alto Garage R
+6	home	HasAddress	5671 barringer street
+6	home	HasType	home
+6	5671 barringer street	IsAddressOf	home
+6	home	IsTypeOf	home
+6	home	HasTraffic	road block nearby
+6	home	HasDistance	4 miles
+6	road block nearby	IsTrafficOf	home
+6	4 miles	IsDistanceFrom	home
+7	home	HasAddress	56 cadwell street
+7	home	HasType	home
+7	56 cadwell street	IsAddressOf	home
+7	home	IsTypeOf	home
+7	home	HasTraffic	no traffic
+7	home	HasDistance	2 miles
+7	no traffic	IsTrafficOf	home
+7	2 miles	IsDistanceFrom	home
+-1	today	IsEqualTo	monday

@@ -1,0 +1,57 @@
+0	Teavana	HasAddress	145 Amherst St
+0	Teavana	HasType	coffee or tea place
+0	145 Amherst St	IsAddressOf	Teavana
+0	coffee or tea place	IsTypeOf	Teavana
+0	Teavana	HasTraffic	no traffic
+0	Teavana	HasDistance	6 miles
+0	no traffic	IsTrafficOf	Teavana
+0	6 miles	IsDistanceFrom	Teavana
+1	jills house	HasAddress	347 Alta Mesa Ave
+1	jills house	HasType	friends house
+1	347 Alta Mesa Ave	IsAddressOf	jills house
+1	friends house	IsTypeOf	jills house
+1	jills house	HasTraffic	no traffic
+1	jills house	HasDistance	6 miles
+1	no traffic	IsTrafficOf	jills house
+1	6 miles	IsDistanceFrom	jills house
+2	Philz	HasAddress	583 Alester Ave
+2	Philz	HasType	coffee or tea place
+2	583 Alester Ave	IsAddressOf	Philz
+2	coffee or tea place	IsTypeOf	Philz
+2	Philz	HasTraffic	no traffic
+2	Philz	HasDistance	3 miles
+2	no traffic	IsTrafficOf	Philz
+2	3 miles	IsDistanceFrom	Philz
+3	5677 southwest 4th street	HasAddress	5677 southwest 4th street
+3	5677 southwest 4th street	HasType	certain address
+3	5677 southwest 4th street	IsAddressOf	5677 southwest 4th street
+3	certain address	IsTypeOf	5677 southwest 4th street
+3	5677 southwest 4th street	HasTraffic	heavy traffic
+3	5677 southwest 4th street	HasDistance	5 miles
+3	heavy traffic	IsTrafficOf	5677 southwest 4th street
+3	5 miles	IsDistanceFrom	5677 southwest 4th street
+4	Pizza Chicago	HasAddress	915 Arbol Dr
+4	Pizza Chicago	HasType	pizza restaurant
+4	915 Arbol Dr	IsAddressOf	Pizza Chicago
+4	pizza restaurant	IsTypeOf	Pizza Chicago
+4	Pizza Chicago	HasTraffic	moderate traffic
+4	Pizza Chicago	HasDistance	3 miles
+4	moderate traffic	IsTrafficOf	Pizza Chicago
+4	3 miles	IsDistanceFrom	Pizza Chicago
+5	Starbucks	HasAddress	792 Bedoin Street
+5	Starbucks	HasType	coffee or tea place
+5	792 Bedoin Street	IsAddressOf	Starbucks
+5	coffee or tea place	IsTypeOf	Starbucks
+5	Starbucks	HasTraffic	moderate traffic
+5	Starbucks	HasDistance	6 miles
+5	moderate traffic	IsTrafficOf	Starbucks
+5	6 miles	IsDistanceFrom	Starbucks
+6	Round Table	HasAddress	113 Anton Ct
+6	Round Table	HasType	pizza restaurant
+6	113 Anton Ct	IsAddressOf	Round Table
+6	pizza restaurant	IsTypeOf	Round Table
+6	Round Table	HasTraffic	heavy traffic
+6	Round Table	HasDistance	6 miles
+6	heavy traffic	IsTrafficOf	Round Table
+6	6 miles	IsDistanceFrom	Round Table
+-1	today	IsEqualTo	monday

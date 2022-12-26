@@ -1,0 +1,65 @@
+0	jills house	HasAddress	347 Alta Mesa Ave
+0	jills house	HasType	friends house
+0	347 Alta Mesa Ave	IsAddressOf	jills house
+0	friends house	IsTypeOf	jills house
+0	jills house	HasTraffic	no traffic
+0	jills house	HasDistance	3 miles
+0	no traffic	IsTrafficOf	jills house
+0	3 miles	IsDistanceFrom	jills house
+1	Topanga Mall	HasAddress	171 Oak Rd
+1	Topanga Mall	HasType	shopping center
+1	171 Oak Rd	IsAddressOf	Topanga Mall
+1	shopping center	IsTypeOf	Topanga Mall
+1	Topanga Mall	HasTraffic	road block nearby
+1	Topanga Mall	HasDistance	4 miles
+1	road block nearby	IsTrafficOf	Topanga Mall
+1	4 miles	IsDistanceFrom	Topanga Mall
+2	Webster Garage	HasAddress	880 Ames Ct
+2	Webster Garage	HasType	parking garage
+2	880 Ames Ct	IsAddressOf	Webster Garage
+2	parking garage	IsTypeOf	Webster Garage
+2	Webster Garage	HasTraffic	heavy traffic
+2	Webster Garage	HasDistance	5 miles
+2	heavy traffic	IsTrafficOf	Webster Garage
+2	5 miles	IsDistanceFrom	Webster Garage
+3	Stanford Shopping Center	HasAddress	773 Alger Dr
+3	Stanford Shopping Center	HasType	shopping center
+3	773 Alger Dr	IsAddressOf	Stanford Shopping Center
+3	shopping center	IsTypeOf	Stanford Shopping Center
+3	Stanford Shopping Center	HasTraffic	moderate traffic
+3	Stanford Shopping Center	HasDistance	1 miles
+3	moderate traffic	IsTrafficOf	Stanford Shopping Center
+3	1 miles	IsDistanceFrom	Stanford Shopping Center
+4	Stanford Express Care	HasAddress	214 El Camino Real
+4	Stanford Express Care	HasType	hospital
+4	214 El Camino Real	IsAddressOf	Stanford Express Care
+4	hospital	IsTypeOf	Stanford Express Care
+4	Stanford Express Care	HasTraffic	car collision nearby
+4	Stanford Express Care	HasDistance	1 miles
+4	car collision nearby	IsTrafficOf	Stanford Express Care
+4	1 miles	IsDistanceFrom	Stanford Express Care
+5	Stanford Oval Parking	HasAddress	610 Amarillo Ave
+5	Stanford Oval Parking	HasType	parking garage
+5	610 Amarillo Ave	IsAddressOf	Stanford Oval Parking
+5	parking garage	IsTypeOf	Stanford Oval Parking
+5	Stanford Oval Parking	HasTraffic	moderate traffic
+5	Stanford Oval Parking	HasDistance	6 miles
+5	moderate traffic	IsTrafficOf	Stanford Oval Parking
+5	6 miles	IsDistanceFrom	Stanford Oval Parking
+6	5672 barringer street	HasAddress	5672 barringer street
+6	5672 barringer street	HasType	certain address
+6	5672 barringer street	IsAddressOf	5672 barringer street
+6	certain address	IsTypeOf	5672 barringer street
+6	5672 barringer street	HasTraffic	heavy traffic
+6	5672 barringer street	HasDistance	5 miles
+6	heavy traffic	IsTrafficOf	5672 barringer street
+6	5 miles	IsDistanceFrom	5672 barringer street
+7	Ravenswood Shopping Center	HasAddress	434 Arastradero Rd
+7	Ravenswood Shopping Center	HasType	shopping center
+7	434 Arastradero Rd	IsAddressOf	Ravenswood Shopping Center
+7	shopping center	IsTypeOf	Ravenswood Shopping Center
+7	Ravenswood Shopping Center	HasTraffic	heavy traffic
+7	Ravenswood Shopping Center	HasDistance	2 miles
+7	heavy traffic	IsTrafficOf	Ravenswood Shopping Center
+7	2 miles	IsDistanceFrom	Ravenswood Shopping Center
+-1	today	IsEqualTo	monday

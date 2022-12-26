@@ -1,0 +1,57 @@
+0	Chef Chu's	HasAddress	593 Arrowhead Way
+0	Chef Chu's	HasType	chinese restaurant
+0	593 Arrowhead Way	IsAddressOf	Chef Chu's
+0	chinese restaurant	IsTypeOf	Chef Chu's
+0	Chef Chu's	HasTraffic	heavy traffic
+0	Chef Chu's	HasDistance	6 miles
+0	heavy traffic	IsTrafficOf	Chef Chu's
+0	6 miles	IsDistanceFrom	Chef Chu's
+1	tai pan	HasAddress	830 Almanor Ln
+1	tai pan	HasType	chinese restaurant
+1	830 Almanor Ln	IsAddressOf	tai pan
+1	chinese restaurant	IsTypeOf	tai pan
+1	tai pan	HasTraffic	heavy traffic
+1	tai pan	HasDistance	3 miles
+1	heavy traffic	IsTrafficOf	tai pan
+1	3 miles	IsDistanceFrom	tai pan
+2	Whole Foods	HasAddress	819 Alma St
+2	Whole Foods	HasType	grocery store
+2	819 Alma St	IsAddressOf	Whole Foods
+2	grocery store	IsTypeOf	Whole Foods
+2	Whole Foods	HasTraffic	heavy traffic
+2	Whole Foods	HasDistance	6 miles
+2	heavy traffic	IsTrafficOf	Whole Foods
+2	6 miles	IsDistanceFrom	Whole Foods
+3	Palo Alto Garage R	HasAddress	481 Amaranta Ave
+3	Palo Alto Garage R	HasType	parking garage
+3	481 Amaranta Ave	IsAddressOf	Palo Alto Garage R
+3	parking garage	IsTypeOf	Palo Alto Garage R
+3	Palo Alto Garage R	HasTraffic	no traffic
+3	Palo Alto Garage R	HasDistance	5 miles
+3	no traffic	IsTrafficOf	Palo Alto Garage R
+3	5 miles	IsDistanceFrom	Palo Alto Garage R
+4	Town and Country	HasAddress	383 University Ave
+4	Town and Country	HasType	shopping center
+4	383 University Ave	IsAddressOf	Town and Country
+4	shopping center	IsTypeOf	Town and Country
+4	Town and Country	HasTraffic	heavy traffic
+4	Town and Country	HasDistance	6 miles
+4	heavy traffic	IsTrafficOf	Town and Country
+4	6 miles	IsDistanceFrom	Town and Country
+5	Midtown Shopping Center	HasAddress	338 Alester Ave
+5	Midtown Shopping Center	HasType	shopping center
+5	338 Alester Ave	IsAddressOf	Midtown Shopping Center
+5	shopping center	IsTypeOf	Midtown Shopping Center
+5	Midtown Shopping Center	HasTraffic	moderate traffic
+5	Midtown Shopping Center	HasDistance	5 miles
+5	moderate traffic	IsTrafficOf	Midtown Shopping Center
+5	5 miles	IsDistanceFrom	Midtown Shopping Center
+6	Civic Center Garage	HasAddress	270 Altaire Walk
+6	Civic Center Garage	HasType	parking garage
+6	270 Altaire Walk	IsAddressOf	Civic Center Garage
+6	parking garage	IsTypeOf	Civic Center Garage
+6	Civic Center Garage	HasTraffic	moderate traffic
+6	Civic Center Garage	HasDistance	3 miles
+6	moderate traffic	IsTrafficOf	Civic Center Garage
+6	3 miles	IsDistanceFrom	Civic Center Garage
+-1	today	IsEqualTo	monday

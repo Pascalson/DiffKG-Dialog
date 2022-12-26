@@ -1,0 +1,57 @@
+0	jacks house	HasAddress	864 Almanor Ln
+0	jacks house	HasType	friends house
+0	864 Almanor Ln	IsAddressOf	jacks house
+0	friends house	IsTypeOf	jacks house
+0	jacks house	HasTraffic	no traffic
+0	jacks house	HasDistance	6 miles
+0	no traffic	IsTrafficOf	jacks house
+0	6 miles	IsDistanceFrom	jacks house
+1	Pizza Chicago	HasAddress	915 Arbol Dr
+1	Pizza Chicago	HasType	pizza restaurant
+1	915 Arbol Dr	IsAddressOf	Pizza Chicago
+1	pizza restaurant	IsTypeOf	Pizza Chicago
+1	Pizza Chicago	HasTraffic	heavy traffic
+1	Pizza Chicago	HasDistance	6 miles
+1	heavy traffic	IsTrafficOf	Pizza Chicago
+1	6 miles	IsDistanceFrom	Pizza Chicago
+2	Chef Chu's	HasAddress	593 Arrowhead Way
+2	Chef Chu's	HasType	chinese restaurant
+2	593 Arrowhead Way	IsAddressOf	Chef Chu's
+2	chinese restaurant	IsTypeOf	Chef Chu's
+2	Chef Chu's	HasTraffic	heavy traffic
+2	Chef Chu's	HasDistance	5 miles
+2	heavy traffic	IsTrafficOf	Chef Chu's
+2	5 miles	IsDistanceFrom	Chef Chu's
+3	The Westin	HasAddress	329 El Camino Real
+3	The Westin	HasType	rest stop
+3	329 El Camino Real	IsAddressOf	The Westin
+3	rest stop	IsTypeOf	The Westin
+3	The Westin	HasTraffic	no traffic
+3	The Westin	HasDistance	4 miles
+3	no traffic	IsTrafficOf	The Westin
+3	4 miles	IsDistanceFrom	The Westin
+4	5677 springer street	HasAddress	5677 springer street
+4	5677 springer street	HasType	certain address
+4	5677 springer street	IsAddressOf	5677 springer street
+4	certain address	IsTypeOf	5677 springer street
+4	5677 springer street	HasTraffic	no traffic
+4	5677 springer street	HasDistance	1 miles
+4	no traffic	IsTrafficOf	5677 springer street
+4	1 miles	IsDistanceFrom	5677 springer street
+5	Town and Country	HasAddress	383 University Ave
+5	Town and Country	HasType	shopping center
+5	383 University Ave	IsAddressOf	Town and Country
+5	shopping center	IsTypeOf	Town and Country
+5	Town and Country	HasTraffic	heavy traffic
+5	Town and Country	HasDistance	4 miles
+5	heavy traffic	IsTrafficOf	Town and Country
+5	4 miles	IsDistanceFrom	Town and Country
+6	5677 southwest 4th street	HasAddress	5677 southwest 4th street
+6	5677 southwest 4th street	HasType	certain address
+6	5677 southwest 4th street	IsAddressOf	5677 southwest 4th street
+6	certain address	IsTypeOf	5677 southwest 4th street
+6	5677 southwest 4th street	HasTraffic	moderate traffic
+6	5677 southwest 4th street	HasDistance	5 miles
+6	moderate traffic	IsTrafficOf	5677 southwest 4th street
+6	5 miles	IsDistanceFrom	5677 southwest 4th street
+-1	today	IsEqualTo	monday

@@ -1,0 +1,57 @@
+0	Palo Alto Garage R	HasAddress	481 Amaranta Ave
+0	Palo Alto Garage R	HasType	parking garage
+0	481 Amaranta Ave	IsAddressOf	Palo Alto Garage R
+0	parking garage	IsTypeOf	Palo Alto Garage R
+0	Palo Alto Garage R	HasTraffic	no traffic
+0	Palo Alto Garage R	HasDistance	1 miles
+0	no traffic	IsTrafficOf	Palo Alto Garage R
+0	1 miles	IsDistanceFrom	Palo Alto Garage R
+1	Safeway	HasAddress	452 Arcadia Pl
+1	Safeway	HasType	grocery store
+1	452 Arcadia Pl	IsAddressOf	Safeway
+1	grocery store	IsTypeOf	Safeway
+1	Safeway	HasTraffic	no traffic
+1	Safeway	HasDistance	1 miles
+1	no traffic	IsTrafficOf	Safeway
+1	1 miles	IsDistanceFrom	Safeway
+2	Comfort Inn	HasAddress	753 University Ave
+2	Comfort Inn	HasType	rest stop
+2	753 University Ave	IsAddressOf	Comfort Inn
+2	rest stop	IsTypeOf	Comfort Inn
+2	Comfort Inn	HasTraffic	moderate traffic
+2	Comfort Inn	HasDistance	1 miles
+2	moderate traffic	IsTrafficOf	Comfort Inn
+2	1 miles	IsDistanceFrom	Comfort Inn
+3	Stanford Childrens Health	HasAddress	899 Ames Ct
+3	Stanford Childrens Health	HasType	hospital
+3	899 Ames Ct	IsAddressOf	Stanford Childrens Health
+3	hospital	IsTypeOf	Stanford Childrens Health
+3	Stanford Childrens Health	HasTraffic	moderate traffic
+3	Stanford Childrens Health	HasDistance	5 miles
+3	moderate traffic	IsTrafficOf	Stanford Childrens Health
+3	5 miles	IsDistanceFrom	Stanford Childrens Health
+4	Philz	HasAddress	583 Alester Ave
+4	Philz	HasType	coffee or tea place
+4	583 Alester Ave	IsAddressOf	Philz
+4	coffee or tea place	IsTypeOf	Philz
+4	Philz	HasTraffic	no traffic
+4	Philz	HasDistance	6 miles
+4	no traffic	IsTrafficOf	Philz
+4	6 miles	IsDistanceFrom	Philz
+5	Mandarin Roots	HasAddress	271 Springer Street
+5	Mandarin Roots	HasType	chinese restaurant
+5	271 Springer Street	IsAddressOf	Mandarin Roots
+5	chinese restaurant	IsTypeOf	Mandarin Roots
+5	Mandarin Roots	HasTraffic	heavy traffic
+5	Mandarin Roots	HasDistance	4 miles
+5	heavy traffic	IsTrafficOf	Mandarin Roots
+5	4 miles	IsDistanceFrom	Mandarin Roots
+6	Dominos	HasAddress	776 Arastradero Rd
+6	Dominos	HasType	pizza restaurant
+6	776 Arastradero Rd	IsAddressOf	Dominos
+6	pizza restaurant	IsTypeOf	Dominos
+6	Dominos	HasTraffic	moderate traffic
+6	Dominos	HasDistance	2 miles
+6	moderate traffic	IsTrafficOf	Dominos
+6	2 miles	IsDistanceFrom	Dominos
+-1	today	IsEqualTo	monday

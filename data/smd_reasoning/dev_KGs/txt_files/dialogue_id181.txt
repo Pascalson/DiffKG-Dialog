@@ -1,0 +1,57 @@
+0	Stanford Oval Parking	HasAddress	610 Amarillo Ave
+0	Stanford Oval Parking	HasType	parking garage
+0	610 Amarillo Ave	IsAddressOf	Stanford Oval Parking
+0	parking garage	IsTypeOf	Stanford Oval Parking
+0	Stanford Oval Parking	HasTraffic	moderate traffic
+0	Stanford Oval Parking	HasDistance	5 miles
+0	moderate traffic	IsTrafficOf	Stanford Oval Parking
+0	5 miles	IsDistanceFrom	Stanford Oval Parking
+1	Starbucks	HasAddress	792 Bedoin Street
+1	Starbucks	HasType	coffee or tea place
+1	792 Bedoin Street	IsAddressOf	Starbucks
+1	coffee or tea place	IsTypeOf	Starbucks
+1	Starbucks	HasTraffic	no traffic
+1	Starbucks	HasDistance	2 miles
+1	no traffic	IsTrafficOf	Starbucks
+1	2 miles	IsDistanceFrom	Starbucks
+2	Sigona Farmers Market	HasAddress	638 Amherst St
+2	Sigona Farmers Market	HasType	grocery store
+2	638 Amherst St	IsAddressOf	Sigona Farmers Market
+2	grocery store	IsTypeOf	Sigona Farmers Market
+2	Sigona Farmers Market	HasTraffic	no traffic
+2	Sigona Farmers Market	HasDistance	5 miles
+2	no traffic	IsTrafficOf	Sigona Farmers Market
+2	5 miles	IsDistanceFrom	Sigona Farmers Market
+3	Pizza Hut	HasAddress	704 El Camino Real
+3	Pizza Hut	HasType	pizza restaurant
+3	704 El Camino Real	IsAddressOf	Pizza Hut
+3	pizza restaurant	IsTypeOf	Pizza Hut
+3	Pizza Hut	HasTraffic	no traffic
+3	Pizza Hut	HasDistance	1 miles
+3	no traffic	IsTrafficOf	Pizza Hut
+3	1 miles	IsDistanceFrom	Pizza Hut
+4	Round Table	HasAddress	113 Anton Ct
+4	Round Table	HasType	pizza restaurant
+4	113 Anton Ct	IsAddressOf	Round Table
+4	pizza restaurant	IsTypeOf	Round Table
+4	Round Table	HasTraffic	heavy traffic
+4	Round Table	HasDistance	5 miles
+4	heavy traffic	IsTrafficOf	Round Table
+4	5 miles	IsDistanceFrom	Round Table
+5	Teavana	HasAddress	145 Amherst St
+5	Teavana	HasType	coffee or tea place
+5	145 Amherst St	IsAddressOf	Teavana
+5	coffee or tea place	IsTypeOf	Teavana
+5	Teavana	HasTraffic	heavy traffic
+5	Teavana	HasDistance	5 miles
+5	heavy traffic	IsTrafficOf	Teavana
+5	5 miles	IsDistanceFrom	Teavana
+6	home	HasAddress	5671 barringer street
+6	home	HasType	home
+6	5671 barringer street	IsAddressOf	home
+6	home	IsTypeOf	home
+6	home	HasTraffic	moderate traffic
+6	home	HasDistance	2 miles
+6	moderate traffic	IsTrafficOf	home
+6	2 miles	IsDistanceFrom	home
+-1	today	IsEqualTo	monday

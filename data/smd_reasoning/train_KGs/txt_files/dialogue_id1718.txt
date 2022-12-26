@@ -1,0 +1,57 @@
+0	Cafe Venetia	HasAddress	269 Alger Dr
+0	Cafe Venetia	HasType	coffee or tea place
+0	269 Alger Dr	IsAddressOf	Cafe Venetia
+0	coffee or tea place	IsTypeOf	Cafe Venetia
+0	Cafe Venetia	HasTraffic	no traffic
+0	Cafe Venetia	HasDistance	6 miles
+0	no traffic	IsTrafficOf	Cafe Venetia
+0	6 miles	IsDistanceFrom	Cafe Venetia
+1	Pizza Chicago	HasAddress	915 Arbol Dr
+1	Pizza Chicago	HasType	pizza restaurant
+1	915 Arbol Dr	IsAddressOf	Pizza Chicago
+1	pizza restaurant	IsTypeOf	Pizza Chicago
+1	Pizza Chicago	HasTraffic	heavy traffic
+1	Pizza Chicago	HasDistance	2 miles
+1	heavy traffic	IsTrafficOf	Pizza Chicago
+1	2 miles	IsDistanceFrom	Pizza Chicago
+2	Stanford Express Care	HasAddress	214 El Camino Real
+2	Stanford Express Care	HasType	hospital
+2	214 El Camino Real	IsAddressOf	Stanford Express Care
+2	hospital	IsTypeOf	Stanford Express Care
+2	Stanford Express Care	HasTraffic	moderate traffic
+2	Stanford Express Care	HasDistance	6 miles
+2	moderate traffic	IsTrafficOf	Stanford Express Care
+2	6 miles	IsDistanceFrom	Stanford Express Care
+3	home	HasAddress	56 cadwell street
+3	home	HasType	home
+3	56 cadwell street	IsAddressOf	home
+3	home	IsTypeOf	home
+3	home	HasTraffic	heavy traffic
+3	home	HasDistance	5 miles
+3	heavy traffic	IsTrafficOf	home
+3	5 miles	IsDistanceFrom	home
+4	home	HasAddress	5671 barringer street
+4	home	HasType	home
+4	5671 barringer street	IsAddressOf	home
+4	home	IsTypeOf	home
+4	home	HasTraffic	no traffic
+4	home	HasDistance	1 miles
+4	no traffic	IsTrafficOf	home
+4	1 miles	IsDistanceFrom	home
+5	Philz	HasAddress	583 Alester Ave
+5	Philz	HasType	coffee or tea place
+5	583 Alester Ave	IsAddressOf	Philz
+5	coffee or tea place	IsTypeOf	Philz
+5	Philz	HasTraffic	heavy traffic
+5	Philz	HasDistance	2 miles
+5	heavy traffic	IsTrafficOf	Philz
+5	2 miles	IsDistanceFrom	Philz
+6	Round Table	HasAddress	113 Anton Ct
+6	Round Table	HasType	pizza restaurant
+6	113 Anton Ct	IsAddressOf	Round Table
+6	pizza restaurant	IsTypeOf	Round Table
+6	Round Table	HasTraffic	moderate traffic
+6	Round Table	HasDistance	4 miles
+6	moderate traffic	IsTrafficOf	Round Table
+6	4 miles	IsDistanceFrom	Round Table
+-1	today	IsEqualTo	monday

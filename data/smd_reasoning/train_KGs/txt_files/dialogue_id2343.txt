@@ -1,0 +1,65 @@
+0	Travelers Lodge	HasAddress	333 Arbol Dr
+0	Travelers Lodge	HasType	rest stop
+0	333 Arbol Dr	IsAddressOf	Travelers Lodge
+0	rest stop	IsTypeOf	Travelers Lodge
+0	Travelers Lodge	HasTraffic	road block nearby
+0	Travelers Lodge	HasDistance	3 miles
+0	road block nearby	IsTrafficOf	Travelers Lodge
+0	3 miles	IsDistanceFrom	Travelers Lodge
+1	Stanford Childrens Health	HasAddress	899 Ames Ct
+1	Stanford Childrens Health	HasType	hospital
+1	899 Ames Ct	IsAddressOf	Stanford Childrens Health
+1	hospital	IsTypeOf	Stanford Childrens Health
+1	Stanford Childrens Health	HasTraffic	road block nearby
+1	Stanford Childrens Health	HasDistance	4 miles
+1	road block nearby	IsTrafficOf	Stanford Childrens Health
+1	4 miles	IsDistanceFrom	Stanford Childrens Health
+2	Midtown Shopping Center	HasAddress	338 Alester Ave
+2	Midtown Shopping Center	HasType	shopping center
+2	338 Alester Ave	IsAddressOf	Midtown Shopping Center
+2	shopping center	IsTypeOf	Midtown Shopping Center
+2	Midtown Shopping Center	HasTraffic	moderate traffic
+2	Midtown Shopping Center	HasDistance	3 miles
+2	moderate traffic	IsTrafficOf	Midtown Shopping Center
+2	3 miles	IsDistanceFrom	Midtown Shopping Center
+3	Palo Alto Cafe	HasAddress	436 Alger Dr
+3	Palo Alto Cafe	HasType	coffee or tea place
+3	436 Alger Dr	IsAddressOf	Palo Alto Cafe
+3	coffee or tea place	IsTypeOf	Palo Alto Cafe
+3	Palo Alto Cafe	HasTraffic	moderate traffic
+3	Palo Alto Cafe	HasDistance	4 miles
+3	moderate traffic	IsTrafficOf	Palo Alto Cafe
+3	4 miles	IsDistanceFrom	Palo Alto Cafe
+4	Civic Center Garage	HasAddress	270 Altaire Walk
+4	Civic Center Garage	HasType	parking garage
+4	270 Altaire Walk	IsAddressOf	Civic Center Garage
+4	parking garage	IsTypeOf	Civic Center Garage
+4	Civic Center Garage	HasTraffic	heavy traffic
+4	Civic Center Garage	HasDistance	5 miles
+4	heavy traffic	IsTrafficOf	Civic Center Garage
+4	5 miles	IsDistanceFrom	Civic Center Garage
+5	Cafe Venetia	HasAddress	269 Alger Dr
+5	Cafe Venetia	HasType	coffee or tea place
+5	269 Alger Dr	IsAddressOf	Cafe Venetia
+5	coffee or tea place	IsTypeOf	Cafe Venetia
+5	Cafe Venetia	HasTraffic	road block nearby
+5	Cafe Venetia	HasDistance	5 miles
+5	road block nearby	IsTrafficOf	Cafe Venetia
+5	5 miles	IsDistanceFrom	Cafe Venetia
+6	home	HasAddress	56 cadwell street
+6	home	HasType	home
+6	56 cadwell street	IsAddressOf	home
+6	home	IsTypeOf	home
+6	home	HasTraffic	heavy traffic
+6	home	HasDistance	4 miles
+6	heavy traffic	IsTrafficOf	home
+6	4 miles	IsDistanceFrom	home
+7	5672 barringer street	HasAddress	5672 barringer street
+7	5672 barringer street	HasType	certain address
+7	5672 barringer street	IsAddressOf	5672 barringer street
+7	certain address	IsTypeOf	5672 barringer street
+7	5672 barringer street	HasTraffic	no traffic
+7	5672 barringer street	HasDistance	6 miles
+7	no traffic	IsTrafficOf	5672 barringer street
+7	6 miles	IsDistanceFrom	5672 barringer street
+-1	today	IsEqualTo	monday

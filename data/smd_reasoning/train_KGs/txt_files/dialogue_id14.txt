@@ -1,0 +1,65 @@
+0	Stanford Express Care	HasAddress	214 El Camino Real
+0	Stanford Express Care	HasType	hospital
+0	214 El Camino Real	IsAddressOf	Stanford Express Care
+0	hospital	IsTypeOf	Stanford Express Care
+0	Stanford Express Care	HasTraffic	moderate traffic
+0	Stanford Express Care	HasDistance	1 miles
+0	moderate traffic	IsTrafficOf	Stanford Express Care
+0	1 miles	IsDistanceFrom	Stanford Express Care
+1	Papa Johns	HasAddress	110 Arastradero Rd
+1	Papa Johns	HasType	pizza restaurant
+1	110 Arastradero Rd	IsAddressOf	Papa Johns
+1	pizza restaurant	IsTypeOf	Papa Johns
+1	Papa Johns	HasTraffic	car collision nearby
+1	Papa Johns	HasDistance	6 miles
+1	car collision nearby	IsTrafficOf	Papa Johns
+1	6 miles	IsDistanceFrom	Papa Johns
+2	Jing Jing	HasAddress	113 Arbol Dr
+2	Jing Jing	HasType	chinese restaurant
+2	113 Arbol Dr	IsAddressOf	Jing Jing
+2	chinese restaurant	IsTypeOf	Jing Jing
+2	Jing Jing	HasTraffic	road block nearby
+2	Jing Jing	HasDistance	6 miles
+2	road block nearby	IsTrafficOf	Jing Jing
+2	6 miles	IsDistanceFrom	Jing Jing
+3	Whole Foods	HasAddress	819 Alma St
+3	Whole Foods	HasType	grocery store
+3	819 Alma St	IsAddressOf	Whole Foods
+3	grocery store	IsTypeOf	Whole Foods
+3	Whole Foods	HasTraffic	road block nearby
+3	Whole Foods	HasDistance	1 miles
+3	road block nearby	IsTrafficOf	Whole Foods
+3	1 miles	IsDistanceFrom	Whole Foods
+4	Peets Coffee	HasAddress	9981 Archuleta Ave
+4	Peets Coffee	HasType	coffee or tea place
+4	9981 Archuleta Ave	IsAddressOf	Peets Coffee
+4	coffee or tea place	IsTypeOf	Peets Coffee
+4	Peets Coffee	HasTraffic	car collision nearby
+4	Peets Coffee	HasDistance	3 miles
+4	car collision nearby	IsTrafficOf	Peets Coffee
+4	3 miles	IsDistanceFrom	Peets Coffee
+5	5677 springer street	HasAddress	5677 springer street
+5	5677 springer street	HasType	certain address
+5	5677 springer street	IsAddressOf	5677 springer street
+5	certain address	IsTypeOf	5677 springer street
+5	5677 springer street	HasTraffic	no traffic
+5	5677 springer street	HasDistance	2 miles
+5	no traffic	IsTrafficOf	5677 springer street
+5	2 miles	IsDistanceFrom	5677 springer street
+6	Palo Alto Garage R	HasAddress	481 Amaranta Ave
+6	Palo Alto Garage R	HasType	parking garage
+6	481 Amaranta Ave	IsAddressOf	Palo Alto Garage R
+6	parking garage	IsTypeOf	Palo Alto Garage R
+6	Palo Alto Garage R	HasTraffic	heavy traffic
+6	Palo Alto Garage R	HasDistance	2 miles
+6	heavy traffic	IsTrafficOf	Palo Alto Garage R
+6	2 miles	IsDistanceFrom	Palo Alto Garage R
+7	Teavana	HasAddress	145 Amherst St
+7	Teavana	HasType	coffee or tea place
+7	145 Amherst St	IsAddressOf	Teavana
+7	coffee or tea place	IsTypeOf	Teavana
+7	Teavana	HasTraffic	road block nearby
+7	Teavana	HasDistance	6 miles
+7	road block nearby	IsTrafficOf	Teavana
+7	6 miles	IsDistanceFrom	Teavana
+-1	today	IsEqualTo	monday

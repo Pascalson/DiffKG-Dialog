@@ -1,0 +1,65 @@
+0	Jing Jing	HasAddress	113 Arbol Dr
+0	Jing Jing	HasType	chinese restaurant
+0	113 Arbol Dr	IsAddressOf	Jing Jing
+0	chinese restaurant	IsTypeOf	Jing Jing
+0	Jing Jing	HasTraffic	car collision nearby
+0	Jing Jing	HasDistance	3 miles
+0	car collision nearby	IsTrafficOf	Jing Jing
+0	3 miles	IsDistanceFrom	Jing Jing
+1	Stanford Oval Parking	HasAddress	610 Amarillo Ave
+1	Stanford Oval Parking	HasType	parking garage
+1	610 Amarillo Ave	IsAddressOf	Stanford Oval Parking
+1	parking garage	IsTypeOf	Stanford Oval Parking
+1	Stanford Oval Parking	HasTraffic	road block nearby
+1	Stanford Oval Parking	HasDistance	2 miles
+1	road block nearby	IsTrafficOf	Stanford Oval Parking
+1	2 miles	IsDistanceFrom	Stanford Oval Parking
+2	Palo Alto Medical Foundation	HasAddress	611 Ames Ave
+2	Palo Alto Medical Foundation	HasType	hospital
+2	611 Ames Ave	IsAddressOf	Palo Alto Medical Foundation
+2	hospital	IsTypeOf	Palo Alto Medical Foundation
+2	Palo Alto Medical Foundation	HasTraffic	heavy traffic
+2	Palo Alto Medical Foundation	HasDistance	1 miles
+2	heavy traffic	IsTrafficOf	Palo Alto Medical Foundation
+2	1 miles	IsDistanceFrom	Palo Alto Medical Foundation
+3	Midtown Shopping Center	HasAddress	338 Alester Ave
+3	Midtown Shopping Center	HasType	shopping center
+3	338 Alester Ave	IsAddressOf	Midtown Shopping Center
+3	shopping center	IsTypeOf	Midtown Shopping Center
+3	Midtown Shopping Center	HasTraffic	heavy traffic
+3	Midtown Shopping Center	HasDistance	5 miles
+3	heavy traffic	IsTrafficOf	Midtown Shopping Center
+3	5 miles	IsDistanceFrom	Midtown Shopping Center
+4	Chevron	HasAddress	783 Arcadia Pl
+4	Chevron	HasType	gas station
+4	783 Arcadia Pl	IsAddressOf	Chevron
+4	gas station	IsTypeOf	Chevron
+4	Chevron	HasTraffic	car collision nearby
+4	Chevron	HasDistance	4 miles
+4	car collision nearby	IsTrafficOf	Chevron
+4	4 miles	IsDistanceFrom	Chevron
+5	jills house	HasAddress	347 Alta Mesa Ave
+5	jills house	HasType	friends house
+5	347 Alta Mesa Ave	IsAddressOf	jills house
+5	friends house	IsTypeOf	jills house
+5	jills house	HasTraffic	car collision nearby
+5	jills house	HasDistance	5 miles
+5	car collision nearby	IsTrafficOf	jills house
+5	5 miles	IsDistanceFrom	jills house
+6	Stanford Express Care	HasAddress	214 El Camino Real
+6	Stanford Express Care	HasType	hospital
+6	214 El Camino Real	IsAddressOf	Stanford Express Care
+6	hospital	IsTypeOf	Stanford Express Care
+6	Stanford Express Care	HasTraffic	heavy traffic
+6	Stanford Express Care	HasDistance	5 miles
+6	heavy traffic	IsTrafficOf	Stanford Express Care
+6	5 miles	IsDistanceFrom	Stanford Express Care
+7	Dish Parking	HasAddress	550 Alester Ave
+7	Dish Parking	HasType	parking garage
+7	550 Alester Ave	IsAddressOf	Dish Parking
+7	parking garage	IsTypeOf	Dish Parking
+7	Dish Parking	HasTraffic	heavy traffic
+7	Dish Parking	HasDistance	3 miles
+7	heavy traffic	IsTrafficOf	Dish Parking
+7	3 miles	IsDistanceFrom	Dish Parking
+-1	today	IsEqualTo	monday

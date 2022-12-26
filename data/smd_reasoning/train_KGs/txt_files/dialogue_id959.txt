@@ -1,0 +1,65 @@
+0	Papa Johns	HasAddress	110 Arastradero Rd
+0	Papa Johns	HasType	pizza restaurant
+0	110 Arastradero Rd	IsAddressOf	Papa Johns
+0	pizza restaurant	IsTypeOf	Papa Johns
+0	Papa Johns	HasTraffic	car collision nearby
+0	Papa Johns	HasDistance	7 miles
+0	car collision nearby	IsTrafficOf	Papa Johns
+0	7 miles	IsDistanceFrom	Papa Johns
+1	Teavana	HasAddress	145 Amherst St
+1	Teavana	HasType	coffee or tea place
+1	145 Amherst St	IsAddressOf	Teavana
+1	coffee or tea place	IsTypeOf	Teavana
+1	Teavana	HasTraffic	no traffic
+1	Teavana	HasDistance	1 miles
+1	no traffic	IsTrafficOf	Teavana
+1	1 miles	IsDistanceFrom	Teavana
+2	Coupa	HasAddress	394 Van Ness Ave
+2	Coupa	HasType	coffee or tea place
+2	394 Van Ness Ave	IsAddressOf	Coupa
+2	coffee or tea place	IsTypeOf	Coupa
+2	Coupa	HasTraffic	no traffic
+2	Coupa	HasDistance	4 miles
+2	no traffic	IsTrafficOf	Coupa
+2	4 miles	IsDistanceFrom	Coupa
+3	Hacienda Market	HasAddress	1313 Chester Ave
+3	Hacienda Market	HasType	grocery store
+3	1313 Chester Ave	IsAddressOf	Hacienda Market
+3	grocery store	IsTypeOf	Hacienda Market
+3	Hacienda Market	HasTraffic	moderate traffic
+3	Hacienda Market	HasDistance	5 miles
+3	moderate traffic	IsTrafficOf	Hacienda Market
+3	5 miles	IsDistanceFrom	Hacienda Market
+4	76	HasAddress	91 El Camino Real
+4	76	HasType	gas station
+4	91 El Camino Real	IsAddressOf	76
+4	gas station	IsTypeOf	76
+4	76	HasTraffic	road block nearby
+4	76	HasDistance	2 miles
+4	road block nearby	IsTrafficOf	76
+4	2 miles	IsDistanceFrom	76
+5	5672 barringer street	HasAddress	5672 barringer street
+5	5672 barringer street	HasType	certain address
+5	5672 barringer street	IsAddressOf	5672 barringer street
+5	certain address	IsTypeOf	5672 barringer street
+5	5672 barringer street	HasTraffic	heavy traffic
+5	5672 barringer street	HasDistance	3 miles
+5	heavy traffic	IsTrafficOf	5672 barringer street
+5	3 miles	IsDistanceFrom	5672 barringer street
+6	jills house	HasAddress	347 Alta Mesa Ave
+6	jills house	HasType	friends house
+6	347 Alta Mesa Ave	IsAddressOf	jills house
+6	friends house	IsTypeOf	jills house
+6	jills house	HasTraffic	heavy traffic
+6	jills house	HasDistance	2 miles
+6	heavy traffic	IsTrafficOf	jills house
+6	2 miles	IsDistanceFrom	jills house
+7	Valero	HasAddress	200 Alester Ave
+7	Valero	HasType	gas station
+7	200 Alester Ave	IsAddressOf	Valero
+7	gas station	IsTypeOf	Valero
+7	Valero	HasTraffic	moderate traffic
+7	Valero	HasDistance	1 miles
+7	moderate traffic	IsTrafficOf	Valero
+7	1 miles	IsDistanceFrom	Valero
+-1	today	IsEqualTo	monday

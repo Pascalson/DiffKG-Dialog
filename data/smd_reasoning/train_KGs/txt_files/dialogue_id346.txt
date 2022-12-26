@@ -1,0 +1,65 @@
+0	Teavana	HasAddress	145 Amherst St
+0	Teavana	HasType	coffee or tea place
+0	145 Amherst St	IsAddressOf	Teavana
+0	coffee or tea place	IsTypeOf	Teavana
+0	Teavana	HasTraffic	car collision nearby
+0	Teavana	HasDistance	3 miles
+0	car collision nearby	IsTrafficOf	Teavana
+0	3 miles	IsDistanceFrom	Teavana
+1	Mandarin Roots	HasAddress	271 Springer Street
+1	Mandarin Roots	HasType	chinese restaurant
+1	271 Springer Street	IsAddressOf	Mandarin Roots
+1	chinese restaurant	IsTypeOf	Mandarin Roots
+1	Mandarin Roots	HasTraffic	heavy traffic
+1	Mandarin Roots	HasDistance	1 miles
+1	heavy traffic	IsTrafficOf	Mandarin Roots
+1	1 miles	IsDistanceFrom	Mandarin Roots
+2	Midtown Shopping Center	HasAddress	338 Alester Ave
+2	Midtown Shopping Center	HasType	shopping center
+2	338 Alester Ave	IsAddressOf	Midtown Shopping Center
+2	shopping center	IsTypeOf	Midtown Shopping Center
+2	Midtown Shopping Center	HasTraffic	car collision nearby
+2	Midtown Shopping Center	HasDistance	1 miles
+2	car collision nearby	IsTrafficOf	Midtown Shopping Center
+2	1 miles	IsDistanceFrom	Midtown Shopping Center
+3	Starbucks	HasAddress	792 Bedoin Street
+3	Starbucks	HasType	coffee or tea place
+3	792 Bedoin Street	IsAddressOf	Starbucks
+3	coffee or tea place	IsTypeOf	Starbucks
+3	Starbucks	HasTraffic	car collision nearby
+3	Starbucks	HasDistance	2 miles
+3	car collision nearby	IsTrafficOf	Starbucks
+3	2 miles	IsDistanceFrom	Starbucks
+4	5672 barringer street	HasAddress	5672 barringer street
+4	5672 barringer street	HasType	certain address
+4	5672 barringer street	IsAddressOf	5672 barringer street
+4	certain address	IsTypeOf	5672 barringer street
+4	5672 barringer street	HasTraffic	no traffic
+4	5672 barringer street	HasDistance	3 miles
+4	no traffic	IsTrafficOf	5672 barringer street
+4	3 miles	IsDistanceFrom	5672 barringer street
+5	Hotel Keen	HasAddress	578 Arbol Dr
+5	Hotel Keen	HasType	rest stop
+5	578 Arbol Dr	IsAddressOf	Hotel Keen
+5	rest stop	IsTypeOf	Hotel Keen
+5	Hotel Keen	HasTraffic	car collision nearby
+5	Hotel Keen	HasDistance	4 miles
+5	car collision nearby	IsTrafficOf	Hotel Keen
+5	4 miles	IsDistanceFrom	Hotel Keen
+6	Philz	HasAddress	583 Alester Ave
+6	Philz	HasType	coffee or tea place
+6	583 Alester Ave	IsAddressOf	Philz
+6	coffee or tea place	IsTypeOf	Philz
+6	Philz	HasTraffic	moderate traffic
+6	Philz	HasDistance	3 miles
+6	moderate traffic	IsTrafficOf	Philz
+6	3 miles	IsDistanceFrom	Philz
+7	Whole Foods	HasAddress	819 Alma St
+7	Whole Foods	HasType	grocery store
+7	819 Alma St	IsAddressOf	Whole Foods
+7	grocery store	IsTypeOf	Whole Foods
+7	Whole Foods	HasTraffic	no traffic
+7	Whole Foods	HasDistance	6 miles
+7	no traffic	IsTrafficOf	Whole Foods
+7	6 miles	IsDistanceFrom	Whole Foods
+-1	today	IsEqualTo	monday

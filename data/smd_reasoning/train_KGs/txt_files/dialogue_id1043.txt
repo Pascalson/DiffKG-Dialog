@@ -1,0 +1,57 @@
+0	Coupa	HasAddress	394 Van Ness Ave
+0	Coupa	HasType	coffee or tea place
+0	394 Van Ness Ave	IsAddressOf	Coupa
+0	coffee or tea place	IsTypeOf	Coupa
+0	Coupa	HasTraffic	heavy traffic
+0	Coupa	HasDistance	3 miles
+0	heavy traffic	IsTrafficOf	Coupa
+0	3 miles	IsDistanceFrom	Coupa
+1	Mandarin Roots	HasAddress	271 Springer Street
+1	Mandarin Roots	HasType	chinese restaurant
+1	271 Springer Street	IsAddressOf	Mandarin Roots
+1	chinese restaurant	IsTypeOf	Mandarin Roots
+1	Mandarin Roots	HasTraffic	moderate traffic
+1	Mandarin Roots	HasDistance	1 miles
+1	moderate traffic	IsTrafficOf	Mandarin Roots
+1	1 miles	IsDistanceFrom	Mandarin Roots
+2	Webster Garage	HasAddress	880 Ames Ct
+2	Webster Garage	HasType	parking garage
+2	880 Ames Ct	IsAddressOf	Webster Garage
+2	parking garage	IsTypeOf	Webster Garage
+2	Webster Garage	HasTraffic	no traffic
+2	Webster Garage	HasDistance	6 miles
+2	no traffic	IsTrafficOf	Webster Garage
+2	6 miles	IsDistanceFrom	Webster Garage
+3	Teavana	HasAddress	145 Amherst St
+3	Teavana	HasType	coffee or tea place
+3	145 Amherst St	IsAddressOf	Teavana
+3	coffee or tea place	IsTypeOf	Teavana
+3	Teavana	HasTraffic	moderate traffic
+3	Teavana	HasDistance	3 miles
+3	moderate traffic	IsTrafficOf	Teavana
+3	3 miles	IsDistanceFrom	Teavana
+4	tai pan	HasAddress	830 Almanor Ln
+4	tai pan	HasType	chinese restaurant
+4	830 Almanor Ln	IsAddressOf	tai pan
+4	chinese restaurant	IsTypeOf	tai pan
+4	tai pan	HasTraffic	moderate traffic
+4	tai pan	HasDistance	2 miles
+4	moderate traffic	IsTrafficOf	tai pan
+4	2 miles	IsDistanceFrom	tai pan
+5	Comfort Inn	HasAddress	753 University Ave
+5	Comfort Inn	HasType	rest stop
+5	753 University Ave	IsAddressOf	Comfort Inn
+5	rest stop	IsTypeOf	Comfort Inn
+5	Comfort Inn	HasTraffic	no traffic
+5	Comfort Inn	HasDistance	1 miles
+5	no traffic	IsTrafficOf	Comfort Inn
+5	1 miles	IsDistanceFrom	Comfort Inn
+6	5677 springer street	HasAddress	5677 springer street
+6	5677 springer street	HasType	certain address
+6	5677 springer street	IsAddressOf	5677 springer street
+6	certain address	IsTypeOf	5677 springer street
+6	5677 springer street	HasTraffic	no traffic
+6	5677 springer street	HasDistance	4 miles
+6	no traffic	IsTrafficOf	5677 springer street
+6	4 miles	IsDistanceFrom	5677 springer street
+-1	today	IsEqualTo	monday

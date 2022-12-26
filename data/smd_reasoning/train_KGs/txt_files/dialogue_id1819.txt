@@ -1,0 +1,57 @@
+0	Teavana	HasAddress	145 Amherst St
+0	Teavana	HasType	coffee or tea place
+0	145 Amherst St	IsAddressOf	Teavana
+0	coffee or tea place	IsTypeOf	Teavana
+0	Teavana	HasTraffic	no traffic
+0	Teavana	HasDistance	6 miles
+0	no traffic	IsTrafficOf	Teavana
+0	6 miles	IsDistanceFrom	Teavana
+1	Whole Foods	HasAddress	819 Alma St
+1	Whole Foods	HasType	grocery store
+1	819 Alma St	IsAddressOf	Whole Foods
+1	grocery store	IsTypeOf	Whole Foods
+1	Whole Foods	HasTraffic	moderate traffic
+1	Whole Foods	HasDistance	3 miles
+1	moderate traffic	IsTrafficOf	Whole Foods
+1	3 miles	IsDistanceFrom	Whole Foods
+2	Webster Garage	HasAddress	880 Ames Ct
+2	Webster Garage	HasType	parking garage
+2	880 Ames Ct	IsAddressOf	Webster Garage
+2	parking garage	IsTypeOf	Webster Garage
+2	Webster Garage	HasTraffic	no traffic
+2	Webster Garage	HasDistance	5 miles
+2	no traffic	IsTrafficOf	Webster Garage
+2	5 miles	IsDistanceFrom	Webster Garage
+3	Pizza My Heart	HasAddress	528 Anton Ct
+3	Pizza My Heart	HasType	pizza restaurant
+3	528 Anton Ct	IsAddressOf	Pizza My Heart
+3	pizza restaurant	IsTypeOf	Pizza My Heart
+3	Pizza My Heart	HasTraffic	moderate traffic
+3	Pizza My Heart	HasDistance	3 miles
+3	moderate traffic	IsTrafficOf	Pizza My Heart
+3	3 miles	IsDistanceFrom	Pizza My Heart
+4	The Clement Hotel	HasAddress	657 Ames Ave
+4	The Clement Hotel	HasType	rest stop
+4	657 Ames Ave	IsAddressOf	The Clement Hotel
+4	rest stop	IsTypeOf	The Clement Hotel
+4	The Clement Hotel	HasTraffic	heavy traffic
+4	The Clement Hotel	HasDistance	5 miles
+4	heavy traffic	IsTrafficOf	The Clement Hotel
+4	5 miles	IsDistanceFrom	The Clement Hotel
+5	Coupa	HasAddress	394 Van Ness Ave
+5	Coupa	HasType	coffee or tea place
+5	394 Van Ness Ave	IsAddressOf	Coupa
+5	coffee or tea place	IsTypeOf	Coupa
+5	Coupa	HasTraffic	moderate traffic
+5	Coupa	HasDistance	4 miles
+5	moderate traffic	IsTrafficOf	Coupa
+5	4 miles	IsDistanceFrom	Coupa
+6	Starbucks	HasAddress	792 Bedoin Street
+6	Starbucks	HasType	coffee or tea place
+6	792 Bedoin Street	IsAddressOf	Starbucks
+6	coffee or tea place	IsTypeOf	Starbucks
+6	Starbucks	HasTraffic	heavy traffic
+6	Starbucks	HasDistance	1 miles
+6	heavy traffic	IsTrafficOf	Starbucks
+6	1 miles	IsDistanceFrom	Starbucks
+-1	today	IsEqualTo	monday

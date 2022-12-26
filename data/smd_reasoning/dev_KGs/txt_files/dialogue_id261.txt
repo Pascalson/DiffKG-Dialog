@@ -1,0 +1,57 @@
+0	home	HasAddress	5671 barringer street
+0	home	HasType	home
+0	5671 barringer street	IsAddressOf	home
+0	home	IsTypeOf	home
+0	home	HasTraffic	heavy traffic
+0	home	HasDistance	1 miles
+0	heavy traffic	IsTrafficOf	home
+0	1 miles	IsDistanceFrom	home
+1	Pizza Hut	HasAddress	704 El Camino Real
+1	Pizza Hut	HasType	pizza restaurant
+1	704 El Camino Real	IsAddressOf	Pizza Hut
+1	pizza restaurant	IsTypeOf	Pizza Hut
+1	Pizza Hut	HasTraffic	no traffic
+1	Pizza Hut	HasDistance	2 miles
+1	no traffic	IsTrafficOf	Pizza Hut
+1	2 miles	IsDistanceFrom	Pizza Hut
+2	Chevron	HasAddress	783 Arcadia Pl
+2	Chevron	HasType	gas station
+2	783 Arcadia Pl	IsAddressOf	Chevron
+2	gas station	IsTypeOf	Chevron
+2	Chevron	HasTraffic	moderate traffic
+2	Chevron	HasDistance	3 miles
+2	moderate traffic	IsTrafficOf	Chevron
+2	3 miles	IsDistanceFrom	Chevron
+3	The Clement Hotel	HasAddress	657 Ames Ave
+3	The Clement Hotel	HasType	rest stop
+3	657 Ames Ave	IsAddressOf	The Clement Hotel
+3	rest stop	IsTypeOf	The Clement Hotel
+3	The Clement Hotel	HasTraffic	no traffic
+3	The Clement Hotel	HasDistance	5 miles
+3	no traffic	IsTrafficOf	The Clement Hotel
+3	5 miles	IsDistanceFrom	The Clement Hotel
+4	toms house	HasAddress	580 Van Ness Ave
+4	toms house	HasType	friends house
+4	580 Van Ness Ave	IsAddressOf	toms house
+4	friends house	IsTypeOf	toms house
+4	toms house	HasTraffic	moderate traffic
+4	toms house	HasDistance	4 miles
+4	moderate traffic	IsTrafficOf	toms house
+4	4 miles	IsDistanceFrom	toms house
+5	Valero	HasAddress	200 Alester Ave
+5	Valero	HasType	gas station
+5	200 Alester Ave	IsAddressOf	Valero
+5	gas station	IsTypeOf	Valero
+5	Valero	HasTraffic	no traffic
+5	Valero	HasDistance	1 miles
+5	no traffic	IsTrafficOf	Valero
+5	1 miles	IsDistanceFrom	Valero
+6	Safeway	HasAddress	452 Arcadia Pl
+6	Safeway	HasType	grocery store
+6	452 Arcadia Pl	IsAddressOf	Safeway
+6	grocery store	IsTypeOf	Safeway
+6	Safeway	HasTraffic	no traffic
+6	Safeway	HasDistance	2 miles
+6	no traffic	IsTrafficOf	Safeway
+6	2 miles	IsDistanceFrom	Safeway
+-1	today	IsEqualTo	monday

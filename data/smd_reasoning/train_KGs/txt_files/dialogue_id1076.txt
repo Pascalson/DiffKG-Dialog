@@ -1,0 +1,57 @@
+0	home	HasAddress	10 ames street
+0	home	HasType	home
+0	10 ames street	IsAddressOf	home
+0	home	IsTypeOf	home
+0	home	HasTraffic	moderate traffic
+0	home	HasDistance	2 miles
+0	moderate traffic	IsTrafficOf	home
+0	2 miles	IsDistanceFrom	home
+1	P.F. Changs	HasAddress	669 El Camino Real
+1	P.F. Changs	HasType	chinese restaurant
+1	669 El Camino Real	IsAddressOf	P.F. Changs
+1	chinese restaurant	IsTypeOf	P.F. Changs
+1	P.F. Changs	HasTraffic	no traffic
+1	P.F. Changs	HasDistance	2 miles
+1	no traffic	IsTrafficOf	P.F. Changs
+1	2 miles	IsDistanceFrom	P.F. Changs
+2	Trader Joes	HasAddress	408 University Ave
+2	Trader Joes	HasType	grocery store
+2	408 University Ave	IsAddressOf	Trader Joes
+2	grocery store	IsTypeOf	Trader Joes
+2	Trader Joes	HasTraffic	no traffic
+2	Trader Joes	HasDistance	6 miles
+2	no traffic	IsTrafficOf	Trader Joes
+2	6 miles	IsDistanceFrom	Trader Joes
+3	Stanford Childrens Health	HasAddress	899 Ames Ct
+3	Stanford Childrens Health	HasType	hospital
+3	899 Ames Ct	IsAddressOf	Stanford Childrens Health
+3	hospital	IsTypeOf	Stanford Childrens Health
+3	Stanford Childrens Health	HasTraffic	no traffic
+3	Stanford Childrens Health	HasDistance	1 miles
+3	no traffic	IsTrafficOf	Stanford Childrens Health
+3	1 miles	IsDistanceFrom	Stanford Childrens Health
+4	Mandarin Roots	HasAddress	271 Springer Street
+4	Mandarin Roots	HasType	chinese restaurant
+4	271 Springer Street	IsAddressOf	Mandarin Roots
+4	chinese restaurant	IsTypeOf	Mandarin Roots
+4	Mandarin Roots	HasTraffic	heavy traffic
+4	Mandarin Roots	HasDistance	4 miles
+4	heavy traffic	IsTrafficOf	Mandarin Roots
+4	4 miles	IsDistanceFrom	Mandarin Roots
+5	Palo Alto Medical Foundation	HasAddress	611 Ames Ave
+5	Palo Alto Medical Foundation	HasType	hospital
+5	611 Ames Ave	IsAddressOf	Palo Alto Medical Foundation
+5	hospital	IsTypeOf	Palo Alto Medical Foundation
+5	Palo Alto Medical Foundation	HasTraffic	no traffic
+5	Palo Alto Medical Foundation	HasDistance	5 miles
+5	no traffic	IsTrafficOf	Palo Alto Medical Foundation
+5	5 miles	IsDistanceFrom	Palo Alto Medical Foundation
+6	Safeway	HasAddress	452 Arcadia Pl
+6	Safeway	HasType	grocery store
+6	452 Arcadia Pl	IsAddressOf	Safeway
+6	grocery store	IsTypeOf	Safeway
+6	Safeway	HasTraffic	moderate traffic
+6	Safeway	HasDistance	4 miles
+6	moderate traffic	IsTrafficOf	Safeway
+6	4 miles	IsDistanceFrom	Safeway
+-1	today	IsEqualTo	monday

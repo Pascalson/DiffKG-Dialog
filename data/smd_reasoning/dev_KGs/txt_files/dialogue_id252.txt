@@ -1,0 +1,57 @@
+0	Trader Joes	HasAddress	408 University Ave
+0	Trader Joes	HasType	grocery store
+0	408 University Ave	IsAddressOf	Trader Joes
+0	grocery store	IsTypeOf	Trader Joes
+0	Trader Joes	HasTraffic	moderate traffic
+0	Trader Joes	HasDistance	3 miles
+0	moderate traffic	IsTrafficOf	Trader Joes
+0	3 miles	IsDistanceFrom	Trader Joes
+1	home	HasAddress	10 ames street
+1	home	HasType	home
+1	10 ames street	IsAddressOf	home
+1	home	IsTypeOf	home
+1	home	HasTraffic	no traffic
+1	home	HasDistance	4 miles
+1	no traffic	IsTrafficOf	home
+1	4 miles	IsDistanceFrom	home
+2	jacks house	HasAddress	864 Almanor Ln
+2	jacks house	HasType	friends house
+2	864 Almanor Ln	IsAddressOf	jacks house
+2	friends house	IsTypeOf	jacks house
+2	jacks house	HasTraffic	moderate traffic
+2	jacks house	HasDistance	1 miles
+2	moderate traffic	IsTrafficOf	jacks house
+2	1 miles	IsDistanceFrom	jacks house
+3	Panda Express	HasAddress	842 Arrowhead Way
+3	Panda Express	HasType	chinese restaurant
+3	842 Arrowhead Way	IsAddressOf	Panda Express
+3	chinese restaurant	IsTypeOf	Panda Express
+3	Panda Express	HasTraffic	heavy traffic
+3	Panda Express	HasDistance	6 miles
+3	heavy traffic	IsTrafficOf	Panda Express
+3	6 miles	IsDistanceFrom	Panda Express
+4	Ravenswood Shopping Center	HasAddress	434 Arastradero Rd
+4	Ravenswood Shopping Center	HasType	shopping center
+4	434 Arastradero Rd	IsAddressOf	Ravenswood Shopping Center
+4	shopping center	IsTypeOf	Ravenswood Shopping Center
+4	Ravenswood Shopping Center	HasTraffic	no traffic
+4	Ravenswood Shopping Center	HasDistance	6 miles
+4	no traffic	IsTrafficOf	Ravenswood Shopping Center
+4	6 miles	IsDistanceFrom	Ravenswood Shopping Center
+5	5677 springer street	HasAddress	5677 springer street
+5	5677 springer street	HasType	certain address
+5	5677 springer street	IsAddressOf	5677 springer street
+5	certain address	IsTypeOf	5677 springer street
+5	5677 springer street	HasTraffic	no traffic
+5	5677 springer street	HasDistance	2 miles
+5	no traffic	IsTrafficOf	5677 springer street
+5	2 miles	IsDistanceFrom	5677 springer street
+6	Sigona Farmers Market	HasAddress	638 Amherst St
+6	Sigona Farmers Market	HasType	grocery store
+6	638 Amherst St	IsAddressOf	Sigona Farmers Market
+6	grocery store	IsTypeOf	Sigona Farmers Market
+6	Sigona Farmers Market	HasTraffic	no traffic
+6	Sigona Farmers Market	HasDistance	1 miles
+6	no traffic	IsTrafficOf	Sigona Farmers Market
+6	1 miles	IsDistanceFrom	Sigona Farmers Market
+-1	today	IsEqualTo	monday

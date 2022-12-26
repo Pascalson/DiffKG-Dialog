@@ -1,0 +1,65 @@
+0	Sigona Farmers Market	HasAddress	638 Amherst St
+0	Sigona Farmers Market	HasType	grocery store
+0	638 Amherst St	IsAddressOf	Sigona Farmers Market
+0	grocery store	IsTypeOf	Sigona Farmers Market
+0	Sigona Farmers Market	HasTraffic	car collision nearby
+0	Sigona Farmers Market	HasDistance	3 miles
+0	car collision nearby	IsTrafficOf	Sigona Farmers Market
+0	3 miles	IsDistanceFrom	Sigona Farmers Market
+1	Cafe Venetia	HasAddress	269 Alger Dr
+1	Cafe Venetia	HasType	coffee or tea place
+1	269 Alger Dr	IsAddressOf	Cafe Venetia
+1	coffee or tea place	IsTypeOf	Cafe Venetia
+1	Cafe Venetia	HasTraffic	car collision nearby
+1	Cafe Venetia	HasDistance	1 miles
+1	car collision nearby	IsTrafficOf	Cafe Venetia
+1	1 miles	IsDistanceFrom	Cafe Venetia
+2	5672 barringer street	HasAddress	5672 barringer street
+2	5672 barringer street	HasType	certain address
+2	5672 barringer street	IsAddressOf	5672 barringer street
+2	certain address	IsTypeOf	5672 barringer street
+2	5672 barringer street	HasTraffic	no traffic
+2	5672 barringer street	HasDistance	5 miles
+2	no traffic	IsTrafficOf	5672 barringer street
+2	5 miles	IsDistanceFrom	5672 barringer street
+3	Valero	HasAddress	200 Alester Ave
+3	Valero	HasType	gas station
+3	200 Alester Ave	IsAddressOf	Valero
+3	gas station	IsTypeOf	Valero
+3	Valero	HasTraffic	road block nearby
+3	Valero	HasDistance	2 miles
+3	road block nearby	IsTrafficOf	Valero
+3	2 miles	IsDistanceFrom	Valero
+4	Stanford Childrens Health	HasAddress	899 Ames Ct
+4	Stanford Childrens Health	HasType	hospital
+4	899 Ames Ct	IsAddressOf	Stanford Childrens Health
+4	hospital	IsTypeOf	Stanford Childrens Health
+4	Stanford Childrens Health	HasTraffic	moderate traffic
+4	Stanford Childrens Health	HasDistance	5 miles
+4	moderate traffic	IsTrafficOf	Stanford Childrens Health
+4	5 miles	IsDistanceFrom	Stanford Childrens Health
+5	Palo Alto Garage R	HasAddress	481 Amaranta Ave
+5	Palo Alto Garage R	HasType	parking garage
+5	481 Amaranta Ave	IsAddressOf	Palo Alto Garage R
+5	parking garage	IsTypeOf	Palo Alto Garage R
+5	Palo Alto Garage R	HasTraffic	moderate traffic
+5	Palo Alto Garage R	HasDistance	1 miles
+5	moderate traffic	IsTrafficOf	Palo Alto Garage R
+5	1 miles	IsDistanceFrom	Palo Alto Garage R
+6	Teavana	HasAddress	145 Amherst St
+6	Teavana	HasType	coffee or tea place
+6	145 Amherst St	IsAddressOf	Teavana
+6	coffee or tea place	IsTypeOf	Teavana
+6	Teavana	HasTraffic	road block nearby
+6	Teavana	HasDistance	1 miles
+6	road block nearby	IsTrafficOf	Teavana
+6	1 miles	IsDistanceFrom	Teavana
+7	Willows Market	HasAddress	409 Bollard St
+7	Willows Market	HasType	grocery store
+7	409 Bollard St	IsAddressOf	Willows Market
+7	grocery store	IsTypeOf	Willows Market
+7	Willows Market	HasTraffic	no traffic
+7	Willows Market	HasDistance	5 miles
+7	no traffic	IsTrafficOf	Willows Market
+7	5 miles	IsDistanceFrom	Willows Market
+-1	today	IsEqualTo	monday

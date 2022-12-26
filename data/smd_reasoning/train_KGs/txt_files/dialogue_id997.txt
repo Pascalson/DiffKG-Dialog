@@ -1,0 +1,57 @@
+0	Pizza Hut	HasAddress	704 El Camino Real
+0	Pizza Hut	HasType	pizza restaurant
+0	704 El Camino Real	IsAddressOf	Pizza Hut
+0	pizza restaurant	IsTypeOf	Pizza Hut
+0	Pizza Hut	HasTraffic	heavy traffic
+0	Pizza Hut	HasDistance	5 miles
+0	heavy traffic	IsTrafficOf	Pizza Hut
+0	5 miles	IsDistanceFrom	Pizza Hut
+1	Starbucks	HasAddress	792 Bedoin Street
+1	Starbucks	HasType	coffee or tea place
+1	792 Bedoin Street	IsAddressOf	Starbucks
+1	coffee or tea place	IsTypeOf	Starbucks
+1	Starbucks	HasTraffic	heavy traffic
+1	Starbucks	HasDistance	5 miles
+1	heavy traffic	IsTrafficOf	Starbucks
+1	5 miles	IsDistanceFrom	Starbucks
+2	Palo Alto Garage R	HasAddress	481 Amaranta Ave
+2	Palo Alto Garage R	HasType	parking garage
+2	481 Amaranta Ave	IsAddressOf	Palo Alto Garage R
+2	parking garage	IsTypeOf	Palo Alto Garage R
+2	Palo Alto Garage R	HasTraffic	no traffic
+2	Palo Alto Garage R	HasDistance	3 miles
+2	no traffic	IsTrafficOf	Palo Alto Garage R
+2	3 miles	IsDistanceFrom	Palo Alto Garage R
+3	home	HasAddress	5671 barringer street
+3	home	HasType	home
+3	5671 barringer street	IsAddressOf	home
+3	home	IsTypeOf	home
+3	home	HasTraffic	no traffic
+3	home	HasDistance	2 miles
+3	no traffic	IsTrafficOf	home
+3	2 miles	IsDistanceFrom	home
+4	Dominos	HasAddress	776 Arastradero Rd
+4	Dominos	HasType	pizza restaurant
+4	776 Arastradero Rd	IsAddressOf	Dominos
+4	pizza restaurant	IsTypeOf	Dominos
+4	Dominos	HasTraffic	moderate traffic
+4	Dominos	HasDistance	5 miles
+4	moderate traffic	IsTrafficOf	Dominos
+4	5 miles	IsDistanceFrom	Dominos
+5	Valero	HasAddress	200 Alester Ave
+5	Valero	HasType	gas station
+5	200 Alester Ave	IsAddressOf	Valero
+5	gas station	IsTypeOf	Valero
+5	Valero	HasTraffic	no traffic
+5	Valero	HasDistance	6 miles
+5	no traffic	IsTrafficOf	Valero
+5	6 miles	IsDistanceFrom	Valero
+6	Teavana	HasAddress	145 Amherst St
+6	Teavana	HasType	coffee or tea place
+6	145 Amherst St	IsAddressOf	Teavana
+6	coffee or tea place	IsTypeOf	Teavana
+6	Teavana	HasTraffic	moderate traffic
+6	Teavana	HasDistance	3 miles
+6	moderate traffic	IsTrafficOf	Teavana
+6	3 miles	IsDistanceFrom	Teavana
+-1	today	IsEqualTo	monday

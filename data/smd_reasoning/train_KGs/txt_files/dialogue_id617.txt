@@ -1,0 +1,57 @@
+0	5677 southwest 4th street	HasAddress	5677 southwest 4th street
+0	5677 southwest 4th street	HasType	certain address
+0	5677 southwest 4th street	IsAddressOf	5677 southwest 4th street
+0	certain address	IsTypeOf	5677 southwest 4th street
+0	5677 southwest 4th street	HasTraffic	moderate traffic
+0	5677 southwest 4th street	HasDistance	5 miles
+0	moderate traffic	IsTrafficOf	5677 southwest 4th street
+0	5 miles	IsDistanceFrom	5677 southwest 4th street
+1	Palo Alto Garage R	HasAddress	481 Amaranta Ave
+1	Palo Alto Garage R	HasType	parking garage
+1	481 Amaranta Ave	IsAddressOf	Palo Alto Garage R
+1	parking garage	IsTypeOf	Palo Alto Garage R
+1	Palo Alto Garage R	HasTraffic	moderate traffic
+1	Palo Alto Garage R	HasDistance	2 miles
+1	moderate traffic	IsTrafficOf	Palo Alto Garage R
+1	2 miles	IsDistanceFrom	Palo Alto Garage R
+2	Pizza Hut	HasAddress	704 El Camino Real
+2	Pizza Hut	HasType	pizza restaurant
+2	704 El Camino Real	IsAddressOf	Pizza Hut
+2	pizza restaurant	IsTypeOf	Pizza Hut
+2	Pizza Hut	HasTraffic	heavy traffic
+2	Pizza Hut	HasDistance	3 miles
+2	heavy traffic	IsTrafficOf	Pizza Hut
+2	3 miles	IsDistanceFrom	Pizza Hut
+3	Palo Alto Medical Foundation	HasAddress	611 Ames Ave
+3	Palo Alto Medical Foundation	HasType	hospital
+3	611 Ames Ave	IsAddressOf	Palo Alto Medical Foundation
+3	hospital	IsTypeOf	Palo Alto Medical Foundation
+3	Palo Alto Medical Foundation	HasTraffic	no traffic
+3	Palo Alto Medical Foundation	HasDistance	5 miles
+3	no traffic	IsTrafficOf	Palo Alto Medical Foundation
+3	5 miles	IsDistanceFrom	Palo Alto Medical Foundation
+4	Stanford Oval Parking	HasAddress	610 Amarillo Ave
+4	Stanford Oval Parking	HasType	parking garage
+4	610 Amarillo Ave	IsAddressOf	Stanford Oval Parking
+4	parking garage	IsTypeOf	Stanford Oval Parking
+4	Stanford Oval Parking	HasTraffic	no traffic
+4	Stanford Oval Parking	HasDistance	5 miles
+4	no traffic	IsTrafficOf	Stanford Oval Parking
+4	5 miles	IsDistanceFrom	Stanford Oval Parking
+5	Mandarin Roots	HasAddress	271 Springer Street
+5	Mandarin Roots	HasType	chinese restaurant
+5	271 Springer Street	IsAddressOf	Mandarin Roots
+5	chinese restaurant	IsTypeOf	Mandarin Roots
+5	Mandarin Roots	HasTraffic	moderate traffic
+5	Mandarin Roots	HasDistance	4 miles
+5	moderate traffic	IsTrafficOf	Mandarin Roots
+5	4 miles	IsDistanceFrom	Mandarin Roots
+6	Town and Country	HasAddress	383 University Ave
+6	Town and Country	HasType	shopping center
+6	383 University Ave	IsAddressOf	Town and Country
+6	shopping center	IsTypeOf	Town and Country
+6	Town and Country	HasTraffic	heavy traffic
+6	Town and Country	HasDistance	4 miles
+6	heavy traffic	IsTrafficOf	Town and Country
+6	4 miles	IsDistanceFrom	Town and Country
+-1	today	IsEqualTo	monday

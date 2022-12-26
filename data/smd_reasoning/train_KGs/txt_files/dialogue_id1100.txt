@@ -1,0 +1,57 @@
+0	Jing Jing	HasAddress	113 Arbol Dr
+0	Jing Jing	HasType	chinese restaurant
+0	113 Arbol Dr	IsAddressOf	Jing Jing
+0	chinese restaurant	IsTypeOf	Jing Jing
+0	Jing Jing	HasTraffic	moderate traffic
+0	Jing Jing	HasDistance	4 miles
+0	moderate traffic	IsTrafficOf	Jing Jing
+0	4 miles	IsDistanceFrom	Jing Jing
+1	Panda Express	HasAddress	842 Arrowhead Way
+1	Panda Express	HasType	chinese restaurant
+1	842 Arrowhead Way	IsAddressOf	Panda Express
+1	chinese restaurant	IsTypeOf	Panda Express
+1	Panda Express	HasTraffic	no traffic
+1	Panda Express	HasDistance	6 miles
+1	no traffic	IsTrafficOf	Panda Express
+1	6 miles	IsDistanceFrom	Panda Express
+2	5677 springer street	HasAddress	5677 springer street
+2	5677 springer street	HasType	certain address
+2	5677 springer street	IsAddressOf	5677 springer street
+2	certain address	IsTypeOf	5677 springer street
+2	5677 springer street	HasTraffic	moderate traffic
+2	5677 springer street	HasDistance	6 miles
+2	moderate traffic	IsTrafficOf	5677 springer street
+2	6 miles	IsDistanceFrom	5677 springer street
+3	Coupa	HasAddress	394 Van Ness Ave
+3	Coupa	HasType	coffee or tea place
+3	394 Van Ness Ave	IsAddressOf	Coupa
+3	coffee or tea place	IsTypeOf	Coupa
+3	Coupa	HasTraffic	heavy traffic
+3	Coupa	HasDistance	1 miles
+3	heavy traffic	IsTrafficOf	Coupa
+3	1 miles	IsDistanceFrom	Coupa
+4	toms house	HasAddress	580 Van Ness Ave
+4	toms house	HasType	friends house
+4	580 Van Ness Ave	IsAddressOf	toms house
+4	friends house	IsTypeOf	toms house
+4	toms house	HasTraffic	moderate traffic
+4	toms house	HasDistance	1 miles
+4	moderate traffic	IsTrafficOf	toms house
+4	1 miles	IsDistanceFrom	toms house
+5	The Clement Hotel	HasAddress	657 Ames Ave
+5	The Clement Hotel	HasType	rest stop
+5	657 Ames Ave	IsAddressOf	The Clement Hotel
+5	rest stop	IsTypeOf	The Clement Hotel
+5	The Clement Hotel	HasTraffic	no traffic
+5	The Clement Hotel	HasDistance	5 miles
+5	no traffic	IsTrafficOf	The Clement Hotel
+5	5 miles	IsDistanceFrom	The Clement Hotel
+6	Stanford Express Care	HasAddress	214 El Camino Real
+6	Stanford Express Care	HasType	hospital
+6	214 El Camino Real	IsAddressOf	Stanford Express Care
+6	hospital	IsTypeOf	Stanford Express Care
+6	Stanford Express Care	HasTraffic	heavy traffic
+6	Stanford Express Care	HasDistance	2 miles
+6	heavy traffic	IsTrafficOf	Stanford Express Care
+6	2 miles	IsDistanceFrom	Stanford Express Care
+-1	today	IsEqualTo	monday

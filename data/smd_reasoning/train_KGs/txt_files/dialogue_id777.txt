@@ -1,0 +1,65 @@
+0	Stanford Express Care	HasAddress	214 El Camino Real
+0	Stanford Express Care	HasType	hospital
+0	214 El Camino Real	IsAddressOf	Stanford Express Care
+0	hospital	IsTypeOf	Stanford Express Care
+0	Stanford Express Care	HasTraffic	car collision nearby
+0	Stanford Express Care	HasDistance	1 miles
+0	car collision nearby	IsTrafficOf	Stanford Express Care
+0	1 miles	IsDistanceFrom	Stanford Express Care
+1	76	HasAddress	91 El Camino Real
+1	76	HasType	gas station
+1	91 El Camino Real	IsAddressOf	76
+1	gas station	IsTypeOf	76
+1	76	HasTraffic	moderate traffic
+1	76	HasDistance	1 miles
+1	moderate traffic	IsTrafficOf	76
+1	1 miles	IsDistanceFrom	76
+2	Stanford Oval Parking	HasAddress	610 Amarillo Ave
+2	Stanford Oval Parking	HasType	parking garage
+2	610 Amarillo Ave	IsAddressOf	Stanford Oval Parking
+2	parking garage	IsTypeOf	Stanford Oval Parking
+2	Stanford Oval Parking	HasTraffic	car collision nearby
+2	Stanford Oval Parking	HasDistance	2 miles
+2	car collision nearby	IsTrafficOf	Stanford Oval Parking
+2	2 miles	IsDistanceFrom	Stanford Oval Parking
+3	Starbucks	HasAddress	792 Bedoin Street
+3	Starbucks	HasType	coffee or tea place
+3	792 Bedoin Street	IsAddressOf	Starbucks
+3	coffee or tea place	IsTypeOf	Starbucks
+3	Starbucks	HasTraffic	road block nearby
+3	Starbucks	HasDistance	5 miles
+3	road block nearby	IsTrafficOf	Starbucks
+3	5 miles	IsDistanceFrom	Starbucks
+4	Round Table	HasAddress	113 Anton Ct
+4	Round Table	HasType	pizza restaurant
+4	113 Anton Ct	IsAddressOf	Round Table
+4	pizza restaurant	IsTypeOf	Round Table
+4	Round Table	HasTraffic	no traffic
+4	Round Table	HasDistance	4 miles
+4	no traffic	IsTrafficOf	Round Table
+4	4 miles	IsDistanceFrom	Round Table
+5	Safeway	HasAddress	452 Arcadia Pl
+5	Safeway	HasType	grocery store
+5	452 Arcadia Pl	IsAddressOf	Safeway
+5	grocery store	IsTypeOf	Safeway
+5	Safeway	HasTraffic	heavy traffic
+5	Safeway	HasDistance	4 miles
+5	heavy traffic	IsTrafficOf	Safeway
+5	4 miles	IsDistanceFrom	Safeway
+6	Shell	HasAddress	53 University Av
+6	Shell	HasType	gas station
+6	53 University Av	IsAddressOf	Shell
+6	gas station	IsTypeOf	Shell
+6	Shell	HasTraffic	heavy traffic
+6	Shell	HasDistance	4 miles
+6	heavy traffic	IsTrafficOf	Shell
+6	4 miles	IsDistanceFrom	Shell
+7	Philz	HasAddress	583 Alester Ave
+7	Philz	HasType	coffee or tea place
+7	583 Alester Ave	IsAddressOf	Philz
+7	coffee or tea place	IsTypeOf	Philz
+7	Philz	HasTraffic	road block nearby
+7	Philz	HasDistance	1 miles
+7	road block nearby	IsTrafficOf	Philz
+7	1 miles	IsDistanceFrom	Philz
+-1	today	IsEqualTo	monday

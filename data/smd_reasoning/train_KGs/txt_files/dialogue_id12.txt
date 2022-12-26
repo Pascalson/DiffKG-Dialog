@@ -1,0 +1,57 @@
+0	Stanford Oval Parking	HasAddress	610 Amarillo Ave
+0	Stanford Oval Parking	HasType	parking garage
+0	610 Amarillo Ave	IsAddressOf	Stanford Oval Parking
+0	parking garage	IsTypeOf	Stanford Oval Parking
+0	Stanford Oval Parking	HasTraffic	no traffic
+0	Stanford Oval Parking	HasDistance	3 miles
+0	no traffic	IsTrafficOf	Stanford Oval Parking
+0	3 miles	IsDistanceFrom	Stanford Oval Parking
+1	Starbucks	HasAddress	792 Bedoin Street
+1	Starbucks	HasType	coffee or tea place
+1	792 Bedoin Street	IsAddressOf	Starbucks
+1	coffee or tea place	IsTypeOf	Starbucks
+1	Starbucks	HasTraffic	no traffic
+1	Starbucks	HasDistance	2 miles
+1	no traffic	IsTrafficOf	Starbucks
+1	2 miles	IsDistanceFrom	Starbucks
+2	Valero	HasAddress	200 Alester Ave
+2	Valero	HasType	gas station
+2	200 Alester Ave	IsAddressOf	Valero
+2	gas station	IsTypeOf	Valero
+2	Valero	HasTraffic	heavy traffic
+2	Valero	HasDistance	5 miles
+2	heavy traffic	IsTrafficOf	Valero
+2	5 miles	IsDistanceFrom	Valero
+3	5677 springer street	HasAddress	5677 springer street
+3	5677 springer street	HasType	certain address
+3	5677 springer street	IsAddressOf	5677 springer street
+3	certain address	IsTypeOf	5677 springer street
+3	5677 springer street	HasTraffic	heavy traffic
+3	5677 springer street	HasDistance	6 miles
+3	heavy traffic	IsTrafficOf	5677 springer street
+3	6 miles	IsDistanceFrom	5677 springer street
+4	Safeway	HasAddress	452 Arcadia Pl
+4	Safeway	HasType	grocery store
+4	452 Arcadia Pl	IsAddressOf	Safeway
+4	grocery store	IsTypeOf	Safeway
+4	Safeway	HasTraffic	heavy traffic
+4	Safeway	HasDistance	6 miles
+4	heavy traffic	IsTrafficOf	Safeway
+4	6 miles	IsDistanceFrom	Safeway
+5	Stanford Shopping Center	HasAddress	773 Alger Dr
+5	Stanford Shopping Center	HasType	shopping center
+5	773 Alger Dr	IsAddressOf	Stanford Shopping Center
+5	shopping center	IsTypeOf	Stanford Shopping Center
+5	Stanford Shopping Center	HasTraffic	no traffic
+5	Stanford Shopping Center	HasDistance	3 miles
+5	no traffic	IsTrafficOf	Stanford Shopping Center
+5	3 miles	IsDistanceFrom	Stanford Shopping Center
+6	Hotel Keen	HasAddress	578 Arbol Dr
+6	Hotel Keen	HasType	rest stop
+6	578 Arbol Dr	IsAddressOf	Hotel Keen
+6	rest stop	IsTypeOf	Hotel Keen
+6	Hotel Keen	HasTraffic	moderate traffic
+6	Hotel Keen	HasDistance	2 miles
+6	moderate traffic	IsTrafficOf	Hotel Keen
+6	2 miles	IsDistanceFrom	Hotel Keen
+-1	today	IsEqualTo	monday

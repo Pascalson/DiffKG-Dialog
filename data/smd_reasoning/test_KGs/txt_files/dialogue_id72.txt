@@ -1,0 +1,57 @@
+0	The Westin	HasAddress	329 El Camino Real
+0	The Westin	HasType	rest stop
+0	329 El Camino Real	IsAddressOf	The Westin
+0	rest stop	IsTypeOf	The Westin
+0	The Westin	HasTraffic	moderate traffic
+0	The Westin	HasDistance	5 miles
+0	moderate traffic	IsTrafficOf	The Westin
+0	5 miles	IsDistanceFrom	The Westin
+1	Round Table	HasAddress	113 Anton Ct
+1	Round Table	HasType	pizza restaurant
+1	113 Anton Ct	IsAddressOf	Round Table
+1	pizza restaurant	IsTypeOf	Round Table
+1	Round Table	HasTraffic	no traffic
+1	Round Table	HasDistance	4 miles
+1	no traffic	IsTrafficOf	Round Table
+1	4 miles	IsDistanceFrom	Round Table
+2	Mandarin Roots	HasAddress	271 Springer Street
+2	Mandarin Roots	HasType	chinese restaurant
+2	271 Springer Street	IsAddressOf	Mandarin Roots
+2	chinese restaurant	IsTypeOf	Mandarin Roots
+2	Mandarin Roots	HasTraffic	no traffic
+2	Mandarin Roots	HasDistance	5 miles
+2	no traffic	IsTrafficOf	Mandarin Roots
+2	5 miles	IsDistanceFrom	Mandarin Roots
+3	Palo Alto Cafe	HasAddress	436 Alger Dr
+3	Palo Alto Cafe	HasType	coffee or tea place
+3	436 Alger Dr	IsAddressOf	Palo Alto Cafe
+3	coffee or tea place	IsTypeOf	Palo Alto Cafe
+3	Palo Alto Cafe	HasTraffic	moderate traffic
+3	Palo Alto Cafe	HasDistance	4 miles
+3	moderate traffic	IsTrafficOf	Palo Alto Cafe
+3	4 miles	IsDistanceFrom	Palo Alto Cafe
+4	Dominos	HasAddress	776 Arastradero Rd
+4	Dominos	HasType	pizza restaurant
+4	776 Arastradero Rd	IsAddressOf	Dominos
+4	pizza restaurant	IsTypeOf	Dominos
+4	Dominos	HasTraffic	heavy traffic
+4	Dominos	HasDistance	6 miles
+4	heavy traffic	IsTrafficOf	Dominos
+4	6 miles	IsDistanceFrom	Dominos
+5	Stanford Express Care	HasAddress	214 El Camino Real
+5	Stanford Express Care	HasType	hospital
+5	214 El Camino Real	IsAddressOf	Stanford Express Care
+5	hospital	IsTypeOf	Stanford Express Care
+5	Stanford Express Care	HasTraffic	no traffic
+5	Stanford Express Care	HasDistance	6 miles
+5	no traffic	IsTrafficOf	Stanford Express Care
+5	6 miles	IsDistanceFrom	Stanford Express Care
+6	Hotel Keen	HasAddress	578 Arbol Dr
+6	Hotel Keen	HasType	rest stop
+6	578 Arbol Dr	IsAddressOf	Hotel Keen
+6	rest stop	IsTypeOf	Hotel Keen
+6	Hotel Keen	HasTraffic	heavy traffic
+6	Hotel Keen	HasDistance	2 miles
+6	heavy traffic	IsTrafficOf	Hotel Keen
+6	2 miles	IsDistanceFrom	Hotel Keen
+-1	today	IsEqualTo	monday

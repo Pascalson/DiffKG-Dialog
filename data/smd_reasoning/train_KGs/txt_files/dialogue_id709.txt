@@ -1,0 +1,65 @@
+0	jacks house	HasAddress	864 Almanor Ln
+0	jacks house	HasType	friends house
+0	864 Almanor Ln	IsAddressOf	jacks house
+0	friends house	IsTypeOf	jacks house
+0	jacks house	HasTraffic	no traffic
+0	jacks house	HasDistance	3 miles
+0	no traffic	IsTrafficOf	jacks house
+0	3 miles	IsDistanceFrom	jacks house
+1	Round Table	HasAddress	113 Anton Ct
+1	Round Table	HasType	pizza restaurant
+1	113 Anton Ct	IsAddressOf	Round Table
+1	pizza restaurant	IsTypeOf	Round Table
+1	Round Table	HasTraffic	no traffic
+1	Round Table	HasDistance	2 miles
+1	no traffic	IsTrafficOf	Round Table
+1	2 miles	IsDistanceFrom	Round Table
+2	toms house	HasAddress	580 Van Ness Ave
+2	toms house	HasType	friends house
+2	580 Van Ness Ave	IsAddressOf	toms house
+2	friends house	IsTypeOf	toms house
+2	toms house	HasTraffic	moderate traffic
+2	toms house	HasDistance	5 miles
+2	moderate traffic	IsTrafficOf	toms house
+2	5 miles	IsDistanceFrom	toms house
+3	5677 springer street	HasAddress	5677 springer street
+3	5677 springer street	HasType	certain address
+3	5677 springer street	IsAddressOf	5677 springer street
+3	certain address	IsTypeOf	5677 springer street
+3	5677 springer street	HasTraffic	moderate traffic
+3	5677 springer street	HasDistance	5 miles
+3	moderate traffic	IsTrafficOf	5677 springer street
+3	5 miles	IsDistanceFrom	5677 springer street
+4	Palo Alto Medical Foundation	HasAddress	611 Ames Ave
+4	Palo Alto Medical Foundation	HasType	hospital
+4	611 Ames Ave	IsAddressOf	Palo Alto Medical Foundation
+4	hospital	IsTypeOf	Palo Alto Medical Foundation
+4	Palo Alto Medical Foundation	HasTraffic	heavy traffic
+4	Palo Alto Medical Foundation	HasDistance	2 miles
+4	heavy traffic	IsTrafficOf	Palo Alto Medical Foundation
+4	2 miles	IsDistanceFrom	Palo Alto Medical Foundation
+5	Mandarin Roots	HasAddress	271 Springer Street
+5	Mandarin Roots	HasType	chinese restaurant
+5	271 Springer Street	IsAddressOf	Mandarin Roots
+5	chinese restaurant	IsTypeOf	Mandarin Roots
+5	Mandarin Roots	HasTraffic	no traffic
+5	Mandarin Roots	HasDistance	5 miles
+5	no traffic	IsTrafficOf	Mandarin Roots
+5	5 miles	IsDistanceFrom	Mandarin Roots
+6	Civic Center Garage	HasAddress	270 Altaire Walk
+6	Civic Center Garage	HasType	parking garage
+6	270 Altaire Walk	IsAddressOf	Civic Center Garage
+6	parking garage	IsTypeOf	Civic Center Garage
+6	Civic Center Garage	HasTraffic	road block nearby
+6	Civic Center Garage	HasDistance	2 miles
+6	road block nearby	IsTrafficOf	Civic Center Garage
+6	2 miles	IsDistanceFrom	Civic Center Garage
+7	home	HasAddress	5671 barringer street
+7	home	HasType	home
+7	5671 barringer street	IsAddressOf	home
+7	home	IsTypeOf	home
+7	home	HasTraffic	no traffic
+7	home	HasDistance	3 miles
+7	no traffic	IsTrafficOf	home
+7	3 miles	IsDistanceFrom	home
+-1	today	IsEqualTo	monday

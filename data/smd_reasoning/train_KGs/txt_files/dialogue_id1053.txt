@@ -1,0 +1,57 @@
+0	taking medicine	HasTime	7pm
+0	7pm	IsTimeOf	taking medicine
+0	taking medicine	HasDate	the 16th
+0	the 16th	IsDateOf	taking medicine
+0	taking medicine	HasParty	Tom
+0	Tom	IsPartyOf	taking medicine
+1	optometrist appointment	HasTime	10am
+1	10am	IsTimeOf	optometrist appointment
+1	optometrist appointment	HasDate	wednesday
+1	wednesday	IsDateOf	optometrist appointment
+1	optometrist appointment	HasParty	brother
+1	brother	IsPartyOf	optometrist appointment
+2	optometrist appointment	HasTime	11am
+2	11am	IsTimeOf	optometrist appointment
+2	optometrist appointment	HasDate	the 13th
+2	the 13th	IsDateOf	optometrist appointment
+2	optometrist appointment	HasParty	Alex
+2	Alex	IsPartyOf	optometrist appointment
+3	football activity	HasTime	7pm
+3	7pm	IsTimeOf	football activity
+3	football activity	HasDate	the 14th
+3	the 14th	IsDateOf	football activity
+3	football activity	HasParty	Ana
+3	Ana	IsPartyOf	football activity
+4	conference	HasTime	9am
+4	9am	IsTimeOf	conference
+4	conference	HasDate	the 18th
+4	the 18th	IsDateOf	conference
+4	conference	HasParty	boss
+4	boss	IsPartyOf	conference
+4	conference	HasRoom	conference room 102
+4	conference room 102	IsRoomOf	conference
+4	conference	HasAgenda	go over quarterly report
+4	go over quarterly report	IsAgendaOf	conference
+5	yoga activity	HasTime	3pm
+5	3pm	IsTimeOf	yoga activity
+5	yoga activity	HasDate	the 15th
+5	the 15th	IsDateOf	yoga activity
+5	yoga activity	HasParty	Alex
+5	Alex	IsPartyOf	yoga activity
+6	football activity	HasTime	4pm
+6	4pm	IsTimeOf	football activity
+6	football activity	HasDate	the 18th
+6	the 18th	IsDateOf	football activity
+6	football activity	HasParty	aunt
+6	aunt	IsPartyOf	football activity
+7	conference	HasTime	10am
+7	10am	IsTimeOf	conference
+7	conference	HasDate	the 7th
+7	the 7th	IsDateOf	conference
+7	conference	HasParty	vice president
+7	vice president	IsPartyOf	conference
+7	conference	HasRoom	conference room 102
+7	conference room 102	IsRoomOf	conference
+7	conference	HasAgenda	discuss dress code
+7	discuss dress code	IsAgendaOf	conference
+-1	today	IsEqualTo	monday

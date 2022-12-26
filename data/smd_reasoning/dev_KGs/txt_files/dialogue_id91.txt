@@ -1,0 +1,65 @@
+0	Dish Parking	HasAddress	550 Alester Ave
+0	Dish Parking	HasType	parking garage
+0	550 Alester Ave	IsAddressOf	Dish Parking
+0	parking garage	IsTypeOf	Dish Parking
+0	Dish Parking	HasTraffic	road block nearby
+0	Dish Parking	HasDistance	3 miles
+0	road block nearby	IsTrafficOf	Dish Parking
+0	3 miles	IsDistanceFrom	Dish Parking
+1	Midtown Shopping Center	HasAddress	338 Alester Ave
+1	Midtown Shopping Center	HasType	shopping center
+1	338 Alester Ave	IsAddressOf	Midtown Shopping Center
+1	shopping center	IsTypeOf	Midtown Shopping Center
+1	Midtown Shopping Center	HasTraffic	no traffic
+1	Midtown Shopping Center	HasDistance	1 miles
+1	no traffic	IsTrafficOf	Midtown Shopping Center
+1	1 miles	IsDistanceFrom	Midtown Shopping Center
+2	The Clement Hotel	HasAddress	657 Ames Ave
+2	The Clement Hotel	HasType	rest stop
+2	657 Ames Ave	IsAddressOf	The Clement Hotel
+2	rest stop	IsTypeOf	The Clement Hotel
+2	The Clement Hotel	HasTraffic	car collision nearby
+2	The Clement Hotel	HasDistance	1 miles
+2	car collision nearby	IsTrafficOf	The Clement Hotel
+2	1 miles	IsDistanceFrom	The Clement Hotel
+3	Hotel Keen	HasAddress	578 Arbol Dr
+3	Hotel Keen	HasType	rest stop
+3	578 Arbol Dr	IsAddressOf	Hotel Keen
+3	rest stop	IsTypeOf	Hotel Keen
+3	Hotel Keen	HasTraffic	moderate traffic
+3	Hotel Keen	HasDistance	5 miles
+3	moderate traffic	IsTrafficOf	Hotel Keen
+3	5 miles	IsDistanceFrom	Hotel Keen
+4	jacks house	HasAddress	864 Almanor Ln
+4	jacks house	HasType	friends house
+4	864 Almanor Ln	IsAddressOf	jacks house
+4	friends house	IsTypeOf	jacks house
+4	jacks house	HasTraffic	road block nearby
+4	jacks house	HasDistance	4 miles
+4	road block nearby	IsTrafficOf	jacks house
+4	4 miles	IsDistanceFrom	jacks house
+5	Philz	HasAddress	583 Alester Ave
+5	Philz	HasType	coffee or tea place
+5	583 Alester Ave	IsAddressOf	Philz
+5	coffee or tea place	IsTypeOf	Philz
+5	Philz	HasTraffic	heavy traffic
+5	Philz	HasDistance	2 miles
+5	heavy traffic	IsTrafficOf	Philz
+5	2 miles	IsDistanceFrom	Philz
+6	Sigona Farmers Market	HasAddress	638 Amherst St
+6	Sigona Farmers Market	HasType	grocery store
+6	638 Amherst St	IsAddressOf	Sigona Farmers Market
+6	grocery store	IsTypeOf	Sigona Farmers Market
+6	Sigona Farmers Market	HasTraffic	car collision nearby
+6	Sigona Farmers Market	HasDistance	1 miles
+6	car collision nearby	IsTrafficOf	Sigona Farmers Market
+6	1 miles	IsDistanceFrom	Sigona Farmers Market
+7	5677 southwest 4th street	HasAddress	5677 southwest 4th street
+7	5677 southwest 4th street	HasType	certain address
+7	5677 southwest 4th street	IsAddressOf	5677 southwest 4th street
+7	certain address	IsTypeOf	5677 southwest 4th street
+7	5677 southwest 4th street	HasTraffic	heavy traffic
+7	5677 southwest 4th street	HasDistance	5 miles
+7	heavy traffic	IsTrafficOf	5677 southwest 4th street
+7	5 miles	IsDistanceFrom	5677 southwest 4th street
+-1	today	IsEqualTo	monday

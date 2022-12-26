@@ -1,0 +1,57 @@
+0	Hotel Keen	HasAddress	578 Arbol Dr
+0	Hotel Keen	HasType	rest stop
+0	578 Arbol Dr	IsAddressOf	Hotel Keen
+0	rest stop	IsTypeOf	Hotel Keen
+0	Hotel Keen	HasTraffic	moderate traffic
+0	Hotel Keen	HasDistance	6 miles
+0	moderate traffic	IsTrafficOf	Hotel Keen
+0	6 miles	IsDistanceFrom	Hotel Keen
+1	Valero	HasAddress	200 Alester Ave
+1	Valero	HasType	gas station
+1	200 Alester Ave	IsAddressOf	Valero
+1	gas station	IsTypeOf	Valero
+1	Valero	HasTraffic	moderate traffic
+1	Valero	HasDistance	1 miles
+1	moderate traffic	IsTrafficOf	Valero
+1	1 miles	IsDistanceFrom	Valero
+2	Safeway	HasAddress	452 Arcadia Pl
+2	Safeway	HasType	grocery store
+2	452 Arcadia Pl	IsAddressOf	Safeway
+2	grocery store	IsTypeOf	Safeway
+2	Safeway	HasTraffic	no traffic
+2	Safeway	HasDistance	5 miles
+2	no traffic	IsTrafficOf	Safeway
+2	5 miles	IsDistanceFrom	Safeway
+3	The Clement Hotel	HasAddress	657 Ames Ave
+3	The Clement Hotel	HasType	rest stop
+3	657 Ames Ave	IsAddressOf	The Clement Hotel
+3	rest stop	IsTypeOf	The Clement Hotel
+3	The Clement Hotel	HasTraffic	heavy traffic
+3	The Clement Hotel	HasDistance	4 miles
+3	heavy traffic	IsTrafficOf	The Clement Hotel
+3	4 miles	IsDistanceFrom	The Clement Hotel
+4	5677 southwest 4th street	HasAddress	5677 southwest 4th street
+4	5677 southwest 4th street	HasType	certain address
+4	5677 southwest 4th street	IsAddressOf	5677 southwest 4th street
+4	certain address	IsTypeOf	5677 southwest 4th street
+4	5677 southwest 4th street	HasTraffic	moderate traffic
+4	5677 southwest 4th street	HasDistance	4 miles
+4	moderate traffic	IsTrafficOf	5677 southwest 4th street
+4	4 miles	IsDistanceFrom	5677 southwest 4th street
+5	Palo Alto Cafe	HasAddress	436 Alger Dr
+5	Palo Alto Cafe	HasType	coffee or tea place
+5	436 Alger Dr	IsAddressOf	Palo Alto Cafe
+5	coffee or tea place	IsTypeOf	Palo Alto Cafe
+5	Palo Alto Cafe	HasTraffic	moderate traffic
+5	Palo Alto Cafe	HasDistance	5 miles
+5	moderate traffic	IsTrafficOf	Palo Alto Cafe
+5	5 miles	IsDistanceFrom	Palo Alto Cafe
+6	Cafe Venetia	HasAddress	269 Alger Dr
+6	Cafe Venetia	HasType	coffee or tea place
+6	269 Alger Dr	IsAddressOf	Cafe Venetia
+6	coffee or tea place	IsTypeOf	Cafe Venetia
+6	Cafe Venetia	HasTraffic	no traffic
+6	Cafe Venetia	HasDistance	1 miles
+6	no traffic	IsTrafficOf	Cafe Venetia
+6	1 miles	IsDistanceFrom	Cafe Venetia
+-1	today	IsEqualTo	monday

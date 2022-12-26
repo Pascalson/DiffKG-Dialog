@@ -1,0 +1,65 @@
+0	Coupa	HasAddress	394 Van Ness Ave
+0	Coupa	HasType	coffee or tea place
+0	394 Van Ness Ave	IsAddressOf	Coupa
+0	coffee or tea place	IsTypeOf	Coupa
+0	Coupa	HasTraffic	no traffic
+0	Coupa	HasDistance	1 miles
+0	no traffic	IsTrafficOf	Coupa
+0	1 miles	IsDistanceFrom	Coupa
+1	Town and Country	HasAddress	383 University Ave
+1	Town and Country	HasType	shopping center
+1	383 University Ave	IsAddressOf	Town and Country
+1	shopping center	IsTypeOf	Town and Country
+1	Town and Country	HasTraffic	road block nearby
+1	Town and Country	HasDistance	5 miles
+1	road block nearby	IsTrafficOf	Town and Country
+1	5 miles	IsDistanceFrom	Town and Country
+2	76	HasAddress	91 El Camino Real
+2	76	HasType	gas station
+2	91 El Camino Real	IsAddressOf	76
+2	gas station	IsTypeOf	76
+2	76	HasTraffic	car collision nearby
+2	76	HasDistance	2 miles
+2	car collision nearby	IsTrafficOf	76
+2	2 miles	IsDistanceFrom	76
+3	Pizza Hut	HasAddress	704 El Camino Real
+3	Pizza Hut	HasType	pizza restaurant
+3	704 El Camino Real	IsAddressOf	Pizza Hut
+3	pizza restaurant	IsTypeOf	Pizza Hut
+3	Pizza Hut	HasTraffic	car collision nearby
+3	Pizza Hut	HasDistance	1 miles
+3	car collision nearby	IsTrafficOf	Pizza Hut
+3	1 miles	IsDistanceFrom	Pizza Hut
+4	Shell	HasAddress	53 University Av
+4	Shell	HasType	gas station
+4	53 University Av	IsAddressOf	Shell
+4	gas station	IsTypeOf	Shell
+4	Shell	HasTraffic	no traffic
+4	Shell	HasDistance	4 miles
+4	no traffic	IsTrafficOf	Shell
+4	4 miles	IsDistanceFrom	Shell
+5	Philz	HasAddress	583 Alester Ave
+5	Philz	HasType	coffee or tea place
+5	583 Alester Ave	IsAddressOf	Philz
+5	coffee or tea place	IsTypeOf	Philz
+5	Philz	HasTraffic	car collision nearby
+5	Philz	HasDistance	6 miles
+5	car collision nearby	IsTrafficOf	Philz
+5	6 miles	IsDistanceFrom	Philz
+6	Panda Express	HasAddress	842 Arrowhead Way
+6	Panda Express	HasType	chinese restaurant
+6	842 Arrowhead Way	IsAddressOf	Panda Express
+6	chinese restaurant	IsTypeOf	Panda Express
+6	Panda Express	HasTraffic	car collision nearby
+6	Panda Express	HasDistance	6 miles
+6	car collision nearby	IsTrafficOf	Panda Express
+6	6 miles	IsDistanceFrom	Panda Express
+7	5677 southwest 4th street	HasAddress	5677 southwest 4th street
+7	5677 southwest 4th street	HasType	certain address
+7	5677 southwest 4th street	IsAddressOf	5677 southwest 4th street
+7	certain address	IsTypeOf	5677 southwest 4th street
+7	5677 southwest 4th street	HasTraffic	road block nearby
+7	5677 southwest 4th street	HasDistance	4 miles
+7	road block nearby	IsTrafficOf	5677 southwest 4th street
+7	4 miles	IsDistanceFrom	5677 southwest 4th street
+-1	today	IsEqualTo	monday

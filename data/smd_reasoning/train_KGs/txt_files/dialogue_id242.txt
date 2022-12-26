@@ -1,0 +1,65 @@
+0	Shell	HasAddress	53 University Av
+0	Shell	HasType	gas station
+0	53 University Av	IsAddressOf	Shell
+0	gas station	IsTypeOf	Shell
+0	Shell	HasTraffic	no traffic
+0	Shell	HasDistance	4 miles
+0	no traffic	IsTrafficOf	Shell
+0	4 miles	IsDistanceFrom	Shell
+1	Jing Jing	HasAddress	113 Arbol Dr
+1	Jing Jing	HasType	chinese restaurant
+1	113 Arbol Dr	IsAddressOf	Jing Jing
+1	chinese restaurant	IsTypeOf	Jing Jing
+1	Jing Jing	HasTraffic	car collision nearby
+1	Jing Jing	HasDistance	2 miles
+1	car collision nearby	IsTrafficOf	Jing Jing
+1	2 miles	IsDistanceFrom	Jing Jing
+2	Town and Country	HasAddress	383 University Ave
+2	Town and Country	HasType	shopping center
+2	383 University Ave	IsAddressOf	Town and Country
+2	shopping center	IsTypeOf	Town and Country
+2	Town and Country	HasTraffic	road block nearby
+2	Town and Country	HasDistance	4 miles
+2	road block nearby	IsTrafficOf	Town and Country
+2	4 miles	IsDistanceFrom	Town and Country
+3	Civic Center Garage	HasAddress	270 Altaire Walk
+3	Civic Center Garage	HasType	parking garage
+3	270 Altaire Walk	IsAddressOf	Civic Center Garage
+3	parking garage	IsTypeOf	Civic Center Garage
+3	Civic Center Garage	HasTraffic	road block nearby
+3	Civic Center Garage	HasDistance	5 miles
+3	road block nearby	IsTrafficOf	Civic Center Garage
+3	5 miles	IsDistanceFrom	Civic Center Garage
+4	Ravenswood Shopping Center	HasAddress	434 Arastradero Rd
+4	Ravenswood Shopping Center	HasType	shopping center
+4	434 Arastradero Rd	IsAddressOf	Ravenswood Shopping Center
+4	shopping center	IsTypeOf	Ravenswood Shopping Center
+4	Ravenswood Shopping Center	HasTraffic	car collision nearby
+4	Ravenswood Shopping Center	HasDistance	2 miles
+4	car collision nearby	IsTrafficOf	Ravenswood Shopping Center
+4	2 miles	IsDistanceFrom	Ravenswood Shopping Center
+5	5677 southwest 4th street	HasAddress	5677 southwest 4th street
+5	5677 southwest 4th street	HasType	certain address
+5	5677 southwest 4th street	IsAddressOf	5677 southwest 4th street
+5	certain address	IsTypeOf	5677 southwest 4th street
+5	5677 southwest 4th street	HasTraffic	heavy traffic
+5	5677 southwest 4th street	HasDistance	1 miles
+5	heavy traffic	IsTrafficOf	5677 southwest 4th street
+5	1 miles	IsDistanceFrom	5677 southwest 4th street
+6	5672 barringer street	HasAddress	5672 barringer street
+6	5672 barringer street	HasType	certain address
+6	5672 barringer street	IsAddressOf	5672 barringer street
+6	certain address	IsTypeOf	5672 barringer street
+6	5672 barringer street	HasTraffic	car collision nearby
+6	5672 barringer street	HasDistance	4 miles
+6	car collision nearby	IsTrafficOf	5672 barringer street
+6	4 miles	IsDistanceFrom	5672 barringer street
+7	Cafe Venetia	HasAddress	269 Alger Dr
+7	Cafe Venetia	HasType	coffee or tea place
+7	269 Alger Dr	IsAddressOf	Cafe Venetia
+7	coffee or tea place	IsTypeOf	Cafe Venetia
+7	Cafe Venetia	HasTraffic	heavy traffic
+7	Cafe Venetia	HasDistance	6 miles
+7	heavy traffic	IsTrafficOf	Cafe Venetia
+7	6 miles	IsDistanceFrom	Cafe Venetia
+-1	today	IsEqualTo	monday

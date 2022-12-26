@@ -1,0 +1,57 @@
+0	toms house	HasAddress	580 Van Ness Ave
+0	toms house	HasType	friends house
+0	580 Van Ness Ave	IsAddressOf	toms house
+0	friends house	IsTypeOf	toms house
+0	toms house	HasTraffic	moderate traffic
+0	toms house	HasDistance	5 miles
+0	moderate traffic	IsTrafficOf	toms house
+0	5 miles	IsDistanceFrom	toms house
+1	home	HasAddress	56 cadwell street
+1	home	HasType	home
+1	56 cadwell street	IsAddressOf	home
+1	home	IsTypeOf	home
+1	home	HasTraffic	moderate traffic
+1	home	HasDistance	6 miles
+1	moderate traffic	IsTrafficOf	home
+1	6 miles	IsDistanceFrom	home
+2	Stanford Childrens Health	HasAddress	899 Ames Ct
+2	Stanford Childrens Health	HasType	hospital
+2	899 Ames Ct	IsAddressOf	Stanford Childrens Health
+2	hospital	IsTypeOf	Stanford Childrens Health
+2	Stanford Childrens Health	HasTraffic	no traffic
+2	Stanford Childrens Health	HasDistance	1 miles
+2	no traffic	IsTrafficOf	Stanford Childrens Health
+2	1 miles	IsDistanceFrom	Stanford Childrens Health
+3	Stanford Express Care	HasAddress	214 El Camino Real
+3	Stanford Express Care	HasType	hospital
+3	214 El Camino Real	IsAddressOf	Stanford Express Care
+3	hospital	IsTypeOf	Stanford Express Care
+3	Stanford Express Care	HasTraffic	moderate traffic
+3	Stanford Express Care	HasDistance	2 miles
+3	moderate traffic	IsTrafficOf	Stanford Express Care
+3	2 miles	IsDistanceFrom	Stanford Express Care
+4	Mandarin Roots	HasAddress	271 Springer Street
+4	Mandarin Roots	HasType	chinese restaurant
+4	271 Springer Street	IsAddressOf	Mandarin Roots
+4	chinese restaurant	IsTypeOf	Mandarin Roots
+4	Mandarin Roots	HasTraffic	no traffic
+4	Mandarin Roots	HasDistance	1 miles
+4	no traffic	IsTrafficOf	Mandarin Roots
+4	1 miles	IsDistanceFrom	Mandarin Roots
+5	home	HasAddress	56 cadwell street
+5	home	HasType	home
+5	56 cadwell street	IsAddressOf	home
+5	home	IsTypeOf	home
+5	home	HasTraffic	heavy traffic
+5	home	HasDistance	2 miles
+5	heavy traffic	IsTrafficOf	home
+5	2 miles	IsDistanceFrom	home
+6	Webster Garage	HasAddress	880 Ames Ct
+6	Webster Garage	HasType	parking garage
+6	880 Ames Ct	IsAddressOf	Webster Garage
+6	parking garage	IsTypeOf	Webster Garage
+6	Webster Garage	HasTraffic	heavy traffic
+6	Webster Garage	HasDistance	1 miles
+6	heavy traffic	IsTrafficOf	Webster Garage
+6	1 miles	IsDistanceFrom	Webster Garage
+-1	today	IsEqualTo	monday

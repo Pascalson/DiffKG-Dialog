@@ -1,0 +1,25 @@
+0	taking medicine	HasTime	11am
+0	11am	IsTimeOf	taking medicine
+0	taking medicine	HasDate	wednesday
+0	wednesday	IsDateOf	taking medicine
+1	swimming activity	HasTime	2pm
+1	2pm	IsTimeOf	swimming activity
+1	swimming activity	HasDate	wednesday
+1	wednesday	IsDateOf	swimming activity
+2	dinner	HasTime	5pm
+2	5pm	IsTimeOf	dinner
+2	dinner	HasDate	friday
+2	friday	IsDateOf	dinner
+3	optometrist appointment	HasTime	11am
+3	11am	IsTimeOf	optometrist appointment
+3	optometrist appointment	HasDate	tuesday
+3	tuesday	IsDateOf	optometrist appointment
+4	yoga activity	HasTime	3pm
+4	3pm	IsTimeOf	yoga activity
+4	yoga activity	HasDate	friday
+4	friday	IsDateOf	yoga activity
+5	doctor appointment	HasTime	11am
+5	11am	IsTimeOf	doctor appointment
+5	doctor appointment	HasDate	tuesday
+5	tuesday	IsDateOf	doctor appointment
+-1	today	IsEqualTo	monday

@@ -1,0 +1,65 @@
+0	Four Seasons	HasAddress	465 Arcadia Pl
+0	Four Seasons	HasType	rest stop
+0	465 Arcadia Pl	IsAddressOf	Four Seasons
+0	rest stop	IsTypeOf	Four Seasons
+0	Four Seasons	HasTraffic	no traffic
+0	Four Seasons	HasDistance	6 miles
+0	no traffic	IsTrafficOf	Four Seasons
+0	6 miles	IsDistanceFrom	Four Seasons
+1	The Clement Hotel	HasAddress	657 Ames Ave
+1	The Clement Hotel	HasType	rest stop
+1	657 Ames Ave	IsAddressOf	The Clement Hotel
+1	rest stop	IsTypeOf	The Clement Hotel
+1	The Clement Hotel	HasTraffic	no traffic
+1	The Clement Hotel	HasDistance	2 miles
+1	no traffic	IsTrafficOf	The Clement Hotel
+1	2 miles	IsDistanceFrom	The Clement Hotel
+2	Hotel Keen	HasAddress	578 Arbol Dr
+2	Hotel Keen	HasType	rest stop
+2	578 Arbol Dr	IsAddressOf	Hotel Keen
+2	rest stop	IsTypeOf	Hotel Keen
+2	Hotel Keen	HasTraffic	car collision nearby
+2	Hotel Keen	HasDistance	3 miles
+2	car collision nearby	IsTrafficOf	Hotel Keen
+2	3 miles	IsDistanceFrom	Hotel Keen
+3	home	HasAddress	56 cadwell street
+3	home	HasType	home
+3	56 cadwell street	IsAddressOf	home
+3	home	IsTypeOf	home
+3	home	HasTraffic	no traffic
+3	home	HasDistance	6 miles
+3	no traffic	IsTrafficOf	home
+3	6 miles	IsDistanceFrom	home
+4	home	HasAddress	5671 barringer street
+4	home	HasType	home
+4	5671 barringer street	IsAddressOf	home
+4	home	IsTypeOf	home
+4	home	HasTraffic	road block nearby
+4	home	HasDistance	5 miles
+4	road block nearby	IsTrafficOf	home
+4	5 miles	IsDistanceFrom	home
+5	Chevron	HasAddress	783 Arcadia Pl
+5	Chevron	HasType	gas station
+5	783 Arcadia Pl	IsAddressOf	Chevron
+5	gas station	IsTypeOf	Chevron
+5	Chevron	HasTraffic	road block nearby
+5	Chevron	HasDistance	1 miles
+5	road block nearby	IsTrafficOf	Chevron
+5	1 miles	IsDistanceFrom	Chevron
+6	Whole Foods	HasAddress	819 Alma St
+6	Whole Foods	HasType	grocery store
+6	819 Alma St	IsAddressOf	Whole Foods
+6	grocery store	IsTypeOf	Whole Foods
+6	Whole Foods	HasTraffic	car collision nearby
+6	Whole Foods	HasDistance	1 miles
+6	car collision nearby	IsTrafficOf	Whole Foods
+6	1 miles	IsDistanceFrom	Whole Foods
+7	Palo Alto Medical Foundation	HasAddress	611 Ames Ave
+7	Palo Alto Medical Foundation	HasType	hospital
+7	611 Ames Ave	IsAddressOf	Palo Alto Medical Foundation
+7	hospital	IsTypeOf	Palo Alto Medical Foundation
+7	Palo Alto Medical Foundation	HasTraffic	car collision nearby
+7	Palo Alto Medical Foundation	HasDistance	2 miles
+7	car collision nearby	IsTrafficOf	Palo Alto Medical Foundation
+7	2 miles	IsDistanceFrom	Palo Alto Medical Foundation
+-1	today	IsEqualTo	monday

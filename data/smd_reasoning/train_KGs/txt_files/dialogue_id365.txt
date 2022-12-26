@@ -1,0 +1,65 @@
+0	jills house	HasAddress	347 Alta Mesa Ave
+0	jills house	HasType	friends house
+0	347 Alta Mesa Ave	IsAddressOf	jills house
+0	friends house	IsTypeOf	jills house
+0	jills house	HasTraffic	heavy traffic
+0	jills house	HasDistance	2 miles
+0	heavy traffic	IsTrafficOf	jills house
+0	2 miles	IsDistanceFrom	jills house
+1	Hacienda Market	HasAddress	1313 Chester Ave
+1	Hacienda Market	HasType	grocery store
+1	1313 Chester Ave	IsAddressOf	Hacienda Market
+1	grocery store	IsTypeOf	Hacienda Market
+1	Hacienda Market	HasTraffic	road block nearby
+1	Hacienda Market	HasDistance	3 miles
+1	road block nearby	IsTrafficOf	Hacienda Market
+1	3 miles	IsDistanceFrom	Hacienda Market
+2	Willows Market	HasAddress	409 Bollard St
+2	Willows Market	HasType	grocery store
+2	409 Bollard St	IsAddressOf	Willows Market
+2	grocery store	IsTypeOf	Willows Market
+2	Willows Market	HasTraffic	no traffic
+2	Willows Market	HasDistance	5 miles
+2	no traffic	IsTrafficOf	Willows Market
+2	5 miles	IsDistanceFrom	Willows Market
+3	Four Seasons	HasAddress	465 Arcadia Pl
+3	Four Seasons	HasType	rest stop
+3	465 Arcadia Pl	IsAddressOf	Four Seasons
+3	rest stop	IsTypeOf	Four Seasons
+3	Four Seasons	HasTraffic	car collision nearby
+3	Four Seasons	HasDistance	6 miles
+3	car collision nearby	IsTrafficOf	Four Seasons
+3	6 miles	IsDistanceFrom	Four Seasons
+4	76	HasAddress	91 El Camino Real
+4	76	HasType	gas station
+4	91 El Camino Real	IsAddressOf	76
+4	gas station	IsTypeOf	76
+4	76	HasTraffic	car collision nearby
+4	76	HasDistance	5 miles
+4	car collision nearby	IsTrafficOf	76
+4	5 miles	IsDistanceFrom	76
+5	P.F. Changs	HasAddress	669 El Camino Real
+5	P.F. Changs	HasType	chinese restaurant
+5	669 El Camino Real	IsAddressOf	P.F. Changs
+5	chinese restaurant	IsTypeOf	P.F. Changs
+5	P.F. Changs	HasTraffic	no traffic
+5	P.F. Changs	HasDistance	7 miles
+5	no traffic	IsTrafficOf	P.F. Changs
+5	7 miles	IsDistanceFrom	P.F. Changs
+6	5677 springer street	HasAddress	5677 springer street
+6	5677 springer street	HasType	certain address
+6	5677 springer street	IsAddressOf	5677 springer street
+6	certain address	IsTypeOf	5677 springer street
+6	5677 springer street	HasTraffic	car collision nearby
+6	5677 springer street	HasDistance	1 miles
+6	car collision nearby	IsTrafficOf	5677 springer street
+6	1 miles	IsDistanceFrom	5677 springer street
+7	home	HasAddress	10 ames street
+7	home	HasType	home
+7	10 ames street	IsAddressOf	home
+7	home	IsTypeOf	home
+7	home	HasTraffic	road block nearby
+7	home	HasDistance	1 miles
+7	road block nearby	IsTrafficOf	home
+7	1 miles	IsDistanceFrom	home
+-1	today	IsEqualTo	monday

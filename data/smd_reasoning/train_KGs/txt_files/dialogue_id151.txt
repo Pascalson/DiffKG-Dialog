@@ -1,0 +1,57 @@
+0	P.F. Changs	HasAddress	669 El Camino Real
+0	P.F. Changs	HasType	chinese restaurant
+0	669 El Camino Real	IsAddressOf	P.F. Changs
+0	chinese restaurant	IsTypeOf	P.F. Changs
+0	P.F. Changs	HasTraffic	moderate traffic
+0	P.F. Changs	HasDistance	6 miles
+0	moderate traffic	IsTrafficOf	P.F. Changs
+0	6 miles	IsDistanceFrom	P.F. Changs
+1	Valero	HasAddress	200 Alester Ave
+1	Valero	HasType	gas station
+1	200 Alester Ave	IsAddressOf	Valero
+1	gas station	IsTypeOf	Valero
+1	Valero	HasTraffic	no traffic
+1	Valero	HasDistance	2 miles
+1	no traffic	IsTrafficOf	Valero
+1	2 miles	IsDistanceFrom	Valero
+2	Palo Alto Medical Foundation	HasAddress	611 Ames Ave
+2	Palo Alto Medical Foundation	HasType	hospital
+2	611 Ames Ave	IsAddressOf	Palo Alto Medical Foundation
+2	hospital	IsTypeOf	Palo Alto Medical Foundation
+2	Palo Alto Medical Foundation	HasTraffic	no traffic
+2	Palo Alto Medical Foundation	HasDistance	5 miles
+2	no traffic	IsTrafficOf	Palo Alto Medical Foundation
+2	5 miles	IsDistanceFrom	Palo Alto Medical Foundation
+3	Cafe Venetia	HasAddress	269 Alger Dr
+3	Cafe Venetia	HasType	coffee or tea place
+3	269 Alger Dr	IsAddressOf	Cafe Venetia
+3	coffee or tea place	IsTypeOf	Cafe Venetia
+3	Cafe Venetia	HasTraffic	no traffic
+3	Cafe Venetia	HasDistance	4 miles
+3	no traffic	IsTrafficOf	Cafe Venetia
+3	4 miles	IsDistanceFrom	Cafe Venetia
+4	Pizza Chicago	HasAddress	915 Arbol Dr
+4	Pizza Chicago	HasType	pizza restaurant
+4	915 Arbol Dr	IsAddressOf	Pizza Chicago
+4	pizza restaurant	IsTypeOf	Pizza Chicago
+4	Pizza Chicago	HasTraffic	heavy traffic
+4	Pizza Chicago	HasDistance	6 miles
+4	heavy traffic	IsTrafficOf	Pizza Chicago
+4	6 miles	IsDistanceFrom	Pizza Chicago
+5	The Westin	HasAddress	329 El Camino Real
+5	The Westin	HasType	rest stop
+5	329 El Camino Real	IsAddressOf	The Westin
+5	rest stop	IsTypeOf	The Westin
+5	The Westin	HasTraffic	no traffic
+5	The Westin	HasDistance	4 miles
+5	no traffic	IsTrafficOf	The Westin
+5	4 miles	IsDistanceFrom	The Westin
+6	5672 barringer street	HasAddress	5672 barringer street
+6	5672 barringer street	HasType	certain address
+6	5672 barringer street	IsAddressOf	5672 barringer street
+6	certain address	IsTypeOf	5672 barringer street
+6	5672 barringer street	HasTraffic	heavy traffic
+6	5672 barringer street	HasDistance	5 miles
+6	heavy traffic	IsTrafficOf	5672 barringer street
+6	5 miles	IsDistanceFrom	5672 barringer street
+-1	today	IsEqualTo	monday

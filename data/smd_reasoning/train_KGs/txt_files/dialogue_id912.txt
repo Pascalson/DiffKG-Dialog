@@ -1,0 +1,57 @@
+0	Pizza Chicago	HasAddress	915 Arbol Dr
+0	Pizza Chicago	HasType	pizza restaurant
+0	915 Arbol Dr	IsAddressOf	Pizza Chicago
+0	pizza restaurant	IsTypeOf	Pizza Chicago
+0	Pizza Chicago	HasTraffic	heavy traffic
+0	Pizza Chicago	HasDistance	6 miles
+0	heavy traffic	IsTrafficOf	Pizza Chicago
+0	6 miles	IsDistanceFrom	Pizza Chicago
+1	5677 springer street	HasAddress	5677 springer street
+1	5677 springer street	HasType	certain address
+1	5677 springer street	IsAddressOf	5677 springer street
+1	certain address	IsTypeOf	5677 springer street
+1	5677 springer street	HasTraffic	no traffic
+1	5677 springer street	HasDistance	1 miles
+1	no traffic	IsTrafficOf	5677 springer street
+1	1 miles	IsDistanceFrom	5677 springer street
+2	The Westin	HasAddress	329 El Camino Real
+2	The Westin	HasType	rest stop
+2	329 El Camino Real	IsAddressOf	The Westin
+2	rest stop	IsTypeOf	The Westin
+2	The Westin	HasTraffic	no traffic
+2	The Westin	HasDistance	4 miles
+2	no traffic	IsTrafficOf	The Westin
+2	4 miles	IsDistanceFrom	The Westin
+3	P.F. Changs	HasAddress	669 El Camino Real
+3	P.F. Changs	HasType	chinese restaurant
+3	669 El Camino Real	IsAddressOf	P.F. Changs
+3	chinese restaurant	IsTypeOf	P.F. Changs
+3	P.F. Changs	HasTraffic	moderate traffic
+3	P.F. Changs	HasDistance	6 miles
+3	moderate traffic	IsTrafficOf	P.F. Changs
+3	6 miles	IsDistanceFrom	P.F. Changs
+4	Safeway	HasAddress	452 Arcadia Pl
+4	Safeway	HasType	grocery store
+4	452 Arcadia Pl	IsAddressOf	Safeway
+4	grocery store	IsTypeOf	Safeway
+4	Safeway	HasTraffic	moderate traffic
+4	Safeway	HasDistance	4 miles
+4	moderate traffic	IsTrafficOf	Safeway
+4	4 miles	IsDistanceFrom	Safeway
+5	Stanford Childrens Health	HasAddress	899 Ames Ct
+5	Stanford Childrens Health	HasType	hospital
+5	899 Ames Ct	IsAddressOf	Stanford Childrens Health
+5	hospital	IsTypeOf	Stanford Childrens Health
+5	Stanford Childrens Health	HasTraffic	heavy traffic
+5	Stanford Childrens Health	HasDistance	5 miles
+5	heavy traffic	IsTrafficOf	Stanford Childrens Health
+5	5 miles	IsDistanceFrom	Stanford Childrens Health
+6	Cafe Venetia	HasAddress	269 Alger Dr
+6	Cafe Venetia	HasType	coffee or tea place
+6	269 Alger Dr	IsAddressOf	Cafe Venetia
+6	coffee or tea place	IsTypeOf	Cafe Venetia
+6	Cafe Venetia	HasTraffic	no traffic
+6	Cafe Venetia	HasDistance	4 miles
+6	no traffic	IsTrafficOf	Cafe Venetia
+6	4 miles	IsDistanceFrom	Cafe Venetia
+-1	today	IsEqualTo	monday

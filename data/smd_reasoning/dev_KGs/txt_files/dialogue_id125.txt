@@ -1,0 +1,65 @@
+0	home	HasAddress	5671 barringer street
+0	home	HasType	home
+0	5671 barringer street	IsAddressOf	home
+0	home	IsTypeOf	home
+0	home	HasTraffic	no traffic
+0	home	HasDistance	6 miles
+0	no traffic	IsTrafficOf	home
+0	6 miles	IsDistanceFrom	home
+1	Palo Alto Cafe	HasAddress	436 Alger Dr
+1	Palo Alto Cafe	HasType	coffee or tea place
+1	436 Alger Dr	IsAddressOf	Palo Alto Cafe
+1	coffee or tea place	IsTypeOf	Palo Alto Cafe
+1	Palo Alto Cafe	HasTraffic	moderate traffic
+1	Palo Alto Cafe	HasDistance	6 miles
+1	moderate traffic	IsTrafficOf	Palo Alto Cafe
+1	6 miles	IsDistanceFrom	Palo Alto Cafe
+2	Hotel Keen	HasAddress	578 Arbol Dr
+2	Hotel Keen	HasType	rest stop
+2	578 Arbol Dr	IsAddressOf	Hotel Keen
+2	rest stop	IsTypeOf	Hotel Keen
+2	Hotel Keen	HasTraffic	road block nearby
+2	Hotel Keen	HasDistance	1 miles
+2	road block nearby	IsTrafficOf	Hotel Keen
+2	1 miles	IsDistanceFrom	Hotel Keen
+3	5677 southwest 4th street	HasAddress	5677 southwest 4th street
+3	5677 southwest 4th street	HasType	certain address
+3	5677 southwest 4th street	IsAddressOf	5677 southwest 4th street
+3	certain address	IsTypeOf	5677 southwest 4th street
+3	5677 southwest 4th street	HasTraffic	road block nearby
+3	5677 southwest 4th street	HasDistance	5 miles
+3	road block nearby	IsTrafficOf	5677 southwest 4th street
+3	5 miles	IsDistanceFrom	5677 southwest 4th street
+4	Pizza My Heart	HasAddress	528 Anton Ct
+4	Pizza My Heart	HasType	pizza restaurant
+4	528 Anton Ct	IsAddressOf	Pizza My Heart
+4	pizza restaurant	IsTypeOf	Pizza My Heart
+4	Pizza My Heart	HasTraffic	moderate traffic
+4	Pizza My Heart	HasDistance	6 miles
+4	moderate traffic	IsTrafficOf	Pizza My Heart
+4	6 miles	IsDistanceFrom	Pizza My Heart
+5	Webster Garage	HasAddress	880 Ames Ct
+5	Webster Garage	HasType	parking garage
+5	880 Ames Ct	IsAddressOf	Webster Garage
+5	parking garage	IsTypeOf	Webster Garage
+5	Webster Garage	HasTraffic	moderate traffic
+5	Webster Garage	HasDistance	6 miles
+5	moderate traffic	IsTrafficOf	Webster Garage
+5	6 miles	IsDistanceFrom	Webster Garage
+6	Jing Jing	HasAddress	113 Arbol Dr
+6	Jing Jing	HasType	chinese restaurant
+6	113 Arbol Dr	IsAddressOf	Jing Jing
+6	chinese restaurant	IsTypeOf	Jing Jing
+6	Jing Jing	HasTraffic	road block nearby
+6	Jing Jing	HasDistance	2 miles
+6	road block nearby	IsTrafficOf	Jing Jing
+6	2 miles	IsDistanceFrom	Jing Jing
+7	Town and Country	HasAddress	383 University Ave
+7	Town and Country	HasType	shopping center
+7	383 University Ave	IsAddressOf	Town and Country
+7	shopping center	IsTypeOf	Town and Country
+7	Town and Country	HasTraffic	road block nearby
+7	Town and Country	HasDistance	5 miles
+7	road block nearby	IsTrafficOf	Town and Country
+7	5 miles	IsDistanceFrom	Town and Country
+-1	today	IsEqualTo	monday

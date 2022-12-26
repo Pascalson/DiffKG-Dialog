@@ -1,0 +1,49 @@
+0	dinner	HasTime	5pm
+0	5pm	IsTimeOf	dinner
+0	dinner	HasDate	the 9th
+0	the 9th	IsDateOf	dinner
+0	dinner	HasParty	Tom
+0	Tom	IsPartyOf	dinner
+1	optometrist appointment	HasTime	4pm
+1	4pm	IsTimeOf	optometrist appointment
+1	optometrist appointment	HasDate	the 13th
+1	the 13th	IsDateOf	optometrist appointment
+1	optometrist appointment	HasParty	Alex
+1	Alex	IsPartyOf	optometrist appointment
+2	optometrist appointment	HasTime	7pm
+2	7pm	IsTimeOf	optometrist appointment
+2	optometrist appointment	HasDate	the 20th
+2	the 20th	IsDateOf	optometrist appointment
+2	optometrist appointment	HasParty	Jeff
+2	Jeff	IsPartyOf	optometrist appointment
+3	football activity	HasTime	5pm
+3	5pm	IsTimeOf	football activity
+3	football activity	HasDate	the 7th
+3	the 7th	IsDateOf	football activity
+3	football activity	HasParty	sister
+3	sister	IsPartyOf	football activity
+4	swimming activity	HasTime	11am
+4	11am	IsTimeOf	swimming activity
+4	swimming activity	HasDate	the 6th
+4	the 6th	IsDateOf	swimming activity
+4	swimming activity	HasParty	Jon
+4	Jon	IsPartyOf	swimming activity
+5	dentist appointment	HasTime	11am
+5	11am	IsTimeOf	dentist appointment
+5	dentist appointment	HasDate	the 18th
+5	the 18th	IsDateOf	dentist appointment
+5	dentist appointment	HasParty	Alex
+5	Alex	IsPartyOf	dentist appointment
+6	optometrist appointment	HasTime	10am
+6	10am	IsTimeOf	optometrist appointment
+6	optometrist appointment	HasDate	thursday
+6	thursday	IsDateOf	optometrist appointment
+6	optometrist appointment	HasParty	sister
+6	sister	IsPartyOf	optometrist appointment
+7	dinner	HasTime	8pm
+7	8pm	IsTimeOf	dinner
+7	dinner	HasDate	the 13th
+7	the 13th	IsDateOf	dinner
+7	dinner	HasParty	Ana
+7	Ana	IsPartyOf	dinner
+-1	today	IsEqualTo	monday

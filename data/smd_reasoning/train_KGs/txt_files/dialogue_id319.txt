@@ -1,0 +1,65 @@
+0	Sigona Farmers Market	HasAddress	638 Amherst St
+0	Sigona Farmers Market	HasType	grocery store
+0	638 Amherst St	IsAddressOf	Sigona Farmers Market
+0	grocery store	IsTypeOf	Sigona Farmers Market
+0	Sigona Farmers Market	HasTraffic	heavy traffic
+0	Sigona Farmers Market	HasDistance	4 miles
+0	heavy traffic	IsTrafficOf	Sigona Farmers Market
+0	4 miles	IsDistanceFrom	Sigona Farmers Market
+1	Shell	HasAddress	53 University Av
+1	Shell	HasType	gas station
+1	53 University Av	IsAddressOf	Shell
+1	gas station	IsTypeOf	Shell
+1	Shell	HasTraffic	road block nearby
+1	Shell	HasDistance	4 miles
+1	road block nearby	IsTrafficOf	Shell
+1	4 miles	IsDistanceFrom	Shell
+2	Pizza Hut	HasAddress	704 El Camino Real
+2	Pizza Hut	HasType	pizza restaurant
+2	704 El Camino Real	IsAddressOf	Pizza Hut
+2	pizza restaurant	IsTypeOf	Pizza Hut
+2	Pizza Hut	HasTraffic	road block nearby
+2	Pizza Hut	HasDistance	1 miles
+2	road block nearby	IsTrafficOf	Pizza Hut
+2	1 miles	IsDistanceFrom	Pizza Hut
+3	Palo Alto Cafe	HasAddress	436 Alger Dr
+3	Palo Alto Cafe	HasType	coffee or tea place
+3	436 Alger Dr	IsAddressOf	Palo Alto Cafe
+3	coffee or tea place	IsTypeOf	Palo Alto Cafe
+3	Palo Alto Cafe	HasTraffic	car collision nearby
+3	Palo Alto Cafe	HasDistance	6 miles
+3	car collision nearby	IsTrafficOf	Palo Alto Cafe
+3	6 miles	IsDistanceFrom	Palo Alto Cafe
+4	Round Table	HasAddress	113 Anton Ct
+4	Round Table	HasType	pizza restaurant
+4	113 Anton Ct	IsAddressOf	Round Table
+4	pizza restaurant	IsTypeOf	Round Table
+4	Round Table	HasTraffic	no traffic
+4	Round Table	HasDistance	6 miles
+4	no traffic	IsTrafficOf	Round Table
+4	6 miles	IsDistanceFrom	Round Table
+5	Mandarin Roots	HasAddress	271 Springer Street
+5	Mandarin Roots	HasType	chinese restaurant
+5	271 Springer Street	IsAddressOf	Mandarin Roots
+5	chinese restaurant	IsTypeOf	Mandarin Roots
+5	Mandarin Roots	HasTraffic	car collision nearby
+5	Mandarin Roots	HasDistance	3 miles
+5	car collision nearby	IsTrafficOf	Mandarin Roots
+5	3 miles	IsDistanceFrom	Mandarin Roots
+6	Palo Alto Garage R	HasAddress	481 Amaranta Ave
+6	Palo Alto Garage R	HasType	parking garage
+6	481 Amaranta Ave	IsAddressOf	Palo Alto Garage R
+6	parking garage	IsTypeOf	Palo Alto Garage R
+6	Palo Alto Garage R	HasTraffic	no traffic
+6	Palo Alto Garage R	HasDistance	3 miles
+6	no traffic	IsTrafficOf	Palo Alto Garage R
+6	3 miles	IsDistanceFrom	Palo Alto Garage R
+7	P.F. Changs	HasAddress	669 El Camino Real
+7	P.F. Changs	HasType	chinese restaurant
+7	669 El Camino Real	IsAddressOf	P.F. Changs
+7	chinese restaurant	IsTypeOf	P.F. Changs
+7	P.F. Changs	HasTraffic	road block nearby
+7	P.F. Changs	HasDistance	3 miles
+7	road block nearby	IsTrafficOf	P.F. Changs
+7	3 miles	IsDistanceFrom	P.F. Changs
+-1	today	IsEqualTo	monday

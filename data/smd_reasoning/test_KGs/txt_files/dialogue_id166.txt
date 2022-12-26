@@ -1,0 +1,57 @@
+0	Mandarin Roots	HasAddress	271 Springer Street
+0	Mandarin Roots	HasType	chinese restaurant
+0	271 Springer Street	IsAddressOf	Mandarin Roots
+0	chinese restaurant	IsTypeOf	Mandarin Roots
+0	Mandarin Roots	HasTraffic	heavy traffic
+0	Mandarin Roots	HasDistance	2 miles
+0	heavy traffic	IsTrafficOf	Mandarin Roots
+0	2 miles	IsDistanceFrom	Mandarin Roots
+1	Safeway	HasAddress	452 Arcadia Pl
+1	Safeway	HasType	grocery store
+1	452 Arcadia Pl	IsAddressOf	Safeway
+1	grocery store	IsTypeOf	Safeway
+1	Safeway	HasTraffic	moderate traffic
+1	Safeway	HasDistance	3 miles
+1	moderate traffic	IsTrafficOf	Safeway
+1	3 miles	IsDistanceFrom	Safeway
+2	Ravenswood Shopping Center	HasAddress	434 Arastradero Rd
+2	Ravenswood Shopping Center	HasType	shopping center
+2	434 Arastradero Rd	IsAddressOf	Ravenswood Shopping Center
+2	shopping center	IsTypeOf	Ravenswood Shopping Center
+2	Ravenswood Shopping Center	HasTraffic	moderate traffic
+2	Ravenswood Shopping Center	HasDistance	1 miles
+2	moderate traffic	IsTrafficOf	Ravenswood Shopping Center
+2	1 miles	IsDistanceFrom	Ravenswood Shopping Center
+3	Round Table	HasAddress	113 Anton Ct
+3	Round Table	HasType	pizza restaurant
+3	113 Anton Ct	IsAddressOf	Round Table
+3	pizza restaurant	IsTypeOf	Round Table
+3	Round Table	HasTraffic	no traffic
+3	Round Table	HasDistance	1 miles
+3	no traffic	IsTrafficOf	Round Table
+3	1 miles	IsDistanceFrom	Round Table
+4	Four Seasons	HasAddress	465 Arcadia Pl
+4	Four Seasons	HasType	rest stop
+4	465 Arcadia Pl	IsAddressOf	Four Seasons
+4	rest stop	IsTypeOf	Four Seasons
+4	Four Seasons	HasTraffic	no traffic
+4	Four Seasons	HasDistance	3 miles
+4	no traffic	IsTrafficOf	Four Seasons
+4	3 miles	IsDistanceFrom	Four Seasons
+5	Coupa	HasAddress	394 Van Ness Ave
+5	Coupa	HasType	coffee or tea place
+5	394 Van Ness Ave	IsAddressOf	Coupa
+5	coffee or tea place	IsTypeOf	Coupa
+5	Coupa	HasTraffic	moderate traffic
+5	Coupa	HasDistance	6 miles
+5	moderate traffic	IsTrafficOf	Coupa
+5	6 miles	IsDistanceFrom	Coupa
+6	Whole Foods	HasAddress	819 Alma St
+6	Whole Foods	HasType	grocery store
+6	819 Alma St	IsAddressOf	Whole Foods
+6	grocery store	IsTypeOf	Whole Foods
+6	Whole Foods	HasTraffic	heavy traffic
+6	Whole Foods	HasDistance	4 miles
+6	heavy traffic	IsTrafficOf	Whole Foods
+6	4 miles	IsDistanceFrom	Whole Foods
+-1	today	IsEqualTo	monday

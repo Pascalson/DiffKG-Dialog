@@ -1,0 +1,57 @@
+0	dentist appointment	HasTime	6pm
+0	6pm	IsTimeOf	dentist appointment
+0	dentist appointment	HasDate	the 17th
+0	the 17th	IsDateOf	dentist appointment
+0	dentist appointment	HasParty	Tom
+0	Tom	IsPartyOf	dentist appointment
+1	dentist appointment	HasTime	9am
+1	9am	IsTimeOf	dentist appointment
+1	dentist appointment	HasDate	the 7th
+1	the 7th	IsDateOf	dentist appointment
+1	dentist appointment	HasParty	Jeff
+1	Jeff	IsPartyOf	dentist appointment
+2	dentist appointment	HasTime	2pm
+2	2pm	IsTimeOf	dentist appointment
+2	dentist appointment	HasDate	the 5th
+2	the 5th	IsDateOf	dentist appointment
+2	dentist appointment	HasParty	sister
+2	sister	IsPartyOf	dentist appointment
+3	dentist appointment	HasTime	3pm
+3	3pm	IsTimeOf	dentist appointment
+3	dentist appointment	HasDate	sunday
+3	sunday	IsDateOf	dentist appointment
+3	dentist appointment	HasParty	Ana
+3	Ana	IsPartyOf	dentist appointment
+4	taking medicine	HasTime	9am
+4	9am	IsTimeOf	taking medicine
+4	taking medicine	HasDate	wednesday
+4	wednesday	IsDateOf	taking medicine
+4	taking medicine	HasParty	Alex
+4	Alex	IsPartyOf	taking medicine
+5	dentist appointment	HasTime	7pm
+5	7pm	IsTimeOf	dentist appointment
+5	dentist appointment	HasDate	saturday
+5	saturday	IsDateOf	dentist appointment
+5	dentist appointment	HasParty	aunt
+5	aunt	IsPartyOf	dentist appointment
+6	meeting	HasTime	11am
+6	11am	IsTimeOf	meeting
+6	meeting	HasDate	the 16th
+6	the 16th	IsDateOf	meeting
+6	meeting	HasParty	management
+6	management	IsPartyOf	meeting
+6	meeting	HasRoom	conference room 100
+6	conference room 100	IsRoomOf	meeting
+6	meeting	HasAgenda	onboard new members
+6	onboard new members	IsAgendaOf	meeting
+7	meeting	HasTime	7pm
+7	7pm	IsTimeOf	meeting
+7	meeting	HasDate	the 7th
+7	the 7th	IsDateOf	meeting
+7	meeting	HasParty	sales team
+7	sales team	IsPartyOf	meeting
+7	meeting	HasRoom	conference room 100
+7	conference room 100	IsRoomOf	meeting
+7	meeting	HasAgenda	go over budget
+7	go over budget	IsAgendaOf	meeting
+-1	today	IsEqualTo	monday

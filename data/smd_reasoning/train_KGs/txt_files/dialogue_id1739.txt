@@ -1,0 +1,57 @@
+0	Stanford Oval Parking	HasAddress	610 Amarillo Ave
+0	Stanford Oval Parking	HasType	parking garage
+0	610 Amarillo Ave	IsAddressOf	Stanford Oval Parking
+0	parking garage	IsTypeOf	Stanford Oval Parking
+0	Stanford Oval Parking	HasTraffic	moderate traffic
+0	Stanford Oval Parking	HasDistance	5 miles
+0	moderate traffic	IsTrafficOf	Stanford Oval Parking
+0	5 miles	IsDistanceFrom	Stanford Oval Parking
+1	toms house	HasAddress	580 Van Ness Ave
+1	toms house	HasType	friends house
+1	580 Van Ness Ave	IsAddressOf	toms house
+1	friends house	IsTypeOf	toms house
+1	toms house	HasTraffic	heavy traffic
+1	toms house	HasDistance	4 miles
+1	heavy traffic	IsTrafficOf	toms house
+1	4 miles	IsDistanceFrom	toms house
+2	jills house	HasAddress	347 Alta Mesa Ave
+2	jills house	HasType	friends house
+2	347 Alta Mesa Ave	IsAddressOf	jills house
+2	friends house	IsTypeOf	jills house
+2	jills house	HasTraffic	moderate traffic
+2	jills house	HasDistance	1 miles
+2	moderate traffic	IsTrafficOf	jills house
+2	1 miles	IsDistanceFrom	jills house
+3	Palo Alto Cafe	HasAddress	436 Alger Dr
+3	Palo Alto Cafe	HasType	coffee or tea place
+3	436 Alger Dr	IsAddressOf	Palo Alto Cafe
+3	coffee or tea place	IsTypeOf	Palo Alto Cafe
+3	Palo Alto Cafe	HasTraffic	moderate traffic
+3	Palo Alto Cafe	HasDistance	2 miles
+3	moderate traffic	IsTrafficOf	Palo Alto Cafe
+3	2 miles	IsDistanceFrom	Palo Alto Cafe
+4	The Clement Hotel	HasAddress	657 Ames Ave
+4	The Clement Hotel	HasType	rest stop
+4	657 Ames Ave	IsAddressOf	The Clement Hotel
+4	rest stop	IsTypeOf	The Clement Hotel
+4	The Clement Hotel	HasTraffic	no traffic
+4	The Clement Hotel	HasDistance	2 miles
+4	no traffic	IsTrafficOf	The Clement Hotel
+4	2 miles	IsDistanceFrom	The Clement Hotel
+5	5677 springer street	HasAddress	5677 springer street
+5	5677 springer street	HasType	certain address
+5	5677 springer street	IsAddressOf	5677 springer street
+5	certain address	IsTypeOf	5677 springer street
+5	5677 springer street	HasTraffic	heavy traffic
+5	5677 springer street	HasDistance	2 miles
+5	heavy traffic	IsTrafficOf	5677 springer street
+5	2 miles	IsDistanceFrom	5677 springer street
+6	Philz	HasAddress	583 Alester Ave
+6	Philz	HasType	coffee or tea place
+6	583 Alester Ave	IsAddressOf	Philz
+6	coffee or tea place	IsTypeOf	Philz
+6	Philz	HasTraffic	moderate traffic
+6	Philz	HasDistance	5 miles
+6	moderate traffic	IsTrafficOf	Philz
+6	5 miles	IsDistanceFrom	Philz
+-1	today	IsEqualTo	monday

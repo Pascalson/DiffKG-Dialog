@@ -1,0 +1,65 @@
+0	jacks house	HasAddress	864 Almanor Ln
+0	jacks house	HasType	friends house
+0	864 Almanor Ln	IsAddressOf	jacks house
+0	friends house	IsTypeOf	jacks house
+0	jacks house	HasTraffic	moderate traffic
+0	jacks house	HasDistance	6 miles
+0	moderate traffic	IsTrafficOf	jacks house
+0	6 miles	IsDistanceFrom	jacks house
+1	Ravenswood Shopping Center	HasAddress	434 Arastradero Rd
+1	Ravenswood Shopping Center	HasType	shopping center
+1	434 Arastradero Rd	IsAddressOf	Ravenswood Shopping Center
+1	shopping center	IsTypeOf	Ravenswood Shopping Center
+1	Ravenswood Shopping Center	HasTraffic	moderate traffic
+1	Ravenswood Shopping Center	HasDistance	4 miles
+1	moderate traffic	IsTrafficOf	Ravenswood Shopping Center
+1	4 miles	IsDistanceFrom	Ravenswood Shopping Center
+2	76	HasAddress	91 El Camino Real
+2	76	HasType	gas station
+2	91 El Camino Real	IsAddressOf	76
+2	gas station	IsTypeOf	76
+2	76	HasTraffic	car collision nearby
+2	76	HasDistance	5 miles
+2	car collision nearby	IsTrafficOf	76
+2	5 miles	IsDistanceFrom	76
+3	Panda Express	HasAddress	842 Arrowhead Way
+3	Panda Express	HasType	chinese restaurant
+3	842 Arrowhead Way	IsAddressOf	Panda Express
+3	chinese restaurant	IsTypeOf	Panda Express
+3	Panda Express	HasTraffic	road block nearby
+3	Panda Express	HasDistance	7 miles
+3	road block nearby	IsTrafficOf	Panda Express
+3	7 miles	IsDistanceFrom	Panda Express
+4	5672 barringer street	HasAddress	5672 barringer street
+4	5672 barringer street	HasType	certain address
+4	5672 barringer street	IsAddressOf	5672 barringer street
+4	certain address	IsTypeOf	5672 barringer street
+4	5672 barringer street	HasTraffic	moderate traffic
+4	5672 barringer street	HasDistance	6 miles
+4	moderate traffic	IsTrafficOf	5672 barringer street
+4	6 miles	IsDistanceFrom	5672 barringer street
+5	Coupa	HasAddress	394 Van Ness Ave
+5	Coupa	HasType	coffee or tea place
+5	394 Van Ness Ave	IsAddressOf	Coupa
+5	coffee or tea place	IsTypeOf	Coupa
+5	Coupa	HasTraffic	road block nearby
+5	Coupa	HasDistance	2 miles
+5	road block nearby	IsTrafficOf	Coupa
+5	2 miles	IsDistanceFrom	Coupa
+6	Starbucks	HasAddress	792 Bedoin Street
+6	Starbucks	HasType	coffee or tea place
+6	792 Bedoin Street	IsAddressOf	Starbucks
+6	coffee or tea place	IsTypeOf	Starbucks
+6	Starbucks	HasTraffic	no traffic
+6	Starbucks	HasDistance	5 miles
+6	no traffic	IsTrafficOf	Starbucks
+6	5 miles	IsDistanceFrom	Starbucks
+7	Philz	HasAddress	583 Alester Ave
+7	Philz	HasType	coffee or tea place
+7	583 Alester Ave	IsAddressOf	Philz
+7	coffee or tea place	IsTypeOf	Philz
+7	Philz	HasTraffic	heavy traffic
+7	Philz	HasDistance	3 miles
+7	heavy traffic	IsTrafficOf	Philz
+7	3 miles	IsDistanceFrom	Philz
+-1	today	IsEqualTo	monday

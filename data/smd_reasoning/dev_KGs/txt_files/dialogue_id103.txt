@@ -1,0 +1,57 @@
+0	Comfort Inn	HasAddress	753 University Ave
+0	Comfort Inn	HasType	rest stop
+0	753 University Ave	IsAddressOf	Comfort Inn
+0	rest stop	IsTypeOf	Comfort Inn
+0	Comfort Inn	HasTraffic	moderate traffic
+0	Comfort Inn	HasDistance	5 miles
+0	moderate traffic	IsTrafficOf	Comfort Inn
+0	5 miles	IsDistanceFrom	Comfort Inn
+1	home	HasAddress	10 ames street
+1	home	HasType	home
+1	10 ames street	IsAddressOf	home
+1	home	IsTypeOf	home
+1	home	HasTraffic	moderate traffic
+1	home	HasDistance	2 miles
+1	moderate traffic	IsTrafficOf	home
+1	2 miles	IsDistanceFrom	home
+2	Safeway	HasAddress	452 Arcadia Pl
+2	Safeway	HasType	grocery store
+2	452 Arcadia Pl	IsAddressOf	Safeway
+2	grocery store	IsTypeOf	Safeway
+2	Safeway	HasTraffic	heavy traffic
+2	Safeway	HasDistance	3 miles
+2	heavy traffic	IsTrafficOf	Safeway
+2	3 miles	IsDistanceFrom	Safeway
+3	jacks house	HasAddress	864 Almanor Ln
+3	jacks house	HasType	friends house
+3	864 Almanor Ln	IsAddressOf	jacks house
+3	friends house	IsTypeOf	jacks house
+3	jacks house	HasTraffic	moderate traffic
+3	jacks house	HasDistance	5 miles
+3	moderate traffic	IsTrafficOf	jacks house
+3	5 miles	IsDistanceFrom	jacks house
+4	Cafe Venetia	HasAddress	269 Alger Dr
+4	Cafe Venetia	HasType	coffee or tea place
+4	269 Alger Dr	IsAddressOf	Cafe Venetia
+4	coffee or tea place	IsTypeOf	Cafe Venetia
+4	Cafe Venetia	HasTraffic	moderate traffic
+4	Cafe Venetia	HasDistance	2 miles
+4	moderate traffic	IsTrafficOf	Cafe Venetia
+4	2 miles	IsDistanceFrom	Cafe Venetia
+5	Ravenswood Shopping Center	HasAddress	434 Arastradero Rd
+5	Ravenswood Shopping Center	HasType	shopping center
+5	434 Arastradero Rd	IsAddressOf	Ravenswood Shopping Center
+5	shopping center	IsTypeOf	Ravenswood Shopping Center
+5	Ravenswood Shopping Center	HasTraffic	no traffic
+5	Ravenswood Shopping Center	HasDistance	3 miles
+5	no traffic	IsTrafficOf	Ravenswood Shopping Center
+5	3 miles	IsDistanceFrom	Ravenswood Shopping Center
+6	home	HasAddress	56 cadwell street
+6	home	HasType	home
+6	56 cadwell street	IsAddressOf	home
+6	home	IsTypeOf	home
+6	home	HasTraffic	moderate traffic
+6	home	HasDistance	3 miles
+6	moderate traffic	IsTrafficOf	home
+6	3 miles	IsDistanceFrom	home
+-1	today	IsEqualTo	monday

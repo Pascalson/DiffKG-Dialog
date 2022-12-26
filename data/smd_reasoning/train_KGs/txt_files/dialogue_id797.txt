@@ -1,0 +1,65 @@
+0	Dish Parking	HasAddress	550 Alester Ave
+0	Dish Parking	HasType	parking garage
+0	550 Alester Ave	IsAddressOf	Dish Parking
+0	parking garage	IsTypeOf	Dish Parking
+0	Dish Parking	HasTraffic	moderate traffic
+0	Dish Parking	HasDistance	6 miles
+0	moderate traffic	IsTrafficOf	Dish Parking
+0	6 miles	IsDistanceFrom	Dish Parking
+1	Pizza My Heart	HasAddress	528 Anton Ct
+1	Pizza My Heart	HasType	pizza restaurant
+1	528 Anton Ct	IsAddressOf	Pizza My Heart
+1	pizza restaurant	IsTypeOf	Pizza My Heart
+1	Pizza My Heart	HasTraffic	heavy traffic
+1	Pizza My Heart	HasDistance	6 miles
+1	heavy traffic	IsTrafficOf	Pizza My Heart
+1	6 miles	IsDistanceFrom	Pizza My Heart
+2	Cafe Venetia	HasAddress	269 Alger Dr
+2	Cafe Venetia	HasType	coffee or tea place
+2	269 Alger Dr	IsAddressOf	Cafe Venetia
+2	coffee or tea place	IsTypeOf	Cafe Venetia
+2	Cafe Venetia	HasTraffic	heavy traffic
+2	Cafe Venetia	HasDistance	5 miles
+2	heavy traffic	IsTrafficOf	Cafe Venetia
+2	5 miles	IsDistanceFrom	Cafe Venetia
+3	Pizza Hut	HasAddress	704 El Camino Real
+3	Pizza Hut	HasType	pizza restaurant
+3	704 El Camino Real	IsAddressOf	Pizza Hut
+3	pizza restaurant	IsTypeOf	Pizza Hut
+3	Pizza Hut	HasTraffic	moderate traffic
+3	Pizza Hut	HasDistance	5 miles
+3	moderate traffic	IsTrafficOf	Pizza Hut
+3	5 miles	IsDistanceFrom	Pizza Hut
+4	5677 southwest 4th street	HasAddress	5677 southwest 4th street
+4	5677 southwest 4th street	HasType	certain address
+4	5677 southwest 4th street	IsAddressOf	5677 southwest 4th street
+4	certain address	IsTypeOf	5677 southwest 4th street
+4	5677 southwest 4th street	HasTraffic	road block nearby
+4	5677 southwest 4th street	HasDistance	1 miles
+4	road block nearby	IsTrafficOf	5677 southwest 4th street
+4	1 miles	IsDistanceFrom	5677 southwest 4th street
+5	Philz	HasAddress	583 Alester Ave
+5	Philz	HasType	coffee or tea place
+5	583 Alester Ave	IsAddressOf	Philz
+5	coffee or tea place	IsTypeOf	Philz
+5	Philz	HasTraffic	moderate traffic
+5	Philz	HasDistance	1 miles
+5	moderate traffic	IsTrafficOf	Philz
+5	1 miles	IsDistanceFrom	Philz
+6	Shell	HasAddress	53 University Av
+6	Shell	HasType	gas station
+6	53 University Av	IsAddressOf	Shell
+6	gas station	IsTypeOf	Shell
+6	Shell	HasTraffic	road block nearby
+6	Shell	HasDistance	2 miles
+6	road block nearby	IsTrafficOf	Shell
+6	2 miles	IsDistanceFrom	Shell
+7	Mandarin Roots	HasAddress	271 Springer Street
+7	Mandarin Roots	HasType	chinese restaurant
+7	271 Springer Street	IsAddressOf	Mandarin Roots
+7	chinese restaurant	IsTypeOf	Mandarin Roots
+7	Mandarin Roots	HasTraffic	car collision nearby
+7	Mandarin Roots	HasDistance	6 miles
+7	car collision nearby	IsTrafficOf	Mandarin Roots
+7	6 miles	IsDistanceFrom	Mandarin Roots
+-1	today	IsEqualTo	monday

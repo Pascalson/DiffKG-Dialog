@@ -1,0 +1,65 @@
+0	Jing Jing	HasAddress	113 Arbol Dr
+0	Jing Jing	HasType	chinese restaurant
+0	113 Arbol Dr	IsAddressOf	Jing Jing
+0	chinese restaurant	IsTypeOf	Jing Jing
+0	Jing Jing	HasTraffic	car collision nearby
+0	Jing Jing	HasDistance	2 miles
+0	car collision nearby	IsTrafficOf	Jing Jing
+0	2 miles	IsDistanceFrom	Jing Jing
+1	P.F. Changs	HasAddress	669 El Camino Real
+1	P.F. Changs	HasType	chinese restaurant
+1	669 El Camino Real	IsAddressOf	P.F. Changs
+1	chinese restaurant	IsTypeOf	P.F. Changs
+1	P.F. Changs	HasTraffic	road block nearby
+1	P.F. Changs	HasDistance	4 miles
+1	road block nearby	IsTrafficOf	P.F. Changs
+1	4 miles	IsDistanceFrom	P.F. Changs
+2	Midtown Shopping Center	HasAddress	338 Alester Ave
+2	Midtown Shopping Center	HasType	shopping center
+2	338 Alester Ave	IsAddressOf	Midtown Shopping Center
+2	shopping center	IsTypeOf	Midtown Shopping Center
+2	Midtown Shopping Center	HasTraffic	road block nearby
+2	Midtown Shopping Center	HasDistance	4 miles
+2	road block nearby	IsTrafficOf	Midtown Shopping Center
+2	4 miles	IsDistanceFrom	Midtown Shopping Center
+3	Mandarin Roots	HasAddress	271 Springer Street
+3	Mandarin Roots	HasType	chinese restaurant
+3	271 Springer Street	IsAddressOf	Mandarin Roots
+3	chinese restaurant	IsTypeOf	Mandarin Roots
+3	Mandarin Roots	HasTraffic	moderate traffic
+3	Mandarin Roots	HasDistance	1 miles
+3	moderate traffic	IsTrafficOf	Mandarin Roots
+3	1 miles	IsDistanceFrom	Mandarin Roots
+4	Dominos	HasAddress	776 Arastradero Rd
+4	Dominos	HasType	pizza restaurant
+4	776 Arastradero Rd	IsAddressOf	Dominos
+4	pizza restaurant	IsTypeOf	Dominos
+4	Dominos	HasTraffic	car collision nearby
+4	Dominos	HasDistance	2 miles
+4	car collision nearby	IsTrafficOf	Dominos
+4	2 miles	IsDistanceFrom	Dominos
+5	Stanford Express Care	HasAddress	214 El Camino Real
+5	Stanford Express Care	HasType	hospital
+5	214 El Camino Real	IsAddressOf	Stanford Express Care
+5	hospital	IsTypeOf	Stanford Express Care
+5	Stanford Express Care	HasTraffic	moderate traffic
+5	Stanford Express Care	HasDistance	5 miles
+5	moderate traffic	IsTrafficOf	Stanford Express Care
+5	5 miles	IsDistanceFrom	Stanford Express Care
+6	home	HasAddress	5671 barringer street
+6	home	HasType	home
+6	5671 barringer street	IsAddressOf	home
+6	home	IsTypeOf	home
+6	home	HasTraffic	moderate traffic
+6	home	HasDistance	6 miles
+6	moderate traffic	IsTrafficOf	home
+6	6 miles	IsDistanceFrom	home
+7	Pizza Hut	HasAddress	704 El Camino Real
+7	Pizza Hut	HasType	pizza restaurant
+7	704 El Camino Real	IsAddressOf	Pizza Hut
+7	pizza restaurant	IsTypeOf	Pizza Hut
+7	Pizza Hut	HasTraffic	heavy traffic
+7	Pizza Hut	HasDistance	6 miles
+7	heavy traffic	IsTrafficOf	Pizza Hut
+7	6 miles	IsDistanceFrom	Pizza Hut
+-1	today	IsEqualTo	monday

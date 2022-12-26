@@ -1,0 +1,57 @@
+0	jills house	HasAddress	347 Alta Mesa Ave
+0	jills house	HasType	friends house
+0	347 Alta Mesa Ave	IsAddressOf	jills house
+0	friends house	IsTypeOf	jills house
+0	jills house	HasTraffic	moderate traffic
+0	jills house	HasDistance	3 miles
+0	moderate traffic	IsTrafficOf	jills house
+0	3 miles	IsDistanceFrom	jills house
+1	Cafe Venetia	HasAddress	269 Alger Dr
+1	Cafe Venetia	HasType	coffee or tea place
+1	269 Alger Dr	IsAddressOf	Cafe Venetia
+1	coffee or tea place	IsTypeOf	Cafe Venetia
+1	Cafe Venetia	HasTraffic	moderate traffic
+1	Cafe Venetia	HasDistance	6 miles
+1	moderate traffic	IsTrafficOf	Cafe Venetia
+1	6 miles	IsDistanceFrom	Cafe Venetia
+2	Stanford Oval Parking	HasAddress	610 Amarillo Ave
+2	Stanford Oval Parking	HasType	parking garage
+2	610 Amarillo Ave	IsAddressOf	Stanford Oval Parking
+2	parking garage	IsTypeOf	Stanford Oval Parking
+2	Stanford Oval Parking	HasTraffic	moderate traffic
+2	Stanford Oval Parking	HasDistance	2 miles
+2	moderate traffic	IsTrafficOf	Stanford Oval Parking
+2	2 miles	IsDistanceFrom	Stanford Oval Parking
+3	Stanford Childrens Health	HasAddress	899 Ames Ct
+3	Stanford Childrens Health	HasType	hospital
+3	899 Ames Ct	IsAddressOf	Stanford Childrens Health
+3	hospital	IsTypeOf	Stanford Childrens Health
+3	Stanford Childrens Health	HasTraffic	no traffic
+3	Stanford Childrens Health	HasDistance	1 miles
+3	no traffic	IsTrafficOf	Stanford Childrens Health
+3	1 miles	IsDistanceFrom	Stanford Childrens Health
+4	home	HasAddress	56 cadwell street
+4	home	HasType	home
+4	56 cadwell street	IsAddressOf	home
+4	home	IsTypeOf	home
+4	home	HasTraffic	no traffic
+4	home	HasDistance	2 miles
+4	no traffic	IsTrafficOf	home
+4	2 miles	IsDistanceFrom	home
+5	Pizza Hut	HasAddress	704 El Camino Real
+5	Pizza Hut	HasType	pizza restaurant
+5	704 El Camino Real	IsAddressOf	Pizza Hut
+5	pizza restaurant	IsTypeOf	Pizza Hut
+5	Pizza Hut	HasTraffic	heavy traffic
+5	Pizza Hut	HasDistance	1 miles
+5	heavy traffic	IsTrafficOf	Pizza Hut
+5	1 miles	IsDistanceFrom	Pizza Hut
+6	Comfort Inn	HasAddress	753 University Ave
+6	Comfort Inn	HasType	rest stop
+6	753 University Ave	IsAddressOf	Comfort Inn
+6	rest stop	IsTypeOf	Comfort Inn
+6	Comfort Inn	HasTraffic	no traffic
+6	Comfort Inn	HasDistance	3 miles
+6	no traffic	IsTrafficOf	Comfort Inn
+6	3 miles	IsDistanceFrom	Comfort Inn
+-1	today	IsEqualTo	monday

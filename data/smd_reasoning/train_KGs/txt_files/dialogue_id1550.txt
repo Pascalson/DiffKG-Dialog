@@ -1,0 +1,41 @@
+0	football activity	HasTime	10am
+0	10am	IsTimeOf	football activity
+0	football activity	HasDate	the 10th
+0	the 10th	IsDateOf	football activity
+0	football activity	HasParty	Jon
+0	Jon	IsPartyOf	football activity
+1	swimming activity	HasTime	3pm
+1	3pm	IsTimeOf	swimming activity
+1	swimming activity	HasDate	the 5th
+1	the 5th	IsDateOf	swimming activity
+1	swimming activity	HasParty	Alex
+1	Alex	IsPartyOf	swimming activity
+2	tennis activity	HasTime	3pm
+2	3pm	IsTimeOf	tennis activity
+2	tennis activity	HasDate	saturday
+2	saturday	IsDateOf	tennis activity
+2	tennis activity	HasParty	Jon
+2	Jon	IsPartyOf	tennis activity
+3	conference	HasTime	6pm
+3	6pm	IsTimeOf	conference
+3	conference	HasDate	sunday
+3	sunday	IsDateOf	conference
+3	conference	HasParty	vice president
+3	vice president	IsPartyOf	conference
+3	conference	HasRoom	conference room 100
+3	conference room 100	IsRoomOf	conference
+3	conference	HasAgenda	go over quarterly report
+3	go over quarterly report	IsAgendaOf	conference
+4	optometrist appointment	HasTime	4pm
+4	4pm	IsTimeOf	optometrist appointment
+4	optometrist appointment	HasDate	saturday
+4	saturday	IsDateOf	optometrist appointment
+4	optometrist appointment	HasParty	Alex
+4	Alex	IsPartyOf	optometrist appointment
+5	dentist appointment	HasTime	9am
+5	9am	IsTimeOf	dentist appointment
+5	dentist appointment	HasDate	the 8th
+5	the 8th	IsDateOf	dentist appointment
+5	dentist appointment	HasParty	sister
+5	sister	IsPartyOf	dentist appointment
+-1	today	IsEqualTo	monday

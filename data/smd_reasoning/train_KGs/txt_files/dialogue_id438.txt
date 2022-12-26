@@ -1,0 +1,57 @@
+0	Town and Country	HasAddress	383 University Ave
+0	Town and Country	HasType	shopping center
+0	383 University Ave	IsAddressOf	Town and Country
+0	shopping center	IsTypeOf	Town and Country
+0	Town and Country	HasTraffic	heavy traffic
+0	Town and Country	HasDistance	6 miles
+0	heavy traffic	IsTrafficOf	Town and Country
+0	6 miles	IsDistanceFrom	Town and Country
+1	Sigona Farmers Market	HasAddress	638 Amherst St
+1	Sigona Farmers Market	HasType	grocery store
+1	638 Amherst St	IsAddressOf	Sigona Farmers Market
+1	grocery store	IsTypeOf	Sigona Farmers Market
+1	Sigona Farmers Market	HasTraffic	no traffic
+1	Sigona Farmers Market	HasDistance	2 miles
+1	no traffic	IsTrafficOf	Sigona Farmers Market
+1	2 miles	IsDistanceFrom	Sigona Farmers Market
+2	Jing Jing	HasAddress	113 Arbol Dr
+2	Jing Jing	HasType	chinese restaurant
+2	113 Arbol Dr	IsAddressOf	Jing Jing
+2	chinese restaurant	IsTypeOf	Jing Jing
+2	Jing Jing	HasTraffic	no traffic
+2	Jing Jing	HasDistance	6 miles
+2	no traffic	IsTrafficOf	Jing Jing
+2	6 miles	IsDistanceFrom	Jing Jing
+3	Palo Alto Garage R	HasAddress	481 Amaranta Ave
+3	Palo Alto Garage R	HasType	parking garage
+3	481 Amaranta Ave	IsAddressOf	Palo Alto Garage R
+3	parking garage	IsTypeOf	Palo Alto Garage R
+3	Palo Alto Garage R	HasTraffic	no traffic
+3	Palo Alto Garage R	HasDistance	2 miles
+3	no traffic	IsTrafficOf	Palo Alto Garage R
+3	2 miles	IsDistanceFrom	Palo Alto Garage R
+4	Panda Express	HasAddress	842 Arrowhead Way
+4	Panda Express	HasType	chinese restaurant
+4	842 Arrowhead Way	IsAddressOf	Panda Express
+4	chinese restaurant	IsTypeOf	Panda Express
+4	Panda Express	HasTraffic	moderate traffic
+4	Panda Express	HasDistance	4 miles
+4	moderate traffic	IsTrafficOf	Panda Express
+4	4 miles	IsDistanceFrom	Panda Express
+5	Stanford Express Care	HasAddress	214 El Camino Real
+5	Stanford Express Care	HasType	hospital
+5	214 El Camino Real	IsAddressOf	Stanford Express Care
+5	hospital	IsTypeOf	Stanford Express Care
+5	Stanford Express Care	HasTraffic	moderate traffic
+5	Stanford Express Care	HasDistance	6 miles
+5	moderate traffic	IsTrafficOf	Stanford Express Care
+5	6 miles	IsDistanceFrom	Stanford Express Care
+6	Dish Parking	HasAddress	550 Alester Ave
+6	Dish Parking	HasType	parking garage
+6	550 Alester Ave	IsAddressOf	Dish Parking
+6	parking garage	IsTypeOf	Dish Parking
+6	Dish Parking	HasTraffic	no traffic
+6	Dish Parking	HasDistance	5 miles
+6	no traffic	IsTrafficOf	Dish Parking
+6	5 miles	IsDistanceFrom	Dish Parking
+-1	today	IsEqualTo	monday

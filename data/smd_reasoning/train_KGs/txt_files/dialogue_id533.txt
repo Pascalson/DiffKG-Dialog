@@ -1,0 +1,65 @@
+0	Stanford Express Care	HasAddress	214 El Camino Real
+0	Stanford Express Care	HasType	hospital
+0	214 El Camino Real	IsAddressOf	Stanford Express Care
+0	hospital	IsTypeOf	Stanford Express Care
+0	Stanford Express Care	HasTraffic	car collision nearby
+0	Stanford Express Care	HasDistance	4 miles
+0	car collision nearby	IsTrafficOf	Stanford Express Care
+0	4 miles	IsDistanceFrom	Stanford Express Care
+1	Stanford Shopping Center	HasAddress	773 Alger Dr
+1	Stanford Shopping Center	HasType	shopping center
+1	773 Alger Dr	IsAddressOf	Stanford Shopping Center
+1	shopping center	IsTypeOf	Stanford Shopping Center
+1	Stanford Shopping Center	HasTraffic	heavy traffic
+1	Stanford Shopping Center	HasDistance	6 miles
+1	heavy traffic	IsTrafficOf	Stanford Shopping Center
+1	6 miles	IsDistanceFrom	Stanford Shopping Center
+2	home	HasAddress	10 ames street
+2	home	HasType	home
+2	10 ames street	IsAddressOf	home
+2	home	IsTypeOf	home
+2	home	HasTraffic	moderate traffic
+2	home	HasDistance	4 miles
+2	moderate traffic	IsTrafficOf	home
+2	4 miles	IsDistanceFrom	home
+3	P.F. Changs	HasAddress	669 El Camino Real
+3	P.F. Changs	HasType	chinese restaurant
+3	669 El Camino Real	IsAddressOf	P.F. Changs
+3	chinese restaurant	IsTypeOf	P.F. Changs
+3	P.F. Changs	HasTraffic	heavy traffic
+3	P.F. Changs	HasDistance	4 miles
+3	heavy traffic	IsTrafficOf	P.F. Changs
+3	4 miles	IsDistanceFrom	P.F. Changs
+4	Pizza My Heart	HasAddress	528 Anton Ct
+4	Pizza My Heart	HasType	pizza restaurant
+4	528 Anton Ct	IsAddressOf	Pizza My Heart
+4	pizza restaurant	IsTypeOf	Pizza My Heart
+4	Pizza My Heart	HasTraffic	road block nearby
+4	Pizza My Heart	HasDistance	1 miles
+4	road block nearby	IsTrafficOf	Pizza My Heart
+4	1 miles	IsDistanceFrom	Pizza My Heart
+5	Jing Jing	HasAddress	113 Arbol Dr
+5	Jing Jing	HasType	chinese restaurant
+5	113 Arbol Dr	IsAddressOf	Jing Jing
+5	chinese restaurant	IsTypeOf	Jing Jing
+5	Jing Jing	HasTraffic	moderate traffic
+5	Jing Jing	HasDistance	6 miles
+5	moderate traffic	IsTrafficOf	Jing Jing
+5	6 miles	IsDistanceFrom	Jing Jing
+6	Stanford Childrens Health	HasAddress	899 Ames Ct
+6	Stanford Childrens Health	HasType	hospital
+6	899 Ames Ct	IsAddressOf	Stanford Childrens Health
+6	hospital	IsTypeOf	Stanford Childrens Health
+6	Stanford Childrens Health	HasTraffic	road block nearby
+6	Stanford Childrens Health	HasDistance	6 miles
+6	road block nearby	IsTrafficOf	Stanford Childrens Health
+6	6 miles	IsDistanceFrom	Stanford Childrens Health
+7	Philz	HasAddress	583 Alester Ave
+7	Philz	HasType	coffee or tea place
+7	583 Alester Ave	IsAddressOf	Philz
+7	coffee or tea place	IsTypeOf	Philz
+7	Philz	HasTraffic	moderate traffic
+7	Philz	HasDistance	2 miles
+7	moderate traffic	IsTrafficOf	Philz
+7	2 miles	IsDistanceFrom	Philz
+-1	today	IsEqualTo	monday

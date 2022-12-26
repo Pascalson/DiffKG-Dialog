@@ -1,0 +1,57 @@
+0	Palo Alto Medical Foundation	HasAddress	611 Ames Ave
+0	Palo Alto Medical Foundation	HasType	hospital
+0	611 Ames Ave	IsAddressOf	Palo Alto Medical Foundation
+0	hospital	IsTypeOf	Palo Alto Medical Foundation
+0	Palo Alto Medical Foundation	HasTraffic	no traffic
+0	Palo Alto Medical Foundation	HasDistance	1 miles
+0	no traffic	IsTrafficOf	Palo Alto Medical Foundation
+0	1 miles	IsDistanceFrom	Palo Alto Medical Foundation
+1	Town and Country	HasAddress	383 University Ave
+1	Town and Country	HasType	shopping center
+1	383 University Ave	IsAddressOf	Town and Country
+1	shopping center	IsTypeOf	Town and Country
+1	Town and Country	HasTraffic	no traffic
+1	Town and Country	HasDistance	4 miles
+1	no traffic	IsTrafficOf	Town and Country
+1	4 miles	IsDistanceFrom	Town and Country
+2	Webster Garage	HasAddress	880 Ames Ct
+2	Webster Garage	HasType	parking garage
+2	880 Ames Ct	IsAddressOf	Webster Garage
+2	parking garage	IsTypeOf	Webster Garage
+2	Webster Garage	HasTraffic	moderate traffic
+2	Webster Garage	HasDistance	5 miles
+2	moderate traffic	IsTrafficOf	Webster Garage
+2	5 miles	IsDistanceFrom	Webster Garage
+3	Valero	HasAddress	200 Alester Ave
+3	Valero	HasType	gas station
+3	200 Alester Ave	IsAddressOf	Valero
+3	gas station	IsTypeOf	Valero
+3	Valero	HasTraffic	no traffic
+3	Valero	HasDistance	1 miles
+3	no traffic	IsTrafficOf	Valero
+3	1 miles	IsDistanceFrom	Valero
+4	tai pan	HasAddress	830 Almanor Ln
+4	tai pan	HasType	chinese restaurant
+4	830 Almanor Ln	IsAddressOf	tai pan
+4	chinese restaurant	IsTypeOf	tai pan
+4	tai pan	HasTraffic	moderate traffic
+4	tai pan	HasDistance	4 miles
+4	moderate traffic	IsTrafficOf	tai pan
+4	4 miles	IsDistanceFrom	tai pan
+5	toms house	HasAddress	580 Van Ness Ave
+5	toms house	HasType	friends house
+5	580 Van Ness Ave	IsAddressOf	toms house
+5	friends house	IsTypeOf	toms house
+5	toms house	HasTraffic	heavy traffic
+5	toms house	HasDistance	4 miles
+5	heavy traffic	IsTrafficOf	toms house
+5	4 miles	IsDistanceFrom	toms house
+6	Whole Foods	HasAddress	819 Alma St
+6	Whole Foods	HasType	grocery store
+6	819 Alma St	IsAddressOf	Whole Foods
+6	grocery store	IsTypeOf	Whole Foods
+6	Whole Foods	HasTraffic	moderate traffic
+6	Whole Foods	HasDistance	2 miles
+6	moderate traffic	IsTrafficOf	Whole Foods
+6	2 miles	IsDistanceFrom	Whole Foods
+-1	today	IsEqualTo	monday

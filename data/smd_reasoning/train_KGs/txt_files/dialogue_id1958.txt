@@ -1,0 +1,65 @@
+0	Stanford Oval Parking	HasAddress	610 Amarillo Ave
+0	Stanford Oval Parking	HasType	parking garage
+0	610 Amarillo Ave	IsAddressOf	Stanford Oval Parking
+0	parking garage	IsTypeOf	Stanford Oval Parking
+0	Stanford Oval Parking	HasTraffic	heavy traffic
+0	Stanford Oval Parking	HasDistance	2 miles
+0	heavy traffic	IsTrafficOf	Stanford Oval Parking
+0	2 miles	IsDistanceFrom	Stanford Oval Parking
+1	Pizza My Heart	HasAddress	528 Anton Ct
+1	Pizza My Heart	HasType	pizza restaurant
+1	528 Anton Ct	IsAddressOf	Pizza My Heart
+1	pizza restaurant	IsTypeOf	Pizza My Heart
+1	Pizza My Heart	HasTraffic	road block nearby
+1	Pizza My Heart	HasDistance	2 miles
+1	road block nearby	IsTrafficOf	Pizza My Heart
+1	2 miles	IsDistanceFrom	Pizza My Heart
+2	The Clement Hotel	HasAddress	657 Ames Ave
+2	The Clement Hotel	HasType	rest stop
+2	657 Ames Ave	IsAddressOf	The Clement Hotel
+2	rest stop	IsTypeOf	The Clement Hotel
+2	The Clement Hotel	HasTraffic	heavy traffic
+2	The Clement Hotel	HasDistance	1 miles
+2	heavy traffic	IsTrafficOf	The Clement Hotel
+2	1 miles	IsDistanceFrom	The Clement Hotel
+3	Palo Alto Garage R	HasAddress	481 Amaranta Ave
+3	Palo Alto Garage R	HasType	parking garage
+3	481 Amaranta Ave	IsAddressOf	Palo Alto Garage R
+3	parking garage	IsTypeOf	Palo Alto Garage R
+3	Palo Alto Garage R	HasTraffic	moderate traffic
+3	Palo Alto Garage R	HasDistance	1 miles
+3	moderate traffic	IsTrafficOf	Palo Alto Garage R
+3	1 miles	IsDistanceFrom	Palo Alto Garage R
+4	Teavana	HasAddress	145 Amherst St
+4	Teavana	HasType	coffee or tea place
+4	145 Amherst St	IsAddressOf	Teavana
+4	coffee or tea place	IsTypeOf	Teavana
+4	Teavana	HasTraffic	moderate traffic
+4	Teavana	HasDistance	5 miles
+4	moderate traffic	IsTrafficOf	Teavana
+4	5 miles	IsDistanceFrom	Teavana
+5	5672 barringer street	HasAddress	5672 barringer street
+5	5672 barringer street	HasType	certain address
+5	5672 barringer street	IsAddressOf	5672 barringer street
+5	certain address	IsTypeOf	5672 barringer street
+5	5672 barringer street	HasTraffic	heavy traffic
+5	5672 barringer street	HasDistance	5 miles
+5	heavy traffic	IsTrafficOf	5672 barringer street
+5	5 miles	IsDistanceFrom	5672 barringer street
+6	home	HasAddress	5671 barringer street
+6	home	HasType	home
+6	5671 barringer street	IsAddressOf	home
+6	home	IsTypeOf	home
+6	home	HasTraffic	road block nearby
+6	home	HasDistance	4 miles
+6	road block nearby	IsTrafficOf	home
+6	4 miles	IsDistanceFrom	home
+7	Mandarin Roots	HasAddress	271 Springer Street
+7	Mandarin Roots	HasType	chinese restaurant
+7	271 Springer Street	IsAddressOf	Mandarin Roots
+7	chinese restaurant	IsTypeOf	Mandarin Roots
+7	Mandarin Roots	HasTraffic	heavy traffic
+7	Mandarin Roots	HasDistance	1 miles
+7	heavy traffic	IsTrafficOf	Mandarin Roots
+7	1 miles	IsDistanceFrom	Mandarin Roots
+-1	today	IsEqualTo	monday

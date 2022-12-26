@@ -1,0 +1,65 @@
+0	Coupa	HasAddress	394 Van Ness Ave
+0	Coupa	HasType	coffee or tea place
+0	394 Van Ness Ave	IsAddressOf	Coupa
+0	coffee or tea place	IsTypeOf	Coupa
+0	Coupa	HasTraffic	no traffic
+0	Coupa	HasDistance	5 miles
+0	no traffic	IsTrafficOf	Coupa
+0	5 miles	IsDistanceFrom	Coupa
+1	home	HasAddress	10 ames street
+1	home	HasType	home
+1	10 ames street	IsAddressOf	home
+1	home	IsTypeOf	home
+1	home	HasTraffic	no traffic
+1	home	HasDistance	1 miles
+1	no traffic	IsTrafficOf	home
+1	1 miles	IsDistanceFrom	home
+2	Ravenswood Shopping Center	HasAddress	434 Arastradero Rd
+2	Ravenswood Shopping Center	HasType	shopping center
+2	434 Arastradero Rd	IsAddressOf	Ravenswood Shopping Center
+2	shopping center	IsTypeOf	Ravenswood Shopping Center
+2	Ravenswood Shopping Center	HasTraffic	car collision nearby
+2	Ravenswood Shopping Center	HasDistance	4 miles
+2	car collision nearby	IsTrafficOf	Ravenswood Shopping Center
+2	4 miles	IsDistanceFrom	Ravenswood Shopping Center
+3	home	HasAddress	10 ames street
+3	home	HasType	home
+3	10 ames street	IsAddressOf	home
+3	home	IsTypeOf	home
+3	home	HasTraffic	no traffic
+3	home	HasDistance	5 miles
+3	no traffic	IsTrafficOf	home
+3	5 miles	IsDistanceFrom	home
+4	Sigona Farmers Market	HasAddress	638 Amherst St
+4	Sigona Farmers Market	HasType	grocery store
+4	638 Amherst St	IsAddressOf	Sigona Farmers Market
+4	grocery store	IsTypeOf	Sigona Farmers Market
+4	Sigona Farmers Market	HasTraffic	heavy traffic
+4	Sigona Farmers Market	HasDistance	2 miles
+4	heavy traffic	IsTrafficOf	Sigona Farmers Market
+4	2 miles	IsDistanceFrom	Sigona Farmers Market
+5	Palo Alto Garage R	HasAddress	481 Amaranta Ave
+5	Palo Alto Garage R	HasType	parking garage
+5	481 Amaranta Ave	IsAddressOf	Palo Alto Garage R
+5	parking garage	IsTypeOf	Palo Alto Garage R
+5	Palo Alto Garage R	HasTraffic	road block nearby
+5	Palo Alto Garage R	HasDistance	4 miles
+5	road block nearby	IsTrafficOf	Palo Alto Garage R
+5	4 miles	IsDistanceFrom	Palo Alto Garage R
+6	Stanford Childrens Health	HasAddress	899 Ames Ct
+6	Stanford Childrens Health	HasType	hospital
+6	899 Ames Ct	IsAddressOf	Stanford Childrens Health
+6	hospital	IsTypeOf	Stanford Childrens Health
+6	Stanford Childrens Health	HasTraffic	moderate traffic
+6	Stanford Childrens Health	HasDistance	4 miles
+6	moderate traffic	IsTrafficOf	Stanford Childrens Health
+6	4 miles	IsDistanceFrom	Stanford Childrens Health
+7	Willows Market	HasAddress	409 Bollard St
+7	Willows Market	HasType	grocery store
+7	409 Bollard St	IsAddressOf	Willows Market
+7	grocery store	IsTypeOf	Willows Market
+7	Willows Market	HasTraffic	moderate traffic
+7	Willows Market	HasDistance	5 miles
+7	moderate traffic	IsTrafficOf	Willows Market
+7	5 miles	IsDistanceFrom	Willows Market
+-1	today	IsEqualTo	monday

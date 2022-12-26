@@ -1,0 +1,65 @@
+0	Stanford Express Care	HasAddress	214 El Camino Real
+0	Stanford Express Care	HasType	hospital
+0	214 El Camino Real	IsAddressOf	Stanford Express Care
+0	hospital	IsTypeOf	Stanford Express Care
+0	Stanford Express Care	HasTraffic	no traffic
+0	Stanford Express Care	HasDistance	3 miles
+0	no traffic	IsTrafficOf	Stanford Express Care
+0	3 miles	IsDistanceFrom	Stanford Express Care
+1	Safeway	HasAddress	452 Arcadia Pl
+1	Safeway	HasType	grocery store
+1	452 Arcadia Pl	IsAddressOf	Safeway
+1	grocery store	IsTypeOf	Safeway
+1	Safeway	HasTraffic	car collision nearby
+1	Safeway	HasDistance	1 miles
+1	car collision nearby	IsTrafficOf	Safeway
+1	1 miles	IsDistanceFrom	Safeway
+2	Palo Alto Cafe	HasAddress	436 Alger Dr
+2	Palo Alto Cafe	HasType	coffee or tea place
+2	436 Alger Dr	IsAddressOf	Palo Alto Cafe
+2	coffee or tea place	IsTypeOf	Palo Alto Cafe
+2	Palo Alto Cafe	HasTraffic	no traffic
+2	Palo Alto Cafe	HasDistance	2 miles
+2	no traffic	IsTrafficOf	Palo Alto Cafe
+2	2 miles	IsDistanceFrom	Palo Alto Cafe
+3	Town and Country	HasAddress	383 University Ave
+3	Town and Country	HasType	shopping center
+3	383 University Ave	IsAddressOf	Town and Country
+3	shopping center	IsTypeOf	Town and Country
+3	Town and Country	HasTraffic	car collision nearby
+3	Town and Country	HasDistance	5 miles
+3	car collision nearby	IsTrafficOf	Town and Country
+3	5 miles	IsDistanceFrom	Town and Country
+4	Sigona Farmers Market	HasAddress	638 Amherst St
+4	Sigona Farmers Market	HasType	grocery store
+4	638 Amherst St	IsAddressOf	Sigona Farmers Market
+4	grocery store	IsTypeOf	Sigona Farmers Market
+4	Sigona Farmers Market	HasTraffic	heavy traffic
+4	Sigona Farmers Market	HasDistance	1 miles
+4	heavy traffic	IsTrafficOf	Sigona Farmers Market
+4	1 miles	IsDistanceFrom	Sigona Farmers Market
+5	Shell	HasAddress	53 University Av
+5	Shell	HasType	gas station
+5	53 University Av	IsAddressOf	Shell
+5	gas station	IsTypeOf	Shell
+5	Shell	HasTraffic	road block nearby
+5	Shell	HasDistance	8 miles
+5	road block nearby	IsTrafficOf	Shell
+5	8 miles	IsDistanceFrom	Shell
+6	Hotel Keen	HasAddress	578 Arbol Dr
+6	Hotel Keen	HasType	rest stop
+6	578 Arbol Dr	IsAddressOf	Hotel Keen
+6	rest stop	IsTypeOf	Hotel Keen
+6	Hotel Keen	HasTraffic	heavy traffic
+6	Hotel Keen	HasDistance	1 miles
+6	heavy traffic	IsTrafficOf	Hotel Keen
+6	1 miles	IsDistanceFrom	Hotel Keen
+7	The Westin	HasAddress	329 El Camino Real
+7	The Westin	HasType	rest stop
+7	329 El Camino Real	IsAddressOf	The Westin
+7	rest stop	IsTypeOf	The Westin
+7	The Westin	HasTraffic	no traffic
+7	The Westin	HasDistance	4 miles
+7	no traffic	IsTrafficOf	The Westin
+7	4 miles	IsDistanceFrom	The Westin
+-1	today	IsEqualTo	monday

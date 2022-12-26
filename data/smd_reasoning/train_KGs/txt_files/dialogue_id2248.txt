@@ -1,0 +1,57 @@
+0	Pizza My Heart	HasAddress	528 Anton Ct
+0	Pizza My Heart	HasType	pizza restaurant
+0	528 Anton Ct	IsAddressOf	Pizza My Heart
+0	pizza restaurant	IsTypeOf	Pizza My Heart
+0	Pizza My Heart	HasTraffic	moderate traffic
+0	Pizza My Heart	HasDistance	4 miles
+0	moderate traffic	IsTrafficOf	Pizza My Heart
+0	4 miles	IsDistanceFrom	Pizza My Heart
+1	Four Seasons	HasAddress	465 Arcadia Pl
+1	Four Seasons	HasType	rest stop
+1	465 Arcadia Pl	IsAddressOf	Four Seasons
+1	rest stop	IsTypeOf	Four Seasons
+1	Four Seasons	HasTraffic	no traffic
+1	Four Seasons	HasDistance	2 miles
+1	no traffic	IsTrafficOf	Four Seasons
+1	2 miles	IsDistanceFrom	Four Seasons
+2	Civic Center Garage	HasAddress	270 Altaire Walk
+2	Civic Center Garage	HasType	parking garage
+2	270 Altaire Walk	IsAddressOf	Civic Center Garage
+2	parking garage	IsTypeOf	Civic Center Garage
+2	Civic Center Garage	HasTraffic	heavy traffic
+2	Civic Center Garage	HasDistance	2 miles
+2	heavy traffic	IsTrafficOf	Civic Center Garage
+2	2 miles	IsDistanceFrom	Civic Center Garage
+3	5677 springer street	HasAddress	5677 springer street
+3	5677 springer street	HasType	certain address
+3	5677 springer street	IsAddressOf	5677 springer street
+3	certain address	IsTypeOf	5677 springer street
+3	5677 springer street	HasTraffic	heavy traffic
+3	5677 springer street	HasDistance	5 miles
+3	heavy traffic	IsTrafficOf	5677 springer street
+3	5 miles	IsDistanceFrom	5677 springer street
+4	Chevron	HasAddress	783 Arcadia Pl
+4	Chevron	HasType	gas station
+4	783 Arcadia Pl	IsAddressOf	Chevron
+4	gas station	IsTypeOf	Chevron
+4	Chevron	HasTraffic	heavy traffic
+4	Chevron	HasDistance	5 miles
+4	heavy traffic	IsTrafficOf	Chevron
+4	5 miles	IsDistanceFrom	Chevron
+5	Valero	HasAddress	200 Alester Ave
+5	Valero	HasType	gas station
+5	200 Alester Ave	IsAddressOf	Valero
+5	gas station	IsTypeOf	Valero
+5	Valero	HasTraffic	heavy traffic
+5	Valero	HasDistance	1 miles
+5	heavy traffic	IsTrafficOf	Valero
+5	1 miles	IsDistanceFrom	Valero
+6	5677 southwest 4th street	HasAddress	5677 southwest 4th street
+6	5677 southwest 4th street	HasType	certain address
+6	5677 southwest 4th street	IsAddressOf	5677 southwest 4th street
+6	certain address	IsTypeOf	5677 southwest 4th street
+6	5677 southwest 4th street	HasTraffic	no traffic
+6	5677 southwest 4th street	HasDistance	6 miles
+6	no traffic	IsTrafficOf	5677 southwest 4th street
+6	6 miles	IsDistanceFrom	5677 southwest 4th street
+-1	today	IsEqualTo	monday

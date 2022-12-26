@@ -1,0 +1,57 @@
+0	Round Table	HasAddress	113 Anton Ct
+0	Round Table	HasType	pizza restaurant
+0	113 Anton Ct	IsAddressOf	Round Table
+0	pizza restaurant	IsTypeOf	Round Table
+0	Round Table	HasTraffic	moderate traffic
+0	Round Table	HasDistance	6 miles
+0	moderate traffic	IsTrafficOf	Round Table
+0	6 miles	IsDistanceFrom	Round Table
+1	Palo Alto Garage R	HasAddress	481 Amaranta Ave
+1	Palo Alto Garage R	HasType	parking garage
+1	481 Amaranta Ave	IsAddressOf	Palo Alto Garage R
+1	parking garage	IsTypeOf	Palo Alto Garage R
+1	Palo Alto Garage R	HasTraffic	moderate traffic
+1	Palo Alto Garage R	HasDistance	3 miles
+1	moderate traffic	IsTrafficOf	Palo Alto Garage R
+1	3 miles	IsDistanceFrom	Palo Alto Garage R
+2	Pizza Hut	HasAddress	704 El Camino Real
+2	Pizza Hut	HasType	pizza restaurant
+2	704 El Camino Real	IsAddressOf	Pizza Hut
+2	pizza restaurant	IsTypeOf	Pizza Hut
+2	Pizza Hut	HasTraffic	moderate traffic
+2	Pizza Hut	HasDistance	5 miles
+2	moderate traffic	IsTrafficOf	Pizza Hut
+2	5 miles	IsDistanceFrom	Pizza Hut
+3	Stanford Childrens Health	HasAddress	899 Ames Ct
+3	Stanford Childrens Health	HasType	hospital
+3	899 Ames Ct	IsAddressOf	Stanford Childrens Health
+3	hospital	IsTypeOf	Stanford Childrens Health
+3	Stanford Childrens Health	HasTraffic	moderate traffic
+3	Stanford Childrens Health	HasDistance	1 miles
+3	moderate traffic	IsTrafficOf	Stanford Childrens Health
+3	1 miles	IsDistanceFrom	Stanford Childrens Health
+4	home	HasAddress	10 ames street
+4	home	HasType	home
+4	10 ames street	IsAddressOf	home
+4	home	IsTypeOf	home
+4	home	HasTraffic	no traffic
+4	home	HasDistance	2 miles
+4	no traffic	IsTrafficOf	home
+4	2 miles	IsDistanceFrom	home
+5	Hotel Keen	HasAddress	578 Arbol Dr
+5	Hotel Keen	HasType	rest stop
+5	578 Arbol Dr	IsAddressOf	Hotel Keen
+5	rest stop	IsTypeOf	Hotel Keen
+5	Hotel Keen	HasTraffic	heavy traffic
+5	Hotel Keen	HasDistance	3 miles
+5	heavy traffic	IsTrafficOf	Hotel Keen
+5	3 miles	IsDistanceFrom	Hotel Keen
+6	5677 southwest 4th street	HasAddress	5677 southwest 4th street
+6	5677 southwest 4th street	HasType	certain address
+6	5677 southwest 4th street	IsAddressOf	5677 southwest 4th street
+6	certain address	IsTypeOf	5677 southwest 4th street
+6	5677 southwest 4th street	HasTraffic	no traffic
+6	5677 southwest 4th street	HasDistance	5 miles
+6	no traffic	IsTrafficOf	5677 southwest 4th street
+6	5 miles	IsDistanceFrom	5677 southwest 4th street
+-1	today	IsEqualTo	monday

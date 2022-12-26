@@ -1,0 +1,65 @@
+0	Stanford Childrens Health	HasAddress	899 Ames Ct
+0	Stanford Childrens Health	HasType	hospital
+0	899 Ames Ct	IsAddressOf	Stanford Childrens Health
+0	hospital	IsTypeOf	Stanford Childrens Health
+0	Stanford Childrens Health	HasTraffic	car collision nearby
+0	Stanford Childrens Health	HasDistance	1 miles
+0	car collision nearby	IsTrafficOf	Stanford Childrens Health
+0	1 miles	IsDistanceFrom	Stanford Childrens Health
+1	Coupa	HasAddress	394 Van Ness Ave
+1	Coupa	HasType	coffee or tea place
+1	394 Van Ness Ave	IsAddressOf	Coupa
+1	coffee or tea place	IsTypeOf	Coupa
+1	Coupa	HasTraffic	moderate traffic
+1	Coupa	HasDistance	1 miles
+1	moderate traffic	IsTrafficOf	Coupa
+1	1 miles	IsDistanceFrom	Coupa
+2	jacks house	HasAddress	864 Almanor Ln
+2	jacks house	HasType	friends house
+2	864 Almanor Ln	IsAddressOf	jacks house
+2	friends house	IsTypeOf	jacks house
+2	jacks house	HasTraffic	moderate traffic
+2	jacks house	HasDistance	5 miles
+2	moderate traffic	IsTrafficOf	jacks house
+2	5 miles	IsDistanceFrom	jacks house
+3	toms house	HasAddress	580 Van Ness Ave
+3	toms house	HasType	friends house
+3	580 Van Ness Ave	IsAddressOf	toms house
+3	friends house	IsTypeOf	toms house
+3	toms house	HasTraffic	moderate traffic
+3	toms house	HasDistance	1 miles
+3	moderate traffic	IsTrafficOf	toms house
+3	1 miles	IsDistanceFrom	toms house
+4	Palo Alto Medical Foundation	HasAddress	611 Ames Ave
+4	Palo Alto Medical Foundation	HasType	hospital
+4	611 Ames Ave	IsAddressOf	Palo Alto Medical Foundation
+4	hospital	IsTypeOf	Palo Alto Medical Foundation
+4	Palo Alto Medical Foundation	HasTraffic	no traffic
+4	Palo Alto Medical Foundation	HasDistance	4 miles
+4	no traffic	IsTrafficOf	Palo Alto Medical Foundation
+4	4 miles	IsDistanceFrom	Palo Alto Medical Foundation
+5	P.F. Changs	HasAddress	669 El Camino Real
+5	P.F. Changs	HasType	chinese restaurant
+5	669 El Camino Real	IsAddressOf	P.F. Changs
+5	chinese restaurant	IsTypeOf	P.F. Changs
+5	P.F. Changs	HasTraffic	car collision nearby
+5	P.F. Changs	HasDistance	3 miles
+5	car collision nearby	IsTrafficOf	P.F. Changs
+5	3 miles	IsDistanceFrom	P.F. Changs
+6	Stanford Express Care	HasAddress	214 El Camino Real
+6	Stanford Express Care	HasType	hospital
+6	214 El Camino Real	IsAddressOf	Stanford Express Care
+6	hospital	IsTypeOf	Stanford Express Care
+6	Stanford Express Care	HasTraffic	car collision nearby
+6	Stanford Express Care	HasDistance	1 miles
+6	car collision nearby	IsTrafficOf	Stanford Express Care
+6	1 miles	IsDistanceFrom	Stanford Express Care
+7	Town and Country	HasAddress	383 University Ave
+7	Town and Country	HasType	shopping center
+7	383 University Ave	IsAddressOf	Town and Country
+7	shopping center	IsTypeOf	Town and Country
+7	Town and Country	HasTraffic	moderate traffic
+7	Town and Country	HasDistance	5 miles
+7	moderate traffic	IsTrafficOf	Town and Country
+7	5 miles	IsDistanceFrom	Town and Country
+-1	today	IsEqualTo	monday

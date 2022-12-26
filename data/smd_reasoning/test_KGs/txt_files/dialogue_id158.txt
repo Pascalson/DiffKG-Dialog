@@ -1,0 +1,57 @@
+0	Stanford Express Care	HasAddress	214 El Camino Real
+0	Stanford Express Care	HasType	hospital
+0	214 El Camino Real	IsAddressOf	Stanford Express Care
+0	hospital	IsTypeOf	Stanford Express Care
+0	Stanford Express Care	HasTraffic	heavy traffic
+0	Stanford Express Care	HasDistance	6 miles
+0	heavy traffic	IsTrafficOf	Stanford Express Care
+0	6 miles	IsDistanceFrom	Stanford Express Care
+1	Hotel Keen	HasAddress	578 Arbol Dr
+1	Hotel Keen	HasType	rest stop
+1	578 Arbol Dr	IsAddressOf	Hotel Keen
+1	rest stop	IsTypeOf	Hotel Keen
+1	Hotel Keen	HasTraffic	moderate traffic
+1	Hotel Keen	HasDistance	1 miles
+1	moderate traffic	IsTrafficOf	Hotel Keen
+1	1 miles	IsDistanceFrom	Hotel Keen
+2	Palo Alto Medical Foundation	HasAddress	611 Ames Ave
+2	Palo Alto Medical Foundation	HasType	hospital
+2	611 Ames Ave	IsAddressOf	Palo Alto Medical Foundation
+2	hospital	IsTypeOf	Palo Alto Medical Foundation
+2	Palo Alto Medical Foundation	HasTraffic	moderate traffic
+2	Palo Alto Medical Foundation	HasDistance	4 miles
+2	moderate traffic	IsTrafficOf	Palo Alto Medical Foundation
+2	4 miles	IsDistanceFrom	Palo Alto Medical Foundation
+3	toms house	HasAddress	580 Van Ness Ave
+3	toms house	HasType	friends house
+3	580 Van Ness Ave	IsAddressOf	toms house
+3	friends house	IsTypeOf	toms house
+3	toms house	HasTraffic	heavy traffic
+3	toms house	HasDistance	4 miles
+3	heavy traffic	IsTrafficOf	toms house
+3	4 miles	IsDistanceFrom	toms house
+4	jacks house	HasAddress	864 Almanor Ln
+4	jacks house	HasType	friends house
+4	864 Almanor Ln	IsAddressOf	jacks house
+4	friends house	IsTypeOf	jacks house
+4	jacks house	HasTraffic	no traffic
+4	jacks house	HasDistance	5 miles
+4	no traffic	IsTrafficOf	jacks house
+4	5 miles	IsDistanceFrom	jacks house
+5	Webster Garage	HasAddress	880 Ames Ct
+5	Webster Garage	HasType	parking garage
+5	880 Ames Ct	IsAddressOf	Webster Garage
+5	parking garage	IsTypeOf	Webster Garage
+5	Webster Garage	HasTraffic	moderate traffic
+5	Webster Garage	HasDistance	2 miles
+5	moderate traffic	IsTrafficOf	Webster Garage
+5	2 miles	IsDistanceFrom	Webster Garage
+6	Safeway	HasAddress	452 Arcadia Pl
+6	Safeway	HasType	grocery store
+6	452 Arcadia Pl	IsAddressOf	Safeway
+6	grocery store	IsTypeOf	Safeway
+6	Safeway	HasTraffic	moderate traffic
+6	Safeway	HasDistance	1 miles
+6	moderate traffic	IsTrafficOf	Safeway
+6	1 miles	IsDistanceFrom	Safeway
+-1	today	IsEqualTo	monday

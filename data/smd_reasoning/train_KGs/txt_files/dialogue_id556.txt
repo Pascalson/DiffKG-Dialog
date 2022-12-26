@@ -1,0 +1,57 @@
+0	Town and Country	HasAddress	383 University Ave
+0	Town and Country	HasType	shopping center
+0	383 University Ave	IsAddressOf	Town and Country
+0	shopping center	IsTypeOf	Town and Country
+0	Town and Country	HasTraffic	heavy traffic
+0	Town and Country	HasDistance	4 miles
+0	heavy traffic	IsTrafficOf	Town and Country
+0	4 miles	IsDistanceFrom	Town and Country
+1	tai pan	HasAddress	830 Almanor Ln
+1	tai pan	HasType	chinese restaurant
+1	830 Almanor Ln	IsAddressOf	tai pan
+1	chinese restaurant	IsTypeOf	tai pan
+1	tai pan	HasTraffic	moderate traffic
+1	tai pan	HasDistance	1 miles
+1	moderate traffic	IsTrafficOf	tai pan
+1	1 miles	IsDistanceFrom	tai pan
+2	home	HasAddress	10 ames street
+2	home	HasType	home
+2	10 ames street	IsAddressOf	home
+2	home	IsTypeOf	home
+2	home	HasTraffic	moderate traffic
+2	home	HasDistance	1 miles
+2	moderate traffic	IsTrafficOf	home
+2	1 miles	IsDistanceFrom	home
+3	Four Seasons	HasAddress	465 Arcadia Pl
+3	Four Seasons	HasType	rest stop
+3	465 Arcadia Pl	IsAddressOf	Four Seasons
+3	rest stop	IsTypeOf	Four Seasons
+3	Four Seasons	HasTraffic	heavy traffic
+3	Four Seasons	HasDistance	3 miles
+3	heavy traffic	IsTrafficOf	Four Seasons
+3	3 miles	IsDistanceFrom	Four Seasons
+4	Mandarin Roots	HasAddress	271 Springer Street
+4	Mandarin Roots	HasType	chinese restaurant
+4	271 Springer Street	IsAddressOf	Mandarin Roots
+4	chinese restaurant	IsTypeOf	Mandarin Roots
+4	Mandarin Roots	HasTraffic	heavy traffic
+4	Mandarin Roots	HasDistance	3 miles
+4	heavy traffic	IsTrafficOf	Mandarin Roots
+4	3 miles	IsDistanceFrom	Mandarin Roots
+5	Teavana	HasAddress	145 Amherst St
+5	Teavana	HasType	coffee or tea place
+5	145 Amherst St	IsAddressOf	Teavana
+5	coffee or tea place	IsTypeOf	Teavana
+5	Teavana	HasTraffic	no traffic
+5	Teavana	HasDistance	1 miles
+5	no traffic	IsTrafficOf	Teavana
+5	1 miles	IsDistanceFrom	Teavana
+6	Sigona Farmers Market	HasAddress	638 Amherst St
+6	Sigona Farmers Market	HasType	grocery store
+6	638 Amherst St	IsAddressOf	Sigona Farmers Market
+6	grocery store	IsTypeOf	Sigona Farmers Market
+6	Sigona Farmers Market	HasTraffic	no traffic
+6	Sigona Farmers Market	HasDistance	3 miles
+6	no traffic	IsTrafficOf	Sigona Farmers Market
+6	3 miles	IsDistanceFrom	Sigona Farmers Market
+-1	today	IsEqualTo	monday

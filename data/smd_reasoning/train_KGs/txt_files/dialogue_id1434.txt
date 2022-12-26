@@ -1,0 +1,65 @@
+0	Comfort Inn	HasAddress	753 University Ave
+0	Comfort Inn	HasType	rest stop
+0	753 University Ave	IsAddressOf	Comfort Inn
+0	rest stop	IsTypeOf	Comfort Inn
+0	Comfort Inn	HasTraffic	road block nearby
+0	Comfort Inn	HasDistance	1 miles
+0	road block nearby	IsTrafficOf	Comfort Inn
+0	1 miles	IsDistanceFrom	Comfort Inn
+1	Shell	HasAddress	53 University Av
+1	Shell	HasType	gas station
+1	53 University Av	IsAddressOf	Shell
+1	gas station	IsTypeOf	Shell
+1	Shell	HasTraffic	car collision nearby
+1	Shell	HasDistance	6 miles
+1	car collision nearby	IsTrafficOf	Shell
+1	6 miles	IsDistanceFrom	Shell
+2	5677 southwest 4th street	HasAddress	5677 southwest 4th street
+2	5677 southwest 4th street	HasType	certain address
+2	5677 southwest 4th street	IsAddressOf	5677 southwest 4th street
+2	certain address	IsTypeOf	5677 southwest 4th street
+2	5677 southwest 4th street	HasTraffic	car collision nearby
+2	5677 southwest 4th street	HasDistance	3 miles
+2	car collision nearby	IsTrafficOf	5677 southwest 4th street
+2	3 miles	IsDistanceFrom	5677 southwest 4th street
+3	Dish Parking	HasAddress	550 Alester Ave
+3	Dish Parking	HasType	parking garage
+3	550 Alester Ave	IsAddressOf	Dish Parking
+3	parking garage	IsTypeOf	Dish Parking
+3	Dish Parking	HasTraffic	car collision nearby
+3	Dish Parking	HasDistance	7 miles
+3	car collision nearby	IsTrafficOf	Dish Parking
+3	7 miles	IsDistanceFrom	Dish Parking
+4	Stanford Shopping Center	HasAddress	773 Alger Dr
+4	Stanford Shopping Center	HasType	shopping center
+4	773 Alger Dr	IsAddressOf	Stanford Shopping Center
+4	shopping center	IsTypeOf	Stanford Shopping Center
+4	Stanford Shopping Center	HasTraffic	road block nearby
+4	Stanford Shopping Center	HasDistance	4 miles
+4	road block nearby	IsTrafficOf	Stanford Shopping Center
+4	4 miles	IsDistanceFrom	Stanford Shopping Center
+5	P.F. Changs	HasAddress	669 El Camino Real
+5	P.F. Changs	HasType	chinese restaurant
+5	669 El Camino Real	IsAddressOf	P.F. Changs
+5	chinese restaurant	IsTypeOf	P.F. Changs
+5	P.F. Changs	HasTraffic	no traffic
+5	P.F. Changs	HasDistance	1 miles
+5	no traffic	IsTrafficOf	P.F. Changs
+5	1 miles	IsDistanceFrom	P.F. Changs
+6	Travelers Lodge	HasAddress	333 Arbol Dr
+6	Travelers Lodge	HasType	rest stop
+6	333 Arbol Dr	IsAddressOf	Travelers Lodge
+6	rest stop	IsTypeOf	Travelers Lodge
+6	Travelers Lodge	HasTraffic	road block nearby
+6	Travelers Lodge	HasDistance	3 miles
+6	road block nearby	IsTrafficOf	Travelers Lodge
+6	3 miles	IsDistanceFrom	Travelers Lodge
+7	Whole Foods	HasAddress	819 Alma St
+7	Whole Foods	HasType	grocery store
+7	819 Alma St	IsAddressOf	Whole Foods
+7	grocery store	IsTypeOf	Whole Foods
+7	Whole Foods	HasTraffic	moderate traffic
+7	Whole Foods	HasDistance	4 miles
+7	moderate traffic	IsTrafficOf	Whole Foods
+7	4 miles	IsDistanceFrom	Whole Foods
+-1	today	IsEqualTo	monday

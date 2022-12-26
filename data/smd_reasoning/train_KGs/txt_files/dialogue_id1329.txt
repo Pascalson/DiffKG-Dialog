@@ -1,0 +1,57 @@
+0	Coupa	HasAddress	394 Van Ness Ave
+0	Coupa	HasType	coffee or tea place
+0	394 Van Ness Ave	IsAddressOf	Coupa
+0	coffee or tea place	IsTypeOf	Coupa
+0	Coupa	HasTraffic	moderate traffic
+0	Coupa	HasDistance	5 miles
+0	moderate traffic	IsTrafficOf	Coupa
+0	5 miles	IsDistanceFrom	Coupa
+1	Round Table	HasAddress	113 Anton Ct
+1	Round Table	HasType	pizza restaurant
+1	113 Anton Ct	IsAddressOf	Round Table
+1	pizza restaurant	IsTypeOf	Round Table
+1	Round Table	HasTraffic	heavy traffic
+1	Round Table	HasDistance	6 miles
+1	heavy traffic	IsTrafficOf	Round Table
+1	6 miles	IsDistanceFrom	Round Table
+2	Palo Alto Cafe	HasAddress	436 Alger Dr
+2	Palo Alto Cafe	HasType	coffee or tea place
+2	436 Alger Dr	IsAddressOf	Palo Alto Cafe
+2	coffee or tea place	IsTypeOf	Palo Alto Cafe
+2	Palo Alto Cafe	HasTraffic	no traffic
+2	Palo Alto Cafe	HasDistance	4 miles
+2	no traffic	IsTrafficOf	Palo Alto Cafe
+2	4 miles	IsDistanceFrom	Palo Alto Cafe
+3	toms house	HasAddress	580 Van Ness Ave
+3	toms house	HasType	friends house
+3	580 Van Ness Ave	IsAddressOf	toms house
+3	friends house	IsTypeOf	toms house
+3	toms house	HasTraffic	heavy traffic
+3	toms house	HasDistance	1 miles
+3	heavy traffic	IsTrafficOf	toms house
+3	1 miles	IsDistanceFrom	toms house
+4	Whole Foods	HasAddress	819 Alma St
+4	Whole Foods	HasType	grocery store
+4	819 Alma St	IsAddressOf	Whole Foods
+4	grocery store	IsTypeOf	Whole Foods
+4	Whole Foods	HasTraffic	heavy traffic
+4	Whole Foods	HasDistance	1 miles
+4	heavy traffic	IsTrafficOf	Whole Foods
+4	1 miles	IsDistanceFrom	Whole Foods
+5	5672 barringer street	HasAddress	5672 barringer street
+5	5672 barringer street	HasType	certain address
+5	5672 barringer street	IsAddressOf	5672 barringer street
+5	certain address	IsTypeOf	5672 barringer street
+5	5672 barringer street	HasTraffic	moderate traffic
+5	5672 barringer street	HasDistance	2 miles
+5	moderate traffic	IsTrafficOf	5672 barringer street
+5	2 miles	IsDistanceFrom	5672 barringer street
+6	Ravenswood Shopping Center	HasAddress	434 Arastradero Rd
+6	Ravenswood Shopping Center	HasType	shopping center
+6	434 Arastradero Rd	IsAddressOf	Ravenswood Shopping Center
+6	shopping center	IsTypeOf	Ravenswood Shopping Center
+6	Ravenswood Shopping Center	HasTraffic	heavy traffic
+6	Ravenswood Shopping Center	HasDistance	4 miles
+6	heavy traffic	IsTrafficOf	Ravenswood Shopping Center
+6	4 miles	IsDistanceFrom	Ravenswood Shopping Center
+-1	today	IsEqualTo	monday

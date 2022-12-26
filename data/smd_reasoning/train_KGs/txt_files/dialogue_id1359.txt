@@ -1,0 +1,57 @@
+0	jacks house	HasAddress	864 Almanor Ln
+0	jacks house	HasType	friends house
+0	864 Almanor Ln	IsAddressOf	jacks house
+0	friends house	IsTypeOf	jacks house
+0	jacks house	HasTraffic	no traffic
+0	jacks house	HasDistance	6 miles
+0	no traffic	IsTrafficOf	jacks house
+0	6 miles	IsDistanceFrom	jacks house
+1	Starbucks	HasAddress	792 Bedoin Street
+1	Starbucks	HasType	coffee or tea place
+1	792 Bedoin Street	IsAddressOf	Starbucks
+1	coffee or tea place	IsTypeOf	Starbucks
+1	Starbucks	HasTraffic	no traffic
+1	Starbucks	HasDistance	6 miles
+1	no traffic	IsTrafficOf	Starbucks
+1	6 miles	IsDistanceFrom	Starbucks
+2	Round Table	HasAddress	113 Anton Ct
+2	Round Table	HasType	pizza restaurant
+2	113 Anton Ct	IsAddressOf	Round Table
+2	pizza restaurant	IsTypeOf	Round Table
+2	Round Table	HasTraffic	heavy traffic
+2	Round Table	HasDistance	2 miles
+2	heavy traffic	IsTrafficOf	Round Table
+2	2 miles	IsDistanceFrom	Round Table
+3	Chevron	HasAddress	783 Arcadia Pl
+3	Chevron	HasType	gas station
+3	783 Arcadia Pl	IsAddressOf	Chevron
+3	gas station	IsTypeOf	Chevron
+3	Chevron	HasTraffic	moderate traffic
+3	Chevron	HasDistance	3 miles
+3	moderate traffic	IsTrafficOf	Chevron
+3	3 miles	IsDistanceFrom	Chevron
+4	Valero	HasAddress	200 Alester Ave
+4	Valero	HasType	gas station
+4	200 Alester Ave	IsAddressOf	Valero
+4	gas station	IsTypeOf	Valero
+4	Valero	HasTraffic	no traffic
+4	Valero	HasDistance	2 miles
+4	no traffic	IsTrafficOf	Valero
+4	2 miles	IsDistanceFrom	Valero
+5	Whole Foods	HasAddress	819 Alma St
+5	Whole Foods	HasType	grocery store
+5	819 Alma St	IsAddressOf	Whole Foods
+5	grocery store	IsTypeOf	Whole Foods
+5	Whole Foods	HasTraffic	heavy traffic
+5	Whole Foods	HasDistance	2 miles
+5	heavy traffic	IsTrafficOf	Whole Foods
+5	2 miles	IsDistanceFrom	Whole Foods
+6	Dominos	HasAddress	776 Arastradero Rd
+6	Dominos	HasType	pizza restaurant
+6	776 Arastradero Rd	IsAddressOf	Dominos
+6	pizza restaurant	IsTypeOf	Dominos
+6	Dominos	HasTraffic	no traffic
+6	Dominos	HasDistance	1 miles
+6	no traffic	IsTrafficOf	Dominos
+6	1 miles	IsDistanceFrom	Dominos
+-1	today	IsEqualTo	monday

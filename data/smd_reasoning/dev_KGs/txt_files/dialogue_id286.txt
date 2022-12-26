@@ -1,0 +1,65 @@
+0	jacks house	HasAddress	864 Almanor Ln
+0	jacks house	HasType	friends house
+0	864 Almanor Ln	IsAddressOf	jacks house
+0	friends house	IsTypeOf	jacks house
+0	jacks house	HasTraffic	car collision nearby
+0	jacks house	HasDistance	4 miles
+0	car collision nearby	IsTrafficOf	jacks house
+0	4 miles	IsDistanceFrom	jacks house
+1	Webster Garage	HasAddress	880 Ames Ct
+1	Webster Garage	HasType	parking garage
+1	880 Ames Ct	IsAddressOf	Webster Garage
+1	parking garage	IsTypeOf	Webster Garage
+1	Webster Garage	HasTraffic	heavy traffic
+1	Webster Garage	HasDistance	2 miles
+1	heavy traffic	IsTrafficOf	Webster Garage
+1	2 miles	IsDistanceFrom	Webster Garage
+2	home	HasAddress	56 cadwell street
+2	home	HasType	home
+2	56 cadwell street	IsAddressOf	home
+2	home	IsTypeOf	home
+2	home	HasTraffic	car collision nearby
+2	home	HasDistance	6 miles
+2	car collision nearby	IsTrafficOf	home
+2	6 miles	IsDistanceFrom	home
+3	5677 southwest 4th street	HasAddress	5677 southwest 4th street
+3	5677 southwest 4th street	HasType	certain address
+3	5677 southwest 4th street	IsAddressOf	5677 southwest 4th street
+3	certain address	IsTypeOf	5677 southwest 4th street
+3	5677 southwest 4th street	HasTraffic	no traffic
+3	5677 southwest 4th street	HasDistance	4 miles
+3	no traffic	IsTrafficOf	5677 southwest 4th street
+3	4 miles	IsDistanceFrom	5677 southwest 4th street
+4	Stanford Shopping Center	HasAddress	773 Alger Dr
+4	Stanford Shopping Center	HasType	shopping center
+4	773 Alger Dr	IsAddressOf	Stanford Shopping Center
+4	shopping center	IsTypeOf	Stanford Shopping Center
+4	Stanford Shopping Center	HasTraffic	road block nearby
+4	Stanford Shopping Center	HasDistance	3 miles
+4	road block nearby	IsTrafficOf	Stanford Shopping Center
+4	3 miles	IsDistanceFrom	Stanford Shopping Center
+5	Cafe Venetia	HasAddress	269 Alger Dr
+5	Cafe Venetia	HasType	coffee or tea place
+5	269 Alger Dr	IsAddressOf	Cafe Venetia
+5	coffee or tea place	IsTypeOf	Cafe Venetia
+5	Cafe Venetia	HasTraffic	moderate traffic
+5	Cafe Venetia	HasDistance	6 miles
+5	moderate traffic	IsTrafficOf	Cafe Venetia
+5	6 miles	IsDistanceFrom	Cafe Venetia
+6	5677 springer street	HasAddress	5677 springer street
+6	5677 springer street	HasType	certain address
+6	5677 springer street	IsAddressOf	5677 springer street
+6	certain address	IsTypeOf	5677 springer street
+6	5677 springer street	HasTraffic	moderate traffic
+6	5677 springer street	HasDistance	2 miles
+6	moderate traffic	IsTrafficOf	5677 springer street
+6	2 miles	IsDistanceFrom	5677 springer street
+7	Ravenswood Shopping Center	HasAddress	434 Arastradero Rd
+7	Ravenswood Shopping Center	HasType	shopping center
+7	434 Arastradero Rd	IsAddressOf	Ravenswood Shopping Center
+7	shopping center	IsTypeOf	Ravenswood Shopping Center
+7	Ravenswood Shopping Center	HasTraffic	no traffic
+7	Ravenswood Shopping Center	HasDistance	4 miles
+7	no traffic	IsTrafficOf	Ravenswood Shopping Center
+7	4 miles	IsDistanceFrom	Ravenswood Shopping Center
+-1	today	IsEqualTo	monday

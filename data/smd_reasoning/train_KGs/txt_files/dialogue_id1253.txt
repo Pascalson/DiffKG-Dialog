@@ -1,0 +1,57 @@
+0	The Clement Hotel	HasAddress	657 Ames Ave
+0	The Clement Hotel	HasType	rest stop
+0	657 Ames Ave	IsAddressOf	The Clement Hotel
+0	rest stop	IsTypeOf	The Clement Hotel
+0	The Clement Hotel	HasTraffic	heavy traffic
+0	The Clement Hotel	HasDistance	4 miles
+0	heavy traffic	IsTrafficOf	The Clement Hotel
+0	4 miles	IsDistanceFrom	The Clement Hotel
+1	Stanford Childrens Health	HasAddress	899 Ames Ct
+1	Stanford Childrens Health	HasType	hospital
+1	899 Ames Ct	IsAddressOf	Stanford Childrens Health
+1	hospital	IsTypeOf	Stanford Childrens Health
+1	Stanford Childrens Health	HasTraffic	moderate traffic
+1	Stanford Childrens Health	HasDistance	3 miles
+1	moderate traffic	IsTrafficOf	Stanford Childrens Health
+1	3 miles	IsDistanceFrom	Stanford Childrens Health
+2	Stanford Oval Parking	HasAddress	610 Amarillo Ave
+2	Stanford Oval Parking	HasType	parking garage
+2	610 Amarillo Ave	IsAddressOf	Stanford Oval Parking
+2	parking garage	IsTypeOf	Stanford Oval Parking
+2	Stanford Oval Parking	HasTraffic	heavy traffic
+2	Stanford Oval Parking	HasDistance	2 miles
+2	heavy traffic	IsTrafficOf	Stanford Oval Parking
+2	2 miles	IsDistanceFrom	Stanford Oval Parking
+3	Comfort Inn	HasAddress	753 University Ave
+3	Comfort Inn	HasType	rest stop
+3	753 University Ave	IsAddressOf	Comfort Inn
+3	rest stop	IsTypeOf	Comfort Inn
+3	Comfort Inn	HasTraffic	no traffic
+3	Comfort Inn	HasDistance	5 miles
+3	no traffic	IsTrafficOf	Comfort Inn
+3	5 miles	IsDistanceFrom	Comfort Inn
+4	Philz	HasAddress	583 Alester Ave
+4	Philz	HasType	coffee or tea place
+4	583 Alester Ave	IsAddressOf	Philz
+4	coffee or tea place	IsTypeOf	Philz
+4	Philz	HasTraffic	heavy traffic
+4	Philz	HasDistance	3 miles
+4	heavy traffic	IsTrafficOf	Philz
+4	3 miles	IsDistanceFrom	Philz
+5	Jing Jing	HasAddress	113 Arbol Dr
+5	Jing Jing	HasType	chinese restaurant
+5	113 Arbol Dr	IsAddressOf	Jing Jing
+5	chinese restaurant	IsTypeOf	Jing Jing
+5	Jing Jing	HasTraffic	heavy traffic
+5	Jing Jing	HasDistance	3 miles
+5	heavy traffic	IsTrafficOf	Jing Jing
+5	3 miles	IsDistanceFrom	Jing Jing
+6	Round Table	HasAddress	113 Anton Ct
+6	Round Table	HasType	pizza restaurant
+6	113 Anton Ct	IsAddressOf	Round Table
+6	pizza restaurant	IsTypeOf	Round Table
+6	Round Table	HasTraffic	heavy traffic
+6	Round Table	HasDistance	6 miles
+6	heavy traffic	IsTrafficOf	Round Table
+6	6 miles	IsDistanceFrom	Round Table
+-1	today	IsEqualTo	monday

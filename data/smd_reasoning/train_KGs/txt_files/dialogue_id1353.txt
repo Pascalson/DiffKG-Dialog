@@ -1,0 +1,57 @@
+0	Four Seasons	HasAddress	465 Arcadia Pl
+0	Four Seasons	HasType	rest stop
+0	465 Arcadia Pl	IsAddressOf	Four Seasons
+0	rest stop	IsTypeOf	Four Seasons
+0	Four Seasons	HasTraffic	moderate traffic
+0	Four Seasons	HasDistance	1 miles
+0	moderate traffic	IsTrafficOf	Four Seasons
+0	1 miles	IsDistanceFrom	Four Seasons
+1	Philz	HasAddress	583 Alester Ave
+1	Philz	HasType	coffee or tea place
+1	583 Alester Ave	IsAddressOf	Philz
+1	coffee or tea place	IsTypeOf	Philz
+1	Philz	HasTraffic	no traffic
+1	Philz	HasDistance	3 miles
+1	no traffic	IsTrafficOf	Philz
+1	3 miles	IsDistanceFrom	Philz
+2	Stanford Shopping Center	HasAddress	773 Alger Dr
+2	Stanford Shopping Center	HasType	shopping center
+2	773 Alger Dr	IsAddressOf	Stanford Shopping Center
+2	shopping center	IsTypeOf	Stanford Shopping Center
+2	Stanford Shopping Center	HasTraffic	moderate traffic
+2	Stanford Shopping Center	HasDistance	6 miles
+2	moderate traffic	IsTrafficOf	Stanford Shopping Center
+2	6 miles	IsDistanceFrom	Stanford Shopping Center
+3	Hotel Keen	HasAddress	578 Arbol Dr
+3	Hotel Keen	HasType	rest stop
+3	578 Arbol Dr	IsAddressOf	Hotel Keen
+3	rest stop	IsTypeOf	Hotel Keen
+3	Hotel Keen	HasTraffic	no traffic
+3	Hotel Keen	HasDistance	5 miles
+3	no traffic	IsTrafficOf	Hotel Keen
+3	5 miles	IsDistanceFrom	Hotel Keen
+4	Safeway	HasAddress	452 Arcadia Pl
+4	Safeway	HasType	grocery store
+4	452 Arcadia Pl	IsAddressOf	Safeway
+4	grocery store	IsTypeOf	Safeway
+4	Safeway	HasTraffic	no traffic
+4	Safeway	HasDistance	5 miles
+4	no traffic	IsTrafficOf	Safeway
+4	5 miles	IsDistanceFrom	Safeway
+5	Valero	HasAddress	200 Alester Ave
+5	Valero	HasType	gas station
+5	200 Alester Ave	IsAddressOf	Valero
+5	gas station	IsTypeOf	Valero
+5	Valero	HasTraffic	moderate traffic
+5	Valero	HasDistance	2 miles
+5	moderate traffic	IsTrafficOf	Valero
+5	2 miles	IsDistanceFrom	Valero
+6	toms house	HasAddress	580 Van Ness Ave
+6	toms house	HasType	friends house
+6	580 Van Ness Ave	IsAddressOf	toms house
+6	friends house	IsTypeOf	toms house
+6	toms house	HasTraffic	heavy traffic
+6	toms house	HasDistance	6 miles
+6	heavy traffic	IsTrafficOf	toms house
+6	6 miles	IsDistanceFrom	toms house
+-1	today	IsEqualTo	monday

@@ -1,0 +1,65 @@
+0	Safeway	HasAddress	452 Arcadia Pl
+0	Safeway	HasType	grocery store
+0	452 Arcadia Pl	IsAddressOf	Safeway
+0	grocery store	IsTypeOf	Safeway
+0	Safeway	HasTraffic	moderate traffic
+0	Safeway	HasDistance	3 miles
+0	moderate traffic	IsTrafficOf	Safeway
+0	3 miles	IsDistanceFrom	Safeway
+1	76	HasAddress	91 El Camino Real
+1	76	HasType	gas station
+1	91 El Camino Real	IsAddressOf	76
+1	gas station	IsTypeOf	76
+1	76	HasTraffic	heavy traffic
+1	76	HasDistance	2 miles
+1	heavy traffic	IsTrafficOf	76
+1	2 miles	IsDistanceFrom	76
+2	The Clement Hotel	HasAddress	657 Ames Ave
+2	The Clement Hotel	HasType	rest stop
+2	657 Ames Ave	IsAddressOf	The Clement Hotel
+2	rest stop	IsTypeOf	The Clement Hotel
+2	The Clement Hotel	HasTraffic	road block nearby
+2	The Clement Hotel	HasDistance	1 miles
+2	road block nearby	IsTrafficOf	The Clement Hotel
+2	1 miles	IsDistanceFrom	The Clement Hotel
+3	Round Table	HasAddress	113 Anton Ct
+3	Round Table	HasType	pizza restaurant
+3	113 Anton Ct	IsAddressOf	Round Table
+3	pizza restaurant	IsTypeOf	Round Table
+3	Round Table	HasTraffic	car collision nearby
+3	Round Table	HasDistance	6 miles
+3	car collision nearby	IsTrafficOf	Round Table
+3	6 miles	IsDistanceFrom	Round Table
+4	jills house	HasAddress	347 Alta Mesa Ave
+4	jills house	HasType	friends house
+4	347 Alta Mesa Ave	IsAddressOf	jills house
+4	friends house	IsTypeOf	jills house
+4	jills house	HasTraffic	car collision nearby
+4	jills house	HasDistance	8 miles
+4	car collision nearby	IsTrafficOf	jills house
+4	8 miles	IsDistanceFrom	jills house
+5	Stanford Express Care	HasAddress	214 El Camino Real
+5	Stanford Express Care	HasType	hospital
+5	214 El Camino Real	IsAddressOf	Stanford Express Care
+5	hospital	IsTypeOf	Stanford Express Care
+5	Stanford Express Care	HasTraffic	moderate traffic
+5	Stanford Express Care	HasDistance	4 miles
+5	moderate traffic	IsTrafficOf	Stanford Express Care
+5	4 miles	IsDistanceFrom	Stanford Express Care
+6	Starbucks	HasAddress	792 Bedoin Street
+6	Starbucks	HasType	coffee or tea place
+6	792 Bedoin Street	IsAddressOf	Starbucks
+6	coffee or tea place	IsTypeOf	Starbucks
+6	Starbucks	HasTraffic	road block nearby
+6	Starbucks	HasDistance	4 miles
+6	road block nearby	IsTrafficOf	Starbucks
+6	4 miles	IsDistanceFrom	Starbucks
+7	Shell	HasAddress	53 University Av
+7	Shell	HasType	gas station
+7	53 University Av	IsAddressOf	Shell
+7	gas station	IsTypeOf	Shell
+7	Shell	HasTraffic	car collision nearby
+7	Shell	HasDistance	2 miles
+7	car collision nearby	IsTrafficOf	Shell
+7	2 miles	IsDistanceFrom	Shell
+-1	today	IsEqualTo	monday

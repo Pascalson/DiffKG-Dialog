@@ -1,0 +1,57 @@
+0	Hotel Keen	HasAddress	578 Arbol Dr
+0	Hotel Keen	HasType	rest stop
+0	578 Arbol Dr	IsAddressOf	Hotel Keen
+0	rest stop	IsTypeOf	Hotel Keen
+0	Hotel Keen	HasTraffic	moderate traffic
+0	Hotel Keen	HasDistance	6 miles
+0	moderate traffic	IsTrafficOf	Hotel Keen
+0	6 miles	IsDistanceFrom	Hotel Keen
+1	Pizza Chicago	HasAddress	915 Arbol Dr
+1	Pizza Chicago	HasType	pizza restaurant
+1	915 Arbol Dr	IsAddressOf	Pizza Chicago
+1	pizza restaurant	IsTypeOf	Pizza Chicago
+1	Pizza Chicago	HasTraffic	heavy traffic
+1	Pizza Chicago	HasDistance	5 miles
+1	heavy traffic	IsTrafficOf	Pizza Chicago
+1	5 miles	IsDistanceFrom	Pizza Chicago
+2	Palo Alto Medical Foundation	HasAddress	611 Ames Ave
+2	Palo Alto Medical Foundation	HasType	hospital
+2	611 Ames Ave	IsAddressOf	Palo Alto Medical Foundation
+2	hospital	IsTypeOf	Palo Alto Medical Foundation
+2	Palo Alto Medical Foundation	HasTraffic	no traffic
+2	Palo Alto Medical Foundation	HasDistance	4 miles
+2	no traffic	IsTrafficOf	Palo Alto Medical Foundation
+2	4 miles	IsDistanceFrom	Palo Alto Medical Foundation
+3	Round Table	HasAddress	113 Anton Ct
+3	Round Table	HasType	pizza restaurant
+3	113 Anton Ct	IsAddressOf	Round Table
+3	pizza restaurant	IsTypeOf	Round Table
+3	Round Table	HasTraffic	heavy traffic
+3	Round Table	HasDistance	4 miles
+3	heavy traffic	IsTrafficOf	Round Table
+3	4 miles	IsDistanceFrom	Round Table
+4	Starbucks	HasAddress	792 Bedoin Street
+4	Starbucks	HasType	coffee or tea place
+4	792 Bedoin Street	IsAddressOf	Starbucks
+4	coffee or tea place	IsTypeOf	Starbucks
+4	Starbucks	HasTraffic	heavy traffic
+4	Starbucks	HasDistance	2 miles
+4	heavy traffic	IsTrafficOf	Starbucks
+4	2 miles	IsDistanceFrom	Starbucks
+5	Stanford Shopping Center	HasAddress	773 Alger Dr
+5	Stanford Shopping Center	HasType	shopping center
+5	773 Alger Dr	IsAddressOf	Stanford Shopping Center
+5	shopping center	IsTypeOf	Stanford Shopping Center
+5	Stanford Shopping Center	HasTraffic	moderate traffic
+5	Stanford Shopping Center	HasDistance	2 miles
+5	moderate traffic	IsTrafficOf	Stanford Shopping Center
+5	2 miles	IsDistanceFrom	Stanford Shopping Center
+6	Sigona Farmers Market	HasAddress	638 Amherst St
+6	Sigona Farmers Market	HasType	grocery store
+6	638 Amherst St	IsAddressOf	Sigona Farmers Market
+6	grocery store	IsTypeOf	Sigona Farmers Market
+6	Sigona Farmers Market	HasTraffic	heavy traffic
+6	Sigona Farmers Market	HasDistance	2 miles
+6	heavy traffic	IsTrafficOf	Sigona Farmers Market
+6	2 miles	IsDistanceFrom	Sigona Farmers Market
+-1	today	IsEqualTo	monday

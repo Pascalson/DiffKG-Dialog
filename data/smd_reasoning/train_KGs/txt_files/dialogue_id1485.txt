@@ -1,0 +1,57 @@
+0	Palo Alto Medical Foundation	HasAddress	611 Ames Ave
+0	Palo Alto Medical Foundation	HasType	hospital
+0	611 Ames Ave	IsAddressOf	Palo Alto Medical Foundation
+0	hospital	IsTypeOf	Palo Alto Medical Foundation
+0	Palo Alto Medical Foundation	HasTraffic	no traffic
+0	Palo Alto Medical Foundation	HasDistance	2 miles
+0	no traffic	IsTrafficOf	Palo Alto Medical Foundation
+0	2 miles	IsDistanceFrom	Palo Alto Medical Foundation
+1	Coupa	HasAddress	394 Van Ness Ave
+1	Coupa	HasType	coffee or tea place
+1	394 Van Ness Ave	IsAddressOf	Coupa
+1	coffee or tea place	IsTypeOf	Coupa
+1	Coupa	HasTraffic	moderate traffic
+1	Coupa	HasDistance	1 miles
+1	moderate traffic	IsTrafficOf	Coupa
+1	1 miles	IsDistanceFrom	Coupa
+2	5677 southwest 4th street	HasAddress	5677 southwest 4th street
+2	5677 southwest 4th street	HasType	certain address
+2	5677 southwest 4th street	IsAddressOf	5677 southwest 4th street
+2	certain address	IsTypeOf	5677 southwest 4th street
+2	5677 southwest 4th street	HasTraffic	no traffic
+2	5677 southwest 4th street	HasDistance	1 miles
+2	no traffic	IsTrafficOf	5677 southwest 4th street
+2	1 miles	IsDistanceFrom	5677 southwest 4th street
+3	Mandarin Roots	HasAddress	271 Springer Street
+3	Mandarin Roots	HasType	chinese restaurant
+3	271 Springer Street	IsAddressOf	Mandarin Roots
+3	chinese restaurant	IsTypeOf	Mandarin Roots
+3	Mandarin Roots	HasTraffic	heavy traffic
+3	Mandarin Roots	HasDistance	4 miles
+3	heavy traffic	IsTrafficOf	Mandarin Roots
+3	4 miles	IsDistanceFrom	Mandarin Roots
+4	Stanford Shopping Center	HasAddress	773 Alger Dr
+4	Stanford Shopping Center	HasType	shopping center
+4	773 Alger Dr	IsAddressOf	Stanford Shopping Center
+4	shopping center	IsTypeOf	Stanford Shopping Center
+4	Stanford Shopping Center	HasTraffic	moderate traffic
+4	Stanford Shopping Center	HasDistance	4 miles
+4	moderate traffic	IsTrafficOf	Stanford Shopping Center
+4	4 miles	IsDistanceFrom	Stanford Shopping Center
+5	The Clement Hotel	HasAddress	657 Ames Ave
+5	The Clement Hotel	HasType	rest stop
+5	657 Ames Ave	IsAddressOf	The Clement Hotel
+5	rest stop	IsTypeOf	The Clement Hotel
+5	The Clement Hotel	HasTraffic	moderate traffic
+5	The Clement Hotel	HasDistance	5 miles
+5	moderate traffic	IsTrafficOf	The Clement Hotel
+5	5 miles	IsDistanceFrom	The Clement Hotel
+6	Pizza My Heart	HasAddress	528 Anton Ct
+6	Pizza My Heart	HasType	pizza restaurant
+6	528 Anton Ct	IsAddressOf	Pizza My Heart
+6	pizza restaurant	IsTypeOf	Pizza My Heart
+6	Pizza My Heart	HasTraffic	moderate traffic
+6	Pizza My Heart	HasDistance	4 miles
+6	moderate traffic	IsTrafficOf	Pizza My Heart
+6	4 miles	IsDistanceFrom	Pizza My Heart
+-1	today	IsEqualTo	monday

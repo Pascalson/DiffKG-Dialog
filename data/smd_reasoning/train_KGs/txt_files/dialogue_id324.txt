@@ -1,0 +1,65 @@
+0	5677 southwest 4th street	HasAddress	5677 southwest 4th street
+0	5677 southwest 4th street	HasType	certain address
+0	5677 southwest 4th street	IsAddressOf	5677 southwest 4th street
+0	certain address	IsTypeOf	5677 southwest 4th street
+0	5677 southwest 4th street	HasTraffic	no traffic
+0	5677 southwest 4th street	HasDistance	1 miles
+0	no traffic	IsTrafficOf	5677 southwest 4th street
+0	1 miles	IsDistanceFrom	5677 southwest 4th street
+1	5672 barringer street	HasAddress	5672 barringer street
+1	5672 barringer street	HasType	certain address
+1	5672 barringer street	IsAddressOf	5672 barringer street
+1	certain address	IsTypeOf	5672 barringer street
+1	5672 barringer street	HasTraffic	no traffic
+1	5672 barringer street	HasDistance	4 miles
+1	no traffic	IsTrafficOf	5672 barringer street
+1	4 miles	IsDistanceFrom	5672 barringer street
+2	home	HasAddress	5671 barringer street
+2	home	HasType	home
+2	5671 barringer street	IsAddressOf	home
+2	home	IsTypeOf	home
+2	home	HasTraffic	no traffic
+2	home	HasDistance	7 miles
+2	no traffic	IsTrafficOf	home
+2	7 miles	IsDistanceFrom	home
+3	jacks house	HasAddress	864 Almanor Ln
+3	jacks house	HasType	friends house
+3	864 Almanor Ln	IsAddressOf	jacks house
+3	friends house	IsTypeOf	jacks house
+3	jacks house	HasTraffic	no traffic
+3	jacks house	HasDistance	2 miles
+3	no traffic	IsTrafficOf	jacks house
+3	2 miles	IsDistanceFrom	jacks house
+4	Willows Market	HasAddress	409 Bollard St
+4	Willows Market	HasType	grocery store
+4	409 Bollard St	IsAddressOf	Willows Market
+4	grocery store	IsTypeOf	Willows Market
+4	Willows Market	HasTraffic	car collision nearby
+4	Willows Market	HasDistance	4 miles
+4	car collision nearby	IsTrafficOf	Willows Market
+4	4 miles	IsDistanceFrom	Willows Market
+5	Civic Center Garage	HasAddress	270 Altaire Walk
+5	Civic Center Garage	HasType	parking garage
+5	270 Altaire Walk	IsAddressOf	Civic Center Garage
+5	parking garage	IsTypeOf	Civic Center Garage
+5	Civic Center Garage	HasTraffic	moderate traffic
+5	Civic Center Garage	HasDistance	5 miles
+5	moderate traffic	IsTrafficOf	Civic Center Garage
+5	5 miles	IsDistanceFrom	Civic Center Garage
+6	76	HasAddress	91 El Camino Real
+6	76	HasType	gas station
+6	91 El Camino Real	IsAddressOf	76
+6	gas station	IsTypeOf	76
+6	76	HasTraffic	moderate traffic
+6	76	HasDistance	4 miles
+6	moderate traffic	IsTrafficOf	76
+6	4 miles	IsDistanceFrom	76
+7	Stanford Childrens Health	HasAddress	899 Ames Ct
+7	Stanford Childrens Health	HasType	hospital
+7	899 Ames Ct	IsAddressOf	Stanford Childrens Health
+7	hospital	IsTypeOf	Stanford Childrens Health
+7	Stanford Childrens Health	HasTraffic	heavy traffic
+7	Stanford Childrens Health	HasDistance	2 miles
+7	heavy traffic	IsTrafficOf	Stanford Childrens Health
+7	2 miles	IsDistanceFrom	Stanford Childrens Health
+-1	today	IsEqualTo	monday

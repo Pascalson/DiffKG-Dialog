@@ -1,0 +1,65 @@
+0	Dominos	HasAddress	776 Arastradero Rd
+0	Dominos	HasType	pizza restaurant
+0	776 Arastradero Rd	IsAddressOf	Dominos
+0	pizza restaurant	IsTypeOf	Dominos
+0	Dominos	HasTraffic	road block nearby
+0	Dominos	HasDistance	1 miles
+0	road block nearby	IsTrafficOf	Dominos
+0	1 miles	IsDistanceFrom	Dominos
+1	jacks house	HasAddress	864 Almanor Ln
+1	jacks house	HasType	friends house
+1	864 Almanor Ln	IsAddressOf	jacks house
+1	friends house	IsTypeOf	jacks house
+1	jacks house	HasTraffic	heavy traffic
+1	jacks house	HasDistance	1 miles
+1	heavy traffic	IsTrafficOf	jacks house
+1	1 miles	IsDistanceFrom	jacks house
+2	Sigona Farmers Market	HasAddress	638 Amherst St
+2	Sigona Farmers Market	HasType	grocery store
+2	638 Amherst St	IsAddressOf	Sigona Farmers Market
+2	grocery store	IsTypeOf	Sigona Farmers Market
+2	Sigona Farmers Market	HasTraffic	heavy traffic
+2	Sigona Farmers Market	HasDistance	4 miles
+2	heavy traffic	IsTrafficOf	Sigona Farmers Market
+2	4 miles	IsDistanceFrom	Sigona Farmers Market
+3	Palo Alto Medical Foundation	HasAddress	611 Ames Ave
+3	Palo Alto Medical Foundation	HasType	hospital
+3	611 Ames Ave	IsAddressOf	Palo Alto Medical Foundation
+3	hospital	IsTypeOf	Palo Alto Medical Foundation
+3	Palo Alto Medical Foundation	HasTraffic	road block nearby
+3	Palo Alto Medical Foundation	HasDistance	5 miles
+3	road block nearby	IsTrafficOf	Palo Alto Medical Foundation
+3	5 miles	IsDistanceFrom	Palo Alto Medical Foundation
+4	Coupa	HasAddress	394 Van Ness Ave
+4	Coupa	HasType	coffee or tea place
+4	394 Van Ness Ave	IsAddressOf	Coupa
+4	coffee or tea place	IsTypeOf	Coupa
+4	Coupa	HasTraffic	heavy traffic
+4	Coupa	HasDistance	5 miles
+4	heavy traffic	IsTrafficOf	Coupa
+4	5 miles	IsDistanceFrom	Coupa
+5	5677 southwest 4th street	HasAddress	5677 southwest 4th street
+5	5677 southwest 4th street	HasType	certain address
+5	5677 southwest 4th street	IsAddressOf	5677 southwest 4th street
+5	certain address	IsTypeOf	5677 southwest 4th street
+5	5677 southwest 4th street	HasTraffic	car collision nearby
+5	5677 southwest 4th street	HasDistance	5 miles
+5	car collision nearby	IsTrafficOf	5677 southwest 4th street
+5	5 miles	IsDistanceFrom	5677 southwest 4th street
+6	Chef Chu's	HasAddress	593 Arrowhead Way
+6	Chef Chu's	HasType	chinese restaurant
+6	593 Arrowhead Way	IsAddressOf	Chef Chu's
+6	chinese restaurant	IsTypeOf	Chef Chu's
+6	Chef Chu's	HasTraffic	moderate traffic
+6	Chef Chu's	HasDistance	3 miles
+6	moderate traffic	IsTrafficOf	Chef Chu's
+6	3 miles	IsDistanceFrom	Chef Chu's
+7	Civic Center Garage	HasAddress	270 Altaire Walk
+7	Civic Center Garage	HasType	parking garage
+7	270 Altaire Walk	IsAddressOf	Civic Center Garage
+7	parking garage	IsTypeOf	Civic Center Garage
+7	Civic Center Garage	HasTraffic	car collision nearby
+7	Civic Center Garage	HasDistance	2 miles
+7	car collision nearby	IsTrafficOf	Civic Center Garage
+7	2 miles	IsDistanceFrom	Civic Center Garage
+-1	today	IsEqualTo	monday

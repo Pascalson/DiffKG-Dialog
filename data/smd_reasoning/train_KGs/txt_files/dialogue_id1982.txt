@@ -1,0 +1,65 @@
+0	Round Table	HasAddress	113 Anton Ct
+0	Round Table	HasType	pizza restaurant
+0	113 Anton Ct	IsAddressOf	Round Table
+0	pizza restaurant	IsTypeOf	Round Table
+0	Round Table	HasTraffic	road block nearby
+0	Round Table	HasDistance	2 miles
+0	road block nearby	IsTrafficOf	Round Table
+0	2 miles	IsDistanceFrom	Round Table
+1	Trader Joes	HasAddress	408 University Ave
+1	Trader Joes	HasType	grocery store
+1	408 University Ave	IsAddressOf	Trader Joes
+1	grocery store	IsTypeOf	Trader Joes
+1	Trader Joes	HasTraffic	road block nearby
+1	Trader Joes	HasDistance	2 miles
+1	road block nearby	IsTrafficOf	Trader Joes
+1	2 miles	IsDistanceFrom	Trader Joes
+2	Stanford Shopping Center	HasAddress	773 Alger Dr
+2	Stanford Shopping Center	HasType	shopping center
+2	773 Alger Dr	IsAddressOf	Stanford Shopping Center
+2	shopping center	IsTypeOf	Stanford Shopping Center
+2	Stanford Shopping Center	HasTraffic	moderate traffic
+2	Stanford Shopping Center	HasDistance	4 miles
+2	moderate traffic	IsTrafficOf	Stanford Shopping Center
+2	4 miles	IsDistanceFrom	Stanford Shopping Center
+3	Hacienda Market	HasAddress	1313 Chester Ave
+3	Hacienda Market	HasType	grocery store
+3	1313 Chester Ave	IsAddressOf	Hacienda Market
+3	grocery store	IsTypeOf	Hacienda Market
+3	Hacienda Market	HasTraffic	moderate traffic
+3	Hacienda Market	HasDistance	4 miles
+3	moderate traffic	IsTrafficOf	Hacienda Market
+3	4 miles	IsDistanceFrom	Hacienda Market
+4	Hotel Keen	HasAddress	578 Arbol Dr
+4	Hotel Keen	HasType	rest stop
+4	578 Arbol Dr	IsAddressOf	Hotel Keen
+4	rest stop	IsTypeOf	Hotel Keen
+4	Hotel Keen	HasTraffic	moderate traffic
+4	Hotel Keen	HasDistance	3 miles
+4	moderate traffic	IsTrafficOf	Hotel Keen
+4	3 miles	IsDistanceFrom	Hotel Keen
+5	Dominos	HasAddress	776 Arastradero Rd
+5	Dominos	HasType	pizza restaurant
+5	776 Arastradero Rd	IsAddressOf	Dominos
+5	pizza restaurant	IsTypeOf	Dominos
+5	Dominos	HasTraffic	road block nearby
+5	Dominos	HasDistance	2 miles
+5	road block nearby	IsTrafficOf	Dominos
+5	2 miles	IsDistanceFrom	Dominos
+6	tai pan	HasAddress	830 Almanor Ln
+6	tai pan	HasType	chinese restaurant
+6	830 Almanor Ln	IsAddressOf	tai pan
+6	chinese restaurant	IsTypeOf	tai pan
+6	tai pan	HasTraffic	road block nearby
+6	tai pan	HasDistance	2 miles
+6	road block nearby	IsTrafficOf	tai pan
+6	2 miles	IsDistanceFrom	tai pan
+7	jacks house	HasAddress	864 Almanor Ln
+7	jacks house	HasType	friends house
+7	864 Almanor Ln	IsAddressOf	jacks house
+7	friends house	IsTypeOf	jacks house
+7	jacks house	HasTraffic	road block nearby
+7	jacks house	HasDistance	2 miles
+7	road block nearby	IsTrafficOf	jacks house
+7	2 miles	IsDistanceFrom	jacks house
+-1	today	IsEqualTo	monday

@@ -1,0 +1,65 @@
+0	home	HasAddress	5671 barringer street
+0	home	HasType	home
+0	5671 barringer street	IsAddressOf	home
+0	home	IsTypeOf	home
+0	home	HasTraffic	car collision nearby
+0	home	HasDistance	4 miles
+0	car collision nearby	IsTrafficOf	home
+0	4 miles	IsDistanceFrom	home
+1	Travelers Lodge	HasAddress	333 Arbol Dr
+1	Travelers Lodge	HasType	rest stop
+1	333 Arbol Dr	IsAddressOf	Travelers Lodge
+1	rest stop	IsTypeOf	Travelers Lodge
+1	Travelers Lodge	HasTraffic	road block nearby
+1	Travelers Lodge	HasDistance	5 miles
+1	road block nearby	IsTrafficOf	Travelers Lodge
+1	5 miles	IsDistanceFrom	Travelers Lodge
+2	Whole Foods	HasAddress	819 Alma St
+2	Whole Foods	HasType	grocery store
+2	819 Alma St	IsAddressOf	Whole Foods
+2	grocery store	IsTypeOf	Whole Foods
+2	Whole Foods	HasTraffic	road block nearby
+2	Whole Foods	HasDistance	6 miles
+2	road block nearby	IsTrafficOf	Whole Foods
+2	6 miles	IsDistanceFrom	Whole Foods
+3	Valero	HasAddress	200 Alester Ave
+3	Valero	HasType	gas station
+3	200 Alester Ave	IsAddressOf	Valero
+3	gas station	IsTypeOf	Valero
+3	Valero	HasTraffic	moderate traffic
+3	Valero	HasDistance	2 miles
+3	moderate traffic	IsTrafficOf	Valero
+3	2 miles	IsDistanceFrom	Valero
+4	Pizza Hut	HasAddress	704 El Camino Real
+4	Pizza Hut	HasType	pizza restaurant
+4	704 El Camino Real	IsAddressOf	Pizza Hut
+4	pizza restaurant	IsTypeOf	Pizza Hut
+4	Pizza Hut	HasTraffic	moderate traffic
+4	Pizza Hut	HasDistance	2 miles
+4	moderate traffic	IsTrafficOf	Pizza Hut
+4	2 miles	IsDistanceFrom	Pizza Hut
+5	Teavana	HasAddress	145 Amherst St
+5	Teavana	HasType	coffee or tea place
+5	145 Amherst St	IsAddressOf	Teavana
+5	coffee or tea place	IsTypeOf	Teavana
+5	Teavana	HasTraffic	no traffic
+5	Teavana	HasDistance	4 miles
+5	no traffic	IsTrafficOf	Teavana
+5	4 miles	IsDistanceFrom	Teavana
+6	Palo Alto Cafe	HasAddress	436 Alger Dr
+6	Palo Alto Cafe	HasType	coffee or tea place
+6	436 Alger Dr	IsAddressOf	Palo Alto Cafe
+6	coffee or tea place	IsTypeOf	Palo Alto Cafe
+6	Palo Alto Cafe	HasTraffic	moderate traffic
+6	Palo Alto Cafe	HasDistance	5 miles
+6	moderate traffic	IsTrafficOf	Palo Alto Cafe
+6	5 miles	IsDistanceFrom	Palo Alto Cafe
+7	Stanford Oval Parking	HasAddress	610 Amarillo Ave
+7	Stanford Oval Parking	HasType	parking garage
+7	610 Amarillo Ave	IsAddressOf	Stanford Oval Parking
+7	parking garage	IsTypeOf	Stanford Oval Parking
+7	Stanford Oval Parking	HasTraffic	road block nearby
+7	Stanford Oval Parking	HasDistance	5 miles
+7	road block nearby	IsTrafficOf	Stanford Oval Parking
+7	5 miles	IsDistanceFrom	Stanford Oval Parking
+-1	today	IsEqualTo	monday

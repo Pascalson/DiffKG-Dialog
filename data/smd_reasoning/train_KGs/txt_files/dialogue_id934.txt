@@ -1,0 +1,65 @@
+0	5677 southwest 4th street	HasAddress	5677 southwest 4th street
+0	5677 southwest 4th street	HasType	certain address
+0	5677 southwest 4th street	IsAddressOf	5677 southwest 4th street
+0	certain address	IsTypeOf	5677 southwest 4th street
+0	5677 southwest 4th street	HasTraffic	road block nearby
+0	5677 southwest 4th street	HasDistance	2 miles
+0	road block nearby	IsTrafficOf	5677 southwest 4th street
+0	2 miles	IsDistanceFrom	5677 southwest 4th street
+1	Pizza Chicago	HasAddress	915 Arbol Dr
+1	Pizza Chicago	HasType	pizza restaurant
+1	915 Arbol Dr	IsAddressOf	Pizza Chicago
+1	pizza restaurant	IsTypeOf	Pizza Chicago
+1	Pizza Chicago	HasTraffic	heavy traffic
+1	Pizza Chicago	HasDistance	4 miles
+1	heavy traffic	IsTrafficOf	Pizza Chicago
+1	4 miles	IsDistanceFrom	Pizza Chicago
+2	Panda Express	HasAddress	842 Arrowhead Way
+2	Panda Express	HasType	chinese restaurant
+2	842 Arrowhead Way	IsAddressOf	Panda Express
+2	chinese restaurant	IsTypeOf	Panda Express
+2	Panda Express	HasTraffic	no traffic
+2	Panda Express	HasDistance	1 miles
+2	no traffic	IsTrafficOf	Panda Express
+2	1 miles	IsDistanceFrom	Panda Express
+3	Trader Joes	HasAddress	408 University Ave
+3	Trader Joes	HasType	grocery store
+3	408 University Ave	IsAddressOf	Trader Joes
+3	grocery store	IsTypeOf	Trader Joes
+3	Trader Joes	HasTraffic	moderate traffic
+3	Trader Joes	HasDistance	5 miles
+3	moderate traffic	IsTrafficOf	Trader Joes
+3	5 miles	IsDistanceFrom	Trader Joes
+4	Shell	HasAddress	53 University Av
+4	Shell	HasType	gas station
+4	53 University Av	IsAddressOf	Shell
+4	gas station	IsTypeOf	Shell
+4	Shell	HasTraffic	car collision nearby
+4	Shell	HasDistance	5 miles
+4	car collision nearby	IsTrafficOf	Shell
+4	5 miles	IsDistanceFrom	Shell
+5	Midtown Shopping Center	HasAddress	338 Alester Ave
+5	Midtown Shopping Center	HasType	shopping center
+5	338 Alester Ave	IsAddressOf	Midtown Shopping Center
+5	shopping center	IsTypeOf	Midtown Shopping Center
+5	Midtown Shopping Center	HasTraffic	car collision nearby
+5	Midtown Shopping Center	HasDistance	6 miles
+5	car collision nearby	IsTrafficOf	Midtown Shopping Center
+5	6 miles	IsDistanceFrom	Midtown Shopping Center
+6	toms house	HasAddress	580 Van Ness Ave
+6	toms house	HasType	friends house
+6	580 Van Ness Ave	IsAddressOf	toms house
+6	friends house	IsTypeOf	toms house
+6	toms house	HasTraffic	no traffic
+6	toms house	HasDistance	5 miles
+6	no traffic	IsTrafficOf	toms house
+6	5 miles	IsDistanceFrom	toms house
+7	jills house	HasAddress	347 Alta Mesa Ave
+7	jills house	HasType	friends house
+7	347 Alta Mesa Ave	IsAddressOf	jills house
+7	friends house	IsTypeOf	jills house
+7	jills house	HasTraffic	car collision nearby
+7	jills house	HasDistance	1 miles
+7	car collision nearby	IsTrafficOf	jills house
+7	1 miles	IsDistanceFrom	jills house
+-1	today	IsEqualTo	monday

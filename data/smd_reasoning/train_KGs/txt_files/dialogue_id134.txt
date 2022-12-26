@@ -1,0 +1,57 @@
+0	Jing Jing	HasAddress	113 Arbol Dr
+0	Jing Jing	HasType	chinese restaurant
+0	113 Arbol Dr	IsAddressOf	Jing Jing
+0	chinese restaurant	IsTypeOf	Jing Jing
+0	Jing Jing	HasTraffic	moderate traffic
+0	Jing Jing	HasDistance	1 miles
+0	moderate traffic	IsTrafficOf	Jing Jing
+0	1 miles	IsDistanceFrom	Jing Jing
+1	toms house	HasAddress	580 Van Ness Ave
+1	toms house	HasType	friends house
+1	580 Van Ness Ave	IsAddressOf	toms house
+1	friends house	IsTypeOf	toms house
+1	toms house	HasTraffic	no traffic
+1	toms house	HasDistance	6 miles
+1	no traffic	IsTrafficOf	toms house
+1	6 miles	IsDistanceFrom	toms house
+2	Palo Alto Medical Foundation	HasAddress	611 Ames Ave
+2	Palo Alto Medical Foundation	HasType	hospital
+2	611 Ames Ave	IsAddressOf	Palo Alto Medical Foundation
+2	hospital	IsTypeOf	Palo Alto Medical Foundation
+2	Palo Alto Medical Foundation	HasTraffic	moderate traffic
+2	Palo Alto Medical Foundation	HasDistance	6 miles
+2	moderate traffic	IsTrafficOf	Palo Alto Medical Foundation
+2	6 miles	IsDistanceFrom	Palo Alto Medical Foundation
+3	Valero	HasAddress	200 Alester Ave
+3	Valero	HasType	gas station
+3	200 Alester Ave	IsAddressOf	Valero
+3	gas station	IsTypeOf	Valero
+3	Valero	HasTraffic	no traffic
+3	Valero	HasDistance	5 miles
+3	no traffic	IsTrafficOf	Valero
+3	5 miles	IsDistanceFrom	Valero
+4	Stanford Oval Parking	HasAddress	610 Amarillo Ave
+4	Stanford Oval Parking	HasType	parking garage
+4	610 Amarillo Ave	IsAddressOf	Stanford Oval Parking
+4	parking garage	IsTypeOf	Stanford Oval Parking
+4	Stanford Oval Parking	HasTraffic	no traffic
+4	Stanford Oval Parking	HasDistance	3 miles
+4	no traffic	IsTrafficOf	Stanford Oval Parking
+4	3 miles	IsDistanceFrom	Stanford Oval Parking
+5	Palo Alto Garage R	HasAddress	481 Amaranta Ave
+5	Palo Alto Garage R	HasType	parking garage
+5	481 Amaranta Ave	IsAddressOf	Palo Alto Garage R
+5	parking garage	IsTypeOf	Palo Alto Garage R
+5	Palo Alto Garage R	HasTraffic	moderate traffic
+5	Palo Alto Garage R	HasDistance	3 miles
+5	moderate traffic	IsTrafficOf	Palo Alto Garage R
+5	3 miles	IsDistanceFrom	Palo Alto Garage R
+6	jacks house	HasAddress	864 Almanor Ln
+6	jacks house	HasType	friends house
+6	864 Almanor Ln	IsAddressOf	jacks house
+6	friends house	IsTypeOf	jacks house
+6	jacks house	HasTraffic	no traffic
+6	jacks house	HasDistance	5 miles
+6	no traffic	IsTrafficOf	jacks house
+6	5 miles	IsDistanceFrom	jacks house
+-1	today	IsEqualTo	monday

@@ -1,0 +1,65 @@
+0	tai pan	HasAddress	830 Almanor Ln
+0	tai pan	HasType	chinese restaurant
+0	830 Almanor Ln	IsAddressOf	tai pan
+0	chinese restaurant	IsTypeOf	tai pan
+0	tai pan	HasTraffic	road block nearby
+0	tai pan	HasDistance	1 miles
+0	road block nearby	IsTrafficOf	tai pan
+0	1 miles	IsDistanceFrom	tai pan
+1	Coupa	HasAddress	394 Van Ness Ave
+1	Coupa	HasType	coffee or tea place
+1	394 Van Ness Ave	IsAddressOf	Coupa
+1	coffee or tea place	IsTypeOf	Coupa
+1	Coupa	HasTraffic	moderate traffic
+1	Coupa	HasDistance	4 miles
+1	moderate traffic	IsTrafficOf	Coupa
+1	4 miles	IsDistanceFrom	Coupa
+2	Stanford Childrens Health	HasAddress	899 Ames Ct
+2	Stanford Childrens Health	HasType	hospital
+2	899 Ames Ct	IsAddressOf	Stanford Childrens Health
+2	hospital	IsTypeOf	Stanford Childrens Health
+2	Stanford Childrens Health	HasTraffic	heavy traffic
+2	Stanford Childrens Health	HasDistance	4 miles
+2	heavy traffic	IsTrafficOf	Stanford Childrens Health
+2	4 miles	IsDistanceFrom	Stanford Childrens Health
+3	The Clement Hotel	HasAddress	657 Ames Ave
+3	The Clement Hotel	HasType	rest stop
+3	657 Ames Ave	IsAddressOf	The Clement Hotel
+3	rest stop	IsTypeOf	The Clement Hotel
+3	The Clement Hotel	HasTraffic	no traffic
+3	The Clement Hotel	HasDistance	4 miles
+3	no traffic	IsTrafficOf	The Clement Hotel
+3	4 miles	IsDistanceFrom	The Clement Hotel
+4	home	HasAddress	5671 barringer street
+4	home	HasType	home
+4	5671 barringer street	IsAddressOf	home
+4	home	IsTypeOf	home
+4	home	HasTraffic	no traffic
+4	home	HasDistance	6 miles
+4	no traffic	IsTrafficOf	home
+4	6 miles	IsDistanceFrom	home
+5	Midtown Shopping Center	HasAddress	338 Alester Ave
+5	Midtown Shopping Center	HasType	shopping center
+5	338 Alester Ave	IsAddressOf	Midtown Shopping Center
+5	shopping center	IsTypeOf	Midtown Shopping Center
+5	Midtown Shopping Center	HasTraffic	heavy traffic
+5	Midtown Shopping Center	HasDistance	2 miles
+5	heavy traffic	IsTrafficOf	Midtown Shopping Center
+5	2 miles	IsDistanceFrom	Midtown Shopping Center
+6	5677 springer street	HasAddress	5677 springer street
+6	5677 springer street	HasType	certain address
+6	5677 springer street	IsAddressOf	5677 springer street
+6	certain address	IsTypeOf	5677 springer street
+6	5677 springer street	HasTraffic	heavy traffic
+6	5677 springer street	HasDistance	3 miles
+6	heavy traffic	IsTrafficOf	5677 springer street
+6	3 miles	IsDistanceFrom	5677 springer street
+7	Willows Market	HasAddress	409 Bollard St
+7	Willows Market	HasType	grocery store
+7	409 Bollard St	IsAddressOf	Willows Market
+7	grocery store	IsTypeOf	Willows Market
+7	Willows Market	HasTraffic	car collision nearby
+7	Willows Market	HasDistance	4 miles
+7	car collision nearby	IsTrafficOf	Willows Market
+7	4 miles	IsDistanceFrom	Willows Market
+-1	today	IsEqualTo	monday

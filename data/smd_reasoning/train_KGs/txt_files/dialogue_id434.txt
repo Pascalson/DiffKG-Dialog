@@ -1,0 +1,57 @@
+0	Stanford Express Care	HasAddress	214 El Camino Real
+0	Stanford Express Care	HasType	hospital
+0	214 El Camino Real	IsAddressOf	Stanford Express Care
+0	hospital	IsTypeOf	Stanford Express Care
+0	Stanford Express Care	HasTraffic	no traffic
+0	Stanford Express Care	HasDistance	3 miles
+0	no traffic	IsTrafficOf	Stanford Express Care
+0	3 miles	IsDistanceFrom	Stanford Express Care
+1	Cafe Venetia	HasAddress	269 Alger Dr
+1	Cafe Venetia	HasType	coffee or tea place
+1	269 Alger Dr	IsAddressOf	Cafe Venetia
+1	coffee or tea place	IsTypeOf	Cafe Venetia
+1	Cafe Venetia	HasTraffic	no traffic
+1	Cafe Venetia	HasDistance	4 miles
+1	no traffic	IsTrafficOf	Cafe Venetia
+1	4 miles	IsDistanceFrom	Cafe Venetia
+2	Valero	HasAddress	200 Alester Ave
+2	Valero	HasType	gas station
+2	200 Alester Ave	IsAddressOf	Valero
+2	gas station	IsTypeOf	Valero
+2	Valero	HasTraffic	no traffic
+2	Valero	HasDistance	2 miles
+2	no traffic	IsTrafficOf	Valero
+2	2 miles	IsDistanceFrom	Valero
+3	Town and Country	HasAddress	383 University Ave
+3	Town and Country	HasType	shopping center
+3	383 University Ave	IsAddressOf	Town and Country
+3	shopping center	IsTypeOf	Town and Country
+3	Town and Country	HasTraffic	heavy traffic
+3	Town and Country	HasDistance	4 miles
+3	heavy traffic	IsTrafficOf	Town and Country
+3	4 miles	IsDistanceFrom	Town and Country
+4	Dominos	HasAddress	776 Arastradero Rd
+4	Dominos	HasType	pizza restaurant
+4	776 Arastradero Rd	IsAddressOf	Dominos
+4	pizza restaurant	IsTypeOf	Dominos
+4	Dominos	HasTraffic	no traffic
+4	Dominos	HasDistance	1 miles
+4	no traffic	IsTrafficOf	Dominos
+4	1 miles	IsDistanceFrom	Dominos
+5	5677 springer street	HasAddress	5677 springer street
+5	5677 springer street	HasType	certain address
+5	5677 springer street	IsAddressOf	5677 springer street
+5	certain address	IsTypeOf	5677 springer street
+5	5677 springer street	HasTraffic	no traffic
+5	5677 springer street	HasDistance	1 miles
+5	no traffic	IsTrafficOf	5677 springer street
+5	1 miles	IsDistanceFrom	5677 springer street
+6	Mandarin Roots	HasAddress	271 Springer Street
+6	Mandarin Roots	HasType	chinese restaurant
+6	271 Springer Street	IsAddressOf	Mandarin Roots
+6	chinese restaurant	IsTypeOf	Mandarin Roots
+6	Mandarin Roots	HasTraffic	moderate traffic
+6	Mandarin Roots	HasDistance	4 miles
+6	moderate traffic	IsTrafficOf	Mandarin Roots
+6	4 miles	IsDistanceFrom	Mandarin Roots
+-1	today	IsEqualTo	monday

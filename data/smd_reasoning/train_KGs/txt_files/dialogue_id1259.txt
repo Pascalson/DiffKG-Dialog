@@ -1,0 +1,65 @@
+0	Comfort Inn	HasAddress	753 University Ave
+0	Comfort Inn	HasType	rest stop
+0	753 University Ave	IsAddressOf	Comfort Inn
+0	rest stop	IsTypeOf	Comfort Inn
+0	Comfort Inn	HasTraffic	road block nearby
+0	Comfort Inn	HasDistance	6 miles
+0	road block nearby	IsTrafficOf	Comfort Inn
+0	6 miles	IsDistanceFrom	Comfort Inn
+1	Whole Foods	HasAddress	819 Alma St
+1	Whole Foods	HasType	grocery store
+1	819 Alma St	IsAddressOf	Whole Foods
+1	grocery store	IsTypeOf	Whole Foods
+1	Whole Foods	HasTraffic	no traffic
+1	Whole Foods	HasDistance	6 miles
+1	no traffic	IsTrafficOf	Whole Foods
+1	6 miles	IsDistanceFrom	Whole Foods
+2	Willows Market	HasAddress	409 Bollard St
+2	Willows Market	HasType	grocery store
+2	409 Bollard St	IsAddressOf	Willows Market
+2	grocery store	IsTypeOf	Willows Market
+2	Willows Market	HasTraffic	road block nearby
+2	Willows Market	HasDistance	3 miles
+2	road block nearby	IsTrafficOf	Willows Market
+2	3 miles	IsDistanceFrom	Willows Market
+3	Cafe Venetia	HasAddress	269 Alger Dr
+3	Cafe Venetia	HasType	coffee or tea place
+3	269 Alger Dr	IsAddressOf	Cafe Venetia
+3	coffee or tea place	IsTypeOf	Cafe Venetia
+3	Cafe Venetia	HasTraffic	heavy traffic
+3	Cafe Venetia	HasDistance	3 miles
+3	heavy traffic	IsTrafficOf	Cafe Venetia
+3	3 miles	IsDistanceFrom	Cafe Venetia
+4	Hacienda Market	HasAddress	1313 Chester Ave
+4	Hacienda Market	HasType	grocery store
+4	1313 Chester Ave	IsAddressOf	Hacienda Market
+4	grocery store	IsTypeOf	Hacienda Market
+4	Hacienda Market	HasTraffic	road block nearby
+4	Hacienda Market	HasDistance	6 miles
+4	road block nearby	IsTrafficOf	Hacienda Market
+4	6 miles	IsDistanceFrom	Hacienda Market
+5	Coupa	HasAddress	394 Van Ness Ave
+5	Coupa	HasType	coffee or tea place
+5	394 Van Ness Ave	IsAddressOf	Coupa
+5	coffee or tea place	IsTypeOf	Coupa
+5	Coupa	HasTraffic	no traffic
+5	Coupa	HasDistance	4 miles
+5	no traffic	IsTrafficOf	Coupa
+5	4 miles	IsDistanceFrom	Coupa
+6	Jing Jing	HasAddress	113 Arbol Dr
+6	Jing Jing	HasType	chinese restaurant
+6	113 Arbol Dr	IsAddressOf	Jing Jing
+6	chinese restaurant	IsTypeOf	Jing Jing
+6	Jing Jing	HasTraffic	no traffic
+6	Jing Jing	HasDistance	1 miles
+6	no traffic	IsTrafficOf	Jing Jing
+6	1 miles	IsDistanceFrom	Jing Jing
+7	Trader Joes	HasAddress	408 University Ave
+7	Trader Joes	HasType	grocery store
+7	408 University Ave	IsAddressOf	Trader Joes
+7	grocery store	IsTypeOf	Trader Joes
+7	Trader Joes	HasTraffic	no traffic
+7	Trader Joes	HasDistance	5 miles
+7	no traffic	IsTrafficOf	Trader Joes
+7	5 miles	IsDistanceFrom	Trader Joes
+-1	today	IsEqualTo	monday

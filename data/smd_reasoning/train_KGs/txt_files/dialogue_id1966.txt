@@ -1,0 +1,65 @@
+0	P.F. Changs	HasAddress	669 El Camino Real
+0	P.F. Changs	HasType	chinese restaurant
+0	669 El Camino Real	IsAddressOf	P.F. Changs
+0	chinese restaurant	IsTypeOf	P.F. Changs
+0	P.F. Changs	HasTraffic	heavy traffic
+0	P.F. Changs	HasDistance	1 miles
+0	heavy traffic	IsTrafficOf	P.F. Changs
+0	1 miles	IsDistanceFrom	P.F. Changs
+1	Webster Garage	HasAddress	880 Ames Ct
+1	Webster Garage	HasType	parking garage
+1	880 Ames Ct	IsAddressOf	Webster Garage
+1	parking garage	IsTypeOf	Webster Garage
+1	Webster Garage	HasTraffic	heavy traffic
+1	Webster Garage	HasDistance	5 miles
+1	heavy traffic	IsTrafficOf	Webster Garage
+1	5 miles	IsDistanceFrom	Webster Garage
+2	Coupa	HasAddress	394 Van Ness Ave
+2	Coupa	HasType	coffee or tea place
+2	394 Van Ness Ave	IsAddressOf	Coupa
+2	coffee or tea place	IsTypeOf	Coupa
+2	Coupa	HasTraffic	no traffic
+2	Coupa	HasDistance	4 miles
+2	no traffic	IsTrafficOf	Coupa
+2	4 miles	IsDistanceFrom	Coupa
+3	The Westin	HasAddress	329 El Camino Real
+3	The Westin	HasType	rest stop
+3	329 El Camino Real	IsAddressOf	The Westin
+3	rest stop	IsTypeOf	The Westin
+3	The Westin	HasTraffic	no traffic
+3	The Westin	HasDistance	5 miles
+3	no traffic	IsTrafficOf	The Westin
+3	5 miles	IsDistanceFrom	The Westin
+4	Round Table	HasAddress	113 Anton Ct
+4	Round Table	HasType	pizza restaurant
+4	113 Anton Ct	IsAddressOf	Round Table
+4	pizza restaurant	IsTypeOf	Round Table
+4	Round Table	HasTraffic	moderate traffic
+4	Round Table	HasDistance	5 miles
+4	moderate traffic	IsTrafficOf	Round Table
+4	5 miles	IsDistanceFrom	Round Table
+5	Civic Center Garage	HasAddress	270 Altaire Walk
+5	Civic Center Garage	HasType	parking garage
+5	270 Altaire Walk	IsAddressOf	Civic Center Garage
+5	parking garage	IsTypeOf	Civic Center Garage
+5	Civic Center Garage	HasTraffic	heavy traffic
+5	Civic Center Garage	HasDistance	2 miles
+5	heavy traffic	IsTrafficOf	Civic Center Garage
+5	2 miles	IsDistanceFrom	Civic Center Garage
+6	jills house	HasAddress	347 Alta Mesa Ave
+6	jills house	HasType	friends house
+6	347 Alta Mesa Ave	IsAddressOf	jills house
+6	friends house	IsTypeOf	jills house
+6	jills house	HasTraffic	road block nearby
+6	jills house	HasDistance	3 miles
+6	road block nearby	IsTrafficOf	jills house
+6	3 miles	IsDistanceFrom	jills house
+7	tai pan	HasAddress	830 Almanor Ln
+7	tai pan	HasType	chinese restaurant
+7	830 Almanor Ln	IsAddressOf	tai pan
+7	chinese restaurant	IsTypeOf	tai pan
+7	tai pan	HasTraffic	no traffic
+7	tai pan	HasDistance	4 miles
+7	no traffic	IsTrafficOf	tai pan
+7	4 miles	IsDistanceFrom	tai pan
+-1	today	IsEqualTo	monday

@@ -1,0 +1,65 @@
+0	Stanford Childrens Health	HasAddress	899 Ames Ct
+0	Stanford Childrens Health	HasType	hospital
+0	899 Ames Ct	IsAddressOf	Stanford Childrens Health
+0	hospital	IsTypeOf	Stanford Childrens Health
+0	Stanford Childrens Health	HasTraffic	heavy traffic
+0	Stanford Childrens Health	HasDistance	6 miles
+0	heavy traffic	IsTrafficOf	Stanford Childrens Health
+0	6 miles	IsDistanceFrom	Stanford Childrens Health
+1	tai pan	HasAddress	830 Almanor Ln
+1	tai pan	HasType	chinese restaurant
+1	830 Almanor Ln	IsAddressOf	tai pan
+1	chinese restaurant	IsTypeOf	tai pan
+1	tai pan	HasTraffic	car collision nearby
+1	tai pan	HasDistance	4 miles
+1	car collision nearby	IsTrafficOf	tai pan
+1	4 miles	IsDistanceFrom	tai pan
+2	Valero	HasAddress	200 Alester Ave
+2	Valero	HasType	gas station
+2	200 Alester Ave	IsAddressOf	Valero
+2	gas station	IsTypeOf	Valero
+2	Valero	HasTraffic	no traffic
+2	Valero	HasDistance	3 miles
+2	no traffic	IsTrafficOf	Valero
+2	3 miles	IsDistanceFrom	Valero
+3	Philz	HasAddress	583 Alester Ave
+3	Philz	HasType	coffee or tea place
+3	583 Alester Ave	IsAddressOf	Philz
+3	coffee or tea place	IsTypeOf	Philz
+3	Philz	HasTraffic	road block nearby
+3	Philz	HasDistance	6 miles
+3	road block nearby	IsTrafficOf	Philz
+3	6 miles	IsDistanceFrom	Philz
+4	Topanga Mall	HasAddress	171 Oak Rd
+4	Topanga Mall	HasType	shopping center
+4	171 Oak Rd	IsAddressOf	Topanga Mall
+4	shopping center	IsTypeOf	Topanga Mall
+4	Topanga Mall	HasTraffic	moderate traffic
+4	Topanga Mall	HasDistance	5 miles
+4	moderate traffic	IsTrafficOf	Topanga Mall
+4	5 miles	IsDistanceFrom	Topanga Mall
+5	home	HasAddress	10 ames street
+5	home	HasType	home
+5	10 ames street	IsAddressOf	home
+5	home	IsTypeOf	home
+5	home	HasTraffic	road block nearby
+5	home	HasDistance	5 miles
+5	road block nearby	IsTrafficOf	home
+5	5 miles	IsDistanceFrom	home
+6	jacks house	HasAddress	864 Almanor Ln
+6	jacks house	HasType	friends house
+6	864 Almanor Ln	IsAddressOf	jacks house
+6	friends house	IsTypeOf	jacks house
+6	jacks house	HasTraffic	moderate traffic
+6	jacks house	HasDistance	3 miles
+6	moderate traffic	IsTrafficOf	jacks house
+6	3 miles	IsDistanceFrom	jacks house
+7	Chevron	HasAddress	783 Arcadia Pl
+7	Chevron	HasType	gas station
+7	783 Arcadia Pl	IsAddressOf	Chevron
+7	gas station	IsTypeOf	Chevron
+7	Chevron	HasTraffic	road block nearby
+7	Chevron	HasDistance	6 miles
+7	road block nearby	IsTrafficOf	Chevron
+7	6 miles	IsDistanceFrom	Chevron
+-1	today	IsEqualTo	monday

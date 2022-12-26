@@ -1,0 +1,53 @@
+0	swimming activity	HasTime	2pm
+0	2pm	IsTimeOf	swimming activity
+0	swimming activity	HasDate	thursday
+0	thursday	IsDateOf	swimming activity
+0	swimming activity	HasParty	Jeff
+0	Jeff	IsPartyOf	swimming activity
+1	football activity	HasTime	7pm
+1	7pm	IsTimeOf	football activity
+1	football activity	HasDate	the 2nd
+1	the 2nd	IsDateOf	football activity
+1	football activity	HasParty	Martha
+1	Martha	IsPartyOf	football activity
+2	lab appointment	HasTime	3pm
+2	3pm	IsTimeOf	lab appointment
+2	lab appointment	HasDate	friday
+2	friday	IsDateOf	lab appointment
+2	lab appointment	HasParty	Marie
+2	Marie	IsPartyOf	lab appointment
+3	yoga activity	HasTime	7pm
+3	7pm	IsTimeOf	yoga activity
+3	yoga activity	HasDate	the 1st
+3	the 1st	IsDateOf	yoga activity
+3	yoga activity	HasParty	Jeff
+3	Jeff	IsPartyOf	yoga activity
+4	yoga activity	HasTime	10am
+4	10am	IsTimeOf	yoga activity
+4	yoga activity	HasDate	the 5th
+4	the 5th	IsDateOf	yoga activity
+4	yoga activity	HasParty	Marie
+4	Marie	IsPartyOf	yoga activity
+5	swimming activity	HasTime	7pm
+5	7pm	IsTimeOf	swimming activity
+5	swimming activity	HasDate	the 16th
+5	the 16th	IsDateOf	swimming activity
+5	swimming activity	HasParty	Jeff
+5	Jeff	IsPartyOf	swimming activity
+6	optometrist appointment	HasTime	9am
+6	9am	IsTimeOf	optometrist appointment
+6	optometrist appointment	HasDate	the 16th
+6	the 16th	IsDateOf	optometrist appointment
+6	optometrist appointment	HasParty	aunt
+6	aunt	IsPartyOf	optometrist appointment
+7	meeting	HasTime	11am
+7	11am	IsTimeOf	meeting
+7	meeting	HasDate	the 18th
+7	the 18th	IsDateOf	meeting
+7	meeting	HasParty	HR
+7	HR	IsPartyOf	meeting
+7	meeting	HasRoom	conference room 102
+7	conference room 102	IsRoomOf	meeting
+7	meeting	HasAgenda	go over quarterly report
+7	go over quarterly report	IsAgendaOf	meeting
+-1	today	IsEqualTo	monday

@@ -1,0 +1,53 @@
+0	lab appointment	HasTime	9am
+0	9am	IsTimeOf	lab appointment
+0	lab appointment	HasDate	the 8th
+0	the 8th	IsDateOf	lab appointment
+0	lab appointment	HasParty	Martha
+0	Martha	IsPartyOf	lab appointment
+1	swimming activity	HasTime	10am
+1	10am	IsTimeOf	swimming activity
+1	swimming activity	HasDate	the 15th
+1	the 15th	IsDateOf	swimming activity
+1	swimming activity	HasParty	mother
+1	mother	IsPartyOf	swimming activity
+2	optometrist appointment	HasTime	7pm
+2	7pm	IsTimeOf	optometrist appointment
+2	optometrist appointment	HasDate	thursday
+2	thursday	IsDateOf	optometrist appointment
+2	optometrist appointment	HasParty	Marie
+2	Marie	IsPartyOf	optometrist appointment
+3	conference	HasTime	3pm
+3	3pm	IsTimeOf	conference
+3	conference	HasDate	the 10th
+3	the 10th	IsDateOf	conference
+3	conference	HasParty	boss
+3	boss	IsPartyOf	conference
+3	conference	HasRoom	conference room 102
+3	conference room 102	IsRoomOf	conference
+3	conference	HasAgenda	discuss the merger
+3	discuss the merger	IsAgendaOf	conference
+4	tennis activity	HasTime	4pm
+4	4pm	IsTimeOf	tennis activity
+4	tennis activity	HasDate	the 4th
+4	the 4th	IsDateOf	tennis activity
+4	tennis activity	HasParty	Alex
+4	Alex	IsPartyOf	tennis activity
+5	swimming activity	HasTime	4pm
+5	4pm	IsTimeOf	swimming activity
+5	swimming activity	HasDate	friday
+5	friday	IsDateOf	swimming activity
+5	swimming activity	HasParty	Jeff
+5	Jeff	IsPartyOf	swimming activity
+6	lab appointment	HasTime	5pm
+6	5pm	IsTimeOf	lab appointment
+6	lab appointment	HasDate	wednesday
+6	wednesday	IsDateOf	lab appointment
+6	lab appointment	HasParty	Jon
+6	Jon	IsPartyOf	lab appointment
+7	swimming activity	HasTime	5pm
+7	5pm	IsTimeOf	swimming activity
+7	swimming activity	HasDate	the 17th
+7	the 17th	IsDateOf	swimming activity
+7	swimming activity	HasParty	father
+7	father	IsPartyOf	swimming activity
+-1	today	IsEqualTo	monday

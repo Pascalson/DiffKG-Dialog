@@ -1,0 +1,65 @@
+0	5677 southwest 4th street	HasAddress	5677 southwest 4th street
+0	5677 southwest 4th street	HasType	certain address
+0	5677 southwest 4th street	IsAddressOf	5677 southwest 4th street
+0	certain address	IsTypeOf	5677 southwest 4th street
+0	5677 southwest 4th street	HasTraffic	road block nearby
+0	5677 southwest 4th street	HasDistance	5 miles
+0	road block nearby	IsTrafficOf	5677 southwest 4th street
+0	5 miles	IsDistanceFrom	5677 southwest 4th street
+1	Dominos	HasAddress	776 Arastradero Rd
+1	Dominos	HasType	pizza restaurant
+1	776 Arastradero Rd	IsAddressOf	Dominos
+1	pizza restaurant	IsTypeOf	Dominos
+1	Dominos	HasTraffic	road block nearby
+1	Dominos	HasDistance	6 miles
+1	road block nearby	IsTrafficOf	Dominos
+1	6 miles	IsDistanceFrom	Dominos
+2	toms house	HasAddress	580 Van Ness Ave
+2	toms house	HasType	friends house
+2	580 Van Ness Ave	IsAddressOf	toms house
+2	friends house	IsTypeOf	toms house
+2	toms house	HasTraffic	moderate traffic
+2	toms house	HasDistance	5 miles
+2	moderate traffic	IsTrafficOf	toms house
+2	5 miles	IsDistanceFrom	toms house
+3	Dish Parking	HasAddress	550 Alester Ave
+3	Dish Parking	HasType	parking garage
+3	550 Alester Ave	IsAddressOf	Dish Parking
+3	parking garage	IsTypeOf	Dish Parking
+3	Dish Parking	HasTraffic	moderate traffic
+3	Dish Parking	HasDistance	2 miles
+3	moderate traffic	IsTrafficOf	Dish Parking
+3	2 miles	IsDistanceFrom	Dish Parking
+4	Whole Foods	HasAddress	819 Alma St
+4	Whole Foods	HasType	grocery store
+4	819 Alma St	IsAddressOf	Whole Foods
+4	grocery store	IsTypeOf	Whole Foods
+4	Whole Foods	HasTraffic	moderate traffic
+4	Whole Foods	HasDistance	5 miles
+4	moderate traffic	IsTrafficOf	Whole Foods
+4	5 miles	IsDistanceFrom	Whole Foods
+5	Palo Alto Garage R	HasAddress	481 Amaranta Ave
+5	Palo Alto Garage R	HasType	parking garage
+5	481 Amaranta Ave	IsAddressOf	Palo Alto Garage R
+5	parking garage	IsTypeOf	Palo Alto Garage R
+5	Palo Alto Garage R	HasTraffic	moderate traffic
+5	Palo Alto Garage R	HasDistance	6 miles
+5	moderate traffic	IsTrafficOf	Palo Alto Garage R
+5	6 miles	IsDistanceFrom	Palo Alto Garage R
+6	Pizza Chicago	HasAddress	915 Arbol Dr
+6	Pizza Chicago	HasType	pizza restaurant
+6	915 Arbol Dr	IsAddressOf	Pizza Chicago
+6	pizza restaurant	IsTypeOf	Pizza Chicago
+6	Pizza Chicago	HasTraffic	road block nearby
+6	Pizza Chicago	HasDistance	3 miles
+6	road block nearby	IsTrafficOf	Pizza Chicago
+6	3 miles	IsDistanceFrom	Pizza Chicago
+7	5672 barringer street	HasAddress	5672 barringer street
+7	5672 barringer street	HasType	certain address
+7	5672 barringer street	IsAddressOf	5672 barringer street
+7	certain address	IsTypeOf	5672 barringer street
+7	5672 barringer street	HasTraffic	moderate traffic
+7	5672 barringer street	HasDistance	4 miles
+7	moderate traffic	IsTrafficOf	5672 barringer street
+7	4 miles	IsDistanceFrom	5672 barringer street
+-1	today	IsEqualTo	monday

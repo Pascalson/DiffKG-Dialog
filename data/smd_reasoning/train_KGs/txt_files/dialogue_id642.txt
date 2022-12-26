@@ -1,0 +1,57 @@
+0	home	HasAddress	5671 barringer street
+0	home	HasType	home
+0	5671 barringer street	IsAddressOf	home
+0	home	IsTypeOf	home
+0	home	HasTraffic	heavy traffic
+0	home	HasDistance	5 miles
+0	heavy traffic	IsTrafficOf	home
+0	5 miles	IsDistanceFrom	home
+1	Chevron	HasAddress	783 Arcadia Pl
+1	Chevron	HasType	gas station
+1	783 Arcadia Pl	IsAddressOf	Chevron
+1	gas station	IsTypeOf	Chevron
+1	Chevron	HasTraffic	no traffic
+1	Chevron	HasDistance	4 miles
+1	no traffic	IsTrafficOf	Chevron
+1	4 miles	IsDistanceFrom	Chevron
+2	Whole Foods	HasAddress	819 Alma St
+2	Whole Foods	HasType	grocery store
+2	819 Alma St	IsAddressOf	Whole Foods
+2	grocery store	IsTypeOf	Whole Foods
+2	Whole Foods	HasTraffic	heavy traffic
+2	Whole Foods	HasDistance	6 miles
+2	heavy traffic	IsTrafficOf	Whole Foods
+2	6 miles	IsDistanceFrom	Whole Foods
+3	Town and Country	HasAddress	383 University Ave
+3	Town and Country	HasType	shopping center
+3	383 University Ave	IsAddressOf	Town and Country
+3	shopping center	IsTypeOf	Town and Country
+3	Town and Country	HasTraffic	moderate traffic
+3	Town and Country	HasDistance	6 miles
+3	moderate traffic	IsTrafficOf	Town and Country
+3	6 miles	IsDistanceFrom	Town and Country
+4	Teavana	HasAddress	145 Amherst St
+4	Teavana	HasType	coffee or tea place
+4	145 Amherst St	IsAddressOf	Teavana
+4	coffee or tea place	IsTypeOf	Teavana
+4	Teavana	HasTraffic	heavy traffic
+4	Teavana	HasDistance	1 miles
+4	heavy traffic	IsTrafficOf	Teavana
+4	1 miles	IsDistanceFrom	Teavana
+5	Midtown Shopping Center	HasAddress	338 Alester Ave
+5	Midtown Shopping Center	HasType	shopping center
+5	338 Alester Ave	IsAddressOf	Midtown Shopping Center
+5	shopping center	IsTypeOf	Midtown Shopping Center
+5	Midtown Shopping Center	HasTraffic	moderate traffic
+5	Midtown Shopping Center	HasDistance	3 miles
+5	moderate traffic	IsTrafficOf	Midtown Shopping Center
+5	3 miles	IsDistanceFrom	Midtown Shopping Center
+6	jacks house	HasAddress	864 Almanor Ln
+6	jacks house	HasType	friends house
+6	864 Almanor Ln	IsAddressOf	jacks house
+6	friends house	IsTypeOf	jacks house
+6	jacks house	HasTraffic	no traffic
+6	jacks house	HasDistance	6 miles
+6	no traffic	IsTrafficOf	jacks house
+6	6 miles	IsDistanceFrom	jacks house
+-1	today	IsEqualTo	monday

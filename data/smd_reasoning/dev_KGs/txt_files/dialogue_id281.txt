@@ -1,0 +1,57 @@
+0	Stanford Oval Parking	HasAddress	610 Amarillo Ave
+0	Stanford Oval Parking	HasType	parking garage
+0	610 Amarillo Ave	IsAddressOf	Stanford Oval Parking
+0	parking garage	IsTypeOf	Stanford Oval Parking
+0	Stanford Oval Parking	HasTraffic	no traffic
+0	Stanford Oval Parking	HasDistance	5 miles
+0	no traffic	IsTrafficOf	Stanford Oval Parking
+0	5 miles	IsDistanceFrom	Stanford Oval Parking
+1	Mandarin Roots	HasAddress	271 Springer Street
+1	Mandarin Roots	HasType	chinese restaurant
+1	271 Springer Street	IsAddressOf	Mandarin Roots
+1	chinese restaurant	IsTypeOf	Mandarin Roots
+1	Mandarin Roots	HasTraffic	heavy traffic
+1	Mandarin Roots	HasDistance	5 miles
+1	heavy traffic	IsTrafficOf	Mandarin Roots
+1	5 miles	IsDistanceFrom	Mandarin Roots
+2	jacks house	HasAddress	864 Almanor Ln
+2	jacks house	HasType	friends house
+2	864 Almanor Ln	IsAddressOf	jacks house
+2	friends house	IsTypeOf	jacks house
+2	jacks house	HasTraffic	moderate traffic
+2	jacks house	HasDistance	3 miles
+2	moderate traffic	IsTrafficOf	jacks house
+2	3 miles	IsDistanceFrom	jacks house
+3	Palo Alto Medical Foundation	HasAddress	611 Ames Ave
+3	Palo Alto Medical Foundation	HasType	hospital
+3	611 Ames Ave	IsAddressOf	Palo Alto Medical Foundation
+3	hospital	IsTypeOf	Palo Alto Medical Foundation
+3	Palo Alto Medical Foundation	HasTraffic	heavy traffic
+3	Palo Alto Medical Foundation	HasDistance	6 miles
+3	heavy traffic	IsTrafficOf	Palo Alto Medical Foundation
+3	6 miles	IsDistanceFrom	Palo Alto Medical Foundation
+4	Panda Express	HasAddress	842 Arrowhead Way
+4	Panda Express	HasType	chinese restaurant
+4	842 Arrowhead Way	IsAddressOf	Panda Express
+4	chinese restaurant	IsTypeOf	Panda Express
+4	Panda Express	HasTraffic	heavy traffic
+4	Panda Express	HasDistance	3 miles
+4	heavy traffic	IsTrafficOf	Panda Express
+4	3 miles	IsDistanceFrom	Panda Express
+5	P.F. Changs	HasAddress	669 El Camino Real
+5	P.F. Changs	HasType	chinese restaurant
+5	669 El Camino Real	IsAddressOf	P.F. Changs
+5	chinese restaurant	IsTypeOf	P.F. Changs
+5	P.F. Changs	HasTraffic	heavy traffic
+5	P.F. Changs	HasDistance	4 miles
+5	heavy traffic	IsTrafficOf	P.F. Changs
+5	4 miles	IsDistanceFrom	P.F. Changs
+6	Ravenswood Shopping Center	HasAddress	434 Arastradero Rd
+6	Ravenswood Shopping Center	HasType	shopping center
+6	434 Arastradero Rd	IsAddressOf	Ravenswood Shopping Center
+6	shopping center	IsTypeOf	Ravenswood Shopping Center
+6	Ravenswood Shopping Center	HasTraffic	no traffic
+6	Ravenswood Shopping Center	HasDistance	6 miles
+6	no traffic	IsTrafficOf	Ravenswood Shopping Center
+6	6 miles	IsDistanceFrom	Ravenswood Shopping Center
+-1	today	IsEqualTo	monday

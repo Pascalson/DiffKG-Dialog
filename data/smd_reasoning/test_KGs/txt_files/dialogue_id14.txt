@@ -1,0 +1,65 @@
+0	Coupa	HasAddress	394 Van Ness Ave
+0	Coupa	HasType	coffee or tea place
+0	394 Van Ness Ave	IsAddressOf	Coupa
+0	coffee or tea place	IsTypeOf	Coupa
+0	Coupa	HasTraffic	no traffic
+0	Coupa	HasDistance	5 miles
+0	no traffic	IsTrafficOf	Coupa
+0	5 miles	IsDistanceFrom	Coupa
+1	Midtown Shopping Center	HasAddress	338 Alester Ave
+1	Midtown Shopping Center	HasType	shopping center
+1	338 Alester Ave	IsAddressOf	Midtown Shopping Center
+1	shopping center	IsTypeOf	Midtown Shopping Center
+1	Midtown Shopping Center	HasTraffic	no traffic
+1	Midtown Shopping Center	HasDistance	5 miles
+1	no traffic	IsTrafficOf	Midtown Shopping Center
+1	5 miles	IsDistanceFrom	Midtown Shopping Center
+2	Stanford Express Care	HasAddress	214 El Camino Real
+2	Stanford Express Care	HasType	hospital
+2	214 El Camino Real	IsAddressOf	Stanford Express Care
+2	hospital	IsTypeOf	Stanford Express Care
+2	Stanford Express Care	HasTraffic	moderate traffic
+2	Stanford Express Care	HasDistance	5 miles
+2	moderate traffic	IsTrafficOf	Stanford Express Care
+2	5 miles	IsDistanceFrom	Stanford Express Care
+3	P.F. Changs	HasAddress	669 El Camino Real
+3	P.F. Changs	HasType	chinese restaurant
+3	669 El Camino Real	IsAddressOf	P.F. Changs
+3	chinese restaurant	IsTypeOf	P.F. Changs
+3	P.F. Changs	HasTraffic	moderate traffic
+3	P.F. Changs	HasDistance	6 miles
+3	moderate traffic	IsTrafficOf	P.F. Changs
+3	6 miles	IsDistanceFrom	P.F. Changs
+4	toms house	HasAddress	580 Van Ness Ave
+4	toms house	HasType	friends house
+4	580 Van Ness Ave	IsAddressOf	toms house
+4	friends house	IsTypeOf	toms house
+4	toms house	HasTraffic	no traffic
+4	toms house	HasDistance	2 miles
+4	no traffic	IsTrafficOf	toms house
+4	2 miles	IsDistanceFrom	toms house
+5	Palo Alto Garage R	HasAddress	481 Amaranta Ave
+5	Palo Alto Garage R	HasType	parking garage
+5	481 Amaranta Ave	IsAddressOf	Palo Alto Garage R
+5	parking garage	IsTypeOf	Palo Alto Garage R
+5	Palo Alto Garage R	HasTraffic	road block nearby
+5	Palo Alto Garage R	HasDistance	2 miles
+5	road block nearby	IsTrafficOf	Palo Alto Garage R
+5	2 miles	IsDistanceFrom	Palo Alto Garage R
+6	Panda Express	HasAddress	842 Arrowhead Way
+6	Panda Express	HasType	chinese restaurant
+6	842 Arrowhead Way	IsAddressOf	Panda Express
+6	chinese restaurant	IsTypeOf	Panda Express
+6	Panda Express	HasTraffic	heavy traffic
+6	Panda Express	HasDistance	2 miles
+6	heavy traffic	IsTrafficOf	Panda Express
+6	2 miles	IsDistanceFrom	Panda Express
+7	Philz	HasAddress	583 Alester Ave
+7	Philz	HasType	coffee or tea place
+7	583 Alester Ave	IsAddressOf	Philz
+7	coffee or tea place	IsTypeOf	Philz
+7	Philz	HasTraffic	car collision nearby
+7	Philz	HasDistance	4 miles
+7	car collision nearby	IsTrafficOf	Philz
+7	4 miles	IsDistanceFrom	Philz
+-1	today	IsEqualTo	monday

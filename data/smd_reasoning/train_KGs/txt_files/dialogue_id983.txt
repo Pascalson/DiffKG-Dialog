@@ -1,0 +1,57 @@
+0	Hotel Keen	HasAddress	578 Arbol Dr
+0	Hotel Keen	HasType	rest stop
+0	578 Arbol Dr	IsAddressOf	Hotel Keen
+0	rest stop	IsTypeOf	Hotel Keen
+0	Hotel Keen	HasTraffic	heavy traffic
+0	Hotel Keen	HasDistance	5 miles
+0	heavy traffic	IsTrafficOf	Hotel Keen
+0	5 miles	IsDistanceFrom	Hotel Keen
+1	Stanford Childrens Health	HasAddress	899 Ames Ct
+1	Stanford Childrens Health	HasType	hospital
+1	899 Ames Ct	IsAddressOf	Stanford Childrens Health
+1	hospital	IsTypeOf	Stanford Childrens Health
+1	Stanford Childrens Health	HasTraffic	heavy traffic
+1	Stanford Childrens Health	HasDistance	5 miles
+1	heavy traffic	IsTrafficOf	Stanford Childrens Health
+1	5 miles	IsDistanceFrom	Stanford Childrens Health
+2	Stanford Shopping Center	HasAddress	773 Alger Dr
+2	Stanford Shopping Center	HasType	shopping center
+2	773 Alger Dr	IsAddressOf	Stanford Shopping Center
+2	shopping center	IsTypeOf	Stanford Shopping Center
+2	Stanford Shopping Center	HasTraffic	moderate traffic
+2	Stanford Shopping Center	HasDistance	2 miles
+2	moderate traffic	IsTrafficOf	Stanford Shopping Center
+2	2 miles	IsDistanceFrom	Stanford Shopping Center
+3	Dish Parking	HasAddress	550 Alester Ave
+3	Dish Parking	HasType	parking garage
+3	550 Alester Ave	IsAddressOf	Dish Parking
+3	parking garage	IsTypeOf	Dish Parking
+3	Dish Parking	HasTraffic	heavy traffic
+3	Dish Parking	HasDistance	5 miles
+3	heavy traffic	IsTrafficOf	Dish Parking
+3	5 miles	IsDistanceFrom	Dish Parking
+4	Teavana	HasAddress	145 Amherst St
+4	Teavana	HasType	coffee or tea place
+4	145 Amherst St	IsAddressOf	Teavana
+4	coffee or tea place	IsTypeOf	Teavana
+4	Teavana	HasTraffic	heavy traffic
+4	Teavana	HasDistance	2 miles
+4	heavy traffic	IsTrafficOf	Teavana
+4	2 miles	IsDistanceFrom	Teavana
+5	Jing Jing	HasAddress	113 Arbol Dr
+5	Jing Jing	HasType	chinese restaurant
+5	113 Arbol Dr	IsAddressOf	Jing Jing
+5	chinese restaurant	IsTypeOf	Jing Jing
+5	Jing Jing	HasTraffic	heavy traffic
+5	Jing Jing	HasDistance	5 miles
+5	heavy traffic	IsTrafficOf	Jing Jing
+5	5 miles	IsDistanceFrom	Jing Jing
+6	Panda Express	HasAddress	842 Arrowhead Way
+6	Panda Express	HasType	chinese restaurant
+6	842 Arrowhead Way	IsAddressOf	Panda Express
+6	chinese restaurant	IsTypeOf	Panda Express
+6	Panda Express	HasTraffic	moderate traffic
+6	Panda Express	HasDistance	1 miles
+6	moderate traffic	IsTrafficOf	Panda Express
+6	1 miles	IsDistanceFrom	Panda Express
+-1	today	IsEqualTo	monday

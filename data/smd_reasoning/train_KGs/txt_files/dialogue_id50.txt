@@ -1,0 +1,57 @@
+0	Philz	HasAddress	583 Alester Ave
+0	Philz	HasType	coffee or tea place
+0	583 Alester Ave	IsAddressOf	Philz
+0	coffee or tea place	IsTypeOf	Philz
+0	Philz	HasTraffic	heavy traffic
+0	Philz	HasDistance	1 miles
+0	heavy traffic	IsTrafficOf	Philz
+0	1 miles	IsDistanceFrom	Philz
+1	Palo Alto Garage R	HasAddress	481 Amaranta Ave
+1	Palo Alto Garage R	HasType	parking garage
+1	481 Amaranta Ave	IsAddressOf	Palo Alto Garage R
+1	parking garage	IsTypeOf	Palo Alto Garage R
+1	Palo Alto Garage R	HasTraffic	heavy traffic
+1	Palo Alto Garage R	HasDistance	2 miles
+1	heavy traffic	IsTrafficOf	Palo Alto Garage R
+1	2 miles	IsDistanceFrom	Palo Alto Garage R
+2	Safeway	HasAddress	452 Arcadia Pl
+2	Safeway	HasType	grocery store
+2	452 Arcadia Pl	IsAddressOf	Safeway
+2	grocery store	IsTypeOf	Safeway
+2	Safeway	HasTraffic	moderate traffic
+2	Safeway	HasDistance	4 miles
+2	moderate traffic	IsTrafficOf	Safeway
+2	4 miles	IsDistanceFrom	Safeway
+3	Chef Chu's	HasAddress	593 Arrowhead Way
+3	Chef Chu's	HasType	chinese restaurant
+3	593 Arrowhead Way	IsAddressOf	Chef Chu's
+3	chinese restaurant	IsTypeOf	Chef Chu's
+3	Chef Chu's	HasTraffic	moderate traffic
+3	Chef Chu's	HasDistance	2 miles
+3	moderate traffic	IsTrafficOf	Chef Chu's
+3	2 miles	IsDistanceFrom	Chef Chu's
+4	Teavana	HasAddress	145 Amherst St
+4	Teavana	HasType	coffee or tea place
+4	145 Amherst St	IsAddressOf	Teavana
+4	coffee or tea place	IsTypeOf	Teavana
+4	Teavana	HasTraffic	heavy traffic
+4	Teavana	HasDistance	2 miles
+4	heavy traffic	IsTrafficOf	Teavana
+4	2 miles	IsDistanceFrom	Teavana
+5	Pizza Chicago	HasAddress	915 Arbol Dr
+5	Pizza Chicago	HasType	pizza restaurant
+5	915 Arbol Dr	IsAddressOf	Pizza Chicago
+5	pizza restaurant	IsTypeOf	Pizza Chicago
+5	Pizza Chicago	HasTraffic	no traffic
+5	Pizza Chicago	HasDistance	3 miles
+5	no traffic	IsTrafficOf	Pizza Chicago
+5	3 miles	IsDistanceFrom	Pizza Chicago
+6	Palo Alto Cafe	HasAddress	436 Alger Dr
+6	Palo Alto Cafe	HasType	coffee or tea place
+6	436 Alger Dr	IsAddressOf	Palo Alto Cafe
+6	coffee or tea place	IsTypeOf	Palo Alto Cafe
+6	Palo Alto Cafe	HasTraffic	no traffic
+6	Palo Alto Cafe	HasDistance	1 miles
+6	no traffic	IsTrafficOf	Palo Alto Cafe
+6	1 miles	IsDistanceFrom	Palo Alto Cafe
+-1	today	IsEqualTo	monday

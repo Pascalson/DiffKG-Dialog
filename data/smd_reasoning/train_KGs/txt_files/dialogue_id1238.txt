@@ -1,0 +1,57 @@
+0	5677 southwest 4th street	HasAddress	5677 southwest 4th street
+0	5677 southwest 4th street	HasType	certain address
+0	5677 southwest 4th street	IsAddressOf	5677 southwest 4th street
+0	certain address	IsTypeOf	5677 southwest 4th street
+0	5677 southwest 4th street	HasTraffic	moderate traffic
+0	5677 southwest 4th street	HasDistance	2 miles
+0	moderate traffic	IsTrafficOf	5677 southwest 4th street
+0	2 miles	IsDistanceFrom	5677 southwest 4th street
+1	Safeway	HasAddress	452 Arcadia Pl
+1	Safeway	HasType	grocery store
+1	452 Arcadia Pl	IsAddressOf	Safeway
+1	grocery store	IsTypeOf	Safeway
+1	Safeway	HasTraffic	no traffic
+1	Safeway	HasDistance	1 miles
+1	no traffic	IsTrafficOf	Safeway
+1	1 miles	IsDistanceFrom	Safeway
+2	jills house	HasAddress	347 Alta Mesa Ave
+2	jills house	HasType	friends house
+2	347 Alta Mesa Ave	IsAddressOf	jills house
+2	friends house	IsTypeOf	jills house
+2	jills house	HasTraffic	moderate traffic
+2	jills house	HasDistance	2 miles
+2	moderate traffic	IsTrafficOf	jills house
+2	2 miles	IsDistanceFrom	jills house
+3	tai pan	HasAddress	830 Almanor Ln
+3	tai pan	HasType	chinese restaurant
+3	830 Almanor Ln	IsAddressOf	tai pan
+3	chinese restaurant	IsTypeOf	tai pan
+3	tai pan	HasTraffic	heavy traffic
+3	tai pan	HasDistance	6 miles
+3	heavy traffic	IsTrafficOf	tai pan
+3	6 miles	IsDistanceFrom	tai pan
+4	Comfort Inn	HasAddress	753 University Ave
+4	Comfort Inn	HasType	rest stop
+4	753 University Ave	IsAddressOf	Comfort Inn
+4	rest stop	IsTypeOf	Comfort Inn
+4	Comfort Inn	HasTraffic	moderate traffic
+4	Comfort Inn	HasDistance	1 miles
+4	moderate traffic	IsTrafficOf	Comfort Inn
+4	1 miles	IsDistanceFrom	Comfort Inn
+5	Palo Alto Medical Foundation	HasAddress	611 Ames Ave
+5	Palo Alto Medical Foundation	HasType	hospital
+5	611 Ames Ave	IsAddressOf	Palo Alto Medical Foundation
+5	hospital	IsTypeOf	Palo Alto Medical Foundation
+5	Palo Alto Medical Foundation	HasTraffic	heavy traffic
+5	Palo Alto Medical Foundation	HasDistance	6 miles
+5	heavy traffic	IsTrafficOf	Palo Alto Medical Foundation
+5	6 miles	IsDistanceFrom	Palo Alto Medical Foundation
+6	Stanford Oval Parking	HasAddress	610 Amarillo Ave
+6	Stanford Oval Parking	HasType	parking garage
+6	610 Amarillo Ave	IsAddressOf	Stanford Oval Parking
+6	parking garage	IsTypeOf	Stanford Oval Parking
+6	Stanford Oval Parking	HasTraffic	no traffic
+6	Stanford Oval Parking	HasDistance	2 miles
+6	no traffic	IsTrafficOf	Stanford Oval Parking
+6	2 miles	IsDistanceFrom	Stanford Oval Parking
+-1	today	IsEqualTo	monday

@@ -1,0 +1,61 @@
+0	dentist appointment	HasTime	7pm
+0	7pm	IsTimeOf	dentist appointment
+0	dentist appointment	HasDate	the 6th
+0	the 6th	IsDateOf	dentist appointment
+0	dentist appointment	HasParty	Jon
+0	Jon	IsPartyOf	dentist appointment
+1	conference	HasTime	9am
+1	9am	IsTimeOf	conference
+1	conference	HasDate	the 15th
+1	the 15th	IsDateOf	conference
+1	conference	HasParty	boss
+1	boss	IsPartyOf	conference
+1	conference	HasRoom	conference room 100
+1	conference room 100	IsRoomOf	conference
+1	conference	HasAgenda	discuss the company picnic
+1	discuss the company picnic	IsAgendaOf	conference
+2	meeting	HasTime	3pm
+2	3pm	IsTimeOf	meeting
+2	meeting	HasDate	the 10th
+2	the 10th	IsDateOf	meeting
+2	meeting	HasParty	HR
+2	HR	IsPartyOf	meeting
+2	meeting	HasRoom	conference room 100
+2	conference room 100	IsRoomOf	meeting
+2	meeting	HasAgenda	go over budget
+2	go over budget	IsAgendaOf	meeting
+3	yoga activity	HasTime	9am
+3	9am	IsTimeOf	yoga activity
+3	yoga activity	HasDate	monday
+3	monday	IsDateOf	yoga activity
+3	yoga activity	HasParty	sister
+3	sister	IsPartyOf	yoga activity
+4	yoga activity	HasTime	2pm
+4	2pm	IsTimeOf	yoga activity
+4	yoga activity	HasDate	the 16th
+4	the 16th	IsDateOf	yoga activity
+4	yoga activity	HasParty	Jeff
+4	Jeff	IsPartyOf	yoga activity
+5	conference	HasTime	1pm
+5	1pm	IsTimeOf	conference
+5	conference	HasDate	saturday
+5	saturday	IsDateOf	conference
+5	conference	HasParty	executive team
+5	executive team	IsPartyOf	conference
+5	conference	HasRoom	conference room 102
+5	conference room 102	IsRoomOf	conference
+5	conference	HasAgenda	onboard new members
+5	onboard new members	IsAgendaOf	conference
+6	yoga activity	HasTime	7pm
+6	7pm	IsTimeOf	yoga activity
+6	yoga activity	HasDate	thursday
+6	thursday	IsDateOf	yoga activity
+6	yoga activity	HasParty	Jon
+6	Jon	IsPartyOf	yoga activity
+7	yoga activity	HasTime	11am
+7	11am	IsTimeOf	yoga activity
+7	yoga activity	HasDate	the 9th
+7	the 9th	IsDateOf	yoga activity
+7	yoga activity	HasParty	Martha
+7	Martha	IsPartyOf	yoga activity
+-1	today	IsEqualTo	monday

@@ -1,0 +1,65 @@
+0	home	HasAddress	56 cadwell street
+0	home	HasType	home
+0	56 cadwell street	IsAddressOf	home
+0	home	IsTypeOf	home
+0	home	HasTraffic	moderate traffic
+0	home	HasDistance	4 miles
+0	moderate traffic	IsTrafficOf	home
+0	4 miles	IsDistanceFrom	home
+1	5677 southwest 4th street	HasAddress	5677 southwest 4th street
+1	5677 southwest 4th street	HasType	certain address
+1	5677 southwest 4th street	IsAddressOf	5677 southwest 4th street
+1	certain address	IsTypeOf	5677 southwest 4th street
+1	5677 southwest 4th street	HasTraffic	heavy traffic
+1	5677 southwest 4th street	HasDistance	6 miles
+1	heavy traffic	IsTrafficOf	5677 southwest 4th street
+1	6 miles	IsDistanceFrom	5677 southwest 4th street
+2	Papa Johns	HasAddress	110 Arastradero Rd
+2	Papa Johns	HasType	pizza restaurant
+2	110 Arastradero Rd	IsAddressOf	Papa Johns
+2	pizza restaurant	IsTypeOf	Papa Johns
+2	Papa Johns	HasTraffic	car collision nearby
+2	Papa Johns	HasDistance	1 miles
+2	car collision nearby	IsTrafficOf	Papa Johns
+2	1 miles	IsDistanceFrom	Papa Johns
+3	Teavana	HasAddress	145 Amherst St
+3	Teavana	HasType	coffee or tea place
+3	145 Amherst St	IsAddressOf	Teavana
+3	coffee or tea place	IsTypeOf	Teavana
+3	Teavana	HasTraffic	no traffic
+3	Teavana	HasDistance	5 miles
+3	no traffic	IsTrafficOf	Teavana
+3	5 miles	IsDistanceFrom	Teavana
+4	Panda Express	HasAddress	842 Arrowhead Way
+4	Panda Express	HasType	chinese restaurant
+4	842 Arrowhead Way	IsAddressOf	Panda Express
+4	chinese restaurant	IsTypeOf	Panda Express
+4	Panda Express	HasTraffic	heavy traffic
+4	Panda Express	HasDistance	1 miles
+4	heavy traffic	IsTrafficOf	Panda Express
+4	1 miles	IsDistanceFrom	Panda Express
+5	The Clement Hotel	HasAddress	657 Ames Ave
+5	The Clement Hotel	HasType	rest stop
+5	657 Ames Ave	IsAddressOf	The Clement Hotel
+5	rest stop	IsTypeOf	The Clement Hotel
+5	The Clement Hotel	HasTraffic	car collision nearby
+5	The Clement Hotel	HasDistance	5 miles
+5	car collision nearby	IsTrafficOf	The Clement Hotel
+5	5 miles	IsDistanceFrom	The Clement Hotel
+6	Dish Parking	HasAddress	550 Alester Ave
+6	Dish Parking	HasType	parking garage
+6	550 Alester Ave	IsAddressOf	Dish Parking
+6	parking garage	IsTypeOf	Dish Parking
+6	Dish Parking	HasTraffic	car collision nearby
+6	Dish Parking	HasDistance	3 miles
+6	car collision nearby	IsTrafficOf	Dish Parking
+6	3 miles	IsDistanceFrom	Dish Parking
+7	Round Table	HasAddress	113 Anton Ct
+7	Round Table	HasType	pizza restaurant
+7	113 Anton Ct	IsAddressOf	Round Table
+7	pizza restaurant	IsTypeOf	Round Table
+7	Round Table	HasTraffic	moderate traffic
+7	Round Table	HasDistance	1 miles
+7	moderate traffic	IsTrafficOf	Round Table
+7	1 miles	IsDistanceFrom	Round Table
+-1	today	IsEqualTo	monday

@@ -1,0 +1,57 @@
+0	football activity	HasTime	6pm
+0	6pm	IsTimeOf	football activity
+0	football activity	HasDate	the 1st
+0	the 1st	IsDateOf	football activity
+0	football activity	HasParty	Marie
+0	Marie	IsPartyOf	football activity
+1	doctor appointment	HasTime	3pm
+1	3pm	IsTimeOf	doctor appointment
+1	doctor appointment	HasDate	friday
+1	friday	IsDateOf	doctor appointment
+1	doctor appointment	HasParty	Martha
+1	Martha	IsPartyOf	doctor appointment
+2	tennis activity	HasTime	5pm
+2	5pm	IsTimeOf	tennis activity
+2	tennis activity	HasDate	the 2nd
+2	the 2nd	IsDateOf	tennis activity
+2	tennis activity	HasParty	brother
+2	brother	IsPartyOf	tennis activity
+3	football activity	HasTime	11am
+3	11am	IsTimeOf	football activity
+3	football activity	HasDate	saturday
+3	saturday	IsDateOf	football activity
+3	football activity	HasParty	Jeff
+3	Jeff	IsPartyOf	football activity
+4	meeting	HasTime	3pm
+4	3pm	IsTimeOf	meeting
+4	meeting	HasDate	the 14th
+4	the 14th	IsDateOf	meeting
+4	meeting	HasParty	infrastructure team
+4	infrastructure team	IsPartyOf	meeting
+4	meeting	HasRoom	conference room 102
+4	conference room 102	IsRoomOf	meeting
+4	meeting	HasAgenda	discuss the company picnic
+4	discuss the company picnic	IsAgendaOf	meeting
+5	meeting	HasTime	5pm
+5	5pm	IsTimeOf	meeting
+5	meeting	HasDate	the 2nd
+5	the 2nd	IsDateOf	meeting
+5	meeting	HasParty	sales team
+5	sales team	IsPartyOf	meeting
+5	meeting	HasRoom	conference room 102
+5	conference room 102	IsRoomOf	meeting
+5	meeting	HasAgenda	discuss dress code
+5	discuss dress code	IsAgendaOf	meeting
+6	lab appointment	HasTime	5pm
+6	5pm	IsTimeOf	lab appointment
+6	lab appointment	HasDate	the 12th
+6	the 12th	IsDateOf	lab appointment
+6	lab appointment	HasParty	Jon
+6	Jon	IsPartyOf	lab appointment
+7	optometrist appointment	HasTime	11am
+7	11am	IsTimeOf	optometrist appointment
+7	optometrist appointment	HasDate	monday
+7	monday	IsDateOf	optometrist appointment
+7	optometrist appointment	HasParty	brother
+7	brother	IsPartyOf	optometrist appointment
+-1	today	IsEqualTo	monday

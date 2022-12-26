@@ -1,0 +1,57 @@
+0	Chevron	HasAddress	783 Arcadia Pl
+0	Chevron	HasType	gas station
+0	783 Arcadia Pl	IsAddressOf	Chevron
+0	gas station	IsTypeOf	Chevron
+0	Chevron	HasTraffic	heavy traffic
+0	Chevron	HasDistance	4 miles
+0	heavy traffic	IsTrafficOf	Chevron
+0	4 miles	IsDistanceFrom	Chevron
+1	P.F. Changs	HasAddress	669 El Camino Real
+1	P.F. Changs	HasType	chinese restaurant
+1	669 El Camino Real	IsAddressOf	P.F. Changs
+1	chinese restaurant	IsTypeOf	P.F. Changs
+1	P.F. Changs	HasTraffic	moderate traffic
+1	P.F. Changs	HasDistance	2 miles
+1	moderate traffic	IsTrafficOf	P.F. Changs
+1	2 miles	IsDistanceFrom	P.F. Changs
+2	Webster Garage	HasAddress	880 Ames Ct
+2	Webster Garage	HasType	parking garage
+2	880 Ames Ct	IsAddressOf	Webster Garage
+2	parking garage	IsTypeOf	Webster Garage
+2	Webster Garage	HasTraffic	no traffic
+2	Webster Garage	HasDistance	5 miles
+2	no traffic	IsTrafficOf	Webster Garage
+2	5 miles	IsDistanceFrom	Webster Garage
+3	Stanford Childrens Health	HasAddress	899 Ames Ct
+3	Stanford Childrens Health	HasType	hospital
+3	899 Ames Ct	IsAddressOf	Stanford Childrens Health
+3	hospital	IsTypeOf	Stanford Childrens Health
+3	Stanford Childrens Health	HasTraffic	no traffic
+3	Stanford Childrens Health	HasDistance	4 miles
+3	no traffic	IsTrafficOf	Stanford Childrens Health
+3	4 miles	IsDistanceFrom	Stanford Childrens Health
+4	Dish Parking	HasAddress	550 Alester Ave
+4	Dish Parking	HasType	parking garage
+4	550 Alester Ave	IsAddressOf	Dish Parking
+4	parking garage	IsTypeOf	Dish Parking
+4	Dish Parking	HasTraffic	moderate traffic
+4	Dish Parking	HasDistance	5 miles
+4	moderate traffic	IsTrafficOf	Dish Parking
+4	5 miles	IsDistanceFrom	Dish Parking
+5	Coupa	HasAddress	394 Van Ness Ave
+5	Coupa	HasType	coffee or tea place
+5	394 Van Ness Ave	IsAddressOf	Coupa
+5	coffee or tea place	IsTypeOf	Coupa
+5	Coupa	HasTraffic	no traffic
+5	Coupa	HasDistance	6 miles
+5	no traffic	IsTrafficOf	Coupa
+5	6 miles	IsDistanceFrom	Coupa
+6	Four Seasons	HasAddress	465 Arcadia Pl
+6	Four Seasons	HasType	rest stop
+6	465 Arcadia Pl	IsAddressOf	Four Seasons
+6	rest stop	IsTypeOf	Four Seasons
+6	Four Seasons	HasTraffic	no traffic
+6	Four Seasons	HasDistance	5 miles
+6	no traffic	IsTrafficOf	Four Seasons
+6	5 miles	IsDistanceFrom	Four Seasons
+-1	today	IsEqualTo	monday

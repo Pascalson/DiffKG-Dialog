@@ -1,0 +1,57 @@
+0	Ravenswood Shopping Center	HasAddress	434 Arastradero Rd
+0	Ravenswood Shopping Center	HasType	shopping center
+0	434 Arastradero Rd	IsAddressOf	Ravenswood Shopping Center
+0	shopping center	IsTypeOf	Ravenswood Shopping Center
+0	Ravenswood Shopping Center	HasTraffic	moderate traffic
+0	Ravenswood Shopping Center	HasDistance	2 miles
+0	moderate traffic	IsTrafficOf	Ravenswood Shopping Center
+0	2 miles	IsDistanceFrom	Ravenswood Shopping Center
+1	Whole Foods	HasAddress	819 Alma St
+1	Whole Foods	HasType	grocery store
+1	819 Alma St	IsAddressOf	Whole Foods
+1	grocery store	IsTypeOf	Whole Foods
+1	Whole Foods	HasTraffic	heavy traffic
+1	Whole Foods	HasDistance	6 miles
+1	heavy traffic	IsTrafficOf	Whole Foods
+1	6 miles	IsDistanceFrom	Whole Foods
+2	Hotel Keen	HasAddress	578 Arbol Dr
+2	Hotel Keen	HasType	rest stop
+2	578 Arbol Dr	IsAddressOf	Hotel Keen
+2	rest stop	IsTypeOf	Hotel Keen
+2	Hotel Keen	HasTraffic	moderate traffic
+2	Hotel Keen	HasDistance	6 miles
+2	moderate traffic	IsTrafficOf	Hotel Keen
+2	6 miles	IsDistanceFrom	Hotel Keen
+3	Palo Alto Garage R	HasAddress	481 Amaranta Ave
+3	Palo Alto Garage R	HasType	parking garage
+3	481 Amaranta Ave	IsAddressOf	Palo Alto Garage R
+3	parking garage	IsTypeOf	Palo Alto Garage R
+3	Palo Alto Garage R	HasTraffic	no traffic
+3	Palo Alto Garage R	HasDistance	2 miles
+3	no traffic	IsTrafficOf	Palo Alto Garage R
+3	2 miles	IsDistanceFrom	Palo Alto Garage R
+4	Coupa	HasAddress	394 Van Ness Ave
+4	Coupa	HasType	coffee or tea place
+4	394 Van Ness Ave	IsAddressOf	Coupa
+4	coffee or tea place	IsTypeOf	Coupa
+4	Coupa	HasTraffic	heavy traffic
+4	Coupa	HasDistance	2 miles
+4	heavy traffic	IsTrafficOf	Coupa
+4	2 miles	IsDistanceFrom	Coupa
+5	Pizza My Heart	HasAddress	528 Anton Ct
+5	Pizza My Heart	HasType	pizza restaurant
+5	528 Anton Ct	IsAddressOf	Pizza My Heart
+5	pizza restaurant	IsTypeOf	Pizza My Heart
+5	Pizza My Heart	HasTraffic	no traffic
+5	Pizza My Heart	HasDistance	5 miles
+5	no traffic	IsTrafficOf	Pizza My Heart
+5	5 miles	IsDistanceFrom	Pizza My Heart
+6	Starbucks	HasAddress	792 Bedoin Street
+6	Starbucks	HasType	coffee or tea place
+6	792 Bedoin Street	IsAddressOf	Starbucks
+6	coffee or tea place	IsTypeOf	Starbucks
+6	Starbucks	HasTraffic	moderate traffic
+6	Starbucks	HasDistance	3 miles
+6	moderate traffic	IsTrafficOf	Starbucks
+6	3 miles	IsDistanceFrom	Starbucks
+-1	today	IsEqualTo	monday

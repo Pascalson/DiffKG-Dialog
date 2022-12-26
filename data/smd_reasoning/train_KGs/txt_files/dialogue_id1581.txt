@@ -1,0 +1,57 @@
+0	Trader Joes	HasAddress	408 University Ave
+0	Trader Joes	HasType	grocery store
+0	408 University Ave	IsAddressOf	Trader Joes
+0	grocery store	IsTypeOf	Trader Joes
+0	Trader Joes	HasTraffic	no traffic
+0	Trader Joes	HasDistance	6 miles
+0	no traffic	IsTrafficOf	Trader Joes
+0	6 miles	IsDistanceFrom	Trader Joes
+1	Chef Chu's	HasAddress	593 Arrowhead Way
+1	Chef Chu's	HasType	chinese restaurant
+1	593 Arrowhead Way	IsAddressOf	Chef Chu's
+1	chinese restaurant	IsTypeOf	Chef Chu's
+1	Chef Chu's	HasTraffic	moderate traffic
+1	Chef Chu's	HasDistance	2 miles
+1	moderate traffic	IsTrafficOf	Chef Chu's
+1	2 miles	IsDistanceFrom	Chef Chu's
+2	Palo Alto Medical Foundation	HasAddress	611 Ames Ave
+2	Palo Alto Medical Foundation	HasType	hospital
+2	611 Ames Ave	IsAddressOf	Palo Alto Medical Foundation
+2	hospital	IsTypeOf	Palo Alto Medical Foundation
+2	Palo Alto Medical Foundation	HasTraffic	heavy traffic
+2	Palo Alto Medical Foundation	HasDistance	4 miles
+2	heavy traffic	IsTrafficOf	Palo Alto Medical Foundation
+2	4 miles	IsDistanceFrom	Palo Alto Medical Foundation
+3	Starbucks	HasAddress	792 Bedoin Street
+3	Starbucks	HasType	coffee or tea place
+3	792 Bedoin Street	IsAddressOf	Starbucks
+3	coffee or tea place	IsTypeOf	Starbucks
+3	Starbucks	HasTraffic	no traffic
+3	Starbucks	HasDistance	5 miles
+3	no traffic	IsTrafficOf	Starbucks
+3	5 miles	IsDistanceFrom	Starbucks
+4	home	HasAddress	56 cadwell street
+4	home	HasType	home
+4	56 cadwell street	IsAddressOf	home
+4	home	IsTypeOf	home
+4	home	HasTraffic	no traffic
+4	home	HasDistance	4 miles
+4	no traffic	IsTrafficOf	home
+4	4 miles	IsDistanceFrom	home
+5	Midtown Shopping Center	HasAddress	338 Alester Ave
+5	Midtown Shopping Center	HasType	shopping center
+5	338 Alester Ave	IsAddressOf	Midtown Shopping Center
+5	shopping center	IsTypeOf	Midtown Shopping Center
+5	Midtown Shopping Center	HasTraffic	no traffic
+5	Midtown Shopping Center	HasDistance	4 miles
+5	no traffic	IsTrafficOf	Midtown Shopping Center
+5	4 miles	IsDistanceFrom	Midtown Shopping Center
+6	Pizza Hut	HasAddress	704 El Camino Real
+6	Pizza Hut	HasType	pizza restaurant
+6	704 El Camino Real	IsAddressOf	Pizza Hut
+6	pizza restaurant	IsTypeOf	Pizza Hut
+6	Pizza Hut	HasTraffic	no traffic
+6	Pizza Hut	HasDistance	6 miles
+6	no traffic	IsTrafficOf	Pizza Hut
+6	6 miles	IsDistanceFrom	Pizza Hut
+-1	today	IsEqualTo	monday

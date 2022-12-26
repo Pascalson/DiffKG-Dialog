@@ -1,0 +1,65 @@
+0	Dominos	HasAddress	776 Arastradero Rd
+0	Dominos	HasType	pizza restaurant
+0	776 Arastradero Rd	IsAddressOf	Dominos
+0	pizza restaurant	IsTypeOf	Dominos
+0	Dominos	HasTraffic	heavy traffic
+0	Dominos	HasDistance	7 miles
+0	heavy traffic	IsTrafficOf	Dominos
+0	7 miles	IsDistanceFrom	Dominos
+1	Comfort Inn	HasAddress	753 University Ave
+1	Comfort Inn	HasType	rest stop
+1	753 University Ave	IsAddressOf	Comfort Inn
+1	rest stop	IsTypeOf	Comfort Inn
+1	Comfort Inn	HasTraffic	car collision nearby
+1	Comfort Inn	HasDistance	5 miles
+1	car collision nearby	IsTrafficOf	Comfort Inn
+1	5 miles	IsDistanceFrom	Comfort Inn
+2	Papa Johns	HasAddress	110 Arastradero Rd
+2	Papa Johns	HasType	pizza restaurant
+2	110 Arastradero Rd	IsAddressOf	Papa Johns
+2	pizza restaurant	IsTypeOf	Papa Johns
+2	Papa Johns	HasTraffic	moderate traffic
+2	Papa Johns	HasDistance	4 miles
+2	moderate traffic	IsTrafficOf	Papa Johns
+2	4 miles	IsDistanceFrom	Papa Johns
+3	Sigona Farmers Market	HasAddress	638 Amherst St
+3	Sigona Farmers Market	HasType	grocery store
+3	638 Amherst St	IsAddressOf	Sigona Farmers Market
+3	grocery store	IsTypeOf	Sigona Farmers Market
+3	Sigona Farmers Market	HasTraffic	no traffic
+3	Sigona Farmers Market	HasDistance	5 miles
+3	no traffic	IsTrafficOf	Sigona Farmers Market
+3	5 miles	IsDistanceFrom	Sigona Farmers Market
+4	home	HasAddress	10 ames street
+4	home	HasType	home
+4	10 ames street	IsAddressOf	home
+4	home	IsTypeOf	home
+4	home	HasTraffic	road block nearby
+4	home	HasDistance	5 miles
+4	road block nearby	IsTrafficOf	home
+4	5 miles	IsDistanceFrom	home
+5	Stanford Express Care	HasAddress	214 El Camino Real
+5	Stanford Express Care	HasType	hospital
+5	214 El Camino Real	IsAddressOf	Stanford Express Care
+5	hospital	IsTypeOf	Stanford Express Care
+5	Stanford Express Care	HasTraffic	moderate traffic
+5	Stanford Express Care	HasDistance	5 miles
+5	moderate traffic	IsTrafficOf	Stanford Express Care
+5	5 miles	IsDistanceFrom	Stanford Express Care
+6	Midtown Shopping Center	HasAddress	338 Alester Ave
+6	Midtown Shopping Center	HasType	shopping center
+6	338 Alester Ave	IsAddressOf	Midtown Shopping Center
+6	shopping center	IsTypeOf	Midtown Shopping Center
+6	Midtown Shopping Center	HasTraffic	car collision nearby
+6	Midtown Shopping Center	HasDistance	3 miles
+6	car collision nearby	IsTrafficOf	Midtown Shopping Center
+6	3 miles	IsDistanceFrom	Midtown Shopping Center
+7	Topanga Mall	HasAddress	171 Oak Rd
+7	Topanga Mall	HasType	shopping center
+7	171 Oak Rd	IsAddressOf	Topanga Mall
+7	shopping center	IsTypeOf	Topanga Mall
+7	Topanga Mall	HasTraffic	road block nearby
+7	Topanga Mall	HasDistance	6 miles
+7	road block nearby	IsTrafficOf	Topanga Mall
+7	6 miles	IsDistanceFrom	Topanga Mall
+-1	today	IsEqualTo	monday

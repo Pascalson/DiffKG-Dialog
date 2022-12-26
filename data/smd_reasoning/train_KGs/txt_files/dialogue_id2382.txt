@@ -1,0 +1,65 @@
+0	Chef Chu's	HasAddress	593 Arrowhead Way
+0	Chef Chu's	HasType	chinese restaurant
+0	593 Arrowhead Way	IsAddressOf	Chef Chu's
+0	chinese restaurant	IsTypeOf	Chef Chu's
+0	Chef Chu's	HasTraffic	heavy traffic
+0	Chef Chu's	HasDistance	1 miles
+0	heavy traffic	IsTrafficOf	Chef Chu's
+0	1 miles	IsDistanceFrom	Chef Chu's
+1	Midtown Shopping Center	HasAddress	338 Alester Ave
+1	Midtown Shopping Center	HasType	shopping center
+1	338 Alester Ave	IsAddressOf	Midtown Shopping Center
+1	shopping center	IsTypeOf	Midtown Shopping Center
+1	Midtown Shopping Center	HasTraffic	no traffic
+1	Midtown Shopping Center	HasDistance	6 miles
+1	no traffic	IsTrafficOf	Midtown Shopping Center
+1	6 miles	IsDistanceFrom	Midtown Shopping Center
+2	Willows Market	HasAddress	409 Bollard St
+2	Willows Market	HasType	grocery store
+2	409 Bollard St	IsAddressOf	Willows Market
+2	grocery store	IsTypeOf	Willows Market
+2	Willows Market	HasTraffic	moderate traffic
+2	Willows Market	HasDistance	5 miles
+2	moderate traffic	IsTrafficOf	Willows Market
+2	5 miles	IsDistanceFrom	Willows Market
+3	Palo Alto Cafe	HasAddress	436 Alger Dr
+3	Palo Alto Cafe	HasType	coffee or tea place
+3	436 Alger Dr	IsAddressOf	Palo Alto Cafe
+3	coffee or tea place	IsTypeOf	Palo Alto Cafe
+3	Palo Alto Cafe	HasTraffic	no traffic
+3	Palo Alto Cafe	HasDistance	3 miles
+3	no traffic	IsTrafficOf	Palo Alto Cafe
+3	3 miles	IsDistanceFrom	Palo Alto Cafe
+4	home	HasAddress	56 cadwell street
+4	home	HasType	home
+4	56 cadwell street	IsAddressOf	home
+4	home	IsTypeOf	home
+4	home	HasTraffic	car collision nearby
+4	home	HasDistance	6 miles
+4	car collision nearby	IsTrafficOf	home
+4	6 miles	IsDistanceFrom	home
+5	toms house	HasAddress	580 Van Ness Ave
+5	toms house	HasType	friends house
+5	580 Van Ness Ave	IsAddressOf	toms house
+5	friends house	IsTypeOf	toms house
+5	toms house	HasTraffic	moderate traffic
+5	toms house	HasDistance	4 miles
+5	moderate traffic	IsTrafficOf	toms house
+5	4 miles	IsDistanceFrom	toms house
+6	Round Table	HasAddress	113 Anton Ct
+6	Round Table	HasType	pizza restaurant
+6	113 Anton Ct	IsAddressOf	Round Table
+6	pizza restaurant	IsTypeOf	Round Table
+6	Round Table	HasTraffic	no traffic
+6	Round Table	HasDistance	6 miles
+6	no traffic	IsTrafficOf	Round Table
+6	6 miles	IsDistanceFrom	Round Table
+7	Dish Parking	HasAddress	550 Alester Ave
+7	Dish Parking	HasType	parking garage
+7	550 Alester Ave	IsAddressOf	Dish Parking
+7	parking garage	IsTypeOf	Dish Parking
+7	Dish Parking	HasTraffic	heavy traffic
+7	Dish Parking	HasDistance	4 miles
+7	heavy traffic	IsTrafficOf	Dish Parking
+7	4 miles	IsDistanceFrom	Dish Parking
+-1	today	IsEqualTo	monday

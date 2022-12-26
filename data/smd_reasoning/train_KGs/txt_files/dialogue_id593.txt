@@ -1,0 +1,57 @@
+0	Valero	HasAddress	200 Alester Ave
+0	Valero	HasType	gas station
+0	200 Alester Ave	IsAddressOf	Valero
+0	gas station	IsTypeOf	Valero
+0	Valero	HasTraffic	no traffic
+0	Valero	HasDistance	1 miles
+0	no traffic	IsTrafficOf	Valero
+0	1 miles	IsDistanceFrom	Valero
+1	Jing Jing	HasAddress	113 Arbol Dr
+1	Jing Jing	HasType	chinese restaurant
+1	113 Arbol Dr	IsAddressOf	Jing Jing
+1	chinese restaurant	IsTypeOf	Jing Jing
+1	Jing Jing	HasTraffic	no traffic
+1	Jing Jing	HasDistance	5 miles
+1	no traffic	IsTrafficOf	Jing Jing
+1	5 miles	IsDistanceFrom	Jing Jing
+2	Whole Foods	HasAddress	819 Alma St
+2	Whole Foods	HasType	grocery store
+2	819 Alma St	IsAddressOf	Whole Foods
+2	grocery store	IsTypeOf	Whole Foods
+2	Whole Foods	HasTraffic	heavy traffic
+2	Whole Foods	HasDistance	3 miles
+2	heavy traffic	IsTrafficOf	Whole Foods
+2	3 miles	IsDistanceFrom	Whole Foods
+3	5677 southwest 4th street	HasAddress	5677 southwest 4th street
+3	5677 southwest 4th street	HasType	certain address
+3	5677 southwest 4th street	IsAddressOf	5677 southwest 4th street
+3	certain address	IsTypeOf	5677 southwest 4th street
+3	5677 southwest 4th street	HasTraffic	moderate traffic
+3	5677 southwest 4th street	HasDistance	4 miles
+3	moderate traffic	IsTrafficOf	5677 southwest 4th street
+3	4 miles	IsDistanceFrom	5677 southwest 4th street
+4	Chevron	HasAddress	783 Arcadia Pl
+4	Chevron	HasType	gas station
+4	783 Arcadia Pl	IsAddressOf	Chevron
+4	gas station	IsTypeOf	Chevron
+4	Chevron	HasTraffic	heavy traffic
+4	Chevron	HasDistance	2 miles
+4	heavy traffic	IsTrafficOf	Chevron
+4	2 miles	IsDistanceFrom	Chevron
+5	Four Seasons	HasAddress	465 Arcadia Pl
+5	Four Seasons	HasType	rest stop
+5	465 Arcadia Pl	IsAddressOf	Four Seasons
+5	rest stop	IsTypeOf	Four Seasons
+5	Four Seasons	HasTraffic	heavy traffic
+5	Four Seasons	HasDistance	6 miles
+5	heavy traffic	IsTrafficOf	Four Seasons
+5	6 miles	IsDistanceFrom	Four Seasons
+6	5672 barringer street	HasAddress	5672 barringer street
+6	5672 barringer street	HasType	certain address
+6	5672 barringer street	IsAddressOf	5672 barringer street
+6	certain address	IsTypeOf	5672 barringer street
+6	5672 barringer street	HasTraffic	moderate traffic
+6	5672 barringer street	HasDistance	2 miles
+6	moderate traffic	IsTrafficOf	5672 barringer street
+6	2 miles	IsDistanceFrom	5672 barringer street
+-1	today	IsEqualTo	monday

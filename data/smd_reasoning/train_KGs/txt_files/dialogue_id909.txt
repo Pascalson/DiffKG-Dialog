@@ -1,0 +1,65 @@
+0	The Clement Hotel	HasAddress	657 Ames Ave
+0	The Clement Hotel	HasType	rest stop
+0	657 Ames Ave	IsAddressOf	The Clement Hotel
+0	rest stop	IsTypeOf	The Clement Hotel
+0	The Clement Hotel	HasTraffic	heavy traffic
+0	The Clement Hotel	HasDistance	5 miles
+0	heavy traffic	IsTrafficOf	The Clement Hotel
+0	5 miles	IsDistanceFrom	The Clement Hotel
+1	Pizza Chicago	HasAddress	915 Arbol Dr
+1	Pizza Chicago	HasType	pizza restaurant
+1	915 Arbol Dr	IsAddressOf	Pizza Chicago
+1	pizza restaurant	IsTypeOf	Pizza Chicago
+1	Pizza Chicago	HasTraffic	road block nearby
+1	Pizza Chicago	HasDistance	6 miles
+1	road block nearby	IsTrafficOf	Pizza Chicago
+1	6 miles	IsDistanceFrom	Pizza Chicago
+2	Whole Foods	HasAddress	819 Alma St
+2	Whole Foods	HasType	grocery store
+2	819 Alma St	IsAddressOf	Whole Foods
+2	grocery store	IsTypeOf	Whole Foods
+2	Whole Foods	HasTraffic	no traffic
+2	Whole Foods	HasDistance	4 miles
+2	no traffic	IsTrafficOf	Whole Foods
+2	4 miles	IsDistanceFrom	Whole Foods
+3	Civic Center Garage	HasAddress	270 Altaire Walk
+3	Civic Center Garage	HasType	parking garage
+3	270 Altaire Walk	IsAddressOf	Civic Center Garage
+3	parking garage	IsTypeOf	Civic Center Garage
+3	Civic Center Garage	HasTraffic	moderate traffic
+3	Civic Center Garage	HasDistance	4 miles
+3	moderate traffic	IsTrafficOf	Civic Center Garage
+3	4 miles	IsDistanceFrom	Civic Center Garage
+4	jills house	HasAddress	347 Alta Mesa Ave
+4	jills house	HasType	friends house
+4	347 Alta Mesa Ave	IsAddressOf	jills house
+4	friends house	IsTypeOf	jills house
+4	jills house	HasTraffic	heavy traffic
+4	jills house	HasDistance	1 miles
+4	heavy traffic	IsTrafficOf	jills house
+4	1 miles	IsDistanceFrom	jills house
+5	Panda Express	HasAddress	842 Arrowhead Way
+5	Panda Express	HasType	chinese restaurant
+5	842 Arrowhead Way	IsAddressOf	Panda Express
+5	chinese restaurant	IsTypeOf	Panda Express
+5	Panda Express	HasTraffic	moderate traffic
+5	Panda Express	HasDistance	3 miles
+5	moderate traffic	IsTrafficOf	Panda Express
+5	3 miles	IsDistanceFrom	Panda Express
+6	Teavana	HasAddress	145 Amherst St
+6	Teavana	HasType	coffee or tea place
+6	145 Amherst St	IsAddressOf	Teavana
+6	coffee or tea place	IsTypeOf	Teavana
+6	Teavana	HasTraffic	car collision nearby
+6	Teavana	HasDistance	6 miles
+6	car collision nearby	IsTrafficOf	Teavana
+6	6 miles	IsDistanceFrom	Teavana
+7	Dominos	HasAddress	776 Arastradero Rd
+7	Dominos	HasType	pizza restaurant
+7	776 Arastradero Rd	IsAddressOf	Dominos
+7	pizza restaurant	IsTypeOf	Dominos
+7	Dominos	HasTraffic	heavy traffic
+7	Dominos	HasDistance	1 miles
+7	heavy traffic	IsTrafficOf	Dominos
+7	1 miles	IsDistanceFrom	Dominos
+-1	today	IsEqualTo	monday

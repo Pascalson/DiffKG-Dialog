@@ -1,0 +1,65 @@
+0	toms house	HasAddress	580 Van Ness Ave
+0	toms house	HasType	friends house
+0	580 Van Ness Ave	IsAddressOf	toms house
+0	friends house	IsTypeOf	toms house
+0	toms house	HasTraffic	no traffic
+0	toms house	HasDistance	5 miles
+0	no traffic	IsTrafficOf	toms house
+0	5 miles	IsDistanceFrom	toms house
+1	Safeway	HasAddress	452 Arcadia Pl
+1	Safeway	HasType	grocery store
+1	452 Arcadia Pl	IsAddressOf	Safeway
+1	grocery store	IsTypeOf	Safeway
+1	Safeway	HasTraffic	moderate traffic
+1	Safeway	HasDistance	5 miles
+1	moderate traffic	IsTrafficOf	Safeway
+1	5 miles	IsDistanceFrom	Safeway
+2	Chevron	HasAddress	783 Arcadia Pl
+2	Chevron	HasType	gas station
+2	783 Arcadia Pl	IsAddressOf	Chevron
+2	gas station	IsTypeOf	Chevron
+2	Chevron	HasTraffic	heavy traffic
+2	Chevron	HasDistance	3 miles
+2	heavy traffic	IsTrafficOf	Chevron
+2	3 miles	IsDistanceFrom	Chevron
+3	Peets Coffee	HasAddress	9981 Archuleta Ave
+3	Peets Coffee	HasType	coffee or tea place
+3	9981 Archuleta Ave	IsAddressOf	Peets Coffee
+3	coffee or tea place	IsTypeOf	Peets Coffee
+3	Peets Coffee	HasTraffic	heavy traffic
+3	Peets Coffee	HasDistance	6 miles
+3	heavy traffic	IsTrafficOf	Peets Coffee
+3	6 miles	IsDistanceFrom	Peets Coffee
+4	The Westin	HasAddress	329 El Camino Real
+4	The Westin	HasType	rest stop
+4	329 El Camino Real	IsAddressOf	The Westin
+4	rest stop	IsTypeOf	The Westin
+4	The Westin	HasTraffic	moderate traffic
+4	The Westin	HasDistance	3 miles
+4	moderate traffic	IsTrafficOf	The Westin
+4	3 miles	IsDistanceFrom	The Westin
+5	Panda Express	HasAddress	842 Arrowhead Way
+5	Panda Express	HasType	chinese restaurant
+5	842 Arrowhead Way	IsAddressOf	Panda Express
+5	chinese restaurant	IsTypeOf	Panda Express
+5	Panda Express	HasTraffic	road block nearby
+5	Panda Express	HasDistance	1 miles
+5	road block nearby	IsTrafficOf	Panda Express
+5	1 miles	IsDistanceFrom	Panda Express
+6	Pizza Chicago	HasAddress	915 Arbol Dr
+6	Pizza Chicago	HasType	pizza restaurant
+6	915 Arbol Dr	IsAddressOf	Pizza Chicago
+6	pizza restaurant	IsTypeOf	Pizza Chicago
+6	Pizza Chicago	HasTraffic	car collision nearby
+6	Pizza Chicago	HasDistance	5 miles
+6	car collision nearby	IsTrafficOf	Pizza Chicago
+6	5 miles	IsDistanceFrom	Pizza Chicago
+7	Four Seasons	HasAddress	465 Arcadia Pl
+7	Four Seasons	HasType	rest stop
+7	465 Arcadia Pl	IsAddressOf	Four Seasons
+7	rest stop	IsTypeOf	Four Seasons
+7	Four Seasons	HasTraffic	heavy traffic
+7	Four Seasons	HasDistance	2 miles
+7	heavy traffic	IsTrafficOf	Four Seasons
+7	2 miles	IsDistanceFrom	Four Seasons
+-1	today	IsEqualTo	monday

@@ -1,0 +1,57 @@
+0	Stanford Childrens Health	HasAddress	899 Ames Ct
+0	Stanford Childrens Health	HasType	hospital
+0	899 Ames Ct	IsAddressOf	Stanford Childrens Health
+0	hospital	IsTypeOf	Stanford Childrens Health
+0	Stanford Childrens Health	HasTraffic	moderate traffic
+0	Stanford Childrens Health	HasDistance	1 miles
+0	moderate traffic	IsTrafficOf	Stanford Childrens Health
+0	1 miles	IsDistanceFrom	Stanford Childrens Health
+1	5672 barringer street	HasAddress	5672 barringer street
+1	5672 barringer street	HasType	certain address
+1	5672 barringer street	IsAddressOf	5672 barringer street
+1	certain address	IsTypeOf	5672 barringer street
+1	5672 barringer street	HasTraffic	moderate traffic
+1	5672 barringer street	HasDistance	5 miles
+1	moderate traffic	IsTrafficOf	5672 barringer street
+1	5 miles	IsDistanceFrom	5672 barringer street
+2	Teavana	HasAddress	145 Amherst St
+2	Teavana	HasType	coffee or tea place
+2	145 Amherst St	IsAddressOf	Teavana
+2	coffee or tea place	IsTypeOf	Teavana
+2	Teavana	HasTraffic	heavy traffic
+2	Teavana	HasDistance	2 miles
+2	heavy traffic	IsTrafficOf	Teavana
+2	2 miles	IsDistanceFrom	Teavana
+3	Mandarin Roots	HasAddress	271 Springer Street
+3	Mandarin Roots	HasType	chinese restaurant
+3	271 Springer Street	IsAddressOf	Mandarin Roots
+3	chinese restaurant	IsTypeOf	Mandarin Roots
+3	Mandarin Roots	HasTraffic	moderate traffic
+3	Mandarin Roots	HasDistance	6 miles
+3	moderate traffic	IsTrafficOf	Mandarin Roots
+3	6 miles	IsDistanceFrom	Mandarin Roots
+4	Comfort Inn	HasAddress	753 University Ave
+4	Comfort Inn	HasType	rest stop
+4	753 University Ave	IsAddressOf	Comfort Inn
+4	rest stop	IsTypeOf	Comfort Inn
+4	Comfort Inn	HasTraffic	no traffic
+4	Comfort Inn	HasDistance	2 miles
+4	no traffic	IsTrafficOf	Comfort Inn
+4	2 miles	IsDistanceFrom	Comfort Inn
+5	Philz	HasAddress	583 Alester Ave
+5	Philz	HasType	coffee or tea place
+5	583 Alester Ave	IsAddressOf	Philz
+5	coffee or tea place	IsTypeOf	Philz
+5	Philz	HasTraffic	no traffic
+5	Philz	HasDistance	1 miles
+5	no traffic	IsTrafficOf	Philz
+5	1 miles	IsDistanceFrom	Philz
+6	jacks house	HasAddress	864 Almanor Ln
+6	jacks house	HasType	friends house
+6	864 Almanor Ln	IsAddressOf	jacks house
+6	friends house	IsTypeOf	jacks house
+6	jacks house	HasTraffic	no traffic
+6	jacks house	HasDistance	5 miles
+6	no traffic	IsTrafficOf	jacks house
+6	5 miles	IsDistanceFrom	jacks house
+-1	today	IsEqualTo	monday

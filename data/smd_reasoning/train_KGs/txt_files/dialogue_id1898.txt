@@ -1,0 +1,57 @@
+0	Starbucks	HasAddress	792 Bedoin Street
+0	Starbucks	HasType	coffee or tea place
+0	792 Bedoin Street	IsAddressOf	Starbucks
+0	coffee or tea place	IsTypeOf	Starbucks
+0	Starbucks	HasTraffic	moderate traffic
+0	Starbucks	HasDistance	6 miles
+0	moderate traffic	IsTrafficOf	Starbucks
+0	6 miles	IsDistanceFrom	Starbucks
+1	Cafe Venetia	HasAddress	269 Alger Dr
+1	Cafe Venetia	HasType	coffee or tea place
+1	269 Alger Dr	IsAddressOf	Cafe Venetia
+1	coffee or tea place	IsTypeOf	Cafe Venetia
+1	Cafe Venetia	HasTraffic	no traffic
+1	Cafe Venetia	HasDistance	2 miles
+1	no traffic	IsTrafficOf	Cafe Venetia
+1	2 miles	IsDistanceFrom	Cafe Venetia
+2	tai pan	HasAddress	830 Almanor Ln
+2	tai pan	HasType	chinese restaurant
+2	830 Almanor Ln	IsAddressOf	tai pan
+2	chinese restaurant	IsTypeOf	tai pan
+2	tai pan	HasTraffic	moderate traffic
+2	tai pan	HasDistance	2 miles
+2	moderate traffic	IsTrafficOf	tai pan
+2	2 miles	IsDistanceFrom	tai pan
+3	Coupa	HasAddress	394 Van Ness Ave
+3	Coupa	HasType	coffee or tea place
+3	394 Van Ness Ave	IsAddressOf	Coupa
+3	coffee or tea place	IsTypeOf	Coupa
+3	Coupa	HasTraffic	moderate traffic
+3	Coupa	HasDistance	2 miles
+3	moderate traffic	IsTrafficOf	Coupa
+3	2 miles	IsDistanceFrom	Coupa
+4	Trader Joes	HasAddress	408 University Ave
+4	Trader Joes	HasType	grocery store
+4	408 University Ave	IsAddressOf	Trader Joes
+4	grocery store	IsTypeOf	Trader Joes
+4	Trader Joes	HasTraffic	moderate traffic
+4	Trader Joes	HasDistance	3 miles
+4	moderate traffic	IsTrafficOf	Trader Joes
+4	3 miles	IsDistanceFrom	Trader Joes
+5	Jing Jing	HasAddress	113 Arbol Dr
+5	Jing Jing	HasType	chinese restaurant
+5	113 Arbol Dr	IsAddressOf	Jing Jing
+5	chinese restaurant	IsTypeOf	Jing Jing
+5	Jing Jing	HasTraffic	heavy traffic
+5	Jing Jing	HasDistance	6 miles
+5	heavy traffic	IsTrafficOf	Jing Jing
+5	6 miles	IsDistanceFrom	Jing Jing
+6	Philz	HasAddress	583 Alester Ave
+6	Philz	HasType	coffee or tea place
+6	583 Alester Ave	IsAddressOf	Philz
+6	coffee or tea place	IsTypeOf	Philz
+6	Philz	HasTraffic	moderate traffic
+6	Philz	HasDistance	5 miles
+6	moderate traffic	IsTrafficOf	Philz
+6	5 miles	IsDistanceFrom	Philz
+-1	today	IsEqualTo	monday

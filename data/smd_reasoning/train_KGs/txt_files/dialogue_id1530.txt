@@ -1,0 +1,57 @@
+0	The Clement Hotel	HasAddress	657 Ames Ave
+0	The Clement Hotel	HasType	rest stop
+0	657 Ames Ave	IsAddressOf	The Clement Hotel
+0	rest stop	IsTypeOf	The Clement Hotel
+0	The Clement Hotel	HasTraffic	no traffic
+0	The Clement Hotel	HasDistance	5 miles
+0	no traffic	IsTrafficOf	The Clement Hotel
+0	5 miles	IsDistanceFrom	The Clement Hotel
+1	Stanford Oval Parking	HasAddress	610 Amarillo Ave
+1	Stanford Oval Parking	HasType	parking garage
+1	610 Amarillo Ave	IsAddressOf	Stanford Oval Parking
+1	parking garage	IsTypeOf	Stanford Oval Parking
+1	Stanford Oval Parking	HasTraffic	no traffic
+1	Stanford Oval Parking	HasDistance	5 miles
+1	no traffic	IsTrafficOf	Stanford Oval Parking
+1	5 miles	IsDistanceFrom	Stanford Oval Parking
+2	Jing Jing	HasAddress	113 Arbol Dr
+2	Jing Jing	HasType	chinese restaurant
+2	113 Arbol Dr	IsAddressOf	Jing Jing
+2	chinese restaurant	IsTypeOf	Jing Jing
+2	Jing Jing	HasTraffic	heavy traffic
+2	Jing Jing	HasDistance	5 miles
+2	heavy traffic	IsTrafficOf	Jing Jing
+2	5 miles	IsDistanceFrom	Jing Jing
+3	Dominos	HasAddress	776 Arastradero Rd
+3	Dominos	HasType	pizza restaurant
+3	776 Arastradero Rd	IsAddressOf	Dominos
+3	pizza restaurant	IsTypeOf	Dominos
+3	Dominos	HasTraffic	no traffic
+3	Dominos	HasDistance	1 miles
+3	no traffic	IsTrafficOf	Dominos
+3	1 miles	IsDistanceFrom	Dominos
+4	Valero	HasAddress	200 Alester Ave
+4	Valero	HasType	gas station
+4	200 Alester Ave	IsAddressOf	Valero
+4	gas station	IsTypeOf	Valero
+4	Valero	HasTraffic	no traffic
+4	Valero	HasDistance	2 miles
+4	no traffic	IsTrafficOf	Valero
+4	2 miles	IsDistanceFrom	Valero
+5	P.F. Changs	HasAddress	669 El Camino Real
+5	P.F. Changs	HasType	chinese restaurant
+5	669 El Camino Real	IsAddressOf	P.F. Changs
+5	chinese restaurant	IsTypeOf	P.F. Changs
+5	P.F. Changs	HasTraffic	moderate traffic
+5	P.F. Changs	HasDistance	6 miles
+5	moderate traffic	IsTrafficOf	P.F. Changs
+5	6 miles	IsDistanceFrom	P.F. Changs
+6	Webster Garage	HasAddress	880 Ames Ct
+6	Webster Garage	HasType	parking garage
+6	880 Ames Ct	IsAddressOf	Webster Garage
+6	parking garage	IsTypeOf	Webster Garage
+6	Webster Garage	HasTraffic	heavy traffic
+6	Webster Garage	HasDistance	3 miles
+6	heavy traffic	IsTrafficOf	Webster Garage
+6	3 miles	IsDistanceFrom	Webster Garage
+-1	today	IsEqualTo	monday

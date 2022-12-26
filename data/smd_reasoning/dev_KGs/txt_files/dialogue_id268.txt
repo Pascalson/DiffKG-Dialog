@@ -1,0 +1,65 @@
+0	The Clement Hotel	HasAddress	657 Ames Ave
+0	The Clement Hotel	HasType	rest stop
+0	657 Ames Ave	IsAddressOf	The Clement Hotel
+0	rest stop	IsTypeOf	The Clement Hotel
+0	The Clement Hotel	HasTraffic	road block nearby
+0	The Clement Hotel	HasDistance	3 miles
+0	road block nearby	IsTrafficOf	The Clement Hotel
+0	3 miles	IsDistanceFrom	The Clement Hotel
+1	P.F. Changs	HasAddress	669 El Camino Real
+1	P.F. Changs	HasType	chinese restaurant
+1	669 El Camino Real	IsAddressOf	P.F. Changs
+1	chinese restaurant	IsTypeOf	P.F. Changs
+1	P.F. Changs	HasTraffic	moderate traffic
+1	P.F. Changs	HasDistance	1 miles
+1	moderate traffic	IsTrafficOf	P.F. Changs
+1	1 miles	IsDistanceFrom	P.F. Changs
+2	Travelers Lodge	HasAddress	333 Arbol Dr
+2	Travelers Lodge	HasType	rest stop
+2	333 Arbol Dr	IsAddressOf	Travelers Lodge
+2	rest stop	IsTypeOf	Travelers Lodge
+2	Travelers Lodge	HasTraffic	no traffic
+2	Travelers Lodge	HasDistance	3 miles
+2	no traffic	IsTrafficOf	Travelers Lodge
+2	3 miles	IsDistanceFrom	Travelers Lodge
+3	Papa Johns	HasAddress	110 Arastradero Rd
+3	Papa Johns	HasType	pizza restaurant
+3	110 Arastradero Rd	IsAddressOf	Papa Johns
+3	pizza restaurant	IsTypeOf	Papa Johns
+3	Papa Johns	HasTraffic	heavy traffic
+3	Papa Johns	HasDistance	6 miles
+3	heavy traffic	IsTrafficOf	Papa Johns
+3	6 miles	IsDistanceFrom	Papa Johns
+4	home	HasAddress	56 cadwell street
+4	home	HasType	home
+4	56 cadwell street	IsAddressOf	home
+4	home	IsTypeOf	home
+4	home	HasTraffic	heavy traffic
+4	home	HasDistance	4 miles
+4	heavy traffic	IsTrafficOf	home
+4	4 miles	IsDistanceFrom	home
+5	home	HasAddress	10 ames street
+5	home	HasType	home
+5	10 ames street	IsAddressOf	home
+5	home	IsTypeOf	home
+5	home	HasTraffic	road block nearby
+5	home	HasDistance	3 miles
+5	road block nearby	IsTrafficOf	home
+5	3 miles	IsDistanceFrom	home
+6	Topanga Mall	HasAddress	171 Oak Rd
+6	Topanga Mall	HasType	shopping center
+6	171 Oak Rd	IsAddressOf	Topanga Mall
+6	shopping center	IsTypeOf	Topanga Mall
+6	Topanga Mall	HasTraffic	no traffic
+6	Topanga Mall	HasDistance	6 miles
+6	no traffic	IsTrafficOf	Topanga Mall
+6	6 miles	IsDistanceFrom	Topanga Mall
+7	5677 southwest 4th street	HasAddress	5677 southwest 4th street
+7	5677 southwest 4th street	HasType	certain address
+7	5677 southwest 4th street	IsAddressOf	5677 southwest 4th street
+7	certain address	IsTypeOf	5677 southwest 4th street
+7	5677 southwest 4th street	HasTraffic	moderate traffic
+7	5677 southwest 4th street	HasDistance	4 miles
+7	moderate traffic	IsTrafficOf	5677 southwest 4th street
+7	4 miles	IsDistanceFrom	5677 southwest 4th street
+-1	today	IsEqualTo	monday

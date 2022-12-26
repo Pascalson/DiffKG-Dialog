@@ -1,0 +1,57 @@
+0	Panda Express	HasAddress	842 Arrowhead Way
+0	Panda Express	HasType	chinese restaurant
+0	842 Arrowhead Way	IsAddressOf	Panda Express
+0	chinese restaurant	IsTypeOf	Panda Express
+0	Panda Express	HasTraffic	moderate traffic
+0	Panda Express	HasDistance	1 miles
+0	moderate traffic	IsTrafficOf	Panda Express
+0	1 miles	IsDistanceFrom	Panda Express
+1	jills house	HasAddress	347 Alta Mesa Ave
+1	jills house	HasType	friends house
+1	347 Alta Mesa Ave	IsAddressOf	jills house
+1	friends house	IsTypeOf	jills house
+1	jills house	HasTraffic	heavy traffic
+1	jills house	HasDistance	4 miles
+1	heavy traffic	IsTrafficOf	jills house
+1	4 miles	IsDistanceFrom	jills house
+2	Dominos	HasAddress	776 Arastradero Rd
+2	Dominos	HasType	pizza restaurant
+2	776 Arastradero Rd	IsAddressOf	Dominos
+2	pizza restaurant	IsTypeOf	Dominos
+2	Dominos	HasTraffic	no traffic
+2	Dominos	HasDistance	1 miles
+2	no traffic	IsTrafficOf	Dominos
+2	1 miles	IsDistanceFrom	Dominos
+3	5677 springer street	HasAddress	5677 springer street
+3	5677 springer street	HasType	certain address
+3	5677 springer street	IsAddressOf	5677 springer street
+3	certain address	IsTypeOf	5677 springer street
+3	5677 springer street	HasTraffic	no traffic
+3	5677 springer street	HasDistance	1 miles
+3	no traffic	IsTrafficOf	5677 springer street
+3	1 miles	IsDistanceFrom	5677 springer street
+4	P.F. Changs	HasAddress	669 El Camino Real
+4	P.F. Changs	HasType	chinese restaurant
+4	669 El Camino Real	IsAddressOf	P.F. Changs
+4	chinese restaurant	IsTypeOf	P.F. Changs
+4	P.F. Changs	HasTraffic	moderate traffic
+4	P.F. Changs	HasDistance	6 miles
+4	moderate traffic	IsTrafficOf	P.F. Changs
+4	6 miles	IsDistanceFrom	P.F. Changs
+5	Trader Joes	HasAddress	408 University Ave
+5	Trader Joes	HasType	grocery store
+5	408 University Ave	IsAddressOf	Trader Joes
+5	grocery store	IsTypeOf	Trader Joes
+5	Trader Joes	HasTraffic	no traffic
+5	Trader Joes	HasDistance	5 miles
+5	no traffic	IsTrafficOf	Trader Joes
+5	5 miles	IsDistanceFrom	Trader Joes
+6	Webster Garage	HasAddress	880 Ames Ct
+6	Webster Garage	HasType	parking garage
+6	880 Ames Ct	IsAddressOf	Webster Garage
+6	parking garage	IsTypeOf	Webster Garage
+6	Webster Garage	HasTraffic	heavy traffic
+6	Webster Garage	HasDistance	3 miles
+6	heavy traffic	IsTrafficOf	Webster Garage
+6	3 miles	IsDistanceFrom	Webster Garage
+-1	today	IsEqualTo	monday

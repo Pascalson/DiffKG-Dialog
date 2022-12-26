@@ -1,0 +1,57 @@
+0	P.F. Changs	HasAddress	669 El Camino Real
+0	P.F. Changs	HasType	chinese restaurant
+0	669 El Camino Real	IsAddressOf	P.F. Changs
+0	chinese restaurant	IsTypeOf	P.F. Changs
+0	P.F. Changs	HasTraffic	no traffic
+0	P.F. Changs	HasDistance	6 miles
+0	no traffic	IsTrafficOf	P.F. Changs
+0	6 miles	IsDistanceFrom	P.F. Changs
+1	The Westin	HasAddress	329 El Camino Real
+1	The Westin	HasType	rest stop
+1	329 El Camino Real	IsAddressOf	The Westin
+1	rest stop	IsTypeOf	The Westin
+1	The Westin	HasTraffic	moderate traffic
+1	The Westin	HasDistance	4 miles
+1	moderate traffic	IsTrafficOf	The Westin
+1	4 miles	IsDistanceFrom	The Westin
+2	Dish Parking	HasAddress	550 Alester Ave
+2	Dish Parking	HasType	parking garage
+2	550 Alester Ave	IsAddressOf	Dish Parking
+2	parking garage	IsTypeOf	Dish Parking
+2	Dish Parking	HasTraffic	no traffic
+2	Dish Parking	HasDistance	2 miles
+2	no traffic	IsTrafficOf	Dish Parking
+2	2 miles	IsDistanceFrom	Dish Parking
+3	Chef Chu's	HasAddress	593 Arrowhead Way
+3	Chef Chu's	HasType	chinese restaurant
+3	593 Arrowhead Way	IsAddressOf	Chef Chu's
+3	chinese restaurant	IsTypeOf	Chef Chu's
+3	Chef Chu's	HasTraffic	no traffic
+3	Chef Chu's	HasDistance	5 miles
+3	no traffic	IsTrafficOf	Chef Chu's
+3	5 miles	IsDistanceFrom	Chef Chu's
+4	jacks house	HasAddress	864 Almanor Ln
+4	jacks house	HasType	friends house
+4	864 Almanor Ln	IsAddressOf	jacks house
+4	friends house	IsTypeOf	jacks house
+4	jacks house	HasTraffic	moderate traffic
+4	jacks house	HasDistance	4 miles
+4	moderate traffic	IsTrafficOf	jacks house
+4	4 miles	IsDistanceFrom	jacks house
+5	Pizza Hut	HasAddress	704 El Camino Real
+5	Pizza Hut	HasType	pizza restaurant
+5	704 El Camino Real	IsAddressOf	Pizza Hut
+5	pizza restaurant	IsTypeOf	Pizza Hut
+5	Pizza Hut	HasTraffic	no traffic
+5	Pizza Hut	HasDistance	4 miles
+5	no traffic	IsTrafficOf	Pizza Hut
+5	4 miles	IsDistanceFrom	Pizza Hut
+6	jills house	HasAddress	347 Alta Mesa Ave
+6	jills house	HasType	friends house
+6	347 Alta Mesa Ave	IsAddressOf	jills house
+6	friends house	IsTypeOf	jills house
+6	jills house	HasTraffic	moderate traffic
+6	jills house	HasDistance	2 miles
+6	moderate traffic	IsTrafficOf	jills house
+6	2 miles	IsDistanceFrom	jills house
+-1	today	IsEqualTo	monday

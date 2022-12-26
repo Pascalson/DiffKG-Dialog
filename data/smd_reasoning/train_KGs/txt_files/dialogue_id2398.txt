@@ -1,0 +1,57 @@
+0	Pizza My Heart	HasAddress	528 Anton Ct
+0	Pizza My Heart	HasType	pizza restaurant
+0	528 Anton Ct	IsAddressOf	Pizza My Heart
+0	pizza restaurant	IsTypeOf	Pizza My Heart
+0	Pizza My Heart	HasTraffic	moderate traffic
+0	Pizza My Heart	HasDistance	6 miles
+0	moderate traffic	IsTrafficOf	Pizza My Heart
+0	6 miles	IsDistanceFrom	Pizza My Heart
+1	Midtown Shopping Center	HasAddress	338 Alester Ave
+1	Midtown Shopping Center	HasType	shopping center
+1	338 Alester Ave	IsAddressOf	Midtown Shopping Center
+1	shopping center	IsTypeOf	Midtown Shopping Center
+1	Midtown Shopping Center	HasTraffic	no traffic
+1	Midtown Shopping Center	HasDistance	3 miles
+1	no traffic	IsTrafficOf	Midtown Shopping Center
+1	3 miles	IsDistanceFrom	Midtown Shopping Center
+2	P.F. Changs	HasAddress	669 El Camino Real
+2	P.F. Changs	HasType	chinese restaurant
+2	669 El Camino Real	IsAddressOf	P.F. Changs
+2	chinese restaurant	IsTypeOf	P.F. Changs
+2	P.F. Changs	HasTraffic	moderate traffic
+2	P.F. Changs	HasDistance	6 miles
+2	moderate traffic	IsTrafficOf	P.F. Changs
+2	6 miles	IsDistanceFrom	P.F. Changs
+3	Webster Garage	HasAddress	880 Ames Ct
+3	Webster Garage	HasType	parking garage
+3	880 Ames Ct	IsAddressOf	Webster Garage
+3	parking garage	IsTypeOf	Webster Garage
+3	Webster Garage	HasTraffic	heavy traffic
+3	Webster Garage	HasDistance	3 miles
+3	heavy traffic	IsTrafficOf	Webster Garage
+3	3 miles	IsDistanceFrom	Webster Garage
+4	Pizza Hut	HasAddress	704 El Camino Real
+4	Pizza Hut	HasType	pizza restaurant
+4	704 El Camino Real	IsAddressOf	Pizza Hut
+4	pizza restaurant	IsTypeOf	Pizza Hut
+4	Pizza Hut	HasTraffic	heavy traffic
+4	Pizza Hut	HasDistance	3 miles
+4	heavy traffic	IsTrafficOf	Pizza Hut
+4	3 miles	IsDistanceFrom	Pizza Hut
+5	Four Seasons	HasAddress	465 Arcadia Pl
+5	Four Seasons	HasType	rest stop
+5	465 Arcadia Pl	IsAddressOf	Four Seasons
+5	rest stop	IsTypeOf	Four Seasons
+5	Four Seasons	HasTraffic	heavy traffic
+5	Four Seasons	HasDistance	3 miles
+5	heavy traffic	IsTrafficOf	Four Seasons
+5	3 miles	IsDistanceFrom	Four Seasons
+6	Chef Chu's	HasAddress	593 Arrowhead Way
+6	Chef Chu's	HasType	chinese restaurant
+6	593 Arrowhead Way	IsAddressOf	Chef Chu's
+6	chinese restaurant	IsTypeOf	Chef Chu's
+6	Chef Chu's	HasTraffic	heavy traffic
+6	Chef Chu's	HasDistance	5 miles
+6	heavy traffic	IsTrafficOf	Chef Chu's
+6	5 miles	IsDistanceFrom	Chef Chu's
+-1	today	IsEqualTo	monday

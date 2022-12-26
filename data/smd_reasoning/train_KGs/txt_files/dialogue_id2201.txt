@@ -1,0 +1,57 @@
+0	Chef Chu's	HasAddress	593 Arrowhead Way
+0	Chef Chu's	HasType	chinese restaurant
+0	593 Arrowhead Way	IsAddressOf	Chef Chu's
+0	chinese restaurant	IsTypeOf	Chef Chu's
+0	Chef Chu's	HasTraffic	heavy traffic
+0	Chef Chu's	HasDistance	4 miles
+0	heavy traffic	IsTrafficOf	Chef Chu's
+0	4 miles	IsDistanceFrom	Chef Chu's
+1	Trader Joes	HasAddress	408 University Ave
+1	Trader Joes	HasType	grocery store
+1	408 University Ave	IsAddressOf	Trader Joes
+1	grocery store	IsTypeOf	Trader Joes
+1	Trader Joes	HasTraffic	no traffic
+1	Trader Joes	HasDistance	4 miles
+1	no traffic	IsTrafficOf	Trader Joes
+1	4 miles	IsDistanceFrom	Trader Joes
+2	Palo Alto Garage R	HasAddress	481 Amaranta Ave
+2	Palo Alto Garage R	HasType	parking garage
+2	481 Amaranta Ave	IsAddressOf	Palo Alto Garage R
+2	parking garage	IsTypeOf	Palo Alto Garage R
+2	Palo Alto Garage R	HasTraffic	heavy traffic
+2	Palo Alto Garage R	HasDistance	1 miles
+2	heavy traffic	IsTrafficOf	Palo Alto Garage R
+2	1 miles	IsDistanceFrom	Palo Alto Garage R
+3	Palo Alto Cafe	HasAddress	436 Alger Dr
+3	Palo Alto Cafe	HasType	coffee or tea place
+3	436 Alger Dr	IsAddressOf	Palo Alto Cafe
+3	coffee or tea place	IsTypeOf	Palo Alto Cafe
+3	Palo Alto Cafe	HasTraffic	heavy traffic
+3	Palo Alto Cafe	HasDistance	6 miles
+3	heavy traffic	IsTrafficOf	Palo Alto Cafe
+3	6 miles	IsDistanceFrom	Palo Alto Cafe
+4	Mandarin Roots	HasAddress	271 Springer Street
+4	Mandarin Roots	HasType	chinese restaurant
+4	271 Springer Street	IsAddressOf	Mandarin Roots
+4	chinese restaurant	IsTypeOf	Mandarin Roots
+4	Mandarin Roots	HasTraffic	moderate traffic
+4	Mandarin Roots	HasDistance	4 miles
+4	moderate traffic	IsTrafficOf	Mandarin Roots
+4	4 miles	IsDistanceFrom	Mandarin Roots
+5	Whole Foods	HasAddress	819 Alma St
+5	Whole Foods	HasType	grocery store
+5	819 Alma St	IsAddressOf	Whole Foods
+5	grocery store	IsTypeOf	Whole Foods
+5	Whole Foods	HasTraffic	heavy traffic
+5	Whole Foods	HasDistance	2 miles
+5	heavy traffic	IsTrafficOf	Whole Foods
+5	2 miles	IsDistanceFrom	Whole Foods
+6	Stanford Childrens Health	HasAddress	899 Ames Ct
+6	Stanford Childrens Health	HasType	hospital
+6	899 Ames Ct	IsAddressOf	Stanford Childrens Health
+6	hospital	IsTypeOf	Stanford Childrens Health
+6	Stanford Childrens Health	HasTraffic	no traffic
+6	Stanford Childrens Health	HasDistance	4 miles
+6	no traffic	IsTrafficOf	Stanford Childrens Health
+6	4 miles	IsDistanceFrom	Stanford Childrens Health
+-1	today	IsEqualTo	monday

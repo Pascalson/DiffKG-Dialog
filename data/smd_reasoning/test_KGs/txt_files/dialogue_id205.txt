@@ -1,0 +1,65 @@
+0	Midtown Shopping Center	HasAddress	338 Alester Ave
+0	Midtown Shopping Center	HasType	shopping center
+0	338 Alester Ave	IsAddressOf	Midtown Shopping Center
+0	shopping center	IsTypeOf	Midtown Shopping Center
+0	Midtown Shopping Center	HasTraffic	road block nearby
+0	Midtown Shopping Center	HasDistance	6 miles
+0	road block nearby	IsTrafficOf	Midtown Shopping Center
+0	6 miles	IsDistanceFrom	Midtown Shopping Center
+1	Papa Johns	HasAddress	110 Arastradero Rd
+1	Papa Johns	HasType	pizza restaurant
+1	110 Arastradero Rd	IsAddressOf	Papa Johns
+1	pizza restaurant	IsTypeOf	Papa Johns
+1	Papa Johns	HasTraffic	road block nearby
+1	Papa Johns	HasDistance	4 miles
+1	road block nearby	IsTrafficOf	Papa Johns
+1	4 miles	IsDistanceFrom	Papa Johns
+2	Travelers Lodge	HasAddress	333 Arbol Dr
+2	Travelers Lodge	HasType	rest stop
+2	333 Arbol Dr	IsAddressOf	Travelers Lodge
+2	rest stop	IsTypeOf	Travelers Lodge
+2	Travelers Lodge	HasTraffic	moderate traffic
+2	Travelers Lodge	HasDistance	6 miles
+2	moderate traffic	IsTrafficOf	Travelers Lodge
+2	6 miles	IsDistanceFrom	Travelers Lodge
+3	Chevron	HasAddress	783 Arcadia Pl
+3	Chevron	HasType	gas station
+3	783 Arcadia Pl	IsAddressOf	Chevron
+3	gas station	IsTypeOf	Chevron
+3	Chevron	HasTraffic	car collision nearby
+3	Chevron	HasDistance	2 miles
+3	car collision nearby	IsTrafficOf	Chevron
+3	2 miles	IsDistanceFrom	Chevron
+4	Ravenswood Shopping Center	HasAddress	434 Arastradero Rd
+4	Ravenswood Shopping Center	HasType	shopping center
+4	434 Arastradero Rd	IsAddressOf	Ravenswood Shopping Center
+4	shopping center	IsTypeOf	Ravenswood Shopping Center
+4	Ravenswood Shopping Center	HasTraffic	heavy traffic
+4	Ravenswood Shopping Center	HasDistance	1 miles
+4	heavy traffic	IsTrafficOf	Ravenswood Shopping Center
+4	1 miles	IsDistanceFrom	Ravenswood Shopping Center
+5	Dish Parking	HasAddress	550 Alester Ave
+5	Dish Parking	HasType	parking garage
+5	550 Alester Ave	IsAddressOf	Dish Parking
+5	parking garage	IsTypeOf	Dish Parking
+5	Dish Parking	HasTraffic	road block nearby
+5	Dish Parking	HasDistance	5 miles
+5	road block nearby	IsTrafficOf	Dish Parking
+5	5 miles	IsDistanceFrom	Dish Parking
+6	The Westin	HasAddress	329 El Camino Real
+6	The Westin	HasType	rest stop
+6	329 El Camino Real	IsAddressOf	The Westin
+6	rest stop	IsTypeOf	The Westin
+6	The Westin	HasTraffic	road block nearby
+6	The Westin	HasDistance	7 miles
+6	road block nearby	IsTrafficOf	The Westin
+6	7 miles	IsDistanceFrom	The Westin
+7	Teavana	HasAddress	145 Amherst St
+7	Teavana	HasType	coffee or tea place
+7	145 Amherst St	IsAddressOf	Teavana
+7	coffee or tea place	IsTypeOf	Teavana
+7	Teavana	HasTraffic	road block nearby
+7	Teavana	HasDistance	1 miles
+7	road block nearby	IsTrafficOf	Teavana
+7	1 miles	IsDistanceFrom	Teavana
+-1	today	IsEqualTo	monday

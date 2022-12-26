@@ -1,0 +1,65 @@
+0	Jing Jing	HasAddress	113 Arbol Dr
+0	Jing Jing	HasType	chinese restaurant
+0	113 Arbol Dr	IsAddressOf	Jing Jing
+0	chinese restaurant	IsTypeOf	Jing Jing
+0	Jing Jing	HasTraffic	heavy traffic
+0	Jing Jing	HasDistance	3 miles
+0	heavy traffic	IsTrafficOf	Jing Jing
+0	3 miles	IsDistanceFrom	Jing Jing
+1	Trader Joes	HasAddress	408 University Ave
+1	Trader Joes	HasType	grocery store
+1	408 University Ave	IsAddressOf	Trader Joes
+1	grocery store	IsTypeOf	Trader Joes
+1	Trader Joes	HasTraffic	road block nearby
+1	Trader Joes	HasDistance	5 miles
+1	road block nearby	IsTrafficOf	Trader Joes
+1	5 miles	IsDistanceFrom	Trader Joes
+2	Sigona Farmers Market	HasAddress	638 Amherst St
+2	Sigona Farmers Market	HasType	grocery store
+2	638 Amherst St	IsAddressOf	Sigona Farmers Market
+2	grocery store	IsTypeOf	Sigona Farmers Market
+2	Sigona Farmers Market	HasTraffic	no traffic
+2	Sigona Farmers Market	HasDistance	6 miles
+2	no traffic	IsTrafficOf	Sigona Farmers Market
+2	6 miles	IsDistanceFrom	Sigona Farmers Market
+3	Pizza Chicago	HasAddress	915 Arbol Dr
+3	Pizza Chicago	HasType	pizza restaurant
+3	915 Arbol Dr	IsAddressOf	Pizza Chicago
+3	pizza restaurant	IsTypeOf	Pizza Chicago
+3	Pizza Chicago	HasTraffic	car collision nearby
+3	Pizza Chicago	HasDistance	6 miles
+3	car collision nearby	IsTrafficOf	Pizza Chicago
+3	6 miles	IsDistanceFrom	Pizza Chicago
+4	Chef Chu's	HasAddress	593 Arrowhead Way
+4	Chef Chu's	HasType	chinese restaurant
+4	593 Arrowhead Way	IsAddressOf	Chef Chu's
+4	chinese restaurant	IsTypeOf	Chef Chu's
+4	Chef Chu's	HasTraffic	no traffic
+4	Chef Chu's	HasDistance	5 miles
+4	no traffic	IsTrafficOf	Chef Chu's
+4	5 miles	IsDistanceFrom	Chef Chu's
+5	Town and Country	HasAddress	383 University Ave
+5	Town and Country	HasType	shopping center
+5	383 University Ave	IsAddressOf	Town and Country
+5	shopping center	IsTypeOf	Town and Country
+5	Town and Country	HasTraffic	no traffic
+5	Town and Country	HasDistance	5 miles
+5	no traffic	IsTrafficOf	Town and Country
+5	5 miles	IsDistanceFrom	Town and Country
+6	Topanga Mall	HasAddress	171 Oak Rd
+6	Topanga Mall	HasType	shopping center
+6	171 Oak Rd	IsAddressOf	Topanga Mall
+6	shopping center	IsTypeOf	Topanga Mall
+6	Topanga Mall	HasTraffic	heavy traffic
+6	Topanga Mall	HasDistance	1 miles
+6	heavy traffic	IsTrafficOf	Topanga Mall
+6	1 miles	IsDistanceFrom	Topanga Mall
+7	5677 southwest 4th street	HasAddress	5677 southwest 4th street
+7	5677 southwest 4th street	HasType	certain address
+7	5677 southwest 4th street	IsAddressOf	5677 southwest 4th street
+7	certain address	IsTypeOf	5677 southwest 4th street
+7	5677 southwest 4th street	HasTraffic	no traffic
+7	5677 southwest 4th street	HasDistance	2 miles
+7	no traffic	IsTrafficOf	5677 southwest 4th street
+7	2 miles	IsDistanceFrom	5677 southwest 4th street
+-1	today	IsEqualTo	monday

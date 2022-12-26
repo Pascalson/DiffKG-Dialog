@@ -1,0 +1,57 @@
+0	Four Seasons	HasAddress	465 Arcadia Pl
+0	Four Seasons	HasType	rest stop
+0	465 Arcadia Pl	IsAddressOf	Four Seasons
+0	rest stop	IsTypeOf	Four Seasons
+0	Four Seasons	HasTraffic	heavy traffic
+0	Four Seasons	HasDistance	2 miles
+0	heavy traffic	IsTrafficOf	Four Seasons
+0	2 miles	IsDistanceFrom	Four Seasons
+1	Panda Express	HasAddress	842 Arrowhead Way
+1	Panda Express	HasType	chinese restaurant
+1	842 Arrowhead Way	IsAddressOf	Panda Express
+1	chinese restaurant	IsTypeOf	Panda Express
+1	Panda Express	HasTraffic	heavy traffic
+1	Panda Express	HasDistance	4 miles
+1	heavy traffic	IsTrafficOf	Panda Express
+1	4 miles	IsDistanceFrom	Panda Express
+2	Dominos	HasAddress	776 Arastradero Rd
+2	Dominos	HasType	pizza restaurant
+2	776 Arastradero Rd	IsAddressOf	Dominos
+2	pizza restaurant	IsTypeOf	Dominos
+2	Dominos	HasTraffic	no traffic
+2	Dominos	HasDistance	6 miles
+2	no traffic	IsTrafficOf	Dominos
+2	6 miles	IsDistanceFrom	Dominos
+3	Cafe Venetia	HasAddress	269 Alger Dr
+3	Cafe Venetia	HasType	coffee or tea place
+3	269 Alger Dr	IsAddressOf	Cafe Venetia
+3	coffee or tea place	IsTypeOf	Cafe Venetia
+3	Cafe Venetia	HasTraffic	heavy traffic
+3	Cafe Venetia	HasDistance	6 miles
+3	heavy traffic	IsTrafficOf	Cafe Venetia
+3	6 miles	IsDistanceFrom	Cafe Venetia
+4	home	HasAddress	5671 barringer street
+4	home	HasType	home
+4	5671 barringer street	IsAddressOf	home
+4	home	IsTypeOf	home
+4	home	HasTraffic	moderate traffic
+4	home	HasDistance	4 miles
+4	moderate traffic	IsTrafficOf	home
+4	4 miles	IsDistanceFrom	home
+5	Round Table	HasAddress	113 Anton Ct
+5	Round Table	HasType	pizza restaurant
+5	113 Anton Ct	IsAddressOf	Round Table
+5	pizza restaurant	IsTypeOf	Round Table
+5	Round Table	HasTraffic	moderate traffic
+5	Round Table	HasDistance	5 miles
+5	moderate traffic	IsTrafficOf	Round Table
+5	5 miles	IsDistanceFrom	Round Table
+6	Coupa	HasAddress	394 Van Ness Ave
+6	Coupa	HasType	coffee or tea place
+6	394 Van Ness Ave	IsAddressOf	Coupa
+6	coffee or tea place	IsTypeOf	Coupa
+6	Coupa	HasTraffic	moderate traffic
+6	Coupa	HasDistance	3 miles
+6	moderate traffic	IsTrafficOf	Coupa
+6	3 miles	IsDistanceFrom	Coupa
+-1	today	IsEqualTo	monday

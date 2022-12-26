@@ -1,0 +1,57 @@
+0	P.F. Changs	HasAddress	669 El Camino Real
+0	P.F. Changs	HasType	chinese restaurant
+0	669 El Camino Real	IsAddressOf	P.F. Changs
+0	chinese restaurant	IsTypeOf	P.F. Changs
+0	P.F. Changs	HasTraffic	no traffic
+0	P.F. Changs	HasDistance	4 miles
+0	no traffic	IsTrafficOf	P.F. Changs
+0	4 miles	IsDistanceFrom	P.F. Changs
+1	5677 springer street	HasAddress	5677 springer street
+1	5677 springer street	HasType	certain address
+1	5677 springer street	IsAddressOf	5677 springer street
+1	certain address	IsTypeOf	5677 springer street
+1	5677 springer street	HasTraffic	heavy traffic
+1	5677 springer street	HasDistance	4 miles
+1	heavy traffic	IsTrafficOf	5677 springer street
+1	4 miles	IsDistanceFrom	5677 springer street
+2	Panda Express	HasAddress	842 Arrowhead Way
+2	Panda Express	HasType	chinese restaurant
+2	842 Arrowhead Way	IsAddressOf	Panda Express
+2	chinese restaurant	IsTypeOf	Panda Express
+2	Panda Express	HasTraffic	heavy traffic
+2	Panda Express	HasDistance	4 miles
+2	heavy traffic	IsTrafficOf	Panda Express
+2	4 miles	IsDistanceFrom	Panda Express
+3	jills house	HasAddress	347 Alta Mesa Ave
+3	jills house	HasType	friends house
+3	347 Alta Mesa Ave	IsAddressOf	jills house
+3	friends house	IsTypeOf	jills house
+3	jills house	HasTraffic	heavy traffic
+3	jills house	HasDistance	5 miles
+3	heavy traffic	IsTrafficOf	jills house
+3	5 miles	IsDistanceFrom	jills house
+4	Safeway	HasAddress	452 Arcadia Pl
+4	Safeway	HasType	grocery store
+4	452 Arcadia Pl	IsAddressOf	Safeway
+4	grocery store	IsTypeOf	Safeway
+4	Safeway	HasTraffic	heavy traffic
+4	Safeway	HasDistance	1 miles
+4	heavy traffic	IsTrafficOf	Safeway
+4	1 miles	IsDistanceFrom	Safeway
+5	5672 barringer street	HasAddress	5672 barringer street
+5	5672 barringer street	HasType	certain address
+5	5672 barringer street	IsAddressOf	5672 barringer street
+5	certain address	IsTypeOf	5672 barringer street
+5	5672 barringer street	HasTraffic	heavy traffic
+5	5672 barringer street	HasDistance	5 miles
+5	heavy traffic	IsTrafficOf	5672 barringer street
+5	5 miles	IsDistanceFrom	5672 barringer street
+6	Coupa	HasAddress	394 Van Ness Ave
+6	Coupa	HasType	coffee or tea place
+6	394 Van Ness Ave	IsAddressOf	Coupa
+6	coffee or tea place	IsTypeOf	Coupa
+6	Coupa	HasTraffic	heavy traffic
+6	Coupa	HasDistance	2 miles
+6	heavy traffic	IsTrafficOf	Coupa
+6	2 miles	IsDistanceFrom	Coupa
+-1	today	IsEqualTo	monday

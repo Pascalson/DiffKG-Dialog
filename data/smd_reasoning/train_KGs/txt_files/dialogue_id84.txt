@@ -1,0 +1,65 @@
+0	Palo Alto Cafe	HasAddress	436 Alger Dr
+0	Palo Alto Cafe	HasType	coffee or tea place
+0	436 Alger Dr	IsAddressOf	Palo Alto Cafe
+0	coffee or tea place	IsTypeOf	Palo Alto Cafe
+0	Palo Alto Cafe	HasTraffic	car collision nearby
+0	Palo Alto Cafe	HasDistance	3 miles
+0	car collision nearby	IsTrafficOf	Palo Alto Cafe
+0	3 miles	IsDistanceFrom	Palo Alto Cafe
+1	Round Table	HasAddress	113 Anton Ct
+1	Round Table	HasType	pizza restaurant
+1	113 Anton Ct	IsAddressOf	Round Table
+1	pizza restaurant	IsTypeOf	Round Table
+1	Round Table	HasTraffic	road block nearby
+1	Round Table	HasDistance	1 miles
+1	road block nearby	IsTrafficOf	Round Table
+1	1 miles	IsDistanceFrom	Round Table
+2	home	HasAddress	56 cadwell street
+2	home	HasType	home
+2	56 cadwell street	IsAddressOf	home
+2	home	IsTypeOf	home
+2	home	HasTraffic	road block nearby
+2	home	HasDistance	4 miles
+2	road block nearby	IsTrafficOf	home
+2	4 miles	IsDistanceFrom	home
+3	Midtown Shopping Center	HasAddress	338 Alester Ave
+3	Midtown Shopping Center	HasType	shopping center
+3	338 Alester Ave	IsAddressOf	Midtown Shopping Center
+3	shopping center	IsTypeOf	Midtown Shopping Center
+3	Midtown Shopping Center	HasTraffic	road block nearby
+3	Midtown Shopping Center	HasDistance	5 miles
+3	road block nearby	IsTrafficOf	Midtown Shopping Center
+3	5 miles	IsDistanceFrom	Midtown Shopping Center
+4	Cafe Venetia	HasAddress	269 Alger Dr
+4	Cafe Venetia	HasType	coffee or tea place
+4	269 Alger Dr	IsAddressOf	Cafe Venetia
+4	coffee or tea place	IsTypeOf	Cafe Venetia
+4	Cafe Venetia	HasTraffic	no traffic
+4	Cafe Venetia	HasDistance	1 miles
+4	no traffic	IsTrafficOf	Cafe Venetia
+4	1 miles	IsDistanceFrom	Cafe Venetia
+5	Sigona Farmers Market	HasAddress	638 Amherst St
+5	Sigona Farmers Market	HasType	grocery store
+5	638 Amherst St	IsAddressOf	Sigona Farmers Market
+5	grocery store	IsTypeOf	Sigona Farmers Market
+5	Sigona Farmers Market	HasTraffic	no traffic
+5	Sigona Farmers Market	HasDistance	5 miles
+5	no traffic	IsTrafficOf	Sigona Farmers Market
+5	5 miles	IsDistanceFrom	Sigona Farmers Market
+6	5677 springer street	HasAddress	5677 springer street
+6	5677 springer street	HasType	certain address
+6	5677 springer street	IsAddressOf	5677 springer street
+6	certain address	IsTypeOf	5677 springer street
+6	5677 springer street	HasTraffic	road block nearby
+6	5677 springer street	HasDistance	4 miles
+6	road block nearby	IsTrafficOf	5677 springer street
+6	4 miles	IsDistanceFrom	5677 springer street
+7	jacks house	HasAddress	864 Almanor Ln
+7	jacks house	HasType	friends house
+7	864 Almanor Ln	IsAddressOf	jacks house
+7	friends house	IsTypeOf	jacks house
+7	jacks house	HasTraffic	moderate traffic
+7	jacks house	HasDistance	1 miles
+7	moderate traffic	IsTrafficOf	jacks house
+7	1 miles	IsDistanceFrom	jacks house
+-1	today	IsEqualTo	monday

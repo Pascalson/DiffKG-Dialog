@@ -1,0 +1,25 @@
+0	dentist appointment	HasTime	2pm
+0	2pm	IsTimeOf	dentist appointment
+0	dentist appointment	HasDate	wednesday
+0	wednesday	IsDateOf	dentist appointment
+1	lab appointment	HasTime	11am
+1	11am	IsTimeOf	lab appointment
+1	lab appointment	HasDate	monday
+1	monday	IsDateOf	lab appointment
+2	football activity	HasTime	11am
+2	11am	IsTimeOf	football activity
+2	football activity	HasDate	monday
+2	monday	IsDateOf	football activity
+3	optometrist appointment	HasTime	1pm
+3	1pm	IsTimeOf	optometrist appointment
+3	optometrist appointment	HasDate	wednesday
+3	wednesday	IsDateOf	optometrist appointment
+4	dentist appointment	HasTime	10am
+4	10am	IsTimeOf	dentist appointment
+4	dentist appointment	HasDate	friday
+4	friday	IsDateOf	dentist appointment
+5	taking medicine	HasTime	3pm
+5	3pm	IsTimeOf	taking medicine
+5	taking medicine	HasDate	monday
+5	monday	IsDateOf	taking medicine
+-1	today	IsEqualTo	monday

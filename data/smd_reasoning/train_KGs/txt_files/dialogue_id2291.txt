@@ -1,0 +1,65 @@
+0	Midtown Shopping Center	HasAddress	338 Alester Ave
+0	Midtown Shopping Center	HasType	shopping center
+0	338 Alester Ave	IsAddressOf	Midtown Shopping Center
+0	shopping center	IsTypeOf	Midtown Shopping Center
+0	Midtown Shopping Center	HasTraffic	car collision nearby
+0	Midtown Shopping Center	HasDistance	2 miles
+0	car collision nearby	IsTrafficOf	Midtown Shopping Center
+0	2 miles	IsDistanceFrom	Midtown Shopping Center
+1	Coupa	HasAddress	394 Van Ness Ave
+1	Coupa	HasType	coffee or tea place
+1	394 Van Ness Ave	IsAddressOf	Coupa
+1	coffee or tea place	IsTypeOf	Coupa
+1	Coupa	HasTraffic	heavy traffic
+1	Coupa	HasDistance	4 miles
+1	heavy traffic	IsTrafficOf	Coupa
+1	4 miles	IsDistanceFrom	Coupa
+2	76	HasAddress	91 El Camino Real
+2	76	HasType	gas station
+2	91 El Camino Real	IsAddressOf	76
+2	gas station	IsTypeOf	76
+2	76	HasTraffic	road block nearby
+2	76	HasDistance	5 miles
+2	road block nearby	IsTrafficOf	76
+2	5 miles	IsDistanceFrom	76
+3	home	HasAddress	5671 barringer street
+3	home	HasType	home
+3	5671 barringer street	IsAddressOf	home
+3	home	IsTypeOf	home
+3	home	HasTraffic	car collision nearby
+3	home	HasDistance	3 miles
+3	car collision nearby	IsTrafficOf	home
+3	3 miles	IsDistanceFrom	home
+4	Trader Joes	HasAddress	408 University Ave
+4	Trader Joes	HasType	grocery store
+4	408 University Ave	IsAddressOf	Trader Joes
+4	grocery store	IsTypeOf	Trader Joes
+4	Trader Joes	HasTraffic	no traffic
+4	Trader Joes	HasDistance	1 miles
+4	no traffic	IsTrafficOf	Trader Joes
+4	1 miles	IsDistanceFrom	Trader Joes
+5	Philz	HasAddress	583 Alester Ave
+5	Philz	HasType	coffee or tea place
+5	583 Alester Ave	IsAddressOf	Philz
+5	coffee or tea place	IsTypeOf	Philz
+5	Philz	HasTraffic	heavy traffic
+5	Philz	HasDistance	2 miles
+5	heavy traffic	IsTrafficOf	Philz
+5	2 miles	IsDistanceFrom	Philz
+6	Papa Johns	HasAddress	110 Arastradero Rd
+6	Papa Johns	HasType	pizza restaurant
+6	110 Arastradero Rd	IsAddressOf	Papa Johns
+6	pizza restaurant	IsTypeOf	Papa Johns
+6	Papa Johns	HasTraffic	car collision nearby
+6	Papa Johns	HasDistance	5 miles
+6	car collision nearby	IsTrafficOf	Papa Johns
+6	5 miles	IsDistanceFrom	Papa Johns
+7	5672 barringer street	HasAddress	5672 barringer street
+7	5672 barringer street	HasType	certain address
+7	5672 barringer street	IsAddressOf	5672 barringer street
+7	certain address	IsTypeOf	5672 barringer street
+7	5672 barringer street	HasTraffic	moderate traffic
+7	5672 barringer street	HasDistance	3 miles
+7	moderate traffic	IsTrafficOf	5672 barringer street
+7	3 miles	IsDistanceFrom	5672 barringer street
+-1	today	IsEqualTo	monday

@@ -1,0 +1,65 @@
+0	Comfort Inn	HasAddress	753 University Ave
+0	Comfort Inn	HasType	rest stop
+0	753 University Ave	IsAddressOf	Comfort Inn
+0	rest stop	IsTypeOf	Comfort Inn
+0	Comfort Inn	HasTraffic	heavy traffic
+0	Comfort Inn	HasDistance	3 miles
+0	heavy traffic	IsTrafficOf	Comfort Inn
+0	3 miles	IsDistanceFrom	Comfort Inn
+1	Pizza Chicago	HasAddress	915 Arbol Dr
+1	Pizza Chicago	HasType	pizza restaurant
+1	915 Arbol Dr	IsAddressOf	Pizza Chicago
+1	pizza restaurant	IsTypeOf	Pizza Chicago
+1	Pizza Chicago	HasTraffic	moderate traffic
+1	Pizza Chicago	HasDistance	1 miles
+1	moderate traffic	IsTrafficOf	Pizza Chicago
+1	1 miles	IsDistanceFrom	Pizza Chicago
+2	Teavana	HasAddress	145 Amherst St
+2	Teavana	HasType	coffee or tea place
+2	145 Amherst St	IsAddressOf	Teavana
+2	coffee or tea place	IsTypeOf	Teavana
+2	Teavana	HasTraffic	moderate traffic
+2	Teavana	HasDistance	5 miles
+2	moderate traffic	IsTrafficOf	Teavana
+2	5 miles	IsDistanceFrom	Teavana
+3	jills house	HasAddress	347 Alta Mesa Ave
+3	jills house	HasType	friends house
+3	347 Alta Mesa Ave	IsAddressOf	jills house
+3	friends house	IsTypeOf	jills house
+3	jills house	HasTraffic	no traffic
+3	jills house	HasDistance	6 miles
+3	no traffic	IsTrafficOf	jills house
+3	6 miles	IsDistanceFrom	jills house
+4	Coupa	HasAddress	394 Van Ness Ave
+4	Coupa	HasType	coffee or tea place
+4	394 Van Ness Ave	IsAddressOf	Coupa
+4	coffee or tea place	IsTypeOf	Coupa
+4	Coupa	HasTraffic	heavy traffic
+4	Coupa	HasDistance	6 miles
+4	heavy traffic	IsTrafficOf	Coupa
+4	6 miles	IsDistanceFrom	Coupa
+5	toms house	HasAddress	580 Van Ness Ave
+5	toms house	HasType	friends house
+5	580 Van Ness Ave	IsAddressOf	toms house
+5	friends house	IsTypeOf	toms house
+5	toms house	HasTraffic	moderate traffic
+5	toms house	HasDistance	1 miles
+5	moderate traffic	IsTrafficOf	toms house
+5	1 miles	IsDistanceFrom	toms house
+6	Webster Garage	HasAddress	880 Ames Ct
+6	Webster Garage	HasType	parking garage
+6	880 Ames Ct	IsAddressOf	Webster Garage
+6	parking garage	IsTypeOf	Webster Garage
+6	Webster Garage	HasTraffic	road block nearby
+6	Webster Garage	HasDistance	5 miles
+6	road block nearby	IsTrafficOf	Webster Garage
+6	5 miles	IsDistanceFrom	Webster Garage
+7	Stanford Express Care	HasAddress	214 El Camino Real
+7	Stanford Express Care	HasType	hospital
+7	214 El Camino Real	IsAddressOf	Stanford Express Care
+7	hospital	IsTypeOf	Stanford Express Care
+7	Stanford Express Care	HasTraffic	no traffic
+7	Stanford Express Care	HasDistance	5 miles
+7	no traffic	IsTrafficOf	Stanford Express Care
+7	5 miles	IsDistanceFrom	Stanford Express Care
+-1	today	IsEqualTo	monday

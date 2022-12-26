@@ -1,0 +1,57 @@
+0	Town and Country	HasAddress	383 University Ave
+0	Town and Country	HasType	shopping center
+0	383 University Ave	IsAddressOf	Town and Country
+0	shopping center	IsTypeOf	Town and Country
+0	Town and Country	HasTraffic	heavy traffic
+0	Town and Country	HasDistance	4 miles
+0	heavy traffic	IsTrafficOf	Town and Country
+0	4 miles	IsDistanceFrom	Town and Country
+1	Trader Joes	HasAddress	408 University Ave
+1	Trader Joes	HasType	grocery store
+1	408 University Ave	IsAddressOf	Trader Joes
+1	grocery store	IsTypeOf	Trader Joes
+1	Trader Joes	HasTraffic	moderate traffic
+1	Trader Joes	HasDistance	2 miles
+1	moderate traffic	IsTrafficOf	Trader Joes
+1	2 miles	IsDistanceFrom	Trader Joes
+2	Chevron	HasAddress	783 Arcadia Pl
+2	Chevron	HasType	gas station
+2	783 Arcadia Pl	IsAddressOf	Chevron
+2	gas station	IsTypeOf	Chevron
+2	Chevron	HasTraffic	moderate traffic
+2	Chevron	HasDistance	6 miles
+2	moderate traffic	IsTrafficOf	Chevron
+2	6 miles	IsDistanceFrom	Chevron
+3	Dish Parking	HasAddress	550 Alester Ave
+3	Dish Parking	HasType	parking garage
+3	550 Alester Ave	IsAddressOf	Dish Parking
+3	parking garage	IsTypeOf	Dish Parking
+3	Dish Parking	HasTraffic	heavy traffic
+3	Dish Parking	HasDistance	4 miles
+3	heavy traffic	IsTrafficOf	Dish Parking
+3	4 miles	IsDistanceFrom	Dish Parking
+4	Cafe Venetia	HasAddress	269 Alger Dr
+4	Cafe Venetia	HasType	coffee or tea place
+4	269 Alger Dr	IsAddressOf	Cafe Venetia
+4	coffee or tea place	IsTypeOf	Cafe Venetia
+4	Cafe Venetia	HasTraffic	heavy traffic
+4	Cafe Venetia	HasDistance	4 miles
+4	heavy traffic	IsTrafficOf	Cafe Venetia
+4	4 miles	IsDistanceFrom	Cafe Venetia
+5	Ravenswood Shopping Center	HasAddress	434 Arastradero Rd
+5	Ravenswood Shopping Center	HasType	shopping center
+5	434 Arastradero Rd	IsAddressOf	Ravenswood Shopping Center
+5	shopping center	IsTypeOf	Ravenswood Shopping Center
+5	Ravenswood Shopping Center	HasTraffic	no traffic
+5	Ravenswood Shopping Center	HasDistance	5 miles
+5	no traffic	IsTrafficOf	Ravenswood Shopping Center
+5	5 miles	IsDistanceFrom	Ravenswood Shopping Center
+6	The Westin	HasAddress	329 El Camino Real
+6	The Westin	HasType	rest stop
+6	329 El Camino Real	IsAddressOf	The Westin
+6	rest stop	IsTypeOf	The Westin
+6	The Westin	HasTraffic	no traffic
+6	The Westin	HasDistance	4 miles
+6	no traffic	IsTrafficOf	The Westin
+6	4 miles	IsDistanceFrom	The Westin
+-1	today	IsEqualTo	monday

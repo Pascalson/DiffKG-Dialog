@@ -1,0 +1,57 @@
+0	Civic Center Garage	HasAddress	270 Altaire Walk
+0	Civic Center Garage	HasType	parking garage
+0	270 Altaire Walk	IsAddressOf	Civic Center Garage
+0	parking garage	IsTypeOf	Civic Center Garage
+0	Civic Center Garage	HasTraffic	no traffic
+0	Civic Center Garage	HasDistance	4 miles
+0	no traffic	IsTrafficOf	Civic Center Garage
+0	4 miles	IsDistanceFrom	Civic Center Garage
+1	Jing Jing	HasAddress	113 Arbol Dr
+1	Jing Jing	HasType	chinese restaurant
+1	113 Arbol Dr	IsAddressOf	Jing Jing
+1	chinese restaurant	IsTypeOf	Jing Jing
+1	Jing Jing	HasTraffic	heavy traffic
+1	Jing Jing	HasDistance	5 miles
+1	heavy traffic	IsTrafficOf	Jing Jing
+1	5 miles	IsDistanceFrom	Jing Jing
+2	The Clement Hotel	HasAddress	657 Ames Ave
+2	The Clement Hotel	HasType	rest stop
+2	657 Ames Ave	IsAddressOf	The Clement Hotel
+2	rest stop	IsTypeOf	The Clement Hotel
+2	The Clement Hotel	HasTraffic	no traffic
+2	The Clement Hotel	HasDistance	5 miles
+2	no traffic	IsTrafficOf	The Clement Hotel
+2	5 miles	IsDistanceFrom	The Clement Hotel
+3	Stanford Childrens Health	HasAddress	899 Ames Ct
+3	Stanford Childrens Health	HasType	hospital
+3	899 Ames Ct	IsAddressOf	Stanford Childrens Health
+3	hospital	IsTypeOf	Stanford Childrens Health
+3	Stanford Childrens Health	HasTraffic	heavy traffic
+3	Stanford Childrens Health	HasDistance	5 miles
+3	heavy traffic	IsTrafficOf	Stanford Childrens Health
+3	5 miles	IsDistanceFrom	Stanford Childrens Health
+4	toms house	HasAddress	580 Van Ness Ave
+4	toms house	HasType	friends house
+4	580 Van Ness Ave	IsAddressOf	toms house
+4	friends house	IsTypeOf	toms house
+4	toms house	HasTraffic	no traffic
+4	toms house	HasDistance	1 miles
+4	no traffic	IsTrafficOf	toms house
+4	1 miles	IsDistanceFrom	toms house
+5	5672 barringer street	HasAddress	5672 barringer street
+5	5672 barringer street	HasType	certain address
+5	5672 barringer street	IsAddressOf	5672 barringer street
+5	certain address	IsTypeOf	5672 barringer street
+5	5672 barringer street	HasTraffic	heavy traffic
+5	5672 barringer street	HasDistance	5 miles
+5	heavy traffic	IsTrafficOf	5672 barringer street
+5	5 miles	IsDistanceFrom	5672 barringer street
+6	Round Table	HasAddress	113 Anton Ct
+6	Round Table	HasType	pizza restaurant
+6	113 Anton Ct	IsAddressOf	Round Table
+6	pizza restaurant	IsTypeOf	Round Table
+6	Round Table	HasTraffic	heavy traffic
+6	Round Table	HasDistance	2 miles
+6	heavy traffic	IsTrafficOf	Round Table
+6	2 miles	IsDistanceFrom	Round Table
+-1	today	IsEqualTo	monday

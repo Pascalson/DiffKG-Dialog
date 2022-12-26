@@ -1,0 +1,65 @@
+0	Papa Johns	HasAddress	110 Arastradero Rd
+0	Papa Johns	HasType	pizza restaurant
+0	110 Arastradero Rd	IsAddressOf	Papa Johns
+0	pizza restaurant	IsTypeOf	Papa Johns
+0	Papa Johns	HasTraffic	car collision nearby
+0	Papa Johns	HasDistance	6 miles
+0	car collision nearby	IsTrafficOf	Papa Johns
+0	6 miles	IsDistanceFrom	Papa Johns
+1	home	HasAddress	10 ames street
+1	home	HasType	home
+1	10 ames street	IsAddressOf	home
+1	home	IsTypeOf	home
+1	home	HasTraffic	heavy traffic
+1	home	HasDistance	4 miles
+1	heavy traffic	IsTrafficOf	home
+1	4 miles	IsDistanceFrom	home
+2	home	HasAddress	10 ames street
+2	home	HasType	home
+2	10 ames street	IsAddressOf	home
+2	home	IsTypeOf	home
+2	home	HasTraffic	car collision nearby
+2	home	HasDistance	6 miles
+2	car collision nearby	IsTrafficOf	home
+2	6 miles	IsDistanceFrom	home
+3	5677 southwest 4th street	HasAddress	5677 southwest 4th street
+3	5677 southwest 4th street	HasType	certain address
+3	5677 southwest 4th street	IsAddressOf	5677 southwest 4th street
+3	certain address	IsTypeOf	5677 southwest 4th street
+3	5677 southwest 4th street	HasTraffic	heavy traffic
+3	5677 southwest 4th street	HasDistance	5 miles
+3	heavy traffic	IsTrafficOf	5677 southwest 4th street
+3	5 miles	IsDistanceFrom	5677 southwest 4th street
+4	The Clement Hotel	HasAddress	657 Ames Ave
+4	The Clement Hotel	HasType	rest stop
+4	657 Ames Ave	IsAddressOf	The Clement Hotel
+4	rest stop	IsTypeOf	The Clement Hotel
+4	The Clement Hotel	HasTraffic	moderate traffic
+4	The Clement Hotel	HasDistance	8 miles
+4	moderate traffic	IsTrafficOf	The Clement Hotel
+4	8 miles	IsDistanceFrom	The Clement Hotel
+5	Hacienda Market	HasAddress	1313 Chester Ave
+5	Hacienda Market	HasType	grocery store
+5	1313 Chester Ave	IsAddressOf	Hacienda Market
+5	grocery store	IsTypeOf	Hacienda Market
+5	Hacienda Market	HasTraffic	road block nearby
+5	Hacienda Market	HasDistance	6 miles
+5	road block nearby	IsTrafficOf	Hacienda Market
+5	6 miles	IsDistanceFrom	Hacienda Market
+6	Dominos	HasAddress	776 Arastradero Rd
+6	Dominos	HasType	pizza restaurant
+6	776 Arastradero Rd	IsAddressOf	Dominos
+6	pizza restaurant	IsTypeOf	Dominos
+6	Dominos	HasTraffic	moderate traffic
+6	Dominos	HasDistance	3 miles
+6	moderate traffic	IsTrafficOf	Dominos
+6	3 miles	IsDistanceFrom	Dominos
+7	home	HasAddress	56 cadwell street
+7	home	HasType	home
+7	56 cadwell street	IsAddressOf	home
+7	home	IsTypeOf	home
+7	home	HasTraffic	road block nearby
+7	home	HasDistance	4 miles
+7	road block nearby	IsTrafficOf	home
+7	4 miles	IsDistanceFrom	home
+-1	today	IsEqualTo	monday

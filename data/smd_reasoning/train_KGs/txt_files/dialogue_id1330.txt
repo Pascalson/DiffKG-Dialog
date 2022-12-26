@@ -1,0 +1,65 @@
+0	Starbucks	HasAddress	792 Bedoin Street
+0	Starbucks	HasType	coffee or tea place
+0	792 Bedoin Street	IsAddressOf	Starbucks
+0	coffee or tea place	IsTypeOf	Starbucks
+0	Starbucks	HasTraffic	car collision nearby
+0	Starbucks	HasDistance	1 miles
+0	car collision nearby	IsTrafficOf	Starbucks
+0	1 miles	IsDistanceFrom	Starbucks
+1	Pizza Chicago	HasAddress	915 Arbol Dr
+1	Pizza Chicago	HasType	pizza restaurant
+1	915 Arbol Dr	IsAddressOf	Pizza Chicago
+1	pizza restaurant	IsTypeOf	Pizza Chicago
+1	Pizza Chicago	HasTraffic	no traffic
+1	Pizza Chicago	HasDistance	2 miles
+1	no traffic	IsTrafficOf	Pizza Chicago
+1	2 miles	IsDistanceFrom	Pizza Chicago
+2	Pizza My Heart	HasAddress	528 Anton Ct
+2	Pizza My Heart	HasType	pizza restaurant
+2	528 Anton Ct	IsAddressOf	Pizza My Heart
+2	pizza restaurant	IsTypeOf	Pizza My Heart
+2	Pizza My Heart	HasTraffic	heavy traffic
+2	Pizza My Heart	HasDistance	3 miles
+2	heavy traffic	IsTrafficOf	Pizza My Heart
+2	3 miles	IsDistanceFrom	Pizza My Heart
+3	Civic Center Garage	HasAddress	270 Altaire Walk
+3	Civic Center Garage	HasType	parking garage
+3	270 Altaire Walk	IsAddressOf	Civic Center Garage
+3	parking garage	IsTypeOf	Civic Center Garage
+3	Civic Center Garage	HasTraffic	car collision nearby
+3	Civic Center Garage	HasDistance	2 miles
+3	car collision nearby	IsTrafficOf	Civic Center Garage
+3	2 miles	IsDistanceFrom	Civic Center Garage
+4	5677 springer street	HasAddress	5677 springer street
+4	5677 springer street	HasType	certain address
+4	5677 springer street	IsAddressOf	5677 springer street
+4	certain address	IsTypeOf	5677 springer street
+4	5677 springer street	HasTraffic	road block nearby
+4	5677 springer street	HasDistance	1 miles
+4	road block nearby	IsTrafficOf	5677 springer street
+4	1 miles	IsDistanceFrom	5677 springer street
+5	jacks house	HasAddress	864 Almanor Ln
+5	jacks house	HasType	friends house
+5	864 Almanor Ln	IsAddressOf	jacks house
+5	friends house	IsTypeOf	jacks house
+5	jacks house	HasTraffic	road block nearby
+5	jacks house	HasDistance	4 miles
+5	road block nearby	IsTrafficOf	jacks house
+5	4 miles	IsDistanceFrom	jacks house
+6	Chevron	HasAddress	783 Arcadia Pl
+6	Chevron	HasType	gas station
+6	783 Arcadia Pl	IsAddressOf	Chevron
+6	gas station	IsTypeOf	Chevron
+6	Chevron	HasTraffic	road block nearby
+6	Chevron	HasDistance	5 miles
+6	road block nearby	IsTrafficOf	Chevron
+6	5 miles	IsDistanceFrom	Chevron
+7	Whole Foods	HasAddress	819 Alma St
+7	Whole Foods	HasType	grocery store
+7	819 Alma St	IsAddressOf	Whole Foods
+7	grocery store	IsTypeOf	Whole Foods
+7	Whole Foods	HasTraffic	moderate traffic
+7	Whole Foods	HasDistance	5 miles
+7	moderate traffic	IsTrafficOf	Whole Foods
+7	5 miles	IsDistanceFrom	Whole Foods
+-1	today	IsEqualTo	monday

@@ -1,0 +1,57 @@
+0	toms house	HasAddress	580 Van Ness Ave
+0	toms house	HasType	friends house
+0	580 Van Ness Ave	IsAddressOf	toms house
+0	friends house	IsTypeOf	toms house
+0	toms house	HasTraffic	no traffic
+0	toms house	HasDistance	5 miles
+0	no traffic	IsTrafficOf	toms house
+0	5 miles	IsDistanceFrom	toms house
+1	Ravenswood Shopping Center	HasAddress	434 Arastradero Rd
+1	Ravenswood Shopping Center	HasType	shopping center
+1	434 Arastradero Rd	IsAddressOf	Ravenswood Shopping Center
+1	shopping center	IsTypeOf	Ravenswood Shopping Center
+1	Ravenswood Shopping Center	HasTraffic	no traffic
+1	Ravenswood Shopping Center	HasDistance	2 miles
+1	no traffic	IsTrafficOf	Ravenswood Shopping Center
+1	2 miles	IsDistanceFrom	Ravenswood Shopping Center
+2	Stanford Childrens Health	HasAddress	899 Ames Ct
+2	Stanford Childrens Health	HasType	hospital
+2	899 Ames Ct	IsAddressOf	Stanford Childrens Health
+2	hospital	IsTypeOf	Stanford Childrens Health
+2	Stanford Childrens Health	HasTraffic	moderate traffic
+2	Stanford Childrens Health	HasDistance	2 miles
+2	moderate traffic	IsTrafficOf	Stanford Childrens Health
+2	2 miles	IsDistanceFrom	Stanford Childrens Health
+3	home	HasAddress	5671 barringer street
+3	home	HasType	home
+3	5671 barringer street	IsAddressOf	home
+3	home	IsTypeOf	home
+3	home	HasTraffic	heavy traffic
+3	home	HasDistance	2 miles
+3	heavy traffic	IsTrafficOf	home
+3	2 miles	IsDistanceFrom	home
+4	Stanford Express Care	HasAddress	214 El Camino Real
+4	Stanford Express Care	HasType	hospital
+4	214 El Camino Real	IsAddressOf	Stanford Express Care
+4	hospital	IsTypeOf	Stanford Express Care
+4	Stanford Express Care	HasTraffic	heavy traffic
+4	Stanford Express Care	HasDistance	1 miles
+4	heavy traffic	IsTrafficOf	Stanford Express Care
+4	1 miles	IsDistanceFrom	Stanford Express Care
+5	Midtown Shopping Center	HasAddress	338 Alester Ave
+5	Midtown Shopping Center	HasType	shopping center
+5	338 Alester Ave	IsAddressOf	Midtown Shopping Center
+5	shopping center	IsTypeOf	Midtown Shopping Center
+5	Midtown Shopping Center	HasTraffic	no traffic
+5	Midtown Shopping Center	HasDistance	2 miles
+5	no traffic	IsTrafficOf	Midtown Shopping Center
+5	2 miles	IsDistanceFrom	Midtown Shopping Center
+6	Palo Alto Medical Foundation	HasAddress	611 Ames Ave
+6	Palo Alto Medical Foundation	HasType	hospital
+6	611 Ames Ave	IsAddressOf	Palo Alto Medical Foundation
+6	hospital	IsTypeOf	Palo Alto Medical Foundation
+6	Palo Alto Medical Foundation	HasTraffic	moderate traffic
+6	Palo Alto Medical Foundation	HasDistance	6 miles
+6	moderate traffic	IsTrafficOf	Palo Alto Medical Foundation
+6	6 miles	IsDistanceFrom	Palo Alto Medical Foundation
+-1	today	IsEqualTo	monday

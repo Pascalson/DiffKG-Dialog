@@ -1,0 +1,61 @@
+0	swimming activity	HasTime	7pm
+0	7pm	IsTimeOf	swimming activity
+0	swimming activity	HasDate	the 6th
+0	the 6th	IsDateOf	swimming activity
+0	swimming activity	HasParty	Ana
+0	Ana	IsPartyOf	swimming activity
+1	lab appointment	HasTime	4pm
+1	4pm	IsTimeOf	lab appointment
+1	lab appointment	HasDate	the 15th
+1	the 15th	IsDateOf	lab appointment
+1	lab appointment	HasParty	sister
+1	sister	IsPartyOf	lab appointment
+2	lab appointment	HasTime	9am
+2	9am	IsTimeOf	lab appointment
+2	lab appointment	HasDate	the 5th
+2	the 5th	IsDateOf	lab appointment
+2	lab appointment	HasParty	father
+2	father	IsPartyOf	lab appointment
+3	meeting	HasTime	3pm
+3	3pm	IsTimeOf	meeting
+3	meeting	HasDate	the 6th
+3	the 6th	IsDateOf	meeting
+3	meeting	HasParty	vice president
+3	vice president	IsPartyOf	meeting
+3	meeting	HasRoom	conference room 100
+3	conference room 100	IsRoomOf	meeting
+3	meeting	HasAgenda	discuss dress code
+3	discuss dress code	IsAgendaOf	meeting
+4	conference	HasTime	11am
+4	11am	IsTimeOf	conference
+4	conference	HasDate	the 1st
+4	the 1st	IsDateOf	conference
+4	conference	HasParty	HR
+4	HR	IsPartyOf	conference
+4	conference	HasRoom	conference room 50
+4	conference room 50	IsRoomOf	conference
+4	conference	HasAgenda	go over budget
+4	go over budget	IsAgendaOf	conference
+5	optometrist appointment	HasTime	4pm
+5	4pm	IsTimeOf	optometrist appointment
+5	optometrist appointment	HasDate	the 10th
+5	the 10th	IsDateOf	optometrist appointment
+5	optometrist appointment	HasParty	aunt
+5	aunt	IsPartyOf	optometrist appointment
+6	conference	HasTime	2pm
+6	2pm	IsTimeOf	conference
+6	conference	HasDate	the 11th
+6	the 11th	IsDateOf	conference
+6	conference	HasParty	infrastructure team
+6	infrastructure team	IsPartyOf	conference
+6	conference	HasRoom	conference room 102
+6	conference room 102	IsRoomOf	conference
+6	conference	HasAgenda	discuss the merger
+6	discuss the merger	IsAgendaOf	conference
+7	doctor appointment	HasTime	2pm
+7	2pm	IsTimeOf	doctor appointment
+7	doctor appointment	HasDate	the 15th
+7	the 15th	IsDateOf	doctor appointment
+7	doctor appointment	HasParty	Jon
+7	Jon	IsPartyOf	doctor appointment
+-1	today	IsEqualTo	monday

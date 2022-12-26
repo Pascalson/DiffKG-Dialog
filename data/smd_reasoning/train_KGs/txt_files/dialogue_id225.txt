@@ -1,0 +1,65 @@
+0	5672 barringer street	HasAddress	5672 barringer street
+0	5672 barringer street	HasType	certain address
+0	5672 barringer street	IsAddressOf	5672 barringer street
+0	certain address	IsTypeOf	5672 barringer street
+0	5672 barringer street	HasTraffic	heavy traffic
+0	5672 barringer street	HasDistance	1 miles
+0	heavy traffic	IsTrafficOf	5672 barringer street
+0	1 miles	IsDistanceFrom	5672 barringer street
+1	Valero	HasAddress	200 Alester Ave
+1	Valero	HasType	gas station
+1	200 Alester Ave	IsAddressOf	Valero
+1	gas station	IsTypeOf	Valero
+1	Valero	HasTraffic	moderate traffic
+1	Valero	HasDistance	2 miles
+1	moderate traffic	IsTrafficOf	Valero
+1	2 miles	IsDistanceFrom	Valero
+2	Shell	HasAddress	53 University Av
+2	Shell	HasType	gas station
+2	53 University Av	IsAddressOf	Shell
+2	gas station	IsTypeOf	Shell
+2	Shell	HasTraffic	moderate traffic
+2	Shell	HasDistance	1 miles
+2	moderate traffic	IsTrafficOf	Shell
+2	1 miles	IsDistanceFrom	Shell
+3	Safeway	HasAddress	452 Arcadia Pl
+3	Safeway	HasType	grocery store
+3	452 Arcadia Pl	IsAddressOf	Safeway
+3	grocery store	IsTypeOf	Safeway
+3	Safeway	HasTraffic	moderate traffic
+3	Safeway	HasDistance	3 miles
+3	moderate traffic	IsTrafficOf	Safeway
+3	3 miles	IsDistanceFrom	Safeway
+4	Palo Alto Medical Foundation	HasAddress	611 Ames Ave
+4	Palo Alto Medical Foundation	HasType	hospital
+4	611 Ames Ave	IsAddressOf	Palo Alto Medical Foundation
+4	hospital	IsTypeOf	Palo Alto Medical Foundation
+4	Palo Alto Medical Foundation	HasTraffic	car collision nearby
+4	Palo Alto Medical Foundation	HasDistance	6 miles
+4	car collision nearby	IsTrafficOf	Palo Alto Medical Foundation
+4	6 miles	IsDistanceFrom	Palo Alto Medical Foundation
+5	Four Seasons	HasAddress	465 Arcadia Pl
+5	Four Seasons	HasType	rest stop
+5	465 Arcadia Pl	IsAddressOf	Four Seasons
+5	rest stop	IsTypeOf	Four Seasons
+5	Four Seasons	HasTraffic	car collision nearby
+5	Four Seasons	HasDistance	5 miles
+5	car collision nearby	IsTrafficOf	Four Seasons
+5	5 miles	IsDistanceFrom	Four Seasons
+6	Panda Express	HasAddress	842 Arrowhead Way
+6	Panda Express	HasType	chinese restaurant
+6	842 Arrowhead Way	IsAddressOf	Panda Express
+6	chinese restaurant	IsTypeOf	Panda Express
+6	Panda Express	HasTraffic	heavy traffic
+6	Panda Express	HasDistance	6 miles
+6	heavy traffic	IsTrafficOf	Panda Express
+6	6 miles	IsDistanceFrom	Panda Express
+7	Philz	HasAddress	583 Alester Ave
+7	Philz	HasType	coffee or tea place
+7	583 Alester Ave	IsAddressOf	Philz
+7	coffee or tea place	IsTypeOf	Philz
+7	Philz	HasTraffic	heavy traffic
+7	Philz	HasDistance	2 miles
+7	heavy traffic	IsTrafficOf	Philz
+7	2 miles	IsDistanceFrom	Philz
+-1	today	IsEqualTo	monday

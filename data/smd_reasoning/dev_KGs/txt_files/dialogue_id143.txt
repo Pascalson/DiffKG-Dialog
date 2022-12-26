@@ -1,0 +1,49 @@
+0	lab appointment	HasTime	5pm
+0	5pm	IsTimeOf	lab appointment
+0	lab appointment	HasDate	the 4th
+0	the 4th	IsDateOf	lab appointment
+0	lab appointment	HasParty	mother
+0	mother	IsPartyOf	lab appointment
+1	swimming activity	HasTime	6pm
+1	6pm	IsTimeOf	swimming activity
+1	swimming activity	HasDate	the 4th
+1	the 4th	IsDateOf	swimming activity
+1	swimming activity	HasParty	Martha
+1	Martha	IsPartyOf	swimming activity
+2	doctor appointment	HasTime	10am
+2	10am	IsTimeOf	doctor appointment
+2	doctor appointment	HasDate	tuesday
+2	tuesday	IsDateOf	doctor appointment
+2	doctor appointment	HasParty	sister
+2	sister	IsPartyOf	doctor appointment
+3	taking medicine	HasTime	6pm
+3	6pm	IsTimeOf	taking medicine
+3	taking medicine	HasDate	the 10th
+3	the 10th	IsDateOf	taking medicine
+3	taking medicine	HasParty	brother
+3	brother	IsPartyOf	taking medicine
+4	yoga activity	HasTime	9am
+4	9am	IsTimeOf	yoga activity
+4	yoga activity	HasDate	the 5th
+4	the 5th	IsDateOf	yoga activity
+4	yoga activity	HasParty	sister
+4	sister	IsPartyOf	yoga activity
+5	swimming activity	HasTime	6pm
+5	6pm	IsTimeOf	swimming activity
+5	swimming activity	HasDate	thursday
+5	thursday	IsDateOf	swimming activity
+5	swimming activity	HasParty	Jeff
+5	Jeff	IsPartyOf	swimming activity
+6	lab appointment	HasTime	4pm
+6	4pm	IsTimeOf	lab appointment
+6	lab appointment	HasDate	friday
+6	friday	IsDateOf	lab appointment
+6	lab appointment	HasParty	Jeff
+6	Jeff	IsPartyOf	lab appointment
+7	lab appointment	HasTime	4pm
+7	4pm	IsTimeOf	lab appointment
+7	lab appointment	HasDate	monday
+7	monday	IsDateOf	lab appointment
+7	lab appointment	HasParty	brother
+7	brother	IsPartyOf	lab appointment
+-1	today	IsEqualTo	monday

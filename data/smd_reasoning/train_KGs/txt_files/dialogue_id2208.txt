@@ -1,0 +1,57 @@
+0	Jing Jing	HasAddress	113 Arbol Dr
+0	Jing Jing	HasType	chinese restaurant
+0	113 Arbol Dr	IsAddressOf	Jing Jing
+0	chinese restaurant	IsTypeOf	Jing Jing
+0	Jing Jing	HasTraffic	heavy traffic
+0	Jing Jing	HasDistance	6 miles
+0	heavy traffic	IsTrafficOf	Jing Jing
+0	6 miles	IsDistanceFrom	Jing Jing
+1	Round Table	HasAddress	113 Anton Ct
+1	Round Table	HasType	pizza restaurant
+1	113 Anton Ct	IsAddressOf	Round Table
+1	pizza restaurant	IsTypeOf	Round Table
+1	Round Table	HasTraffic	no traffic
+1	Round Table	HasDistance	4 miles
+1	no traffic	IsTrafficOf	Round Table
+1	4 miles	IsDistanceFrom	Round Table
+2	Dominos	HasAddress	776 Arastradero Rd
+2	Dominos	HasType	pizza restaurant
+2	776 Arastradero Rd	IsAddressOf	Dominos
+2	pizza restaurant	IsTypeOf	Dominos
+2	Dominos	HasTraffic	no traffic
+2	Dominos	HasDistance	2 miles
+2	no traffic	IsTrafficOf	Dominos
+2	2 miles	IsDistanceFrom	Dominos
+3	Cafe Venetia	HasAddress	269 Alger Dr
+3	Cafe Venetia	HasType	coffee or tea place
+3	269 Alger Dr	IsAddressOf	Cafe Venetia
+3	coffee or tea place	IsTypeOf	Cafe Venetia
+3	Cafe Venetia	HasTraffic	heavy traffic
+3	Cafe Venetia	HasDistance	5 miles
+3	heavy traffic	IsTrafficOf	Cafe Venetia
+3	5 miles	IsDistanceFrom	Cafe Venetia
+4	Ravenswood Shopping Center	HasAddress	434 Arastradero Rd
+4	Ravenswood Shopping Center	HasType	shopping center
+4	434 Arastradero Rd	IsAddressOf	Ravenswood Shopping Center
+4	shopping center	IsTypeOf	Ravenswood Shopping Center
+4	Ravenswood Shopping Center	HasTraffic	heavy traffic
+4	Ravenswood Shopping Center	HasDistance	2 miles
+4	heavy traffic	IsTrafficOf	Ravenswood Shopping Center
+4	2 miles	IsDistanceFrom	Ravenswood Shopping Center
+5	Webster Garage	HasAddress	880 Ames Ct
+5	Webster Garage	HasType	parking garage
+5	880 Ames Ct	IsAddressOf	Webster Garage
+5	parking garage	IsTypeOf	Webster Garage
+5	Webster Garage	HasTraffic	moderate traffic
+5	Webster Garage	HasDistance	2 miles
+5	moderate traffic	IsTrafficOf	Webster Garage
+5	2 miles	IsDistanceFrom	Webster Garage
+6	P.F. Changs	HasAddress	669 El Camino Real
+6	P.F. Changs	HasType	chinese restaurant
+6	669 El Camino Real	IsAddressOf	P.F. Changs
+6	chinese restaurant	IsTypeOf	P.F. Changs
+6	P.F. Changs	HasTraffic	heavy traffic
+6	P.F. Changs	HasDistance	5 miles
+6	heavy traffic	IsTrafficOf	P.F. Changs
+6	5 miles	IsDistanceFrom	P.F. Changs
+-1	today	IsEqualTo	monday

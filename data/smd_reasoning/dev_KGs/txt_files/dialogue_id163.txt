@@ -1,0 +1,57 @@
+0	Midtown Shopping Center	HasAddress	338 Alester Ave
+0	Midtown Shopping Center	HasType	shopping center
+0	338 Alester Ave	IsAddressOf	Midtown Shopping Center
+0	shopping center	IsTypeOf	Midtown Shopping Center
+0	Midtown Shopping Center	HasTraffic	moderate traffic
+0	Midtown Shopping Center	HasDistance	3 miles
+0	moderate traffic	IsTrafficOf	Midtown Shopping Center
+0	3 miles	IsDistanceFrom	Midtown Shopping Center
+1	Chevron	HasAddress	783 Arcadia Pl
+1	Chevron	HasType	gas station
+1	783 Arcadia Pl	IsAddressOf	Chevron
+1	gas station	IsTypeOf	Chevron
+1	Chevron	HasTraffic	no traffic
+1	Chevron	HasDistance	4 miles
+1	no traffic	IsTrafficOf	Chevron
+1	4 miles	IsDistanceFrom	Chevron
+2	home	HasAddress	5671 barringer street
+2	home	HasType	home
+2	5671 barringer street	IsAddressOf	home
+2	home	IsTypeOf	home
+2	home	HasTraffic	heavy traffic
+2	home	HasDistance	5 miles
+2	heavy traffic	IsTrafficOf	home
+2	5 miles	IsDistanceFrom	home
+3	Dish Parking	HasAddress	550 Alester Ave
+3	Dish Parking	HasType	parking garage
+3	550 Alester Ave	IsAddressOf	Dish Parking
+3	parking garage	IsTypeOf	Dish Parking
+3	Dish Parking	HasTraffic	moderate traffic
+3	Dish Parking	HasDistance	4 miles
+3	moderate traffic	IsTrafficOf	Dish Parking
+3	4 miles	IsDistanceFrom	Dish Parking
+4	Stanford Oval Parking	HasAddress	610 Amarillo Ave
+4	Stanford Oval Parking	HasType	parking garage
+4	610 Amarillo Ave	IsAddressOf	Stanford Oval Parking
+4	parking garage	IsTypeOf	Stanford Oval Parking
+4	Stanford Oval Parking	HasTraffic	heavy traffic
+4	Stanford Oval Parking	HasDistance	2 miles
+4	heavy traffic	IsTrafficOf	Stanford Oval Parking
+4	2 miles	IsDistanceFrom	Stanford Oval Parking
+5	Coupa	HasAddress	394 Van Ness Ave
+5	Coupa	HasType	coffee or tea place
+5	394 Van Ness Ave	IsAddressOf	Coupa
+5	coffee or tea place	IsTypeOf	Coupa
+5	Coupa	HasTraffic	heavy traffic
+5	Coupa	HasDistance	6 miles
+5	heavy traffic	IsTrafficOf	Coupa
+5	6 miles	IsDistanceFrom	Coupa
+6	Valero	HasAddress	200 Alester Ave
+6	Valero	HasType	gas station
+6	200 Alester Ave	IsAddressOf	Valero
+6	gas station	IsTypeOf	Valero
+6	Valero	HasTraffic	heavy traffic
+6	Valero	HasDistance	4 miles
+6	heavy traffic	IsTrafficOf	Valero
+6	4 miles	IsDistanceFrom	Valero
+-1	today	IsEqualTo	monday

@@ -1,0 +1,61 @@
+0	football activity	HasTime	4pm
+0	4pm	IsTimeOf	football activity
+0	football activity	HasDate	the 13th
+0	the 13th	IsDateOf	football activity
+0	football activity	HasParty	Jeff
+0	Jeff	IsPartyOf	football activity
+1	doctor appointment	HasTime	4pm
+1	4pm	IsTimeOf	doctor appointment
+1	doctor appointment	HasDate	the 3rd
+1	the 3rd	IsDateOf	doctor appointment
+1	doctor appointment	HasParty	father
+1	father	IsPartyOf	doctor appointment
+2	conference	HasTime	1pm
+2	1pm	IsTimeOf	conference
+2	conference	HasDate	wednesday
+2	wednesday	IsDateOf	conference
+2	conference	HasParty	boss
+2	boss	IsPartyOf	conference
+2	conference	HasRoom	conference room 100
+2	conference room 100	IsRoomOf	conference
+2	conference	HasAgenda	go over budget
+2	go over budget	IsAgendaOf	conference
+3	tennis activity	HasTime	3pm
+3	3pm	IsTimeOf	tennis activity
+3	tennis activity	HasDate	thursday
+3	thursday	IsDateOf	tennis activity
+3	tennis activity	HasParty	Martha
+3	Martha	IsPartyOf	tennis activity
+4	conference	HasTime	10am
+4	10am	IsTimeOf	conference
+4	conference	HasDate	the 13th
+4	the 13th	IsDateOf	conference
+4	conference	HasParty	HR
+4	HR	IsPartyOf	conference
+4	conference	HasRoom	conference room 100
+4	conference room 100	IsRoomOf	conference
+4	conference	HasAgenda	go over quarterly report
+4	go over quarterly report	IsAgendaOf	conference
+5	meeting	HasTime	6pm
+5	6pm	IsTimeOf	meeting
+5	meeting	HasDate	the 3rd
+5	the 3rd	IsDateOf	meeting
+5	meeting	HasParty	management
+5	management	IsPartyOf	meeting
+5	meeting	HasRoom	conference room 102
+5	conference room 102	IsRoomOf	meeting
+5	meeting	HasAgenda	discuss the company picnic
+5	discuss the company picnic	IsAgendaOf	meeting
+6	lab appointment	HasTime	7pm
+6	7pm	IsTimeOf	lab appointment
+6	lab appointment	HasDate	the 8th
+6	the 8th	IsDateOf	lab appointment
+6	lab appointment	HasParty	Alex
+6	Alex	IsPartyOf	lab appointment
+7	lab appointment	HasTime	9am
+7	9am	IsTimeOf	lab appointment
+7	lab appointment	HasDate	the 10th
+7	the 10th	IsDateOf	lab appointment
+7	lab appointment	HasParty	Martha
+7	Martha	IsPartyOf	lab appointment
+-1	today	IsEqualTo	monday

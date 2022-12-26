@@ -1,0 +1,57 @@
+0	tai pan	HasAddress	830 Almanor Ln
+0	tai pan	HasType	chinese restaurant
+0	830 Almanor Ln	IsAddressOf	tai pan
+0	chinese restaurant	IsTypeOf	tai pan
+0	tai pan	HasTraffic	no traffic
+0	tai pan	HasDistance	3 miles
+0	no traffic	IsTrafficOf	tai pan
+0	3 miles	IsDistanceFrom	tai pan
+1	Dominos	HasAddress	776 Arastradero Rd
+1	Dominos	HasType	pizza restaurant
+1	776 Arastradero Rd	IsAddressOf	Dominos
+1	pizza restaurant	IsTypeOf	Dominos
+1	Dominos	HasTraffic	no traffic
+1	Dominos	HasDistance	1 miles
+1	no traffic	IsTrafficOf	Dominos
+1	1 miles	IsDistanceFrom	Dominos
+2	Dish Parking	HasAddress	550 Alester Ave
+2	Dish Parking	HasType	parking garage
+2	550 Alester Ave	IsAddressOf	Dish Parking
+2	parking garage	IsTypeOf	Dish Parking
+2	Dish Parking	HasTraffic	heavy traffic
+2	Dish Parking	HasDistance	3 miles
+2	heavy traffic	IsTrafficOf	Dish Parking
+2	3 miles	IsDistanceFrom	Dish Parking
+3	Mandarin Roots	HasAddress	271 Springer Street
+3	Mandarin Roots	HasType	chinese restaurant
+3	271 Springer Street	IsAddressOf	Mandarin Roots
+3	chinese restaurant	IsTypeOf	Mandarin Roots
+3	Mandarin Roots	HasTraffic	moderate traffic
+3	Mandarin Roots	HasDistance	4 miles
+3	moderate traffic	IsTrafficOf	Mandarin Roots
+3	4 miles	IsDistanceFrom	Mandarin Roots
+4	Civic Center Garage	HasAddress	270 Altaire Walk
+4	Civic Center Garage	HasType	parking garage
+4	270 Altaire Walk	IsAddressOf	Civic Center Garage
+4	parking garage	IsTypeOf	Civic Center Garage
+4	Civic Center Garage	HasTraffic	moderate traffic
+4	Civic Center Garage	HasDistance	1 miles
+4	moderate traffic	IsTrafficOf	Civic Center Garage
+4	1 miles	IsDistanceFrom	Civic Center Garage
+5	Sigona Farmers Market	HasAddress	638 Amherst St
+5	Sigona Farmers Market	HasType	grocery store
+5	638 Amherst St	IsAddressOf	Sigona Farmers Market
+5	grocery store	IsTypeOf	Sigona Farmers Market
+5	Sigona Farmers Market	HasTraffic	no traffic
+5	Sigona Farmers Market	HasDistance	2 miles
+5	no traffic	IsTrafficOf	Sigona Farmers Market
+5	2 miles	IsDistanceFrom	Sigona Farmers Market
+6	Valero	HasAddress	200 Alester Ave
+6	Valero	HasType	gas station
+6	200 Alester Ave	IsAddressOf	Valero
+6	gas station	IsTypeOf	Valero
+6	Valero	HasTraffic	heavy traffic
+6	Valero	HasDistance	3 miles
+6	heavy traffic	IsTrafficOf	Valero
+6	3 miles	IsDistanceFrom	Valero
+-1	today	IsEqualTo	monday

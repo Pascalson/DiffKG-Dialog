@@ -1,0 +1,57 @@
+0	home	HasAddress	5671 barringer street
+0	home	HasType	home
+0	5671 barringer street	IsAddressOf	home
+0	home	IsTypeOf	home
+0	home	HasTraffic	heavy traffic
+0	home	HasDistance	4 miles
+0	heavy traffic	IsTrafficOf	home
+0	4 miles	IsDistanceFrom	home
+1	Round Table	HasAddress	113 Anton Ct
+1	Round Table	HasType	pizza restaurant
+1	113 Anton Ct	IsAddressOf	Round Table
+1	pizza restaurant	IsTypeOf	Round Table
+1	Round Table	HasTraffic	heavy traffic
+1	Round Table	HasDistance	2 miles
+1	heavy traffic	IsTrafficOf	Round Table
+1	2 miles	IsDistanceFrom	Round Table
+2	Palo Alto Medical Foundation	HasAddress	611 Ames Ave
+2	Palo Alto Medical Foundation	HasType	hospital
+2	611 Ames Ave	IsAddressOf	Palo Alto Medical Foundation
+2	hospital	IsTypeOf	Palo Alto Medical Foundation
+2	Palo Alto Medical Foundation	HasTraffic	no traffic
+2	Palo Alto Medical Foundation	HasDistance	5 miles
+2	no traffic	IsTrafficOf	Palo Alto Medical Foundation
+2	5 miles	IsDistanceFrom	Palo Alto Medical Foundation
+3	Chef Chu's	HasAddress	593 Arrowhead Way
+3	Chef Chu's	HasType	chinese restaurant
+3	593 Arrowhead Way	IsAddressOf	Chef Chu's
+3	chinese restaurant	IsTypeOf	Chef Chu's
+3	Chef Chu's	HasTraffic	heavy traffic
+3	Chef Chu's	HasDistance	5 miles
+3	heavy traffic	IsTrafficOf	Chef Chu's
+3	5 miles	IsDistanceFrom	Chef Chu's
+4	The Westin	HasAddress	329 El Camino Real
+4	The Westin	HasType	rest stop
+4	329 El Camino Real	IsAddressOf	The Westin
+4	rest stop	IsTypeOf	The Westin
+4	The Westin	HasTraffic	no traffic
+4	The Westin	HasDistance	4 miles
+4	no traffic	IsTrafficOf	The Westin
+4	4 miles	IsDistanceFrom	The Westin
+5	Hotel Keen	HasAddress	578 Arbol Dr
+5	Hotel Keen	HasType	rest stop
+5	578 Arbol Dr	IsAddressOf	Hotel Keen
+5	rest stop	IsTypeOf	Hotel Keen
+5	Hotel Keen	HasTraffic	heavy traffic
+5	Hotel Keen	HasDistance	5 miles
+5	heavy traffic	IsTrafficOf	Hotel Keen
+5	5 miles	IsDistanceFrom	Hotel Keen
+6	jacks house	HasAddress	864 Almanor Ln
+6	jacks house	HasType	friends house
+6	864 Almanor Ln	IsAddressOf	jacks house
+6	friends house	IsTypeOf	jacks house
+6	jacks house	HasTraffic	no traffic
+6	jacks house	HasDistance	6 miles
+6	no traffic	IsTrafficOf	jacks house
+6	6 miles	IsDistanceFrom	jacks house
+-1	today	IsEqualTo	monday

@@ -1,0 +1,57 @@
+0	Town and Country	HasAddress	383 University Ave
+0	Town and Country	HasType	shopping center
+0	383 University Ave	IsAddressOf	Town and Country
+0	shopping center	IsTypeOf	Town and Country
+0	Town and Country	HasTraffic	no traffic
+0	Town and Country	HasDistance	5 miles
+0	no traffic	IsTrafficOf	Town and Country
+0	5 miles	IsDistanceFrom	Town and Country
+1	Four Seasons	HasAddress	465 Arcadia Pl
+1	Four Seasons	HasType	rest stop
+1	465 Arcadia Pl	IsAddressOf	Four Seasons
+1	rest stop	IsTypeOf	Four Seasons
+1	Four Seasons	HasTraffic	heavy traffic
+1	Four Seasons	HasDistance	1 miles
+1	heavy traffic	IsTrafficOf	Four Seasons
+1	1 miles	IsDistanceFrom	Four Seasons
+2	Mandarin Roots	HasAddress	271 Springer Street
+2	Mandarin Roots	HasType	chinese restaurant
+2	271 Springer Street	IsAddressOf	Mandarin Roots
+2	chinese restaurant	IsTypeOf	Mandarin Roots
+2	Mandarin Roots	HasTraffic	heavy traffic
+2	Mandarin Roots	HasDistance	4 miles
+2	heavy traffic	IsTrafficOf	Mandarin Roots
+2	4 miles	IsDistanceFrom	Mandarin Roots
+3	5672 barringer street	HasAddress	5672 barringer street
+3	5672 barringer street	HasType	certain address
+3	5672 barringer street	IsAddressOf	5672 barringer street
+3	certain address	IsTypeOf	5672 barringer street
+3	5672 barringer street	HasTraffic	heavy traffic
+3	5672 barringer street	HasDistance	1 miles
+3	heavy traffic	IsTrafficOf	5672 barringer street
+3	1 miles	IsDistanceFrom	5672 barringer street
+4	jacks house	HasAddress	864 Almanor Ln
+4	jacks house	HasType	friends house
+4	864 Almanor Ln	IsAddressOf	jacks house
+4	friends house	IsTypeOf	jacks house
+4	jacks house	HasTraffic	no traffic
+4	jacks house	HasDistance	4 miles
+4	no traffic	IsTrafficOf	jacks house
+4	4 miles	IsDistanceFrom	jacks house
+5	Trader Joes	HasAddress	408 University Ave
+5	Trader Joes	HasType	grocery store
+5	408 University Ave	IsAddressOf	Trader Joes
+5	grocery store	IsTypeOf	Trader Joes
+5	Trader Joes	HasTraffic	heavy traffic
+5	Trader Joes	HasDistance	3 miles
+5	heavy traffic	IsTrafficOf	Trader Joes
+5	3 miles	IsDistanceFrom	Trader Joes
+6	P.F. Changs	HasAddress	669 El Camino Real
+6	P.F. Changs	HasType	chinese restaurant
+6	669 El Camino Real	IsAddressOf	P.F. Changs
+6	chinese restaurant	IsTypeOf	P.F. Changs
+6	P.F. Changs	HasTraffic	no traffic
+6	P.F. Changs	HasDistance	4 miles
+6	no traffic	IsTrafficOf	P.F. Changs
+6	4 miles	IsDistanceFrom	P.F. Changs
+-1	today	IsEqualTo	monday

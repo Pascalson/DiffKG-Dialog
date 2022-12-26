@@ -1,0 +1,57 @@
+0	Valero	HasAddress	200 Alester Ave
+0	Valero	HasType	gas station
+0	200 Alester Ave	IsAddressOf	Valero
+0	gas station	IsTypeOf	Valero
+0	Valero	HasTraffic	no traffic
+0	Valero	HasDistance	3 miles
+0	no traffic	IsTrafficOf	Valero
+0	3 miles	IsDistanceFrom	Valero
+1	Cafe Venetia	HasAddress	269 Alger Dr
+1	Cafe Venetia	HasType	coffee or tea place
+1	269 Alger Dr	IsAddressOf	Cafe Venetia
+1	coffee or tea place	IsTypeOf	Cafe Venetia
+1	Cafe Venetia	HasTraffic	heavy traffic
+1	Cafe Venetia	HasDistance	1 miles
+1	heavy traffic	IsTrafficOf	Cafe Venetia
+1	1 miles	IsDistanceFrom	Cafe Venetia
+2	Dish Parking	HasAddress	550 Alester Ave
+2	Dish Parking	HasType	parking garage
+2	550 Alester Ave	IsAddressOf	Dish Parking
+2	parking garage	IsTypeOf	Dish Parking
+2	Dish Parking	HasTraffic	moderate traffic
+2	Dish Parking	HasDistance	1 miles
+2	moderate traffic	IsTrafficOf	Dish Parking
+2	1 miles	IsDistanceFrom	Dish Parking
+3	Starbucks	HasAddress	792 Bedoin Street
+3	Starbucks	HasType	coffee or tea place
+3	792 Bedoin Street	IsAddressOf	Starbucks
+3	coffee or tea place	IsTypeOf	Starbucks
+3	Starbucks	HasTraffic	heavy traffic
+3	Starbucks	HasDistance	5 miles
+3	heavy traffic	IsTrafficOf	Starbucks
+3	5 miles	IsDistanceFrom	Starbucks
+4	Stanford Shopping Center	HasAddress	773 Alger Dr
+4	Stanford Shopping Center	HasType	shopping center
+4	773 Alger Dr	IsAddressOf	Stanford Shopping Center
+4	shopping center	IsTypeOf	Stanford Shopping Center
+4	Stanford Shopping Center	HasTraffic	moderate traffic
+4	Stanford Shopping Center	HasDistance	1 miles
+4	moderate traffic	IsTrafficOf	Stanford Shopping Center
+4	1 miles	IsDistanceFrom	Stanford Shopping Center
+5	Coupa	HasAddress	394 Van Ness Ave
+5	Coupa	HasType	coffee or tea place
+5	394 Van Ness Ave	IsAddressOf	Coupa
+5	coffee or tea place	IsTypeOf	Coupa
+5	Coupa	HasTraffic	no traffic
+5	Coupa	HasDistance	3 miles
+5	no traffic	IsTrafficOf	Coupa
+5	3 miles	IsDistanceFrom	Coupa
+6	The Clement Hotel	HasAddress	657 Ames Ave
+6	The Clement Hotel	HasType	rest stop
+6	657 Ames Ave	IsAddressOf	The Clement Hotel
+6	rest stop	IsTypeOf	The Clement Hotel
+6	The Clement Hotel	HasTraffic	heavy traffic
+6	The Clement Hotel	HasDistance	4 miles
+6	heavy traffic	IsTrafficOf	The Clement Hotel
+6	4 miles	IsDistanceFrom	The Clement Hotel
+-1	today	IsEqualTo	monday

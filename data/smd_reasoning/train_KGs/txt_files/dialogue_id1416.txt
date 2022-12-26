@@ -1,0 +1,57 @@
+0	conference	HasTime	1pm
+0	1pm	IsTimeOf	conference
+0	conference	HasDate	the 17th
+0	the 17th	IsDateOf	conference
+0	conference	HasParty	infrastructure team
+0	infrastructure team	IsPartyOf	conference
+0	conference	HasRoom	conference room 50
+0	conference room 50	IsRoomOf	conference
+0	conference	HasAgenda	discuss dress code
+0	discuss dress code	IsAgendaOf	conference
+1	doctor appointment	HasTime	11am
+1	11am	IsTimeOf	doctor appointment
+1	doctor appointment	HasDate	thursday
+1	thursday	IsDateOf	doctor appointment
+1	doctor appointment	HasParty	Jon
+1	Jon	IsPartyOf	doctor appointment
+2	doctor appointment	HasTime	3pm
+2	3pm	IsTimeOf	doctor appointment
+2	doctor appointment	HasDate	the 11th
+2	the 11th	IsDateOf	doctor appointment
+2	doctor appointment	HasParty	sister
+2	sister	IsPartyOf	doctor appointment
+3	optometrist appointment	HasTime	10am
+3	10am	IsTimeOf	optometrist appointment
+3	optometrist appointment	HasDate	the 9th
+3	the 9th	IsDateOf	optometrist appointment
+3	optometrist appointment	HasParty	Martha
+3	Martha	IsPartyOf	optometrist appointment
+4	swimming activity	HasTime	2pm
+4	2pm	IsTimeOf	swimming activity
+4	swimming activity	HasDate	the 7th
+4	the 7th	IsDateOf	swimming activity
+4	swimming activity	HasParty	Jeff
+4	Jeff	IsPartyOf	swimming activity
+5	tennis activity	HasTime	1pm
+5	1pm	IsTimeOf	tennis activity
+5	tennis activity	HasDate	the 19th
+5	the 19th	IsDateOf	tennis activity
+5	tennis activity	HasParty	father
+5	father	IsPartyOf	tennis activity
+6	conference	HasTime	3pm
+6	3pm	IsTimeOf	conference
+6	conference	HasDate	the 5th
+6	the 5th	IsDateOf	conference
+6	conference	HasParty	HR
+6	HR	IsPartyOf	conference
+6	conference	HasRoom	conference room 102
+6	conference room 102	IsRoomOf	conference
+6	conference	HasAgenda	onboard new members
+6	onboard new members	IsAgendaOf	conference
+7	dentist appointment	HasTime	10am
+7	10am	IsTimeOf	dentist appointment
+7	dentist appointment	HasDate	the 14th
+7	the 14th	IsDateOf	dentist appointment
+7	dentist appointment	HasParty	Jeff
+7	Jeff	IsPartyOf	dentist appointment
+-1	today	IsEqualTo	monday

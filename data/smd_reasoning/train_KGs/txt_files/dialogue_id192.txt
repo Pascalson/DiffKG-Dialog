@@ -1,0 +1,57 @@
+0	jacks house	HasAddress	864 Almanor Ln
+0	jacks house	HasType	friends house
+0	864 Almanor Ln	IsAddressOf	jacks house
+0	friends house	IsTypeOf	jacks house
+0	jacks house	HasTraffic	moderate traffic
+0	jacks house	HasDistance	5 miles
+0	moderate traffic	IsTrafficOf	jacks house
+0	5 miles	IsDistanceFrom	jacks house
+1	home	HasAddress	10 ames street
+1	home	HasType	home
+1	10 ames street	IsAddressOf	home
+1	home	IsTypeOf	home
+1	home	HasTraffic	moderate traffic
+1	home	HasDistance	2 miles
+1	moderate traffic	IsTrafficOf	home
+1	2 miles	IsDistanceFrom	home
+2	Dish Parking	HasAddress	550 Alester Ave
+2	Dish Parking	HasType	parking garage
+2	550 Alester Ave	IsAddressOf	Dish Parking
+2	parking garage	IsTypeOf	Dish Parking
+2	Dish Parking	HasTraffic	heavy traffic
+2	Dish Parking	HasDistance	3 miles
+2	heavy traffic	IsTrafficOf	Dish Parking
+2	3 miles	IsDistanceFrom	Dish Parking
+3	Stanford Childrens Health	HasAddress	899 Ames Ct
+3	Stanford Childrens Health	HasType	hospital
+3	899 Ames Ct	IsAddressOf	Stanford Childrens Health
+3	hospital	IsTypeOf	Stanford Childrens Health
+3	Stanford Childrens Health	HasTraffic	moderate traffic
+3	Stanford Childrens Health	HasDistance	5 miles
+3	moderate traffic	IsTrafficOf	Stanford Childrens Health
+3	5 miles	IsDistanceFrom	Stanford Childrens Health
+4	Dominos	HasAddress	776 Arastradero Rd
+4	Dominos	HasType	pizza restaurant
+4	776 Arastradero Rd	IsAddressOf	Dominos
+4	pizza restaurant	IsTypeOf	Dominos
+4	Dominos	HasTraffic	heavy traffic
+4	Dominos	HasDistance	4 miles
+4	heavy traffic	IsTrafficOf	Dominos
+4	4 miles	IsDistanceFrom	Dominos
+5	P.F. Changs	HasAddress	669 El Camino Real
+5	P.F. Changs	HasType	chinese restaurant
+5	669 El Camino Real	IsAddressOf	P.F. Changs
+5	chinese restaurant	IsTypeOf	P.F. Changs
+5	P.F. Changs	HasTraffic	moderate traffic
+5	P.F. Changs	HasDistance	2 miles
+5	moderate traffic	IsTrafficOf	P.F. Changs
+5	2 miles	IsDistanceFrom	P.F. Changs
+6	Midtown Shopping Center	HasAddress	338 Alester Ave
+6	Midtown Shopping Center	HasType	shopping center
+6	338 Alester Ave	IsAddressOf	Midtown Shopping Center
+6	shopping center	IsTypeOf	Midtown Shopping Center
+6	Midtown Shopping Center	HasTraffic	moderate traffic
+6	Midtown Shopping Center	HasDistance	2 miles
+6	moderate traffic	IsTrafficOf	Midtown Shopping Center
+6	2 miles	IsDistanceFrom	Midtown Shopping Center
+-1	today	IsEqualTo	monday

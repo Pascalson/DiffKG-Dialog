@@ -1,0 +1,65 @@
+0	5677 springer street	HasAddress	5677 springer street
+0	5677 springer street	HasType	certain address
+0	5677 springer street	IsAddressOf	5677 springer street
+0	certain address	IsTypeOf	5677 springer street
+0	5677 springer street	HasTraffic	heavy traffic
+0	5677 springer street	HasDistance	3 miles
+0	heavy traffic	IsTrafficOf	5677 springer street
+0	3 miles	IsDistanceFrom	5677 springer street
+1	Starbucks	HasAddress	792 Bedoin Street
+1	Starbucks	HasType	coffee or tea place
+1	792 Bedoin Street	IsAddressOf	Starbucks
+1	coffee or tea place	IsTypeOf	Starbucks
+1	Starbucks	HasTraffic	car collision nearby
+1	Starbucks	HasDistance	3 miles
+1	car collision nearby	IsTrafficOf	Starbucks
+1	3 miles	IsDistanceFrom	Starbucks
+2	Palo Alto Cafe	HasAddress	436 Alger Dr
+2	Palo Alto Cafe	HasType	coffee or tea place
+2	436 Alger Dr	IsAddressOf	Palo Alto Cafe
+2	coffee or tea place	IsTypeOf	Palo Alto Cafe
+2	Palo Alto Cafe	HasTraffic	no traffic
+2	Palo Alto Cafe	HasDistance	6 miles
+2	no traffic	IsTrafficOf	Palo Alto Cafe
+2	6 miles	IsDistanceFrom	Palo Alto Cafe
+3	76	HasAddress	91 El Camino Real
+3	76	HasType	gas station
+3	91 El Camino Real	IsAddressOf	76
+3	gas station	IsTypeOf	76
+3	76	HasTraffic	no traffic
+3	76	HasDistance	5 miles
+3	no traffic	IsTrafficOf	76
+3	5 miles	IsDistanceFrom	76
+4	home	HasAddress	56 cadwell street
+4	home	HasType	home
+4	56 cadwell street	IsAddressOf	home
+4	home	IsTypeOf	home
+4	home	HasTraffic	road block nearby
+4	home	HasDistance	5 miles
+4	road block nearby	IsTrafficOf	home
+4	5 miles	IsDistanceFrom	home
+5	Travelers Lodge	HasAddress	333 Arbol Dr
+5	Travelers Lodge	HasType	rest stop
+5	333 Arbol Dr	IsAddressOf	Travelers Lodge
+5	rest stop	IsTypeOf	Travelers Lodge
+5	Travelers Lodge	HasTraffic	heavy traffic
+5	Travelers Lodge	HasDistance	1 miles
+5	heavy traffic	IsTrafficOf	Travelers Lodge
+5	1 miles	IsDistanceFrom	Travelers Lodge
+6	Dish Parking	HasAddress	550 Alester Ave
+6	Dish Parking	HasType	parking garage
+6	550 Alester Ave	IsAddressOf	Dish Parking
+6	parking garage	IsTypeOf	Dish Parking
+6	Dish Parking	HasTraffic	heavy traffic
+6	Dish Parking	HasDistance	3 miles
+6	heavy traffic	IsTrafficOf	Dish Parking
+6	3 miles	IsDistanceFrom	Dish Parking
+7	Pizza Hut	HasAddress	704 El Camino Real
+7	Pizza Hut	HasType	pizza restaurant
+7	704 El Camino Real	IsAddressOf	Pizza Hut
+7	pizza restaurant	IsTypeOf	Pizza Hut
+7	Pizza Hut	HasTraffic	road block nearby
+7	Pizza Hut	HasDistance	4 miles
+7	road block nearby	IsTrafficOf	Pizza Hut
+7	4 miles	IsDistanceFrom	Pizza Hut
+-1	today	IsEqualTo	monday

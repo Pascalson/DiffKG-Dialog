@@ -1,0 +1,65 @@
+0	Papa Johns	HasAddress	110 Arastradero Rd
+0	Papa Johns	HasType	pizza restaurant
+0	110 Arastradero Rd	IsAddressOf	Papa Johns
+0	pizza restaurant	IsTypeOf	Papa Johns
+0	Papa Johns	HasTraffic	heavy traffic
+0	Papa Johns	HasDistance	6 miles
+0	heavy traffic	IsTrafficOf	Papa Johns
+0	6 miles	IsDistanceFrom	Papa Johns
+1	Willows Market	HasAddress	409 Bollard St
+1	Willows Market	HasType	grocery store
+1	409 Bollard St	IsAddressOf	Willows Market
+1	grocery store	IsTypeOf	Willows Market
+1	Willows Market	HasTraffic	no traffic
+1	Willows Market	HasDistance	2 miles
+1	no traffic	IsTrafficOf	Willows Market
+1	2 miles	IsDistanceFrom	Willows Market
+2	Chevron	HasAddress	783 Arcadia Pl
+2	Chevron	HasType	gas station
+2	783 Arcadia Pl	IsAddressOf	Chevron
+2	gas station	IsTypeOf	Chevron
+2	Chevron	HasTraffic	road block nearby
+2	Chevron	HasDistance	4 miles
+2	road block nearby	IsTrafficOf	Chevron
+2	4 miles	IsDistanceFrom	Chevron
+3	tai pan	HasAddress	830 Almanor Ln
+3	tai pan	HasType	chinese restaurant
+3	830 Almanor Ln	IsAddressOf	tai pan
+3	chinese restaurant	IsTypeOf	tai pan
+3	tai pan	HasTraffic	car collision nearby
+3	tai pan	HasDistance	4 miles
+3	car collision nearby	IsTrafficOf	tai pan
+3	4 miles	IsDistanceFrom	tai pan
+4	Whole Foods	HasAddress	819 Alma St
+4	Whole Foods	HasType	grocery store
+4	819 Alma St	IsAddressOf	Whole Foods
+4	grocery store	IsTypeOf	Whole Foods
+4	Whole Foods	HasTraffic	heavy traffic
+4	Whole Foods	HasDistance	6 miles
+4	heavy traffic	IsTrafficOf	Whole Foods
+4	6 miles	IsDistanceFrom	Whole Foods
+5	Shell	HasAddress	53 University Av
+5	Shell	HasType	gas station
+5	53 University Av	IsAddressOf	Shell
+5	gas station	IsTypeOf	Shell
+5	Shell	HasTraffic	no traffic
+5	Shell	HasDistance	5 miles
+5	no traffic	IsTrafficOf	Shell
+5	5 miles	IsDistanceFrom	Shell
+6	Pizza My Heart	HasAddress	528 Anton Ct
+6	Pizza My Heart	HasType	pizza restaurant
+6	528 Anton Ct	IsAddressOf	Pizza My Heart
+6	pizza restaurant	IsTypeOf	Pizza My Heart
+6	Pizza My Heart	HasTraffic	road block nearby
+6	Pizza My Heart	HasDistance	5 miles
+6	road block nearby	IsTrafficOf	Pizza My Heart
+6	5 miles	IsDistanceFrom	Pizza My Heart
+7	home	HasAddress	5671 barringer street
+7	home	HasType	home
+7	5671 barringer street	IsAddressOf	home
+7	home	IsTypeOf	home
+7	home	HasTraffic	no traffic
+7	home	HasDistance	2 miles
+7	no traffic	IsTrafficOf	home
+7	2 miles	IsDistanceFrom	home
+-1	today	IsEqualTo	monday

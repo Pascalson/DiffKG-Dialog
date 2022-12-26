@@ -1,0 +1,49 @@
+0	dinner	HasTime	6pm
+0	6pm	IsTimeOf	dinner
+0	dinner	HasDate	the 12th
+0	the 12th	IsDateOf	dinner
+0	dinner	HasParty	sister
+0	sister	IsPartyOf	dinner
+1	yoga activity	HasTime	6pm
+1	6pm	IsTimeOf	yoga activity
+1	yoga activity	HasDate	the 6th
+1	the 6th	IsDateOf	yoga activity
+1	yoga activity	HasParty	mother
+1	mother	IsPartyOf	yoga activity
+2	taking medicine	HasTime	3pm
+2	3pm	IsTimeOf	taking medicine
+2	taking medicine	HasDate	friday
+2	friday	IsDateOf	taking medicine
+2	taking medicine	HasParty	Ana
+2	Ana	IsPartyOf	taking medicine
+3	yoga activity	HasTime	10am
+3	10am	IsTimeOf	yoga activity
+3	yoga activity	HasDate	the 6th
+3	the 6th	IsDateOf	yoga activity
+3	yoga activity	HasParty	Jon
+3	Jon	IsPartyOf	yoga activity
+4	optometrist appointment	HasTime	9am
+4	9am	IsTimeOf	optometrist appointment
+4	optometrist appointment	HasDate	monday
+4	monday	IsDateOf	optometrist appointment
+4	optometrist appointment	HasParty	Marie
+4	Marie	IsPartyOf	optometrist appointment
+5	tennis activity	HasTime	9am
+5	9am	IsTimeOf	tennis activity
+5	tennis activity	HasDate	sunday
+5	sunday	IsDateOf	tennis activity
+5	tennis activity	HasParty	Ana
+5	Ana	IsPartyOf	tennis activity
+6	tennis activity	HasTime	6pm
+6	6pm	IsTimeOf	tennis activity
+6	tennis activity	HasDate	friday
+6	friday	IsDateOf	tennis activity
+6	tennis activity	HasParty	sister
+6	sister	IsPartyOf	tennis activity
+7	football activity	HasTime	4pm
+7	4pm	IsTimeOf	football activity
+7	football activity	HasDate	the 18th
+7	the 18th	IsDateOf	football activity
+7	football activity	HasParty	Tom
+7	Tom	IsPartyOf	football activity
+-1	today	IsEqualTo	monday

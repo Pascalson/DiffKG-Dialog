@@ -1,0 +1,65 @@
+0	Valero	HasAddress	200 Alester Ave
+0	Valero	HasType	gas station
+0	200 Alester Ave	IsAddressOf	Valero
+0	gas station	IsTypeOf	Valero
+0	Valero	HasTraffic	road block nearby
+0	Valero	HasDistance	3 miles
+0	road block nearby	IsTrafficOf	Valero
+0	3 miles	IsDistanceFrom	Valero
+1	The Clement Hotel	HasAddress	657 Ames Ave
+1	The Clement Hotel	HasType	rest stop
+1	657 Ames Ave	IsAddressOf	The Clement Hotel
+1	rest stop	IsTypeOf	The Clement Hotel
+1	The Clement Hotel	HasTraffic	moderate traffic
+1	The Clement Hotel	HasDistance	2 miles
+1	moderate traffic	IsTrafficOf	The Clement Hotel
+1	2 miles	IsDistanceFrom	The Clement Hotel
+2	Palo Alto Cafe	HasAddress	436 Alger Dr
+2	Palo Alto Cafe	HasType	coffee or tea place
+2	436 Alger Dr	IsAddressOf	Palo Alto Cafe
+2	coffee or tea place	IsTypeOf	Palo Alto Cafe
+2	Palo Alto Cafe	HasTraffic	road block nearby
+2	Palo Alto Cafe	HasDistance	4 miles
+2	road block nearby	IsTrafficOf	Palo Alto Cafe
+2	4 miles	IsDistanceFrom	Palo Alto Cafe
+3	Stanford Express Care	HasAddress	214 El Camino Real
+3	Stanford Express Care	HasType	hospital
+3	214 El Camino Real	IsAddressOf	Stanford Express Care
+3	hospital	IsTypeOf	Stanford Express Care
+3	Stanford Express Care	HasTraffic	car collision nearby
+3	Stanford Express Care	HasDistance	5 miles
+3	car collision nearby	IsTrafficOf	Stanford Express Care
+3	5 miles	IsDistanceFrom	Stanford Express Care
+4	Willows Market	HasAddress	409 Bollard St
+4	Willows Market	HasType	grocery store
+4	409 Bollard St	IsAddressOf	Willows Market
+4	grocery store	IsTypeOf	Willows Market
+4	Willows Market	HasTraffic	heavy traffic
+4	Willows Market	HasDistance	4 miles
+4	heavy traffic	IsTrafficOf	Willows Market
+4	4 miles	IsDistanceFrom	Willows Market
+5	Palo Alto Garage R	HasAddress	481 Amaranta Ave
+5	Palo Alto Garage R	HasType	parking garage
+5	481 Amaranta Ave	IsAddressOf	Palo Alto Garage R
+5	parking garage	IsTypeOf	Palo Alto Garage R
+5	Palo Alto Garage R	HasTraffic	car collision nearby
+5	Palo Alto Garage R	HasDistance	5 miles
+5	car collision nearby	IsTrafficOf	Palo Alto Garage R
+5	5 miles	IsDistanceFrom	Palo Alto Garage R
+6	Starbucks	HasAddress	792 Bedoin Street
+6	Starbucks	HasType	coffee or tea place
+6	792 Bedoin Street	IsAddressOf	Starbucks
+6	coffee or tea place	IsTypeOf	Starbucks
+6	Starbucks	HasTraffic	car collision nearby
+6	Starbucks	HasDistance	6 miles
+6	car collision nearby	IsTrafficOf	Starbucks
+6	6 miles	IsDistanceFrom	Starbucks
+7	Ravenswood Shopping Center	HasAddress	434 Arastradero Rd
+7	Ravenswood Shopping Center	HasType	shopping center
+7	434 Arastradero Rd	IsAddressOf	Ravenswood Shopping Center
+7	shopping center	IsTypeOf	Ravenswood Shopping Center
+7	Ravenswood Shopping Center	HasTraffic	road block nearby
+7	Ravenswood Shopping Center	HasDistance	1 miles
+7	road block nearby	IsTrafficOf	Ravenswood Shopping Center
+7	1 miles	IsDistanceFrom	Ravenswood Shopping Center
+-1	today	IsEqualTo	monday

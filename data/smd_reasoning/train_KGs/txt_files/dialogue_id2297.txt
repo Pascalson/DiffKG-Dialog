@@ -1,0 +1,57 @@
+0	conference	HasTime	11am
+0	11am	IsTimeOf	conference
+0	conference	HasDate	the 7th
+0	the 7th	IsDateOf	conference
+0	conference	HasParty	management
+0	management	IsPartyOf	conference
+0	conference	HasRoom	conference room 100
+0	conference room 100	IsRoomOf	conference
+0	conference	HasAgenda	sign the NDA
+0	sign the NDA	IsAgendaOf	conference
+1	doctor appointment	HasTime	3pm
+1	3pm	IsTimeOf	doctor appointment
+1	doctor appointment	HasDate	the 13th
+1	the 13th	IsDateOf	doctor appointment
+1	doctor appointment	HasParty	Martha
+1	Martha	IsPartyOf	doctor appointment
+2	yoga activity	HasTime	3pm
+2	3pm	IsTimeOf	yoga activity
+2	yoga activity	HasDate	the 18th
+2	the 18th	IsDateOf	yoga activity
+2	yoga activity	HasParty	Ana
+2	Ana	IsPartyOf	yoga activity
+3	dentist appointment	HasTime	3pm
+3	3pm	IsTimeOf	dentist appointment
+3	dentist appointment	HasDate	the 1st
+3	the 1st	IsDateOf	dentist appointment
+3	dentist appointment	HasParty	aunt
+3	aunt	IsPartyOf	dentist appointment
+4	doctor appointment	HasTime	5pm
+4	5pm	IsTimeOf	doctor appointment
+4	doctor appointment	HasDate	the 19th
+4	the 19th	IsDateOf	doctor appointment
+4	doctor appointment	HasParty	Jon
+4	Jon	IsPartyOf	doctor appointment
+5	doctor appointment	HasTime	3pm
+5	3pm	IsTimeOf	doctor appointment
+5	doctor appointment	HasDate	the 14th
+5	the 14th	IsDateOf	doctor appointment
+5	doctor appointment	HasParty	aunt
+5	aunt	IsPartyOf	doctor appointment
+6	conference	HasTime	10am
+6	10am	IsTimeOf	conference
+6	conference	HasDate	monday
+6	monday	IsDateOf	conference
+6	conference	HasParty	infrastructure team
+6	infrastructure team	IsPartyOf	conference
+6	conference	HasRoom	conference room 50
+6	conference room 50	IsRoomOf	conference
+6	conference	HasAgenda	discuss dress code
+6	discuss dress code	IsAgendaOf	conference
+7	doctor appointment	HasTime	7pm
+7	7pm	IsTimeOf	doctor appointment
+7	doctor appointment	HasDate	saturday
+7	saturday	IsDateOf	doctor appointment
+7	doctor appointment	HasParty	aunt
+7	aunt	IsPartyOf	doctor appointment
+-1	today	IsEqualTo	monday

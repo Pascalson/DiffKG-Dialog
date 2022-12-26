@@ -1,0 +1,53 @@
+0	meeting	HasTime	10am
+0	10am	IsTimeOf	meeting
+0	meeting	HasDate	the 6th
+0	the 6th	IsDateOf	meeting
+0	meeting	HasParty	infrastructure team
+0	infrastructure team	IsPartyOf	meeting
+0	meeting	HasRoom	conference room 100
+0	conference room 100	IsRoomOf	meeting
+0	meeting	HasAgenda	sign the NDA
+0	sign the NDA	IsAgendaOf	meeting
+1	dinner	HasTime	6pm
+1	6pm	IsTimeOf	dinner
+1	dinner	HasDate	the 7th
+1	the 7th	IsDateOf	dinner
+1	dinner	HasParty	sister
+1	sister	IsPartyOf	dinner
+2	doctor appointment	HasTime	4pm
+2	4pm	IsTimeOf	doctor appointment
+2	doctor appointment	HasDate	the 14th
+2	the 14th	IsDateOf	doctor appointment
+2	doctor appointment	HasParty	Marie
+2	Marie	IsPartyOf	doctor appointment
+3	yoga activity	HasTime	11am
+3	11am	IsTimeOf	yoga activity
+3	yoga activity	HasDate	the 20th
+3	the 20th	IsDateOf	yoga activity
+3	yoga activity	HasParty	aunt
+3	aunt	IsPartyOf	yoga activity
+4	yoga activity	HasTime	2pm
+4	2pm	IsTimeOf	yoga activity
+4	yoga activity	HasDate	tuesday
+4	tuesday	IsDateOf	yoga activity
+4	yoga activity	HasParty	Alex
+4	Alex	IsPartyOf	yoga activity
+5	doctor appointment	HasTime	6pm
+5	6pm	IsTimeOf	doctor appointment
+5	doctor appointment	HasDate	the 11th
+5	the 11th	IsDateOf	doctor appointment
+5	doctor appointment	HasParty	Tom
+5	Tom	IsPartyOf	doctor appointment
+6	yoga activity	HasTime	1pm
+6	1pm	IsTimeOf	yoga activity
+6	yoga activity	HasDate	the 11th
+6	the 11th	IsDateOf	yoga activity
+6	yoga activity	HasParty	mother
+6	mother	IsPartyOf	yoga activity
+7	football activity	HasTime	1pm
+7	1pm	IsTimeOf	football activity
+7	football activity	HasDate	the 11th
+7	the 11th	IsDateOf	football activity
+7	football activity	HasParty	Alex
+7	Alex	IsPartyOf	football activity
+-1	today	IsEqualTo	monday

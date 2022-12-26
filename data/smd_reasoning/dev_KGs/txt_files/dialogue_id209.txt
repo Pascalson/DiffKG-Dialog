@@ -1,0 +1,65 @@
+0	Panda Express	HasAddress	842 Arrowhead Way
+0	Panda Express	HasType	chinese restaurant
+0	842 Arrowhead Way	IsAddressOf	Panda Express
+0	chinese restaurant	IsTypeOf	Panda Express
+0	Panda Express	HasTraffic	moderate traffic
+0	Panda Express	HasDistance	4 miles
+0	moderate traffic	IsTrafficOf	Panda Express
+0	4 miles	IsDistanceFrom	Panda Express
+1	Mandarin Roots	HasAddress	271 Springer Street
+1	Mandarin Roots	HasType	chinese restaurant
+1	271 Springer Street	IsAddressOf	Mandarin Roots
+1	chinese restaurant	IsTypeOf	Mandarin Roots
+1	Mandarin Roots	HasTraffic	car collision nearby
+1	Mandarin Roots	HasDistance	2 miles
+1	car collision nearby	IsTrafficOf	Mandarin Roots
+1	2 miles	IsDistanceFrom	Mandarin Roots
+2	Safeway	HasAddress	452 Arcadia Pl
+2	Safeway	HasType	grocery store
+2	452 Arcadia Pl	IsAddressOf	Safeway
+2	grocery store	IsTypeOf	Safeway
+2	Safeway	HasTraffic	car collision nearby
+2	Safeway	HasDistance	4 miles
+2	car collision nearby	IsTrafficOf	Safeway
+2	4 miles	IsDistanceFrom	Safeway
+3	Civic Center Garage	HasAddress	270 Altaire Walk
+3	Civic Center Garage	HasType	parking garage
+3	270 Altaire Walk	IsAddressOf	Civic Center Garage
+3	parking garage	IsTypeOf	Civic Center Garage
+3	Civic Center Garage	HasTraffic	car collision nearby
+3	Civic Center Garage	HasDistance	3 miles
+3	car collision nearby	IsTrafficOf	Civic Center Garage
+3	3 miles	IsDistanceFrom	Civic Center Garage
+4	Town and Country	HasAddress	383 University Ave
+4	Town and Country	HasType	shopping center
+4	383 University Ave	IsAddressOf	Town and Country
+4	shopping center	IsTypeOf	Town and Country
+4	Town and Country	HasTraffic	no traffic
+4	Town and Country	HasDistance	5 miles
+4	no traffic	IsTrafficOf	Town and Country
+4	5 miles	IsDistanceFrom	Town and Country
+5	Jing Jing	HasAddress	113 Arbol Dr
+5	Jing Jing	HasType	chinese restaurant
+5	113 Arbol Dr	IsAddressOf	Jing Jing
+5	chinese restaurant	IsTypeOf	Jing Jing
+5	Jing Jing	HasTraffic	moderate traffic
+5	Jing Jing	HasDistance	2 miles
+5	moderate traffic	IsTrafficOf	Jing Jing
+5	2 miles	IsDistanceFrom	Jing Jing
+6	P.F. Changs	HasAddress	669 El Camino Real
+6	P.F. Changs	HasType	chinese restaurant
+6	669 El Camino Real	IsAddressOf	P.F. Changs
+6	chinese restaurant	IsTypeOf	P.F. Changs
+6	P.F. Changs	HasTraffic	heavy traffic
+6	P.F. Changs	HasDistance	2 miles
+6	heavy traffic	IsTrafficOf	P.F. Changs
+6	2 miles	IsDistanceFrom	P.F. Changs
+7	Chef Chu's	HasAddress	593 Arrowhead Way
+7	Chef Chu's	HasType	chinese restaurant
+7	593 Arrowhead Way	IsAddressOf	Chef Chu's
+7	chinese restaurant	IsTypeOf	Chef Chu's
+7	Chef Chu's	HasTraffic	car collision nearby
+7	Chef Chu's	HasDistance	5 miles
+7	car collision nearby	IsTrafficOf	Chef Chu's
+7	5 miles	IsDistanceFrom	Chef Chu's
+-1	today	IsEqualTo	monday

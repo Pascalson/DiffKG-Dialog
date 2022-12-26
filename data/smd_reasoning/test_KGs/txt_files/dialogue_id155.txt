@@ -1,0 +1,57 @@
+0	Philz	HasAddress	583 Alester Ave
+0	Philz	HasType	coffee or tea place
+0	583 Alester Ave	IsAddressOf	Philz
+0	coffee or tea place	IsTypeOf	Philz
+0	Philz	HasTraffic	moderate traffic
+0	Philz	HasDistance	6 miles
+0	moderate traffic	IsTrafficOf	Philz
+0	6 miles	IsDistanceFrom	Philz
+1	Dominos	HasAddress	776 Arastradero Rd
+1	Dominos	HasType	pizza restaurant
+1	776 Arastradero Rd	IsAddressOf	Dominos
+1	pizza restaurant	IsTypeOf	Dominos
+1	Dominos	HasTraffic	heavy traffic
+1	Dominos	HasDistance	6 miles
+1	heavy traffic	IsTrafficOf	Dominos
+1	6 miles	IsDistanceFrom	Dominos
+2	Stanford Shopping Center	HasAddress	773 Alger Dr
+2	Stanford Shopping Center	HasType	shopping center
+2	773 Alger Dr	IsAddressOf	Stanford Shopping Center
+2	shopping center	IsTypeOf	Stanford Shopping Center
+2	Stanford Shopping Center	HasTraffic	no traffic
+2	Stanford Shopping Center	HasDistance	5 miles
+2	no traffic	IsTrafficOf	Stanford Shopping Center
+2	5 miles	IsDistanceFrom	Stanford Shopping Center
+3	Sigona Farmers Market	HasAddress	638 Amherst St
+3	Sigona Farmers Market	HasType	grocery store
+3	638 Amherst St	IsAddressOf	Sigona Farmers Market
+3	grocery store	IsTypeOf	Sigona Farmers Market
+3	Sigona Farmers Market	HasTraffic	moderate traffic
+3	Sigona Farmers Market	HasDistance	6 miles
+3	moderate traffic	IsTrafficOf	Sigona Farmers Market
+3	6 miles	IsDistanceFrom	Sigona Farmers Market
+4	Stanford Childrens Health	HasAddress	899 Ames Ct
+4	Stanford Childrens Health	HasType	hospital
+4	899 Ames Ct	IsAddressOf	Stanford Childrens Health
+4	hospital	IsTypeOf	Stanford Childrens Health
+4	Stanford Childrens Health	HasTraffic	no traffic
+4	Stanford Childrens Health	HasDistance	5 miles
+4	no traffic	IsTrafficOf	Stanford Childrens Health
+4	5 miles	IsDistanceFrom	Stanford Childrens Health
+5	Palo Alto Cafe	HasAddress	436 Alger Dr
+5	Palo Alto Cafe	HasType	coffee or tea place
+5	436 Alger Dr	IsAddressOf	Palo Alto Cafe
+5	coffee or tea place	IsTypeOf	Palo Alto Cafe
+5	Palo Alto Cafe	HasTraffic	moderate traffic
+5	Palo Alto Cafe	HasDistance	2 miles
+5	moderate traffic	IsTrafficOf	Palo Alto Cafe
+5	2 miles	IsDistanceFrom	Palo Alto Cafe
+6	Hotel Keen	HasAddress	578 Arbol Dr
+6	Hotel Keen	HasType	rest stop
+6	578 Arbol Dr	IsAddressOf	Hotel Keen
+6	rest stop	IsTypeOf	Hotel Keen
+6	Hotel Keen	HasTraffic	no traffic
+6	Hotel Keen	HasDistance	3 miles
+6	no traffic	IsTrafficOf	Hotel Keen
+6	3 miles	IsDistanceFrom	Hotel Keen
+-1	today	IsEqualTo	monday

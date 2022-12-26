@@ -1,0 +1,57 @@
+0	Ravenswood Shopping Center	HasAddress	434 Arastradero Rd
+0	Ravenswood Shopping Center	HasType	shopping center
+0	434 Arastradero Rd	IsAddressOf	Ravenswood Shopping Center
+0	shopping center	IsTypeOf	Ravenswood Shopping Center
+0	Ravenswood Shopping Center	HasTraffic	moderate traffic
+0	Ravenswood Shopping Center	HasDistance	1 miles
+0	moderate traffic	IsTrafficOf	Ravenswood Shopping Center
+0	1 miles	IsDistanceFrom	Ravenswood Shopping Center
+1	Trader Joes	HasAddress	408 University Ave
+1	Trader Joes	HasType	grocery store
+1	408 University Ave	IsAddressOf	Trader Joes
+1	grocery store	IsTypeOf	Trader Joes
+1	Trader Joes	HasTraffic	no traffic
+1	Trader Joes	HasDistance	6 miles
+1	no traffic	IsTrafficOf	Trader Joes
+1	6 miles	IsDistanceFrom	Trader Joes
+2	Round Table	HasAddress	113 Anton Ct
+2	Round Table	HasType	pizza restaurant
+2	113 Anton Ct	IsAddressOf	Round Table
+2	pizza restaurant	IsTypeOf	Round Table
+2	Round Table	HasTraffic	no traffic
+2	Round Table	HasDistance	3 miles
+2	no traffic	IsTrafficOf	Round Table
+2	3 miles	IsDistanceFrom	Round Table
+3	Hotel Keen	HasAddress	578 Arbol Dr
+3	Hotel Keen	HasType	rest stop
+3	578 Arbol Dr	IsAddressOf	Hotel Keen
+3	rest stop	IsTypeOf	Hotel Keen
+3	Hotel Keen	HasTraffic	heavy traffic
+3	Hotel Keen	HasDistance	2 miles
+3	heavy traffic	IsTrafficOf	Hotel Keen
+3	2 miles	IsDistanceFrom	Hotel Keen
+4	Palo Alto Cafe	HasAddress	436 Alger Dr
+4	Palo Alto Cafe	HasType	coffee or tea place
+4	436 Alger Dr	IsAddressOf	Palo Alto Cafe
+4	coffee or tea place	IsTypeOf	Palo Alto Cafe
+4	Palo Alto Cafe	HasTraffic	no traffic
+4	Palo Alto Cafe	HasDistance	3 miles
+4	no traffic	IsTrafficOf	Palo Alto Cafe
+4	3 miles	IsDistanceFrom	Palo Alto Cafe
+5	Town and Country	HasAddress	383 University Ave
+5	Town and Country	HasType	shopping center
+5	383 University Ave	IsAddressOf	Town and Country
+5	shopping center	IsTypeOf	Town and Country
+5	Town and Country	HasTraffic	moderate traffic
+5	Town and Country	HasDistance	2 miles
+5	moderate traffic	IsTrafficOf	Town and Country
+5	2 miles	IsDistanceFrom	Town and Country
+6	home	HasAddress	10 ames street
+6	home	HasType	home
+6	10 ames street	IsAddressOf	home
+6	home	IsTypeOf	home
+6	home	HasTraffic	no traffic
+6	home	HasDistance	5 miles
+6	no traffic	IsTrafficOf	home
+6	5 miles	IsDistanceFrom	home
+-1	today	IsEqualTo	monday

@@ -1,0 +1,65 @@
+0	jills house	HasAddress	347 Alta Mesa Ave
+0	jills house	HasType	friends house
+0	347 Alta Mesa Ave	IsAddressOf	jills house
+0	friends house	IsTypeOf	jills house
+0	jills house	HasTraffic	no traffic
+0	jills house	HasDistance	2 miles
+0	no traffic	IsTrafficOf	jills house
+0	2 miles	IsDistanceFrom	jills house
+1	Shell	HasAddress	53 University Av
+1	Shell	HasType	gas station
+1	53 University Av	IsAddressOf	Shell
+1	gas station	IsTypeOf	Shell
+1	Shell	HasTraffic	car collision nearby
+1	Shell	HasDistance	1 miles
+1	car collision nearby	IsTrafficOf	Shell
+1	1 miles	IsDistanceFrom	Shell
+2	Panda Express	HasAddress	842 Arrowhead Way
+2	Panda Express	HasType	chinese restaurant
+2	842 Arrowhead Way	IsAddressOf	Panda Express
+2	chinese restaurant	IsTypeOf	Panda Express
+2	Panda Express	HasTraffic	no traffic
+2	Panda Express	HasDistance	2 miles
+2	no traffic	IsTrafficOf	Panda Express
+2	2 miles	IsDistanceFrom	Panda Express
+3	5672 barringer street	HasAddress	5672 barringer street
+3	5672 barringer street	HasType	certain address
+3	5672 barringer street	IsAddressOf	5672 barringer street
+3	certain address	IsTypeOf	5672 barringer street
+3	5672 barringer street	HasTraffic	car collision nearby
+3	5672 barringer street	HasDistance	4 miles
+3	car collision nearby	IsTrafficOf	5672 barringer street
+3	4 miles	IsDistanceFrom	5672 barringer street
+4	Travelers Lodge	HasAddress	333 Arbol Dr
+4	Travelers Lodge	HasType	rest stop
+4	333 Arbol Dr	IsAddressOf	Travelers Lodge
+4	rest stop	IsTypeOf	Travelers Lodge
+4	Travelers Lodge	HasTraffic	car collision nearby
+4	Travelers Lodge	HasDistance	5 miles
+4	car collision nearby	IsTrafficOf	Travelers Lodge
+4	5 miles	IsDistanceFrom	Travelers Lodge
+5	Stanford Shopping Center	HasAddress	773 Alger Dr
+5	Stanford Shopping Center	HasType	shopping center
+5	773 Alger Dr	IsAddressOf	Stanford Shopping Center
+5	shopping center	IsTypeOf	Stanford Shopping Center
+5	Stanford Shopping Center	HasTraffic	road block nearby
+5	Stanford Shopping Center	HasDistance	5 miles
+5	road block nearby	IsTrafficOf	Stanford Shopping Center
+5	5 miles	IsDistanceFrom	Stanford Shopping Center
+6	76	HasAddress	91 El Camino Real
+6	76	HasType	gas station
+6	91 El Camino Real	IsAddressOf	76
+6	gas station	IsTypeOf	76
+6	76	HasTraffic	no traffic
+6	76	HasDistance	2 miles
+6	no traffic	IsTrafficOf	76
+6	2 miles	IsDistanceFrom	76
+7	Sigona Farmers Market	HasAddress	638 Amherst St
+7	Sigona Farmers Market	HasType	grocery store
+7	638 Amherst St	IsAddressOf	Sigona Farmers Market
+7	grocery store	IsTypeOf	Sigona Farmers Market
+7	Sigona Farmers Market	HasTraffic	moderate traffic
+7	Sigona Farmers Market	HasDistance	1 miles
+7	moderate traffic	IsTrafficOf	Sigona Farmers Market
+7	1 miles	IsDistanceFrom	Sigona Farmers Market
+-1	today	IsEqualTo	monday

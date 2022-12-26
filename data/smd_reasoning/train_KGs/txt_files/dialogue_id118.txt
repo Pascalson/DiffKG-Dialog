@@ -1,0 +1,57 @@
+0	Coupa	HasAddress	394 Van Ness Ave
+0	Coupa	HasType	coffee or tea place
+0	394 Van Ness Ave	IsAddressOf	Coupa
+0	coffee or tea place	IsTypeOf	Coupa
+0	Coupa	HasTraffic	no traffic
+0	Coupa	HasDistance	3 miles
+0	no traffic	IsTrafficOf	Coupa
+0	3 miles	IsDistanceFrom	Coupa
+1	The Westin	HasAddress	329 El Camino Real
+1	The Westin	HasType	rest stop
+1	329 El Camino Real	IsAddressOf	The Westin
+1	rest stop	IsTypeOf	The Westin
+1	The Westin	HasTraffic	heavy traffic
+1	The Westin	HasDistance	2 miles
+1	heavy traffic	IsTrafficOf	The Westin
+1	2 miles	IsDistanceFrom	The Westin
+2	Panda Express	HasAddress	842 Arrowhead Way
+2	Panda Express	HasType	chinese restaurant
+2	842 Arrowhead Way	IsAddressOf	Panda Express
+2	chinese restaurant	IsTypeOf	Panda Express
+2	Panda Express	HasTraffic	no traffic
+2	Panda Express	HasDistance	6 miles
+2	no traffic	IsTrafficOf	Panda Express
+2	6 miles	IsDistanceFrom	Panda Express
+3	Midtown Shopping Center	HasAddress	338 Alester Ave
+3	Midtown Shopping Center	HasType	shopping center
+3	338 Alester Ave	IsAddressOf	Midtown Shopping Center
+3	shopping center	IsTypeOf	Midtown Shopping Center
+3	Midtown Shopping Center	HasTraffic	heavy traffic
+3	Midtown Shopping Center	HasDistance	4 miles
+3	heavy traffic	IsTrafficOf	Midtown Shopping Center
+3	4 miles	IsDistanceFrom	Midtown Shopping Center
+4	home	HasAddress	56 cadwell street
+4	home	HasType	home
+4	56 cadwell street	IsAddressOf	home
+4	home	IsTypeOf	home
+4	home	HasTraffic	heavy traffic
+4	home	HasDistance	3 miles
+4	heavy traffic	IsTrafficOf	home
+4	3 miles	IsDistanceFrom	home
+5	Dominos	HasAddress	776 Arastradero Rd
+5	Dominos	HasType	pizza restaurant
+5	776 Arastradero Rd	IsAddressOf	Dominos
+5	pizza restaurant	IsTypeOf	Dominos
+5	Dominos	HasTraffic	moderate traffic
+5	Dominos	HasDistance	4 miles
+5	moderate traffic	IsTrafficOf	Dominos
+5	4 miles	IsDistanceFrom	Dominos
+6	Palo Alto Garage R	HasAddress	481 Amaranta Ave
+6	Palo Alto Garage R	HasType	parking garage
+6	481 Amaranta Ave	IsAddressOf	Palo Alto Garage R
+6	parking garage	IsTypeOf	Palo Alto Garage R
+6	Palo Alto Garage R	HasTraffic	moderate traffic
+6	Palo Alto Garage R	HasDistance	3 miles
+6	moderate traffic	IsTrafficOf	Palo Alto Garage R
+6	3 miles	IsDistanceFrom	Palo Alto Garage R
+-1	today	IsEqualTo	monday

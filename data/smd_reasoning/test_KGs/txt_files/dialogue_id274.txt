@@ -1,0 +1,65 @@
+0	toms house	HasAddress	580 Van Ness Ave
+0	toms house	HasType	friends house
+0	580 Van Ness Ave	IsAddressOf	toms house
+0	friends house	IsTypeOf	toms house
+0	toms house	HasTraffic	moderate traffic
+0	toms house	HasDistance	5 miles
+0	moderate traffic	IsTrafficOf	toms house
+0	5 miles	IsDistanceFrom	toms house
+1	Stanford Express Care	HasAddress	214 El Camino Real
+1	Stanford Express Care	HasType	hospital
+1	214 El Camino Real	IsAddressOf	Stanford Express Care
+1	hospital	IsTypeOf	Stanford Express Care
+1	Stanford Express Care	HasTraffic	road block nearby
+1	Stanford Express Care	HasDistance	5 miles
+1	road block nearby	IsTrafficOf	Stanford Express Care
+1	5 miles	IsDistanceFrom	Stanford Express Care
+2	Round Table	HasAddress	113 Anton Ct
+2	Round Table	HasType	pizza restaurant
+2	113 Anton Ct	IsAddressOf	Round Table
+2	pizza restaurant	IsTypeOf	Round Table
+2	Round Table	HasTraffic	road block nearby
+2	Round Table	HasDistance	6 miles
+2	road block nearby	IsTrafficOf	Round Table
+2	6 miles	IsDistanceFrom	Round Table
+3	Stanford Oval Parking	HasAddress	610 Amarillo Ave
+3	Stanford Oval Parking	HasType	parking garage
+3	610 Amarillo Ave	IsAddressOf	Stanford Oval Parking
+3	parking garage	IsTypeOf	Stanford Oval Parking
+3	Stanford Oval Parking	HasTraffic	road block nearby
+3	Stanford Oval Parking	HasDistance	6 miles
+3	road block nearby	IsTrafficOf	Stanford Oval Parking
+3	6 miles	IsDistanceFrom	Stanford Oval Parking
+4	Panda Express	HasAddress	842 Arrowhead Way
+4	Panda Express	HasType	chinese restaurant
+4	842 Arrowhead Way	IsAddressOf	Panda Express
+4	chinese restaurant	IsTypeOf	Panda Express
+4	Panda Express	HasTraffic	car collision nearby
+4	Panda Express	HasDistance	6 miles
+4	car collision nearby	IsTrafficOf	Panda Express
+4	6 miles	IsDistanceFrom	Panda Express
+5	Coupa	HasAddress	394 Van Ness Ave
+5	Coupa	HasType	coffee or tea place
+5	394 Van Ness Ave	IsAddressOf	Coupa
+5	coffee or tea place	IsTypeOf	Coupa
+5	Coupa	HasTraffic	heavy traffic
+5	Coupa	HasDistance	3 miles
+5	heavy traffic	IsTrafficOf	Coupa
+5	3 miles	IsDistanceFrom	Coupa
+6	Civic Center Garage	HasAddress	270 Altaire Walk
+6	Civic Center Garage	HasType	parking garage
+6	270 Altaire Walk	IsAddressOf	Civic Center Garage
+6	parking garage	IsTypeOf	Civic Center Garage
+6	Civic Center Garage	HasTraffic	car collision nearby
+6	Civic Center Garage	HasDistance	4 miles
+6	car collision nearby	IsTrafficOf	Civic Center Garage
+6	4 miles	IsDistanceFrom	Civic Center Garage
+7	Town and Country	HasAddress	383 University Ave
+7	Town and Country	HasType	shopping center
+7	383 University Ave	IsAddressOf	Town and Country
+7	shopping center	IsTypeOf	Town and Country
+7	Town and Country	HasTraffic	moderate traffic
+7	Town and Country	HasDistance	3 miles
+7	moderate traffic	IsTrafficOf	Town and Country
+7	3 miles	IsDistanceFrom	Town and Country
+-1	today	IsEqualTo	monday

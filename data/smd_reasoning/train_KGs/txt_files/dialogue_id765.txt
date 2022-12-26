@@ -1,0 +1,61 @@
+0	meeting	HasTime	2pm
+0	2pm	IsTimeOf	meeting
+0	meeting	HasDate	the 13th
+0	the 13th	IsDateOf	meeting
+0	meeting	HasParty	management
+0	management	IsPartyOf	meeting
+0	meeting	HasRoom	conference room 102
+0	conference room 102	IsRoomOf	meeting
+0	meeting	HasAgenda	onboard new members
+0	onboard new members	IsAgendaOf	meeting
+1	meeting	HasTime	9am
+1	9am	IsTimeOf	meeting
+1	meeting	HasDate	tuesday
+1	tuesday	IsDateOf	meeting
+1	meeting	HasParty	executive team
+1	executive team	IsPartyOf	meeting
+1	meeting	HasRoom	conference room 100
+1	conference room 100	IsRoomOf	meeting
+1	meeting	HasAgenda	go over quarterly report
+1	go over quarterly report	IsAgendaOf	meeting
+2	meeting	HasTime	10am
+2	10am	IsTimeOf	meeting
+2	meeting	HasDate	friday
+2	friday	IsDateOf	meeting
+2	meeting	HasParty	vice president
+2	vice president	IsPartyOf	meeting
+2	meeting	HasRoom	conference room 100
+2	conference room 100	IsRoomOf	meeting
+2	meeting	HasAgenda	go over budget
+2	go over budget	IsAgendaOf	meeting
+3	doctor appointment	HasTime	7pm
+3	7pm	IsTimeOf	doctor appointment
+3	doctor appointment	HasDate	friday
+3	friday	IsDateOf	doctor appointment
+3	doctor appointment	HasParty	father
+3	father	IsPartyOf	doctor appointment
+4	swimming activity	HasTime	3pm
+4	3pm	IsTimeOf	swimming activity
+4	swimming activity	HasDate	the 4th
+4	the 4th	IsDateOf	swimming activity
+4	swimming activity	HasParty	Jeff
+4	Jeff	IsPartyOf	swimming activity
+5	yoga activity	HasTime	7pm
+5	7pm	IsTimeOf	yoga activity
+5	yoga activity	HasDate	the 4th
+5	the 4th	IsDateOf	yoga activity
+5	yoga activity	HasParty	aunt
+5	aunt	IsPartyOf	yoga activity
+6	optometrist appointment	HasTime	3pm
+6	3pm	IsTimeOf	optometrist appointment
+6	optometrist appointment	HasDate	the 10th
+6	the 10th	IsDateOf	optometrist appointment
+6	optometrist appointment	HasParty	mother
+6	mother	IsPartyOf	optometrist appointment
+7	football activity	HasTime	6pm
+7	6pm	IsTimeOf	football activity
+7	football activity	HasDate	the 10th
+7	the 10th	IsDateOf	football activity
+7	football activity	HasParty	mother
+7	mother	IsPartyOf	football activity
+-1	today	IsEqualTo	monday

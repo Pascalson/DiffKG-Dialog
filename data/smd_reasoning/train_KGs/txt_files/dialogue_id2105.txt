@@ -1,0 +1,57 @@
+0	Chef Chu's	HasAddress	593 Arrowhead Way
+0	Chef Chu's	HasType	chinese restaurant
+0	593 Arrowhead Way	IsAddressOf	Chef Chu's
+0	chinese restaurant	IsTypeOf	Chef Chu's
+0	Chef Chu's	HasTraffic	moderate traffic
+0	Chef Chu's	HasDistance	4 miles
+0	moderate traffic	IsTrafficOf	Chef Chu's
+0	4 miles	IsDistanceFrom	Chef Chu's
+1	Dominos	HasAddress	776 Arastradero Rd
+1	Dominos	HasType	pizza restaurant
+1	776 Arastradero Rd	IsAddressOf	Dominos
+1	pizza restaurant	IsTypeOf	Dominos
+1	Dominos	HasTraffic	heavy traffic
+1	Dominos	HasDistance	6 miles
+1	heavy traffic	IsTrafficOf	Dominos
+1	6 miles	IsDistanceFrom	Dominos
+2	Pizza Hut	HasAddress	704 El Camino Real
+2	Pizza Hut	HasType	pizza restaurant
+2	704 El Camino Real	IsAddressOf	Pizza Hut
+2	pizza restaurant	IsTypeOf	Pizza Hut
+2	Pizza Hut	HasTraffic	no traffic
+2	Pizza Hut	HasDistance	4 miles
+2	no traffic	IsTrafficOf	Pizza Hut
+2	4 miles	IsDistanceFrom	Pizza Hut
+3	Ravenswood Shopping Center	HasAddress	434 Arastradero Rd
+3	Ravenswood Shopping Center	HasType	shopping center
+3	434 Arastradero Rd	IsAddressOf	Ravenswood Shopping Center
+3	shopping center	IsTypeOf	Ravenswood Shopping Center
+3	Ravenswood Shopping Center	HasTraffic	no traffic
+3	Ravenswood Shopping Center	HasDistance	2 miles
+3	no traffic	IsTrafficOf	Ravenswood Shopping Center
+3	2 miles	IsDistanceFrom	Ravenswood Shopping Center
+4	Cafe Venetia	HasAddress	269 Alger Dr
+4	Cafe Venetia	HasType	coffee or tea place
+4	269 Alger Dr	IsAddressOf	Cafe Venetia
+4	coffee or tea place	IsTypeOf	Cafe Venetia
+4	Cafe Venetia	HasTraffic	heavy traffic
+4	Cafe Venetia	HasDistance	6 miles
+4	heavy traffic	IsTrafficOf	Cafe Venetia
+4	6 miles	IsDistanceFrom	Cafe Venetia
+5	Round Table	HasAddress	113 Anton Ct
+5	Round Table	HasType	pizza restaurant
+5	113 Anton Ct	IsAddressOf	Round Table
+5	pizza restaurant	IsTypeOf	Round Table
+5	Round Table	HasTraffic	no traffic
+5	Round Table	HasDistance	2 miles
+5	no traffic	IsTrafficOf	Round Table
+5	2 miles	IsDistanceFrom	Round Table
+6	5677 southwest 4th street	HasAddress	5677 southwest 4th street
+6	5677 southwest 4th street	HasType	certain address
+6	5677 southwest 4th street	IsAddressOf	5677 southwest 4th street
+6	certain address	IsTypeOf	5677 southwest 4th street
+6	5677 southwest 4th street	HasTraffic	no traffic
+6	5677 southwest 4th street	HasDistance	1 miles
+6	no traffic	IsTrafficOf	5677 southwest 4th street
+6	1 miles	IsDistanceFrom	5677 southwest 4th street
+-1	today	IsEqualTo	monday

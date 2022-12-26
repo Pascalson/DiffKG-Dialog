@@ -1,0 +1,65 @@
+0	Pizza Hut	HasAddress	704 El Camino Real
+0	Pizza Hut	HasType	pizza restaurant
+0	704 El Camino Real	IsAddressOf	Pizza Hut
+0	pizza restaurant	IsTypeOf	Pizza Hut
+0	Pizza Hut	HasTraffic	road block nearby
+0	Pizza Hut	HasDistance	6 miles
+0	road block nearby	IsTrafficOf	Pizza Hut
+0	6 miles	IsDistanceFrom	Pizza Hut
+1	5677 southwest 4th street	HasAddress	5677 southwest 4th street
+1	5677 southwest 4th street	HasType	certain address
+1	5677 southwest 4th street	IsAddressOf	5677 southwest 4th street
+1	certain address	IsTypeOf	5677 southwest 4th street
+1	5677 southwest 4th street	HasTraffic	moderate traffic
+1	5677 southwest 4th street	HasDistance	5 miles
+1	moderate traffic	IsTrafficOf	5677 southwest 4th street
+1	5 miles	IsDistanceFrom	5677 southwest 4th street
+2	Dominos	HasAddress	776 Arastradero Rd
+2	Dominos	HasType	pizza restaurant
+2	776 Arastradero Rd	IsAddressOf	Dominos
+2	pizza restaurant	IsTypeOf	Dominos
+2	Dominos	HasTraffic	heavy traffic
+2	Dominos	HasDistance	4 miles
+2	heavy traffic	IsTrafficOf	Dominos
+2	4 miles	IsDistanceFrom	Dominos
+3	Pizza Chicago	HasAddress	915 Arbol Dr
+3	Pizza Chicago	HasType	pizza restaurant
+3	915 Arbol Dr	IsAddressOf	Pizza Chicago
+3	pizza restaurant	IsTypeOf	Pizza Chicago
+3	Pizza Chicago	HasTraffic	moderate traffic
+3	Pizza Chicago	HasDistance	2 miles
+3	moderate traffic	IsTrafficOf	Pizza Chicago
+3	2 miles	IsDistanceFrom	Pizza Chicago
+4	Chevron	HasAddress	783 Arcadia Pl
+4	Chevron	HasType	gas station
+4	783 Arcadia Pl	IsAddressOf	Chevron
+4	gas station	IsTypeOf	Chevron
+4	Chevron	HasTraffic	heavy traffic
+4	Chevron	HasDistance	1 miles
+4	heavy traffic	IsTrafficOf	Chevron
+4	1 miles	IsDistanceFrom	Chevron
+5	Starbucks	HasAddress	792 Bedoin Street
+5	Starbucks	HasType	coffee or tea place
+5	792 Bedoin Street	IsAddressOf	Starbucks
+5	coffee or tea place	IsTypeOf	Starbucks
+5	Starbucks	HasTraffic	road block nearby
+5	Starbucks	HasDistance	6 miles
+5	road block nearby	IsTrafficOf	Starbucks
+5	6 miles	IsDistanceFrom	Starbucks
+6	jills house	HasAddress	347 Alta Mesa Ave
+6	jills house	HasType	friends house
+6	347 Alta Mesa Ave	IsAddressOf	jills house
+6	friends house	IsTypeOf	jills house
+6	jills house	HasTraffic	moderate traffic
+6	jills house	HasDistance	6 miles
+6	moderate traffic	IsTrafficOf	jills house
+6	6 miles	IsDistanceFrom	jills house
+7	Cafe Venetia	HasAddress	269 Alger Dr
+7	Cafe Venetia	HasType	coffee or tea place
+7	269 Alger Dr	IsAddressOf	Cafe Venetia
+7	coffee or tea place	IsTypeOf	Cafe Venetia
+7	Cafe Venetia	HasTraffic	moderate traffic
+7	Cafe Venetia	HasDistance	2 miles
+7	moderate traffic	IsTrafficOf	Cafe Venetia
+7	2 miles	IsDistanceFrom	Cafe Venetia
+-1	today	IsEqualTo	monday

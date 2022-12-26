@@ -1,0 +1,61 @@
+0	dinner	HasTime	5pm
+0	5pm	IsTimeOf	dinner
+0	dinner	HasDate	the 16th
+0	the 16th	IsDateOf	dinner
+0	dinner	HasParty	aunt
+0	aunt	IsPartyOf	dinner
+1	dinner	HasTime	7pm
+1	7pm	IsTimeOf	dinner
+1	dinner	HasDate	the 15th
+1	the 15th	IsDateOf	dinner
+1	dinner	HasParty	Jon
+1	Jon	IsPartyOf	dinner
+2	dinner	HasTime	6pm
+2	6pm	IsTimeOf	dinner
+2	dinner	HasDate	friday
+2	friday	IsDateOf	dinner
+2	dinner	HasParty	father
+2	father	IsPartyOf	dinner
+3	conference	HasTime	4pm
+3	4pm	IsTimeOf	conference
+3	conference	HasDate	the 15th
+3	the 15th	IsDateOf	conference
+3	conference	HasParty	sales team
+3	sales team	IsPartyOf	conference
+3	conference	HasRoom	conference room 100
+3	conference room 100	IsRoomOf	conference
+3	conference	HasAgenda	discuss the company picnic
+3	discuss the company picnic	IsAgendaOf	conference
+4	conference	HasTime	4pm
+4	4pm	IsTimeOf	conference
+4	conference	HasDate	the 10th
+4	the 10th	IsDateOf	conference
+4	conference	HasParty	HR
+4	HR	IsPartyOf	conference
+4	conference	HasRoom	conference room 100
+4	conference room 100	IsRoomOf	conference
+4	conference	HasAgenda	discuss dress code
+4	discuss dress code	IsAgendaOf	conference
+5	tennis activity	HasTime	5pm
+5	5pm	IsTimeOf	tennis activity
+5	tennis activity	HasDate	the 7th
+5	the 7th	IsDateOf	tennis activity
+5	tennis activity	HasParty	Ana
+5	Ana	IsPartyOf	tennis activity
+6	conference	HasTime	3pm
+6	3pm	IsTimeOf	conference
+6	conference	HasDate	monday
+6	monday	IsDateOf	conference
+6	conference	HasParty	executive team
+6	executive team	IsPartyOf	conference
+6	conference	HasRoom	conference room 102
+6	conference room 102	IsRoomOf	conference
+6	conference	HasAgenda	discuss the merger
+6	discuss the merger	IsAgendaOf	conference
+7	tennis activity	HasTime	5pm
+7	5pm	IsTimeOf	tennis activity
+7	tennis activity	HasDate	the 12th
+7	the 12th	IsDateOf	tennis activity
+7	tennis activity	HasParty	aunt
+7	aunt	IsPartyOf	tennis activity
+-1	today	IsEqualTo	monday

@@ -1,0 +1,57 @@
+0	Sigona Farmers Market	HasAddress	638 Amherst St
+0	Sigona Farmers Market	HasType	grocery store
+0	638 Amherst St	IsAddressOf	Sigona Farmers Market
+0	grocery store	IsTypeOf	Sigona Farmers Market
+0	Sigona Farmers Market	HasTraffic	no traffic
+0	Sigona Farmers Market	HasDistance	4 miles
+0	no traffic	IsTrafficOf	Sigona Farmers Market
+0	4 miles	IsDistanceFrom	Sigona Farmers Market
+1	home	HasAddress	10 ames street
+1	home	HasType	home
+1	10 ames street	IsAddressOf	home
+1	home	IsTypeOf	home
+1	home	HasTraffic	moderate traffic
+1	home	HasDistance	1 miles
+1	moderate traffic	IsTrafficOf	home
+1	1 miles	IsDistanceFrom	home
+2	tai pan	HasAddress	830 Almanor Ln
+2	tai pan	HasType	chinese restaurant
+2	830 Almanor Ln	IsAddressOf	tai pan
+2	chinese restaurant	IsTypeOf	tai pan
+2	tai pan	HasTraffic	heavy traffic
+2	tai pan	HasDistance	5 miles
+2	heavy traffic	IsTrafficOf	tai pan
+2	5 miles	IsDistanceFrom	tai pan
+3	Midtown Shopping Center	HasAddress	338 Alester Ave
+3	Midtown Shopping Center	HasType	shopping center
+3	338 Alester Ave	IsAddressOf	Midtown Shopping Center
+3	shopping center	IsTypeOf	Midtown Shopping Center
+3	Midtown Shopping Center	HasTraffic	no traffic
+3	Midtown Shopping Center	HasDistance	1 miles
+3	no traffic	IsTrafficOf	Midtown Shopping Center
+3	1 miles	IsDistanceFrom	Midtown Shopping Center
+4	Chef Chu's	HasAddress	593 Arrowhead Way
+4	Chef Chu's	HasType	chinese restaurant
+4	593 Arrowhead Way	IsAddressOf	Chef Chu's
+4	chinese restaurant	IsTypeOf	Chef Chu's
+4	Chef Chu's	HasTraffic	no traffic
+4	Chef Chu's	HasDistance	6 miles
+4	no traffic	IsTrafficOf	Chef Chu's
+4	6 miles	IsDistanceFrom	Chef Chu's
+5	home	HasAddress	56 cadwell street
+5	home	HasType	home
+5	56 cadwell street	IsAddressOf	home
+5	home	IsTypeOf	home
+5	home	HasTraffic	moderate traffic
+5	home	HasDistance	2 miles
+5	moderate traffic	IsTrafficOf	home
+5	2 miles	IsDistanceFrom	home
+6	5677 southwest 4th street	HasAddress	5677 southwest 4th street
+6	5677 southwest 4th street	HasType	certain address
+6	5677 southwest 4th street	IsAddressOf	5677 southwest 4th street
+6	certain address	IsTypeOf	5677 southwest 4th street
+6	5677 southwest 4th street	HasTraffic	moderate traffic
+6	5677 southwest 4th street	HasDistance	5 miles
+6	moderate traffic	IsTrafficOf	5677 southwest 4th street
+6	5 miles	IsDistanceFrom	5677 southwest 4th street
+-1	today	IsEqualTo	monday

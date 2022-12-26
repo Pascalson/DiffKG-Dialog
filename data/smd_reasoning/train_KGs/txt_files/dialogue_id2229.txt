@@ -1,0 +1,57 @@
+0	5672 barringer street	HasAddress	5672 barringer street
+0	5672 barringer street	HasType	certain address
+0	5672 barringer street	IsAddressOf	5672 barringer street
+0	certain address	IsTypeOf	5672 barringer street
+0	5672 barringer street	HasTraffic	heavy traffic
+0	5672 barringer street	HasDistance	5 miles
+0	heavy traffic	IsTrafficOf	5672 barringer street
+0	5 miles	IsDistanceFrom	5672 barringer street
+1	Sigona Farmers Market	HasAddress	638 Amherst St
+1	Sigona Farmers Market	HasType	grocery store
+1	638 Amherst St	IsAddressOf	Sigona Farmers Market
+1	grocery store	IsTypeOf	Sigona Farmers Market
+1	Sigona Farmers Market	HasTraffic	no traffic
+1	Sigona Farmers Market	HasDistance	4 miles
+1	no traffic	IsTrafficOf	Sigona Farmers Market
+1	4 miles	IsDistanceFrom	Sigona Farmers Market
+2	Jing Jing	HasAddress	113 Arbol Dr
+2	Jing Jing	HasType	chinese restaurant
+2	113 Arbol Dr	IsAddressOf	Jing Jing
+2	chinese restaurant	IsTypeOf	Jing Jing
+2	Jing Jing	HasTraffic	heavy traffic
+2	Jing Jing	HasDistance	5 miles
+2	heavy traffic	IsTrafficOf	Jing Jing
+2	5 miles	IsDistanceFrom	Jing Jing
+3	Pizza Hut	HasAddress	704 El Camino Real
+3	Pizza Hut	HasType	pizza restaurant
+3	704 El Camino Real	IsAddressOf	Pizza Hut
+3	pizza restaurant	IsTypeOf	Pizza Hut
+3	Pizza Hut	HasTraffic	heavy traffic
+3	Pizza Hut	HasDistance	3 miles
+3	heavy traffic	IsTrafficOf	Pizza Hut
+3	3 miles	IsDistanceFrom	Pizza Hut
+4	Stanford Shopping Center	HasAddress	773 Alger Dr
+4	Stanford Shopping Center	HasType	shopping center
+4	773 Alger Dr	IsAddressOf	Stanford Shopping Center
+4	shopping center	IsTypeOf	Stanford Shopping Center
+4	Stanford Shopping Center	HasTraffic	moderate traffic
+4	Stanford Shopping Center	HasDistance	2 miles
+4	moderate traffic	IsTrafficOf	Stanford Shopping Center
+4	2 miles	IsDistanceFrom	Stanford Shopping Center
+5	Stanford Express Care	HasAddress	214 El Camino Real
+5	Stanford Express Care	HasType	hospital
+5	214 El Camino Real	IsAddressOf	Stanford Express Care
+5	hospital	IsTypeOf	Stanford Express Care
+5	Stanford Express Care	HasTraffic	no traffic
+5	Stanford Express Care	HasDistance	3 miles
+5	no traffic	IsTrafficOf	Stanford Express Care
+5	3 miles	IsDistanceFrom	Stanford Express Care
+6	Coupa	HasAddress	394 Van Ness Ave
+6	Coupa	HasType	coffee or tea place
+6	394 Van Ness Ave	IsAddressOf	Coupa
+6	coffee or tea place	IsTypeOf	Coupa
+6	Coupa	HasTraffic	moderate traffic
+6	Coupa	HasDistance	6 miles
+6	moderate traffic	IsTrafficOf	Coupa
+6	6 miles	IsDistanceFrom	Coupa
+-1	today	IsEqualTo	monday

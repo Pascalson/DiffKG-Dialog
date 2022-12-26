@@ -1,0 +1,57 @@
+0	conference	HasTime	9am
+0	9am	IsTimeOf	conference
+0	conference	HasDate	monday
+0	monday	IsDateOf	conference
+0	conference	HasParty	boss
+0	boss	IsPartyOf	conference
+0	conference	HasRoom	conference room 100
+0	conference room 100	IsRoomOf	conference
+0	conference	HasAgenda	discuss the merger
+0	discuss the merger	IsAgendaOf	conference
+1	doctor appointment	HasTime	5pm
+1	5pm	IsTimeOf	doctor appointment
+1	doctor appointment	HasDate	the 5th
+1	the 5th	IsDateOf	doctor appointment
+1	doctor appointment	HasParty	mother
+1	mother	IsPartyOf	doctor appointment
+2	dentist appointment	HasTime	7pm
+2	7pm	IsTimeOf	dentist appointment
+2	dentist appointment	HasDate	the 4th
+2	the 4th	IsDateOf	dentist appointment
+2	dentist appointment	HasParty	brother
+2	brother	IsPartyOf	dentist appointment
+3	swimming activity	HasTime	5pm
+3	5pm	IsTimeOf	swimming activity
+3	swimming activity	HasDate	thursday
+3	thursday	IsDateOf	swimming activity
+3	swimming activity	HasParty	Ana
+3	Ana	IsPartyOf	swimming activity
+4	doctor appointment	HasTime	3pm
+4	3pm	IsTimeOf	doctor appointment
+4	doctor appointment	HasDate	wednesday
+4	wednesday	IsDateOf	doctor appointment
+4	doctor appointment	HasParty	Marie
+4	Marie	IsPartyOf	doctor appointment
+5	swimming activity	HasTime	11am
+5	11am	IsTimeOf	swimming activity
+5	swimming activity	HasDate	thursday
+5	thursday	IsDateOf	swimming activity
+5	swimming activity	HasParty	Marie
+5	Marie	IsPartyOf	swimming activity
+6	meeting	HasTime	3pm
+6	3pm	IsTimeOf	meeting
+6	meeting	HasDate	friday
+6	friday	IsDateOf	meeting
+6	meeting	HasParty	infrastructure team
+6	infrastructure team	IsPartyOf	meeting
+6	meeting	HasRoom	conference room 50
+6	conference room 50	IsRoomOf	meeting
+6	meeting	HasAgenda	onboard new members
+6	onboard new members	IsAgendaOf	meeting
+7	dentist appointment	HasTime	10am
+7	10am	IsTimeOf	dentist appointment
+7	dentist appointment	HasDate	friday
+7	friday	IsDateOf	dentist appointment
+7	dentist appointment	HasParty	mother
+7	mother	IsPartyOf	dentist appointment
+-1	today	IsEqualTo	monday

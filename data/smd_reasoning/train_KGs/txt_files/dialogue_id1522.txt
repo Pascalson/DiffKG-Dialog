@@ -1,0 +1,65 @@
+0	home	HasAddress	5671 barringer street
+0	home	HasType	home
+0	5671 barringer street	IsAddressOf	home
+0	home	IsTypeOf	home
+0	home	HasTraffic	moderate traffic
+0	home	HasDistance	1 miles
+0	moderate traffic	IsTrafficOf	home
+0	1 miles	IsDistanceFrom	home
+1	Four Seasons	HasAddress	465 Arcadia Pl
+1	Four Seasons	HasType	rest stop
+1	465 Arcadia Pl	IsAddressOf	Four Seasons
+1	rest stop	IsTypeOf	Four Seasons
+1	Four Seasons	HasTraffic	road block nearby
+1	Four Seasons	HasDistance	4 miles
+1	road block nearby	IsTrafficOf	Four Seasons
+1	4 miles	IsDistanceFrom	Four Seasons
+2	Midtown Shopping Center	HasAddress	338 Alester Ave
+2	Midtown Shopping Center	HasType	shopping center
+2	338 Alester Ave	IsAddressOf	Midtown Shopping Center
+2	shopping center	IsTypeOf	Midtown Shopping Center
+2	Midtown Shopping Center	HasTraffic	moderate traffic
+2	Midtown Shopping Center	HasDistance	3 miles
+2	moderate traffic	IsTrafficOf	Midtown Shopping Center
+2	3 miles	IsDistanceFrom	Midtown Shopping Center
+3	The Clement Hotel	HasAddress	657 Ames Ave
+3	The Clement Hotel	HasType	rest stop
+3	657 Ames Ave	IsAddressOf	The Clement Hotel
+3	rest stop	IsTypeOf	The Clement Hotel
+3	The Clement Hotel	HasTraffic	moderate traffic
+3	The Clement Hotel	HasDistance	1 miles
+3	moderate traffic	IsTrafficOf	The Clement Hotel
+3	1 miles	IsDistanceFrom	The Clement Hotel
+4	Dominos	HasAddress	776 Arastradero Rd
+4	Dominos	HasType	pizza restaurant
+4	776 Arastradero Rd	IsAddressOf	Dominos
+4	pizza restaurant	IsTypeOf	Dominos
+4	Dominos	HasTraffic	road block nearby
+4	Dominos	HasDistance	1 miles
+4	road block nearby	IsTrafficOf	Dominos
+4	1 miles	IsDistanceFrom	Dominos
+5	Stanford Shopping Center	HasAddress	773 Alger Dr
+5	Stanford Shopping Center	HasType	shopping center
+5	773 Alger Dr	IsAddressOf	Stanford Shopping Center
+5	shopping center	IsTypeOf	Stanford Shopping Center
+5	Stanford Shopping Center	HasTraffic	moderate traffic
+5	Stanford Shopping Center	HasDistance	3 miles
+5	moderate traffic	IsTrafficOf	Stanford Shopping Center
+5	3 miles	IsDistanceFrom	Stanford Shopping Center
+6	Pizza My Heart	HasAddress	528 Anton Ct
+6	Pizza My Heart	HasType	pizza restaurant
+6	528 Anton Ct	IsAddressOf	Pizza My Heart
+6	pizza restaurant	IsTypeOf	Pizza My Heart
+6	Pizza My Heart	HasTraffic	no traffic
+6	Pizza My Heart	HasDistance	5 miles
+6	no traffic	IsTrafficOf	Pizza My Heart
+6	5 miles	IsDistanceFrom	Pizza My Heart
+7	jacks house	HasAddress	864 Almanor Ln
+7	jacks house	HasType	friends house
+7	864 Almanor Ln	IsAddressOf	jacks house
+7	friends house	IsTypeOf	jacks house
+7	jacks house	HasTraffic	car collision nearby
+7	jacks house	HasDistance	4 miles
+7	car collision nearby	IsTrafficOf	jacks house
+7	4 miles	IsDistanceFrom	jacks house
+-1	today	IsEqualTo	monday

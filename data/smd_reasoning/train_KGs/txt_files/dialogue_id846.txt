@@ -1,0 +1,57 @@
+0	Midtown Shopping Center	HasAddress	338 Alester Ave
+0	Midtown Shopping Center	HasType	shopping center
+0	338 Alester Ave	IsAddressOf	Midtown Shopping Center
+0	shopping center	IsTypeOf	Midtown Shopping Center
+0	Midtown Shopping Center	HasTraffic	heavy traffic
+0	Midtown Shopping Center	HasDistance	1 miles
+0	heavy traffic	IsTrafficOf	Midtown Shopping Center
+0	1 miles	IsDistanceFrom	Midtown Shopping Center
+1	jacks house	HasAddress	864 Almanor Ln
+1	jacks house	HasType	friends house
+1	864 Almanor Ln	IsAddressOf	jacks house
+1	friends house	IsTypeOf	jacks house
+1	jacks house	HasTraffic	no traffic
+1	jacks house	HasDistance	3 miles
+1	no traffic	IsTrafficOf	jacks house
+1	3 miles	IsDistanceFrom	jacks house
+2	Philz	HasAddress	583 Alester Ave
+2	Philz	HasType	coffee or tea place
+2	583 Alester Ave	IsAddressOf	Philz
+2	coffee or tea place	IsTypeOf	Philz
+2	Philz	HasTraffic	no traffic
+2	Philz	HasDistance	3 miles
+2	no traffic	IsTrafficOf	Philz
+2	3 miles	IsDistanceFrom	Philz
+3	Stanford Childrens Health	HasAddress	899 Ames Ct
+3	Stanford Childrens Health	HasType	hospital
+3	899 Ames Ct	IsAddressOf	Stanford Childrens Health
+3	hospital	IsTypeOf	Stanford Childrens Health
+3	Stanford Childrens Health	HasTraffic	moderate traffic
+3	Stanford Childrens Health	HasDistance	6 miles
+3	moderate traffic	IsTrafficOf	Stanford Childrens Health
+3	6 miles	IsDistanceFrom	Stanford Childrens Health
+4	home	HasAddress	10 ames street
+4	home	HasType	home
+4	10 ames street	IsAddressOf	home
+4	home	IsTypeOf	home
+4	home	HasTraffic	no traffic
+4	home	HasDistance	6 miles
+4	no traffic	IsTrafficOf	home
+4	6 miles	IsDistanceFrom	home
+5	Safeway	HasAddress	452 Arcadia Pl
+5	Safeway	HasType	grocery store
+5	452 Arcadia Pl	IsAddressOf	Safeway
+5	grocery store	IsTypeOf	Safeway
+5	Safeway	HasTraffic	heavy traffic
+5	Safeway	HasDistance	2 miles
+5	heavy traffic	IsTrafficOf	Safeway
+5	2 miles	IsDistanceFrom	Safeway
+6	jills house	HasAddress	347 Alta Mesa Ave
+6	jills house	HasType	friends house
+6	347 Alta Mesa Ave	IsAddressOf	jills house
+6	friends house	IsTypeOf	jills house
+6	jills house	HasTraffic	heavy traffic
+6	jills house	HasDistance	5 miles
+6	heavy traffic	IsTrafficOf	jills house
+6	5 miles	IsDistanceFrom	jills house
+-1	today	IsEqualTo	monday

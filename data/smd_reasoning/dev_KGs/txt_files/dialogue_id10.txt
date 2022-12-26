@@ -1,0 +1,57 @@
+0	Palo Alto Medical Foundation	HasAddress	611 Ames Ave
+0	Palo Alto Medical Foundation	HasType	hospital
+0	611 Ames Ave	IsAddressOf	Palo Alto Medical Foundation
+0	hospital	IsTypeOf	Palo Alto Medical Foundation
+0	Palo Alto Medical Foundation	HasTraffic	heavy traffic
+0	Palo Alto Medical Foundation	HasDistance	6 miles
+0	heavy traffic	IsTrafficOf	Palo Alto Medical Foundation
+0	6 miles	IsDistanceFrom	Palo Alto Medical Foundation
+1	Ravenswood Shopping Center	HasAddress	434 Arastradero Rd
+1	Ravenswood Shopping Center	HasType	shopping center
+1	434 Arastradero Rd	IsAddressOf	Ravenswood Shopping Center
+1	shopping center	IsTypeOf	Ravenswood Shopping Center
+1	Ravenswood Shopping Center	HasTraffic	heavy traffic
+1	Ravenswood Shopping Center	HasDistance	5 miles
+1	heavy traffic	IsTrafficOf	Ravenswood Shopping Center
+1	5 miles	IsDistanceFrom	Ravenswood Shopping Center
+2	Pizza Hut	HasAddress	704 El Camino Real
+2	Pizza Hut	HasType	pizza restaurant
+2	704 El Camino Real	IsAddressOf	Pizza Hut
+2	pizza restaurant	IsTypeOf	Pizza Hut
+2	Pizza Hut	HasTraffic	heavy traffic
+2	Pizza Hut	HasDistance	5 miles
+2	heavy traffic	IsTrafficOf	Pizza Hut
+2	5 miles	IsDistanceFrom	Pizza Hut
+3	Palo Alto Garage R	HasAddress	481 Amaranta Ave
+3	Palo Alto Garage R	HasType	parking garage
+3	481 Amaranta Ave	IsAddressOf	Palo Alto Garage R
+3	parking garage	IsTypeOf	Palo Alto Garage R
+3	Palo Alto Garage R	HasTraffic	no traffic
+3	Palo Alto Garage R	HasDistance	3 miles
+3	no traffic	IsTrafficOf	Palo Alto Garage R
+3	3 miles	IsDistanceFrom	Palo Alto Garage R
+4	Pizza Chicago	HasAddress	915 Arbol Dr
+4	Pizza Chicago	HasType	pizza restaurant
+4	915 Arbol Dr	IsAddressOf	Pizza Chicago
+4	pizza restaurant	IsTypeOf	Pizza Chicago
+4	Pizza Chicago	HasTraffic	heavy traffic
+4	Pizza Chicago	HasDistance	1 miles
+4	heavy traffic	IsTrafficOf	Pizza Chicago
+4	1 miles	IsDistanceFrom	Pizza Chicago
+5	Pizza My Heart	HasAddress	528 Anton Ct
+5	Pizza My Heart	HasType	pizza restaurant
+5	528 Anton Ct	IsAddressOf	Pizza My Heart
+5	pizza restaurant	IsTypeOf	Pizza My Heart
+5	Pizza My Heart	HasTraffic	no traffic
+5	Pizza My Heart	HasDistance	3 miles
+5	no traffic	IsTrafficOf	Pizza My Heart
+5	3 miles	IsDistanceFrom	Pizza My Heart
+6	Four Seasons	HasAddress	465 Arcadia Pl
+6	Four Seasons	HasType	rest stop
+6	465 Arcadia Pl	IsAddressOf	Four Seasons
+6	rest stop	IsTypeOf	Four Seasons
+6	Four Seasons	HasTraffic	no traffic
+6	Four Seasons	HasDistance	1 miles
+6	no traffic	IsTrafficOf	Four Seasons
+6	1 miles	IsDistanceFrom	Four Seasons
+-1	today	IsEqualTo	monday

@@ -1,0 +1,57 @@
+0	Palo Alto Garage R	HasAddress	481 Amaranta Ave
+0	Palo Alto Garage R	HasType	parking garage
+0	481 Amaranta Ave	IsAddressOf	Palo Alto Garage R
+0	parking garage	IsTypeOf	Palo Alto Garage R
+0	Palo Alto Garage R	HasTraffic	moderate traffic
+0	Palo Alto Garage R	HasDistance	5 miles
+0	moderate traffic	IsTrafficOf	Palo Alto Garage R
+0	5 miles	IsDistanceFrom	Palo Alto Garage R
+1	Chef Chu's	HasAddress	593 Arrowhead Way
+1	Chef Chu's	HasType	chinese restaurant
+1	593 Arrowhead Way	IsAddressOf	Chef Chu's
+1	chinese restaurant	IsTypeOf	Chef Chu's
+1	Chef Chu's	HasTraffic	heavy traffic
+1	Chef Chu's	HasDistance	2 miles
+1	heavy traffic	IsTrafficOf	Chef Chu's
+1	2 miles	IsDistanceFrom	Chef Chu's
+2	Hotel Keen	HasAddress	578 Arbol Dr
+2	Hotel Keen	HasType	rest stop
+2	578 Arbol Dr	IsAddressOf	Hotel Keen
+2	rest stop	IsTypeOf	Hotel Keen
+2	Hotel Keen	HasTraffic	heavy traffic
+2	Hotel Keen	HasDistance	5 miles
+2	heavy traffic	IsTrafficOf	Hotel Keen
+2	5 miles	IsDistanceFrom	Hotel Keen
+3	jills house	HasAddress	347 Alta Mesa Ave
+3	jills house	HasType	friends house
+3	347 Alta Mesa Ave	IsAddressOf	jills house
+3	friends house	IsTypeOf	jills house
+3	jills house	HasTraffic	moderate traffic
+3	jills house	HasDistance	5 miles
+3	moderate traffic	IsTrafficOf	jills house
+3	5 miles	IsDistanceFrom	jills house
+4	Four Seasons	HasAddress	465 Arcadia Pl
+4	Four Seasons	HasType	rest stop
+4	465 Arcadia Pl	IsAddressOf	Four Seasons
+4	rest stop	IsTypeOf	Four Seasons
+4	Four Seasons	HasTraffic	no traffic
+4	Four Seasons	HasDistance	3 miles
+4	no traffic	IsTrafficOf	Four Seasons
+4	3 miles	IsDistanceFrom	Four Seasons
+5	Coupa	HasAddress	394 Van Ness Ave
+5	Coupa	HasType	coffee or tea place
+5	394 Van Ness Ave	IsAddressOf	Coupa
+5	coffee or tea place	IsTypeOf	Coupa
+5	Coupa	HasTraffic	moderate traffic
+5	Coupa	HasDistance	1 miles
+5	moderate traffic	IsTrafficOf	Coupa
+5	1 miles	IsDistanceFrom	Coupa
+6	Pizza Chicago	HasAddress	915 Arbol Dr
+6	Pizza Chicago	HasType	pizza restaurant
+6	915 Arbol Dr	IsAddressOf	Pizza Chicago
+6	pizza restaurant	IsTypeOf	Pizza Chicago
+6	Pizza Chicago	HasTraffic	no traffic
+6	Pizza Chicago	HasDistance	3 miles
+6	no traffic	IsTrafficOf	Pizza Chicago
+6	3 miles	IsDistanceFrom	Pizza Chicago
+-1	today	IsEqualTo	monday

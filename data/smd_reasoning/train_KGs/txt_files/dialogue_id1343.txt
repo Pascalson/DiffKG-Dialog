@@ -1,0 +1,65 @@
+0	Webster Garage	HasAddress	880 Ames Ct
+0	Webster Garage	HasType	parking garage
+0	880 Ames Ct	IsAddressOf	Webster Garage
+0	parking garage	IsTypeOf	Webster Garage
+0	Webster Garage	HasTraffic	car collision nearby
+0	Webster Garage	HasDistance	3 miles
+0	car collision nearby	IsTrafficOf	Webster Garage
+0	3 miles	IsDistanceFrom	Webster Garage
+1	Dish Parking	HasAddress	550 Alester Ave
+1	Dish Parking	HasType	parking garage
+1	550 Alester Ave	IsAddressOf	Dish Parking
+1	parking garage	IsTypeOf	Dish Parking
+1	Dish Parking	HasTraffic	heavy traffic
+1	Dish Parking	HasDistance	5 miles
+1	heavy traffic	IsTrafficOf	Dish Parking
+1	5 miles	IsDistanceFrom	Dish Parking
+2	Pizza Chicago	HasAddress	915 Arbol Dr
+2	Pizza Chicago	HasType	pizza restaurant
+2	915 Arbol Dr	IsAddressOf	Pizza Chicago
+2	pizza restaurant	IsTypeOf	Pizza Chicago
+2	Pizza Chicago	HasTraffic	no traffic
+2	Pizza Chicago	HasDistance	2 miles
+2	no traffic	IsTrafficOf	Pizza Chicago
+2	2 miles	IsDistanceFrom	Pizza Chicago
+3	Travelers Lodge	HasAddress	333 Arbol Dr
+3	Travelers Lodge	HasType	rest stop
+3	333 Arbol Dr	IsAddressOf	Travelers Lodge
+3	rest stop	IsTypeOf	Travelers Lodge
+3	Travelers Lodge	HasTraffic	no traffic
+3	Travelers Lodge	HasDistance	3 miles
+3	no traffic	IsTrafficOf	Travelers Lodge
+3	3 miles	IsDistanceFrom	Travelers Lodge
+4	P.F. Changs	HasAddress	669 El Camino Real
+4	P.F. Changs	HasType	chinese restaurant
+4	669 El Camino Real	IsAddressOf	P.F. Changs
+4	chinese restaurant	IsTypeOf	P.F. Changs
+4	P.F. Changs	HasTraffic	car collision nearby
+4	P.F. Changs	HasDistance	6 miles
+4	car collision nearby	IsTrafficOf	P.F. Changs
+4	6 miles	IsDistanceFrom	P.F. Changs
+5	Stanford Shopping Center	HasAddress	773 Alger Dr
+5	Stanford Shopping Center	HasType	shopping center
+5	773 Alger Dr	IsAddressOf	Stanford Shopping Center
+5	shopping center	IsTypeOf	Stanford Shopping Center
+5	Stanford Shopping Center	HasTraffic	heavy traffic
+5	Stanford Shopping Center	HasDistance	5 miles
+5	heavy traffic	IsTrafficOf	Stanford Shopping Center
+5	5 miles	IsDistanceFrom	Stanford Shopping Center
+6	tai pan	HasAddress	830 Almanor Ln
+6	tai pan	HasType	chinese restaurant
+6	830 Almanor Ln	IsAddressOf	tai pan
+6	chinese restaurant	IsTypeOf	tai pan
+6	tai pan	HasTraffic	heavy traffic
+6	tai pan	HasDistance	5 miles
+6	heavy traffic	IsTrafficOf	tai pan
+6	5 miles	IsDistanceFrom	tai pan
+7	Philz	HasAddress	583 Alester Ave
+7	Philz	HasType	coffee or tea place
+7	583 Alester Ave	IsAddressOf	Philz
+7	coffee or tea place	IsTypeOf	Philz
+7	Philz	HasTraffic	no traffic
+7	Philz	HasDistance	6 miles
+7	no traffic	IsTrafficOf	Philz
+7	6 miles	IsDistanceFrom	Philz
+-1	today	IsEqualTo	monday

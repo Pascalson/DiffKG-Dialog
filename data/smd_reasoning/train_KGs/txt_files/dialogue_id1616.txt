@@ -1,0 +1,57 @@
+0	5677 springer street	HasAddress	5677 springer street
+0	5677 springer street	HasType	certain address
+0	5677 springer street	IsAddressOf	5677 springer street
+0	certain address	IsTypeOf	5677 springer street
+0	5677 springer street	HasTraffic	moderate traffic
+0	5677 springer street	HasDistance	3 miles
+0	moderate traffic	IsTrafficOf	5677 springer street
+0	3 miles	IsDistanceFrom	5677 springer street
+1	Town and Country	HasAddress	383 University Ave
+1	Town and Country	HasType	shopping center
+1	383 University Ave	IsAddressOf	Town and Country
+1	shopping center	IsTypeOf	Town and Country
+1	Town and Country	HasTraffic	moderate traffic
+1	Town and Country	HasDistance	1 miles
+1	moderate traffic	IsTrafficOf	Town and Country
+1	1 miles	IsDistanceFrom	Town and Country
+2	home	HasAddress	56 cadwell street
+2	home	HasType	home
+2	56 cadwell street	IsAddressOf	home
+2	home	IsTypeOf	home
+2	home	HasTraffic	moderate traffic
+2	home	HasDistance	5 miles
+2	moderate traffic	IsTrafficOf	home
+2	5 miles	IsDistanceFrom	home
+3	Pizza Chicago	HasAddress	915 Arbol Dr
+3	Pizza Chicago	HasType	pizza restaurant
+3	915 Arbol Dr	IsAddressOf	Pizza Chicago
+3	pizza restaurant	IsTypeOf	Pizza Chicago
+3	Pizza Chicago	HasTraffic	heavy traffic
+3	Pizza Chicago	HasDistance	3 miles
+3	heavy traffic	IsTrafficOf	Pizza Chicago
+3	3 miles	IsDistanceFrom	Pizza Chicago
+4	Dominos	HasAddress	776 Arastradero Rd
+4	Dominos	HasType	pizza restaurant
+4	776 Arastradero Rd	IsAddressOf	Dominos
+4	pizza restaurant	IsTypeOf	Dominos
+4	Dominos	HasTraffic	no traffic
+4	Dominos	HasDistance	6 miles
+4	no traffic	IsTrafficOf	Dominos
+4	6 miles	IsDistanceFrom	Dominos
+5	Philz	HasAddress	583 Alester Ave
+5	Philz	HasType	coffee or tea place
+5	583 Alester Ave	IsAddressOf	Philz
+5	coffee or tea place	IsTypeOf	Philz
+5	Philz	HasTraffic	heavy traffic
+5	Philz	HasDistance	4 miles
+5	heavy traffic	IsTrafficOf	Philz
+5	4 miles	IsDistanceFrom	Philz
+6	Coupa	HasAddress	394 Van Ness Ave
+6	Coupa	HasType	coffee or tea place
+6	394 Van Ness Ave	IsAddressOf	Coupa
+6	coffee or tea place	IsTypeOf	Coupa
+6	Coupa	HasTraffic	moderate traffic
+6	Coupa	HasDistance	6 miles
+6	moderate traffic	IsTrafficOf	Coupa
+6	6 miles	IsDistanceFrom	Coupa
+-1	today	IsEqualTo	monday

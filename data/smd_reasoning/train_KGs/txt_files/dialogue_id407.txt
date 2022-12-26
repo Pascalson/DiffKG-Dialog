@@ -1,0 +1,65 @@
+0	Four Seasons	HasAddress	465 Arcadia Pl
+0	Four Seasons	HasType	rest stop
+0	465 Arcadia Pl	IsAddressOf	Four Seasons
+0	rest stop	IsTypeOf	Four Seasons
+0	Four Seasons	HasTraffic	road block nearby
+0	Four Seasons	HasDistance	4 miles
+0	road block nearby	IsTrafficOf	Four Seasons
+0	4 miles	IsDistanceFrom	Four Seasons
+1	Midtown Shopping Center	HasAddress	338 Alester Ave
+1	Midtown Shopping Center	HasType	shopping center
+1	338 Alester Ave	IsAddressOf	Midtown Shopping Center
+1	shopping center	IsTypeOf	Midtown Shopping Center
+1	Midtown Shopping Center	HasTraffic	no traffic
+1	Midtown Shopping Center	HasDistance	1 miles
+1	no traffic	IsTrafficOf	Midtown Shopping Center
+1	1 miles	IsDistanceFrom	Midtown Shopping Center
+2	Coupa	HasAddress	394 Van Ness Ave
+2	Coupa	HasType	coffee or tea place
+2	394 Van Ness Ave	IsAddressOf	Coupa
+2	coffee or tea place	IsTypeOf	Coupa
+2	Coupa	HasTraffic	moderate traffic
+2	Coupa	HasDistance	5 miles
+2	moderate traffic	IsTrafficOf	Coupa
+2	5 miles	IsDistanceFrom	Coupa
+3	Travelers Lodge	HasAddress	333 Arbol Dr
+3	Travelers Lodge	HasType	rest stop
+3	333 Arbol Dr	IsAddressOf	Travelers Lodge
+3	rest stop	IsTypeOf	Travelers Lodge
+3	Travelers Lodge	HasTraffic	heavy traffic
+3	Travelers Lodge	HasDistance	1 miles
+3	heavy traffic	IsTrafficOf	Travelers Lodge
+3	1 miles	IsDistanceFrom	Travelers Lodge
+4	Valero	HasAddress	200 Alester Ave
+4	Valero	HasType	gas station
+4	200 Alester Ave	IsAddressOf	Valero
+4	gas station	IsTypeOf	Valero
+4	Valero	HasTraffic	moderate traffic
+4	Valero	HasDistance	1 miles
+4	moderate traffic	IsTrafficOf	Valero
+4	1 miles	IsDistanceFrom	Valero
+5	Comfort Inn	HasAddress	753 University Ave
+5	Comfort Inn	HasType	rest stop
+5	753 University Ave	IsAddressOf	Comfort Inn
+5	rest stop	IsTypeOf	Comfort Inn
+5	Comfort Inn	HasTraffic	car collision nearby
+5	Comfort Inn	HasDistance	5 miles
+5	car collision nearby	IsTrafficOf	Comfort Inn
+5	5 miles	IsDistanceFrom	Comfort Inn
+6	tai pan	HasAddress	830 Almanor Ln
+6	tai pan	HasType	chinese restaurant
+6	830 Almanor Ln	IsAddressOf	tai pan
+6	chinese restaurant	IsTypeOf	tai pan
+6	tai pan	HasTraffic	no traffic
+6	tai pan	HasDistance	4 miles
+6	no traffic	IsTrafficOf	tai pan
+6	4 miles	IsDistanceFrom	tai pan
+7	Town and Country	HasAddress	383 University Ave
+7	Town and Country	HasType	shopping center
+7	383 University Ave	IsAddressOf	Town and Country
+7	shopping center	IsTypeOf	Town and Country
+7	Town and Country	HasTraffic	heavy traffic
+7	Town and Country	HasDistance	5 miles
+7	heavy traffic	IsTrafficOf	Town and Country
+7	5 miles	IsDistanceFrom	Town and Country
+-1	today	IsEqualTo	monday

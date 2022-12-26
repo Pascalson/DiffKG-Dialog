@@ -1,0 +1,65 @@
+0	Hacienda Market	HasAddress	1313 Chester Ave
+0	Hacienda Market	HasType	grocery store
+0	1313 Chester Ave	IsAddressOf	Hacienda Market
+0	grocery store	IsTypeOf	Hacienda Market
+0	Hacienda Market	HasTraffic	car collision nearby
+0	Hacienda Market	HasDistance	4 miles
+0	car collision nearby	IsTrafficOf	Hacienda Market
+0	4 miles	IsDistanceFrom	Hacienda Market
+1	Webster Garage	HasAddress	880 Ames Ct
+1	Webster Garage	HasType	parking garage
+1	880 Ames Ct	IsAddressOf	Webster Garage
+1	parking garage	IsTypeOf	Webster Garage
+1	Webster Garage	HasTraffic	moderate traffic
+1	Webster Garage	HasDistance	8 miles
+1	moderate traffic	IsTrafficOf	Webster Garage
+1	8 miles	IsDistanceFrom	Webster Garage
+2	jills house	HasAddress	347 Alta Mesa Ave
+2	jills house	HasType	friends house
+2	347 Alta Mesa Ave	IsAddressOf	jills house
+2	friends house	IsTypeOf	jills house
+2	jills house	HasTraffic	road block nearby
+2	jills house	HasDistance	1 miles
+2	road block nearby	IsTrafficOf	jills house
+2	1 miles	IsDistanceFrom	jills house
+3	Teavana	HasAddress	145 Amherst St
+3	Teavana	HasType	coffee or tea place
+3	145 Amherst St	IsAddressOf	Teavana
+3	coffee or tea place	IsTypeOf	Teavana
+3	Teavana	HasTraffic	no traffic
+3	Teavana	HasDistance	6 miles
+3	no traffic	IsTrafficOf	Teavana
+3	6 miles	IsDistanceFrom	Teavana
+4	Coupa	HasAddress	394 Van Ness Ave
+4	Coupa	HasType	coffee or tea place
+4	394 Van Ness Ave	IsAddressOf	Coupa
+4	coffee or tea place	IsTypeOf	Coupa
+4	Coupa	HasTraffic	moderate traffic
+4	Coupa	HasDistance	6 miles
+4	moderate traffic	IsTrafficOf	Coupa
+4	6 miles	IsDistanceFrom	Coupa
+5	Town and Country	HasAddress	383 University Ave
+5	Town and Country	HasType	shopping center
+5	383 University Ave	IsAddressOf	Town and Country
+5	shopping center	IsTypeOf	Town and Country
+5	Town and Country	HasTraffic	heavy traffic
+5	Town and Country	HasDistance	1 miles
+5	heavy traffic	IsTrafficOf	Town and Country
+5	1 miles	IsDistanceFrom	Town and Country
+6	Dish Parking	HasAddress	550 Alester Ave
+6	Dish Parking	HasType	parking garage
+6	550 Alester Ave	IsAddressOf	Dish Parking
+6	parking garage	IsTypeOf	Dish Parking
+6	Dish Parking	HasTraffic	no traffic
+6	Dish Parking	HasDistance	2 miles
+6	no traffic	IsTrafficOf	Dish Parking
+6	2 miles	IsDistanceFrom	Dish Parking
+7	Cafe Venetia	HasAddress	269 Alger Dr
+7	Cafe Venetia	HasType	coffee or tea place
+7	269 Alger Dr	IsAddressOf	Cafe Venetia
+7	coffee or tea place	IsTypeOf	Cafe Venetia
+7	Cafe Venetia	HasTraffic	car collision nearby
+7	Cafe Venetia	HasDistance	1 miles
+7	car collision nearby	IsTrafficOf	Cafe Venetia
+7	1 miles	IsDistanceFrom	Cafe Venetia
+-1	today	IsEqualTo	monday

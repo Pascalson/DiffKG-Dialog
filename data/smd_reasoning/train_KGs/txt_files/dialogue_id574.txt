@@ -1,0 +1,57 @@
+0	jacks house	HasAddress	864 Almanor Ln
+0	jacks house	HasType	friends house
+0	864 Almanor Ln	IsAddressOf	jacks house
+0	friends house	IsTypeOf	jacks house
+0	jacks house	HasTraffic	no traffic
+0	jacks house	HasDistance	6 miles
+0	no traffic	IsTrafficOf	jacks house
+0	6 miles	IsDistanceFrom	jacks house
+1	Four Seasons	HasAddress	465 Arcadia Pl
+1	Four Seasons	HasType	rest stop
+1	465 Arcadia Pl	IsAddressOf	Four Seasons
+1	rest stop	IsTypeOf	Four Seasons
+1	Four Seasons	HasTraffic	heavy traffic
+1	Four Seasons	HasDistance	3 miles
+1	heavy traffic	IsTrafficOf	Four Seasons
+1	3 miles	IsDistanceFrom	Four Seasons
+2	Pizza Hut	HasAddress	704 El Camino Real
+2	Pizza Hut	HasType	pizza restaurant
+2	704 El Camino Real	IsAddressOf	Pizza Hut
+2	pizza restaurant	IsTypeOf	Pizza Hut
+2	Pizza Hut	HasTraffic	heavy traffic
+2	Pizza Hut	HasDistance	3 miles
+2	heavy traffic	IsTrafficOf	Pizza Hut
+2	3 miles	IsDistanceFrom	Pizza Hut
+3	Valero	HasAddress	200 Alester Ave
+3	Valero	HasType	gas station
+3	200 Alester Ave	IsAddressOf	Valero
+3	gas station	IsTypeOf	Valero
+3	Valero	HasTraffic	no traffic
+3	Valero	HasDistance	2 miles
+3	no traffic	IsTrafficOf	Valero
+3	2 miles	IsDistanceFrom	Valero
+4	tai pan	HasAddress	830 Almanor Ln
+4	tai pan	HasType	chinese restaurant
+4	830 Almanor Ln	IsAddressOf	tai pan
+4	chinese restaurant	IsTypeOf	tai pan
+4	tai pan	HasTraffic	heavy traffic
+4	tai pan	HasDistance	3 miles
+4	heavy traffic	IsTrafficOf	tai pan
+4	3 miles	IsDistanceFrom	tai pan
+5	Mandarin Roots	HasAddress	271 Springer Street
+5	Mandarin Roots	HasType	chinese restaurant
+5	271 Springer Street	IsAddressOf	Mandarin Roots
+5	chinese restaurant	IsTypeOf	Mandarin Roots
+5	Mandarin Roots	HasTraffic	moderate traffic
+5	Mandarin Roots	HasDistance	4 miles
+5	moderate traffic	IsTrafficOf	Mandarin Roots
+5	4 miles	IsDistanceFrom	Mandarin Roots
+6	Whole Foods	HasAddress	819 Alma St
+6	Whole Foods	HasType	grocery store
+6	819 Alma St	IsAddressOf	Whole Foods
+6	grocery store	IsTypeOf	Whole Foods
+6	Whole Foods	HasTraffic	heavy traffic
+6	Whole Foods	HasDistance	2 miles
+6	heavy traffic	IsTrafficOf	Whole Foods
+6	2 miles	IsDistanceFrom	Whole Foods
+-1	today	IsEqualTo	monday

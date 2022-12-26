@@ -1,0 +1,65 @@
+0	Palo Alto Garage R	HasAddress	481 Amaranta Ave
+0	Palo Alto Garage R	HasType	parking garage
+0	481 Amaranta Ave	IsAddressOf	Palo Alto Garage R
+0	parking garage	IsTypeOf	Palo Alto Garage R
+0	Palo Alto Garage R	HasTraffic	heavy traffic
+0	Palo Alto Garage R	HasDistance	6 miles
+0	heavy traffic	IsTrafficOf	Palo Alto Garage R
+0	6 miles	IsDistanceFrom	Palo Alto Garage R
+1	Pizza Chicago	HasAddress	915 Arbol Dr
+1	Pizza Chicago	HasType	pizza restaurant
+1	915 Arbol Dr	IsAddressOf	Pizza Chicago
+1	pizza restaurant	IsTypeOf	Pizza Chicago
+1	Pizza Chicago	HasTraffic	road block nearby
+1	Pizza Chicago	HasDistance	1 miles
+1	road block nearby	IsTrafficOf	Pizza Chicago
+1	1 miles	IsDistanceFrom	Pizza Chicago
+2	Philz	HasAddress	583 Alester Ave
+2	Philz	HasType	coffee or tea place
+2	583 Alester Ave	IsAddressOf	Philz
+2	coffee or tea place	IsTypeOf	Philz
+2	Philz	HasTraffic	car collision nearby
+2	Philz	HasDistance	6 miles
+2	car collision nearby	IsTrafficOf	Philz
+2	6 miles	IsDistanceFrom	Philz
+3	76	HasAddress	91 El Camino Real
+3	76	HasType	gas station
+3	91 El Camino Real	IsAddressOf	76
+3	gas station	IsTypeOf	76
+3	76	HasTraffic	no traffic
+3	76	HasDistance	2 miles
+3	no traffic	IsTrafficOf	76
+3	2 miles	IsDistanceFrom	76
+4	Sigona Farmers Market	HasAddress	638 Amherst St
+4	Sigona Farmers Market	HasType	grocery store
+4	638 Amherst St	IsAddressOf	Sigona Farmers Market
+4	grocery store	IsTypeOf	Sigona Farmers Market
+4	Sigona Farmers Market	HasTraffic	car collision nearby
+4	Sigona Farmers Market	HasDistance	2 miles
+4	car collision nearby	IsTrafficOf	Sigona Farmers Market
+4	2 miles	IsDistanceFrom	Sigona Farmers Market
+5	Panda Express	HasAddress	842 Arrowhead Way
+5	Panda Express	HasType	chinese restaurant
+5	842 Arrowhead Way	IsAddressOf	Panda Express
+5	chinese restaurant	IsTypeOf	Panda Express
+5	Panda Express	HasTraffic	moderate traffic
+5	Panda Express	HasDistance	2 miles
+5	moderate traffic	IsTrafficOf	Panda Express
+5	2 miles	IsDistanceFrom	Panda Express
+6	Trader Joes	HasAddress	408 University Ave
+6	Trader Joes	HasType	grocery store
+6	408 University Ave	IsAddressOf	Trader Joes
+6	grocery store	IsTypeOf	Trader Joes
+6	Trader Joes	HasTraffic	car collision nearby
+6	Trader Joes	HasDistance	2 miles
+6	car collision nearby	IsTrafficOf	Trader Joes
+6	2 miles	IsDistanceFrom	Trader Joes
+7	Teavana	HasAddress	145 Amherst St
+7	Teavana	HasType	coffee or tea place
+7	145 Amherst St	IsAddressOf	Teavana
+7	coffee or tea place	IsTypeOf	Teavana
+7	Teavana	HasTraffic	no traffic
+7	Teavana	HasDistance	6 miles
+7	no traffic	IsTrafficOf	Teavana
+7	6 miles	IsDistanceFrom	Teavana
+-1	today	IsEqualTo	monday

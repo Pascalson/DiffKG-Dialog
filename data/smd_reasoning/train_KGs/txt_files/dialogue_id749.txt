@@ -1,0 +1,57 @@
+0	Trader Joes	HasAddress	408 University Ave
+0	Trader Joes	HasType	grocery store
+0	408 University Ave	IsAddressOf	Trader Joes
+0	grocery store	IsTypeOf	Trader Joes
+0	Trader Joes	HasTraffic	moderate traffic
+0	Trader Joes	HasDistance	4 miles
+0	moderate traffic	IsTrafficOf	Trader Joes
+0	4 miles	IsDistanceFrom	Trader Joes
+1	Dominos	HasAddress	776 Arastradero Rd
+1	Dominos	HasType	pizza restaurant
+1	776 Arastradero Rd	IsAddressOf	Dominos
+1	pizza restaurant	IsTypeOf	Dominos
+1	Dominos	HasTraffic	moderate traffic
+1	Dominos	HasDistance	2 miles
+1	moderate traffic	IsTrafficOf	Dominos
+1	2 miles	IsDistanceFrom	Dominos
+2	Four Seasons	HasAddress	465 Arcadia Pl
+2	Four Seasons	HasType	rest stop
+2	465 Arcadia Pl	IsAddressOf	Four Seasons
+2	rest stop	IsTypeOf	Four Seasons
+2	Four Seasons	HasTraffic	heavy traffic
+2	Four Seasons	HasDistance	5 miles
+2	heavy traffic	IsTrafficOf	Four Seasons
+2	5 miles	IsDistanceFrom	Four Seasons
+3	Stanford Childrens Health	HasAddress	899 Ames Ct
+3	Stanford Childrens Health	HasType	hospital
+3	899 Ames Ct	IsAddressOf	Stanford Childrens Health
+3	hospital	IsTypeOf	Stanford Childrens Health
+3	Stanford Childrens Health	HasTraffic	moderate traffic
+3	Stanford Childrens Health	HasDistance	1 miles
+3	moderate traffic	IsTrafficOf	Stanford Childrens Health
+3	1 miles	IsDistanceFrom	Stanford Childrens Health
+4	Ravenswood Shopping Center	HasAddress	434 Arastradero Rd
+4	Ravenswood Shopping Center	HasType	shopping center
+4	434 Arastradero Rd	IsAddressOf	Ravenswood Shopping Center
+4	shopping center	IsTypeOf	Ravenswood Shopping Center
+4	Ravenswood Shopping Center	HasTraffic	no traffic
+4	Ravenswood Shopping Center	HasDistance	6 miles
+4	no traffic	IsTrafficOf	Ravenswood Shopping Center
+4	6 miles	IsDistanceFrom	Ravenswood Shopping Center
+5	Pizza Chicago	HasAddress	915 Arbol Dr
+5	Pizza Chicago	HasType	pizza restaurant
+5	915 Arbol Dr	IsAddressOf	Pizza Chicago
+5	pizza restaurant	IsTypeOf	Pizza Chicago
+5	Pizza Chicago	HasTraffic	heavy traffic
+5	Pizza Chicago	HasDistance	4 miles
+5	heavy traffic	IsTrafficOf	Pizza Chicago
+5	4 miles	IsDistanceFrom	Pizza Chicago
+6	jills house	HasAddress	347 Alta Mesa Ave
+6	jills house	HasType	friends house
+6	347 Alta Mesa Ave	IsAddressOf	jills house
+6	friends house	IsTypeOf	jills house
+6	jills house	HasTraffic	moderate traffic
+6	jills house	HasDistance	3 miles
+6	moderate traffic	IsTrafficOf	jills house
+6	3 miles	IsDistanceFrom	jills house
+-1	today	IsEqualTo	monday

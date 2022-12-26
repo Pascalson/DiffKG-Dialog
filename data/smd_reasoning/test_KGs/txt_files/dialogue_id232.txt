@@ -1,0 +1,53 @@
+0	doctor appointment	HasTime	11am
+0	11am	IsTimeOf	doctor appointment
+0	doctor appointment	HasDate	the 20th
+0	the 20th	IsDateOf	doctor appointment
+0	doctor appointment	HasParty	brother
+0	brother	IsPartyOf	doctor appointment
+1	taking medicine	HasTime	5pm
+1	5pm	IsTimeOf	taking medicine
+1	taking medicine	HasDate	the 15th
+1	the 15th	IsDateOf	taking medicine
+1	taking medicine	HasParty	Jeff
+1	Jeff	IsPartyOf	taking medicine
+2	meeting	HasTime	4pm
+2	4pm	IsTimeOf	meeting
+2	meeting	HasDate	tuesday
+2	tuesday	IsDateOf	meeting
+2	meeting	HasParty	sales team
+2	sales team	IsPartyOf	meeting
+2	meeting	HasRoom	conference room 100
+2	conference room 100	IsRoomOf	meeting
+2	meeting	HasAgenda	go over quarterly report
+2	go over quarterly report	IsAgendaOf	meeting
+3	dinner	HasTime	6pm
+3	6pm	IsTimeOf	dinner
+3	dinner	HasDate	the 9th
+3	the 9th	IsDateOf	dinner
+3	dinner	HasParty	Martha
+3	Martha	IsPartyOf	dinner
+4	dinner	HasTime	6pm
+4	6pm	IsTimeOf	dinner
+4	dinner	HasDate	the 2nd
+4	the 2nd	IsDateOf	dinner
+4	dinner	HasParty	Ana
+4	Ana	IsPartyOf	dinner
+5	optometrist appointment	HasTime	9am
+5	9am	IsTimeOf	optometrist appointment
+5	optometrist appointment	HasDate	the 12th
+5	the 12th	IsDateOf	optometrist appointment
+5	optometrist appointment	HasParty	Martha
+5	Martha	IsPartyOf	optometrist appointment
+6	optometrist appointment	HasTime	3pm
+6	3pm	IsTimeOf	optometrist appointment
+6	optometrist appointment	HasDate	the 3rd
+6	the 3rd	IsDateOf	optometrist appointment
+6	optometrist appointment	HasParty	Alex
+6	Alex	IsPartyOf	optometrist appointment
+7	optometrist appointment	HasTime	5pm
+7	5pm	IsTimeOf	optometrist appointment
+7	optometrist appointment	HasDate	the 4th
+7	the 4th	IsDateOf	optometrist appointment
+7	optometrist appointment	HasParty	brother
+7	brother	IsPartyOf	optometrist appointment
+-1	today	IsEqualTo	monday

@@ -1,0 +1,61 @@
+0	conference	HasTime	10am
+0	10am	IsTimeOf	conference
+0	conference	HasDate	thursday
+0	thursday	IsDateOf	conference
+0	conference	HasParty	boss
+0	boss	IsPartyOf	conference
+0	conference	HasRoom	conference room 100
+0	conference room 100	IsRoomOf	conference
+0	conference	HasAgenda	discuss the company picnic
+0	discuss the company picnic	IsAgendaOf	conference
+1	tennis activity	HasTime	1pm
+1	1pm	IsTimeOf	tennis activity
+1	tennis activity	HasDate	monday
+1	monday	IsDateOf	tennis activity
+1	tennis activity	HasParty	father
+1	father	IsPartyOf	tennis activity
+2	optometrist appointment	HasTime	2pm
+2	2pm	IsTimeOf	optometrist appointment
+2	optometrist appointment	HasDate	the 8th
+2	the 8th	IsDateOf	optometrist appointment
+2	optometrist appointment	HasParty	sister
+2	sister	IsPartyOf	optometrist appointment
+3	taking medicine	HasTime	4pm
+3	4pm	IsTimeOf	taking medicine
+3	taking medicine	HasDate	friday
+3	friday	IsDateOf	taking medicine
+3	taking medicine	HasParty	Jeff
+3	Jeff	IsPartyOf	taking medicine
+4	dentist appointment	HasTime	4pm
+4	4pm	IsTimeOf	dentist appointment
+4	dentist appointment	HasDate	thursday
+4	thursday	IsDateOf	dentist appointment
+4	dentist appointment	HasParty	Alex
+4	Alex	IsPartyOf	dentist appointment
+5	optometrist appointment	HasTime	3pm
+5	3pm	IsTimeOf	optometrist appointment
+5	optometrist appointment	HasDate	friday
+5	friday	IsDateOf	optometrist appointment
+5	optometrist appointment	HasParty	brother
+5	brother	IsPartyOf	optometrist appointment
+6	meeting	HasTime	5pm
+6	5pm	IsTimeOf	meeting
+6	meeting	HasDate	tuesday
+6	tuesday	IsDateOf	meeting
+6	meeting	HasParty	infrastructure team
+6	infrastructure team	IsPartyOf	meeting
+6	meeting	HasRoom	conference room 102
+6	conference room 102	IsRoomOf	meeting
+6	meeting	HasAgenda	discuss dress code
+6	discuss dress code	IsAgendaOf	meeting
+7	meeting	HasTime	5pm
+7	5pm	IsTimeOf	meeting
+7	meeting	HasDate	friday
+7	friday	IsDateOf	meeting
+7	meeting	HasParty	HR
+7	HR	IsPartyOf	meeting
+7	meeting	HasRoom	conference room 100
+7	conference room 100	IsRoomOf	meeting
+7	meeting	HasAgenda	discuss dress code
+7	discuss dress code	IsAgendaOf	meeting
+-1	today	IsEqualTo	monday

@@ -1,0 +1,57 @@
+0	Stanford Childrens Health	HasAddress	899 Ames Ct
+0	Stanford Childrens Health	HasType	hospital
+0	899 Ames Ct	IsAddressOf	Stanford Childrens Health
+0	hospital	IsTypeOf	Stanford Childrens Health
+0	Stanford Childrens Health	HasTraffic	moderate traffic
+0	Stanford Childrens Health	HasDistance	5 miles
+0	moderate traffic	IsTrafficOf	Stanford Childrens Health
+0	5 miles	IsDistanceFrom	Stanford Childrens Health
+1	toms house	HasAddress	580 Van Ness Ave
+1	toms house	HasType	friends house
+1	580 Van Ness Ave	IsAddressOf	toms house
+1	friends house	IsTypeOf	toms house
+1	toms house	HasTraffic	heavy traffic
+1	toms house	HasDistance	2 miles
+1	heavy traffic	IsTrafficOf	toms house
+1	2 miles	IsDistanceFrom	toms house
+2	The Clement Hotel	HasAddress	657 Ames Ave
+2	The Clement Hotel	HasType	rest stop
+2	657 Ames Ave	IsAddressOf	The Clement Hotel
+2	rest stop	IsTypeOf	The Clement Hotel
+2	The Clement Hotel	HasTraffic	no traffic
+2	The Clement Hotel	HasDistance	1 miles
+2	no traffic	IsTrafficOf	The Clement Hotel
+2	1 miles	IsDistanceFrom	The Clement Hotel
+3	Stanford Express Care	HasAddress	214 El Camino Real
+3	Stanford Express Care	HasType	hospital
+3	214 El Camino Real	IsAddressOf	Stanford Express Care
+3	hospital	IsTypeOf	Stanford Express Care
+3	Stanford Express Care	HasTraffic	moderate traffic
+3	Stanford Express Care	HasDistance	3 miles
+3	moderate traffic	IsTrafficOf	Stanford Express Care
+3	3 miles	IsDistanceFrom	Stanford Express Care
+4	5677 springer street	HasAddress	5677 springer street
+4	5677 springer street	HasType	certain address
+4	5677 springer street	IsAddressOf	5677 springer street
+4	certain address	IsTypeOf	5677 springer street
+4	5677 springer street	HasTraffic	heavy traffic
+4	5677 springer street	HasDistance	1 miles
+4	heavy traffic	IsTrafficOf	5677 springer street
+4	1 miles	IsDistanceFrom	5677 springer street
+5	Chef Chu's	HasAddress	593 Arrowhead Way
+5	Chef Chu's	HasType	chinese restaurant
+5	593 Arrowhead Way	IsAddressOf	Chef Chu's
+5	chinese restaurant	IsTypeOf	Chef Chu's
+5	Chef Chu's	HasTraffic	moderate traffic
+5	Chef Chu's	HasDistance	3 miles
+5	moderate traffic	IsTrafficOf	Chef Chu's
+5	3 miles	IsDistanceFrom	Chef Chu's
+6	Mandarin Roots	HasAddress	271 Springer Street
+6	Mandarin Roots	HasType	chinese restaurant
+6	271 Springer Street	IsAddressOf	Mandarin Roots
+6	chinese restaurant	IsTypeOf	Mandarin Roots
+6	Mandarin Roots	HasTraffic	no traffic
+6	Mandarin Roots	HasDistance	6 miles
+6	no traffic	IsTrafficOf	Mandarin Roots
+6	6 miles	IsDistanceFrom	Mandarin Roots
+-1	today	IsEqualTo	monday

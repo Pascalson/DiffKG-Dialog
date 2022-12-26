@@ -1,0 +1,57 @@
+0	Mandarin Roots	HasAddress	271 Springer Street
+0	Mandarin Roots	HasType	chinese restaurant
+0	271 Springer Street	IsAddressOf	Mandarin Roots
+0	chinese restaurant	IsTypeOf	Mandarin Roots
+0	Mandarin Roots	HasTraffic	moderate traffic
+0	Mandarin Roots	HasDistance	4 miles
+0	moderate traffic	IsTrafficOf	Mandarin Roots
+0	4 miles	IsDistanceFrom	Mandarin Roots
+1	Chef Chu's	HasAddress	593 Arrowhead Way
+1	Chef Chu's	HasType	chinese restaurant
+1	593 Arrowhead Way	IsAddressOf	Chef Chu's
+1	chinese restaurant	IsTypeOf	Chef Chu's
+1	Chef Chu's	HasTraffic	heavy traffic
+1	Chef Chu's	HasDistance	5 miles
+1	heavy traffic	IsTrafficOf	Chef Chu's
+1	5 miles	IsDistanceFrom	Chef Chu's
+2	Cafe Venetia	HasAddress	269 Alger Dr
+2	Cafe Venetia	HasType	coffee or tea place
+2	269 Alger Dr	IsAddressOf	Cafe Venetia
+2	coffee or tea place	IsTypeOf	Cafe Venetia
+2	Cafe Venetia	HasTraffic	no traffic
+2	Cafe Venetia	HasDistance	4 miles
+2	no traffic	IsTrafficOf	Cafe Venetia
+2	4 miles	IsDistanceFrom	Cafe Venetia
+3	jacks house	HasAddress	864 Almanor Ln
+3	jacks house	HasType	friends house
+3	864 Almanor Ln	IsAddressOf	jacks house
+3	friends house	IsTypeOf	jacks house
+3	jacks house	HasTraffic	no traffic
+3	jacks house	HasDistance	6 miles
+3	no traffic	IsTrafficOf	jacks house
+3	6 miles	IsDistanceFrom	jacks house
+4	jills house	HasAddress	347 Alta Mesa Ave
+4	jills house	HasType	friends house
+4	347 Alta Mesa Ave	IsAddressOf	jills house
+4	friends house	IsTypeOf	jills house
+4	jills house	HasTraffic	heavy traffic
+4	jills house	HasDistance	4 miles
+4	heavy traffic	IsTrafficOf	jills house
+4	4 miles	IsDistanceFrom	jills house
+5	Panda Express	HasAddress	842 Arrowhead Way
+5	Panda Express	HasType	chinese restaurant
+5	842 Arrowhead Way	IsAddressOf	Panda Express
+5	chinese restaurant	IsTypeOf	Panda Express
+5	Panda Express	HasTraffic	moderate traffic
+5	Panda Express	HasDistance	1 miles
+5	moderate traffic	IsTrafficOf	Panda Express
+5	1 miles	IsDistanceFrom	Panda Express
+6	Sigona Farmers Market	HasAddress	638 Amherst St
+6	Sigona Farmers Market	HasType	grocery store
+6	638 Amherst St	IsAddressOf	Sigona Farmers Market
+6	grocery store	IsTypeOf	Sigona Farmers Market
+6	Sigona Farmers Market	HasTraffic	no traffic
+6	Sigona Farmers Market	HasDistance	4 miles
+6	no traffic	IsTrafficOf	Sigona Farmers Market
+6	4 miles	IsDistanceFrom	Sigona Farmers Market
+-1	today	IsEqualTo	monday

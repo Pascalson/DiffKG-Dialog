@@ -1,0 +1,31 @@
+0	swimming activity	HasTime	1pm
+0	1pm	IsTimeOf	swimming activity
+0	swimming activity	HasDate	friday
+0	friday	IsDateOf	swimming activity
+1	tennis activity	HasTime	11am
+1	11am	IsTimeOf	tennis activity
+1	tennis activity	HasDate	friday
+1	friday	IsDateOf	tennis activity
+2	doctor appointment	HasTime	11am
+2	11am	IsTimeOf	doctor appointment
+2	doctor appointment	HasDate	tuesday
+2	tuesday	IsDateOf	doctor appointment
+3	yoga activity	HasTime	1pm
+3	1pm	IsTimeOf	yoga activity
+3	yoga activity	HasDate	thursday
+3	thursday	IsDateOf	yoga activity
+4	taking medicine	HasTime	3pm
+4	3pm	IsTimeOf	taking medicine
+4	taking medicine	HasDate	wednesday
+4	wednesday	IsDateOf	taking medicine
+5	meeting	HasTime	7pm
+5	7pm	IsTimeOf	meeting
+5	meeting	HasDate	thursday
+5	thursday	IsDateOf	meeting
+5	meeting	HasParty	HR
+5	HR	IsPartyOf	meeting
+5	meeting	HasRoom	conference room 102
+5	conference room 102	IsRoomOf	meeting
+5	meeting	HasAgenda	discuss the company picnic
+5	discuss the company picnic	IsAgendaOf	meeting
+-1	today	IsEqualTo	monday

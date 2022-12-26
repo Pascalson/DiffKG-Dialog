@@ -1,0 +1,57 @@
+0	Palo Alto Cafe	HasAddress	436 Alger Dr
+0	Palo Alto Cafe	HasType	coffee or tea place
+0	436 Alger Dr	IsAddressOf	Palo Alto Cafe
+0	coffee or tea place	IsTypeOf	Palo Alto Cafe
+0	Palo Alto Cafe	HasTraffic	no traffic
+0	Palo Alto Cafe	HasDistance	5 miles
+0	no traffic	IsTrafficOf	Palo Alto Cafe
+0	5 miles	IsDistanceFrom	Palo Alto Cafe
+1	Stanford Oval Parking	HasAddress	610 Amarillo Ave
+1	Stanford Oval Parking	HasType	parking garage
+1	610 Amarillo Ave	IsAddressOf	Stanford Oval Parking
+1	parking garage	IsTypeOf	Stanford Oval Parking
+1	Stanford Oval Parking	HasTraffic	no traffic
+1	Stanford Oval Parking	HasDistance	5 miles
+1	no traffic	IsTrafficOf	Stanford Oval Parking
+1	5 miles	IsDistanceFrom	Stanford Oval Parking
+2	5672 barringer street	HasAddress	5672 barringer street
+2	5672 barringer street	HasType	certain address
+2	5672 barringer street	IsAddressOf	5672 barringer street
+2	certain address	IsTypeOf	5672 barringer street
+2	5672 barringer street	HasTraffic	heavy traffic
+2	5672 barringer street	HasDistance	5 miles
+2	heavy traffic	IsTrafficOf	5672 barringer street
+2	5 miles	IsDistanceFrom	5672 barringer street
+3	Philz	HasAddress	583 Alester Ave
+3	Philz	HasType	coffee or tea place
+3	583 Alester Ave	IsAddressOf	Philz
+3	coffee or tea place	IsTypeOf	Philz
+3	Philz	HasTraffic	moderate traffic
+3	Philz	HasDistance	2 miles
+3	moderate traffic	IsTrafficOf	Philz
+3	2 miles	IsDistanceFrom	Philz
+4	Stanford Express Care	HasAddress	214 El Camino Real
+4	Stanford Express Care	HasType	hospital
+4	214 El Camino Real	IsAddressOf	Stanford Express Care
+4	hospital	IsTypeOf	Stanford Express Care
+4	Stanford Express Care	HasTraffic	no traffic
+4	Stanford Express Care	HasDistance	3 miles
+4	no traffic	IsTrafficOf	Stanford Express Care
+4	3 miles	IsDistanceFrom	Stanford Express Care
+5	jills house	HasAddress	347 Alta Mesa Ave
+5	jills house	HasType	friends house
+5	347 Alta Mesa Ave	IsAddressOf	jills house
+5	friends house	IsTypeOf	jills house
+5	jills house	HasTraffic	heavy traffic
+5	jills house	HasDistance	4 miles
+5	heavy traffic	IsTrafficOf	jills house
+5	4 miles	IsDistanceFrom	jills house
+6	The Westin	HasAddress	329 El Camino Real
+6	The Westin	HasType	rest stop
+6	329 El Camino Real	IsAddressOf	The Westin
+6	rest stop	IsTypeOf	The Westin
+6	The Westin	HasTraffic	no traffic
+6	The Westin	HasDistance	4 miles
+6	no traffic	IsTrafficOf	The Westin
+6	4 miles	IsDistanceFrom	The Westin
+-1	today	IsEqualTo	monday

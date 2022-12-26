@@ -1,0 +1,65 @@
+0	5677 southwest 4th street	HasAddress	5677 southwest 4th street
+0	5677 southwest 4th street	HasType	certain address
+0	5677 southwest 4th street	IsAddressOf	5677 southwest 4th street
+0	certain address	IsTypeOf	5677 southwest 4th street
+0	5677 southwest 4th street	HasTraffic	road block nearby
+0	5677 southwest 4th street	HasDistance	5 miles
+0	road block nearby	IsTrafficOf	5677 southwest 4th street
+0	5 miles	IsDistanceFrom	5677 southwest 4th street
+1	Palo Alto Medical Foundation	HasAddress	611 Ames Ave
+1	Palo Alto Medical Foundation	HasType	hospital
+1	611 Ames Ave	IsAddressOf	Palo Alto Medical Foundation
+1	hospital	IsTypeOf	Palo Alto Medical Foundation
+1	Palo Alto Medical Foundation	HasTraffic	heavy traffic
+1	Palo Alto Medical Foundation	HasDistance	6 miles
+1	heavy traffic	IsTrafficOf	Palo Alto Medical Foundation
+1	6 miles	IsDistanceFrom	Palo Alto Medical Foundation
+2	Dish Parking	HasAddress	550 Alester Ave
+2	Dish Parking	HasType	parking garage
+2	550 Alester Ave	IsAddressOf	Dish Parking
+2	parking garage	IsTypeOf	Dish Parking
+2	Dish Parking	HasTraffic	moderate traffic
+2	Dish Parking	HasDistance	6 miles
+2	moderate traffic	IsTrafficOf	Dish Parking
+2	6 miles	IsDistanceFrom	Dish Parking
+3	Round Table	HasAddress	113 Anton Ct
+3	Round Table	HasType	pizza restaurant
+3	113 Anton Ct	IsAddressOf	Round Table
+3	pizza restaurant	IsTypeOf	Round Table
+3	Round Table	HasTraffic	heavy traffic
+3	Round Table	HasDistance	2 miles
+3	heavy traffic	IsTrafficOf	Round Table
+3	2 miles	IsDistanceFrom	Round Table
+4	Jing Jing	HasAddress	113 Arbol Dr
+4	Jing Jing	HasType	chinese restaurant
+4	113 Arbol Dr	IsAddressOf	Jing Jing
+4	chinese restaurant	IsTypeOf	Jing Jing
+4	Jing Jing	HasTraffic	no traffic
+4	Jing Jing	HasDistance	2 miles
+4	no traffic	IsTrafficOf	Jing Jing
+4	2 miles	IsDistanceFrom	Jing Jing
+5	Valero	HasAddress	200 Alester Ave
+5	Valero	HasType	gas station
+5	200 Alester Ave	IsAddressOf	Valero
+5	gas station	IsTypeOf	Valero
+5	Valero	HasTraffic	moderate traffic
+5	Valero	HasDistance	3 miles
+5	moderate traffic	IsTrafficOf	Valero
+5	3 miles	IsDistanceFrom	Valero
+6	Stanford Express Care	HasAddress	214 El Camino Real
+6	Stanford Express Care	HasType	hospital
+6	214 El Camino Real	IsAddressOf	Stanford Express Care
+6	hospital	IsTypeOf	Stanford Express Care
+6	Stanford Express Care	HasTraffic	heavy traffic
+6	Stanford Express Care	HasDistance	6 miles
+6	heavy traffic	IsTrafficOf	Stanford Express Care
+6	6 miles	IsDistanceFrom	Stanford Express Care
+7	Safeway	HasAddress	452 Arcadia Pl
+7	Safeway	HasType	grocery store
+7	452 Arcadia Pl	IsAddressOf	Safeway
+7	grocery store	IsTypeOf	Safeway
+7	Safeway	HasTraffic	no traffic
+7	Safeway	HasDistance	4 miles
+7	no traffic	IsTrafficOf	Safeway
+7	4 miles	IsDistanceFrom	Safeway
+-1	today	IsEqualTo	monday

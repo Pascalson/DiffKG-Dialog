@@ -1,0 +1,57 @@
+0	Pizza Hut	HasAddress	704 El Camino Real
+0	Pizza Hut	HasType	pizza restaurant
+0	704 El Camino Real	IsAddressOf	Pizza Hut
+0	pizza restaurant	IsTypeOf	Pizza Hut
+0	Pizza Hut	HasTraffic	heavy traffic
+0	Pizza Hut	HasDistance	3 miles
+0	heavy traffic	IsTrafficOf	Pizza Hut
+0	3 miles	IsDistanceFrom	Pizza Hut
+1	Four Seasons	HasAddress	465 Arcadia Pl
+1	Four Seasons	HasType	rest stop
+1	465 Arcadia Pl	IsAddressOf	Four Seasons
+1	rest stop	IsTypeOf	Four Seasons
+1	Four Seasons	HasTraffic	heavy traffic
+1	Four Seasons	HasDistance	3 miles
+1	heavy traffic	IsTrafficOf	Four Seasons
+1	3 miles	IsDistanceFrom	Four Seasons
+2	P.F. Changs	HasAddress	669 El Camino Real
+2	P.F. Changs	HasType	chinese restaurant
+2	669 El Camino Real	IsAddressOf	P.F. Changs
+2	chinese restaurant	IsTypeOf	P.F. Changs
+2	P.F. Changs	HasTraffic	moderate traffic
+2	P.F. Changs	HasDistance	6 miles
+2	moderate traffic	IsTrafficOf	P.F. Changs
+2	6 miles	IsDistanceFrom	P.F. Changs
+3	Palo Alto Medical Foundation	HasAddress	611 Ames Ave
+3	Palo Alto Medical Foundation	HasType	hospital
+3	611 Ames Ave	IsAddressOf	Palo Alto Medical Foundation
+3	hospital	IsTypeOf	Palo Alto Medical Foundation
+3	Palo Alto Medical Foundation	HasTraffic	no traffic
+3	Palo Alto Medical Foundation	HasDistance	5 miles
+3	no traffic	IsTrafficOf	Palo Alto Medical Foundation
+3	5 miles	IsDistanceFrom	Palo Alto Medical Foundation
+4	Trader Joes	HasAddress	408 University Ave
+4	Trader Joes	HasType	grocery store
+4	408 University Ave	IsAddressOf	Trader Joes
+4	grocery store	IsTypeOf	Trader Joes
+4	Trader Joes	HasTraffic	no traffic
+4	Trader Joes	HasDistance	5 miles
+4	no traffic	IsTrafficOf	Trader Joes
+4	5 miles	IsDistanceFrom	Trader Joes
+5	tai pan	HasAddress	830 Almanor Ln
+5	tai pan	HasType	chinese restaurant
+5	830 Almanor Ln	IsAddressOf	tai pan
+5	chinese restaurant	IsTypeOf	tai pan
+5	tai pan	HasTraffic	heavy traffic
+5	tai pan	HasDistance	3 miles
+5	heavy traffic	IsTrafficOf	tai pan
+5	3 miles	IsDistanceFrom	tai pan
+6	Sigona Farmers Market	HasAddress	638 Amherst St
+6	Sigona Farmers Market	HasType	grocery store
+6	638 Amherst St	IsAddressOf	Sigona Farmers Market
+6	grocery store	IsTypeOf	Sigona Farmers Market
+6	Sigona Farmers Market	HasTraffic	no traffic
+6	Sigona Farmers Market	HasDistance	4 miles
+6	no traffic	IsTrafficOf	Sigona Farmers Market
+6	4 miles	IsDistanceFrom	Sigona Farmers Market
+-1	today	IsEqualTo	monday

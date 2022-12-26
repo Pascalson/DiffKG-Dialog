@@ -1,0 +1,65 @@
+0	Whole Foods	HasAddress	819 Alma St
+0	Whole Foods	HasType	grocery store
+0	819 Alma St	IsAddressOf	Whole Foods
+0	grocery store	IsTypeOf	Whole Foods
+0	Whole Foods	HasTraffic	road block nearby
+0	Whole Foods	HasDistance	3 miles
+0	road block nearby	IsTrafficOf	Whole Foods
+0	3 miles	IsDistanceFrom	Whole Foods
+1	Papa Johns	HasAddress	110 Arastradero Rd
+1	Papa Johns	HasType	pizza restaurant
+1	110 Arastradero Rd	IsAddressOf	Papa Johns
+1	pizza restaurant	IsTypeOf	Papa Johns
+1	Papa Johns	HasTraffic	heavy traffic
+1	Papa Johns	HasDistance	6 miles
+1	heavy traffic	IsTrafficOf	Papa Johns
+1	6 miles	IsDistanceFrom	Papa Johns
+2	76	HasAddress	91 El Camino Real
+2	76	HasType	gas station
+2	91 El Camino Real	IsAddressOf	76
+2	gas station	IsTypeOf	76
+2	76	HasTraffic	car collision nearby
+2	76	HasDistance	6 miles
+2	car collision nearby	IsTrafficOf	76
+2	6 miles	IsDistanceFrom	76
+3	home	HasAddress	56 cadwell street
+3	home	HasType	home
+3	56 cadwell street	IsAddressOf	home
+3	home	IsTypeOf	home
+3	home	HasTraffic	no traffic
+3	home	HasDistance	4 miles
+3	no traffic	IsTrafficOf	home
+3	4 miles	IsDistanceFrom	home
+4	Civic Center Garage	HasAddress	270 Altaire Walk
+4	Civic Center Garage	HasType	parking garage
+4	270 Altaire Walk	IsAddressOf	Civic Center Garage
+4	parking garage	IsTypeOf	Civic Center Garage
+4	Civic Center Garage	HasTraffic	car collision nearby
+4	Civic Center Garage	HasDistance	5 miles
+4	car collision nearby	IsTrafficOf	Civic Center Garage
+4	5 miles	IsDistanceFrom	Civic Center Garage
+5	Panda Express	HasAddress	842 Arrowhead Way
+5	Panda Express	HasType	chinese restaurant
+5	842 Arrowhead Way	IsAddressOf	Panda Express
+5	chinese restaurant	IsTypeOf	Panda Express
+5	Panda Express	HasTraffic	road block nearby
+5	Panda Express	HasDistance	6 miles
+5	road block nearby	IsTrafficOf	Panda Express
+5	6 miles	IsDistanceFrom	Panda Express
+6	Sigona Farmers Market	HasAddress	638 Amherst St
+6	Sigona Farmers Market	HasType	grocery store
+6	638 Amherst St	IsAddressOf	Sigona Farmers Market
+6	grocery store	IsTypeOf	Sigona Farmers Market
+6	Sigona Farmers Market	HasTraffic	heavy traffic
+6	Sigona Farmers Market	HasDistance	3 miles
+6	heavy traffic	IsTrafficOf	Sigona Farmers Market
+6	3 miles	IsDistanceFrom	Sigona Farmers Market
+7	Jing Jing	HasAddress	113 Arbol Dr
+7	Jing Jing	HasType	chinese restaurant
+7	113 Arbol Dr	IsAddressOf	Jing Jing
+7	chinese restaurant	IsTypeOf	Jing Jing
+7	Jing Jing	HasTraffic	no traffic
+7	Jing Jing	HasDistance	4 miles
+7	no traffic	IsTrafficOf	Jing Jing
+7	4 miles	IsDistanceFrom	Jing Jing
+-1	today	IsEqualTo	monday

@@ -1,0 +1,57 @@
+0	Stanford Express Care	HasAddress	214 El Camino Real
+0	Stanford Express Care	HasType	hospital
+0	214 El Camino Real	IsAddressOf	Stanford Express Care
+0	hospital	IsTypeOf	Stanford Express Care
+0	Stanford Express Care	HasTraffic	heavy traffic
+0	Stanford Express Care	HasDistance	6 miles
+0	heavy traffic	IsTrafficOf	Stanford Express Care
+0	6 miles	IsDistanceFrom	Stanford Express Care
+1	5677 springer street	HasAddress	5677 springer street
+1	5677 springer street	HasType	certain address
+1	5677 springer street	IsAddressOf	5677 springer street
+1	certain address	IsTypeOf	5677 springer street
+1	5677 springer street	HasTraffic	moderate traffic
+1	5677 springer street	HasDistance	6 miles
+1	moderate traffic	IsTrafficOf	5677 springer street
+1	6 miles	IsDistanceFrom	5677 springer street
+2	Four Seasons	HasAddress	465 Arcadia Pl
+2	Four Seasons	HasType	rest stop
+2	465 Arcadia Pl	IsAddressOf	Four Seasons
+2	rest stop	IsTypeOf	Four Seasons
+2	Four Seasons	HasTraffic	heavy traffic
+2	Four Seasons	HasDistance	2 miles
+2	heavy traffic	IsTrafficOf	Four Seasons
+2	2 miles	IsDistanceFrom	Four Seasons
+3	The Westin	HasAddress	329 El Camino Real
+3	The Westin	HasType	rest stop
+3	329 El Camino Real	IsAddressOf	The Westin
+3	rest stop	IsTypeOf	The Westin
+3	The Westin	HasTraffic	heavy traffic
+3	The Westin	HasDistance	6 miles
+3	heavy traffic	IsTrafficOf	The Westin
+3	6 miles	IsDistanceFrom	The Westin
+4	P.F. Changs	HasAddress	669 El Camino Real
+4	P.F. Changs	HasType	chinese restaurant
+4	669 El Camino Real	IsAddressOf	P.F. Changs
+4	chinese restaurant	IsTypeOf	P.F. Changs
+4	P.F. Changs	HasTraffic	no traffic
+4	P.F. Changs	HasDistance	2 miles
+4	no traffic	IsTrafficOf	P.F. Changs
+4	2 miles	IsDistanceFrom	P.F. Changs
+5	Ravenswood Shopping Center	HasAddress	434 Arastradero Rd
+5	Ravenswood Shopping Center	HasType	shopping center
+5	434 Arastradero Rd	IsAddressOf	Ravenswood Shopping Center
+5	shopping center	IsTypeOf	Ravenswood Shopping Center
+5	Ravenswood Shopping Center	HasTraffic	moderate traffic
+5	Ravenswood Shopping Center	HasDistance	3 miles
+5	moderate traffic	IsTrafficOf	Ravenswood Shopping Center
+5	3 miles	IsDistanceFrom	Ravenswood Shopping Center
+6	Safeway	HasAddress	452 Arcadia Pl
+6	Safeway	HasType	grocery store
+6	452 Arcadia Pl	IsAddressOf	Safeway
+6	grocery store	IsTypeOf	Safeway
+6	Safeway	HasTraffic	heavy traffic
+6	Safeway	HasDistance	6 miles
+6	heavy traffic	IsTrafficOf	Safeway
+6	6 miles	IsDistanceFrom	Safeway
+-1	today	IsEqualTo	monday

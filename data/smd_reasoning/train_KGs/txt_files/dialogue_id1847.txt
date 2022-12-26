@@ -1,0 +1,65 @@
+0	tai pan	HasAddress	830 Almanor Ln
+0	tai pan	HasType	chinese restaurant
+0	830 Almanor Ln	IsAddressOf	tai pan
+0	chinese restaurant	IsTypeOf	tai pan
+0	tai pan	HasTraffic	moderate traffic
+0	tai pan	HasDistance	4 miles
+0	moderate traffic	IsTrafficOf	tai pan
+0	4 miles	IsDistanceFrom	tai pan
+1	Hacienda Market	HasAddress	1313 Chester Ave
+1	Hacienda Market	HasType	grocery store
+1	1313 Chester Ave	IsAddressOf	Hacienda Market
+1	grocery store	IsTypeOf	Hacienda Market
+1	Hacienda Market	HasTraffic	road block nearby
+1	Hacienda Market	HasDistance	3 miles
+1	road block nearby	IsTrafficOf	Hacienda Market
+1	3 miles	IsDistanceFrom	Hacienda Market
+2	Jing Jing	HasAddress	113 Arbol Dr
+2	Jing Jing	HasType	chinese restaurant
+2	113 Arbol Dr	IsAddressOf	Jing Jing
+2	chinese restaurant	IsTypeOf	Jing Jing
+2	Jing Jing	HasTraffic	heavy traffic
+2	Jing Jing	HasDistance	6 miles
+2	heavy traffic	IsTrafficOf	Jing Jing
+2	6 miles	IsDistanceFrom	Jing Jing
+3	Pizza Hut	HasAddress	704 El Camino Real
+3	Pizza Hut	HasType	pizza restaurant
+3	704 El Camino Real	IsAddressOf	Pizza Hut
+3	pizza restaurant	IsTypeOf	Pizza Hut
+3	Pizza Hut	HasTraffic	moderate traffic
+3	Pizza Hut	HasDistance	6 miles
+3	moderate traffic	IsTrafficOf	Pizza Hut
+3	6 miles	IsDistanceFrom	Pizza Hut
+4	Pizza Chicago	HasAddress	915 Arbol Dr
+4	Pizza Chicago	HasType	pizza restaurant
+4	915 Arbol Dr	IsAddressOf	Pizza Chicago
+4	pizza restaurant	IsTypeOf	Pizza Chicago
+4	Pizza Chicago	HasTraffic	moderate traffic
+4	Pizza Chicago	HasDistance	1 miles
+4	moderate traffic	IsTrafficOf	Pizza Chicago
+4	1 miles	IsDistanceFrom	Pizza Chicago
+5	Willows Market	HasAddress	409 Bollard St
+5	Willows Market	HasType	grocery store
+5	409 Bollard St	IsAddressOf	Willows Market
+5	grocery store	IsTypeOf	Willows Market
+5	Willows Market	HasTraffic	no traffic
+5	Willows Market	HasDistance	6 miles
+5	no traffic	IsTrafficOf	Willows Market
+5	6 miles	IsDistanceFrom	Willows Market
+6	jacks house	HasAddress	864 Almanor Ln
+6	jacks house	HasType	friends house
+6	864 Almanor Ln	IsAddressOf	jacks house
+6	friends house	IsTypeOf	jacks house
+6	jacks house	HasTraffic	moderate traffic
+6	jacks house	HasDistance	4 miles
+6	moderate traffic	IsTrafficOf	jacks house
+6	4 miles	IsDistanceFrom	jacks house
+7	Dominos	HasAddress	776 Arastradero Rd
+7	Dominos	HasType	pizza restaurant
+7	776 Arastradero Rd	IsAddressOf	Dominos
+7	pizza restaurant	IsTypeOf	Dominos
+7	Dominos	HasTraffic	no traffic
+7	Dominos	HasDistance	1 miles
+7	no traffic	IsTrafficOf	Dominos
+7	1 miles	IsDistanceFrom	Dominos
+-1	today	IsEqualTo	monday

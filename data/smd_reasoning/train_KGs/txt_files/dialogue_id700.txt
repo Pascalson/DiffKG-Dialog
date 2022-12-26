@@ -1,0 +1,65 @@
+0	Cafe Venetia	HasAddress	269 Alger Dr
+0	Cafe Venetia	HasType	coffee or tea place
+0	269 Alger Dr	IsAddressOf	Cafe Venetia
+0	coffee or tea place	IsTypeOf	Cafe Venetia
+0	Cafe Venetia	HasTraffic	road block nearby
+0	Cafe Venetia	HasDistance	2 miles
+0	road block nearby	IsTrafficOf	Cafe Venetia
+0	2 miles	IsDistanceFrom	Cafe Venetia
+1	Trader Joes	HasAddress	408 University Ave
+1	Trader Joes	HasType	grocery store
+1	408 University Ave	IsAddressOf	Trader Joes
+1	grocery store	IsTypeOf	Trader Joes
+1	Trader Joes	HasTraffic	road block nearby
+1	Trader Joes	HasDistance	2 miles
+1	road block nearby	IsTrafficOf	Trader Joes
+1	2 miles	IsDistanceFrom	Trader Joes
+2	Stanford Childrens Health	HasAddress	899 Ames Ct
+2	Stanford Childrens Health	HasType	hospital
+2	899 Ames Ct	IsAddressOf	Stanford Childrens Health
+2	hospital	IsTypeOf	Stanford Childrens Health
+2	Stanford Childrens Health	HasTraffic	moderate traffic
+2	Stanford Childrens Health	HasDistance	1 miles
+2	moderate traffic	IsTrafficOf	Stanford Childrens Health
+2	1 miles	IsDistanceFrom	Stanford Childrens Health
+3	Chevron	HasAddress	783 Arcadia Pl
+3	Chevron	HasType	gas station
+3	783 Arcadia Pl	IsAddressOf	Chevron
+3	gas station	IsTypeOf	Chevron
+3	Chevron	HasTraffic	moderate traffic
+3	Chevron	HasDistance	2 miles
+3	moderate traffic	IsTrafficOf	Chevron
+3	2 miles	IsDistanceFrom	Chevron
+4	The Clement Hotel	HasAddress	657 Ames Ave
+4	The Clement Hotel	HasType	rest stop
+4	657 Ames Ave	IsAddressOf	The Clement Hotel
+4	rest stop	IsTypeOf	The Clement Hotel
+4	The Clement Hotel	HasTraffic	heavy traffic
+4	The Clement Hotel	HasDistance	2 miles
+4	heavy traffic	IsTrafficOf	The Clement Hotel
+4	2 miles	IsDistanceFrom	The Clement Hotel
+5	5677 southwest 4th street	HasAddress	5677 southwest 4th street
+5	5677 southwest 4th street	HasType	certain address
+5	5677 southwest 4th street	IsAddressOf	5677 southwest 4th street
+5	certain address	IsTypeOf	5677 southwest 4th street
+5	5677 southwest 4th street	HasTraffic	road block nearby
+5	5677 southwest 4th street	HasDistance	2 miles
+5	road block nearby	IsTrafficOf	5677 southwest 4th street
+5	2 miles	IsDistanceFrom	5677 southwest 4th street
+6	home	HasAddress	10 ames street
+6	home	HasType	home
+6	10 ames street	IsAddressOf	home
+6	home	IsTypeOf	home
+6	home	HasTraffic	moderate traffic
+6	home	HasDistance	2 miles
+6	moderate traffic	IsTrafficOf	home
+6	2 miles	IsDistanceFrom	home
+7	Midtown Shopping Center	HasAddress	338 Alester Ave
+7	Midtown Shopping Center	HasType	shopping center
+7	338 Alester Ave	IsAddressOf	Midtown Shopping Center
+7	shopping center	IsTypeOf	Midtown Shopping Center
+7	Midtown Shopping Center	HasTraffic	no traffic
+7	Midtown Shopping Center	HasDistance	6 miles
+7	no traffic	IsTrafficOf	Midtown Shopping Center
+7	6 miles	IsDistanceFrom	Midtown Shopping Center
+-1	today	IsEqualTo	monday

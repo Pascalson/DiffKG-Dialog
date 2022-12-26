@@ -1,0 +1,57 @@
+0	Round Table	HasAddress	113 Anton Ct
+0	Round Table	HasType	pizza restaurant
+0	113 Anton Ct	IsAddressOf	Round Table
+0	pizza restaurant	IsTypeOf	Round Table
+0	Round Table	HasTraffic	no traffic
+0	Round Table	HasDistance	5 miles
+0	no traffic	IsTrafficOf	Round Table
+0	5 miles	IsDistanceFrom	Round Table
+1	home	HasAddress	56 cadwell street
+1	home	HasType	home
+1	56 cadwell street	IsAddressOf	home
+1	home	IsTypeOf	home
+1	home	HasTraffic	moderate traffic
+1	home	HasDistance	4 miles
+1	moderate traffic	IsTrafficOf	home
+1	4 miles	IsDistanceFrom	home
+2	Valero	HasAddress	200 Alester Ave
+2	Valero	HasType	gas station
+2	200 Alester Ave	IsAddressOf	Valero
+2	gas station	IsTypeOf	Valero
+2	Valero	HasTraffic	no traffic
+2	Valero	HasDistance	5 miles
+2	no traffic	IsTrafficOf	Valero
+2	5 miles	IsDistanceFrom	Valero
+3	Coupa	HasAddress	394 Van Ness Ave
+3	Coupa	HasType	coffee or tea place
+3	394 Van Ness Ave	IsAddressOf	Coupa
+3	coffee or tea place	IsTypeOf	Coupa
+3	Coupa	HasTraffic	no traffic
+3	Coupa	HasDistance	4 miles
+3	no traffic	IsTrafficOf	Coupa
+3	4 miles	IsDistanceFrom	Coupa
+4	Chevron	HasAddress	783 Arcadia Pl
+4	Chevron	HasType	gas station
+4	783 Arcadia Pl	IsAddressOf	Chevron
+4	gas station	IsTypeOf	Chevron
+4	Chevron	HasTraffic	moderate traffic
+4	Chevron	HasDistance	5 miles
+4	moderate traffic	IsTrafficOf	Chevron
+4	5 miles	IsDistanceFrom	Chevron
+5	The Clement Hotel	HasAddress	657 Ames Ave
+5	The Clement Hotel	HasType	rest stop
+5	657 Ames Ave	IsAddressOf	The Clement Hotel
+5	rest stop	IsTypeOf	The Clement Hotel
+5	The Clement Hotel	HasTraffic	moderate traffic
+5	The Clement Hotel	HasDistance	4 miles
+5	moderate traffic	IsTrafficOf	The Clement Hotel
+5	4 miles	IsDistanceFrom	The Clement Hotel
+6	Midtown Shopping Center	HasAddress	338 Alester Ave
+6	Midtown Shopping Center	HasType	shopping center
+6	338 Alester Ave	IsAddressOf	Midtown Shopping Center
+6	shopping center	IsTypeOf	Midtown Shopping Center
+6	Midtown Shopping Center	HasTraffic	heavy traffic
+6	Midtown Shopping Center	HasDistance	6 miles
+6	heavy traffic	IsTrafficOf	Midtown Shopping Center
+6	6 miles	IsDistanceFrom	Midtown Shopping Center
+-1	today	IsEqualTo	monday

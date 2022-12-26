@@ -1,0 +1,57 @@
+0	Four Seasons	HasAddress	465 Arcadia Pl
+0	Four Seasons	HasType	rest stop
+0	465 Arcadia Pl	IsAddressOf	Four Seasons
+0	rest stop	IsTypeOf	Four Seasons
+0	Four Seasons	HasTraffic	moderate traffic
+0	Four Seasons	HasDistance	3 miles
+0	moderate traffic	IsTrafficOf	Four Seasons
+0	3 miles	IsDistanceFrom	Four Seasons
+1	Dominos	HasAddress	776 Arastradero Rd
+1	Dominos	HasType	pizza restaurant
+1	776 Arastradero Rd	IsAddressOf	Dominos
+1	pizza restaurant	IsTypeOf	Dominos
+1	Dominos	HasTraffic	heavy traffic
+1	Dominos	HasDistance	6 miles
+1	heavy traffic	IsTrafficOf	Dominos
+1	6 miles	IsDistanceFrom	Dominos
+2	Cafe Venetia	HasAddress	269 Alger Dr
+2	Cafe Venetia	HasType	coffee or tea place
+2	269 Alger Dr	IsAddressOf	Cafe Venetia
+2	coffee or tea place	IsTypeOf	Cafe Venetia
+2	Cafe Venetia	HasTraffic	heavy traffic
+2	Cafe Venetia	HasDistance	4 miles
+2	heavy traffic	IsTrafficOf	Cafe Venetia
+2	4 miles	IsDistanceFrom	Cafe Venetia
+3	Mandarin Roots	HasAddress	271 Springer Street
+3	Mandarin Roots	HasType	chinese restaurant
+3	271 Springer Street	IsAddressOf	Mandarin Roots
+3	chinese restaurant	IsTypeOf	Mandarin Roots
+3	Mandarin Roots	HasTraffic	moderate traffic
+3	Mandarin Roots	HasDistance	1 miles
+3	moderate traffic	IsTrafficOf	Mandarin Roots
+3	1 miles	IsDistanceFrom	Mandarin Roots
+4	jacks house	HasAddress	864 Almanor Ln
+4	jacks house	HasType	friends house
+4	864 Almanor Ln	IsAddressOf	jacks house
+4	friends house	IsTypeOf	jacks house
+4	jacks house	HasTraffic	no traffic
+4	jacks house	HasDistance	2 miles
+4	no traffic	IsTrafficOf	jacks house
+4	2 miles	IsDistanceFrom	jacks house
+5	Comfort Inn	HasAddress	753 University Ave
+5	Comfort Inn	HasType	rest stop
+5	753 University Ave	IsAddressOf	Comfort Inn
+5	rest stop	IsTypeOf	Comfort Inn
+5	Comfort Inn	HasTraffic	heavy traffic
+5	Comfort Inn	HasDistance	6 miles
+5	heavy traffic	IsTrafficOf	Comfort Inn
+5	6 miles	IsDistanceFrom	Comfort Inn
+6	5672 barringer street	HasAddress	5672 barringer street
+6	5672 barringer street	HasType	certain address
+6	5672 barringer street	IsAddressOf	5672 barringer street
+6	certain address	IsTypeOf	5672 barringer street
+6	5672 barringer street	HasTraffic	moderate traffic
+6	5672 barringer street	HasDistance	2 miles
+6	moderate traffic	IsTrafficOf	5672 barringer street
+6	2 miles	IsDistanceFrom	5672 barringer street
+-1	today	IsEqualTo	monday

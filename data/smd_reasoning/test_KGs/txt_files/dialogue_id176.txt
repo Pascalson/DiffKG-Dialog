@@ -1,0 +1,65 @@
+0	home	HasAddress	10 ames street
+0	home	HasType	home
+0	10 ames street	IsAddressOf	home
+0	home	IsTypeOf	home
+0	home	HasTraffic	no traffic
+0	home	HasDistance	4 miles
+0	no traffic	IsTrafficOf	home
+0	4 miles	IsDistanceFrom	home
+1	home	HasAddress	5671 barringer street
+1	home	HasType	home
+1	5671 barringer street	IsAddressOf	home
+1	home	IsTypeOf	home
+1	home	HasTraffic	no traffic
+1	home	HasDistance	5 miles
+1	no traffic	IsTrafficOf	home
+1	5 miles	IsDistanceFrom	home
+2	Four Seasons	HasAddress	465 Arcadia Pl
+2	Four Seasons	HasType	rest stop
+2	465 Arcadia Pl	IsAddressOf	Four Seasons
+2	rest stop	IsTypeOf	Four Seasons
+2	Four Seasons	HasTraffic	no traffic
+2	Four Seasons	HasDistance	6 miles
+2	no traffic	IsTrafficOf	Four Seasons
+2	6 miles	IsDistanceFrom	Four Seasons
+3	Papa Johns	HasAddress	110 Arastradero Rd
+3	Papa Johns	HasType	pizza restaurant
+3	110 Arastradero Rd	IsAddressOf	Papa Johns
+3	pizza restaurant	IsTypeOf	Papa Johns
+3	Papa Johns	HasTraffic	car collision nearby
+3	Papa Johns	HasDistance	3 miles
+3	car collision nearby	IsTrafficOf	Papa Johns
+3	3 miles	IsDistanceFrom	Papa Johns
+4	Cafe Venetia	HasAddress	269 Alger Dr
+4	Cafe Venetia	HasType	coffee or tea place
+4	269 Alger Dr	IsAddressOf	Cafe Venetia
+4	coffee or tea place	IsTypeOf	Cafe Venetia
+4	Cafe Venetia	HasTraffic	moderate traffic
+4	Cafe Venetia	HasDistance	6 miles
+4	moderate traffic	IsTrafficOf	Cafe Venetia
+4	6 miles	IsDistanceFrom	Cafe Venetia
+5	Palo Alto Garage R	HasAddress	481 Amaranta Ave
+5	Palo Alto Garage R	HasType	parking garage
+5	481 Amaranta Ave	IsAddressOf	Palo Alto Garage R
+5	parking garage	IsTypeOf	Palo Alto Garage R
+5	Palo Alto Garage R	HasTraffic	car collision nearby
+5	Palo Alto Garage R	HasDistance	6 miles
+5	car collision nearby	IsTrafficOf	Palo Alto Garage R
+5	6 miles	IsDistanceFrom	Palo Alto Garage R
+6	Round Table	HasAddress	113 Anton Ct
+6	Round Table	HasType	pizza restaurant
+6	113 Anton Ct	IsAddressOf	Round Table
+6	pizza restaurant	IsTypeOf	Round Table
+6	Round Table	HasTraffic	no traffic
+6	Round Table	HasDistance	3 miles
+6	no traffic	IsTrafficOf	Round Table
+6	3 miles	IsDistanceFrom	Round Table
+7	5677 southwest 4th street	HasAddress	5677 southwest 4th street
+7	5677 southwest 4th street	HasType	certain address
+7	5677 southwest 4th street	IsAddressOf	5677 southwest 4th street
+7	certain address	IsTypeOf	5677 southwest 4th street
+7	5677 southwest 4th street	HasTraffic	moderate traffic
+7	5677 southwest 4th street	HasDistance	2 miles
+7	moderate traffic	IsTrafficOf	5677 southwest 4th street
+7	2 miles	IsDistanceFrom	5677 southwest 4th street
+-1	today	IsEqualTo	monday

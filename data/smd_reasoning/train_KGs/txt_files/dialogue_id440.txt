@@ -1,0 +1,65 @@
+0	Palo Alto Medical Foundation	HasAddress	611 Ames Ave
+0	Palo Alto Medical Foundation	HasType	hospital
+0	611 Ames Ave	IsAddressOf	Palo Alto Medical Foundation
+0	hospital	IsTypeOf	Palo Alto Medical Foundation
+0	Palo Alto Medical Foundation	HasTraffic	no traffic
+0	Palo Alto Medical Foundation	HasDistance	4 miles
+0	no traffic	IsTrafficOf	Palo Alto Medical Foundation
+0	4 miles	IsDistanceFrom	Palo Alto Medical Foundation
+1	Mandarin Roots	HasAddress	271 Springer Street
+1	Mandarin Roots	HasType	chinese restaurant
+1	271 Springer Street	IsAddressOf	Mandarin Roots
+1	chinese restaurant	IsTypeOf	Mandarin Roots
+1	Mandarin Roots	HasTraffic	no traffic
+1	Mandarin Roots	HasDistance	5 miles
+1	no traffic	IsTrafficOf	Mandarin Roots
+1	5 miles	IsDistanceFrom	Mandarin Roots
+2	toms house	HasAddress	580 Van Ness Ave
+2	toms house	HasType	friends house
+2	580 Van Ness Ave	IsAddressOf	toms house
+2	friends house	IsTypeOf	toms house
+2	toms house	HasTraffic	car collision nearby
+2	toms house	HasDistance	8 miles
+2	car collision nearby	IsTrafficOf	toms house
+2	8 miles	IsDistanceFrom	toms house
+3	Pizza Chicago	HasAddress	915 Arbol Dr
+3	Pizza Chicago	HasType	pizza restaurant
+3	915 Arbol Dr	IsAddressOf	Pizza Chicago
+3	pizza restaurant	IsTypeOf	Pizza Chicago
+3	Pizza Chicago	HasTraffic	car collision nearby
+3	Pizza Chicago	HasDistance	5 miles
+3	car collision nearby	IsTrafficOf	Pizza Chicago
+3	5 miles	IsDistanceFrom	Pizza Chicago
+4	Shell	HasAddress	53 University Av
+4	Shell	HasType	gas station
+4	53 University Av	IsAddressOf	Shell
+4	gas station	IsTypeOf	Shell
+4	Shell	HasTraffic	road block nearby
+4	Shell	HasDistance	4 miles
+4	road block nearby	IsTrafficOf	Shell
+4	4 miles	IsDistanceFrom	Shell
+5	Palo Alto Cafe	HasAddress	436 Alger Dr
+5	Palo Alto Cafe	HasType	coffee or tea place
+5	436 Alger Dr	IsAddressOf	Palo Alto Cafe
+5	coffee or tea place	IsTypeOf	Palo Alto Cafe
+5	Palo Alto Cafe	HasTraffic	moderate traffic
+5	Palo Alto Cafe	HasDistance	1 miles
+5	moderate traffic	IsTrafficOf	Palo Alto Cafe
+5	1 miles	IsDistanceFrom	Palo Alto Cafe
+6	Dish Parking	HasAddress	550 Alester Ave
+6	Dish Parking	HasType	parking garage
+6	550 Alester Ave	IsAddressOf	Dish Parking
+6	parking garage	IsTypeOf	Dish Parking
+6	Dish Parking	HasTraffic	no traffic
+6	Dish Parking	HasDistance	5 miles
+6	no traffic	IsTrafficOf	Dish Parking
+6	5 miles	IsDistanceFrom	Dish Parking
+7	5677 springer street	HasAddress	5677 springer street
+7	5677 springer street	HasType	certain address
+7	5677 springer street	IsAddressOf	5677 springer street
+7	certain address	IsTypeOf	5677 springer street
+7	5677 springer street	HasTraffic	road block nearby
+7	5677 springer street	HasDistance	4 miles
+7	road block nearby	IsTrafficOf	5677 springer street
+7	4 miles	IsDistanceFrom	5677 springer street
+-1	today	IsEqualTo	monday

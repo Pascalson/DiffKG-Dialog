@@ -1,0 +1,65 @@
+0	home	HasAddress	10 ames street
+0	home	HasType	home
+0	10 ames street	IsAddressOf	home
+0	home	IsTypeOf	home
+0	home	HasTraffic	car collision nearby
+0	home	HasDistance	5 miles
+0	car collision nearby	IsTrafficOf	home
+0	5 miles	IsDistanceFrom	home
+1	Coupa	HasAddress	394 Van Ness Ave
+1	Coupa	HasType	coffee or tea place
+1	394 Van Ness Ave	IsAddressOf	Coupa
+1	coffee or tea place	IsTypeOf	Coupa
+1	Coupa	HasTraffic	heavy traffic
+1	Coupa	HasDistance	5 miles
+1	heavy traffic	IsTrafficOf	Coupa
+1	5 miles	IsDistanceFrom	Coupa
+2	Palo Alto Cafe	HasAddress	436 Alger Dr
+2	Palo Alto Cafe	HasType	coffee or tea place
+2	436 Alger Dr	IsAddressOf	Palo Alto Cafe
+2	coffee or tea place	IsTypeOf	Palo Alto Cafe
+2	Palo Alto Cafe	HasTraffic	road block nearby
+2	Palo Alto Cafe	HasDistance	3 miles
+2	road block nearby	IsTrafficOf	Palo Alto Cafe
+2	3 miles	IsDistanceFrom	Palo Alto Cafe
+3	Starbucks	HasAddress	792 Bedoin Street
+3	Starbucks	HasType	coffee or tea place
+3	792 Bedoin Street	IsAddressOf	Starbucks
+3	coffee or tea place	IsTypeOf	Starbucks
+3	Starbucks	HasTraffic	no traffic
+3	Starbucks	HasDistance	1 miles
+3	no traffic	IsTrafficOf	Starbucks
+3	1 miles	IsDistanceFrom	Starbucks
+4	Valero	HasAddress	200 Alester Ave
+4	Valero	HasType	gas station
+4	200 Alester Ave	IsAddressOf	Valero
+4	gas station	IsTypeOf	Valero
+4	Valero	HasTraffic	no traffic
+4	Valero	HasDistance	4 miles
+4	no traffic	IsTrafficOf	Valero
+4	4 miles	IsDistanceFrom	Valero
+5	Ravenswood Shopping Center	HasAddress	434 Arastradero Rd
+5	Ravenswood Shopping Center	HasType	shopping center
+5	434 Arastradero Rd	IsAddressOf	Ravenswood Shopping Center
+5	shopping center	IsTypeOf	Ravenswood Shopping Center
+5	Ravenswood Shopping Center	HasTraffic	car collision nearby
+5	Ravenswood Shopping Center	HasDistance	5 miles
+5	car collision nearby	IsTrafficOf	Ravenswood Shopping Center
+5	5 miles	IsDistanceFrom	Ravenswood Shopping Center
+6	P.F. Changs	HasAddress	669 El Camino Real
+6	P.F. Changs	HasType	chinese restaurant
+6	669 El Camino Real	IsAddressOf	P.F. Changs
+6	chinese restaurant	IsTypeOf	P.F. Changs
+6	P.F. Changs	HasTraffic	road block nearby
+6	P.F. Changs	HasDistance	2 miles
+6	road block nearby	IsTrafficOf	P.F. Changs
+6	2 miles	IsDistanceFrom	P.F. Changs
+7	Comfort Inn	HasAddress	753 University Ave
+7	Comfort Inn	HasType	rest stop
+7	753 University Ave	IsAddressOf	Comfort Inn
+7	rest stop	IsTypeOf	Comfort Inn
+7	Comfort Inn	HasTraffic	no traffic
+7	Comfort Inn	HasDistance	1 miles
+7	no traffic	IsTrafficOf	Comfort Inn
+7	1 miles	IsDistanceFrom	Comfort Inn
+-1	today	IsEqualTo	monday

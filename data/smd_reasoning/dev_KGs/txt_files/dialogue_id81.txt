@@ -1,0 +1,57 @@
+0	Pizza My Heart	HasAddress	528 Anton Ct
+0	Pizza My Heart	HasType	pizza restaurant
+0	528 Anton Ct	IsAddressOf	Pizza My Heart
+0	pizza restaurant	IsTypeOf	Pizza My Heart
+0	Pizza My Heart	HasTraffic	moderate traffic
+0	Pizza My Heart	HasDistance	6 miles
+0	moderate traffic	IsTrafficOf	Pizza My Heart
+0	6 miles	IsDistanceFrom	Pizza My Heart
+1	Cafe Venetia	HasAddress	269 Alger Dr
+1	Cafe Venetia	HasType	coffee or tea place
+1	269 Alger Dr	IsAddressOf	Cafe Venetia
+1	coffee or tea place	IsTypeOf	Cafe Venetia
+1	Cafe Venetia	HasTraffic	moderate traffic
+1	Cafe Venetia	HasDistance	5 miles
+1	moderate traffic	IsTrafficOf	Cafe Venetia
+1	5 miles	IsDistanceFrom	Cafe Venetia
+2	Coupa	HasAddress	394 Van Ness Ave
+2	Coupa	HasType	coffee or tea place
+2	394 Van Ness Ave	IsAddressOf	Coupa
+2	coffee or tea place	IsTypeOf	Coupa
+2	Coupa	HasTraffic	heavy traffic
+2	Coupa	HasDistance	2 miles
+2	heavy traffic	IsTrafficOf	Coupa
+2	2 miles	IsDistanceFrom	Coupa
+3	Chef Chu's	HasAddress	593 Arrowhead Way
+3	Chef Chu's	HasType	chinese restaurant
+3	593 Arrowhead Way	IsAddressOf	Chef Chu's
+3	chinese restaurant	IsTypeOf	Chef Chu's
+3	Chef Chu's	HasTraffic	no traffic
+3	Chef Chu's	HasDistance	4 miles
+3	no traffic	IsTrafficOf	Chef Chu's
+3	4 miles	IsDistanceFrom	Chef Chu's
+4	jacks house	HasAddress	864 Almanor Ln
+4	jacks house	HasType	friends house
+4	864 Almanor Ln	IsAddressOf	jacks house
+4	friends house	IsTypeOf	jacks house
+4	jacks house	HasTraffic	heavy traffic
+4	jacks house	HasDistance	6 miles
+4	heavy traffic	IsTrafficOf	jacks house
+4	6 miles	IsDistanceFrom	jacks house
+5	Whole Foods	HasAddress	819 Alma St
+5	Whole Foods	HasType	grocery store
+5	819 Alma St	IsAddressOf	Whole Foods
+5	grocery store	IsTypeOf	Whole Foods
+5	Whole Foods	HasTraffic	heavy traffic
+5	Whole Foods	HasDistance	3 miles
+5	heavy traffic	IsTrafficOf	Whole Foods
+5	3 miles	IsDistanceFrom	Whole Foods
+6	Comfort Inn	HasAddress	753 University Ave
+6	Comfort Inn	HasType	rest stop
+6	753 University Ave	IsAddressOf	Comfort Inn
+6	rest stop	IsTypeOf	Comfort Inn
+6	Comfort Inn	HasTraffic	moderate traffic
+6	Comfort Inn	HasDistance	2 miles
+6	moderate traffic	IsTrafficOf	Comfort Inn
+6	2 miles	IsDistanceFrom	Comfort Inn
+-1	today	IsEqualTo	monday

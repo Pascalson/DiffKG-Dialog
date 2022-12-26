@@ -1,0 +1,57 @@
+0	Chevron	HasAddress	783 Arcadia Pl
+0	Chevron	HasType	gas station
+0	783 Arcadia Pl	IsAddressOf	Chevron
+0	gas station	IsTypeOf	Chevron
+0	Chevron	HasTraffic	heavy traffic
+0	Chevron	HasDistance	5 miles
+0	heavy traffic	IsTrafficOf	Chevron
+0	5 miles	IsDistanceFrom	Chevron
+1	Palo Alto Garage R	HasAddress	481 Amaranta Ave
+1	Palo Alto Garage R	HasType	parking garage
+1	481 Amaranta Ave	IsAddressOf	Palo Alto Garage R
+1	parking garage	IsTypeOf	Palo Alto Garage R
+1	Palo Alto Garage R	HasTraffic	heavy traffic
+1	Palo Alto Garage R	HasDistance	4 miles
+1	heavy traffic	IsTrafficOf	Palo Alto Garage R
+1	4 miles	IsDistanceFrom	Palo Alto Garage R
+2	5672 barringer street	HasAddress	5672 barringer street
+2	5672 barringer street	HasType	certain address
+2	5672 barringer street	IsAddressOf	5672 barringer street
+2	certain address	IsTypeOf	5672 barringer street
+2	5672 barringer street	HasTraffic	no traffic
+2	5672 barringer street	HasDistance	3 miles
+2	no traffic	IsTrafficOf	5672 barringer street
+2	3 miles	IsDistanceFrom	5672 barringer street
+3	Midtown Shopping Center	HasAddress	338 Alester Ave
+3	Midtown Shopping Center	HasType	shopping center
+3	338 Alester Ave	IsAddressOf	Midtown Shopping Center
+3	shopping center	IsTypeOf	Midtown Shopping Center
+3	Midtown Shopping Center	HasTraffic	heavy traffic
+3	Midtown Shopping Center	HasDistance	6 miles
+3	heavy traffic	IsTrafficOf	Midtown Shopping Center
+3	6 miles	IsDistanceFrom	Midtown Shopping Center
+4	home	HasAddress	5671 barringer street
+4	home	HasType	home
+4	5671 barringer street	IsAddressOf	home
+4	home	IsTypeOf	home
+4	home	HasTraffic	heavy traffic
+4	home	HasDistance	5 miles
+4	heavy traffic	IsTrafficOf	home
+4	5 miles	IsDistanceFrom	home
+5	Valero	HasAddress	200 Alester Ave
+5	Valero	HasType	gas station
+5	200 Alester Ave	IsAddressOf	Valero
+5	gas station	IsTypeOf	Valero
+5	Valero	HasTraffic	heavy traffic
+5	Valero	HasDistance	4 miles
+5	heavy traffic	IsTrafficOf	Valero
+5	4 miles	IsDistanceFrom	Valero
+6	Webster Garage	HasAddress	880 Ames Ct
+6	Webster Garage	HasType	parking garage
+6	880 Ames Ct	IsAddressOf	Webster Garage
+6	parking garage	IsTypeOf	Webster Garage
+6	Webster Garage	HasTraffic	heavy traffic
+6	Webster Garage	HasDistance	2 miles
+6	heavy traffic	IsTrafficOf	Webster Garage
+6	2 miles	IsDistanceFrom	Webster Garage
+-1	today	IsEqualTo	monday

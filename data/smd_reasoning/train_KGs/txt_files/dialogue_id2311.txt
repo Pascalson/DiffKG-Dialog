@@ -1,0 +1,65 @@
+0	Teavana	HasAddress	145 Amherst St
+0	Teavana	HasType	coffee or tea place
+0	145 Amherst St	IsAddressOf	Teavana
+0	coffee or tea place	IsTypeOf	Teavana
+0	Teavana	HasTraffic	heavy traffic
+0	Teavana	HasDistance	4 miles
+0	heavy traffic	IsTrafficOf	Teavana
+0	4 miles	IsDistanceFrom	Teavana
+1	5677 southwest 4th street	HasAddress	5677 southwest 4th street
+1	5677 southwest 4th street	HasType	certain address
+1	5677 southwest 4th street	IsAddressOf	5677 southwest 4th street
+1	certain address	IsTypeOf	5677 southwest 4th street
+1	5677 southwest 4th street	HasTraffic	heavy traffic
+1	5677 southwest 4th street	HasDistance	4 miles
+1	heavy traffic	IsTrafficOf	5677 southwest 4th street
+1	4 miles	IsDistanceFrom	5677 southwest 4th street
+2	Safeway	HasAddress	452 Arcadia Pl
+2	Safeway	HasType	grocery store
+2	452 Arcadia Pl	IsAddressOf	Safeway
+2	grocery store	IsTypeOf	Safeway
+2	Safeway	HasTraffic	moderate traffic
+2	Safeway	HasDistance	4 miles
+2	moderate traffic	IsTrafficOf	Safeway
+2	4 miles	IsDistanceFrom	Safeway
+3	home	HasAddress	5671 barringer street
+3	home	HasType	home
+3	5671 barringer street	IsAddressOf	home
+3	home	IsTypeOf	home
+3	home	HasTraffic	car collision nearby
+3	home	HasDistance	6 miles
+3	car collision nearby	IsTrafficOf	home
+3	6 miles	IsDistanceFrom	home
+4	Starbucks	HasAddress	792 Bedoin Street
+4	Starbucks	HasType	coffee or tea place
+4	792 Bedoin Street	IsAddressOf	Starbucks
+4	coffee or tea place	IsTypeOf	Starbucks
+4	Starbucks	HasTraffic	road block nearby
+4	Starbucks	HasDistance	1 miles
+4	road block nearby	IsTrafficOf	Starbucks
+4	1 miles	IsDistanceFrom	Starbucks
+5	Shell	HasAddress	53 University Av
+5	Shell	HasType	gas station
+5	53 University Av	IsAddressOf	Shell
+5	gas station	IsTypeOf	Shell
+5	Shell	HasTraffic	heavy traffic
+5	Shell	HasDistance	1 miles
+5	heavy traffic	IsTrafficOf	Shell
+5	1 miles	IsDistanceFrom	Shell
+6	jacks house	HasAddress	864 Almanor Ln
+6	jacks house	HasType	friends house
+6	864 Almanor Ln	IsAddressOf	jacks house
+6	friends house	IsTypeOf	jacks house
+6	jacks house	HasTraffic	car collision nearby
+6	jacks house	HasDistance	3 miles
+6	car collision nearby	IsTrafficOf	jacks house
+6	3 miles	IsDistanceFrom	jacks house
+7	Trader Joes	HasAddress	408 University Ave
+7	Trader Joes	HasType	grocery store
+7	408 University Ave	IsAddressOf	Trader Joes
+7	grocery store	IsTypeOf	Trader Joes
+7	Trader Joes	HasTraffic	heavy traffic
+7	Trader Joes	HasDistance	6 miles
+7	heavy traffic	IsTrafficOf	Trader Joes
+7	6 miles	IsDistanceFrom	Trader Joes
+-1	today	IsEqualTo	monday

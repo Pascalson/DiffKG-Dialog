@@ -1,0 +1,53 @@
+0	lab appointment	HasTime	5pm
+0	5pm	IsTimeOf	lab appointment
+0	lab appointment	HasDate	the 3rd
+0	the 3rd	IsDateOf	lab appointment
+0	lab appointment	HasParty	Tom
+0	Tom	IsPartyOf	lab appointment
+1	dinner	HasTime	6pm
+1	6pm	IsTimeOf	dinner
+1	dinner	HasDate	tuesday
+1	tuesday	IsDateOf	dinner
+1	dinner	HasParty	Marie
+1	Marie	IsPartyOf	dinner
+2	conference	HasTime	2pm
+2	2pm	IsTimeOf	conference
+2	conference	HasDate	the 8th
+2	the 8th	IsDateOf	conference
+2	conference	HasParty	infrastructure team
+2	infrastructure team	IsPartyOf	conference
+2	conference	HasRoom	conference room 100
+2	conference room 100	IsRoomOf	conference
+2	conference	HasAgenda	sign the NDA
+2	sign the NDA	IsAgendaOf	conference
+3	tennis activity	HasTime	11am
+3	11am	IsTimeOf	tennis activity
+3	tennis activity	HasDate	friday
+3	friday	IsDateOf	tennis activity
+3	tennis activity	HasParty	Martha
+3	Martha	IsPartyOf	tennis activity
+4	tennis activity	HasTime	1pm
+4	1pm	IsTimeOf	tennis activity
+4	tennis activity	HasDate	monday
+4	monday	IsDateOf	tennis activity
+4	tennis activity	HasParty	Tom
+4	Tom	IsPartyOf	tennis activity
+5	lab appointment	HasTime	9am
+5	9am	IsTimeOf	lab appointment
+5	lab appointment	HasDate	tuesday
+5	tuesday	IsDateOf	lab appointment
+5	lab appointment	HasParty	Martha
+5	Martha	IsPartyOf	lab appointment
+6	tennis activity	HasTime	5pm
+6	5pm	IsTimeOf	tennis activity
+6	tennis activity	HasDate	the 8th
+6	the 8th	IsDateOf	tennis activity
+6	tennis activity	HasParty	Marie
+6	Marie	IsPartyOf	tennis activity
+7	doctor appointment	HasTime	6pm
+7	6pm	IsTimeOf	doctor appointment
+7	doctor appointment	HasDate	monday
+7	monday	IsDateOf	doctor appointment
+7	doctor appointment	HasParty	aunt
+7	aunt	IsPartyOf	doctor appointment
+-1	today	IsEqualTo	monday

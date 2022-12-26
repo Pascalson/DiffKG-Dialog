@@ -1,0 +1,65 @@
+0	home	HasAddress	56 cadwell street
+0	home	HasType	home
+0	56 cadwell street	IsAddressOf	home
+0	home	IsTypeOf	home
+0	home	HasTraffic	car collision nearby
+0	home	HasDistance	5 miles
+0	car collision nearby	IsTrafficOf	home
+0	5 miles	IsDistanceFrom	home
+1	Trader Joes	HasAddress	408 University Ave
+1	Trader Joes	HasType	grocery store
+1	408 University Ave	IsAddressOf	Trader Joes
+1	grocery store	IsTypeOf	Trader Joes
+1	Trader Joes	HasTraffic	road block nearby
+1	Trader Joes	HasDistance	4 miles
+1	road block nearby	IsTrafficOf	Trader Joes
+1	4 miles	IsDistanceFrom	Trader Joes
+2	Four Seasons	HasAddress	465 Arcadia Pl
+2	Four Seasons	HasType	rest stop
+2	465 Arcadia Pl	IsAddressOf	Four Seasons
+2	rest stop	IsTypeOf	Four Seasons
+2	Four Seasons	HasTraffic	car collision nearby
+2	Four Seasons	HasDistance	4 miles
+2	car collision nearby	IsTrafficOf	Four Seasons
+2	4 miles	IsDistanceFrom	Four Seasons
+3	Round Table	HasAddress	113 Anton Ct
+3	Round Table	HasType	pizza restaurant
+3	113 Anton Ct	IsAddressOf	Round Table
+3	pizza restaurant	IsTypeOf	Round Table
+3	Round Table	HasTraffic	road block nearby
+3	Round Table	HasDistance	5 miles
+3	road block nearby	IsTrafficOf	Round Table
+3	5 miles	IsDistanceFrom	Round Table
+4	Coupa	HasAddress	394 Van Ness Ave
+4	Coupa	HasType	coffee or tea place
+4	394 Van Ness Ave	IsAddressOf	Coupa
+4	coffee or tea place	IsTypeOf	Coupa
+4	Coupa	HasTraffic	moderate traffic
+4	Coupa	HasDistance	5 miles
+4	moderate traffic	IsTrafficOf	Coupa
+4	5 miles	IsDistanceFrom	Coupa
+5	Sigona Farmers Market	HasAddress	638 Amherst St
+5	Sigona Farmers Market	HasType	grocery store
+5	638 Amherst St	IsAddressOf	Sigona Farmers Market
+5	grocery store	IsTypeOf	Sigona Farmers Market
+5	Sigona Farmers Market	HasTraffic	no traffic
+5	Sigona Farmers Market	HasDistance	3 miles
+5	no traffic	IsTrafficOf	Sigona Farmers Market
+5	3 miles	IsDistanceFrom	Sigona Farmers Market
+6	Hacienda Market	HasAddress	1313 Chester Ave
+6	Hacienda Market	HasType	grocery store
+6	1313 Chester Ave	IsAddressOf	Hacienda Market
+6	grocery store	IsTypeOf	Hacienda Market
+6	Hacienda Market	HasTraffic	heavy traffic
+6	Hacienda Market	HasDistance	2 miles
+6	heavy traffic	IsTrafficOf	Hacienda Market
+6	2 miles	IsDistanceFrom	Hacienda Market
+7	Ravenswood Shopping Center	HasAddress	434 Arastradero Rd
+7	Ravenswood Shopping Center	HasType	shopping center
+7	434 Arastradero Rd	IsAddressOf	Ravenswood Shopping Center
+7	shopping center	IsTypeOf	Ravenswood Shopping Center
+7	Ravenswood Shopping Center	HasTraffic	road block nearby
+7	Ravenswood Shopping Center	HasDistance	4 miles
+7	road block nearby	IsTrafficOf	Ravenswood Shopping Center
+7	4 miles	IsDistanceFrom	Ravenswood Shopping Center
+-1	today	IsEqualTo	monday

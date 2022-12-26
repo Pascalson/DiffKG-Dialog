@@ -1,0 +1,65 @@
+0	Chef Chu's	HasAddress	593 Arrowhead Way
+0	Chef Chu's	HasType	chinese restaurant
+0	593 Arrowhead Way	IsAddressOf	Chef Chu's
+0	chinese restaurant	IsTypeOf	Chef Chu's
+0	Chef Chu's	HasTraffic	road block nearby
+0	Chef Chu's	HasDistance	5 miles
+0	road block nearby	IsTrafficOf	Chef Chu's
+0	5 miles	IsDistanceFrom	Chef Chu's
+1	5677 springer street	HasAddress	5677 springer street
+1	5677 springer street	HasType	certain address
+1	5677 springer street	IsAddressOf	5677 springer street
+1	certain address	IsTypeOf	5677 springer street
+1	5677 springer street	HasTraffic	car collision nearby
+1	5677 springer street	HasDistance	4 miles
+1	car collision nearby	IsTrafficOf	5677 springer street
+1	4 miles	IsDistanceFrom	5677 springer street
+2	5677 southwest 4th street	HasAddress	5677 southwest 4th street
+2	5677 southwest 4th street	HasType	certain address
+2	5677 southwest 4th street	IsAddressOf	5677 southwest 4th street
+2	certain address	IsTypeOf	5677 southwest 4th street
+2	5677 southwest 4th street	HasTraffic	heavy traffic
+2	5677 southwest 4th street	HasDistance	1 miles
+2	heavy traffic	IsTrafficOf	5677 southwest 4th street
+2	1 miles	IsDistanceFrom	5677 southwest 4th street
+3	Whole Foods	HasAddress	819 Alma St
+3	Whole Foods	HasType	grocery store
+3	819 Alma St	IsAddressOf	Whole Foods
+3	grocery store	IsTypeOf	Whole Foods
+3	Whole Foods	HasTraffic	no traffic
+3	Whole Foods	HasDistance	1 miles
+3	no traffic	IsTrafficOf	Whole Foods
+3	1 miles	IsDistanceFrom	Whole Foods
+4	Pizza Chicago	HasAddress	915 Arbol Dr
+4	Pizza Chicago	HasType	pizza restaurant
+4	915 Arbol Dr	IsAddressOf	Pizza Chicago
+4	pizza restaurant	IsTypeOf	Pizza Chicago
+4	Pizza Chicago	HasTraffic	no traffic
+4	Pizza Chicago	HasDistance	3 miles
+4	no traffic	IsTrafficOf	Pizza Chicago
+4	3 miles	IsDistanceFrom	Pizza Chicago
+5	Topanga Mall	HasAddress	171 Oak Rd
+5	Topanga Mall	HasType	shopping center
+5	171 Oak Rd	IsAddressOf	Topanga Mall
+5	shopping center	IsTypeOf	Topanga Mall
+5	Topanga Mall	HasTraffic	heavy traffic
+5	Topanga Mall	HasDistance	5 miles
+5	heavy traffic	IsTrafficOf	Topanga Mall
+5	5 miles	IsDistanceFrom	Topanga Mall
+6	Travelers Lodge	HasAddress	333 Arbol Dr
+6	Travelers Lodge	HasType	rest stop
+6	333 Arbol Dr	IsAddressOf	Travelers Lodge
+6	rest stop	IsTypeOf	Travelers Lodge
+6	Travelers Lodge	HasTraffic	road block nearby
+6	Travelers Lodge	HasDistance	4 miles
+6	road block nearby	IsTrafficOf	Travelers Lodge
+6	4 miles	IsDistanceFrom	Travelers Lodge
+7	Safeway	HasAddress	452 Arcadia Pl
+7	Safeway	HasType	grocery store
+7	452 Arcadia Pl	IsAddressOf	Safeway
+7	grocery store	IsTypeOf	Safeway
+7	Safeway	HasTraffic	road block nearby
+7	Safeway	HasDistance	5 miles
+7	road block nearby	IsTrafficOf	Safeway
+7	5 miles	IsDistanceFrom	Safeway
+-1	today	IsEqualTo	monday

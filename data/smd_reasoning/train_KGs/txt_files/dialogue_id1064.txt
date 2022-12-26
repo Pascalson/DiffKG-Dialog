@@ -1,0 +1,65 @@
+0	Dish Parking	HasAddress	550 Alester Ave
+0	Dish Parking	HasType	parking garage
+0	550 Alester Ave	IsAddressOf	Dish Parking
+0	parking garage	IsTypeOf	Dish Parking
+0	Dish Parking	HasTraffic	car collision nearby
+0	Dish Parking	HasDistance	6 miles
+0	car collision nearby	IsTrafficOf	Dish Parking
+0	6 miles	IsDistanceFrom	Dish Parking
+1	Stanford Shopping Center	HasAddress	773 Alger Dr
+1	Stanford Shopping Center	HasType	shopping center
+1	773 Alger Dr	IsAddressOf	Stanford Shopping Center
+1	shopping center	IsTypeOf	Stanford Shopping Center
+1	Stanford Shopping Center	HasTraffic	heavy traffic
+1	Stanford Shopping Center	HasDistance	4 miles
+1	heavy traffic	IsTrafficOf	Stanford Shopping Center
+1	4 miles	IsDistanceFrom	Stanford Shopping Center
+2	Papa Johns	HasAddress	110 Arastradero Rd
+2	Papa Johns	HasType	pizza restaurant
+2	110 Arastradero Rd	IsAddressOf	Papa Johns
+2	pizza restaurant	IsTypeOf	Papa Johns
+2	Papa Johns	HasTraffic	road block nearby
+2	Papa Johns	HasDistance	6 miles
+2	road block nearby	IsTrafficOf	Papa Johns
+2	6 miles	IsDistanceFrom	Papa Johns
+3	Safeway	HasAddress	452 Arcadia Pl
+3	Safeway	HasType	grocery store
+3	452 Arcadia Pl	IsAddressOf	Safeway
+3	grocery store	IsTypeOf	Safeway
+3	Safeway	HasTraffic	road block nearby
+3	Safeway	HasDistance	1 miles
+3	road block nearby	IsTrafficOf	Safeway
+3	1 miles	IsDistanceFrom	Safeway
+4	5672 barringer street	HasAddress	5672 barringer street
+4	5672 barringer street	HasType	certain address
+4	5672 barringer street	IsAddressOf	5672 barringer street
+4	certain address	IsTypeOf	5672 barringer street
+4	5672 barringer street	HasTraffic	no traffic
+4	5672 barringer street	HasDistance	1 miles
+4	no traffic	IsTrafficOf	5672 barringer street
+4	1 miles	IsDistanceFrom	5672 barringer street
+5	home	HasAddress	10 ames street
+5	home	HasType	home
+5	10 ames street	IsAddressOf	home
+5	home	IsTypeOf	home
+5	home	HasTraffic	no traffic
+5	home	HasDistance	3 miles
+5	no traffic	IsTrafficOf	home
+5	3 miles	IsDistanceFrom	home
+6	Mandarin Roots	HasAddress	271 Springer Street
+6	Mandarin Roots	HasType	chinese restaurant
+6	271 Springer Street	IsAddressOf	Mandarin Roots
+6	chinese restaurant	IsTypeOf	Mandarin Roots
+6	Mandarin Roots	HasTraffic	car collision nearby
+6	Mandarin Roots	HasDistance	3 miles
+6	car collision nearby	IsTrafficOf	Mandarin Roots
+6	3 miles	IsDistanceFrom	Mandarin Roots
+7	Palo Alto Cafe	HasAddress	436 Alger Dr
+7	Palo Alto Cafe	HasType	coffee or tea place
+7	436 Alger Dr	IsAddressOf	Palo Alto Cafe
+7	coffee or tea place	IsTypeOf	Palo Alto Cafe
+7	Palo Alto Cafe	HasTraffic	road block nearby
+7	Palo Alto Cafe	HasDistance	3 miles
+7	road block nearby	IsTrafficOf	Palo Alto Cafe
+7	3 miles	IsDistanceFrom	Palo Alto Cafe
+-1	today	IsEqualTo	monday

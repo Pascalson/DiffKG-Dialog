@@ -1,0 +1,57 @@
+0	Comfort Inn	HasAddress	753 University Ave
+0	Comfort Inn	HasType	rest stop
+0	753 University Ave	IsAddressOf	Comfort Inn
+0	rest stop	IsTypeOf	Comfort Inn
+0	Comfort Inn	HasTraffic	no traffic
+0	Comfort Inn	HasDistance	4 miles
+0	no traffic	IsTrafficOf	Comfort Inn
+0	4 miles	IsDistanceFrom	Comfort Inn
+1	5677 springer street	HasAddress	5677 springer street
+1	5677 springer street	HasType	certain address
+1	5677 springer street	IsAddressOf	5677 springer street
+1	certain address	IsTypeOf	5677 springer street
+1	5677 springer street	HasTraffic	heavy traffic
+1	5677 springer street	HasDistance	4 miles
+1	heavy traffic	IsTrafficOf	5677 springer street
+1	4 miles	IsDistanceFrom	5677 springer street
+2	Teavana	HasAddress	145 Amherst St
+2	Teavana	HasType	coffee or tea place
+2	145 Amherst St	IsAddressOf	Teavana
+2	coffee or tea place	IsTypeOf	Teavana
+2	Teavana	HasTraffic	heavy traffic
+2	Teavana	HasDistance	4 miles
+2	heavy traffic	IsTrafficOf	Teavana
+2	4 miles	IsDistanceFrom	Teavana
+3	Palo Alto Garage R	HasAddress	481 Amaranta Ave
+3	Palo Alto Garage R	HasType	parking garage
+3	481 Amaranta Ave	IsAddressOf	Palo Alto Garage R
+3	parking garage	IsTypeOf	Palo Alto Garage R
+3	Palo Alto Garage R	HasTraffic	no traffic
+3	Palo Alto Garage R	HasDistance	4 miles
+3	no traffic	IsTrafficOf	Palo Alto Garage R
+3	4 miles	IsDistanceFrom	Palo Alto Garage R
+4	Pizza Chicago	HasAddress	915 Arbol Dr
+4	Pizza Chicago	HasType	pizza restaurant
+4	915 Arbol Dr	IsAddressOf	Pizza Chicago
+4	pizza restaurant	IsTypeOf	Pizza Chicago
+4	Pizza Chicago	HasTraffic	heavy traffic
+4	Pizza Chicago	HasDistance	2 miles
+4	heavy traffic	IsTrafficOf	Pizza Chicago
+4	2 miles	IsDistanceFrom	Pizza Chicago
+5	home	HasAddress	10 ames street
+5	home	HasType	home
+5	10 ames street	IsAddressOf	home
+5	home	IsTypeOf	home
+5	home	HasTraffic	moderate traffic
+5	home	HasDistance	2 miles
+5	moderate traffic	IsTrafficOf	home
+5	2 miles	IsDistanceFrom	home
+6	The Westin	HasAddress	329 El Camino Real
+6	The Westin	HasType	rest stop
+6	329 El Camino Real	IsAddressOf	The Westin
+6	rest stop	IsTypeOf	The Westin
+6	The Westin	HasTraffic	heavy traffic
+6	The Westin	HasDistance	4 miles
+6	heavy traffic	IsTrafficOf	The Westin
+6	4 miles	IsDistanceFrom	The Westin
+-1	today	IsEqualTo	monday

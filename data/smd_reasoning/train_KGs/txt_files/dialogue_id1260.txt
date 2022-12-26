@@ -1,0 +1,65 @@
+0	jills house	HasAddress	347 Alta Mesa Ave
+0	jills house	HasType	friends house
+0	347 Alta Mesa Ave	IsAddressOf	jills house
+0	friends house	IsTypeOf	jills house
+0	jills house	HasTraffic	road block nearby
+0	jills house	HasDistance	3 miles
+0	road block nearby	IsTrafficOf	jills house
+0	3 miles	IsDistanceFrom	jills house
+1	5672 barringer street	HasAddress	5672 barringer street
+1	5672 barringer street	HasType	certain address
+1	5672 barringer street	IsAddressOf	5672 barringer street
+1	certain address	IsTypeOf	5672 barringer street
+1	5672 barringer street	HasTraffic	car collision nearby
+1	5672 barringer street	HasDistance	2 miles
+1	car collision nearby	IsTrafficOf	5672 barringer street
+1	2 miles	IsDistanceFrom	5672 barringer street
+2	home	HasAddress	56 cadwell street
+2	home	HasType	home
+2	56 cadwell street	IsAddressOf	home
+2	home	IsTypeOf	home
+2	home	HasTraffic	moderate traffic
+2	home	HasDistance	3 miles
+2	moderate traffic	IsTrafficOf	home
+2	3 miles	IsDistanceFrom	home
+3	Ravenswood Shopping Center	HasAddress	434 Arastradero Rd
+3	Ravenswood Shopping Center	HasType	shopping center
+3	434 Arastradero Rd	IsAddressOf	Ravenswood Shopping Center
+3	shopping center	IsTypeOf	Ravenswood Shopping Center
+3	Ravenswood Shopping Center	HasTraffic	car collision nearby
+3	Ravenswood Shopping Center	HasDistance	2 miles
+3	car collision nearby	IsTrafficOf	Ravenswood Shopping Center
+3	2 miles	IsDistanceFrom	Ravenswood Shopping Center
+4	Topanga Mall	HasAddress	171 Oak Rd
+4	Topanga Mall	HasType	shopping center
+4	171 Oak Rd	IsAddressOf	Topanga Mall
+4	shopping center	IsTypeOf	Topanga Mall
+4	Topanga Mall	HasTraffic	road block nearby
+4	Topanga Mall	HasDistance	6 miles
+4	road block nearby	IsTrafficOf	Topanga Mall
+4	6 miles	IsDistanceFrom	Topanga Mall
+5	Palo Alto Garage R	HasAddress	481 Amaranta Ave
+5	Palo Alto Garage R	HasType	parking garage
+5	481 Amaranta Ave	IsAddressOf	Palo Alto Garage R
+5	parking garage	IsTypeOf	Palo Alto Garage R
+5	Palo Alto Garage R	HasTraffic	car collision nearby
+5	Palo Alto Garage R	HasDistance	5 miles
+5	car collision nearby	IsTrafficOf	Palo Alto Garage R
+5	5 miles	IsDistanceFrom	Palo Alto Garage R
+6	Coupa	HasAddress	394 Van Ness Ave
+6	Coupa	HasType	coffee or tea place
+6	394 Van Ness Ave	IsAddressOf	Coupa
+6	coffee or tea place	IsTypeOf	Coupa
+6	Coupa	HasTraffic	road block nearby
+6	Coupa	HasDistance	4 miles
+6	road block nearby	IsTrafficOf	Coupa
+6	4 miles	IsDistanceFrom	Coupa
+7	Palo Alto Cafe	HasAddress	436 Alger Dr
+7	Palo Alto Cafe	HasType	coffee or tea place
+7	436 Alger Dr	IsAddressOf	Palo Alto Cafe
+7	coffee or tea place	IsTypeOf	Palo Alto Cafe
+7	Palo Alto Cafe	HasTraffic	no traffic
+7	Palo Alto Cafe	HasDistance	3 miles
+7	no traffic	IsTrafficOf	Palo Alto Cafe
+7	3 miles	IsDistanceFrom	Palo Alto Cafe
+-1	today	IsEqualTo	monday

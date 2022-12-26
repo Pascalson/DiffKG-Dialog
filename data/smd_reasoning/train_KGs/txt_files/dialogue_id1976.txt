@@ -1,0 +1,65 @@
+0	Topanga Mall	HasAddress	171 Oak Rd
+0	Topanga Mall	HasType	shopping center
+0	171 Oak Rd	IsAddressOf	Topanga Mall
+0	shopping center	IsTypeOf	Topanga Mall
+0	Topanga Mall	HasTraffic	road block nearby
+0	Topanga Mall	HasDistance	6 miles
+0	road block nearby	IsTrafficOf	Topanga Mall
+0	6 miles	IsDistanceFrom	Topanga Mall
+1	Panda Express	HasAddress	842 Arrowhead Way
+1	Panda Express	HasType	chinese restaurant
+1	842 Arrowhead Way	IsAddressOf	Panda Express
+1	chinese restaurant	IsTypeOf	Panda Express
+1	Panda Express	HasTraffic	heavy traffic
+1	Panda Express	HasDistance	4 miles
+1	heavy traffic	IsTrafficOf	Panda Express
+1	4 miles	IsDistanceFrom	Panda Express
+2	Chef Chu's	HasAddress	593 Arrowhead Way
+2	Chef Chu's	HasType	chinese restaurant
+2	593 Arrowhead Way	IsAddressOf	Chef Chu's
+2	chinese restaurant	IsTypeOf	Chef Chu's
+2	Chef Chu's	HasTraffic	car collision nearby
+2	Chef Chu's	HasDistance	2 miles
+2	car collision nearby	IsTrafficOf	Chef Chu's
+2	2 miles	IsDistanceFrom	Chef Chu's
+3	Trader Joes	HasAddress	408 University Ave
+3	Trader Joes	HasType	grocery store
+3	408 University Ave	IsAddressOf	Trader Joes
+3	grocery store	IsTypeOf	Trader Joes
+3	Trader Joes	HasTraffic	car collision nearby
+3	Trader Joes	HasDistance	2 miles
+3	car collision nearby	IsTrafficOf	Trader Joes
+3	2 miles	IsDistanceFrom	Trader Joes
+4	Dominos	HasAddress	776 Arastradero Rd
+4	Dominos	HasType	pizza restaurant
+4	776 Arastradero Rd	IsAddressOf	Dominos
+4	pizza restaurant	IsTypeOf	Dominos
+4	Dominos	HasTraffic	heavy traffic
+4	Dominos	HasDistance	5 miles
+4	heavy traffic	IsTrafficOf	Dominos
+4	5 miles	IsDistanceFrom	Dominos
+5	Safeway	HasAddress	452 Arcadia Pl
+5	Safeway	HasType	grocery store
+5	452 Arcadia Pl	IsAddressOf	Safeway
+5	grocery store	IsTypeOf	Safeway
+5	Safeway	HasTraffic	car collision nearby
+5	Safeway	HasDistance	4 miles
+5	car collision nearby	IsTrafficOf	Safeway
+5	4 miles	IsDistanceFrom	Safeway
+6	Stanford Oval Parking	HasAddress	610 Amarillo Ave
+6	Stanford Oval Parking	HasType	parking garage
+6	610 Amarillo Ave	IsAddressOf	Stanford Oval Parking
+6	parking garage	IsTypeOf	Stanford Oval Parking
+6	Stanford Oval Parking	HasTraffic	road block nearby
+6	Stanford Oval Parking	HasDistance	4 miles
+6	road block nearby	IsTrafficOf	Stanford Oval Parking
+6	4 miles	IsDistanceFrom	Stanford Oval Parking
+7	Civic Center Garage	HasAddress	270 Altaire Walk
+7	Civic Center Garage	HasType	parking garage
+7	270 Altaire Walk	IsAddressOf	Civic Center Garage
+7	parking garage	IsTypeOf	Civic Center Garage
+7	Civic Center Garage	HasTraffic	car collision nearby
+7	Civic Center Garage	HasDistance	1 miles
+7	car collision nearby	IsTrafficOf	Civic Center Garage
+7	1 miles	IsDistanceFrom	Civic Center Garage
+-1	today	IsEqualTo	monday

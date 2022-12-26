@@ -1,0 +1,57 @@
+0	Teavana	HasAddress	145 Amherst St
+0	Teavana	HasType	coffee or tea place
+0	145 Amherst St	IsAddressOf	Teavana
+0	coffee or tea place	IsTypeOf	Teavana
+0	Teavana	HasTraffic	moderate traffic
+0	Teavana	HasDistance	3 miles
+0	moderate traffic	IsTrafficOf	Teavana
+0	3 miles	IsDistanceFrom	Teavana
+1	Trader Joes	HasAddress	408 University Ave
+1	Trader Joes	HasType	grocery store
+1	408 University Ave	IsAddressOf	Trader Joes
+1	grocery store	IsTypeOf	Trader Joes
+1	Trader Joes	HasTraffic	heavy traffic
+1	Trader Joes	HasDistance	2 miles
+1	heavy traffic	IsTrafficOf	Trader Joes
+1	2 miles	IsDistanceFrom	Trader Joes
+2	jills house	HasAddress	347 Alta Mesa Ave
+2	jills house	HasType	friends house
+2	347 Alta Mesa Ave	IsAddressOf	jills house
+2	friends house	IsTypeOf	jills house
+2	jills house	HasTraffic	heavy traffic
+2	jills house	HasDistance	5 miles
+2	heavy traffic	IsTrafficOf	jills house
+2	5 miles	IsDistanceFrom	jills house
+3	Stanford Express Care	HasAddress	214 El Camino Real
+3	Stanford Express Care	HasType	hospital
+3	214 El Camino Real	IsAddressOf	Stanford Express Care
+3	hospital	IsTypeOf	Stanford Express Care
+3	Stanford Express Care	HasTraffic	no traffic
+3	Stanford Express Care	HasDistance	1 miles
+3	no traffic	IsTrafficOf	Stanford Express Care
+3	1 miles	IsDistanceFrom	Stanford Express Care
+4	5672 barringer street	HasAddress	5672 barringer street
+4	5672 barringer street	HasType	certain address
+4	5672 barringer street	IsAddressOf	5672 barringer street
+4	certain address	IsTypeOf	5672 barringer street
+4	5672 barringer street	HasTraffic	moderate traffic
+4	5672 barringer street	HasDistance	5 miles
+4	moderate traffic	IsTrafficOf	5672 barringer street
+4	5 miles	IsDistanceFrom	5672 barringer street
+5	Stanford Oval Parking	HasAddress	610 Amarillo Ave
+5	Stanford Oval Parking	HasType	parking garage
+5	610 Amarillo Ave	IsAddressOf	Stanford Oval Parking
+5	parking garage	IsTypeOf	Stanford Oval Parking
+5	Stanford Oval Parking	HasTraffic	heavy traffic
+5	Stanford Oval Parking	HasDistance	4 miles
+5	heavy traffic	IsTrafficOf	Stanford Oval Parking
+5	4 miles	IsDistanceFrom	Stanford Oval Parking
+6	home	HasAddress	56 cadwell street
+6	home	HasType	home
+6	56 cadwell street	IsAddressOf	home
+6	home	IsTypeOf	home
+6	home	HasTraffic	no traffic
+6	home	HasDistance	1 miles
+6	no traffic	IsTrafficOf	home
+6	1 miles	IsDistanceFrom	home
+-1	today	IsEqualTo	monday

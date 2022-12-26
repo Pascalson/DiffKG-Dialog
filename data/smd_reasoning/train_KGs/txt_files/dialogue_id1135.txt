@@ -1,0 +1,57 @@
+0	Chevron	HasAddress	783 Arcadia Pl
+0	Chevron	HasType	gas station
+0	783 Arcadia Pl	IsAddressOf	Chevron
+0	gas station	IsTypeOf	Chevron
+0	Chevron	HasTraffic	heavy traffic
+0	Chevron	HasDistance	3 miles
+0	heavy traffic	IsTrafficOf	Chevron
+0	3 miles	IsDistanceFrom	Chevron
+1	home	HasAddress	56 cadwell street
+1	home	HasType	home
+1	56 cadwell street	IsAddressOf	home
+1	home	IsTypeOf	home
+1	home	HasTraffic	moderate traffic
+1	home	HasDistance	1 miles
+1	moderate traffic	IsTrafficOf	home
+1	1 miles	IsDistanceFrom	home
+2	home	HasAddress	5671 barringer street
+2	home	HasType	home
+2	5671 barringer street	IsAddressOf	home
+2	home	IsTypeOf	home
+2	home	HasTraffic	moderate traffic
+2	home	HasDistance	3 miles
+2	moderate traffic	IsTrafficOf	home
+2	3 miles	IsDistanceFrom	home
+3	jacks house	HasAddress	864 Almanor Ln
+3	jacks house	HasType	friends house
+3	864 Almanor Ln	IsAddressOf	jacks house
+3	friends house	IsTypeOf	jacks house
+3	jacks house	HasTraffic	heavy traffic
+3	jacks house	HasDistance	3 miles
+3	heavy traffic	IsTrafficOf	jacks house
+3	3 miles	IsDistanceFrom	jacks house
+4	Teavana	HasAddress	145 Amherst St
+4	Teavana	HasType	coffee or tea place
+4	145 Amherst St	IsAddressOf	Teavana
+4	coffee or tea place	IsTypeOf	Teavana
+4	Teavana	HasTraffic	no traffic
+4	Teavana	HasDistance	4 miles
+4	no traffic	IsTrafficOf	Teavana
+4	4 miles	IsDistanceFrom	Teavana
+5	Whole Foods	HasAddress	819 Alma St
+5	Whole Foods	HasType	grocery store
+5	819 Alma St	IsAddressOf	Whole Foods
+5	grocery store	IsTypeOf	Whole Foods
+5	Whole Foods	HasTraffic	no traffic
+5	Whole Foods	HasDistance	4 miles
+5	no traffic	IsTrafficOf	Whole Foods
+5	4 miles	IsDistanceFrom	Whole Foods
+6	Stanford Childrens Health	HasAddress	899 Ames Ct
+6	Stanford Childrens Health	HasType	hospital
+6	899 Ames Ct	IsAddressOf	Stanford Childrens Health
+6	hospital	IsTypeOf	Stanford Childrens Health
+6	Stanford Childrens Health	HasTraffic	moderate traffic
+6	Stanford Childrens Health	HasDistance	3 miles
+6	moderate traffic	IsTrafficOf	Stanford Childrens Health
+6	3 miles	IsDistanceFrom	Stanford Childrens Health
+-1	today	IsEqualTo	monday

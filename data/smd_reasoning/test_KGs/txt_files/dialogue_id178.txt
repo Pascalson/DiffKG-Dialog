@@ -1,0 +1,57 @@
+0	Teavana	HasAddress	145 Amherst St
+0	Teavana	HasType	coffee or tea place
+0	145 Amherst St	IsAddressOf	Teavana
+0	coffee or tea place	IsTypeOf	Teavana
+0	Teavana	HasTraffic	moderate traffic
+0	Teavana	HasDistance	6 miles
+0	moderate traffic	IsTrafficOf	Teavana
+0	6 miles	IsDistanceFrom	Teavana
+1	Pizza My Heart	HasAddress	528 Anton Ct
+1	Pizza My Heart	HasType	pizza restaurant
+1	528 Anton Ct	IsAddressOf	Pizza My Heart
+1	pizza restaurant	IsTypeOf	Pizza My Heart
+1	Pizza My Heart	HasTraffic	no traffic
+1	Pizza My Heart	HasDistance	5 miles
+1	no traffic	IsTrafficOf	Pizza My Heart
+1	5 miles	IsDistanceFrom	Pizza My Heart
+2	Safeway	HasAddress	452 Arcadia Pl
+2	Safeway	HasType	grocery store
+2	452 Arcadia Pl	IsAddressOf	Safeway
+2	grocery store	IsTypeOf	Safeway
+2	Safeway	HasTraffic	heavy traffic
+2	Safeway	HasDistance	6 miles
+2	heavy traffic	IsTrafficOf	Safeway
+2	6 miles	IsDistanceFrom	Safeway
+3	jills house	HasAddress	347 Alta Mesa Ave
+3	jills house	HasType	friends house
+3	347 Alta Mesa Ave	IsAddressOf	jills house
+3	friends house	IsTypeOf	jills house
+3	jills house	HasTraffic	moderate traffic
+3	jills house	HasDistance	2 miles
+3	moderate traffic	IsTrafficOf	jills house
+3	2 miles	IsDistanceFrom	jills house
+4	home	HasAddress	56 cadwell street
+4	home	HasType	home
+4	56 cadwell street	IsAddressOf	home
+4	home	IsTypeOf	home
+4	home	HasTraffic	heavy traffic
+4	home	HasDistance	2 miles
+4	heavy traffic	IsTrafficOf	home
+4	2 miles	IsDistanceFrom	home
+5	Dominos	HasAddress	776 Arastradero Rd
+5	Dominos	HasType	pizza restaurant
+5	776 Arastradero Rd	IsAddressOf	Dominos
+5	pizza restaurant	IsTypeOf	Dominos
+5	Dominos	HasTraffic	moderate traffic
+5	Dominos	HasDistance	2 miles
+5	moderate traffic	IsTrafficOf	Dominos
+5	2 miles	IsDistanceFrom	Dominos
+6	jacks house	HasAddress	864 Almanor Ln
+6	jacks house	HasType	friends house
+6	864 Almanor Ln	IsAddressOf	jacks house
+6	friends house	IsTypeOf	jacks house
+6	jacks house	HasTraffic	moderate traffic
+6	jacks house	HasDistance	3 miles
+6	moderate traffic	IsTrafficOf	jacks house
+6	3 miles	IsDistanceFrom	jacks house
+-1	today	IsEqualTo	monday

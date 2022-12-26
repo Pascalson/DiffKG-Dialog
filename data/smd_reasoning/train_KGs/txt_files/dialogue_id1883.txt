@@ -1,0 +1,65 @@
+0	Dish Parking	HasAddress	550 Alester Ave
+0	Dish Parking	HasType	parking garage
+0	550 Alester Ave	IsAddressOf	Dish Parking
+0	parking garage	IsTypeOf	Dish Parking
+0	Dish Parking	HasTraffic	road block nearby
+0	Dish Parking	HasDistance	6 miles
+0	road block nearby	IsTrafficOf	Dish Parking
+0	6 miles	IsDistanceFrom	Dish Parking
+1	Town and Country	HasAddress	383 University Ave
+1	Town and Country	HasType	shopping center
+1	383 University Ave	IsAddressOf	Town and Country
+1	shopping center	IsTypeOf	Town and Country
+1	Town and Country	HasTraffic	road block nearby
+1	Town and Country	HasDistance	1 miles
+1	road block nearby	IsTrafficOf	Town and Country
+1	1 miles	IsDistanceFrom	Town and Country
+2	Mandarin Roots	HasAddress	271 Springer Street
+2	Mandarin Roots	HasType	chinese restaurant
+2	271 Springer Street	IsAddressOf	Mandarin Roots
+2	chinese restaurant	IsTypeOf	Mandarin Roots
+2	Mandarin Roots	HasTraffic	car collision nearby
+2	Mandarin Roots	HasDistance	2 miles
+2	car collision nearby	IsTrafficOf	Mandarin Roots
+2	2 miles	IsDistanceFrom	Mandarin Roots
+3	Whole Foods	HasAddress	819 Alma St
+3	Whole Foods	HasType	grocery store
+3	819 Alma St	IsAddressOf	Whole Foods
+3	grocery store	IsTypeOf	Whole Foods
+3	Whole Foods	HasTraffic	road block nearby
+3	Whole Foods	HasDistance	3 miles
+3	road block nearby	IsTrafficOf	Whole Foods
+3	3 miles	IsDistanceFrom	Whole Foods
+4	5672 barringer street	HasAddress	5672 barringer street
+4	5672 barringer street	HasType	certain address
+4	5672 barringer street	IsAddressOf	5672 barringer street
+4	certain address	IsTypeOf	5672 barringer street
+4	5672 barringer street	HasTraffic	road block nearby
+4	5672 barringer street	HasDistance	4 miles
+4	road block nearby	IsTrafficOf	5672 barringer street
+4	4 miles	IsDistanceFrom	5672 barringer street
+5	5677 springer street	HasAddress	5677 springer street
+5	5677 springer street	HasType	certain address
+5	5677 springer street	IsAddressOf	5677 springer street
+5	certain address	IsTypeOf	5677 springer street
+5	5677 springer street	HasTraffic	road block nearby
+5	5677 springer street	HasDistance	5 miles
+5	road block nearby	IsTrafficOf	5677 springer street
+5	5 miles	IsDistanceFrom	5677 springer street
+6	Palo Alto Cafe	HasAddress	436 Alger Dr
+6	Palo Alto Cafe	HasType	coffee or tea place
+6	436 Alger Dr	IsAddressOf	Palo Alto Cafe
+6	coffee or tea place	IsTypeOf	Palo Alto Cafe
+6	Palo Alto Cafe	HasTraffic	car collision nearby
+6	Palo Alto Cafe	HasDistance	4 miles
+6	car collision nearby	IsTrafficOf	Palo Alto Cafe
+6	4 miles	IsDistanceFrom	Palo Alto Cafe
+7	Safeway	HasAddress	452 Arcadia Pl
+7	Safeway	HasType	grocery store
+7	452 Arcadia Pl	IsAddressOf	Safeway
+7	grocery store	IsTypeOf	Safeway
+7	Safeway	HasTraffic	car collision nearby
+7	Safeway	HasDistance	1 miles
+7	car collision nearby	IsTrafficOf	Safeway
+7	1 miles	IsDistanceFrom	Safeway
+-1	today	IsEqualTo	monday

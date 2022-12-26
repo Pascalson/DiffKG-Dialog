@@ -1,0 +1,65 @@
+0	5677 springer street	HasAddress	5677 springer street
+0	5677 springer street	HasType	certain address
+0	5677 springer street	IsAddressOf	5677 springer street
+0	certain address	IsTypeOf	5677 springer street
+0	5677 springer street	HasTraffic	heavy traffic
+0	5677 springer street	HasDistance	5 miles
+0	heavy traffic	IsTrafficOf	5677 springer street
+0	5 miles	IsDistanceFrom	5677 springer street
+1	Dish Parking	HasAddress	550 Alester Ave
+1	Dish Parking	HasType	parking garage
+1	550 Alester Ave	IsAddressOf	Dish Parking
+1	parking garage	IsTypeOf	Dish Parking
+1	Dish Parking	HasTraffic	heavy traffic
+1	Dish Parking	HasDistance	2 miles
+1	heavy traffic	IsTrafficOf	Dish Parking
+1	2 miles	IsDistanceFrom	Dish Parking
+2	jacks house	HasAddress	864 Almanor Ln
+2	jacks house	HasType	friends house
+2	864 Almanor Ln	IsAddressOf	jacks house
+2	friends house	IsTypeOf	jacks house
+2	jacks house	HasTraffic	car collision nearby
+2	jacks house	HasDistance	6 miles
+2	car collision nearby	IsTrafficOf	jacks house
+2	6 miles	IsDistanceFrom	jacks house
+3	toms house	HasAddress	580 Van Ness Ave
+3	toms house	HasType	friends house
+3	580 Van Ness Ave	IsAddressOf	toms house
+3	friends house	IsTypeOf	toms house
+3	toms house	HasTraffic	moderate traffic
+3	toms house	HasDistance	1 miles
+3	moderate traffic	IsTrafficOf	toms house
+3	1 miles	IsDistanceFrom	toms house
+4	Valero	HasAddress	200 Alester Ave
+4	Valero	HasType	gas station
+4	200 Alester Ave	IsAddressOf	Valero
+4	gas station	IsTypeOf	Valero
+4	Valero	HasTraffic	heavy traffic
+4	Valero	HasDistance	6 miles
+4	heavy traffic	IsTrafficOf	Valero
+4	6 miles	IsDistanceFrom	Valero
+5	Stanford Shopping Center	HasAddress	773 Alger Dr
+5	Stanford Shopping Center	HasType	shopping center
+5	773 Alger Dr	IsAddressOf	Stanford Shopping Center
+5	shopping center	IsTypeOf	Stanford Shopping Center
+5	Stanford Shopping Center	HasTraffic	car collision nearby
+5	Stanford Shopping Center	HasDistance	5 miles
+5	car collision nearby	IsTrafficOf	Stanford Shopping Center
+5	5 miles	IsDistanceFrom	Stanford Shopping Center
+6	Civic Center Garage	HasAddress	270 Altaire Walk
+6	Civic Center Garage	HasType	parking garage
+6	270 Altaire Walk	IsAddressOf	Civic Center Garage
+6	parking garage	IsTypeOf	Civic Center Garage
+6	Civic Center Garage	HasTraffic	moderate traffic
+6	Civic Center Garage	HasDistance	3 miles
+6	moderate traffic	IsTrafficOf	Civic Center Garage
+6	3 miles	IsDistanceFrom	Civic Center Garage
+7	home	HasAddress	56 cadwell street
+7	home	HasType	home
+7	56 cadwell street	IsAddressOf	home
+7	home	IsTypeOf	home
+7	home	HasTraffic	no traffic
+7	home	HasDistance	4 miles
+7	no traffic	IsTrafficOf	home
+7	4 miles	IsDistanceFrom	home
+-1	today	IsEqualTo	monday

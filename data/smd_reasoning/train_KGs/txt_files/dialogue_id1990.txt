@@ -1,0 +1,57 @@
+0	Pizza My Heart	HasAddress	528 Anton Ct
+0	Pizza My Heart	HasType	pizza restaurant
+0	528 Anton Ct	IsAddressOf	Pizza My Heart
+0	pizza restaurant	IsTypeOf	Pizza My Heart
+0	Pizza My Heart	HasTraffic	heavy traffic
+0	Pizza My Heart	HasDistance	4 miles
+0	heavy traffic	IsTrafficOf	Pizza My Heart
+0	4 miles	IsDistanceFrom	Pizza My Heart
+1	The Clement Hotel	HasAddress	657 Ames Ave
+1	The Clement Hotel	HasType	rest stop
+1	657 Ames Ave	IsAddressOf	The Clement Hotel
+1	rest stop	IsTypeOf	The Clement Hotel
+1	The Clement Hotel	HasTraffic	moderate traffic
+1	The Clement Hotel	HasDistance	4 miles
+1	moderate traffic	IsTrafficOf	The Clement Hotel
+1	4 miles	IsDistanceFrom	The Clement Hotel
+2	Sigona Farmers Market	HasAddress	638 Amherst St
+2	Sigona Farmers Market	HasType	grocery store
+2	638 Amherst St	IsAddressOf	Sigona Farmers Market
+2	grocery store	IsTypeOf	Sigona Farmers Market
+2	Sigona Farmers Market	HasTraffic	heavy traffic
+2	Sigona Farmers Market	HasDistance	4 miles
+2	heavy traffic	IsTrafficOf	Sigona Farmers Market
+2	4 miles	IsDistanceFrom	Sigona Farmers Market
+3	P.F. Changs	HasAddress	669 El Camino Real
+3	P.F. Changs	HasType	chinese restaurant
+3	669 El Camino Real	IsAddressOf	P.F. Changs
+3	chinese restaurant	IsTypeOf	P.F. Changs
+3	P.F. Changs	HasTraffic	moderate traffic
+3	P.F. Changs	HasDistance	3 miles
+3	moderate traffic	IsTrafficOf	P.F. Changs
+3	3 miles	IsDistanceFrom	P.F. Changs
+4	Jing Jing	HasAddress	113 Arbol Dr
+4	Jing Jing	HasType	chinese restaurant
+4	113 Arbol Dr	IsAddressOf	Jing Jing
+4	chinese restaurant	IsTypeOf	Jing Jing
+4	Jing Jing	HasTraffic	moderate traffic
+4	Jing Jing	HasDistance	3 miles
+4	moderate traffic	IsTrafficOf	Jing Jing
+4	3 miles	IsDistanceFrom	Jing Jing
+5	Pizza Hut	HasAddress	704 El Camino Real
+5	Pizza Hut	HasType	pizza restaurant
+5	704 El Camino Real	IsAddressOf	Pizza Hut
+5	pizza restaurant	IsTypeOf	Pizza Hut
+5	Pizza Hut	HasTraffic	heavy traffic
+5	Pizza Hut	HasDistance	1 miles
+5	heavy traffic	IsTrafficOf	Pizza Hut
+5	1 miles	IsDistanceFrom	Pizza Hut
+6	The Westin	HasAddress	329 El Camino Real
+6	The Westin	HasType	rest stop
+6	329 El Camino Real	IsAddressOf	The Westin
+6	rest stop	IsTypeOf	The Westin
+6	The Westin	HasTraffic	no traffic
+6	The Westin	HasDistance	4 miles
+6	no traffic	IsTrafficOf	The Westin
+6	4 miles	IsDistanceFrom	The Westin
+-1	today	IsEqualTo	monday

@@ -1,0 +1,25 @@
+0	swimming activity	HasTime	11am
+0	11am	IsTimeOf	swimming activity
+0	swimming activity	HasDate	thursday
+0	thursday	IsDateOf	swimming activity
+1	dinner	HasTime	5pm
+1	5pm	IsTimeOf	dinner
+1	dinner	HasDate	monday
+1	monday	IsDateOf	dinner
+2	lab appointment	HasTime	2pm
+2	2pm	IsTimeOf	lab appointment
+2	lab appointment	HasDate	wednesday
+2	wednesday	IsDateOf	lab appointment
+3	tennis activity	HasTime	3pm
+3	3pm	IsTimeOf	tennis activity
+3	tennis activity	HasDate	monday
+3	monday	IsDateOf	tennis activity
+4	football activity	HasTime	3pm
+4	3pm	IsTimeOf	football activity
+4	football activity	HasDate	tuesday
+4	tuesday	IsDateOf	football activity
+5	dentist appointment	HasTime	3pm
+5	3pm	IsTimeOf	dentist appointment
+5	dentist appointment	HasDate	monday
+5	monday	IsDateOf	dentist appointment
+-1	today	IsEqualTo	monday

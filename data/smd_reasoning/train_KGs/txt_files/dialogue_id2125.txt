@@ -1,0 +1,57 @@
+0	lab appointment	HasTime	10am
+0	10am	IsTimeOf	lab appointment
+0	lab appointment	HasDate	wednesday
+0	wednesday	IsDateOf	lab appointment
+0	lab appointment	HasParty	Marie
+0	Marie	IsPartyOf	lab appointment
+1	conference	HasTime	6pm
+1	6pm	IsTimeOf	conference
+1	conference	HasDate	the 12th
+1	the 12th	IsDateOf	conference
+1	conference	HasParty	infrastructure team
+1	infrastructure team	IsPartyOf	conference
+1	conference	HasRoom	conference room 100
+1	conference room 100	IsRoomOf	conference
+1	conference	HasAgenda	go over quarterly report
+1	go over quarterly report	IsAgendaOf	conference
+2	doctor appointment	HasTime	7pm
+2	7pm	IsTimeOf	doctor appointment
+2	doctor appointment	HasDate	sunday
+2	sunday	IsDateOf	doctor appointment
+2	doctor appointment	HasParty	Jon
+2	Jon	IsPartyOf	doctor appointment
+3	lab appointment	HasTime	7pm
+3	7pm	IsTimeOf	lab appointment
+3	lab appointment	HasDate	sunday
+3	sunday	IsDateOf	lab appointment
+3	lab appointment	HasParty	mother
+3	mother	IsPartyOf	lab appointment
+4	lab appointment	HasTime	10am
+4	10am	IsTimeOf	lab appointment
+4	lab appointment	HasDate	the 10th
+4	the 10th	IsDateOf	lab appointment
+4	lab appointment	HasParty	Ana
+4	Ana	IsPartyOf	lab appointment
+5	conference	HasTime	9am
+5	9am	IsTimeOf	conference
+5	conference	HasDate	the 12th
+5	the 12th	IsDateOf	conference
+5	conference	HasParty	infrastructure team
+5	infrastructure team	IsPartyOf	conference
+5	conference	HasRoom	conference room 100
+5	conference room 100	IsRoomOf	conference
+5	conference	HasAgenda	discuss dress code
+5	discuss dress code	IsAgendaOf	conference
+6	doctor appointment	HasTime	4pm
+6	4pm	IsTimeOf	doctor appointment
+6	doctor appointment	HasDate	the 20th
+6	the 20th	IsDateOf	doctor appointment
+6	doctor appointment	HasParty	Alex
+6	Alex	IsPartyOf	doctor appointment
+7	tennis activity	HasTime	10am
+7	10am	IsTimeOf	tennis activity
+7	tennis activity	HasDate	the 17th
+7	the 17th	IsDateOf	tennis activity
+7	tennis activity	HasParty	Jeff
+7	Jeff	IsPartyOf	tennis activity
+-1	today	IsEqualTo	monday

@@ -1,0 +1,57 @@
+0	Cafe Venetia	HasAddress	269 Alger Dr
+0	Cafe Venetia	HasType	coffee or tea place
+0	269 Alger Dr	IsAddressOf	Cafe Venetia
+0	coffee or tea place	IsTypeOf	Cafe Venetia
+0	Cafe Venetia	HasTraffic	no traffic
+0	Cafe Venetia	HasDistance	4 miles
+0	no traffic	IsTrafficOf	Cafe Venetia
+0	4 miles	IsDistanceFrom	Cafe Venetia
+1	The Clement Hotel	HasAddress	657 Ames Ave
+1	The Clement Hotel	HasType	rest stop
+1	657 Ames Ave	IsAddressOf	The Clement Hotel
+1	rest stop	IsTypeOf	The Clement Hotel
+1	The Clement Hotel	HasTraffic	no traffic
+1	The Clement Hotel	HasDistance	5 miles
+1	no traffic	IsTrafficOf	The Clement Hotel
+1	5 miles	IsDistanceFrom	The Clement Hotel
+2	Ravenswood Shopping Center	HasAddress	434 Arastradero Rd
+2	Ravenswood Shopping Center	HasType	shopping center
+2	434 Arastradero Rd	IsAddressOf	Ravenswood Shopping Center
+2	shopping center	IsTypeOf	Ravenswood Shopping Center
+2	Ravenswood Shopping Center	HasTraffic	heavy traffic
+2	Ravenswood Shopping Center	HasDistance	4 miles
+2	heavy traffic	IsTrafficOf	Ravenswood Shopping Center
+2	4 miles	IsDistanceFrom	Ravenswood Shopping Center
+3	Dominos	HasAddress	776 Arastradero Rd
+3	Dominos	HasType	pizza restaurant
+3	776 Arastradero Rd	IsAddressOf	Dominos
+3	pizza restaurant	IsTypeOf	Dominos
+3	Dominos	HasTraffic	no traffic
+3	Dominos	HasDistance	1 miles
+3	no traffic	IsTrafficOf	Dominos
+3	1 miles	IsDistanceFrom	Dominos
+4	Comfort Inn	HasAddress	753 University Ave
+4	Comfort Inn	HasType	rest stop
+4	753 University Ave	IsAddressOf	Comfort Inn
+4	rest stop	IsTypeOf	Comfort Inn
+4	Comfort Inn	HasTraffic	no traffic
+4	Comfort Inn	HasDistance	5 miles
+4	no traffic	IsTrafficOf	Comfort Inn
+4	5 miles	IsDistanceFrom	Comfort Inn
+5	Valero	HasAddress	200 Alester Ave
+5	Valero	HasType	gas station
+5	200 Alester Ave	IsAddressOf	Valero
+5	gas station	IsTypeOf	Valero
+5	Valero	HasTraffic	no traffic
+5	Valero	HasDistance	2 miles
+5	no traffic	IsTrafficOf	Valero
+5	2 miles	IsDistanceFrom	Valero
+6	jills house	HasAddress	347 Alta Mesa Ave
+6	jills house	HasType	friends house
+6	347 Alta Mesa Ave	IsAddressOf	jills house
+6	friends house	IsTypeOf	jills house
+6	jills house	HasTraffic	heavy traffic
+6	jills house	HasDistance	4 miles
+6	heavy traffic	IsTrafficOf	jills house
+6	4 miles	IsDistanceFrom	jills house
+-1	today	IsEqualTo	monday

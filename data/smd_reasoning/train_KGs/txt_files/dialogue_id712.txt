@@ -1,0 +1,65 @@
+0	Pizza Chicago	HasAddress	915 Arbol Dr
+0	Pizza Chicago	HasType	pizza restaurant
+0	915 Arbol Dr	IsAddressOf	Pizza Chicago
+0	pizza restaurant	IsTypeOf	Pizza Chicago
+0	Pizza Chicago	HasTraffic	heavy traffic
+0	Pizza Chicago	HasDistance	6 miles
+0	heavy traffic	IsTrafficOf	Pizza Chicago
+0	6 miles	IsDistanceFrom	Pizza Chicago
+1	Civic Center Garage	HasAddress	270 Altaire Walk
+1	Civic Center Garage	HasType	parking garage
+1	270 Altaire Walk	IsAddressOf	Civic Center Garage
+1	parking garage	IsTypeOf	Civic Center Garage
+1	Civic Center Garage	HasTraffic	moderate traffic
+1	Civic Center Garage	HasDistance	4 miles
+1	moderate traffic	IsTrafficOf	Civic Center Garage
+1	4 miles	IsDistanceFrom	Civic Center Garage
+2	76	HasAddress	91 El Camino Real
+2	76	HasType	gas station
+2	91 El Camino Real	IsAddressOf	76
+2	gas station	IsTypeOf	76
+2	76	HasTraffic	no traffic
+2	76	HasDistance	6 miles
+2	no traffic	IsTrafficOf	76
+2	6 miles	IsDistanceFrom	76
+3	Midtown Shopping Center	HasAddress	338 Alester Ave
+3	Midtown Shopping Center	HasType	shopping center
+3	338 Alester Ave	IsAddressOf	Midtown Shopping Center
+3	shopping center	IsTypeOf	Midtown Shopping Center
+3	Midtown Shopping Center	HasTraffic	no traffic
+3	Midtown Shopping Center	HasDistance	2 miles
+3	no traffic	IsTrafficOf	Midtown Shopping Center
+3	2 miles	IsDistanceFrom	Midtown Shopping Center
+4	Hotel Keen	HasAddress	578 Arbol Dr
+4	Hotel Keen	HasType	rest stop
+4	578 Arbol Dr	IsAddressOf	Hotel Keen
+4	rest stop	IsTypeOf	Hotel Keen
+4	Hotel Keen	HasTraffic	car collision nearby
+4	Hotel Keen	HasDistance	4 miles
+4	car collision nearby	IsTrafficOf	Hotel Keen
+4	4 miles	IsDistanceFrom	Hotel Keen
+5	Ravenswood Shopping Center	HasAddress	434 Arastradero Rd
+5	Ravenswood Shopping Center	HasType	shopping center
+5	434 Arastradero Rd	IsAddressOf	Ravenswood Shopping Center
+5	shopping center	IsTypeOf	Ravenswood Shopping Center
+5	Ravenswood Shopping Center	HasTraffic	heavy traffic
+5	Ravenswood Shopping Center	HasDistance	3 miles
+5	heavy traffic	IsTrafficOf	Ravenswood Shopping Center
+5	3 miles	IsDistanceFrom	Ravenswood Shopping Center
+6	Stanford Oval Parking	HasAddress	610 Amarillo Ave
+6	Stanford Oval Parking	HasType	parking garage
+6	610 Amarillo Ave	IsAddressOf	Stanford Oval Parking
+6	parking garage	IsTypeOf	Stanford Oval Parking
+6	Stanford Oval Parking	HasTraffic	road block nearby
+6	Stanford Oval Parking	HasDistance	2 miles
+6	road block nearby	IsTrafficOf	Stanford Oval Parking
+6	2 miles	IsDistanceFrom	Stanford Oval Parking
+7	Shell	HasAddress	53 University Av
+7	Shell	HasType	gas station
+7	53 University Av	IsAddressOf	Shell
+7	gas station	IsTypeOf	Shell
+7	Shell	HasTraffic	car collision nearby
+7	Shell	HasDistance	1 miles
+7	car collision nearby	IsTrafficOf	Shell
+7	1 miles	IsDistanceFrom	Shell
+-1	today	IsEqualTo	monday

@@ -1,0 +1,65 @@
+0	Philz	HasAddress	583 Alester Ave
+0	Philz	HasType	coffee or tea place
+0	583 Alester Ave	IsAddressOf	Philz
+0	coffee or tea place	IsTypeOf	Philz
+0	Philz	HasTraffic	moderate traffic
+0	Philz	HasDistance	6 miles
+0	moderate traffic	IsTrafficOf	Philz
+0	6 miles	IsDistanceFrom	Philz
+1	Willows Market	HasAddress	409 Bollard St
+1	Willows Market	HasType	grocery store
+1	409 Bollard St	IsAddressOf	Willows Market
+1	grocery store	IsTypeOf	Willows Market
+1	Willows Market	HasTraffic	car collision nearby
+1	Willows Market	HasDistance	1 miles
+1	car collision nearby	IsTrafficOf	Willows Market
+1	1 miles	IsDistanceFrom	Willows Market
+2	The Clement Hotel	HasAddress	657 Ames Ave
+2	The Clement Hotel	HasType	rest stop
+2	657 Ames Ave	IsAddressOf	The Clement Hotel
+2	rest stop	IsTypeOf	The Clement Hotel
+2	The Clement Hotel	HasTraffic	heavy traffic
+2	The Clement Hotel	HasDistance	4 miles
+2	heavy traffic	IsTrafficOf	The Clement Hotel
+2	4 miles	IsDistanceFrom	The Clement Hotel
+3	Panda Express	HasAddress	842 Arrowhead Way
+3	Panda Express	HasType	chinese restaurant
+3	842 Arrowhead Way	IsAddressOf	Panda Express
+3	chinese restaurant	IsTypeOf	Panda Express
+3	Panda Express	HasTraffic	moderate traffic
+3	Panda Express	HasDistance	4 miles
+3	moderate traffic	IsTrafficOf	Panda Express
+3	4 miles	IsDistanceFrom	Panda Express
+4	Dish Parking	HasAddress	550 Alester Ave
+4	Dish Parking	HasType	parking garage
+4	550 Alester Ave	IsAddressOf	Dish Parking
+4	parking garage	IsTypeOf	Dish Parking
+4	Dish Parking	HasTraffic	car collision nearby
+4	Dish Parking	HasDistance	3 miles
+4	car collision nearby	IsTrafficOf	Dish Parking
+4	3 miles	IsDistanceFrom	Dish Parking
+5	Palo Alto Medical Foundation	HasAddress	611 Ames Ave
+5	Palo Alto Medical Foundation	HasType	hospital
+5	611 Ames Ave	IsAddressOf	Palo Alto Medical Foundation
+5	hospital	IsTypeOf	Palo Alto Medical Foundation
+5	Palo Alto Medical Foundation	HasTraffic	moderate traffic
+5	Palo Alto Medical Foundation	HasDistance	5 miles
+5	moderate traffic	IsTrafficOf	Palo Alto Medical Foundation
+5	5 miles	IsDistanceFrom	Palo Alto Medical Foundation
+6	Hotel Keen	HasAddress	578 Arbol Dr
+6	Hotel Keen	HasType	rest stop
+6	578 Arbol Dr	IsAddressOf	Hotel Keen
+6	rest stop	IsTypeOf	Hotel Keen
+6	Hotel Keen	HasTraffic	no traffic
+6	Hotel Keen	HasDistance	2 miles
+6	no traffic	IsTrafficOf	Hotel Keen
+6	2 miles	IsDistanceFrom	Hotel Keen
+7	Stanford Shopping Center	HasAddress	773 Alger Dr
+7	Stanford Shopping Center	HasType	shopping center
+7	773 Alger Dr	IsAddressOf	Stanford Shopping Center
+7	shopping center	IsTypeOf	Stanford Shopping Center
+7	Stanford Shopping Center	HasTraffic	road block nearby
+7	Stanford Shopping Center	HasDistance	5 miles
+7	road block nearby	IsTrafficOf	Stanford Shopping Center
+7	5 miles	IsDistanceFrom	Stanford Shopping Center
+-1	today	IsEqualTo	monday

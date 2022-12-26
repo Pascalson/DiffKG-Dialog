@@ -1,0 +1,57 @@
+0	Civic Center Garage	HasAddress	270 Altaire Walk
+0	Civic Center Garage	HasType	parking garage
+0	270 Altaire Walk	IsAddressOf	Civic Center Garage
+0	parking garage	IsTypeOf	Civic Center Garage
+0	Civic Center Garage	HasTraffic	no traffic
+0	Civic Center Garage	HasDistance	2 miles
+0	no traffic	IsTrafficOf	Civic Center Garage
+0	2 miles	IsDistanceFrom	Civic Center Garage
+1	P.F. Changs	HasAddress	669 El Camino Real
+1	P.F. Changs	HasType	chinese restaurant
+1	669 El Camino Real	IsAddressOf	P.F. Changs
+1	chinese restaurant	IsTypeOf	P.F. Changs
+1	P.F. Changs	HasTraffic	moderate traffic
+1	P.F. Changs	HasDistance	1 miles
+1	moderate traffic	IsTrafficOf	P.F. Changs
+1	1 miles	IsDistanceFrom	P.F. Changs
+2	Hotel Keen	HasAddress	578 Arbol Dr
+2	Hotel Keen	HasType	rest stop
+2	578 Arbol Dr	IsAddressOf	Hotel Keen
+2	rest stop	IsTypeOf	Hotel Keen
+2	Hotel Keen	HasTraffic	moderate traffic
+2	Hotel Keen	HasDistance	2 miles
+2	moderate traffic	IsTrafficOf	Hotel Keen
+2	2 miles	IsDistanceFrom	Hotel Keen
+3	Cafe Venetia	HasAddress	269 Alger Dr
+3	Cafe Venetia	HasType	coffee or tea place
+3	269 Alger Dr	IsAddressOf	Cafe Venetia
+3	coffee or tea place	IsTypeOf	Cafe Venetia
+3	Cafe Venetia	HasTraffic	no traffic
+3	Cafe Venetia	HasDistance	4 miles
+3	no traffic	IsTrafficOf	Cafe Venetia
+3	4 miles	IsDistanceFrom	Cafe Venetia
+4	Safeway	HasAddress	452 Arcadia Pl
+4	Safeway	HasType	grocery store
+4	452 Arcadia Pl	IsAddressOf	Safeway
+4	grocery store	IsTypeOf	Safeway
+4	Safeway	HasTraffic	moderate traffic
+4	Safeway	HasDistance	1 miles
+4	moderate traffic	IsTrafficOf	Safeway
+4	1 miles	IsDistanceFrom	Safeway
+5	Dish Parking	HasAddress	550 Alester Ave
+5	Dish Parking	HasType	parking garage
+5	550 Alester Ave	IsAddressOf	Dish Parking
+5	parking garage	IsTypeOf	Dish Parking
+5	Dish Parking	HasTraffic	heavy traffic
+5	Dish Parking	HasDistance	5 miles
+5	heavy traffic	IsTrafficOf	Dish Parking
+5	5 miles	IsDistanceFrom	Dish Parking
+6	home	HasAddress	56 cadwell street
+6	home	HasType	home
+6	56 cadwell street	IsAddressOf	home
+6	home	IsTypeOf	home
+6	home	HasTraffic	no traffic
+6	home	HasDistance	2 miles
+6	no traffic	IsTrafficOf	home
+6	2 miles	IsDistanceFrom	home
+-1	today	IsEqualTo	monday

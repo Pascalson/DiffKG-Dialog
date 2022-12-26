@@ -1,0 +1,57 @@
+0	Palo Alto Medical Foundation	HasAddress	611 Ames Ave
+0	Palo Alto Medical Foundation	HasType	hospital
+0	611 Ames Ave	IsAddressOf	Palo Alto Medical Foundation
+0	hospital	IsTypeOf	Palo Alto Medical Foundation
+0	Palo Alto Medical Foundation	HasTraffic	no traffic
+0	Palo Alto Medical Foundation	HasDistance	6 miles
+0	no traffic	IsTrafficOf	Palo Alto Medical Foundation
+0	6 miles	IsDistanceFrom	Palo Alto Medical Foundation
+1	Sigona Farmers Market	HasAddress	638 Amherst St
+1	Sigona Farmers Market	HasType	grocery store
+1	638 Amherst St	IsAddressOf	Sigona Farmers Market
+1	grocery store	IsTypeOf	Sigona Farmers Market
+1	Sigona Farmers Market	HasTraffic	moderate traffic
+1	Sigona Farmers Market	HasDistance	1 miles
+1	moderate traffic	IsTrafficOf	Sigona Farmers Market
+1	1 miles	IsDistanceFrom	Sigona Farmers Market
+2	Coupa	HasAddress	394 Van Ness Ave
+2	Coupa	HasType	coffee or tea place
+2	394 Van Ness Ave	IsAddressOf	Coupa
+2	coffee or tea place	IsTypeOf	Coupa
+2	Coupa	HasTraffic	no traffic
+2	Coupa	HasDistance	3 miles
+2	no traffic	IsTrafficOf	Coupa
+2	3 miles	IsDistanceFrom	Coupa
+3	Pizza My Heart	HasAddress	528 Anton Ct
+3	Pizza My Heart	HasType	pizza restaurant
+3	528 Anton Ct	IsAddressOf	Pizza My Heart
+3	pizza restaurant	IsTypeOf	Pizza My Heart
+3	Pizza My Heart	HasTraffic	heavy traffic
+3	Pizza My Heart	HasDistance	5 miles
+3	heavy traffic	IsTrafficOf	Pizza My Heart
+3	5 miles	IsDistanceFrom	Pizza My Heart
+4	5677 springer street	HasAddress	5677 springer street
+4	5677 springer street	HasType	certain address
+4	5677 springer street	IsAddressOf	5677 springer street
+4	certain address	IsTypeOf	5677 springer street
+4	5677 springer street	HasTraffic	no traffic
+4	5677 springer street	HasDistance	5 miles
+4	no traffic	IsTrafficOf	5677 springer street
+4	5 miles	IsDistanceFrom	5677 springer street
+5	Chevron	HasAddress	783 Arcadia Pl
+5	Chevron	HasType	gas station
+5	783 Arcadia Pl	IsAddressOf	Chevron
+5	gas station	IsTypeOf	Chevron
+5	Chevron	HasTraffic	no traffic
+5	Chevron	HasDistance	5 miles
+5	no traffic	IsTrafficOf	Chevron
+5	5 miles	IsDistanceFrom	Chevron
+6	P.F. Changs	HasAddress	669 El Camino Real
+6	P.F. Changs	HasType	chinese restaurant
+6	669 El Camino Real	IsAddressOf	P.F. Changs
+6	chinese restaurant	IsTypeOf	P.F. Changs
+6	P.F. Changs	HasTraffic	no traffic
+6	P.F. Changs	HasDistance	2 miles
+6	no traffic	IsTrafficOf	P.F. Changs
+6	2 miles	IsDistanceFrom	P.F. Changs
+-1	today	IsEqualTo	monday

@@ -1,0 +1,57 @@
+0	Pizza Chicago	HasAddress	915 Arbol Dr
+0	Pizza Chicago	HasType	pizza restaurant
+0	915 Arbol Dr	IsAddressOf	Pizza Chicago
+0	pizza restaurant	IsTypeOf	Pizza Chicago
+0	Pizza Chicago	HasTraffic	no traffic
+0	Pizza Chicago	HasDistance	3 miles
+0	no traffic	IsTrafficOf	Pizza Chicago
+0	3 miles	IsDistanceFrom	Pizza Chicago
+1	5677 southwest 4th street	HasAddress	5677 southwest 4th street
+1	5677 southwest 4th street	HasType	certain address
+1	5677 southwest 4th street	IsAddressOf	5677 southwest 4th street
+1	certain address	IsTypeOf	5677 southwest 4th street
+1	5677 southwest 4th street	HasTraffic	moderate traffic
+1	5677 southwest 4th street	HasDistance	2 miles
+1	moderate traffic	IsTrafficOf	5677 southwest 4th street
+1	2 miles	IsDistanceFrom	5677 southwest 4th street
+2	Panda Express	HasAddress	842 Arrowhead Way
+2	Panda Express	HasType	chinese restaurant
+2	842 Arrowhead Way	IsAddressOf	Panda Express
+2	chinese restaurant	IsTypeOf	Panda Express
+2	Panda Express	HasTraffic	heavy traffic
+2	Panda Express	HasDistance	5 miles
+2	heavy traffic	IsTrafficOf	Panda Express
+2	5 miles	IsDistanceFrom	Panda Express
+3	Coupa	HasAddress	394 Van Ness Ave
+3	Coupa	HasType	coffee or tea place
+3	394 Van Ness Ave	IsAddressOf	Coupa
+3	coffee or tea place	IsTypeOf	Coupa
+3	Coupa	HasTraffic	no traffic
+3	Coupa	HasDistance	1 miles
+3	no traffic	IsTrafficOf	Coupa
+3	1 miles	IsDistanceFrom	Coupa
+4	Starbucks	HasAddress	792 Bedoin Street
+4	Starbucks	HasType	coffee or tea place
+4	792 Bedoin Street	IsAddressOf	Starbucks
+4	coffee or tea place	IsTypeOf	Starbucks
+4	Starbucks	HasTraffic	no traffic
+4	Starbucks	HasDistance	5 miles
+4	no traffic	IsTrafficOf	Starbucks
+4	5 miles	IsDistanceFrom	Starbucks
+5	Cafe Venetia	HasAddress	269 Alger Dr
+5	Cafe Venetia	HasType	coffee or tea place
+5	269 Alger Dr	IsAddressOf	Cafe Venetia
+5	coffee or tea place	IsTypeOf	Cafe Venetia
+5	Cafe Venetia	HasTraffic	moderate traffic
+5	Cafe Venetia	HasDistance	6 miles
+5	moderate traffic	IsTrafficOf	Cafe Venetia
+5	6 miles	IsDistanceFrom	Cafe Venetia
+6	5672 barringer street	HasAddress	5672 barringer street
+6	5672 barringer street	HasType	certain address
+6	5672 barringer street	IsAddressOf	5672 barringer street
+6	certain address	IsTypeOf	5672 barringer street
+6	5672 barringer street	HasTraffic	moderate traffic
+6	5672 barringer street	HasDistance	5 miles
+6	moderate traffic	IsTrafficOf	5672 barringer street
+6	5 miles	IsDistanceFrom	5672 barringer street
+-1	today	IsEqualTo	monday

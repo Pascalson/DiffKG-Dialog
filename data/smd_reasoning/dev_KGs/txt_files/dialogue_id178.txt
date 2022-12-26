@@ -1,0 +1,57 @@
+0	5677 southwest 4th street	HasAddress	5677 southwest 4th street
+0	5677 southwest 4th street	HasType	certain address
+0	5677 southwest 4th street	IsAddressOf	5677 southwest 4th street
+0	certain address	IsTypeOf	5677 southwest 4th street
+0	5677 southwest 4th street	HasTraffic	moderate traffic
+0	5677 southwest 4th street	HasDistance	6 miles
+0	moderate traffic	IsTrafficOf	5677 southwest 4th street
+0	6 miles	IsDistanceFrom	5677 southwest 4th street
+1	Pizza Hut	HasAddress	704 El Camino Real
+1	Pizza Hut	HasType	pizza restaurant
+1	704 El Camino Real	IsAddressOf	Pizza Hut
+1	pizza restaurant	IsTypeOf	Pizza Hut
+1	Pizza Hut	HasTraffic	heavy traffic
+1	Pizza Hut	HasDistance	4 miles
+1	heavy traffic	IsTrafficOf	Pizza Hut
+1	4 miles	IsDistanceFrom	Pizza Hut
+2	Jing Jing	HasAddress	113 Arbol Dr
+2	Jing Jing	HasType	chinese restaurant
+2	113 Arbol Dr	IsAddressOf	Jing Jing
+2	chinese restaurant	IsTypeOf	Jing Jing
+2	Jing Jing	HasTraffic	no traffic
+2	Jing Jing	HasDistance	5 miles
+2	no traffic	IsTrafficOf	Jing Jing
+2	5 miles	IsDistanceFrom	Jing Jing
+3	Stanford Shopping Center	HasAddress	773 Alger Dr
+3	Stanford Shopping Center	HasType	shopping center
+3	773 Alger Dr	IsAddressOf	Stanford Shopping Center
+3	shopping center	IsTypeOf	Stanford Shopping Center
+3	Stanford Shopping Center	HasTraffic	moderate traffic
+3	Stanford Shopping Center	HasDistance	4 miles
+3	moderate traffic	IsTrafficOf	Stanford Shopping Center
+3	4 miles	IsDistanceFrom	Stanford Shopping Center
+4	Town and Country	HasAddress	383 University Ave
+4	Town and Country	HasType	shopping center
+4	383 University Ave	IsAddressOf	Town and Country
+4	shopping center	IsTypeOf	Town and Country
+4	Town and Country	HasTraffic	moderate traffic
+4	Town and Country	HasDistance	3 miles
+4	moderate traffic	IsTrafficOf	Town and Country
+4	3 miles	IsDistanceFrom	Town and Country
+5	Palo Alto Cafe	HasAddress	436 Alger Dr
+5	Palo Alto Cafe	HasType	coffee or tea place
+5	436 Alger Dr	IsAddressOf	Palo Alto Cafe
+5	coffee or tea place	IsTypeOf	Palo Alto Cafe
+5	Palo Alto Cafe	HasTraffic	no traffic
+5	Palo Alto Cafe	HasDistance	6 miles
+5	no traffic	IsTrafficOf	Palo Alto Cafe
+5	6 miles	IsDistanceFrom	Palo Alto Cafe
+6	Dish Parking	HasAddress	550 Alester Ave
+6	Dish Parking	HasType	parking garage
+6	550 Alester Ave	IsAddressOf	Dish Parking
+6	parking garage	IsTypeOf	Dish Parking
+6	Dish Parking	HasTraffic	moderate traffic
+6	Dish Parking	HasDistance	1 miles
+6	moderate traffic	IsTrafficOf	Dish Parking
+6	1 miles	IsDistanceFrom	Dish Parking
+-1	today	IsEqualTo	monday

@@ -1,0 +1,57 @@
+0	Pizza My Heart	HasAddress	528 Anton Ct
+0	Pizza My Heart	HasType	pizza restaurant
+0	528 Anton Ct	IsAddressOf	Pizza My Heart
+0	pizza restaurant	IsTypeOf	Pizza My Heart
+0	Pizza My Heart	HasTraffic	moderate traffic
+0	Pizza My Heart	HasDistance	6 miles
+0	moderate traffic	IsTrafficOf	Pizza My Heart
+0	6 miles	IsDistanceFrom	Pizza My Heart
+1	Coupa	HasAddress	394 Van Ness Ave
+1	Coupa	HasType	coffee or tea place
+1	394 Van Ness Ave	IsAddressOf	Coupa
+1	coffee or tea place	IsTypeOf	Coupa
+1	Coupa	HasTraffic	moderate traffic
+1	Coupa	HasDistance	6 miles
+1	moderate traffic	IsTrafficOf	Coupa
+1	6 miles	IsDistanceFrom	Coupa
+2	tai pan	HasAddress	830 Almanor Ln
+2	tai pan	HasType	chinese restaurant
+2	830 Almanor Ln	IsAddressOf	tai pan
+2	chinese restaurant	IsTypeOf	tai pan
+2	tai pan	HasTraffic	heavy traffic
+2	tai pan	HasDistance	3 miles
+2	heavy traffic	IsTrafficOf	tai pan
+2	3 miles	IsDistanceFrom	tai pan
+3	Whole Foods	HasAddress	819 Alma St
+3	Whole Foods	HasType	grocery store
+3	819 Alma St	IsAddressOf	Whole Foods
+3	grocery store	IsTypeOf	Whole Foods
+3	Whole Foods	HasTraffic	heavy traffic
+3	Whole Foods	HasDistance	2 miles
+3	heavy traffic	IsTrafficOf	Whole Foods
+3	2 miles	IsDistanceFrom	Whole Foods
+4	Civic Center Garage	HasAddress	270 Altaire Walk
+4	Civic Center Garage	HasType	parking garage
+4	270 Altaire Walk	IsAddressOf	Civic Center Garage
+4	parking garage	IsTypeOf	Civic Center Garage
+4	Civic Center Garage	HasTraffic	no traffic
+4	Civic Center Garage	HasDistance	4 miles
+4	no traffic	IsTrafficOf	Civic Center Garage
+4	4 miles	IsDistanceFrom	Civic Center Garage
+5	Pizza Hut	HasAddress	704 El Camino Real
+5	Pizza Hut	HasType	pizza restaurant
+5	704 El Camino Real	IsAddressOf	Pizza Hut
+5	pizza restaurant	IsTypeOf	Pizza Hut
+5	Pizza Hut	HasTraffic	heavy traffic
+5	Pizza Hut	HasDistance	3 miles
+5	heavy traffic	IsTrafficOf	Pizza Hut
+5	3 miles	IsDistanceFrom	Pizza Hut
+6	Panda Express	HasAddress	842 Arrowhead Way
+6	Panda Express	HasType	chinese restaurant
+6	842 Arrowhead Way	IsAddressOf	Panda Express
+6	chinese restaurant	IsTypeOf	Panda Express
+6	Panda Express	HasTraffic	moderate traffic
+6	Panda Express	HasDistance	1 miles
+6	moderate traffic	IsTrafficOf	Panda Express
+6	1 miles	IsDistanceFrom	Panda Express
+-1	today	IsEqualTo	monday

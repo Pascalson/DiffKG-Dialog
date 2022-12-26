@@ -1,0 +1,57 @@
+0	jills house	HasAddress	347 Alta Mesa Ave
+0	jills house	HasType	friends house
+0	347 Alta Mesa Ave	IsAddressOf	jills house
+0	friends house	IsTypeOf	jills house
+0	jills house	HasTraffic	no traffic
+0	jills house	HasDistance	6 miles
+0	no traffic	IsTrafficOf	jills house
+0	6 miles	IsDistanceFrom	jills house
+1	Round Table	HasAddress	113 Anton Ct
+1	Round Table	HasType	pizza restaurant
+1	113 Anton Ct	IsAddressOf	Round Table
+1	pizza restaurant	IsTypeOf	Round Table
+1	Round Table	HasTraffic	heavy traffic
+1	Round Table	HasDistance	5 miles
+1	heavy traffic	IsTrafficOf	Round Table
+1	5 miles	IsDistanceFrom	Round Table
+2	5672 barringer street	HasAddress	5672 barringer street
+2	5672 barringer street	HasType	certain address
+2	5672 barringer street	IsAddressOf	5672 barringer street
+2	certain address	IsTypeOf	5672 barringer street
+2	5672 barringer street	HasTraffic	moderate traffic
+2	5672 barringer street	HasDistance	2 miles
+2	moderate traffic	IsTrafficOf	5672 barringer street
+2	2 miles	IsDistanceFrom	5672 barringer street
+3	Stanford Oval Parking	HasAddress	610 Amarillo Ave
+3	Stanford Oval Parking	HasType	parking garage
+3	610 Amarillo Ave	IsAddressOf	Stanford Oval Parking
+3	parking garage	IsTypeOf	Stanford Oval Parking
+3	Stanford Oval Parking	HasTraffic	moderate traffic
+3	Stanford Oval Parking	HasDistance	6 miles
+3	moderate traffic	IsTrafficOf	Stanford Oval Parking
+3	6 miles	IsDistanceFrom	Stanford Oval Parking
+4	5677 southwest 4th street	HasAddress	5677 southwest 4th street
+4	5677 southwest 4th street	HasType	certain address
+4	5677 southwest 4th street	IsAddressOf	5677 southwest 4th street
+4	certain address	IsTypeOf	5677 southwest 4th street
+4	5677 southwest 4th street	HasTraffic	moderate traffic
+4	5677 southwest 4th street	HasDistance	1 miles
+4	moderate traffic	IsTrafficOf	5677 southwest 4th street
+4	1 miles	IsDistanceFrom	5677 southwest 4th street
+5	home	HasAddress	56 cadwell street
+5	home	HasType	home
+5	56 cadwell street	IsAddressOf	home
+5	home	IsTypeOf	home
+5	home	HasTraffic	moderate traffic
+5	home	HasDistance	3 miles
+5	moderate traffic	IsTrafficOf	home
+5	3 miles	IsDistanceFrom	home
+6	Pizza Hut	HasAddress	704 El Camino Real
+6	Pizza Hut	HasType	pizza restaurant
+6	704 El Camino Real	IsAddressOf	Pizza Hut
+6	pizza restaurant	IsTypeOf	Pizza Hut
+6	Pizza Hut	HasTraffic	heavy traffic
+6	Pizza Hut	HasDistance	6 miles
+6	heavy traffic	IsTrafficOf	Pizza Hut
+6	6 miles	IsDistanceFrom	Pizza Hut
+-1	today	IsEqualTo	monday

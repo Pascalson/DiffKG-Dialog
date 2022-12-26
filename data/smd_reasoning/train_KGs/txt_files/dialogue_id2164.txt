@@ -1,0 +1,65 @@
+0	home	HasAddress	56 cadwell street
+0	home	HasType	home
+0	56 cadwell street	IsAddressOf	home
+0	home	IsTypeOf	home
+0	home	HasTraffic	heavy traffic
+0	home	HasDistance	3 miles
+0	heavy traffic	IsTrafficOf	home
+0	3 miles	IsDistanceFrom	home
+1	Willows Market	HasAddress	409 Bollard St
+1	Willows Market	HasType	grocery store
+1	409 Bollard St	IsAddressOf	Willows Market
+1	grocery store	IsTypeOf	Willows Market
+1	Willows Market	HasTraffic	no traffic
+1	Willows Market	HasDistance	4 miles
+1	no traffic	IsTrafficOf	Willows Market
+1	4 miles	IsDistanceFrom	Willows Market
+2	5677 springer street	HasAddress	5677 springer street
+2	5677 springer street	HasType	certain address
+2	5677 springer street	IsAddressOf	5677 springer street
+2	certain address	IsTypeOf	5677 springer street
+2	5677 springer street	HasTraffic	car collision nearby
+2	5677 springer street	HasDistance	1 miles
+2	car collision nearby	IsTrafficOf	5677 springer street
+2	1 miles	IsDistanceFrom	5677 springer street
+3	Coupa	HasAddress	394 Van Ness Ave
+3	Coupa	HasType	coffee or tea place
+3	394 Van Ness Ave	IsAddressOf	Coupa
+3	coffee or tea place	IsTypeOf	Coupa
+3	Coupa	HasTraffic	moderate traffic
+3	Coupa	HasDistance	4 miles
+3	moderate traffic	IsTrafficOf	Coupa
+3	4 miles	IsDistanceFrom	Coupa
+4	Cafe Venetia	HasAddress	269 Alger Dr
+4	Cafe Venetia	HasType	coffee or tea place
+4	269 Alger Dr	IsAddressOf	Cafe Venetia
+4	coffee or tea place	IsTypeOf	Cafe Venetia
+4	Cafe Venetia	HasTraffic	moderate traffic
+4	Cafe Venetia	HasDistance	3 miles
+4	moderate traffic	IsTrafficOf	Cafe Venetia
+4	3 miles	IsDistanceFrom	Cafe Venetia
+5	Four Seasons	HasAddress	465 Arcadia Pl
+5	Four Seasons	HasType	rest stop
+5	465 Arcadia Pl	IsAddressOf	Four Seasons
+5	rest stop	IsTypeOf	Four Seasons
+5	Four Seasons	HasTraffic	no traffic
+5	Four Seasons	HasDistance	3 miles
+5	no traffic	IsTrafficOf	Four Seasons
+5	3 miles	IsDistanceFrom	Four Seasons
+6	Peets Coffee	HasAddress	9981 Archuleta Ave
+6	Peets Coffee	HasType	coffee or tea place
+6	9981 Archuleta Ave	IsAddressOf	Peets Coffee
+6	coffee or tea place	IsTypeOf	Peets Coffee
+6	Peets Coffee	HasTraffic	road block nearby
+6	Peets Coffee	HasDistance	8 miles
+6	road block nearby	IsTrafficOf	Peets Coffee
+6	8 miles	IsDistanceFrom	Peets Coffee
+7	Jing Jing	HasAddress	113 Arbol Dr
+7	Jing Jing	HasType	chinese restaurant
+7	113 Arbol Dr	IsAddressOf	Jing Jing
+7	chinese restaurant	IsTypeOf	Jing Jing
+7	Jing Jing	HasTraffic	moderate traffic
+7	Jing Jing	HasDistance	5 miles
+7	moderate traffic	IsTrafficOf	Jing Jing
+7	5 miles	IsDistanceFrom	Jing Jing
+-1	today	IsEqualTo	monday

@@ -1,0 +1,65 @@
+0	Topanga Mall	HasAddress	171 Oak Rd
+0	Topanga Mall	HasType	shopping center
+0	171 Oak Rd	IsAddressOf	Topanga Mall
+0	shopping center	IsTypeOf	Topanga Mall
+0	Topanga Mall	HasTraffic	car collision nearby
+0	Topanga Mall	HasDistance	1 miles
+0	car collision nearby	IsTrafficOf	Topanga Mall
+0	1 miles	IsDistanceFrom	Topanga Mall
+1	toms house	HasAddress	580 Van Ness Ave
+1	toms house	HasType	friends house
+1	580 Van Ness Ave	IsAddressOf	toms house
+1	friends house	IsTypeOf	toms house
+1	toms house	HasTraffic	no traffic
+1	toms house	HasDistance	2 miles
+1	no traffic	IsTrafficOf	toms house
+1	2 miles	IsDistanceFrom	toms house
+2	Cafe Venetia	HasAddress	269 Alger Dr
+2	Cafe Venetia	HasType	coffee or tea place
+2	269 Alger Dr	IsAddressOf	Cafe Venetia
+2	coffee or tea place	IsTypeOf	Cafe Venetia
+2	Cafe Venetia	HasTraffic	moderate traffic
+2	Cafe Venetia	HasDistance	1 miles
+2	moderate traffic	IsTrafficOf	Cafe Venetia
+2	1 miles	IsDistanceFrom	Cafe Venetia
+3	76	HasAddress	91 El Camino Real
+3	76	HasType	gas station
+3	91 El Camino Real	IsAddressOf	76
+3	gas station	IsTypeOf	76
+3	76	HasTraffic	road block nearby
+3	76	HasDistance	1 miles
+3	road block nearby	IsTrafficOf	76
+3	1 miles	IsDistanceFrom	76
+4	Pizza Chicago	HasAddress	915 Arbol Dr
+4	Pizza Chicago	HasType	pizza restaurant
+4	915 Arbol Dr	IsAddressOf	Pizza Chicago
+4	pizza restaurant	IsTypeOf	Pizza Chicago
+4	Pizza Chicago	HasTraffic	no traffic
+4	Pizza Chicago	HasDistance	6 miles
+4	no traffic	IsTrafficOf	Pizza Chicago
+4	6 miles	IsDistanceFrom	Pizza Chicago
+5	Palo Alto Cafe	HasAddress	436 Alger Dr
+5	Palo Alto Cafe	HasType	coffee or tea place
+5	436 Alger Dr	IsAddressOf	Palo Alto Cafe
+5	coffee or tea place	IsTypeOf	Palo Alto Cafe
+5	Palo Alto Cafe	HasTraffic	moderate traffic
+5	Palo Alto Cafe	HasDistance	6 miles
+5	moderate traffic	IsTrafficOf	Palo Alto Cafe
+5	6 miles	IsDistanceFrom	Palo Alto Cafe
+6	Philz	HasAddress	583 Alester Ave
+6	Philz	HasType	coffee or tea place
+6	583 Alester Ave	IsAddressOf	Philz
+6	coffee or tea place	IsTypeOf	Philz
+6	Philz	HasTraffic	no traffic
+6	Philz	HasDistance	3 miles
+6	no traffic	IsTrafficOf	Philz
+6	3 miles	IsDistanceFrom	Philz
+7	tai pan	HasAddress	830 Almanor Ln
+7	tai pan	HasType	chinese restaurant
+7	830 Almanor Ln	IsAddressOf	tai pan
+7	chinese restaurant	IsTypeOf	tai pan
+7	tai pan	HasTraffic	no traffic
+7	tai pan	HasDistance	2 miles
+7	no traffic	IsTrafficOf	tai pan
+7	2 miles	IsDistanceFrom	tai pan
+-1	today	IsEqualTo	monday

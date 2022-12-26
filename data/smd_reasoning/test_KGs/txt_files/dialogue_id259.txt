@@ -1,0 +1,65 @@
+0	Hacienda Market	HasAddress	1313 Chester Ave
+0	Hacienda Market	HasType	grocery store
+0	1313 Chester Ave	IsAddressOf	Hacienda Market
+0	grocery store	IsTypeOf	Hacienda Market
+0	Hacienda Market	HasTraffic	moderate traffic
+0	Hacienda Market	HasDistance	6 miles
+0	moderate traffic	IsTrafficOf	Hacienda Market
+0	6 miles	IsDistanceFrom	Hacienda Market
+1	Webster Garage	HasAddress	880 Ames Ct
+1	Webster Garage	HasType	parking garage
+1	880 Ames Ct	IsAddressOf	Webster Garage
+1	parking garage	IsTypeOf	Webster Garage
+1	Webster Garage	HasTraffic	road block nearby
+1	Webster Garage	HasDistance	6 miles
+1	road block nearby	IsTrafficOf	Webster Garage
+1	6 miles	IsDistanceFrom	Webster Garage
+2	Teavana	HasAddress	145 Amherst St
+2	Teavana	HasType	coffee or tea place
+2	145 Amherst St	IsAddressOf	Teavana
+2	coffee or tea place	IsTypeOf	Teavana
+2	Teavana	HasTraffic	car collision nearby
+2	Teavana	HasDistance	3 miles
+2	car collision nearby	IsTrafficOf	Teavana
+2	3 miles	IsDistanceFrom	Teavana
+3	Cafe Venetia	HasAddress	269 Alger Dr
+3	Cafe Venetia	HasType	coffee or tea place
+3	269 Alger Dr	IsAddressOf	Cafe Venetia
+3	coffee or tea place	IsTypeOf	Cafe Venetia
+3	Cafe Venetia	HasTraffic	car collision nearby
+3	Cafe Venetia	HasDistance	2 miles
+3	car collision nearby	IsTrafficOf	Cafe Venetia
+3	2 miles	IsDistanceFrom	Cafe Venetia
+4	Palo Alto Garage R	HasAddress	481 Amaranta Ave
+4	Palo Alto Garage R	HasType	parking garage
+4	481 Amaranta Ave	IsAddressOf	Palo Alto Garage R
+4	parking garage	IsTypeOf	Palo Alto Garage R
+4	Palo Alto Garage R	HasTraffic	moderate traffic
+4	Palo Alto Garage R	HasDistance	6 miles
+4	moderate traffic	IsTrafficOf	Palo Alto Garage R
+4	6 miles	IsDistanceFrom	Palo Alto Garage R
+5	Four Seasons	HasAddress	465 Arcadia Pl
+5	Four Seasons	HasType	rest stop
+5	465 Arcadia Pl	IsAddressOf	Four Seasons
+5	rest stop	IsTypeOf	Four Seasons
+5	Four Seasons	HasTraffic	no traffic
+5	Four Seasons	HasDistance	5 miles
+5	no traffic	IsTrafficOf	Four Seasons
+5	5 miles	IsDistanceFrom	Four Seasons
+6	home	HasAddress	10 ames street
+6	home	HasType	home
+6	10 ames street	IsAddressOf	home
+6	home	IsTypeOf	home
+6	home	HasTraffic	heavy traffic
+6	home	HasDistance	6 miles
+6	heavy traffic	IsTrafficOf	home
+6	6 miles	IsDistanceFrom	home
+7	5677 southwest 4th street	HasAddress	5677 southwest 4th street
+7	5677 southwest 4th street	HasType	certain address
+7	5677 southwest 4th street	IsAddressOf	5677 southwest 4th street
+7	certain address	IsTypeOf	5677 southwest 4th street
+7	5677 southwest 4th street	HasTraffic	car collision nearby
+7	5677 southwest 4th street	HasDistance	4 miles
+7	car collision nearby	IsTrafficOf	5677 southwest 4th street
+7	4 miles	IsDistanceFrom	5677 southwest 4th street
+-1	today	IsEqualTo	monday

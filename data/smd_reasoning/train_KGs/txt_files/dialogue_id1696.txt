@@ -1,0 +1,57 @@
+0	Chevron	HasAddress	783 Arcadia Pl
+0	Chevron	HasType	gas station
+0	783 Arcadia Pl	IsAddressOf	Chevron
+0	gas station	IsTypeOf	Chevron
+0	Chevron	HasTraffic	no traffic
+0	Chevron	HasDistance	4 miles
+0	no traffic	IsTrafficOf	Chevron
+0	4 miles	IsDistanceFrom	Chevron
+1	Teavana	HasAddress	145 Amherst St
+1	Teavana	HasType	coffee or tea place
+1	145 Amherst St	IsAddressOf	Teavana
+1	coffee or tea place	IsTypeOf	Teavana
+1	Teavana	HasTraffic	no traffic
+1	Teavana	HasDistance	2 miles
+1	no traffic	IsTrafficOf	Teavana
+1	2 miles	IsDistanceFrom	Teavana
+2	5677 springer street	HasAddress	5677 springer street
+2	5677 springer street	HasType	certain address
+2	5677 springer street	IsAddressOf	5677 springer street
+2	certain address	IsTypeOf	5677 springer street
+2	5677 springer street	HasTraffic	heavy traffic
+2	5677 springer street	HasDistance	3 miles
+2	heavy traffic	IsTrafficOf	5677 springer street
+2	3 miles	IsDistanceFrom	5677 springer street
+3	Palo Alto Garage R	HasAddress	481 Amaranta Ave
+3	Palo Alto Garage R	HasType	parking garage
+3	481 Amaranta Ave	IsAddressOf	Palo Alto Garage R
+3	parking garage	IsTypeOf	Palo Alto Garage R
+3	Palo Alto Garage R	HasTraffic	no traffic
+3	Palo Alto Garage R	HasDistance	2 miles
+3	no traffic	IsTrafficOf	Palo Alto Garage R
+3	2 miles	IsDistanceFrom	Palo Alto Garage R
+4	Mandarin Roots	HasAddress	271 Springer Street
+4	Mandarin Roots	HasType	chinese restaurant
+4	271 Springer Street	IsAddressOf	Mandarin Roots
+4	chinese restaurant	IsTypeOf	Mandarin Roots
+4	Mandarin Roots	HasTraffic	heavy traffic
+4	Mandarin Roots	HasDistance	6 miles
+4	heavy traffic	IsTrafficOf	Mandarin Roots
+4	6 miles	IsDistanceFrom	Mandarin Roots
+5	Philz	HasAddress	583 Alester Ave
+5	Philz	HasType	coffee or tea place
+5	583 Alester Ave	IsAddressOf	Philz
+5	coffee or tea place	IsTypeOf	Philz
+5	Philz	HasTraffic	moderate traffic
+5	Philz	HasDistance	1 miles
+5	moderate traffic	IsTrafficOf	Philz
+5	1 miles	IsDistanceFrom	Philz
+6	Four Seasons	HasAddress	465 Arcadia Pl
+6	Four Seasons	HasType	rest stop
+6	465 Arcadia Pl	IsAddressOf	Four Seasons
+6	rest stop	IsTypeOf	Four Seasons
+6	Four Seasons	HasTraffic	no traffic
+6	Four Seasons	HasDistance	4 miles
+6	no traffic	IsTrafficOf	Four Seasons
+6	4 miles	IsDistanceFrom	Four Seasons
+-1	today	IsEqualTo	monday

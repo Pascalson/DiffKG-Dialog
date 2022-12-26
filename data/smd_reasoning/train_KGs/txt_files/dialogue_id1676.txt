@@ -1,0 +1,65 @@
+0	Comfort Inn	HasAddress	753 University Ave
+0	Comfort Inn	HasType	rest stop
+0	753 University Ave	IsAddressOf	Comfort Inn
+0	rest stop	IsTypeOf	Comfort Inn
+0	Comfort Inn	HasTraffic	no traffic
+0	Comfort Inn	HasDistance	5 miles
+0	no traffic	IsTrafficOf	Comfort Inn
+0	5 miles	IsDistanceFrom	Comfort Inn
+1	Panda Express	HasAddress	842 Arrowhead Way
+1	Panda Express	HasType	chinese restaurant
+1	842 Arrowhead Way	IsAddressOf	Panda Express
+1	chinese restaurant	IsTypeOf	Panda Express
+1	Panda Express	HasTraffic	moderate traffic
+1	Panda Express	HasDistance	4 miles
+1	moderate traffic	IsTrafficOf	Panda Express
+1	4 miles	IsDistanceFrom	Panda Express
+2	Round Table	HasAddress	113 Anton Ct
+2	Round Table	HasType	pizza restaurant
+2	113 Anton Ct	IsAddressOf	Round Table
+2	pizza restaurant	IsTypeOf	Round Table
+2	Round Table	HasTraffic	road block nearby
+2	Round Table	HasDistance	4 miles
+2	road block nearby	IsTrafficOf	Round Table
+2	4 miles	IsDistanceFrom	Round Table
+3	Teavana	HasAddress	145 Amherst St
+3	Teavana	HasType	coffee or tea place
+3	145 Amherst St	IsAddressOf	Teavana
+3	coffee or tea place	IsTypeOf	Teavana
+3	Teavana	HasTraffic	moderate traffic
+3	Teavana	HasDistance	6 miles
+3	moderate traffic	IsTrafficOf	Teavana
+3	6 miles	IsDistanceFrom	Teavana
+4	76	HasAddress	91 El Camino Real
+4	76	HasType	gas station
+4	91 El Camino Real	IsAddressOf	76
+4	gas station	IsTypeOf	76
+4	76	HasTraffic	no traffic
+4	76	HasDistance	2 miles
+4	no traffic	IsTrafficOf	76
+4	2 miles	IsDistanceFrom	76
+5	Hotel Keen	HasAddress	578 Arbol Dr
+5	Hotel Keen	HasType	rest stop
+5	578 Arbol Dr	IsAddressOf	Hotel Keen
+5	rest stop	IsTypeOf	Hotel Keen
+5	Hotel Keen	HasTraffic	no traffic
+5	Hotel Keen	HasDistance	5 miles
+5	no traffic	IsTrafficOf	Hotel Keen
+5	5 miles	IsDistanceFrom	Hotel Keen
+6	Stanford Express Care	HasAddress	214 El Camino Real
+6	Stanford Express Care	HasType	hospital
+6	214 El Camino Real	IsAddressOf	Stanford Express Care
+6	hospital	IsTypeOf	Stanford Express Care
+6	Stanford Express Care	HasTraffic	car collision nearby
+6	Stanford Express Care	HasDistance	5 miles
+6	car collision nearby	IsTrafficOf	Stanford Express Care
+6	5 miles	IsDistanceFrom	Stanford Express Care
+7	Dish Parking	HasAddress	550 Alester Ave
+7	Dish Parking	HasType	parking garage
+7	550 Alester Ave	IsAddressOf	Dish Parking
+7	parking garage	IsTypeOf	Dish Parking
+7	Dish Parking	HasTraffic	car collision nearby
+7	Dish Parking	HasDistance	3 miles
+7	car collision nearby	IsTrafficOf	Dish Parking
+7	3 miles	IsDistanceFrom	Dish Parking
+-1	today	IsEqualTo	monday

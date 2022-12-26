@@ -1,0 +1,491 @@
+-1	today	IsEqualTo	monday
+0	ReportID0	HasLocation	alameda
+0	ReportID0	HasWeather	rain
+0	ReportID0	HasLowTemp	50F
+0	ReportID0	HasHighTemp	70F
+0	ReportID0	HasDate	monday
+0	alameda	IsLocationOf	ReportID0
+0	rain	IsWeatherOf	ReportID0
+0	50F	IsLowTempOf	ReportID0
+0	70F	IsHighTempOf	ReportID0
+0	monday	IsDateOf	ReportID0
+0	ReportID1	HasLocation	alameda
+0	ReportID1	HasWeather	blizzard
+0	ReportID1	HasLowTemp	40F
+0	ReportID1	HasHighTemp	50F
+0	ReportID1	HasDate	tuesday
+0	alameda	IsLocationOf	ReportID1
+0	blizzard	IsWeatherOf	ReportID1
+0	40F	IsLowTempOf	ReportID1
+0	50F	IsHighTempOf	ReportID1
+0	tuesday	IsDateOf	ReportID1
+0	ReportID2	HasLocation	alameda
+0	ReportID2	HasWeather	clear skies
+0	ReportID2	HasLowTemp	50F
+0	ReportID2	HasHighTemp	60F
+0	ReportID2	HasDate	wednesday
+0	alameda	IsLocationOf	ReportID2
+0	clear skies	IsWeatherOf	ReportID2
+0	50F	IsLowTempOf	ReportID2
+0	60F	IsHighTempOf	ReportID2
+0	wednesday	IsDateOf	ReportID2
+0	ReportID3	HasLocation	alameda
+0	ReportID3	HasWeather	dew
+0	ReportID3	HasLowTemp	80F
+0	ReportID3	HasHighTemp	100F
+0	ReportID3	HasDate	thursday
+0	alameda	IsLocationOf	ReportID3
+0	dew	IsWeatherOf	ReportID3
+0	80F	IsLowTempOf	ReportID3
+0	100F	IsHighTempOf	ReportID3
+0	thursday	IsDateOf	ReportID3
+0	ReportID4	HasLocation	alameda
+0	ReportID4	HasWeather	dew
+0	ReportID4	HasLowTemp	50F
+0	ReportID4	HasHighTemp	60F
+0	ReportID4	HasDate	friday
+0	alameda	IsLocationOf	ReportID4
+0	dew	IsWeatherOf	ReportID4
+0	50F	IsLowTempOf	ReportID4
+0	60F	IsHighTempOf	ReportID4
+0	friday	IsDateOf	ReportID4
+0	ReportID5	HasLocation	alameda
+0	ReportID5	HasWeather	misty
+0	ReportID5	HasLowTemp	20F
+0	ReportID5	HasHighTemp	40F
+0	ReportID5	HasDate	saturday
+0	alameda	IsLocationOf	ReportID5
+0	misty	IsWeatherOf	ReportID5
+0	20F	IsLowTempOf	ReportID5
+0	40F	IsHighTempOf	ReportID5
+0	saturday	IsDateOf	ReportID5
+0	ReportID6	HasLocation	alameda
+0	ReportID6	HasWeather	blizzard
+0	ReportID6	HasLowTemp	20F
+0	ReportID6	HasHighTemp	30F
+0	ReportID6	HasDate	sunday
+0	alameda	IsLocationOf	ReportID6
+0	blizzard	IsWeatherOf	ReportID6
+0	20F	IsLowTempOf	ReportID6
+0	30F	IsHighTempOf	ReportID6
+0	sunday	IsDateOf	ReportID6
+1	ReportID7	HasLocation	san mateo
+1	ReportID7	HasWeather	rain
+1	ReportID7	HasLowTemp	90F
+1	ReportID7	HasHighTemp	100F
+1	ReportID7	HasDate	monday
+1	san mateo	IsLocationOf	ReportID7
+1	rain	IsWeatherOf	ReportID7
+1	90F	IsLowTempOf	ReportID7
+1	100F	IsHighTempOf	ReportID7
+1	monday	IsDateOf	ReportID7
+1	ReportID8	HasLocation	san mateo
+1	ReportID8	HasWeather	rain
+1	ReportID8	HasLowTemp	30F
+1	ReportID8	HasHighTemp	50F
+1	ReportID8	HasDate	tuesday
+1	san mateo	IsLocationOf	ReportID8
+1	rain	IsWeatherOf	ReportID8
+1	30F	IsLowTempOf	ReportID8
+1	50F	IsHighTempOf	ReportID8
+1	tuesday	IsDateOf	ReportID8
+1	ReportID9	HasLocation	san mateo
+1	ReportID9	HasWeather	misty
+1	ReportID9	HasLowTemp	20F
+1	ReportID9	HasHighTemp	40F
+1	ReportID9	HasDate	wednesday
+1	san mateo	IsLocationOf	ReportID9
+1	misty	IsWeatherOf	ReportID9
+1	20F	IsLowTempOf	ReportID9
+1	40F	IsHighTempOf	ReportID9
+1	wednesday	IsDateOf	ReportID9
+1	ReportID10	HasLocation	san mateo
+1	ReportID10	HasWeather	snow
+1	ReportID10	HasLowTemp	30F
+1	ReportID10	HasHighTemp	40F
+1	ReportID10	HasDate	thursday
+1	san mateo	IsLocationOf	ReportID10
+1	snow	IsWeatherOf	ReportID10
+1	30F	IsLowTempOf	ReportID10
+1	40F	IsHighTempOf	ReportID10
+1	thursday	IsDateOf	ReportID10
+1	ReportID11	HasLocation	san mateo
+1	ReportID11	HasWeather	clear skies
+1	ReportID11	HasLowTemp	70F
+1	ReportID11	HasHighTemp	80F
+1	ReportID11	HasDate	friday
+1	san mateo	IsLocationOf	ReportID11
+1	clear skies	IsWeatherOf	ReportID11
+1	70F	IsLowTempOf	ReportID11
+1	80F	IsHighTempOf	ReportID11
+1	friday	IsDateOf	ReportID11
+1	ReportID12	HasLocation	san mateo
+1	ReportID12	HasWeather	humid
+1	ReportID12	HasLowTemp	90F
+1	ReportID12	HasHighTemp	100F
+1	ReportID12	HasDate	saturday
+1	san mateo	IsLocationOf	ReportID12
+1	humid	IsWeatherOf	ReportID12
+1	90F	IsLowTempOf	ReportID12
+1	100F	IsHighTempOf	ReportID12
+1	saturday	IsDateOf	ReportID12
+1	ReportID13	HasLocation	san mateo
+1	ReportID13	HasWeather	overcast
+1	ReportID13	HasLowTemp	50F
+1	ReportID13	HasHighTemp	60F
+1	ReportID13	HasDate	sunday
+1	san mateo	IsLocationOf	ReportID13
+1	overcast	IsWeatherOf	ReportID13
+1	50F	IsLowTempOf	ReportID13
+1	60F	IsHighTempOf	ReportID13
+1	sunday	IsDateOf	ReportID13
+2	ReportID14	HasLocation	alhambra
+2	ReportID14	HasWeather	rain
+2	ReportID14	HasLowTemp	40F
+2	ReportID14	HasHighTemp	60F
+2	ReportID14	HasDate	monday
+2	alhambra	IsLocationOf	ReportID14
+2	rain	IsWeatherOf	ReportID14
+2	40F	IsLowTempOf	ReportID14
+2	60F	IsHighTempOf	ReportID14
+2	monday	IsDateOf	ReportID14
+2	ReportID15	HasLocation	alhambra
+2	ReportID15	HasWeather	stormy
+2	ReportID15	HasLowTemp	60F
+2	ReportID15	HasHighTemp	70F
+2	ReportID15	HasDate	tuesday
+2	alhambra	IsLocationOf	ReportID15
+2	stormy	IsWeatherOf	ReportID15
+2	60F	IsLowTempOf	ReportID15
+2	70F	IsHighTempOf	ReportID15
+2	tuesday	IsDateOf	ReportID15
+2	ReportID16	HasLocation	alhambra
+2	ReportID16	HasWeather	cloudy
+2	ReportID16	HasLowTemp	50F
+2	ReportID16	HasHighTemp	60F
+2	ReportID16	HasDate	wednesday
+2	alhambra	IsLocationOf	ReportID16
+2	cloudy	IsWeatherOf	ReportID16
+2	50F	IsLowTempOf	ReportID16
+2	60F	IsHighTempOf	ReportID16
+2	wednesday	IsDateOf	ReportID16
+2	ReportID17	HasLocation	alhambra
+2	ReportID17	HasWeather	cloudy
+2	ReportID17	HasLowTemp	40F
+2	ReportID17	HasHighTemp	60F
+2	ReportID17	HasDate	thursday
+2	alhambra	IsLocationOf	ReportID17
+2	cloudy	IsWeatherOf	ReportID17
+2	40F	IsLowTempOf	ReportID17
+2	60F	IsHighTempOf	ReportID17
+2	thursday	IsDateOf	ReportID17
+2	ReportID18	HasLocation	alhambra
+2	ReportID18	HasWeather	dew
+2	ReportID18	HasLowTemp	50F
+2	ReportID18	HasHighTemp	60F
+2	ReportID18	HasDate	friday
+2	alhambra	IsLocationOf	ReportID18
+2	dew	IsWeatherOf	ReportID18
+2	50F	IsLowTempOf	ReportID18
+2	60F	IsHighTempOf	ReportID18
+2	friday	IsDateOf	ReportID18
+2	ReportID19	HasLocation	alhambra
+2	ReportID19	HasWeather	clear skies
+2	ReportID19	HasLowTemp	20F
+2	ReportID19	HasHighTemp	30F
+2	ReportID19	HasDate	saturday
+2	alhambra	IsLocationOf	ReportID19
+2	clear skies	IsWeatherOf	ReportID19
+2	20F	IsLowTempOf	ReportID19
+2	30F	IsHighTempOf	ReportID19
+2	saturday	IsDateOf	ReportID19
+2	ReportID20	HasLocation	alhambra
+2	ReportID20	HasWeather	rain
+2	ReportID20	HasLowTemp	40F
+2	ReportID20	HasHighTemp	60F
+2	ReportID20	HasDate	sunday
+2	alhambra	IsLocationOf	ReportID20
+2	rain	IsWeatherOf	ReportID20
+2	40F	IsLowTempOf	ReportID20
+2	60F	IsHighTempOf	ReportID20
+2	sunday	IsDateOf	ReportID20
+3	ReportID21	HasLocation	menlo park
+3	ReportID21	HasWeather	snow
+3	ReportID21	HasLowTemp	40F
+3	ReportID21	HasHighTemp	60F
+3	ReportID21	HasDate	monday
+3	menlo park	IsLocationOf	ReportID21
+3	snow	IsWeatherOf	ReportID21
+3	40F	IsLowTempOf	ReportID21
+3	60F	IsHighTempOf	ReportID21
+3	monday	IsDateOf	ReportID21
+3	ReportID22	HasLocation	menlo park
+3	ReportID22	HasWeather	snow
+3	ReportID22	HasLowTemp	40F
+3	ReportID22	HasHighTemp	60F
+3	ReportID22	HasDate	tuesday
+3	menlo park	IsLocationOf	ReportID22
+3	snow	IsWeatherOf	ReportID22
+3	40F	IsLowTempOf	ReportID22
+3	60F	IsHighTempOf	ReportID22
+3	tuesday	IsDateOf	ReportID22
+3	ReportID23	HasLocation	menlo park
+3	ReportID23	HasWeather	foggy
+3	ReportID23	HasLowTemp	30F
+3	ReportID23	HasHighTemp	50F
+3	ReportID23	HasDate	wednesday
+3	menlo park	IsLocationOf	ReportID23
+3	foggy	IsWeatherOf	ReportID23
+3	30F	IsLowTempOf	ReportID23
+3	50F	IsHighTempOf	ReportID23
+3	wednesday	IsDateOf	ReportID23
+3	ReportID24	HasLocation	menlo park
+3	ReportID24	HasWeather	cloudy
+3	ReportID24	HasLowTemp	20F
+3	ReportID24	HasHighTemp	30F
+3	ReportID24	HasDate	thursday
+3	menlo park	IsLocationOf	ReportID24
+3	cloudy	IsWeatherOf	ReportID24
+3	20F	IsLowTempOf	ReportID24
+3	30F	IsHighTempOf	ReportID24
+3	thursday	IsDateOf	ReportID24
+3	ReportID25	HasLocation	menlo park
+3	ReportID25	HasWeather	dew
+3	ReportID25	HasLowTemp	60F
+3	ReportID25	HasHighTemp	70F
+3	ReportID25	HasDate	friday
+3	menlo park	IsLocationOf	ReportID25
+3	dew	IsWeatherOf	ReportID25
+3	60F	IsLowTempOf	ReportID25
+3	70F	IsHighTempOf	ReportID25
+3	friday	IsDateOf	ReportID25
+3	ReportID26	HasLocation	menlo park
+3	ReportID26	HasWeather	drizzle
+3	ReportID26	HasLowTemp	80F
+3	ReportID26	HasHighTemp	100F
+3	ReportID26	HasDate	saturday
+3	menlo park	IsLocationOf	ReportID26
+3	drizzle	IsWeatherOf	ReportID26
+3	80F	IsLowTempOf	ReportID26
+3	100F	IsHighTempOf	ReportID26
+3	saturday	IsDateOf	ReportID26
+3	ReportID27	HasLocation	menlo park
+3	ReportID27	HasWeather	overcast
+3	ReportID27	HasLowTemp	70F
+3	ReportID27	HasHighTemp	80F
+3	ReportID27	HasDate	sunday
+3	menlo park	IsLocationOf	ReportID27
+3	overcast	IsWeatherOf	ReportID27
+3	70F	IsLowTempOf	ReportID27
+3	80F	IsHighTempOf	ReportID27
+3	sunday	IsDateOf	ReportID27
+4	ReportID28	HasLocation	inglewood
+4	ReportID28	HasWeather	stormy
+4	ReportID28	HasLowTemp	20F
+4	ReportID28	HasHighTemp	40F
+4	ReportID28	HasDate	monday
+4	inglewood	IsLocationOf	ReportID28
+4	stormy	IsWeatherOf	ReportID28
+4	20F	IsLowTempOf	ReportID28
+4	40F	IsHighTempOf	ReportID28
+4	monday	IsDateOf	ReportID28
+4	ReportID29	HasLocation	inglewood
+4	ReportID29	HasWeather	stormy
+4	ReportID29	HasLowTemp	20F
+4	ReportID29	HasHighTemp	40F
+4	ReportID29	HasDate	tuesday
+4	inglewood	IsLocationOf	ReportID29
+4	stormy	IsWeatherOf	ReportID29
+4	20F	IsLowTempOf	ReportID29
+4	40F	IsHighTempOf	ReportID29
+4	tuesday	IsDateOf	ReportID29
+4	ReportID30	HasLocation	inglewood
+4	ReportID30	HasWeather	clear skies
+4	ReportID30	HasLowTemp	50F
+4	ReportID30	HasHighTemp	60F
+4	ReportID30	HasDate	wednesday
+4	inglewood	IsLocationOf	ReportID30
+4	clear skies	IsWeatherOf	ReportID30
+4	50F	IsLowTempOf	ReportID30
+4	60F	IsHighTempOf	ReportID30
+4	wednesday	IsDateOf	ReportID30
+4	ReportID31	HasLocation	inglewood
+4	ReportID31	HasWeather	hail
+4	ReportID31	HasLowTemp	20F
+4	ReportID31	HasHighTemp	40F
+4	ReportID31	HasDate	thursday
+4	inglewood	IsLocationOf	ReportID31
+4	hail	IsWeatherOf	ReportID31
+4	20F	IsLowTempOf	ReportID31
+4	40F	IsHighTempOf	ReportID31
+4	thursday	IsDateOf	ReportID31
+4	ReportID32	HasLocation	inglewood
+4	ReportID32	HasWeather	rain
+4	ReportID32	HasLowTemp	50F
+4	ReportID32	HasHighTemp	60F
+4	ReportID32	HasDate	friday
+4	inglewood	IsLocationOf	ReportID32
+4	rain	IsWeatherOf	ReportID32
+4	50F	IsLowTempOf	ReportID32
+4	60F	IsHighTempOf	ReportID32
+4	friday	IsDateOf	ReportID32
+4	ReportID33	HasLocation	inglewood
+4	ReportID33	HasWeather	windy
+4	ReportID33	HasLowTemp	30F
+4	ReportID33	HasHighTemp	50F
+4	ReportID33	HasDate	saturday
+4	inglewood	IsLocationOf	ReportID33
+4	windy	IsWeatherOf	ReportID33
+4	30F	IsLowTempOf	ReportID33
+4	50F	IsHighTempOf	ReportID33
+4	saturday	IsDateOf	ReportID33
+4	ReportID34	HasLocation	inglewood
+4	ReportID34	HasWeather	frost
+4	ReportID34	HasLowTemp	20F
+4	ReportID34	HasHighTemp	30F
+4	ReportID34	HasDate	sunday
+4	inglewood	IsLocationOf	ReportID34
+4	frost	IsWeatherOf	ReportID34
+4	20F	IsLowTempOf	ReportID34
+4	30F	IsHighTempOf	ReportID34
+4	sunday	IsDateOf	ReportID34
+5	ReportID35	HasLocation	compton
+5	ReportID35	HasWeather	windy
+5	ReportID35	HasLowTemp	80F
+5	ReportID35	HasHighTemp	90F
+5	ReportID35	HasDate	monday
+5	compton	IsLocationOf	ReportID35
+5	windy	IsWeatherOf	ReportID35
+5	80F	IsLowTempOf	ReportID35
+5	90F	IsHighTempOf	ReportID35
+5	monday	IsDateOf	ReportID35
+5	ReportID36	HasLocation	compton
+5	ReportID36	HasWeather	drizzle
+5	ReportID36	HasLowTemp	50F
+5	ReportID36	HasHighTemp	70F
+5	ReportID36	HasDate	tuesday
+5	compton	IsLocationOf	ReportID36
+5	drizzle	IsWeatherOf	ReportID36
+5	50F	IsLowTempOf	ReportID36
+5	70F	IsHighTempOf	ReportID36
+5	tuesday	IsDateOf	ReportID36
+5	ReportID37	HasLocation	compton
+5	ReportID37	HasWeather	rain
+5	ReportID37	HasLowTemp	70F
+5	ReportID37	HasHighTemp	80F
+5	ReportID37	HasDate	wednesday
+5	compton	IsLocationOf	ReportID37
+5	rain	IsWeatherOf	ReportID37
+5	70F	IsLowTempOf	ReportID37
+5	80F	IsHighTempOf	ReportID37
+5	wednesday	IsDateOf	ReportID37
+5	ReportID38	HasLocation	compton
+5	ReportID38	HasWeather	foggy
+5	ReportID38	HasLowTemp	50F
+5	ReportID38	HasHighTemp	60F
+5	ReportID38	HasDate	thursday
+5	compton	IsLocationOf	ReportID38
+5	foggy	IsWeatherOf	ReportID38
+5	50F	IsLowTempOf	ReportID38
+5	60F	IsHighTempOf	ReportID38
+5	thursday	IsDateOf	ReportID38
+5	ReportID39	HasLocation	compton
+5	ReportID39	HasWeather	drizzle
+5	ReportID39	HasLowTemp	80F
+5	ReportID39	HasHighTemp	100F
+5	ReportID39	HasDate	friday
+5	compton	IsLocationOf	ReportID39
+5	drizzle	IsWeatherOf	ReportID39
+5	80F	IsLowTempOf	ReportID39
+5	100F	IsHighTempOf	ReportID39
+5	friday	IsDateOf	ReportID39
+5	ReportID40	HasLocation	compton
+5	ReportID40	HasWeather	cloudy
+5	ReportID40	HasLowTemp	90F
+5	ReportID40	HasHighTemp	100F
+5	ReportID40	HasDate	saturday
+5	compton	IsLocationOf	ReportID40
+5	cloudy	IsWeatherOf	ReportID40
+5	90F	IsLowTempOf	ReportID40
+5	100F	IsHighTempOf	ReportID40
+5	saturday	IsDateOf	ReportID40
+5	ReportID41	HasLocation	compton
+5	ReportID41	HasWeather	rain
+5	ReportID41	HasLowTemp	40F
+5	ReportID41	HasHighTemp	50F
+5	ReportID41	HasDate	sunday
+5	compton	IsLocationOf	ReportID41
+5	rain	IsWeatherOf	ReportID41
+5	40F	IsLowTempOf	ReportID41
+5	50F	IsHighTempOf	ReportID41
+5	sunday	IsDateOf	ReportID41
+6	ReportID42	HasLocation	redwood city
+6	ReportID42	HasWeather	dew
+6	ReportID42	HasLowTemp	90F
+6	ReportID42	HasHighTemp	100F
+6	ReportID42	HasDate	monday
+6	redwood city	IsLocationOf	ReportID42
+6	dew	IsWeatherOf	ReportID42
+6	90F	IsLowTempOf	ReportID42
+6	100F	IsHighTempOf	ReportID42
+6	monday	IsDateOf	ReportID42
+6	ReportID43	HasLocation	redwood city
+6	ReportID43	HasWeather	dew
+6	ReportID43	HasLowTemp	20F
+6	ReportID43	HasHighTemp	30F
+6	ReportID43	HasDate	tuesday
+6	redwood city	IsLocationOf	ReportID43
+6	dew	IsWeatherOf	ReportID43
+6	20F	IsLowTempOf	ReportID43
+6	30F	IsHighTempOf	ReportID43
+6	tuesday	IsDateOf	ReportID43
+6	ReportID44	HasLocation	redwood city
+6	ReportID44	HasWeather	rain
+6	ReportID44	HasLowTemp	30F
+6	ReportID44	HasHighTemp	50F
+6	ReportID44	HasDate	wednesday
+6	redwood city	IsLocationOf	ReportID44
+6	rain	IsWeatherOf	ReportID44
+6	30F	IsLowTempOf	ReportID44
+6	50F	IsHighTempOf	ReportID44
+6	wednesday	IsDateOf	ReportID44
+6	ReportID45	HasLocation	redwood city
+6	ReportID45	HasWeather	stormy
+6	ReportID45	HasLowTemp	50F
+6	ReportID45	HasHighTemp	60F
+6	ReportID45	HasDate	thursday
+6	redwood city	IsLocationOf	ReportID45
+6	stormy	IsWeatherOf	ReportID45
+6	50F	IsLowTempOf	ReportID45
+6	60F	IsHighTempOf	ReportID45
+6	thursday	IsDateOf	ReportID45
+6	ReportID46	HasLocation	redwood city
+6	ReportID46	HasWeather	foggy
+6	ReportID46	HasLowTemp	80F
+6	ReportID46	HasHighTemp	90F
+6	ReportID46	HasDate	friday
+6	redwood city	IsLocationOf	ReportID46
+6	foggy	IsWeatherOf	ReportID46
+6	80F	IsLowTempOf	ReportID46
+6	90F	IsHighTempOf	ReportID46
+6	friday	IsDateOf	ReportID46
+6	ReportID47	HasLocation	redwood city
+6	ReportID47	HasWeather	drizzle
+6	ReportID47	HasLowTemp	60F
+6	ReportID47	HasHighTemp	70F
+6	ReportID47	HasDate	saturday
+6	redwood city	IsLocationOf	ReportID47
+6	drizzle	IsWeatherOf	ReportID47
+6	60F	IsLowTempOf	ReportID47
+6	70F	IsHighTempOf	ReportID47
+6	saturday	IsDateOf	ReportID47
+6	ReportID48	HasLocation	redwood city
+6	ReportID48	HasWeather	rain
+6	ReportID48	HasLowTemp	60F
+6	ReportID48	HasHighTemp	80F
+6	ReportID48	HasDate	sunday
+6	redwood city	IsLocationOf	ReportID48
+6	rain	IsWeatherOf	ReportID48
+6	60F	IsLowTempOf	ReportID48
+6	80F	IsHighTempOf	ReportID48
+6	sunday	IsDateOf	ReportID48

@@ -1,0 +1,65 @@
+0	conference	HasTime	4pm
+0	4pm	IsTimeOf	conference
+0	conference	HasDate	the 6th
+0	the 6th	IsDateOf	conference
+0	conference	HasParty	sales team
+0	sales team	IsPartyOf	conference
+0	conference	HasRoom	conference room 50
+0	conference room 50	IsRoomOf	conference
+0	conference	HasAgenda	onboard new members
+0	onboard new members	IsAgendaOf	conference
+1	meeting	HasTime	10am
+1	10am	IsTimeOf	meeting
+1	meeting	HasDate	the 16th
+1	the 16th	IsDateOf	meeting
+1	meeting	HasParty	HR
+1	HR	IsPartyOf	meeting
+1	meeting	HasRoom	conference room 102
+1	conference room 102	IsRoomOf	meeting
+1	meeting	HasAgenda	discuss dress code
+1	discuss dress code	IsAgendaOf	meeting
+2	doctor appointment	HasTime	1pm
+2	1pm	IsTimeOf	doctor appointment
+2	doctor appointment	HasDate	the 20th
+2	the 20th	IsDateOf	doctor appointment
+2	doctor appointment	HasParty	Jeff
+2	Jeff	IsPartyOf	doctor appointment
+3	conference	HasTime	5pm
+3	5pm	IsTimeOf	conference
+3	conference	HasDate	the 3rd
+3	the 3rd	IsDateOf	conference
+3	conference	HasParty	vice president
+3	vice president	IsPartyOf	conference
+3	conference	HasRoom	conference room 100
+3	conference room 100	IsRoomOf	conference
+3	conference	HasAgenda	discuss dress code
+3	discuss dress code	IsAgendaOf	conference
+4	doctor appointment	HasTime	11am
+4	11am	IsTimeOf	doctor appointment
+4	doctor appointment	HasDate	the 12th
+4	the 12th	IsDateOf	doctor appointment
+4	doctor appointment	HasParty	Ana
+4	Ana	IsPartyOf	doctor appointment
+5	taking medicine	HasTime	3pm
+5	3pm	IsTimeOf	taking medicine
+5	taking medicine	HasDate	thursday
+5	thursday	IsDateOf	taking medicine
+5	taking medicine	HasParty	Jeff
+5	Jeff	IsPartyOf	taking medicine
+6	tennis activity	HasTime	10am
+6	10am	IsTimeOf	tennis activity
+6	tennis activity	HasDate	the 1st
+6	the 1st	IsDateOf	tennis activity
+6	tennis activity	HasParty	Martha
+6	Martha	IsPartyOf	tennis activity
+7	meeting	HasTime	11am
+7	11am	IsTimeOf	meeting
+7	meeting	HasDate	the 5th
+7	the 5th	IsDateOf	meeting
+7	meeting	HasParty	vice president
+7	vice president	IsPartyOf	meeting
+7	meeting	HasRoom	conference room 102
+7	conference room 102	IsRoomOf	meeting
+7	meeting	HasAgenda	discuss the company picnic
+7	discuss the company picnic	IsAgendaOf	meeting
+-1	today	IsEqualTo	monday

@@ -1,0 +1,57 @@
+0	taking medicine	HasTime	2pm
+0	2pm	IsTimeOf	taking medicine
+0	taking medicine	HasDate	the 5th
+0	the 5th	IsDateOf	taking medicine
+0	taking medicine	HasParty	sister
+0	sister	IsPartyOf	taking medicine
+1	football activity	HasTime	2pm
+1	2pm	IsTimeOf	football activity
+1	football activity	HasDate	the 13th
+1	the 13th	IsDateOf	football activity
+1	football activity	HasParty	brother
+1	brother	IsPartyOf	football activity
+2	football activity	HasTime	1pm
+2	1pm	IsTimeOf	football activity
+2	football activity	HasDate	the 3rd
+2	the 3rd	IsDateOf	football activity
+2	football activity	HasParty	Ana
+2	Ana	IsPartyOf	football activity
+3	meeting	HasTime	1pm
+3	1pm	IsTimeOf	meeting
+3	meeting	HasDate	the 7th
+3	the 7th	IsDateOf	meeting
+3	meeting	HasParty	management
+3	management	IsPartyOf	meeting
+3	meeting	HasRoom	conference room 102
+3	conference room 102	IsRoomOf	meeting
+3	meeting	HasAgenda	discuss the company picnic
+3	discuss the company picnic	IsAgendaOf	meeting
+4	dentist appointment	HasTime	1pm
+4	1pm	IsTimeOf	dentist appointment
+4	dentist appointment	HasDate	tuesday
+4	tuesday	IsDateOf	dentist appointment
+4	dentist appointment	HasParty	brother
+4	brother	IsPartyOf	dentist appointment
+5	swimming activity	HasTime	1pm
+5	1pm	IsTimeOf	swimming activity
+5	swimming activity	HasDate	the 4th
+5	the 4th	IsDateOf	swimming activity
+5	swimming activity	HasParty	father
+5	father	IsPartyOf	swimming activity
+6	meeting	HasTime	4pm
+6	4pm	IsTimeOf	meeting
+6	meeting	HasDate	monday
+6	monday	IsDateOf	meeting
+6	meeting	HasParty	infrastructure team
+6	infrastructure team	IsPartyOf	meeting
+6	meeting	HasRoom	conference room 50
+6	conference room 50	IsRoomOf	meeting
+6	meeting	HasAgenda	go over budget
+6	go over budget	IsAgendaOf	meeting
+7	dentist appointment	HasTime	7pm
+7	7pm	IsTimeOf	dentist appointment
+7	dentist appointment	HasDate	friday
+7	friday	IsDateOf	dentist appointment
+7	dentist appointment	HasParty	Martha
+7	Martha	IsPartyOf	dentist appointment
+-1	today	IsEqualTo	monday

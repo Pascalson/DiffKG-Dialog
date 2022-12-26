@@ -1,0 +1,65 @@
+0	Philz	HasAddress	583 Alester Ave
+0	Philz	HasType	coffee or tea place
+0	583 Alester Ave	IsAddressOf	Philz
+0	coffee or tea place	IsTypeOf	Philz
+0	Philz	HasTraffic	road block nearby
+0	Philz	HasDistance	1 miles
+0	road block nearby	IsTrafficOf	Philz
+0	1 miles	IsDistanceFrom	Philz
+1	Cafe Venetia	HasAddress	269 Alger Dr
+1	Cafe Venetia	HasType	coffee or tea place
+1	269 Alger Dr	IsAddressOf	Cafe Venetia
+1	coffee or tea place	IsTypeOf	Cafe Venetia
+1	Cafe Venetia	HasTraffic	moderate traffic
+1	Cafe Venetia	HasDistance	6 miles
+1	moderate traffic	IsTrafficOf	Cafe Venetia
+1	6 miles	IsDistanceFrom	Cafe Venetia
+2	Papa Johns	HasAddress	110 Arastradero Rd
+2	Papa Johns	HasType	pizza restaurant
+2	110 Arastradero Rd	IsAddressOf	Papa Johns
+2	pizza restaurant	IsTypeOf	Papa Johns
+2	Papa Johns	HasTraffic	road block nearby
+2	Papa Johns	HasDistance	6 miles
+2	road block nearby	IsTrafficOf	Papa Johns
+2	6 miles	IsDistanceFrom	Papa Johns
+3	home	HasAddress	5671 barringer street
+3	home	HasType	home
+3	5671 barringer street	IsAddressOf	home
+3	home	IsTypeOf	home
+3	home	HasTraffic	no traffic
+3	home	HasDistance	4 miles
+3	no traffic	IsTrafficOf	home
+3	4 miles	IsDistanceFrom	home
+4	Whole Foods	HasAddress	819 Alma St
+4	Whole Foods	HasType	grocery store
+4	819 Alma St	IsAddressOf	Whole Foods
+4	grocery store	IsTypeOf	Whole Foods
+4	Whole Foods	HasTraffic	road block nearby
+4	Whole Foods	HasDistance	6 miles
+4	road block nearby	IsTrafficOf	Whole Foods
+4	6 miles	IsDistanceFrom	Whole Foods
+5	Pizza Chicago	HasAddress	915 Arbol Dr
+5	Pizza Chicago	HasType	pizza restaurant
+5	915 Arbol Dr	IsAddressOf	Pizza Chicago
+5	pizza restaurant	IsTypeOf	Pizza Chicago
+5	Pizza Chicago	HasTraffic	heavy traffic
+5	Pizza Chicago	HasDistance	1 miles
+5	heavy traffic	IsTrafficOf	Pizza Chicago
+5	1 miles	IsDistanceFrom	Pizza Chicago
+6	Panda Express	HasAddress	842 Arrowhead Way
+6	Panda Express	HasType	chinese restaurant
+6	842 Arrowhead Way	IsAddressOf	Panda Express
+6	chinese restaurant	IsTypeOf	Panda Express
+6	Panda Express	HasTraffic	car collision nearby
+6	Panda Express	HasDistance	7 miles
+6	car collision nearby	IsTrafficOf	Panda Express
+6	7 miles	IsDistanceFrom	Panda Express
+7	home	HasAddress	10 ames street
+7	home	HasType	home
+7	10 ames street	IsAddressOf	home
+7	home	IsTypeOf	home
+7	home	HasTraffic	car collision nearby
+7	home	HasDistance	2 miles
+7	car collision nearby	IsTrafficOf	home
+7	2 miles	IsDistanceFrom	home
+-1	today	IsEqualTo	monday

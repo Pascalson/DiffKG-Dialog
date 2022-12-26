@@ -1,0 +1,57 @@
+0	5677 springer street	HasAddress	5677 springer street
+0	5677 springer street	HasType	certain address
+0	5677 springer street	IsAddressOf	5677 springer street
+0	certain address	IsTypeOf	5677 springer street
+0	5677 springer street	HasTraffic	no traffic
+0	5677 springer street	HasDistance	1 miles
+0	no traffic	IsTrafficOf	5677 springer street
+0	1 miles	IsDistanceFrom	5677 springer street
+1	Sigona Farmers Market	HasAddress	638 Amherst St
+1	Sigona Farmers Market	HasType	grocery store
+1	638 Amherst St	IsAddressOf	Sigona Farmers Market
+1	grocery store	IsTypeOf	Sigona Farmers Market
+1	Sigona Farmers Market	HasTraffic	no traffic
+1	Sigona Farmers Market	HasDistance	2 miles
+1	no traffic	IsTrafficOf	Sigona Farmers Market
+1	2 miles	IsDistanceFrom	Sigona Farmers Market
+2	Round Table	HasAddress	113 Anton Ct
+2	Round Table	HasType	pizza restaurant
+2	113 Anton Ct	IsAddressOf	Round Table
+2	pizza restaurant	IsTypeOf	Round Table
+2	Round Table	HasTraffic	no traffic
+2	Round Table	HasDistance	3 miles
+2	no traffic	IsTrafficOf	Round Table
+2	3 miles	IsDistanceFrom	Round Table
+3	Chef Chu's	HasAddress	593 Arrowhead Way
+3	Chef Chu's	HasType	chinese restaurant
+3	593 Arrowhead Way	IsAddressOf	Chef Chu's
+3	chinese restaurant	IsTypeOf	Chef Chu's
+3	Chef Chu's	HasTraffic	moderate traffic
+3	Chef Chu's	HasDistance	3 miles
+3	moderate traffic	IsTrafficOf	Chef Chu's
+3	3 miles	IsDistanceFrom	Chef Chu's
+4	Four Seasons	HasAddress	465 Arcadia Pl
+4	Four Seasons	HasType	rest stop
+4	465 Arcadia Pl	IsAddressOf	Four Seasons
+4	rest stop	IsTypeOf	Four Seasons
+4	Four Seasons	HasTraffic	no traffic
+4	Four Seasons	HasDistance	3 miles
+4	no traffic	IsTrafficOf	Four Seasons
+4	3 miles	IsDistanceFrom	Four Seasons
+5	Panda Express	HasAddress	842 Arrowhead Way
+5	Panda Express	HasType	chinese restaurant
+5	842 Arrowhead Way	IsAddressOf	Panda Express
+5	chinese restaurant	IsTypeOf	Panda Express
+5	Panda Express	HasTraffic	no traffic
+5	Panda Express	HasDistance	2 miles
+5	no traffic	IsTrafficOf	Panda Express
+5	2 miles	IsDistanceFrom	Panda Express
+6	Ravenswood Shopping Center	HasAddress	434 Arastradero Rd
+6	Ravenswood Shopping Center	HasType	shopping center
+6	434 Arastradero Rd	IsAddressOf	Ravenswood Shopping Center
+6	shopping center	IsTypeOf	Ravenswood Shopping Center
+6	Ravenswood Shopping Center	HasTraffic	heavy traffic
+6	Ravenswood Shopping Center	HasDistance	5 miles
+6	heavy traffic	IsTrafficOf	Ravenswood Shopping Center
+6	5 miles	IsDistanceFrom	Ravenswood Shopping Center
+-1	today	IsEqualTo	monday

@@ -1,0 +1,65 @@
+0	Midtown Shopping Center	HasAddress	338 Alester Ave
+0	Midtown Shopping Center	HasType	shopping center
+0	338 Alester Ave	IsAddressOf	Midtown Shopping Center
+0	shopping center	IsTypeOf	Midtown Shopping Center
+0	Midtown Shopping Center	HasTraffic	moderate traffic
+0	Midtown Shopping Center	HasDistance	2 miles
+0	moderate traffic	IsTrafficOf	Midtown Shopping Center
+0	2 miles	IsDistanceFrom	Midtown Shopping Center
+1	5677 springer street	HasAddress	5677 springer street
+1	5677 springer street	HasType	certain address
+1	5677 springer street	IsAddressOf	5677 springer street
+1	certain address	IsTypeOf	5677 springer street
+1	5677 springer street	HasTraffic	road block nearby
+1	5677 springer street	HasDistance	1 miles
+1	road block nearby	IsTrafficOf	5677 springer street
+1	1 miles	IsDistanceFrom	5677 springer street
+2	Whole Foods	HasAddress	819 Alma St
+2	Whole Foods	HasType	grocery store
+2	819 Alma St	IsAddressOf	Whole Foods
+2	grocery store	IsTypeOf	Whole Foods
+2	Whole Foods	HasTraffic	no traffic
+2	Whole Foods	HasDistance	4 miles
+2	no traffic	IsTrafficOf	Whole Foods
+2	4 miles	IsDistanceFrom	Whole Foods
+3	toms house	HasAddress	580 Van Ness Ave
+3	toms house	HasType	friends house
+3	580 Van Ness Ave	IsAddressOf	toms house
+3	friends house	IsTypeOf	toms house
+3	toms house	HasTraffic	road block nearby
+3	toms house	HasDistance	2 miles
+3	road block nearby	IsTrafficOf	toms house
+3	2 miles	IsDistanceFrom	toms house
+4	Pizza My Heart	HasAddress	528 Anton Ct
+4	Pizza My Heart	HasType	pizza restaurant
+4	528 Anton Ct	IsAddressOf	Pizza My Heart
+4	pizza restaurant	IsTypeOf	Pizza My Heart
+4	Pizza My Heart	HasTraffic	no traffic
+4	Pizza My Heart	HasDistance	1 miles
+4	no traffic	IsTrafficOf	Pizza My Heart
+4	1 miles	IsDistanceFrom	Pizza My Heart
+5	Trader Joes	HasAddress	408 University Ave
+5	Trader Joes	HasType	grocery store
+5	408 University Ave	IsAddressOf	Trader Joes
+5	grocery store	IsTypeOf	Trader Joes
+5	Trader Joes	HasTraffic	road block nearby
+5	Trader Joes	HasDistance	1 miles
+5	road block nearby	IsTrafficOf	Trader Joes
+5	1 miles	IsDistanceFrom	Trader Joes
+6	home	HasAddress	5671 barringer street
+6	home	HasType	home
+6	5671 barringer street	IsAddressOf	home
+6	home	IsTypeOf	home
+6	home	HasTraffic	no traffic
+6	home	HasDistance	6 miles
+6	no traffic	IsTrafficOf	home
+6	6 miles	IsDistanceFrom	home
+7	home	HasAddress	56 cadwell street
+7	home	HasType	home
+7	56 cadwell street	IsAddressOf	home
+7	home	IsTypeOf	home
+7	home	HasTraffic	road block nearby
+7	home	HasDistance	6 miles
+7	road block nearby	IsTrafficOf	home
+7	6 miles	IsDistanceFrom	home
+-1	today	IsEqualTo	monday

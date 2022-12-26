@@ -1,0 +1,65 @@
+0	Palo Alto Medical Foundation	HasAddress	611 Ames Ave
+0	Palo Alto Medical Foundation	HasType	hospital
+0	611 Ames Ave	IsAddressOf	Palo Alto Medical Foundation
+0	hospital	IsTypeOf	Palo Alto Medical Foundation
+0	Palo Alto Medical Foundation	HasTraffic	moderate traffic
+0	Palo Alto Medical Foundation	HasDistance	2 miles
+0	moderate traffic	IsTrafficOf	Palo Alto Medical Foundation
+0	2 miles	IsDistanceFrom	Palo Alto Medical Foundation
+1	Chef Chu's	HasAddress	593 Arrowhead Way
+1	Chef Chu's	HasType	chinese restaurant
+1	593 Arrowhead Way	IsAddressOf	Chef Chu's
+1	chinese restaurant	IsTypeOf	Chef Chu's
+1	Chef Chu's	HasTraffic	road block nearby
+1	Chef Chu's	HasDistance	3 miles
+1	road block nearby	IsTrafficOf	Chef Chu's
+1	3 miles	IsDistanceFrom	Chef Chu's
+2	jills house	HasAddress	347 Alta Mesa Ave
+2	jills house	HasType	friends house
+2	347 Alta Mesa Ave	IsAddressOf	jills house
+2	friends house	IsTypeOf	jills house
+2	jills house	HasTraffic	heavy traffic
+2	jills house	HasDistance	2 miles
+2	heavy traffic	IsTrafficOf	jills house
+2	2 miles	IsDistanceFrom	jills house
+3	Papa Johns	HasAddress	110 Arastradero Rd
+3	Papa Johns	HasType	pizza restaurant
+3	110 Arastradero Rd	IsAddressOf	Papa Johns
+3	pizza restaurant	IsTypeOf	Papa Johns
+3	Papa Johns	HasTraffic	car collision nearby
+3	Papa Johns	HasDistance	5 miles
+3	car collision nearby	IsTrafficOf	Papa Johns
+3	5 miles	IsDistanceFrom	Papa Johns
+4	Palo Alto Cafe	HasAddress	436 Alger Dr
+4	Palo Alto Cafe	HasType	coffee or tea place
+4	436 Alger Dr	IsAddressOf	Palo Alto Cafe
+4	coffee or tea place	IsTypeOf	Palo Alto Cafe
+4	Palo Alto Cafe	HasTraffic	moderate traffic
+4	Palo Alto Cafe	HasDistance	5 miles
+4	moderate traffic	IsTrafficOf	Palo Alto Cafe
+4	5 miles	IsDistanceFrom	Palo Alto Cafe
+5	Pizza Chicago	HasAddress	915 Arbol Dr
+5	Pizza Chicago	HasType	pizza restaurant
+5	915 Arbol Dr	IsAddressOf	Pizza Chicago
+5	pizza restaurant	IsTypeOf	Pizza Chicago
+5	Pizza Chicago	HasTraffic	heavy traffic
+5	Pizza Chicago	HasDistance	4 miles
+5	heavy traffic	IsTrafficOf	Pizza Chicago
+5	4 miles	IsDistanceFrom	Pizza Chicago
+6	Sigona Farmers Market	HasAddress	638 Amherst St
+6	Sigona Farmers Market	HasType	grocery store
+6	638 Amherst St	IsAddressOf	Sigona Farmers Market
+6	grocery store	IsTypeOf	Sigona Farmers Market
+6	Sigona Farmers Market	HasTraffic	road block nearby
+6	Sigona Farmers Market	HasDistance	1 miles
+6	road block nearby	IsTrafficOf	Sigona Farmers Market
+6	1 miles	IsDistanceFrom	Sigona Farmers Market
+7	Stanford Childrens Health	HasAddress	899 Ames Ct
+7	Stanford Childrens Health	HasType	hospital
+7	899 Ames Ct	IsAddressOf	Stanford Childrens Health
+7	hospital	IsTypeOf	Stanford Childrens Health
+7	Stanford Childrens Health	HasTraffic	road block nearby
+7	Stanford Childrens Health	HasDistance	2 miles
+7	road block nearby	IsTrafficOf	Stanford Childrens Health
+7	2 miles	IsDistanceFrom	Stanford Childrens Health
+-1	today	IsEqualTo	monday

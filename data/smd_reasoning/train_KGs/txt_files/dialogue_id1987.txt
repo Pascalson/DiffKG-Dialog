@@ -1,0 +1,57 @@
+0	tai pan	HasAddress	830 Almanor Ln
+0	tai pan	HasType	chinese restaurant
+0	830 Almanor Ln	IsAddressOf	tai pan
+0	chinese restaurant	IsTypeOf	tai pan
+0	tai pan	HasTraffic	moderate traffic
+0	tai pan	HasDistance	6 miles
+0	moderate traffic	IsTrafficOf	tai pan
+0	6 miles	IsDistanceFrom	tai pan
+1	home	HasAddress	56 cadwell street
+1	home	HasType	home
+1	56 cadwell street	IsAddressOf	home
+1	home	IsTypeOf	home
+1	home	HasTraffic	heavy traffic
+1	home	HasDistance	2 miles
+1	heavy traffic	IsTrafficOf	home
+1	2 miles	IsDistanceFrom	home
+2	toms house	HasAddress	580 Van Ness Ave
+2	toms house	HasType	friends house
+2	580 Van Ness Ave	IsAddressOf	toms house
+2	friends house	IsTypeOf	toms house
+2	toms house	HasTraffic	moderate traffic
+2	toms house	HasDistance	2 miles
+2	moderate traffic	IsTrafficOf	toms house
+2	2 miles	IsDistanceFrom	toms house
+3	Whole Foods	HasAddress	819 Alma St
+3	Whole Foods	HasType	grocery store
+3	819 Alma St	IsAddressOf	Whole Foods
+3	grocery store	IsTypeOf	Whole Foods
+3	Whole Foods	HasTraffic	heavy traffic
+3	Whole Foods	HasDistance	1 miles
+3	heavy traffic	IsTrafficOf	Whole Foods
+3	1 miles	IsDistanceFrom	Whole Foods
+4	Webster Garage	HasAddress	880 Ames Ct
+4	Webster Garage	HasType	parking garage
+4	880 Ames Ct	IsAddressOf	Webster Garage
+4	parking garage	IsTypeOf	Webster Garage
+4	Webster Garage	HasTraffic	heavy traffic
+4	Webster Garage	HasDistance	4 miles
+4	heavy traffic	IsTrafficOf	Webster Garage
+4	4 miles	IsDistanceFrom	Webster Garage
+5	Panda Express	HasAddress	842 Arrowhead Way
+5	Panda Express	HasType	chinese restaurant
+5	842 Arrowhead Way	IsAddressOf	Panda Express
+5	chinese restaurant	IsTypeOf	Panda Express
+5	Panda Express	HasTraffic	heavy traffic
+5	Panda Express	HasDistance	5 miles
+5	heavy traffic	IsTrafficOf	Panda Express
+5	5 miles	IsDistanceFrom	Panda Express
+6	Starbucks	HasAddress	792 Bedoin Street
+6	Starbucks	HasType	coffee or tea place
+6	792 Bedoin Street	IsAddressOf	Starbucks
+6	coffee or tea place	IsTypeOf	Starbucks
+6	Starbucks	HasTraffic	no traffic
+6	Starbucks	HasDistance	4 miles
+6	no traffic	IsTrafficOf	Starbucks
+6	4 miles	IsDistanceFrom	Starbucks
+-1	today	IsEqualTo	monday

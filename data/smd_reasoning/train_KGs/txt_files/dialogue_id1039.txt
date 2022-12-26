@@ -1,0 +1,65 @@
+0	Dish Parking	HasAddress	550 Alester Ave
+0	Dish Parking	HasType	parking garage
+0	550 Alester Ave	IsAddressOf	Dish Parking
+0	parking garage	IsTypeOf	Dish Parking
+0	Dish Parking	HasTraffic	moderate traffic
+0	Dish Parking	HasDistance	6 miles
+0	moderate traffic	IsTrafficOf	Dish Parking
+0	6 miles	IsDistanceFrom	Dish Parking
+1	Pizza Hut	HasAddress	704 El Camino Real
+1	Pizza Hut	HasType	pizza restaurant
+1	704 El Camino Real	IsAddressOf	Pizza Hut
+1	pizza restaurant	IsTypeOf	Pizza Hut
+1	Pizza Hut	HasTraffic	moderate traffic
+1	Pizza Hut	HasDistance	3 miles
+1	moderate traffic	IsTrafficOf	Pizza Hut
+1	3 miles	IsDistanceFrom	Pizza Hut
+2	Peets Coffee	HasAddress	9981 Archuleta Ave
+2	Peets Coffee	HasType	coffee or tea place
+2	9981 Archuleta Ave	IsAddressOf	Peets Coffee
+2	coffee or tea place	IsTypeOf	Peets Coffee
+2	Peets Coffee	HasTraffic	no traffic
+2	Peets Coffee	HasDistance	1 miles
+2	no traffic	IsTrafficOf	Peets Coffee
+2	1 miles	IsDistanceFrom	Peets Coffee
+3	Civic Center Garage	HasAddress	270 Altaire Walk
+3	Civic Center Garage	HasType	parking garage
+3	270 Altaire Walk	IsAddressOf	Civic Center Garage
+3	parking garage	IsTypeOf	Civic Center Garage
+3	Civic Center Garage	HasTraffic	no traffic
+3	Civic Center Garage	HasDistance	6 miles
+3	no traffic	IsTrafficOf	Civic Center Garage
+3	6 miles	IsDistanceFrom	Civic Center Garage
+4	Stanford Express Care	HasAddress	214 El Camino Real
+4	Stanford Express Care	HasType	hospital
+4	214 El Camino Real	IsAddressOf	Stanford Express Care
+4	hospital	IsTypeOf	Stanford Express Care
+4	Stanford Express Care	HasTraffic	car collision nearby
+4	Stanford Express Care	HasDistance	3 miles
+4	car collision nearby	IsTrafficOf	Stanford Express Care
+4	3 miles	IsDistanceFrom	Stanford Express Care
+5	Philz	HasAddress	583 Alester Ave
+5	Philz	HasType	coffee or tea place
+5	583 Alester Ave	IsAddressOf	Philz
+5	coffee or tea place	IsTypeOf	Philz
+5	Philz	HasTraffic	car collision nearby
+5	Philz	HasDistance	4 miles
+5	car collision nearby	IsTrafficOf	Philz
+5	4 miles	IsDistanceFrom	Philz
+6	The Clement Hotel	HasAddress	657 Ames Ave
+6	The Clement Hotel	HasType	rest stop
+6	657 Ames Ave	IsAddressOf	The Clement Hotel
+6	rest stop	IsTypeOf	The Clement Hotel
+6	The Clement Hotel	HasTraffic	heavy traffic
+6	The Clement Hotel	HasDistance	1 miles
+6	heavy traffic	IsTrafficOf	The Clement Hotel
+6	1 miles	IsDistanceFrom	The Clement Hotel
+7	Trader Joes	HasAddress	408 University Ave
+7	Trader Joes	HasType	grocery store
+7	408 University Ave	IsAddressOf	Trader Joes
+7	grocery store	IsTypeOf	Trader Joes
+7	Trader Joes	HasTraffic	heavy traffic
+7	Trader Joes	HasDistance	2 miles
+7	heavy traffic	IsTrafficOf	Trader Joes
+7	2 miles	IsDistanceFrom	Trader Joes
+-1	today	IsEqualTo	monday

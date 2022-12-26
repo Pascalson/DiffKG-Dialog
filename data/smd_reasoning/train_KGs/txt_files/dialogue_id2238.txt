@@ -1,0 +1,57 @@
+0	Palo Alto Medical Foundation	HasAddress	611 Ames Ave
+0	Palo Alto Medical Foundation	HasType	hospital
+0	611 Ames Ave	IsAddressOf	Palo Alto Medical Foundation
+0	hospital	IsTypeOf	Palo Alto Medical Foundation
+0	Palo Alto Medical Foundation	HasTraffic	moderate traffic
+0	Palo Alto Medical Foundation	HasDistance	1 miles
+0	moderate traffic	IsTrafficOf	Palo Alto Medical Foundation
+0	1 miles	IsDistanceFrom	Palo Alto Medical Foundation
+1	Ravenswood Shopping Center	HasAddress	434 Arastradero Rd
+1	Ravenswood Shopping Center	HasType	shopping center
+1	434 Arastradero Rd	IsAddressOf	Ravenswood Shopping Center
+1	shopping center	IsTypeOf	Ravenswood Shopping Center
+1	Ravenswood Shopping Center	HasTraffic	heavy traffic
+1	Ravenswood Shopping Center	HasDistance	6 miles
+1	heavy traffic	IsTrafficOf	Ravenswood Shopping Center
+1	6 miles	IsDistanceFrom	Ravenswood Shopping Center
+2	Sigona Farmers Market	HasAddress	638 Amherst St
+2	Sigona Farmers Market	HasType	grocery store
+2	638 Amherst St	IsAddressOf	Sigona Farmers Market
+2	grocery store	IsTypeOf	Sigona Farmers Market
+2	Sigona Farmers Market	HasTraffic	heavy traffic
+2	Sigona Farmers Market	HasDistance	2 miles
+2	heavy traffic	IsTrafficOf	Sigona Farmers Market
+2	2 miles	IsDistanceFrom	Sigona Farmers Market
+3	Panda Express	HasAddress	842 Arrowhead Way
+3	Panda Express	HasType	chinese restaurant
+3	842 Arrowhead Way	IsAddressOf	Panda Express
+3	chinese restaurant	IsTypeOf	Panda Express
+3	Panda Express	HasTraffic	moderate traffic
+3	Panda Express	HasDistance	6 miles
+3	moderate traffic	IsTrafficOf	Panda Express
+3	6 miles	IsDistanceFrom	Panda Express
+4	Palo Alto Cafe	HasAddress	436 Alger Dr
+4	Palo Alto Cafe	HasType	coffee or tea place
+4	436 Alger Dr	IsAddressOf	Palo Alto Cafe
+4	coffee or tea place	IsTypeOf	Palo Alto Cafe
+4	Palo Alto Cafe	HasTraffic	heavy traffic
+4	Palo Alto Cafe	HasDistance	6 miles
+4	heavy traffic	IsTrafficOf	Palo Alto Cafe
+4	6 miles	IsDistanceFrom	Palo Alto Cafe
+5	Stanford Express Care	HasAddress	214 El Camino Real
+5	Stanford Express Care	HasType	hospital
+5	214 El Camino Real	IsAddressOf	Stanford Express Care
+5	hospital	IsTypeOf	Stanford Express Care
+5	Stanford Express Care	HasTraffic	heavy traffic
+5	Stanford Express Care	HasDistance	4 miles
+5	heavy traffic	IsTrafficOf	Stanford Express Care
+5	4 miles	IsDistanceFrom	Stanford Express Care
+6	Webster Garage	HasAddress	880 Ames Ct
+6	Webster Garage	HasType	parking garage
+6	880 Ames Ct	IsAddressOf	Webster Garage
+6	parking garage	IsTypeOf	Webster Garage
+6	Webster Garage	HasTraffic	no traffic
+6	Webster Garage	HasDistance	4 miles
+6	no traffic	IsTrafficOf	Webster Garage
+6	4 miles	IsDistanceFrom	Webster Garage
+-1	today	IsEqualTo	monday

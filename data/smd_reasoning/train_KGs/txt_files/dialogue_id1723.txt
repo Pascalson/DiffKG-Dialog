@@ -1,0 +1,65 @@
+0	Coupa	HasAddress	394 Van Ness Ave
+0	Coupa	HasType	coffee or tea place
+0	394 Van Ness Ave	IsAddressOf	Coupa
+0	coffee or tea place	IsTypeOf	Coupa
+0	Coupa	HasTraffic	heavy traffic
+0	Coupa	HasDistance	2 miles
+0	heavy traffic	IsTrafficOf	Coupa
+0	2 miles	IsDistanceFrom	Coupa
+1	Safeway	HasAddress	452 Arcadia Pl
+1	Safeway	HasType	grocery store
+1	452 Arcadia Pl	IsAddressOf	Safeway
+1	grocery store	IsTypeOf	Safeway
+1	Safeway	HasTraffic	road block nearby
+1	Safeway	HasDistance	5 miles
+1	road block nearby	IsTrafficOf	Safeway
+1	5 miles	IsDistanceFrom	Safeway
+2	Whole Foods	HasAddress	819 Alma St
+2	Whole Foods	HasType	grocery store
+2	819 Alma St	IsAddressOf	Whole Foods
+2	grocery store	IsTypeOf	Whole Foods
+2	Whole Foods	HasTraffic	road block nearby
+2	Whole Foods	HasDistance	2 miles
+2	road block nearby	IsTrafficOf	Whole Foods
+2	2 miles	IsDistanceFrom	Whole Foods
+3	Pizza Chicago	HasAddress	915 Arbol Dr
+3	Pizza Chicago	HasType	pizza restaurant
+3	915 Arbol Dr	IsAddressOf	Pizza Chicago
+3	pizza restaurant	IsTypeOf	Pizza Chicago
+3	Pizza Chicago	HasTraffic	no traffic
+3	Pizza Chicago	HasDistance	3 miles
+3	no traffic	IsTrafficOf	Pizza Chicago
+3	3 miles	IsDistanceFrom	Pizza Chicago
+4	Shell	HasAddress	53 University Av
+4	Shell	HasType	gas station
+4	53 University Av	IsAddressOf	Shell
+4	gas station	IsTypeOf	Shell
+4	Shell	HasTraffic	moderate traffic
+4	Shell	HasDistance	6 miles
+4	moderate traffic	IsTrafficOf	Shell
+4	6 miles	IsDistanceFrom	Shell
+5	tai pan	HasAddress	830 Almanor Ln
+5	tai pan	HasType	chinese restaurant
+5	830 Almanor Ln	IsAddressOf	tai pan
+5	chinese restaurant	IsTypeOf	tai pan
+5	tai pan	HasTraffic	heavy traffic
+5	tai pan	HasDistance	5 miles
+5	heavy traffic	IsTrafficOf	tai pan
+5	5 miles	IsDistanceFrom	tai pan
+6	home	HasAddress	56 cadwell street
+6	home	HasType	home
+6	56 cadwell street	IsAddressOf	home
+6	home	IsTypeOf	home
+6	home	HasTraffic	moderate traffic
+6	home	HasDistance	8 miles
+6	moderate traffic	IsTrafficOf	home
+6	8 miles	IsDistanceFrom	home
+7	Palo Alto Garage R	HasAddress	481 Amaranta Ave
+7	Palo Alto Garage R	HasType	parking garage
+7	481 Amaranta Ave	IsAddressOf	Palo Alto Garage R
+7	parking garage	IsTypeOf	Palo Alto Garage R
+7	Palo Alto Garage R	HasTraffic	moderate traffic
+7	Palo Alto Garage R	HasDistance	3 miles
+7	moderate traffic	IsTrafficOf	Palo Alto Garage R
+7	3 miles	IsDistanceFrom	Palo Alto Garage R
+-1	today	IsEqualTo	monday

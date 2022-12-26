@@ -1,0 +1,57 @@
+0	Palo Alto Medical Foundation	HasAddress	611 Ames Ave
+0	Palo Alto Medical Foundation	HasType	hospital
+0	611 Ames Ave	IsAddressOf	Palo Alto Medical Foundation
+0	hospital	IsTypeOf	Palo Alto Medical Foundation
+0	Palo Alto Medical Foundation	HasTraffic	no traffic
+0	Palo Alto Medical Foundation	HasDistance	6 miles
+0	no traffic	IsTrafficOf	Palo Alto Medical Foundation
+0	6 miles	IsDistanceFrom	Palo Alto Medical Foundation
+1	Webster Garage	HasAddress	880 Ames Ct
+1	Webster Garage	HasType	parking garage
+1	880 Ames Ct	IsAddressOf	Webster Garage
+1	parking garage	IsTypeOf	Webster Garage
+1	Webster Garage	HasTraffic	no traffic
+1	Webster Garage	HasDistance	6 miles
+1	no traffic	IsTrafficOf	Webster Garage
+1	6 miles	IsDistanceFrom	Webster Garage
+2	Four Seasons	HasAddress	465 Arcadia Pl
+2	Four Seasons	HasType	rest stop
+2	465 Arcadia Pl	IsAddressOf	Four Seasons
+2	rest stop	IsTypeOf	Four Seasons
+2	Four Seasons	HasTraffic	no traffic
+2	Four Seasons	HasDistance	3 miles
+2	no traffic	IsTrafficOf	Four Seasons
+2	3 miles	IsDistanceFrom	Four Seasons
+3	Palo Alto Cafe	HasAddress	436 Alger Dr
+3	Palo Alto Cafe	HasType	coffee or tea place
+3	436 Alger Dr	IsAddressOf	Palo Alto Cafe
+3	coffee or tea place	IsTypeOf	Palo Alto Cafe
+3	Palo Alto Cafe	HasTraffic	heavy traffic
+3	Palo Alto Cafe	HasDistance	4 miles
+3	heavy traffic	IsTrafficOf	Palo Alto Cafe
+3	4 miles	IsDistanceFrom	Palo Alto Cafe
+4	Midtown Shopping Center	HasAddress	338 Alester Ave
+4	Midtown Shopping Center	HasType	shopping center
+4	338 Alester Ave	IsAddressOf	Midtown Shopping Center
+4	shopping center	IsTypeOf	Midtown Shopping Center
+4	Midtown Shopping Center	HasTraffic	no traffic
+4	Midtown Shopping Center	HasDistance	3 miles
+4	no traffic	IsTrafficOf	Midtown Shopping Center
+4	3 miles	IsDistanceFrom	Midtown Shopping Center
+5	Pizza My Heart	HasAddress	528 Anton Ct
+5	Pizza My Heart	HasType	pizza restaurant
+5	528 Anton Ct	IsAddressOf	Pizza My Heart
+5	pizza restaurant	IsTypeOf	Pizza My Heart
+5	Pizza My Heart	HasTraffic	heavy traffic
+5	Pizza My Heart	HasDistance	4 miles
+5	heavy traffic	IsTrafficOf	Pizza My Heart
+5	4 miles	IsDistanceFrom	Pizza My Heart
+6	home	HasAddress	56 cadwell street
+6	home	HasType	home
+6	56 cadwell street	IsAddressOf	home
+6	home	IsTypeOf	home
+6	home	HasTraffic	no traffic
+6	home	HasDistance	3 miles
+6	no traffic	IsTrafficOf	home
+6	3 miles	IsDistanceFrom	home
+-1	today	IsEqualTo	monday

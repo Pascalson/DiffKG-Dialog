@@ -1,0 +1,57 @@
+0	Palo Alto Cafe	HasAddress	436 Alger Dr
+0	Palo Alto Cafe	HasType	coffee or tea place
+0	436 Alger Dr	IsAddressOf	Palo Alto Cafe
+0	coffee or tea place	IsTypeOf	Palo Alto Cafe
+0	Palo Alto Cafe	HasTraffic	no traffic
+0	Palo Alto Cafe	HasDistance	1 miles
+0	no traffic	IsTrafficOf	Palo Alto Cafe
+0	1 miles	IsDistanceFrom	Palo Alto Cafe
+1	jills house	HasAddress	347 Alta Mesa Ave
+1	jills house	HasType	friends house
+1	347 Alta Mesa Ave	IsAddressOf	jills house
+1	friends house	IsTypeOf	jills house
+1	jills house	HasTraffic	heavy traffic
+1	jills house	HasDistance	4 miles
+1	heavy traffic	IsTrafficOf	jills house
+1	4 miles	IsDistanceFrom	jills house
+2	Chef Chu's	HasAddress	593 Arrowhead Way
+2	Chef Chu's	HasType	chinese restaurant
+2	593 Arrowhead Way	IsAddressOf	Chef Chu's
+2	chinese restaurant	IsTypeOf	Chef Chu's
+2	Chef Chu's	HasTraffic	no traffic
+2	Chef Chu's	HasDistance	6 miles
+2	no traffic	IsTrafficOf	Chef Chu's
+2	6 miles	IsDistanceFrom	Chef Chu's
+3	Dish Parking	HasAddress	550 Alester Ave
+3	Dish Parking	HasType	parking garage
+3	550 Alester Ave	IsAddressOf	Dish Parking
+3	parking garage	IsTypeOf	Dish Parking
+3	Dish Parking	HasTraffic	moderate traffic
+3	Dish Parking	HasDistance	3 miles
+3	moderate traffic	IsTrafficOf	Dish Parking
+3	3 miles	IsDistanceFrom	Dish Parking
+4	Civic Center Garage	HasAddress	270 Altaire Walk
+4	Civic Center Garage	HasType	parking garage
+4	270 Altaire Walk	IsAddressOf	Civic Center Garage
+4	parking garage	IsTypeOf	Civic Center Garage
+4	Civic Center Garage	HasTraffic	no traffic
+4	Civic Center Garage	HasDistance	2 miles
+4	no traffic	IsTrafficOf	Civic Center Garage
+4	2 miles	IsDistanceFrom	Civic Center Garage
+5	Coupa	HasAddress	394 Van Ness Ave
+5	Coupa	HasType	coffee or tea place
+5	394 Van Ness Ave	IsAddressOf	Coupa
+5	coffee or tea place	IsTypeOf	Coupa
+5	Coupa	HasTraffic	moderate traffic
+5	Coupa	HasDistance	1 miles
+5	moderate traffic	IsTrafficOf	Coupa
+5	1 miles	IsDistanceFrom	Coupa
+6	home	HasAddress	56 cadwell street
+6	home	HasType	home
+6	56 cadwell street	IsAddressOf	home
+6	home	IsTypeOf	home
+6	home	HasTraffic	heavy traffic
+6	home	HasDistance	4 miles
+6	heavy traffic	IsTrafficOf	home
+6	4 miles	IsDistanceFrom	home
+-1	today	IsEqualTo	monday

@@ -1,0 +1,57 @@
+0	Round Table	HasAddress	113 Anton Ct
+0	Round Table	HasType	pizza restaurant
+0	113 Anton Ct	IsAddressOf	Round Table
+0	pizza restaurant	IsTypeOf	Round Table
+0	Round Table	HasTraffic	no traffic
+0	Round Table	HasDistance	3 miles
+0	no traffic	IsTrafficOf	Round Table
+0	3 miles	IsDistanceFrom	Round Table
+1	Valero	HasAddress	200 Alester Ave
+1	Valero	HasType	gas station
+1	200 Alester Ave	IsAddressOf	Valero
+1	gas station	IsTypeOf	Valero
+1	Valero	HasTraffic	no traffic
+1	Valero	HasDistance	1 miles
+1	no traffic	IsTrafficOf	Valero
+1	1 miles	IsDistanceFrom	Valero
+2	The Clement Hotel	HasAddress	657 Ames Ave
+2	The Clement Hotel	HasType	rest stop
+2	657 Ames Ave	IsAddressOf	The Clement Hotel
+2	rest stop	IsTypeOf	The Clement Hotel
+2	The Clement Hotel	HasTraffic	moderate traffic
+2	The Clement Hotel	HasDistance	3 miles
+2	moderate traffic	IsTrafficOf	The Clement Hotel
+2	3 miles	IsDistanceFrom	The Clement Hotel
+3	Jing Jing	HasAddress	113 Arbol Dr
+3	Jing Jing	HasType	chinese restaurant
+3	113 Arbol Dr	IsAddressOf	Jing Jing
+3	chinese restaurant	IsTypeOf	Jing Jing
+3	Jing Jing	HasTraffic	moderate traffic
+3	Jing Jing	HasDistance	6 miles
+3	moderate traffic	IsTrafficOf	Jing Jing
+3	6 miles	IsDistanceFrom	Jing Jing
+4	5677 southwest 4th street	HasAddress	5677 southwest 4th street
+4	5677 southwest 4th street	HasType	certain address
+4	5677 southwest 4th street	IsAddressOf	5677 southwest 4th street
+4	certain address	IsTypeOf	5677 southwest 4th street
+4	5677 southwest 4th street	HasTraffic	heavy traffic
+4	5677 southwest 4th street	HasDistance	4 miles
+4	heavy traffic	IsTrafficOf	5677 southwest 4th street
+4	4 miles	IsDistanceFrom	5677 southwest 4th street
+5	5677 springer street	HasAddress	5677 springer street
+5	5677 springer street	HasType	certain address
+5	5677 springer street	IsAddressOf	5677 springer street
+5	certain address	IsTypeOf	5677 springer street
+5	5677 springer street	HasTraffic	no traffic
+5	5677 springer street	HasDistance	3 miles
+5	no traffic	IsTrafficOf	5677 springer street
+5	3 miles	IsDistanceFrom	5677 springer street
+6	Coupa	HasAddress	394 Van Ness Ave
+6	Coupa	HasType	coffee or tea place
+6	394 Van Ness Ave	IsAddressOf	Coupa
+6	coffee or tea place	IsTypeOf	Coupa
+6	Coupa	HasTraffic	moderate traffic
+6	Coupa	HasDistance	6 miles
+6	moderate traffic	IsTrafficOf	Coupa
+6	6 miles	IsDistanceFrom	Coupa
+-1	today	IsEqualTo	monday

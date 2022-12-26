@@ -1,0 +1,57 @@
+0	Starbucks	HasAddress	792 Bedoin Street
+0	Starbucks	HasType	coffee or tea place
+0	792 Bedoin Street	IsAddressOf	Starbucks
+0	coffee or tea place	IsTypeOf	Starbucks
+0	Starbucks	HasTraffic	no traffic
+0	Starbucks	HasDistance	1 miles
+0	no traffic	IsTrafficOf	Starbucks
+0	1 miles	IsDistanceFrom	Starbucks
+1	P.F. Changs	HasAddress	669 El Camino Real
+1	P.F. Changs	HasType	chinese restaurant
+1	669 El Camino Real	IsAddressOf	P.F. Changs
+1	chinese restaurant	IsTypeOf	P.F. Changs
+1	P.F. Changs	HasTraffic	heavy traffic
+1	P.F. Changs	HasDistance	1 miles
+1	heavy traffic	IsTrafficOf	P.F. Changs
+1	1 miles	IsDistanceFrom	P.F. Changs
+2	5677 springer street	HasAddress	5677 springer street
+2	5677 springer street	HasType	certain address
+2	5677 springer street	IsAddressOf	5677 springer street
+2	certain address	IsTypeOf	5677 springer street
+2	5677 springer street	HasTraffic	no traffic
+2	5677 springer street	HasDistance	3 miles
+2	no traffic	IsTrafficOf	5677 springer street
+2	3 miles	IsDistanceFrom	5677 springer street
+3	Pizza My Heart	HasAddress	528 Anton Ct
+3	Pizza My Heart	HasType	pizza restaurant
+3	528 Anton Ct	IsAddressOf	Pizza My Heart
+3	pizza restaurant	IsTypeOf	Pizza My Heart
+3	Pizza My Heart	HasTraffic	no traffic
+3	Pizza My Heart	HasDistance	3 miles
+3	no traffic	IsTrafficOf	Pizza My Heart
+3	3 miles	IsDistanceFrom	Pizza My Heart
+4	Palo Alto Garage R	HasAddress	481 Amaranta Ave
+4	Palo Alto Garage R	HasType	parking garage
+4	481 Amaranta Ave	IsAddressOf	Palo Alto Garage R
+4	parking garage	IsTypeOf	Palo Alto Garage R
+4	Palo Alto Garage R	HasTraffic	heavy traffic
+4	Palo Alto Garage R	HasDistance	6 miles
+4	heavy traffic	IsTrafficOf	Palo Alto Garage R
+4	6 miles	IsDistanceFrom	Palo Alto Garage R
+5	Panda Express	HasAddress	842 Arrowhead Way
+5	Panda Express	HasType	chinese restaurant
+5	842 Arrowhead Way	IsAddressOf	Panda Express
+5	chinese restaurant	IsTypeOf	Panda Express
+5	Panda Express	HasTraffic	no traffic
+5	Panda Express	HasDistance	4 miles
+5	no traffic	IsTrafficOf	Panda Express
+5	4 miles	IsDistanceFrom	Panda Express
+6	jacks house	HasAddress	864 Almanor Ln
+6	jacks house	HasType	friends house
+6	864 Almanor Ln	IsAddressOf	jacks house
+6	friends house	IsTypeOf	jacks house
+6	jacks house	HasTraffic	no traffic
+6	jacks house	HasDistance	2 miles
+6	no traffic	IsTrafficOf	jacks house
+6	2 miles	IsDistanceFrom	jacks house
+-1	today	IsEqualTo	monday

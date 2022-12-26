@@ -1,0 +1,57 @@
+0	Sigona Farmers Market	HasAddress	638 Amherst St
+0	Sigona Farmers Market	HasType	grocery store
+0	638 Amherst St	IsAddressOf	Sigona Farmers Market
+0	grocery store	IsTypeOf	Sigona Farmers Market
+0	Sigona Farmers Market	HasTraffic	heavy traffic
+0	Sigona Farmers Market	HasDistance	3 miles
+0	heavy traffic	IsTrafficOf	Sigona Farmers Market
+0	3 miles	IsDistanceFrom	Sigona Farmers Market
+1	P.F. Changs	HasAddress	669 El Camino Real
+1	P.F. Changs	HasType	chinese restaurant
+1	669 El Camino Real	IsAddressOf	P.F. Changs
+1	chinese restaurant	IsTypeOf	P.F. Changs
+1	P.F. Changs	HasTraffic	no traffic
+1	P.F. Changs	HasDistance	4 miles
+1	no traffic	IsTrafficOf	P.F. Changs
+1	4 miles	IsDistanceFrom	P.F. Changs
+2	Civic Center Garage	HasAddress	270 Altaire Walk
+2	Civic Center Garage	HasType	parking garage
+2	270 Altaire Walk	IsAddressOf	Civic Center Garage
+2	parking garage	IsTypeOf	Civic Center Garage
+2	Civic Center Garage	HasTraffic	moderate traffic
+2	Civic Center Garage	HasDistance	5 miles
+2	moderate traffic	IsTrafficOf	Civic Center Garage
+2	5 miles	IsDistanceFrom	Civic Center Garage
+3	Palo Alto Cafe	HasAddress	436 Alger Dr
+3	Palo Alto Cafe	HasType	coffee or tea place
+3	436 Alger Dr	IsAddressOf	Palo Alto Cafe
+3	coffee or tea place	IsTypeOf	Palo Alto Cafe
+3	Palo Alto Cafe	HasTraffic	moderate traffic
+3	Palo Alto Cafe	HasDistance	4 miles
+3	moderate traffic	IsTrafficOf	Palo Alto Cafe
+3	4 miles	IsDistanceFrom	Palo Alto Cafe
+4	5677 southwest 4th street	HasAddress	5677 southwest 4th street
+4	5677 southwest 4th street	HasType	certain address
+4	5677 southwest 4th street	IsAddressOf	5677 southwest 4th street
+4	certain address	IsTypeOf	5677 southwest 4th street
+4	5677 southwest 4th street	HasTraffic	moderate traffic
+4	5677 southwest 4th street	HasDistance	3 miles
+4	moderate traffic	IsTrafficOf	5677 southwest 4th street
+4	3 miles	IsDistanceFrom	5677 southwest 4th street
+5	jacks house	HasAddress	864 Almanor Ln
+5	jacks house	HasType	friends house
+5	864 Almanor Ln	IsAddressOf	jacks house
+5	friends house	IsTypeOf	jacks house
+5	jacks house	HasTraffic	heavy traffic
+5	jacks house	HasDistance	5 miles
+5	heavy traffic	IsTrafficOf	jacks house
+5	5 miles	IsDistanceFrom	jacks house
+6	home	HasAddress	10 ames street
+6	home	HasType	home
+6	10 ames street	IsAddressOf	home
+6	home	IsTypeOf	home
+6	home	HasTraffic	no traffic
+6	home	HasDistance	1 miles
+6	no traffic	IsTrafficOf	home
+6	1 miles	IsDistanceFrom	home
+-1	today	IsEqualTo	monday

@@ -1,0 +1,65 @@
+0	Town and Country	HasAddress	383 University Ave
+0	Town and Country	HasType	shopping center
+0	383 University Ave	IsAddressOf	Town and Country
+0	shopping center	IsTypeOf	Town and Country
+0	Town and Country	HasTraffic	moderate traffic
+0	Town and Country	HasDistance	3 miles
+0	moderate traffic	IsTrafficOf	Town and Country
+0	3 miles	IsDistanceFrom	Town and Country
+1	tai pan	HasAddress	830 Almanor Ln
+1	tai pan	HasType	chinese restaurant
+1	830 Almanor Ln	IsAddressOf	tai pan
+1	chinese restaurant	IsTypeOf	tai pan
+1	tai pan	HasTraffic	car collision nearby
+1	tai pan	HasDistance	5 miles
+1	car collision nearby	IsTrafficOf	tai pan
+1	5 miles	IsDistanceFrom	tai pan
+2	Peets Coffee	HasAddress	9981 Archuleta Ave
+2	Peets Coffee	HasType	coffee or tea place
+2	9981 Archuleta Ave	IsAddressOf	Peets Coffee
+2	coffee or tea place	IsTypeOf	Peets Coffee
+2	Peets Coffee	HasTraffic	moderate traffic
+2	Peets Coffee	HasDistance	6 miles
+2	moderate traffic	IsTrafficOf	Peets Coffee
+2	6 miles	IsDistanceFrom	Peets Coffee
+3	Dish Parking	HasAddress	550 Alester Ave
+3	Dish Parking	HasType	parking garage
+3	550 Alester Ave	IsAddressOf	Dish Parking
+3	parking garage	IsTypeOf	Dish Parking
+3	Dish Parking	HasTraffic	moderate traffic
+3	Dish Parking	HasDistance	5 miles
+3	moderate traffic	IsTrafficOf	Dish Parking
+3	5 miles	IsDistanceFrom	Dish Parking
+4	The Westin	HasAddress	329 El Camino Real
+4	The Westin	HasType	rest stop
+4	329 El Camino Real	IsAddressOf	The Westin
+4	rest stop	IsTypeOf	The Westin
+4	The Westin	HasTraffic	no traffic
+4	The Westin	HasDistance	3 miles
+4	no traffic	IsTrafficOf	The Westin
+4	3 miles	IsDistanceFrom	The Westin
+5	home	HasAddress	5671 barringer street
+5	home	HasType	home
+5	5671 barringer street	IsAddressOf	home
+5	home	IsTypeOf	home
+5	home	HasTraffic	road block nearby
+5	home	HasDistance	4 miles
+5	road block nearby	IsTrafficOf	home
+5	4 miles	IsDistanceFrom	home
+6	5677 springer street	HasAddress	5677 springer street
+6	5677 springer street	HasType	certain address
+6	5677 springer street	IsAddressOf	5677 springer street
+6	certain address	IsTypeOf	5677 springer street
+6	5677 springer street	HasTraffic	road block nearby
+6	5677 springer street	HasDistance	5 miles
+6	road block nearby	IsTrafficOf	5677 springer street
+6	5 miles	IsDistanceFrom	5677 springer street
+7	Stanford Childrens Health	HasAddress	899 Ames Ct
+7	Stanford Childrens Health	HasType	hospital
+7	899 Ames Ct	IsAddressOf	Stanford Childrens Health
+7	hospital	IsTypeOf	Stanford Childrens Health
+7	Stanford Childrens Health	HasTraffic	road block nearby
+7	Stanford Childrens Health	HasDistance	4 miles
+7	road block nearby	IsTrafficOf	Stanford Childrens Health
+7	4 miles	IsDistanceFrom	Stanford Childrens Health
+-1	today	IsEqualTo	monday

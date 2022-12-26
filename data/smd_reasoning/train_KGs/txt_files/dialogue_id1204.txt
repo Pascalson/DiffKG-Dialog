@@ -1,0 +1,65 @@
+0	Palo Alto Garage R	HasAddress	481 Amaranta Ave
+0	Palo Alto Garage R	HasType	parking garage
+0	481 Amaranta Ave	IsAddressOf	Palo Alto Garage R
+0	parking garage	IsTypeOf	Palo Alto Garage R
+0	Palo Alto Garage R	HasTraffic	moderate traffic
+0	Palo Alto Garage R	HasDistance	2 miles
+0	moderate traffic	IsTrafficOf	Palo Alto Garage R
+0	2 miles	IsDistanceFrom	Palo Alto Garage R
+1	Safeway	HasAddress	452 Arcadia Pl
+1	Safeway	HasType	grocery store
+1	452 Arcadia Pl	IsAddressOf	Safeway
+1	grocery store	IsTypeOf	Safeway
+1	Safeway	HasTraffic	car collision nearby
+1	Safeway	HasDistance	3 miles
+1	car collision nearby	IsTrafficOf	Safeway
+1	3 miles	IsDistanceFrom	Safeway
+2	toms house	HasAddress	580 Van Ness Ave
+2	toms house	HasType	friends house
+2	580 Van Ness Ave	IsAddressOf	toms house
+2	friends house	IsTypeOf	toms house
+2	toms house	HasTraffic	car collision nearby
+2	toms house	HasDistance	5 miles
+2	car collision nearby	IsTrafficOf	toms house
+2	5 miles	IsDistanceFrom	toms house
+3	Stanford Childrens Health	HasAddress	899 Ames Ct
+3	Stanford Childrens Health	HasType	hospital
+3	899 Ames Ct	IsAddressOf	Stanford Childrens Health
+3	hospital	IsTypeOf	Stanford Childrens Health
+3	Stanford Childrens Health	HasTraffic	heavy traffic
+3	Stanford Childrens Health	HasDistance	2 miles
+3	heavy traffic	IsTrafficOf	Stanford Childrens Health
+3	2 miles	IsDistanceFrom	Stanford Childrens Health
+4	Cafe Venetia	HasAddress	269 Alger Dr
+4	Cafe Venetia	HasType	coffee or tea place
+4	269 Alger Dr	IsAddressOf	Cafe Venetia
+4	coffee or tea place	IsTypeOf	Cafe Venetia
+4	Cafe Venetia	HasTraffic	no traffic
+4	Cafe Venetia	HasDistance	2 miles
+4	no traffic	IsTrafficOf	Cafe Venetia
+4	2 miles	IsDistanceFrom	Cafe Venetia
+5	tai pan	HasAddress	830 Almanor Ln
+5	tai pan	HasType	chinese restaurant
+5	830 Almanor Ln	IsAddressOf	tai pan
+5	chinese restaurant	IsTypeOf	tai pan
+5	tai pan	HasTraffic	road block nearby
+5	tai pan	HasDistance	1 miles
+5	road block nearby	IsTrafficOf	tai pan
+5	1 miles	IsDistanceFrom	tai pan
+6	Town and Country	HasAddress	383 University Ave
+6	Town and Country	HasType	shopping center
+6	383 University Ave	IsAddressOf	Town and Country
+6	shopping center	IsTypeOf	Town and Country
+6	Town and Country	HasTraffic	no traffic
+6	Town and Country	HasDistance	1 miles
+6	no traffic	IsTrafficOf	Town and Country
+6	1 miles	IsDistanceFrom	Town and Country
+7	Palo Alto Cafe	HasAddress	436 Alger Dr
+7	Palo Alto Cafe	HasType	coffee or tea place
+7	436 Alger Dr	IsAddressOf	Palo Alto Cafe
+7	coffee or tea place	IsTypeOf	Palo Alto Cafe
+7	Palo Alto Cafe	HasTraffic	car collision nearby
+7	Palo Alto Cafe	HasDistance	2 miles
+7	car collision nearby	IsTrafficOf	Palo Alto Cafe
+7	2 miles	IsDistanceFrom	Palo Alto Cafe
+-1	today	IsEqualTo	monday

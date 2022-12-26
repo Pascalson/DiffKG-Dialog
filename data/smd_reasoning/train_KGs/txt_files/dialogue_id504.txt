@@ -1,0 +1,57 @@
+0	Civic Center Garage	HasAddress	270 Altaire Walk
+0	Civic Center Garage	HasType	parking garage
+0	270 Altaire Walk	IsAddressOf	Civic Center Garage
+0	parking garage	IsTypeOf	Civic Center Garage
+0	Civic Center Garage	HasTraffic	moderate traffic
+0	Civic Center Garage	HasDistance	3 miles
+0	moderate traffic	IsTrafficOf	Civic Center Garage
+0	3 miles	IsDistanceFrom	Civic Center Garage
+1	Safeway	HasAddress	452 Arcadia Pl
+1	Safeway	HasType	grocery store
+1	452 Arcadia Pl	IsAddressOf	Safeway
+1	grocery store	IsTypeOf	Safeway
+1	Safeway	HasTraffic	moderate traffic
+1	Safeway	HasDistance	2 miles
+1	moderate traffic	IsTrafficOf	Safeway
+1	2 miles	IsDistanceFrom	Safeway
+2	Pizza My Heart	HasAddress	528 Anton Ct
+2	Pizza My Heart	HasType	pizza restaurant
+2	528 Anton Ct	IsAddressOf	Pizza My Heart
+2	pizza restaurant	IsTypeOf	Pizza My Heart
+2	Pizza My Heart	HasTraffic	no traffic
+2	Pizza My Heart	HasDistance	2 miles
+2	no traffic	IsTrafficOf	Pizza My Heart
+2	2 miles	IsDistanceFrom	Pizza My Heart
+3	Palo Alto Garage R	HasAddress	481 Amaranta Ave
+3	Palo Alto Garage R	HasType	parking garage
+3	481 Amaranta Ave	IsAddressOf	Palo Alto Garage R
+3	parking garage	IsTypeOf	Palo Alto Garage R
+3	Palo Alto Garage R	HasTraffic	no traffic
+3	Palo Alto Garage R	HasDistance	3 miles
+3	no traffic	IsTrafficOf	Palo Alto Garage R
+3	3 miles	IsDistanceFrom	Palo Alto Garage R
+4	Stanford Childrens Health	HasAddress	899 Ames Ct
+4	Stanford Childrens Health	HasType	hospital
+4	899 Ames Ct	IsAddressOf	Stanford Childrens Health
+4	hospital	IsTypeOf	Stanford Childrens Health
+4	Stanford Childrens Health	HasTraffic	heavy traffic
+4	Stanford Childrens Health	HasDistance	4 miles
+4	heavy traffic	IsTrafficOf	Stanford Childrens Health
+4	4 miles	IsDistanceFrom	Stanford Childrens Health
+5	home	HasAddress	56 cadwell street
+5	home	HasType	home
+5	56 cadwell street	IsAddressOf	home
+5	home	IsTypeOf	home
+5	home	HasTraffic	no traffic
+5	home	HasDistance	5 miles
+5	no traffic	IsTrafficOf	home
+5	5 miles	IsDistanceFrom	home
+6	Ravenswood Shopping Center	HasAddress	434 Arastradero Rd
+6	Ravenswood Shopping Center	HasType	shopping center
+6	434 Arastradero Rd	IsAddressOf	Ravenswood Shopping Center
+6	shopping center	IsTypeOf	Ravenswood Shopping Center
+6	Ravenswood Shopping Center	HasTraffic	no traffic
+6	Ravenswood Shopping Center	HasDistance	6 miles
+6	no traffic	IsTrafficOf	Ravenswood Shopping Center
+6	6 miles	IsDistanceFrom	Ravenswood Shopping Center
+-1	today	IsEqualTo	monday

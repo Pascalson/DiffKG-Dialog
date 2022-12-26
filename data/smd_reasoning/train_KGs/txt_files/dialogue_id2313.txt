@@ -1,0 +1,57 @@
+0	Stanford Childrens Health	HasAddress	899 Ames Ct
+0	Stanford Childrens Health	HasType	hospital
+0	899 Ames Ct	IsAddressOf	Stanford Childrens Health
+0	hospital	IsTypeOf	Stanford Childrens Health
+0	Stanford Childrens Health	HasTraffic	moderate traffic
+0	Stanford Childrens Health	HasDistance	4 miles
+0	moderate traffic	IsTrafficOf	Stanford Childrens Health
+0	4 miles	IsDistanceFrom	Stanford Childrens Health
+1	tai pan	HasAddress	830 Almanor Ln
+1	tai pan	HasType	chinese restaurant
+1	830 Almanor Ln	IsAddressOf	tai pan
+1	chinese restaurant	IsTypeOf	tai pan
+1	tai pan	HasTraffic	no traffic
+1	tai pan	HasDistance	5 miles
+1	no traffic	IsTrafficOf	tai pan
+1	5 miles	IsDistanceFrom	tai pan
+2	toms house	HasAddress	580 Van Ness Ave
+2	toms house	HasType	friends house
+2	580 Van Ness Ave	IsAddressOf	toms house
+2	friends house	IsTypeOf	toms house
+2	toms house	HasTraffic	moderate traffic
+2	toms house	HasDistance	2 miles
+2	moderate traffic	IsTrafficOf	toms house
+2	2 miles	IsDistanceFrom	toms house
+3	Midtown Shopping Center	HasAddress	338 Alester Ave
+3	Midtown Shopping Center	HasType	shopping center
+3	338 Alester Ave	IsAddressOf	Midtown Shopping Center
+3	shopping center	IsTypeOf	Midtown Shopping Center
+3	Midtown Shopping Center	HasTraffic	no traffic
+3	Midtown Shopping Center	HasDistance	1 miles
+3	no traffic	IsTrafficOf	Midtown Shopping Center
+3	1 miles	IsDistanceFrom	Midtown Shopping Center
+4	jacks house	HasAddress	864 Almanor Ln
+4	jacks house	HasType	friends house
+4	864 Almanor Ln	IsAddressOf	jacks house
+4	friends house	IsTypeOf	jacks house
+4	jacks house	HasTraffic	moderate traffic
+4	jacks house	HasDistance	4 miles
+4	moderate traffic	IsTrafficOf	jacks house
+4	4 miles	IsDistanceFrom	jacks house
+5	Cafe Venetia	HasAddress	269 Alger Dr
+5	Cafe Venetia	HasType	coffee or tea place
+5	269 Alger Dr	IsAddressOf	Cafe Venetia
+5	coffee or tea place	IsTypeOf	Cafe Venetia
+5	Cafe Venetia	HasTraffic	moderate traffic
+5	Cafe Venetia	HasDistance	4 miles
+5	moderate traffic	IsTrafficOf	Cafe Venetia
+5	4 miles	IsDistanceFrom	Cafe Venetia
+6	home	HasAddress	10 ames street
+6	home	HasType	home
+6	10 ames street	IsAddressOf	home
+6	home	IsTypeOf	home
+6	home	HasTraffic	moderate traffic
+6	home	HasDistance	6 miles
+6	moderate traffic	IsTrafficOf	home
+6	6 miles	IsDistanceFrom	home
+-1	today	IsEqualTo	monday

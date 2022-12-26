@@ -1,0 +1,57 @@
+0	home	HasAddress	56 cadwell street
+0	home	HasType	home
+0	56 cadwell street	IsAddressOf	home
+0	home	IsTypeOf	home
+0	home	HasTraffic	moderate traffic
+0	home	HasDistance	1 miles
+0	moderate traffic	IsTrafficOf	home
+0	1 miles	IsDistanceFrom	home
+1	Panda Express	HasAddress	842 Arrowhead Way
+1	Panda Express	HasType	chinese restaurant
+1	842 Arrowhead Way	IsAddressOf	Panda Express
+1	chinese restaurant	IsTypeOf	Panda Express
+1	Panda Express	HasTraffic	no traffic
+1	Panda Express	HasDistance	2 miles
+1	no traffic	IsTrafficOf	Panda Express
+1	2 miles	IsDistanceFrom	Panda Express
+2	Mandarin Roots	HasAddress	271 Springer Street
+2	Mandarin Roots	HasType	chinese restaurant
+2	271 Springer Street	IsAddressOf	Mandarin Roots
+2	chinese restaurant	IsTypeOf	Mandarin Roots
+2	Mandarin Roots	HasTraffic	moderate traffic
+2	Mandarin Roots	HasDistance	4 miles
+2	moderate traffic	IsTrafficOf	Mandarin Roots
+2	4 miles	IsDistanceFrom	Mandarin Roots
+3	P.F. Changs	HasAddress	669 El Camino Real
+3	P.F. Changs	HasType	chinese restaurant
+3	669 El Camino Real	IsAddressOf	P.F. Changs
+3	chinese restaurant	IsTypeOf	P.F. Changs
+3	P.F. Changs	HasTraffic	moderate traffic
+3	P.F. Changs	HasDistance	5 miles
+3	moderate traffic	IsTrafficOf	P.F. Changs
+3	5 miles	IsDistanceFrom	P.F. Changs
+4	Palo Alto Garage R	HasAddress	481 Amaranta Ave
+4	Palo Alto Garage R	HasType	parking garage
+4	481 Amaranta Ave	IsAddressOf	Palo Alto Garage R
+4	parking garage	IsTypeOf	Palo Alto Garage R
+4	Palo Alto Garage R	HasTraffic	moderate traffic
+4	Palo Alto Garage R	HasDistance	2 miles
+4	moderate traffic	IsTrafficOf	Palo Alto Garage R
+4	2 miles	IsDistanceFrom	Palo Alto Garage R
+5	Pizza My Heart	HasAddress	528 Anton Ct
+5	Pizza My Heart	HasType	pizza restaurant
+5	528 Anton Ct	IsAddressOf	Pizza My Heart
+5	pizza restaurant	IsTypeOf	Pizza My Heart
+5	Pizza My Heart	HasTraffic	no traffic
+5	Pizza My Heart	HasDistance	3 miles
+5	no traffic	IsTrafficOf	Pizza My Heart
+5	3 miles	IsDistanceFrom	Pizza My Heart
+6	Dish Parking	HasAddress	550 Alester Ave
+6	Dish Parking	HasType	parking garage
+6	550 Alester Ave	IsAddressOf	Dish Parking
+6	parking garage	IsTypeOf	Dish Parking
+6	Dish Parking	HasTraffic	no traffic
+6	Dish Parking	HasDistance	6 miles
+6	no traffic	IsTrafficOf	Dish Parking
+6	6 miles	IsDistanceFrom	Dish Parking
+-1	today	IsEqualTo	monday

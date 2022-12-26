@@ -1,0 +1,57 @@
+0	Stanford Oval Parking	HasAddress	610 Amarillo Ave
+0	Stanford Oval Parking	HasType	parking garage
+0	610 Amarillo Ave	IsAddressOf	Stanford Oval Parking
+0	parking garage	IsTypeOf	Stanford Oval Parking
+0	Stanford Oval Parking	HasTraffic	moderate traffic
+0	Stanford Oval Parking	HasDistance	4 miles
+0	moderate traffic	IsTrafficOf	Stanford Oval Parking
+0	4 miles	IsDistanceFrom	Stanford Oval Parking
+1	Stanford Shopping Center	HasAddress	773 Alger Dr
+1	Stanford Shopping Center	HasType	shopping center
+1	773 Alger Dr	IsAddressOf	Stanford Shopping Center
+1	shopping center	IsTypeOf	Stanford Shopping Center
+1	Stanford Shopping Center	HasTraffic	heavy traffic
+1	Stanford Shopping Center	HasDistance	2 miles
+1	heavy traffic	IsTrafficOf	Stanford Shopping Center
+1	2 miles	IsDistanceFrom	Stanford Shopping Center
+2	Chef Chu's	HasAddress	593 Arrowhead Way
+2	Chef Chu's	HasType	chinese restaurant
+2	593 Arrowhead Way	IsAddressOf	Chef Chu's
+2	chinese restaurant	IsTypeOf	Chef Chu's
+2	Chef Chu's	HasTraffic	heavy traffic
+2	Chef Chu's	HasDistance	3 miles
+2	heavy traffic	IsTrafficOf	Chef Chu's
+2	3 miles	IsDistanceFrom	Chef Chu's
+3	Valero	HasAddress	200 Alester Ave
+3	Valero	HasType	gas station
+3	200 Alester Ave	IsAddressOf	Valero
+3	gas station	IsTypeOf	Valero
+3	Valero	HasTraffic	no traffic
+3	Valero	HasDistance	3 miles
+3	no traffic	IsTrafficOf	Valero
+3	3 miles	IsDistanceFrom	Valero
+4	Pizza My Heart	HasAddress	528 Anton Ct
+4	Pizza My Heart	HasType	pizza restaurant
+4	528 Anton Ct	IsAddressOf	Pizza My Heart
+4	pizza restaurant	IsTypeOf	Pizza My Heart
+4	Pizza My Heart	HasTraffic	no traffic
+4	Pizza My Heart	HasDistance	2 miles
+4	no traffic	IsTrafficOf	Pizza My Heart
+4	2 miles	IsDistanceFrom	Pizza My Heart
+5	Starbucks	HasAddress	792 Bedoin Street
+5	Starbucks	HasType	coffee or tea place
+5	792 Bedoin Street	IsAddressOf	Starbucks
+5	coffee or tea place	IsTypeOf	Starbucks
+5	Starbucks	HasTraffic	moderate traffic
+5	Starbucks	HasDistance	1 miles
+5	moderate traffic	IsTrafficOf	Starbucks
+5	1 miles	IsDistanceFrom	Starbucks
+6	Palo Alto Cafe	HasAddress	436 Alger Dr
+6	Palo Alto Cafe	HasType	coffee or tea place
+6	436 Alger Dr	IsAddressOf	Palo Alto Cafe
+6	coffee or tea place	IsTypeOf	Palo Alto Cafe
+6	Palo Alto Cafe	HasTraffic	moderate traffic
+6	Palo Alto Cafe	HasDistance	1 miles
+6	moderate traffic	IsTrafficOf	Palo Alto Cafe
+6	1 miles	IsDistanceFrom	Palo Alto Cafe
+-1	today	IsEqualTo	monday

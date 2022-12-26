@@ -1,0 +1,57 @@
+0	home	HasAddress	5671 barringer street
+0	home	HasType	home
+0	5671 barringer street	IsAddressOf	home
+0	home	IsTypeOf	home
+0	home	HasTraffic	heavy traffic
+0	home	HasDistance	4 miles
+0	heavy traffic	IsTrafficOf	home
+0	4 miles	IsDistanceFrom	home
+1	P.F. Changs	HasAddress	669 El Camino Real
+1	P.F. Changs	HasType	chinese restaurant
+1	669 El Camino Real	IsAddressOf	P.F. Changs
+1	chinese restaurant	IsTypeOf	P.F. Changs
+1	P.F. Changs	HasTraffic	moderate traffic
+1	P.F. Changs	HasDistance	6 miles
+1	moderate traffic	IsTrafficOf	P.F. Changs
+1	6 miles	IsDistanceFrom	P.F. Changs
+2	Palo Alto Cafe	HasAddress	436 Alger Dr
+2	Palo Alto Cafe	HasType	coffee or tea place
+2	436 Alger Dr	IsAddressOf	Palo Alto Cafe
+2	coffee or tea place	IsTypeOf	Palo Alto Cafe
+2	Palo Alto Cafe	HasTraffic	no traffic
+2	Palo Alto Cafe	HasDistance	5 miles
+2	no traffic	IsTrafficOf	Palo Alto Cafe
+2	5 miles	IsDistanceFrom	Palo Alto Cafe
+3	Safeway	HasAddress	452 Arcadia Pl
+3	Safeway	HasType	grocery store
+3	452 Arcadia Pl	IsAddressOf	Safeway
+3	grocery store	IsTypeOf	Safeway
+3	Safeway	HasTraffic	moderate traffic
+3	Safeway	HasDistance	4 miles
+3	moderate traffic	IsTrafficOf	Safeway
+3	4 miles	IsDistanceFrom	Safeway
+4	Whole Foods	HasAddress	819 Alma St
+4	Whole Foods	HasType	grocery store
+4	819 Alma St	IsAddressOf	Whole Foods
+4	grocery store	IsTypeOf	Whole Foods
+4	Whole Foods	HasTraffic	heavy traffic
+4	Whole Foods	HasDistance	2 miles
+4	heavy traffic	IsTrafficOf	Whole Foods
+4	2 miles	IsDistanceFrom	Whole Foods
+5	Ravenswood Shopping Center	HasAddress	434 Arastradero Rd
+5	Ravenswood Shopping Center	HasType	shopping center
+5	434 Arastradero Rd	IsAddressOf	Ravenswood Shopping Center
+5	shopping center	IsTypeOf	Ravenswood Shopping Center
+5	Ravenswood Shopping Center	HasTraffic	heavy traffic
+5	Ravenswood Shopping Center	HasDistance	4 miles
+5	heavy traffic	IsTrafficOf	Ravenswood Shopping Center
+5	4 miles	IsDistanceFrom	Ravenswood Shopping Center
+6	Stanford Express Care	HasAddress	214 El Camino Real
+6	Stanford Express Care	HasType	hospital
+6	214 El Camino Real	IsAddressOf	Stanford Express Care
+6	hospital	IsTypeOf	Stanford Express Care
+6	Stanford Express Care	HasTraffic	no traffic
+6	Stanford Express Care	HasDistance	3 miles
+6	no traffic	IsTrafficOf	Stanford Express Care
+6	3 miles	IsDistanceFrom	Stanford Express Care
+-1	today	IsEqualTo	monday

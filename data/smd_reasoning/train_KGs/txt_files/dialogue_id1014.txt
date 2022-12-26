@@ -1,0 +1,65 @@
+0	Chevron	HasAddress	783 Arcadia Pl
+0	Chevron	HasType	gas station
+0	783 Arcadia Pl	IsAddressOf	Chevron
+0	gas station	IsTypeOf	Chevron
+0	Chevron	HasTraffic	no traffic
+0	Chevron	HasDistance	6 miles
+0	no traffic	IsTrafficOf	Chevron
+0	6 miles	IsDistanceFrom	Chevron
+1	Panda Express	HasAddress	842 Arrowhead Way
+1	Panda Express	HasType	chinese restaurant
+1	842 Arrowhead Way	IsAddressOf	Panda Express
+1	chinese restaurant	IsTypeOf	Panda Express
+1	Panda Express	HasTraffic	car collision nearby
+1	Panda Express	HasDistance	3 miles
+1	car collision nearby	IsTrafficOf	Panda Express
+1	3 miles	IsDistanceFrom	Panda Express
+2	Coupa	HasAddress	394 Van Ness Ave
+2	Coupa	HasType	coffee or tea place
+2	394 Van Ness Ave	IsAddressOf	Coupa
+2	coffee or tea place	IsTypeOf	Coupa
+2	Coupa	HasTraffic	moderate traffic
+2	Coupa	HasDistance	6 miles
+2	moderate traffic	IsTrafficOf	Coupa
+2	6 miles	IsDistanceFrom	Coupa
+3	Jing Jing	HasAddress	113 Arbol Dr
+3	Jing Jing	HasType	chinese restaurant
+3	113 Arbol Dr	IsAddressOf	Jing Jing
+3	chinese restaurant	IsTypeOf	Jing Jing
+3	Jing Jing	HasTraffic	heavy traffic
+3	Jing Jing	HasDistance	4 miles
+3	heavy traffic	IsTrafficOf	Jing Jing
+3	4 miles	IsDistanceFrom	Jing Jing
+4	Teavana	HasAddress	145 Amherst St
+4	Teavana	HasType	coffee or tea place
+4	145 Amherst St	IsAddressOf	Teavana
+4	coffee or tea place	IsTypeOf	Teavana
+4	Teavana	HasTraffic	car collision nearby
+4	Teavana	HasDistance	6 miles
+4	car collision nearby	IsTrafficOf	Teavana
+4	6 miles	IsDistanceFrom	Teavana
+5	Topanga Mall	HasAddress	171 Oak Rd
+5	Topanga Mall	HasType	shopping center
+5	171 Oak Rd	IsAddressOf	Topanga Mall
+5	shopping center	IsTypeOf	Topanga Mall
+5	Topanga Mall	HasTraffic	heavy traffic
+5	Topanga Mall	HasDistance	3 miles
+5	heavy traffic	IsTrafficOf	Topanga Mall
+5	3 miles	IsDistanceFrom	Topanga Mall
+6	5677 southwest 4th street	HasAddress	5677 southwest 4th street
+6	5677 southwest 4th street	HasType	certain address
+6	5677 southwest 4th street	IsAddressOf	5677 southwest 4th street
+6	certain address	IsTypeOf	5677 southwest 4th street
+6	5677 southwest 4th street	HasTraffic	no traffic
+6	5677 southwest 4th street	HasDistance	2 miles
+6	no traffic	IsTrafficOf	5677 southwest 4th street
+6	2 miles	IsDistanceFrom	5677 southwest 4th street
+7	Sigona Farmers Market	HasAddress	638 Amherst St
+7	Sigona Farmers Market	HasType	grocery store
+7	638 Amherst St	IsAddressOf	Sigona Farmers Market
+7	grocery store	IsTypeOf	Sigona Farmers Market
+7	Sigona Farmers Market	HasTraffic	heavy traffic
+7	Sigona Farmers Market	HasDistance	4 miles
+7	heavy traffic	IsTrafficOf	Sigona Farmers Market
+7	4 miles	IsDistanceFrom	Sigona Farmers Market
+-1	today	IsEqualTo	monday

@@ -1,0 +1,57 @@
+0	Stanford Oval Parking	HasAddress	610 Amarillo Ave
+0	Stanford Oval Parking	HasType	parking garage
+0	610 Amarillo Ave	IsAddressOf	Stanford Oval Parking
+0	parking garage	IsTypeOf	Stanford Oval Parking
+0	Stanford Oval Parking	HasTraffic	moderate traffic
+0	Stanford Oval Parking	HasDistance	4 miles
+0	moderate traffic	IsTrafficOf	Stanford Oval Parking
+0	4 miles	IsDistanceFrom	Stanford Oval Parking
+1	Comfort Inn	HasAddress	753 University Ave
+1	Comfort Inn	HasType	rest stop
+1	753 University Ave	IsAddressOf	Comfort Inn
+1	rest stop	IsTypeOf	Comfort Inn
+1	Comfort Inn	HasTraffic	no traffic
+1	Comfort Inn	HasDistance	6 miles
+1	no traffic	IsTrafficOf	Comfort Inn
+1	6 miles	IsDistanceFrom	Comfort Inn
+2	Whole Foods	HasAddress	819 Alma St
+2	Whole Foods	HasType	grocery store
+2	819 Alma St	IsAddressOf	Whole Foods
+2	grocery store	IsTypeOf	Whole Foods
+2	Whole Foods	HasTraffic	no traffic
+2	Whole Foods	HasDistance	4 miles
+2	no traffic	IsTrafficOf	Whole Foods
+2	4 miles	IsDistanceFrom	Whole Foods
+3	Coupa	HasAddress	394 Van Ness Ave
+3	Coupa	HasType	coffee or tea place
+3	394 Van Ness Ave	IsAddressOf	Coupa
+3	coffee or tea place	IsTypeOf	Coupa
+3	Coupa	HasTraffic	heavy traffic
+3	Coupa	HasDistance	3 miles
+3	heavy traffic	IsTrafficOf	Coupa
+3	3 miles	IsDistanceFrom	Coupa
+4	5677 southwest 4th street	HasAddress	5677 southwest 4th street
+4	5677 southwest 4th street	HasType	certain address
+4	5677 southwest 4th street	IsAddressOf	5677 southwest 4th street
+4	certain address	IsTypeOf	5677 southwest 4th street
+4	5677 southwest 4th street	HasTraffic	heavy traffic
+4	5677 southwest 4th street	HasDistance	2 miles
+4	heavy traffic	IsTrafficOf	5677 southwest 4th street
+4	2 miles	IsDistanceFrom	5677 southwest 4th street
+5	Chef Chu's	HasAddress	593 Arrowhead Way
+5	Chef Chu's	HasType	chinese restaurant
+5	593 Arrowhead Way	IsAddressOf	Chef Chu's
+5	chinese restaurant	IsTypeOf	Chef Chu's
+5	Chef Chu's	HasTraffic	moderate traffic
+5	Chef Chu's	HasDistance	4 miles
+5	moderate traffic	IsTrafficOf	Chef Chu's
+5	4 miles	IsDistanceFrom	Chef Chu's
+6	toms house	HasAddress	580 Van Ness Ave
+6	toms house	HasType	friends house
+6	580 Van Ness Ave	IsAddressOf	toms house
+6	friends house	IsTypeOf	toms house
+6	toms house	HasTraffic	heavy traffic
+6	toms house	HasDistance	1 miles
+6	heavy traffic	IsTrafficOf	toms house
+6	1 miles	IsDistanceFrom	toms house
+-1	today	IsEqualTo	monday

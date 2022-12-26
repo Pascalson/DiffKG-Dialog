@@ -1,0 +1,65 @@
+0	home	HasAddress	10 ames street
+0	home	HasType	home
+0	10 ames street	IsAddressOf	home
+0	home	IsTypeOf	home
+0	home	HasTraffic	car collision nearby
+0	home	HasDistance	6 miles
+0	car collision nearby	IsTrafficOf	home
+0	6 miles	IsDistanceFrom	home
+1	Shell	HasAddress	53 University Av
+1	Shell	HasType	gas station
+1	53 University Av	IsAddressOf	Shell
+1	gas station	IsTypeOf	Shell
+1	Shell	HasTraffic	heavy traffic
+1	Shell	HasDistance	5 miles
+1	heavy traffic	IsTrafficOf	Shell
+1	5 miles	IsDistanceFrom	Shell
+2	Whole Foods	HasAddress	819 Alma St
+2	Whole Foods	HasType	grocery store
+2	819 Alma St	IsAddressOf	Whole Foods
+2	grocery store	IsTypeOf	Whole Foods
+2	Whole Foods	HasTraffic	heavy traffic
+2	Whole Foods	HasDistance	4 miles
+2	heavy traffic	IsTrafficOf	Whole Foods
+2	4 miles	IsDistanceFrom	Whole Foods
+3	Papa Johns	HasAddress	110 Arastradero Rd
+3	Papa Johns	HasType	pizza restaurant
+3	110 Arastradero Rd	IsAddressOf	Papa Johns
+3	pizza restaurant	IsTypeOf	Papa Johns
+3	Papa Johns	HasTraffic	heavy traffic
+3	Papa Johns	HasDistance	4 miles
+3	heavy traffic	IsTrafficOf	Papa Johns
+3	4 miles	IsDistanceFrom	Papa Johns
+4	76	HasAddress	91 El Camino Real
+4	76	HasType	gas station
+4	91 El Camino Real	IsAddressOf	76
+4	gas station	IsTypeOf	76
+4	76	HasTraffic	heavy traffic
+4	76	HasDistance	1 miles
+4	heavy traffic	IsTrafficOf	76
+4	1 miles	IsDistanceFrom	76
+5	Stanford Express Care	HasAddress	214 El Camino Real
+5	Stanford Express Care	HasType	hospital
+5	214 El Camino Real	IsAddressOf	Stanford Express Care
+5	hospital	IsTypeOf	Stanford Express Care
+5	Stanford Express Care	HasTraffic	moderate traffic
+5	Stanford Express Care	HasDistance	3 miles
+5	moderate traffic	IsTrafficOf	Stanford Express Care
+5	3 miles	IsDistanceFrom	Stanford Express Care
+6	Pizza Hut	HasAddress	704 El Camino Real
+6	Pizza Hut	HasType	pizza restaurant
+6	704 El Camino Real	IsAddressOf	Pizza Hut
+6	pizza restaurant	IsTypeOf	Pizza Hut
+6	Pizza Hut	HasTraffic	heavy traffic
+6	Pizza Hut	HasDistance	4 miles
+6	heavy traffic	IsTrafficOf	Pizza Hut
+6	4 miles	IsDistanceFrom	Pizza Hut
+7	Teavana	HasAddress	145 Amherst St
+7	Teavana	HasType	coffee or tea place
+7	145 Amherst St	IsAddressOf	Teavana
+7	coffee or tea place	IsTypeOf	Teavana
+7	Teavana	HasTraffic	heavy traffic
+7	Teavana	HasDistance	3 miles
+7	heavy traffic	IsTrafficOf	Teavana
+7	3 miles	IsDistanceFrom	Teavana
+-1	today	IsEqualTo	monday

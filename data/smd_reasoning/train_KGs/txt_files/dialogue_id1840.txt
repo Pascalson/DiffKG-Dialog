@@ -1,0 +1,57 @@
+0	Pizza Chicago	HasAddress	915 Arbol Dr
+0	Pizza Chicago	HasType	pizza restaurant
+0	915 Arbol Dr	IsAddressOf	Pizza Chicago
+0	pizza restaurant	IsTypeOf	Pizza Chicago
+0	Pizza Chicago	HasTraffic	no traffic
+0	Pizza Chicago	HasDistance	5 miles
+0	no traffic	IsTrafficOf	Pizza Chicago
+0	5 miles	IsDistanceFrom	Pizza Chicago
+1	Cafe Venetia	HasAddress	269 Alger Dr
+1	Cafe Venetia	HasType	coffee or tea place
+1	269 Alger Dr	IsAddressOf	Cafe Venetia
+1	coffee or tea place	IsTypeOf	Cafe Venetia
+1	Cafe Venetia	HasTraffic	no traffic
+1	Cafe Venetia	HasDistance	5 miles
+1	no traffic	IsTrafficOf	Cafe Venetia
+1	5 miles	IsDistanceFrom	Cafe Venetia
+2	5672 barringer street	HasAddress	5672 barringer street
+2	5672 barringer street	HasType	certain address
+2	5672 barringer street	IsAddressOf	5672 barringer street
+2	certain address	IsTypeOf	5672 barringer street
+2	5672 barringer street	HasTraffic	heavy traffic
+2	5672 barringer street	HasDistance	6 miles
+2	heavy traffic	IsTrafficOf	5672 barringer street
+2	6 miles	IsDistanceFrom	5672 barringer street
+3	Sigona Farmers Market	HasAddress	638 Amherst St
+3	Sigona Farmers Market	HasType	grocery store
+3	638 Amherst St	IsAddressOf	Sigona Farmers Market
+3	grocery store	IsTypeOf	Sigona Farmers Market
+3	Sigona Farmers Market	HasTraffic	heavy traffic
+3	Sigona Farmers Market	HasDistance	6 miles
+3	heavy traffic	IsTrafficOf	Sigona Farmers Market
+3	6 miles	IsDistanceFrom	Sigona Farmers Market
+4	Safeway	HasAddress	452 Arcadia Pl
+4	Safeway	HasType	grocery store
+4	452 Arcadia Pl	IsAddressOf	Safeway
+4	grocery store	IsTypeOf	Safeway
+4	Safeway	HasTraffic	heavy traffic
+4	Safeway	HasDistance	1 miles
+4	heavy traffic	IsTrafficOf	Safeway
+4	1 miles	IsDistanceFrom	Safeway
+5	Comfort Inn	HasAddress	753 University Ave
+5	Comfort Inn	HasType	rest stop
+5	753 University Ave	IsAddressOf	Comfort Inn
+5	rest stop	IsTypeOf	Comfort Inn
+5	Comfort Inn	HasTraffic	heavy traffic
+5	Comfort Inn	HasDistance	3 miles
+5	heavy traffic	IsTrafficOf	Comfort Inn
+5	3 miles	IsDistanceFrom	Comfort Inn
+6	home	HasAddress	10 ames street
+6	home	HasType	home
+6	10 ames street	IsAddressOf	home
+6	home	IsTypeOf	home
+6	home	HasTraffic	moderate traffic
+6	home	HasDistance	2 miles
+6	moderate traffic	IsTrafficOf	home
+6	2 miles	IsDistanceFrom	home
+-1	today	IsEqualTo	monday

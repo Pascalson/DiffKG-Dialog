@@ -1,0 +1,57 @@
+0	Stanford Oval Parking	HasAddress	610 Amarillo Ave
+0	Stanford Oval Parking	HasType	parking garage
+0	610 Amarillo Ave	IsAddressOf	Stanford Oval Parking
+0	parking garage	IsTypeOf	Stanford Oval Parking
+0	Stanford Oval Parking	HasTraffic	heavy traffic
+0	Stanford Oval Parking	HasDistance	5 miles
+0	heavy traffic	IsTrafficOf	Stanford Oval Parking
+0	5 miles	IsDistanceFrom	Stanford Oval Parking
+1	home	HasAddress	10 ames street
+1	home	HasType	home
+1	10 ames street	IsAddressOf	home
+1	home	IsTypeOf	home
+1	home	HasTraffic	heavy traffic
+1	home	HasDistance	2 miles
+1	heavy traffic	IsTrafficOf	home
+1	2 miles	IsDistanceFrom	home
+2	Dominos	HasAddress	776 Arastradero Rd
+2	Dominos	HasType	pizza restaurant
+2	776 Arastradero Rd	IsAddressOf	Dominos
+2	pizza restaurant	IsTypeOf	Dominos
+2	Dominos	HasTraffic	heavy traffic
+2	Dominos	HasDistance	6 miles
+2	heavy traffic	IsTrafficOf	Dominos
+2	6 miles	IsDistanceFrom	Dominos
+3	Four Seasons	HasAddress	465 Arcadia Pl
+3	Four Seasons	HasType	rest stop
+3	465 Arcadia Pl	IsAddressOf	Four Seasons
+3	rest stop	IsTypeOf	Four Seasons
+3	Four Seasons	HasTraffic	no traffic
+3	Four Seasons	HasDistance	3 miles
+3	no traffic	IsTrafficOf	Four Seasons
+3	3 miles	IsDistanceFrom	Four Seasons
+4	Teavana	HasAddress	145 Amherst St
+4	Teavana	HasType	coffee or tea place
+4	145 Amherst St	IsAddressOf	Teavana
+4	coffee or tea place	IsTypeOf	Teavana
+4	Teavana	HasTraffic	heavy traffic
+4	Teavana	HasDistance	2 miles
+4	heavy traffic	IsTrafficOf	Teavana
+4	2 miles	IsDistanceFrom	Teavana
+5	tai pan	HasAddress	830 Almanor Ln
+5	tai pan	HasType	chinese restaurant
+5	830 Almanor Ln	IsAddressOf	tai pan
+5	chinese restaurant	IsTypeOf	tai pan
+5	tai pan	HasTraffic	moderate traffic
+5	tai pan	HasDistance	1 miles
+5	moderate traffic	IsTrafficOf	tai pan
+5	1 miles	IsDistanceFrom	tai pan
+6	toms house	HasAddress	580 Van Ness Ave
+6	toms house	HasType	friends house
+6	580 Van Ness Ave	IsAddressOf	toms house
+6	friends house	IsTypeOf	toms house
+6	toms house	HasTraffic	moderate traffic
+6	toms house	HasDistance	2 miles
+6	moderate traffic	IsTrafficOf	toms house
+6	2 miles	IsDistanceFrom	toms house
+-1	today	IsEqualTo	monday

@@ -1,0 +1,65 @@
+0	Starbucks	HasAddress	792 Bedoin Street
+0	Starbucks	HasType	coffee or tea place
+0	792 Bedoin Street	IsAddressOf	Starbucks
+0	coffee or tea place	IsTypeOf	Starbucks
+0	Starbucks	HasTraffic	heavy traffic
+0	Starbucks	HasDistance	1 miles
+0	heavy traffic	IsTrafficOf	Starbucks
+0	1 miles	IsDistanceFrom	Starbucks
+1	Stanford Childrens Health	HasAddress	899 Ames Ct
+1	Stanford Childrens Health	HasType	hospital
+1	899 Ames Ct	IsAddressOf	Stanford Childrens Health
+1	hospital	IsTypeOf	Stanford Childrens Health
+1	Stanford Childrens Health	HasTraffic	road block nearby
+1	Stanford Childrens Health	HasDistance	4 miles
+1	road block nearby	IsTrafficOf	Stanford Childrens Health
+1	4 miles	IsDistanceFrom	Stanford Childrens Health
+2	Dish Parking	HasAddress	550 Alester Ave
+2	Dish Parking	HasType	parking garage
+2	550 Alester Ave	IsAddressOf	Dish Parking
+2	parking garage	IsTypeOf	Dish Parking
+2	Dish Parking	HasTraffic	no traffic
+2	Dish Parking	HasDistance	3 miles
+2	no traffic	IsTrafficOf	Dish Parking
+2	3 miles	IsDistanceFrom	Dish Parking
+3	Philz	HasAddress	583 Alester Ave
+3	Philz	HasType	coffee or tea place
+3	583 Alester Ave	IsAddressOf	Philz
+3	coffee or tea place	IsTypeOf	Philz
+3	Philz	HasTraffic	moderate traffic
+3	Philz	HasDistance	3 miles
+3	moderate traffic	IsTrafficOf	Philz
+3	3 miles	IsDistanceFrom	Philz
+4	Dominos	HasAddress	776 Arastradero Rd
+4	Dominos	HasType	pizza restaurant
+4	776 Arastradero Rd	IsAddressOf	Dominos
+4	pizza restaurant	IsTypeOf	Dominos
+4	Dominos	HasTraffic	moderate traffic
+4	Dominos	HasDistance	4 miles
+4	moderate traffic	IsTrafficOf	Dominos
+4	4 miles	IsDistanceFrom	Dominos
+5	home	HasAddress	10 ames street
+5	home	HasType	home
+5	10 ames street	IsAddressOf	home
+5	home	IsTypeOf	home
+5	home	HasTraffic	no traffic
+5	home	HasDistance	6 miles
+5	no traffic	IsTrafficOf	home
+5	6 miles	IsDistanceFrom	home
+6	Panda Express	HasAddress	842 Arrowhead Way
+6	Panda Express	HasType	chinese restaurant
+6	842 Arrowhead Way	IsAddressOf	Panda Express
+6	chinese restaurant	IsTypeOf	Panda Express
+6	Panda Express	HasTraffic	heavy traffic
+6	Panda Express	HasDistance	2 miles
+6	heavy traffic	IsTrafficOf	Panda Express
+6	2 miles	IsDistanceFrom	Panda Express
+7	Palo Alto Medical Foundation	HasAddress	611 Ames Ave
+7	Palo Alto Medical Foundation	HasType	hospital
+7	611 Ames Ave	IsAddressOf	Palo Alto Medical Foundation
+7	hospital	IsTypeOf	Palo Alto Medical Foundation
+7	Palo Alto Medical Foundation	HasTraffic	heavy traffic
+7	Palo Alto Medical Foundation	HasDistance	2 miles
+7	heavy traffic	IsTrafficOf	Palo Alto Medical Foundation
+7	2 miles	IsDistanceFrom	Palo Alto Medical Foundation
+-1	today	IsEqualTo	monday

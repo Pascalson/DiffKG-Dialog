@@ -1,0 +1,41 @@
+0	yoga activity	HasTime	9am
+0	9am	IsTimeOf	yoga activity
+0	yoga activity	HasDate	thursday
+0	thursday	IsDateOf	yoga activity
+0	yoga activity	HasParty	aunt
+0	aunt	IsPartyOf	yoga activity
+1	meeting	HasTime	7pm
+1	7pm	IsTimeOf	meeting
+1	meeting	HasDate	friday
+1	friday	IsDateOf	meeting
+1	meeting	HasParty	sales team
+1	sales team	IsPartyOf	meeting
+1	meeting	HasRoom	conference room 100
+1	conference room 100	IsRoomOf	meeting
+1	meeting	HasAgenda	discuss dress code
+1	discuss dress code	IsAgendaOf	meeting
+2	doctor appointment	HasTime	1pm
+2	1pm	IsTimeOf	doctor appointment
+2	doctor appointment	HasDate	sunday
+2	sunday	IsDateOf	doctor appointment
+2	doctor appointment	HasParty	aunt
+2	aunt	IsPartyOf	doctor appointment
+3	dentist appointment	HasTime	9am
+3	9am	IsTimeOf	dentist appointment
+3	dentist appointment	HasDate	the 5th
+3	the 5th	IsDateOf	dentist appointment
+3	dentist appointment	HasParty	sister
+3	sister	IsPartyOf	dentist appointment
+4	taking medicine	HasTime	4pm
+4	4pm	IsTimeOf	taking medicine
+4	taking medicine	HasDate	the 13th
+4	the 13th	IsDateOf	taking medicine
+4	taking medicine	HasParty	aunt
+4	aunt	IsPartyOf	taking medicine
+5	dinner	HasTime	7pm
+5	7pm	IsTimeOf	dinner
+5	dinner	HasDate	monday
+5	monday	IsDateOf	dinner
+5	dinner	HasParty	sister
+5	sister	IsPartyOf	dinner
+-1	today	IsEqualTo	monday

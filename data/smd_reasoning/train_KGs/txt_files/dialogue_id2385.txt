@@ -1,0 +1,57 @@
+0	Panda Express	HasAddress	842 Arrowhead Way
+0	Panda Express	HasType	chinese restaurant
+0	842 Arrowhead Way	IsAddressOf	Panda Express
+0	chinese restaurant	IsTypeOf	Panda Express
+0	Panda Express	HasTraffic	heavy traffic
+0	Panda Express	HasDistance	3 miles
+0	heavy traffic	IsTrafficOf	Panda Express
+0	3 miles	IsDistanceFrom	Panda Express
+1	Palo Alto Medical Foundation	HasAddress	611 Ames Ave
+1	Palo Alto Medical Foundation	HasType	hospital
+1	611 Ames Ave	IsAddressOf	Palo Alto Medical Foundation
+1	hospital	IsTypeOf	Palo Alto Medical Foundation
+1	Palo Alto Medical Foundation	HasTraffic	moderate traffic
+1	Palo Alto Medical Foundation	HasDistance	2 miles
+1	moderate traffic	IsTrafficOf	Palo Alto Medical Foundation
+1	2 miles	IsDistanceFrom	Palo Alto Medical Foundation
+2	The Clement Hotel	HasAddress	657 Ames Ave
+2	The Clement Hotel	HasType	rest stop
+2	657 Ames Ave	IsAddressOf	The Clement Hotel
+2	rest stop	IsTypeOf	The Clement Hotel
+2	The Clement Hotel	HasTraffic	heavy traffic
+2	The Clement Hotel	HasDistance	6 miles
+2	heavy traffic	IsTrafficOf	The Clement Hotel
+2	6 miles	IsDistanceFrom	The Clement Hotel
+3	jacks house	HasAddress	864 Almanor Ln
+3	jacks house	HasType	friends house
+3	864 Almanor Ln	IsAddressOf	jacks house
+3	friends house	IsTypeOf	jacks house
+3	jacks house	HasTraffic	no traffic
+3	jacks house	HasDistance	1 miles
+3	no traffic	IsTrafficOf	jacks house
+3	1 miles	IsDistanceFrom	jacks house
+4	Ravenswood Shopping Center	HasAddress	434 Arastradero Rd
+4	Ravenswood Shopping Center	HasType	shopping center
+4	434 Arastradero Rd	IsAddressOf	Ravenswood Shopping Center
+4	shopping center	IsTypeOf	Ravenswood Shopping Center
+4	Ravenswood Shopping Center	HasTraffic	heavy traffic
+4	Ravenswood Shopping Center	HasDistance	3 miles
+4	heavy traffic	IsTrafficOf	Ravenswood Shopping Center
+4	3 miles	IsDistanceFrom	Ravenswood Shopping Center
+5	Pizza Hut	HasAddress	704 El Camino Real
+5	Pizza Hut	HasType	pizza restaurant
+5	704 El Camino Real	IsAddressOf	Pizza Hut
+5	pizza restaurant	IsTypeOf	Pizza Hut
+5	Pizza Hut	HasTraffic	heavy traffic
+5	Pizza Hut	HasDistance	2 miles
+5	heavy traffic	IsTrafficOf	Pizza Hut
+5	2 miles	IsDistanceFrom	Pizza Hut
+6	Stanford Shopping Center	HasAddress	773 Alger Dr
+6	Stanford Shopping Center	HasType	shopping center
+6	773 Alger Dr	IsAddressOf	Stanford Shopping Center
+6	shopping center	IsTypeOf	Stanford Shopping Center
+6	Stanford Shopping Center	HasTraffic	moderate traffic
+6	Stanford Shopping Center	HasDistance	3 miles
+6	moderate traffic	IsTrafficOf	Stanford Shopping Center
+6	3 miles	IsDistanceFrom	Stanford Shopping Center
+-1	today	IsEqualTo	monday

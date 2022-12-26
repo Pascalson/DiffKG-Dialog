@@ -1,0 +1,65 @@
+0	Valero	HasAddress	200 Alester Ave
+0	Valero	HasType	gas station
+0	200 Alester Ave	IsAddressOf	Valero
+0	gas station	IsTypeOf	Valero
+0	Valero	HasTraffic	car collision nearby
+0	Valero	HasDistance	5 miles
+0	car collision nearby	IsTrafficOf	Valero
+0	5 miles	IsDistanceFrom	Valero
+1	The Westin	HasAddress	329 El Camino Real
+1	The Westin	HasType	rest stop
+1	329 El Camino Real	IsAddressOf	The Westin
+1	rest stop	IsTypeOf	The Westin
+1	The Westin	HasTraffic	road block nearby
+1	The Westin	HasDistance	6 miles
+1	road block nearby	IsTrafficOf	The Westin
+1	6 miles	IsDistanceFrom	The Westin
+2	Webster Garage	HasAddress	880 Ames Ct
+2	Webster Garage	HasType	parking garage
+2	880 Ames Ct	IsAddressOf	Webster Garage
+2	parking garage	IsTypeOf	Webster Garage
+2	Webster Garage	HasTraffic	no traffic
+2	Webster Garage	HasDistance	3 miles
+2	no traffic	IsTrafficOf	Webster Garage
+2	3 miles	IsDistanceFrom	Webster Garage
+3	Papa Johns	HasAddress	110 Arastradero Rd
+3	Papa Johns	HasType	pizza restaurant
+3	110 Arastradero Rd	IsAddressOf	Papa Johns
+3	pizza restaurant	IsTypeOf	Papa Johns
+3	Papa Johns	HasTraffic	heavy traffic
+3	Papa Johns	HasDistance	4 miles
+3	heavy traffic	IsTrafficOf	Papa Johns
+3	4 miles	IsDistanceFrom	Papa Johns
+4	Midtown Shopping Center	HasAddress	338 Alester Ave
+4	Midtown Shopping Center	HasType	shopping center
+4	338 Alester Ave	IsAddressOf	Midtown Shopping Center
+4	shopping center	IsTypeOf	Midtown Shopping Center
+4	Midtown Shopping Center	HasTraffic	moderate traffic
+4	Midtown Shopping Center	HasDistance	3 miles
+4	moderate traffic	IsTrafficOf	Midtown Shopping Center
+4	3 miles	IsDistanceFrom	Midtown Shopping Center
+5	5677 springer street	HasAddress	5677 springer street
+5	5677 springer street	HasType	certain address
+5	5677 springer street	IsAddressOf	5677 springer street
+5	certain address	IsTypeOf	5677 springer street
+5	5677 springer street	HasTraffic	moderate traffic
+5	5677 springer street	HasDistance	3 miles
+5	moderate traffic	IsTrafficOf	5677 springer street
+5	3 miles	IsDistanceFrom	5677 springer street
+6	Stanford Childrens Health	HasAddress	899 Ames Ct
+6	Stanford Childrens Health	HasType	hospital
+6	899 Ames Ct	IsAddressOf	Stanford Childrens Health
+6	hospital	IsTypeOf	Stanford Childrens Health
+6	Stanford Childrens Health	HasTraffic	moderate traffic
+6	Stanford Childrens Health	HasDistance	4 miles
+6	moderate traffic	IsTrafficOf	Stanford Childrens Health
+6	4 miles	IsDistanceFrom	Stanford Childrens Health
+7	Sigona Farmers Market	HasAddress	638 Amherst St
+7	Sigona Farmers Market	HasType	grocery store
+7	638 Amherst St	IsAddressOf	Sigona Farmers Market
+7	grocery store	IsTypeOf	Sigona Farmers Market
+7	Sigona Farmers Market	HasTraffic	moderate traffic
+7	Sigona Farmers Market	HasDistance	6 miles
+7	moderate traffic	IsTrafficOf	Sigona Farmers Market
+7	6 miles	IsDistanceFrom	Sigona Farmers Market
+-1	today	IsEqualTo	monday

@@ -1,0 +1,65 @@
+0	home	HasAddress	56 cadwell street
+0	home	HasType	home
+0	56 cadwell street	IsAddressOf	home
+0	home	IsTypeOf	home
+0	home	HasTraffic	car collision nearby
+0	home	HasDistance	5 miles
+0	car collision nearby	IsTrafficOf	home
+0	5 miles	IsDistanceFrom	home
+1	Palo Alto Garage R	HasAddress	481 Amaranta Ave
+1	Palo Alto Garage R	HasType	parking garage
+1	481 Amaranta Ave	IsAddressOf	Palo Alto Garage R
+1	parking garage	IsTypeOf	Palo Alto Garage R
+1	Palo Alto Garage R	HasTraffic	heavy traffic
+1	Palo Alto Garage R	HasDistance	1 miles
+1	heavy traffic	IsTrafficOf	Palo Alto Garage R
+1	1 miles	IsDistanceFrom	Palo Alto Garage R
+2	Peets Coffee	HasAddress	9981 Archuleta Ave
+2	Peets Coffee	HasType	coffee or tea place
+2	9981 Archuleta Ave	IsAddressOf	Peets Coffee
+2	coffee or tea place	IsTypeOf	Peets Coffee
+2	Peets Coffee	HasTraffic	moderate traffic
+2	Peets Coffee	HasDistance	1 miles
+2	moderate traffic	IsTrafficOf	Peets Coffee
+2	1 miles	IsDistanceFrom	Peets Coffee
+3	Valero	HasAddress	200 Alester Ave
+3	Valero	HasType	gas station
+3	200 Alester Ave	IsAddressOf	Valero
+3	gas station	IsTypeOf	Valero
+3	Valero	HasTraffic	moderate traffic
+3	Valero	HasDistance	6 miles
+3	moderate traffic	IsTrafficOf	Valero
+3	6 miles	IsDistanceFrom	Valero
+4	Travelers Lodge	HasAddress	333 Arbol Dr
+4	Travelers Lodge	HasType	rest stop
+4	333 Arbol Dr	IsAddressOf	Travelers Lodge
+4	rest stop	IsTypeOf	Travelers Lodge
+4	Travelers Lodge	HasTraffic	moderate traffic
+4	Travelers Lodge	HasDistance	5 miles
+4	moderate traffic	IsTrafficOf	Travelers Lodge
+4	5 miles	IsDistanceFrom	Travelers Lodge
+5	Pizza Chicago	HasAddress	915 Arbol Dr
+5	Pizza Chicago	HasType	pizza restaurant
+5	915 Arbol Dr	IsAddressOf	Pizza Chicago
+5	pizza restaurant	IsTypeOf	Pizza Chicago
+5	Pizza Chicago	HasTraffic	heavy traffic
+5	Pizza Chicago	HasDistance	1 miles
+5	heavy traffic	IsTrafficOf	Pizza Chicago
+5	1 miles	IsDistanceFrom	Pizza Chicago
+6	home	HasAddress	10 ames street
+6	home	HasType	home
+6	10 ames street	IsAddressOf	home
+6	home	IsTypeOf	home
+6	home	HasTraffic	road block nearby
+6	home	HasDistance	3 miles
+6	road block nearby	IsTrafficOf	home
+6	3 miles	IsDistanceFrom	home
+7	Round Table	HasAddress	113 Anton Ct
+7	Round Table	HasType	pizza restaurant
+7	113 Anton Ct	IsAddressOf	Round Table
+7	pizza restaurant	IsTypeOf	Round Table
+7	Round Table	HasTraffic	heavy traffic
+7	Round Table	HasDistance	4 miles
+7	heavy traffic	IsTrafficOf	Round Table
+7	4 miles	IsDistanceFrom	Round Table
+-1	today	IsEqualTo	monday

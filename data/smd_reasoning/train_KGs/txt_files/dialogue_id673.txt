@@ -1,0 +1,57 @@
+0	P.F. Changs	HasAddress	669 El Camino Real
+0	P.F. Changs	HasType	chinese restaurant
+0	669 El Camino Real	IsAddressOf	P.F. Changs
+0	chinese restaurant	IsTypeOf	P.F. Changs
+0	P.F. Changs	HasTraffic	no traffic
+0	P.F. Changs	HasDistance	6 miles
+0	no traffic	IsTrafficOf	P.F. Changs
+0	6 miles	IsDistanceFrom	P.F. Changs
+1	Town and Country	HasAddress	383 University Ave
+1	Town and Country	HasType	shopping center
+1	383 University Ave	IsAddressOf	Town and Country
+1	shopping center	IsTypeOf	Town and Country
+1	Town and Country	HasTraffic	moderate traffic
+1	Town and Country	HasDistance	6 miles
+1	moderate traffic	IsTrafficOf	Town and Country
+1	6 miles	IsDistanceFrom	Town and Country
+2	home	HasAddress	5671 barringer street
+2	home	HasType	home
+2	5671 barringer street	IsAddressOf	home
+2	home	IsTypeOf	home
+2	home	HasTraffic	no traffic
+2	home	HasDistance	5 miles
+2	no traffic	IsTrafficOf	home
+2	5 miles	IsDistanceFrom	home
+3	Jing Jing	HasAddress	113 Arbol Dr
+3	Jing Jing	HasType	chinese restaurant
+3	113 Arbol Dr	IsAddressOf	Jing Jing
+3	chinese restaurant	IsTypeOf	Jing Jing
+3	Jing Jing	HasTraffic	moderate traffic
+3	Jing Jing	HasDistance	4 miles
+3	moderate traffic	IsTrafficOf	Jing Jing
+3	4 miles	IsDistanceFrom	Jing Jing
+4	Ravenswood Shopping Center	HasAddress	434 Arastradero Rd
+4	Ravenswood Shopping Center	HasType	shopping center
+4	434 Arastradero Rd	IsAddressOf	Ravenswood Shopping Center
+4	shopping center	IsTypeOf	Ravenswood Shopping Center
+4	Ravenswood Shopping Center	HasTraffic	moderate traffic
+4	Ravenswood Shopping Center	HasDistance	6 miles
+4	moderate traffic	IsTrafficOf	Ravenswood Shopping Center
+4	6 miles	IsDistanceFrom	Ravenswood Shopping Center
+5	Stanford Childrens Health	HasAddress	899 Ames Ct
+5	Stanford Childrens Health	HasType	hospital
+5	899 Ames Ct	IsAddressOf	Stanford Childrens Health
+5	hospital	IsTypeOf	Stanford Childrens Health
+5	Stanford Childrens Health	HasTraffic	no traffic
+5	Stanford Childrens Health	HasDistance	2 miles
+5	no traffic	IsTrafficOf	Stanford Childrens Health
+5	2 miles	IsDistanceFrom	Stanford Childrens Health
+6	tai pan	HasAddress	830 Almanor Ln
+6	tai pan	HasType	chinese restaurant
+6	830 Almanor Ln	IsAddressOf	tai pan
+6	chinese restaurant	IsTypeOf	tai pan
+6	tai pan	HasTraffic	no traffic
+6	tai pan	HasDistance	4 miles
+6	no traffic	IsTrafficOf	tai pan
+6	4 miles	IsDistanceFrom	tai pan
+-1	today	IsEqualTo	monday

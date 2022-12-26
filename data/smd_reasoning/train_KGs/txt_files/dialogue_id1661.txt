@@ -1,0 +1,65 @@
+0	Hacienda Market	HasAddress	1313 Chester Ave
+0	Hacienda Market	HasType	grocery store
+0	1313 Chester Ave	IsAddressOf	Hacienda Market
+0	grocery store	IsTypeOf	Hacienda Market
+0	Hacienda Market	HasTraffic	heavy traffic
+0	Hacienda Market	HasDistance	4 miles
+0	heavy traffic	IsTrafficOf	Hacienda Market
+0	4 miles	IsDistanceFrom	Hacienda Market
+1	Comfort Inn	HasAddress	753 University Ave
+1	Comfort Inn	HasType	rest stop
+1	753 University Ave	IsAddressOf	Comfort Inn
+1	rest stop	IsTypeOf	Comfort Inn
+1	Comfort Inn	HasTraffic	no traffic
+1	Comfort Inn	HasDistance	6 miles
+1	no traffic	IsTrafficOf	Comfort Inn
+1	6 miles	IsDistanceFrom	Comfort Inn
+2	Civic Center Garage	HasAddress	270 Altaire Walk
+2	Civic Center Garage	HasType	parking garage
+2	270 Altaire Walk	IsAddressOf	Civic Center Garage
+2	parking garage	IsTypeOf	Civic Center Garage
+2	Civic Center Garage	HasTraffic	no traffic
+2	Civic Center Garage	HasDistance	2 miles
+2	no traffic	IsTrafficOf	Civic Center Garage
+2	2 miles	IsDistanceFrom	Civic Center Garage
+3	Town and Country	HasAddress	383 University Ave
+3	Town and Country	HasType	shopping center
+3	383 University Ave	IsAddressOf	Town and Country
+3	shopping center	IsTypeOf	Town and Country
+3	Town and Country	HasTraffic	no traffic
+3	Town and Country	HasDistance	5 miles
+3	no traffic	IsTrafficOf	Town and Country
+3	5 miles	IsDistanceFrom	Town and Country
+4	home	HasAddress	10 ames street
+4	home	HasType	home
+4	10 ames street	IsAddressOf	home
+4	home	IsTypeOf	home
+4	home	HasTraffic	car collision nearby
+4	home	HasDistance	4 miles
+4	car collision nearby	IsTrafficOf	home
+4	4 miles	IsDistanceFrom	home
+5	Pizza Hut	HasAddress	704 El Camino Real
+5	Pizza Hut	HasType	pizza restaurant
+5	704 El Camino Real	IsAddressOf	Pizza Hut
+5	pizza restaurant	IsTypeOf	Pizza Hut
+5	Pizza Hut	HasTraffic	no traffic
+5	Pizza Hut	HasDistance	6 miles
+5	no traffic	IsTrafficOf	Pizza Hut
+5	6 miles	IsDistanceFrom	Pizza Hut
+6	Travelers Lodge	HasAddress	333 Arbol Dr
+6	Travelers Lodge	HasType	rest stop
+6	333 Arbol Dr	IsAddressOf	Travelers Lodge
+6	rest stop	IsTypeOf	Travelers Lodge
+6	Travelers Lodge	HasTraffic	heavy traffic
+6	Travelers Lodge	HasDistance	7 miles
+6	heavy traffic	IsTrafficOf	Travelers Lodge
+6	7 miles	IsDistanceFrom	Travelers Lodge
+7	Chef Chu's	HasAddress	593 Arrowhead Way
+7	Chef Chu's	HasType	chinese restaurant
+7	593 Arrowhead Way	IsAddressOf	Chef Chu's
+7	chinese restaurant	IsTypeOf	Chef Chu's
+7	Chef Chu's	HasTraffic	road block nearby
+7	Chef Chu's	HasDistance	3 miles
+7	road block nearby	IsTrafficOf	Chef Chu's
+7	3 miles	IsDistanceFrom	Chef Chu's
+-1	today	IsEqualTo	monday

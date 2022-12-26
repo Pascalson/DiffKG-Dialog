@@ -1,0 +1,53 @@
+0	conference	HasTime	6pm
+0	6pm	IsTimeOf	conference
+0	conference	HasDate	friday
+0	friday	IsDateOf	conference
+0	conference	HasParty	boss
+0	boss	IsPartyOf	conference
+0	conference	HasRoom	conference room 100
+0	conference room 100	IsRoomOf	conference
+0	conference	HasAgenda	go over quarterly report
+0	go over quarterly report	IsAgendaOf	conference
+1	taking medicine	HasTime	10am
+1	10am	IsTimeOf	taking medicine
+1	taking medicine	HasDate	the 1st
+1	the 1st	IsDateOf	taking medicine
+1	taking medicine	HasParty	Tom
+1	Tom	IsPartyOf	taking medicine
+2	optometrist appointment	HasTime	9am
+2	9am	IsTimeOf	optometrist appointment
+2	optometrist appointment	HasDate	the 13th
+2	the 13th	IsDateOf	optometrist appointment
+2	optometrist appointment	HasParty	Marie
+2	Marie	IsPartyOf	optometrist appointment
+3	football activity	HasTime	10am
+3	10am	IsTimeOf	football activity
+3	football activity	HasDate	the 1st
+3	the 1st	IsDateOf	football activity
+3	football activity	HasParty	mother
+3	mother	IsPartyOf	football activity
+4	doctor appointment	HasTime	6pm
+4	6pm	IsTimeOf	doctor appointment
+4	doctor appointment	HasDate	wednesday
+4	wednesday	IsDateOf	doctor appointment
+4	doctor appointment	HasParty	Jon
+4	Jon	IsPartyOf	doctor appointment
+5	optometrist appointment	HasTime	11am
+5	11am	IsTimeOf	optometrist appointment
+5	optometrist appointment	HasDate	wednesday
+5	wednesday	IsDateOf	optometrist appointment
+5	optometrist appointment	HasParty	Tom
+5	Tom	IsPartyOf	optometrist appointment
+6	dinner	HasTime	5pm
+6	5pm	IsTimeOf	dinner
+6	dinner	HasDate	the 20th
+6	the 20th	IsDateOf	dinner
+6	dinner	HasParty	Marie
+6	Marie	IsPartyOf	dinner
+7	football activity	HasTime	10am
+7	10am	IsTimeOf	football activity
+7	football activity	HasDate	sunday
+7	sunday	IsDateOf	football activity
+7	football activity	HasParty	Alex
+7	Alex	IsPartyOf	football activity
+-1	today	IsEqualTo	monday

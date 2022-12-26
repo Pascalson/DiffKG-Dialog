@@ -1,0 +1,57 @@
+0	5672 barringer street	HasAddress	5672 barringer street
+0	5672 barringer street	HasType	certain address
+0	5672 barringer street	IsAddressOf	5672 barringer street
+0	certain address	IsTypeOf	5672 barringer street
+0	5672 barringer street	HasTraffic	moderate traffic
+0	5672 barringer street	HasDistance	6 miles
+0	moderate traffic	IsTrafficOf	5672 barringer street
+0	6 miles	IsDistanceFrom	5672 barringer street
+1	Mandarin Roots	HasAddress	271 Springer Street
+1	Mandarin Roots	HasType	chinese restaurant
+1	271 Springer Street	IsAddressOf	Mandarin Roots
+1	chinese restaurant	IsTypeOf	Mandarin Roots
+1	Mandarin Roots	HasTraffic	heavy traffic
+1	Mandarin Roots	HasDistance	4 miles
+1	heavy traffic	IsTrafficOf	Mandarin Roots
+1	4 miles	IsDistanceFrom	Mandarin Roots
+2	home	HasAddress	10 ames street
+2	home	HasType	home
+2	10 ames street	IsAddressOf	home
+2	home	IsTypeOf	home
+2	home	HasTraffic	no traffic
+2	home	HasDistance	6 miles
+2	no traffic	IsTrafficOf	home
+2	6 miles	IsDistanceFrom	home
+3	Town and Country	HasAddress	383 University Ave
+3	Town and Country	HasType	shopping center
+3	383 University Ave	IsAddressOf	Town and Country
+3	shopping center	IsTypeOf	Town and Country
+3	Town and Country	HasTraffic	no traffic
+3	Town and Country	HasDistance	1 miles
+3	no traffic	IsTrafficOf	Town and Country
+3	1 miles	IsDistanceFrom	Town and Country
+4	Chevron	HasAddress	783 Arcadia Pl
+4	Chevron	HasType	gas station
+4	783 Arcadia Pl	IsAddressOf	Chevron
+4	gas station	IsTypeOf	Chevron
+4	Chevron	HasTraffic	heavy traffic
+4	Chevron	HasDistance	5 miles
+4	heavy traffic	IsTrafficOf	Chevron
+4	5 miles	IsDistanceFrom	Chevron
+5	Ravenswood Shopping Center	HasAddress	434 Arastradero Rd
+5	Ravenswood Shopping Center	HasType	shopping center
+5	434 Arastradero Rd	IsAddressOf	Ravenswood Shopping Center
+5	shopping center	IsTypeOf	Ravenswood Shopping Center
+5	Ravenswood Shopping Center	HasTraffic	moderate traffic
+5	Ravenswood Shopping Center	HasDistance	6 miles
+5	moderate traffic	IsTrafficOf	Ravenswood Shopping Center
+5	6 miles	IsDistanceFrom	Ravenswood Shopping Center
+6	Philz	HasAddress	583 Alester Ave
+6	Philz	HasType	coffee or tea place
+6	583 Alester Ave	IsAddressOf	Philz
+6	coffee or tea place	IsTypeOf	Philz
+6	Philz	HasTraffic	moderate traffic
+6	Philz	HasDistance	4 miles
+6	moderate traffic	IsTrafficOf	Philz
+6	4 miles	IsDistanceFrom	Philz
+-1	today	IsEqualTo	monday

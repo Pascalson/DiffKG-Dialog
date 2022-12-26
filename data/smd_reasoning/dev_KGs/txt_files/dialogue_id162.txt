@@ -1,0 +1,65 @@
+0	Pizza Hut	HasAddress	704 El Camino Real
+0	Pizza Hut	HasType	pizza restaurant
+0	704 El Camino Real	IsAddressOf	Pizza Hut
+0	pizza restaurant	IsTypeOf	Pizza Hut
+0	Pizza Hut	HasTraffic	road block nearby
+0	Pizza Hut	HasDistance	4 miles
+0	road block nearby	IsTrafficOf	Pizza Hut
+0	4 miles	IsDistanceFrom	Pizza Hut
+1	The Clement Hotel	HasAddress	657 Ames Ave
+1	The Clement Hotel	HasType	rest stop
+1	657 Ames Ave	IsAddressOf	The Clement Hotel
+1	rest stop	IsTypeOf	The Clement Hotel
+1	The Clement Hotel	HasTraffic	car collision nearby
+1	The Clement Hotel	HasDistance	4 miles
+1	car collision nearby	IsTrafficOf	The Clement Hotel
+1	4 miles	IsDistanceFrom	The Clement Hotel
+2	Mandarin Roots	HasAddress	271 Springer Street
+2	Mandarin Roots	HasType	chinese restaurant
+2	271 Springer Street	IsAddressOf	Mandarin Roots
+2	chinese restaurant	IsTypeOf	Mandarin Roots
+2	Mandarin Roots	HasTraffic	car collision nearby
+2	Mandarin Roots	HasDistance	1 miles
+2	car collision nearby	IsTrafficOf	Mandarin Roots
+2	1 miles	IsDistanceFrom	Mandarin Roots
+3	Hotel Keen	HasAddress	578 Arbol Dr
+3	Hotel Keen	HasType	rest stop
+3	578 Arbol Dr	IsAddressOf	Hotel Keen
+3	rest stop	IsTypeOf	Hotel Keen
+3	Hotel Keen	HasTraffic	car collision nearby
+3	Hotel Keen	HasDistance	2 miles
+3	car collision nearby	IsTrafficOf	Hotel Keen
+3	2 miles	IsDistanceFrom	Hotel Keen
+4	Palo Alto Cafe	HasAddress	436 Alger Dr
+4	Palo Alto Cafe	HasType	coffee or tea place
+4	436 Alger Dr	IsAddressOf	Palo Alto Cafe
+4	coffee or tea place	IsTypeOf	Palo Alto Cafe
+4	Palo Alto Cafe	HasTraffic	moderate traffic
+4	Palo Alto Cafe	HasDistance	4 miles
+4	moderate traffic	IsTrafficOf	Palo Alto Cafe
+4	4 miles	IsDistanceFrom	Palo Alto Cafe
+5	Hacienda Market	HasAddress	1313 Chester Ave
+5	Hacienda Market	HasType	grocery store
+5	1313 Chester Ave	IsAddressOf	Hacienda Market
+5	grocery store	IsTypeOf	Hacienda Market
+5	Hacienda Market	HasTraffic	car collision nearby
+5	Hacienda Market	HasDistance	1 miles
+5	car collision nearby	IsTrafficOf	Hacienda Market
+5	1 miles	IsDistanceFrom	Hacienda Market
+6	Stanford Childrens Health	HasAddress	899 Ames Ct
+6	Stanford Childrens Health	HasType	hospital
+6	899 Ames Ct	IsAddressOf	Stanford Childrens Health
+6	hospital	IsTypeOf	Stanford Childrens Health
+6	Stanford Childrens Health	HasTraffic	road block nearby
+6	Stanford Childrens Health	HasDistance	4 miles
+6	road block nearby	IsTrafficOf	Stanford Childrens Health
+6	4 miles	IsDistanceFrom	Stanford Childrens Health
+7	toms house	HasAddress	580 Van Ness Ave
+7	toms house	HasType	friends house
+7	580 Van Ness Ave	IsAddressOf	toms house
+7	friends house	IsTypeOf	toms house
+7	toms house	HasTraffic	road block nearby
+7	toms house	HasDistance	5 miles
+7	road block nearby	IsTrafficOf	toms house
+7	5 miles	IsDistanceFrom	toms house
+-1	today	IsEqualTo	monday

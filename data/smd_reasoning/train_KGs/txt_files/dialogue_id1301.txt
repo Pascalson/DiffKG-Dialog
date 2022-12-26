@@ -1,0 +1,65 @@
+0	Travelers Lodge	HasAddress	333 Arbol Dr
+0	Travelers Lodge	HasType	rest stop
+0	333 Arbol Dr	IsAddressOf	Travelers Lodge
+0	rest stop	IsTypeOf	Travelers Lodge
+0	Travelers Lodge	HasTraffic	moderate traffic
+0	Travelers Lodge	HasDistance	6 miles
+0	moderate traffic	IsTrafficOf	Travelers Lodge
+0	6 miles	IsDistanceFrom	Travelers Lodge
+1	Four Seasons	HasAddress	465 Arcadia Pl
+1	Four Seasons	HasType	rest stop
+1	465 Arcadia Pl	IsAddressOf	Four Seasons
+1	rest stop	IsTypeOf	Four Seasons
+1	Four Seasons	HasTraffic	road block nearby
+1	Four Seasons	HasDistance	1 miles
+1	road block nearby	IsTrafficOf	Four Seasons
+1	1 miles	IsDistanceFrom	Four Seasons
+2	Stanford Oval Parking	HasAddress	610 Amarillo Ave
+2	Stanford Oval Parking	HasType	parking garage
+2	610 Amarillo Ave	IsAddressOf	Stanford Oval Parking
+2	parking garage	IsTypeOf	Stanford Oval Parking
+2	Stanford Oval Parking	HasTraffic	road block nearby
+2	Stanford Oval Parking	HasDistance	1 miles
+2	road block nearby	IsTrafficOf	Stanford Oval Parking
+2	1 miles	IsDistanceFrom	Stanford Oval Parking
+3	Jing Jing	HasAddress	113 Arbol Dr
+3	Jing Jing	HasType	chinese restaurant
+3	113 Arbol Dr	IsAddressOf	Jing Jing
+3	chinese restaurant	IsTypeOf	Jing Jing
+3	Jing Jing	HasTraffic	road block nearby
+3	Jing Jing	HasDistance	4 miles
+3	road block nearby	IsTrafficOf	Jing Jing
+3	4 miles	IsDistanceFrom	Jing Jing
+4	Pizza Hut	HasAddress	704 El Camino Real
+4	Pizza Hut	HasType	pizza restaurant
+4	704 El Camino Real	IsAddressOf	Pizza Hut
+4	pizza restaurant	IsTypeOf	Pizza Hut
+4	Pizza Hut	HasTraffic	moderate traffic
+4	Pizza Hut	HasDistance	4 miles
+4	moderate traffic	IsTrafficOf	Pizza Hut
+4	4 miles	IsDistanceFrom	Pizza Hut
+5	Webster Garage	HasAddress	880 Ames Ct
+5	Webster Garage	HasType	parking garage
+5	880 Ames Ct	IsAddressOf	Webster Garage
+5	parking garage	IsTypeOf	Webster Garage
+5	Webster Garage	HasTraffic	no traffic
+5	Webster Garage	HasDistance	4 miles
+5	no traffic	IsTrafficOf	Webster Garage
+5	4 miles	IsDistanceFrom	Webster Garage
+6	5677 springer street	HasAddress	5677 springer street
+6	5677 springer street	HasType	certain address
+6	5677 springer street	IsAddressOf	5677 springer street
+6	certain address	IsTypeOf	5677 springer street
+6	5677 springer street	HasTraffic	heavy traffic
+6	5677 springer street	HasDistance	3 miles
+6	heavy traffic	IsTrafficOf	5677 springer street
+6	3 miles	IsDistanceFrom	5677 springer street
+7	Dominos	HasAddress	776 Arastradero Rd
+7	Dominos	HasType	pizza restaurant
+7	776 Arastradero Rd	IsAddressOf	Dominos
+7	pizza restaurant	IsTypeOf	Dominos
+7	Dominos	HasTraffic	heavy traffic
+7	Dominos	HasDistance	7 miles
+7	heavy traffic	IsTrafficOf	Dominos
+7	7 miles	IsDistanceFrom	Dominos
+-1	today	IsEqualTo	monday

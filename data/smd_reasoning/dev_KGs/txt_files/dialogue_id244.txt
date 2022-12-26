@@ -1,0 +1,65 @@
+0	Round Table	HasAddress	113 Anton Ct
+0	Round Table	HasType	pizza restaurant
+0	113 Anton Ct	IsAddressOf	Round Table
+0	pizza restaurant	IsTypeOf	Round Table
+0	Round Table	HasTraffic	car collision nearby
+0	Round Table	HasDistance	5 miles
+0	car collision nearby	IsTrafficOf	Round Table
+0	5 miles	IsDistanceFrom	Round Table
+1	Dish Parking	HasAddress	550 Alester Ave
+1	Dish Parking	HasType	parking garage
+1	550 Alester Ave	IsAddressOf	Dish Parking
+1	parking garage	IsTypeOf	Dish Parking
+1	Dish Parking	HasTraffic	moderate traffic
+1	Dish Parking	HasDistance	5 miles
+1	moderate traffic	IsTrafficOf	Dish Parking
+1	5 miles	IsDistanceFrom	Dish Parking
+2	Stanford Childrens Health	HasAddress	899 Ames Ct
+2	Stanford Childrens Health	HasType	hospital
+2	899 Ames Ct	IsAddressOf	Stanford Childrens Health
+2	hospital	IsTypeOf	Stanford Childrens Health
+2	Stanford Childrens Health	HasTraffic	no traffic
+2	Stanford Childrens Health	HasDistance	5 miles
+2	no traffic	IsTrafficOf	Stanford Childrens Health
+2	5 miles	IsDistanceFrom	Stanford Childrens Health
+3	5677 southwest 4th street	HasAddress	5677 southwest 4th street
+3	5677 southwest 4th street	HasType	certain address
+3	5677 southwest 4th street	IsAddressOf	5677 southwest 4th street
+3	certain address	IsTypeOf	5677 southwest 4th street
+3	5677 southwest 4th street	HasTraffic	moderate traffic
+3	5677 southwest 4th street	HasDistance	1 miles
+3	moderate traffic	IsTrafficOf	5677 southwest 4th street
+3	1 miles	IsDistanceFrom	5677 southwest 4th street
+4	Trader Joes	HasAddress	408 University Ave
+4	Trader Joes	HasType	grocery store
+4	408 University Ave	IsAddressOf	Trader Joes
+4	grocery store	IsTypeOf	Trader Joes
+4	Trader Joes	HasTraffic	road block nearby
+4	Trader Joes	HasDistance	5 miles
+4	road block nearby	IsTrafficOf	Trader Joes
+4	5 miles	IsDistanceFrom	Trader Joes
+5	Jing Jing	HasAddress	113 Arbol Dr
+5	Jing Jing	HasType	chinese restaurant
+5	113 Arbol Dr	IsAddressOf	Jing Jing
+5	chinese restaurant	IsTypeOf	Jing Jing
+5	Jing Jing	HasTraffic	road block nearby
+5	Jing Jing	HasDistance	2 miles
+5	road block nearby	IsTrafficOf	Jing Jing
+5	2 miles	IsDistanceFrom	Jing Jing
+6	Dominos	HasAddress	776 Arastradero Rd
+6	Dominos	HasType	pizza restaurant
+6	776 Arastradero Rd	IsAddressOf	Dominos
+6	pizza restaurant	IsTypeOf	Dominos
+6	Dominos	HasTraffic	road block nearby
+6	Dominos	HasDistance	1 miles
+6	road block nearby	IsTrafficOf	Dominos
+6	1 miles	IsDistanceFrom	Dominos
+7	P.F. Changs	HasAddress	669 El Camino Real
+7	P.F. Changs	HasType	chinese restaurant
+7	669 El Camino Real	IsAddressOf	P.F. Changs
+7	chinese restaurant	IsTypeOf	P.F. Changs
+7	P.F. Changs	HasTraffic	moderate traffic
+7	P.F. Changs	HasDistance	5 miles
+7	moderate traffic	IsTrafficOf	P.F. Changs
+7	5 miles	IsDistanceFrom	P.F. Changs
+-1	today	IsEqualTo	monday

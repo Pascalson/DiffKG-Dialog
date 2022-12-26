@@ -1,0 +1,65 @@
+0	Stanford Express Care	HasAddress	214 El Camino Real
+0	Stanford Express Care	HasType	hospital
+0	214 El Camino Real	IsAddressOf	Stanford Express Care
+0	hospital	IsTypeOf	Stanford Express Care
+0	Stanford Express Care	HasTraffic	car collision nearby
+0	Stanford Express Care	HasDistance	7 miles
+0	car collision nearby	IsTrafficOf	Stanford Express Care
+0	7 miles	IsDistanceFrom	Stanford Express Care
+1	Jing Jing	HasAddress	113 Arbol Dr
+1	Jing Jing	HasType	chinese restaurant
+1	113 Arbol Dr	IsAddressOf	Jing Jing
+1	chinese restaurant	IsTypeOf	Jing Jing
+1	Jing Jing	HasTraffic	no traffic
+1	Jing Jing	HasDistance	5 miles
+1	no traffic	IsTrafficOf	Jing Jing
+1	5 miles	IsDistanceFrom	Jing Jing
+2	Civic Center Garage	HasAddress	270 Altaire Walk
+2	Civic Center Garage	HasType	parking garage
+2	270 Altaire Walk	IsAddressOf	Civic Center Garage
+2	parking garage	IsTypeOf	Civic Center Garage
+2	Civic Center Garage	HasTraffic	road block nearby
+2	Civic Center Garage	HasDistance	2 miles
+2	road block nearby	IsTrafficOf	Civic Center Garage
+2	2 miles	IsDistanceFrom	Civic Center Garage
+3	Valero	HasAddress	200 Alester Ave
+3	Valero	HasType	gas station
+3	200 Alester Ave	IsAddressOf	Valero
+3	gas station	IsTypeOf	Valero
+3	Valero	HasTraffic	moderate traffic
+3	Valero	HasDistance	4 miles
+3	moderate traffic	IsTrafficOf	Valero
+3	4 miles	IsDistanceFrom	Valero
+4	Whole Foods	HasAddress	819 Alma St
+4	Whole Foods	HasType	grocery store
+4	819 Alma St	IsAddressOf	Whole Foods
+4	grocery store	IsTypeOf	Whole Foods
+4	Whole Foods	HasTraffic	road block nearby
+4	Whole Foods	HasDistance	3 miles
+4	road block nearby	IsTrafficOf	Whole Foods
+4	3 miles	IsDistanceFrom	Whole Foods
+5	Shell	HasAddress	53 University Av
+5	Shell	HasType	gas station
+5	53 University Av	IsAddressOf	Shell
+5	gas station	IsTypeOf	Shell
+5	Shell	HasTraffic	moderate traffic
+5	Shell	HasDistance	6 miles
+5	moderate traffic	IsTrafficOf	Shell
+5	6 miles	IsDistanceFrom	Shell
+6	jacks house	HasAddress	864 Almanor Ln
+6	jacks house	HasType	friends house
+6	864 Almanor Ln	IsAddressOf	jacks house
+6	friends house	IsTypeOf	jacks house
+6	jacks house	HasTraffic	no traffic
+6	jacks house	HasDistance	2 miles
+6	no traffic	IsTrafficOf	jacks house
+6	2 miles	IsDistanceFrom	jacks house
+7	Papa Johns	HasAddress	110 Arastradero Rd
+7	Papa Johns	HasType	pizza restaurant
+7	110 Arastradero Rd	IsAddressOf	Papa Johns
+7	pizza restaurant	IsTypeOf	Papa Johns
+7	Papa Johns	HasTraffic	heavy traffic
+7	Papa Johns	HasDistance	1 miles
+7	heavy traffic	IsTrafficOf	Papa Johns
+7	1 miles	IsDistanceFrom	Papa Johns
+-1	today	IsEqualTo	monday

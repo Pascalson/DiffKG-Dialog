@@ -1,0 +1,57 @@
+0	jills house	HasAddress	347 Alta Mesa Ave
+0	jills house	HasType	friends house
+0	347 Alta Mesa Ave	IsAddressOf	jills house
+0	friends house	IsTypeOf	jills house
+0	jills house	HasTraffic	moderate traffic
+0	jills house	HasDistance	4 miles
+0	moderate traffic	IsTrafficOf	jills house
+0	4 miles	IsDistanceFrom	jills house
+1	home	HasAddress	56 cadwell street
+1	home	HasType	home
+1	56 cadwell street	IsAddressOf	home
+1	home	IsTypeOf	home
+1	home	HasTraffic	no traffic
+1	home	HasDistance	2 miles
+1	no traffic	IsTrafficOf	home
+1	2 miles	IsDistanceFrom	home
+2	5677 springer street	HasAddress	5677 springer street
+2	5677 springer street	HasType	certain address
+2	5677 springer street	IsAddressOf	5677 springer street
+2	certain address	IsTypeOf	5677 springer street
+2	5677 springer street	HasTraffic	no traffic
+2	5677 springer street	HasDistance	3 miles
+2	no traffic	IsTrafficOf	5677 springer street
+2	3 miles	IsDistanceFrom	5677 springer street
+3	Jing Jing	HasAddress	113 Arbol Dr
+3	Jing Jing	HasType	chinese restaurant
+3	113 Arbol Dr	IsAddressOf	Jing Jing
+3	chinese restaurant	IsTypeOf	Jing Jing
+3	Jing Jing	HasTraffic	heavy traffic
+3	Jing Jing	HasDistance	6 miles
+3	heavy traffic	IsTrafficOf	Jing Jing
+3	6 miles	IsDistanceFrom	Jing Jing
+4	Palo Alto Garage R	HasAddress	481 Amaranta Ave
+4	Palo Alto Garage R	HasType	parking garage
+4	481 Amaranta Ave	IsAddressOf	Palo Alto Garage R
+4	parking garage	IsTypeOf	Palo Alto Garage R
+4	Palo Alto Garage R	HasTraffic	moderate traffic
+4	Palo Alto Garage R	HasDistance	4 miles
+4	moderate traffic	IsTrafficOf	Palo Alto Garage R
+4	4 miles	IsDistanceFrom	Palo Alto Garage R
+5	Mandarin Roots	HasAddress	271 Springer Street
+5	Mandarin Roots	HasType	chinese restaurant
+5	271 Springer Street	IsAddressOf	Mandarin Roots
+5	chinese restaurant	IsTypeOf	Mandarin Roots
+5	Mandarin Roots	HasTraffic	moderate traffic
+5	Mandarin Roots	HasDistance	2 miles
+5	moderate traffic	IsTrafficOf	Mandarin Roots
+5	2 miles	IsDistanceFrom	Mandarin Roots
+6	Palo Alto Medical Foundation	HasAddress	611 Ames Ave
+6	Palo Alto Medical Foundation	HasType	hospital
+6	611 Ames Ave	IsAddressOf	Palo Alto Medical Foundation
+6	hospital	IsTypeOf	Palo Alto Medical Foundation
+6	Palo Alto Medical Foundation	HasTraffic	moderate traffic
+6	Palo Alto Medical Foundation	HasDistance	3 miles
+6	moderate traffic	IsTrafficOf	Palo Alto Medical Foundation
+6	3 miles	IsDistanceFrom	Palo Alto Medical Foundation
+-1	today	IsEqualTo	monday

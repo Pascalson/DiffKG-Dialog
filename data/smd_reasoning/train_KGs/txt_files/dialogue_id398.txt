@@ -1,0 +1,57 @@
+0	Mandarin Roots	HasAddress	271 Springer Street
+0	Mandarin Roots	HasType	chinese restaurant
+0	271 Springer Street	IsAddressOf	Mandarin Roots
+0	chinese restaurant	IsTypeOf	Mandarin Roots
+0	Mandarin Roots	HasTraffic	no traffic
+0	Mandarin Roots	HasDistance	4 miles
+0	no traffic	IsTrafficOf	Mandarin Roots
+0	4 miles	IsDistanceFrom	Mandarin Roots
+1	Chevron	HasAddress	783 Arcadia Pl
+1	Chevron	HasType	gas station
+1	783 Arcadia Pl	IsAddressOf	Chevron
+1	gas station	IsTypeOf	Chevron
+1	Chevron	HasTraffic	heavy traffic
+1	Chevron	HasDistance	1 miles
+1	heavy traffic	IsTrafficOf	Chevron
+1	1 miles	IsDistanceFrom	Chevron
+2	home	HasAddress	56 cadwell street
+2	home	HasType	home
+2	56 cadwell street	IsAddressOf	home
+2	home	IsTypeOf	home
+2	home	HasTraffic	no traffic
+2	home	HasDistance	3 miles
+2	no traffic	IsTrafficOf	home
+2	3 miles	IsDistanceFrom	home
+3	Chef Chu's	HasAddress	593 Arrowhead Way
+3	Chef Chu's	HasType	chinese restaurant
+3	593 Arrowhead Way	IsAddressOf	Chef Chu's
+3	chinese restaurant	IsTypeOf	Chef Chu's
+3	Chef Chu's	HasTraffic	moderate traffic
+3	Chef Chu's	HasDistance	2 miles
+3	moderate traffic	IsTrafficOf	Chef Chu's
+3	2 miles	IsDistanceFrom	Chef Chu's
+4	Pizza My Heart	HasAddress	528 Anton Ct
+4	Pizza My Heart	HasType	pizza restaurant
+4	528 Anton Ct	IsAddressOf	Pizza My Heart
+4	pizza restaurant	IsTypeOf	Pizza My Heart
+4	Pizza My Heart	HasTraffic	moderate traffic
+4	Pizza My Heart	HasDistance	3 miles
+4	moderate traffic	IsTrafficOf	Pizza My Heart
+4	3 miles	IsDistanceFrom	Pizza My Heart
+5	Comfort Inn	HasAddress	753 University Ave
+5	Comfort Inn	HasType	rest stop
+5	753 University Ave	IsAddressOf	Comfort Inn
+5	rest stop	IsTypeOf	Comfort Inn
+5	Comfort Inn	HasTraffic	no traffic
+5	Comfort Inn	HasDistance	6 miles
+5	no traffic	IsTrafficOf	Comfort Inn
+5	6 miles	IsDistanceFrom	Comfort Inn
+6	The Westin	HasAddress	329 El Camino Real
+6	The Westin	HasType	rest stop
+6	329 El Camino Real	IsAddressOf	The Westin
+6	rest stop	IsTypeOf	The Westin
+6	The Westin	HasTraffic	moderate traffic
+6	The Westin	HasDistance	3 miles
+6	moderate traffic	IsTrafficOf	The Westin
+6	3 miles	IsDistanceFrom	The Westin
+-1	today	IsEqualTo	monday

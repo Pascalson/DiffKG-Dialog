@@ -1,0 +1,65 @@
+0	Peets Coffee	HasAddress	9981 Archuleta Ave
+0	Peets Coffee	HasType	coffee or tea place
+0	9981 Archuleta Ave	IsAddressOf	Peets Coffee
+0	coffee or tea place	IsTypeOf	Peets Coffee
+0	Peets Coffee	HasTraffic	heavy traffic
+0	Peets Coffee	HasDistance	3 miles
+0	heavy traffic	IsTrafficOf	Peets Coffee
+0	3 miles	IsDistanceFrom	Peets Coffee
+1	Coupa	HasAddress	394 Van Ness Ave
+1	Coupa	HasType	coffee or tea place
+1	394 Van Ness Ave	IsAddressOf	Coupa
+1	coffee or tea place	IsTypeOf	Coupa
+1	Coupa	HasTraffic	heavy traffic
+1	Coupa	HasDistance	6 miles
+1	heavy traffic	IsTrafficOf	Coupa
+1	6 miles	IsDistanceFrom	Coupa
+2	Stanford Childrens Health	HasAddress	899 Ames Ct
+2	Stanford Childrens Health	HasType	hospital
+2	899 Ames Ct	IsAddressOf	Stanford Childrens Health
+2	hospital	IsTypeOf	Stanford Childrens Health
+2	Stanford Childrens Health	HasTraffic	road block nearby
+2	Stanford Childrens Health	HasDistance	4 miles
+2	road block nearby	IsTrafficOf	Stanford Childrens Health
+2	4 miles	IsDistanceFrom	Stanford Childrens Health
+3	Civic Center Garage	HasAddress	270 Altaire Walk
+3	Civic Center Garage	HasType	parking garage
+3	270 Altaire Walk	IsAddressOf	Civic Center Garage
+3	parking garage	IsTypeOf	Civic Center Garage
+3	Civic Center Garage	HasTraffic	road block nearby
+3	Civic Center Garage	HasDistance	4 miles
+3	road block nearby	IsTrafficOf	Civic Center Garage
+3	4 miles	IsDistanceFrom	Civic Center Garage
+4	Midtown Shopping Center	HasAddress	338 Alester Ave
+4	Midtown Shopping Center	HasType	shopping center
+4	338 Alester Ave	IsAddressOf	Midtown Shopping Center
+4	shopping center	IsTypeOf	Midtown Shopping Center
+4	Midtown Shopping Center	HasTraffic	moderate traffic
+4	Midtown Shopping Center	HasDistance	6 miles
+4	moderate traffic	IsTrafficOf	Midtown Shopping Center
+4	6 miles	IsDistanceFrom	Midtown Shopping Center
+5	Palo Alto Medical Foundation	HasAddress	611 Ames Ave
+5	Palo Alto Medical Foundation	HasType	hospital
+5	611 Ames Ave	IsAddressOf	Palo Alto Medical Foundation
+5	hospital	IsTypeOf	Palo Alto Medical Foundation
+5	Palo Alto Medical Foundation	HasTraffic	no traffic
+5	Palo Alto Medical Foundation	HasDistance	4 miles
+5	no traffic	IsTrafficOf	Palo Alto Medical Foundation
+5	4 miles	IsDistanceFrom	Palo Alto Medical Foundation
+6	Palo Alto Garage R	HasAddress	481 Amaranta Ave
+6	Palo Alto Garage R	HasType	parking garage
+6	481 Amaranta Ave	IsAddressOf	Palo Alto Garage R
+6	parking garage	IsTypeOf	Palo Alto Garage R
+6	Palo Alto Garage R	HasTraffic	no traffic
+6	Palo Alto Garage R	HasDistance	1 miles
+6	no traffic	IsTrafficOf	Palo Alto Garage R
+6	1 miles	IsDistanceFrom	Palo Alto Garage R
+7	Teavana	HasAddress	145 Amherst St
+7	Teavana	HasType	coffee or tea place
+7	145 Amherst St	IsAddressOf	Teavana
+7	coffee or tea place	IsTypeOf	Teavana
+7	Teavana	HasTraffic	moderate traffic
+7	Teavana	HasDistance	5 miles
+7	moderate traffic	IsTrafficOf	Teavana
+7	5 miles	IsDistanceFrom	Teavana
+-1	today	IsEqualTo	monday

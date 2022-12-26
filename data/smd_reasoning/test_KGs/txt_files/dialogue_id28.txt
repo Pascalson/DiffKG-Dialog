@@ -1,0 +1,57 @@
+0	toms house	HasAddress	580 Van Ness Ave
+0	toms house	HasType	friends house
+0	580 Van Ness Ave	IsAddressOf	toms house
+0	friends house	IsTypeOf	toms house
+0	toms house	HasTraffic	no traffic
+0	toms house	HasDistance	1 miles
+0	no traffic	IsTrafficOf	toms house
+0	1 miles	IsDistanceFrom	toms house
+1	Chef Chu's	HasAddress	593 Arrowhead Way
+1	Chef Chu's	HasType	chinese restaurant
+1	593 Arrowhead Way	IsAddressOf	Chef Chu's
+1	chinese restaurant	IsTypeOf	Chef Chu's
+1	Chef Chu's	HasTraffic	heavy traffic
+1	Chef Chu's	HasDistance	5 miles
+1	heavy traffic	IsTrafficOf	Chef Chu's
+1	5 miles	IsDistanceFrom	Chef Chu's
+2	The Clement Hotel	HasAddress	657 Ames Ave
+2	The Clement Hotel	HasType	rest stop
+2	657 Ames Ave	IsAddressOf	The Clement Hotel
+2	rest stop	IsTypeOf	The Clement Hotel
+2	The Clement Hotel	HasTraffic	no traffic
+2	The Clement Hotel	HasDistance	5 miles
+2	no traffic	IsTrafficOf	The Clement Hotel
+2	5 miles	IsDistanceFrom	The Clement Hotel
+3	Midtown Shopping Center	HasAddress	338 Alester Ave
+3	Midtown Shopping Center	HasType	shopping center
+3	338 Alester Ave	IsAddressOf	Midtown Shopping Center
+3	shopping center	IsTypeOf	Midtown Shopping Center
+3	Midtown Shopping Center	HasTraffic	no traffic
+3	Midtown Shopping Center	HasDistance	3 miles
+3	no traffic	IsTrafficOf	Midtown Shopping Center
+3	3 miles	IsDistanceFrom	Midtown Shopping Center
+4	Pizza Chicago	HasAddress	915 Arbol Dr
+4	Pizza Chicago	HasType	pizza restaurant
+4	915 Arbol Dr	IsAddressOf	Pizza Chicago
+4	pizza restaurant	IsTypeOf	Pizza Chicago
+4	Pizza Chicago	HasTraffic	heavy traffic
+4	Pizza Chicago	HasDistance	6 miles
+4	heavy traffic	IsTrafficOf	Pizza Chicago
+4	6 miles	IsDistanceFrom	Pizza Chicago
+5	Teavana	HasAddress	145 Amherst St
+5	Teavana	HasType	coffee or tea place
+5	145 Amherst St	IsAddressOf	Teavana
+5	coffee or tea place	IsTypeOf	Teavana
+5	Teavana	HasTraffic	heavy traffic
+5	Teavana	HasDistance	2 miles
+5	heavy traffic	IsTrafficOf	Teavana
+5	2 miles	IsDistanceFrom	Teavana
+6	Pizza Hut	HasAddress	704 El Camino Real
+6	Pizza Hut	HasType	pizza restaurant
+6	704 El Camino Real	IsAddressOf	Pizza Hut
+6	pizza restaurant	IsTypeOf	Pizza Hut
+6	Pizza Hut	HasTraffic	heavy traffic
+6	Pizza Hut	HasDistance	3 miles
+6	heavy traffic	IsTrafficOf	Pizza Hut
+6	3 miles	IsDistanceFrom	Pizza Hut
+-1	today	IsEqualTo	monday

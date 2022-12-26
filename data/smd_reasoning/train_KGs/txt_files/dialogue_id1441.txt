@@ -1,0 +1,61 @@
+0	swimming activity	HasTime	5pm
+0	5pm	IsTimeOf	swimming activity
+0	swimming activity	HasDate	tuesday
+0	tuesday	IsDateOf	swimming activity
+0	swimming activity	HasParty	Jon
+0	Jon	IsPartyOf	swimming activity
+1	football activity	HasTime	4pm
+1	4pm	IsTimeOf	football activity
+1	football activity	HasDate	the 13th
+1	the 13th	IsDateOf	football activity
+1	football activity	HasParty	Alex
+1	Alex	IsPartyOf	football activity
+2	dinner	HasTime	7pm
+2	7pm	IsTimeOf	dinner
+2	dinner	HasDate	the 10th
+2	the 10th	IsDateOf	dinner
+2	dinner	HasParty	Tom
+2	Tom	IsPartyOf	dinner
+3	taking medicine	HasTime	11am
+3	11am	IsTimeOf	taking medicine
+3	taking medicine	HasDate	saturday
+3	saturday	IsDateOf	taking medicine
+3	taking medicine	HasParty	Jeff
+3	Jeff	IsPartyOf	taking medicine
+4	conference	HasTime	9am
+4	9am	IsTimeOf	conference
+4	conference	HasDate	the 4th
+4	the 4th	IsDateOf	conference
+4	conference	HasParty	HR
+4	HR	IsPartyOf	conference
+4	conference	HasRoom	conference room 100
+4	conference room 100	IsRoomOf	conference
+4	conference	HasAgenda	discuss the company picnic
+4	discuss the company picnic	IsAgendaOf	conference
+5	meeting	HasTime	3pm
+5	3pm	IsTimeOf	meeting
+5	meeting	HasDate	friday
+5	friday	IsDateOf	meeting
+5	meeting	HasParty	boss
+5	boss	IsPartyOf	meeting
+5	meeting	HasRoom	conference room 100
+5	conference room 100	IsRoomOf	meeting
+5	meeting	HasAgenda	go over quarterly report
+5	go over quarterly report	IsAgendaOf	meeting
+6	meeting	HasTime	2pm
+6	2pm	IsTimeOf	meeting
+6	meeting	HasDate	the 8th
+6	the 8th	IsDateOf	meeting
+6	meeting	HasParty	HR
+6	HR	IsPartyOf	meeting
+6	meeting	HasRoom	conference room 102
+6	conference room 102	IsRoomOf	meeting
+6	meeting	HasAgenda	go over quarterly report
+6	go over quarterly report	IsAgendaOf	meeting
+7	lab appointment	HasTime	9am
+7	9am	IsTimeOf	lab appointment
+7	lab appointment	HasDate	the 3rd
+7	the 3rd	IsDateOf	lab appointment
+7	lab appointment	HasParty	Alex
+7	Alex	IsPartyOf	lab appointment
+-1	today	IsEqualTo	monday

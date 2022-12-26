@@ -1,0 +1,57 @@
+0	tai pan	HasAddress	830 Almanor Ln
+0	tai pan	HasType	chinese restaurant
+0	830 Almanor Ln	IsAddressOf	tai pan
+0	chinese restaurant	IsTypeOf	tai pan
+0	tai pan	HasTraffic	no traffic
+0	tai pan	HasDistance	1 miles
+0	no traffic	IsTrafficOf	tai pan
+0	1 miles	IsDistanceFrom	tai pan
+1	Dish Parking	HasAddress	550 Alester Ave
+1	Dish Parking	HasType	parking garage
+1	550 Alester Ave	IsAddressOf	Dish Parking
+1	parking garage	IsTypeOf	Dish Parking
+1	Dish Parking	HasTraffic	moderate traffic
+1	Dish Parking	HasDistance	2 miles
+1	moderate traffic	IsTrafficOf	Dish Parking
+1	2 miles	IsDistanceFrom	Dish Parking
+2	Ravenswood Shopping Center	HasAddress	434 Arastradero Rd
+2	Ravenswood Shopping Center	HasType	shopping center
+2	434 Arastradero Rd	IsAddressOf	Ravenswood Shopping Center
+2	shopping center	IsTypeOf	Ravenswood Shopping Center
+2	Ravenswood Shopping Center	HasTraffic	moderate traffic
+2	Ravenswood Shopping Center	HasDistance	5 miles
+2	moderate traffic	IsTrafficOf	Ravenswood Shopping Center
+2	5 miles	IsDistanceFrom	Ravenswood Shopping Center
+3	Coupa	HasAddress	394 Van Ness Ave
+3	Coupa	HasType	coffee or tea place
+3	394 Van Ness Ave	IsAddressOf	Coupa
+3	coffee or tea place	IsTypeOf	Coupa
+3	Coupa	HasTraffic	no traffic
+3	Coupa	HasDistance	3 miles
+3	no traffic	IsTrafficOf	Coupa
+3	3 miles	IsDistanceFrom	Coupa
+4	toms house	HasAddress	580 Van Ness Ave
+4	toms house	HasType	friends house
+4	580 Van Ness Ave	IsAddressOf	toms house
+4	friends house	IsTypeOf	toms house
+4	toms house	HasTraffic	no traffic
+4	toms house	HasDistance	1 miles
+4	no traffic	IsTrafficOf	toms house
+4	1 miles	IsDistanceFrom	toms house
+5	Chef Chu's	HasAddress	593 Arrowhead Way
+5	Chef Chu's	HasType	chinese restaurant
+5	593 Arrowhead Way	IsAddressOf	Chef Chu's
+5	chinese restaurant	IsTypeOf	Chef Chu's
+5	Chef Chu's	HasTraffic	heavy traffic
+5	Chef Chu's	HasDistance	1 miles
+5	heavy traffic	IsTrafficOf	Chef Chu's
+5	1 miles	IsDistanceFrom	Chef Chu's
+6	Mandarin Roots	HasAddress	271 Springer Street
+6	Mandarin Roots	HasType	chinese restaurant
+6	271 Springer Street	IsAddressOf	Mandarin Roots
+6	chinese restaurant	IsTypeOf	Mandarin Roots
+6	Mandarin Roots	HasTraffic	heavy traffic
+6	Mandarin Roots	HasDistance	4 miles
+6	heavy traffic	IsTrafficOf	Mandarin Roots
+6	4 miles	IsDistanceFrom	Mandarin Roots
+-1	today	IsEqualTo	monday

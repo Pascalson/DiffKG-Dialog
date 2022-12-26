@@ -1,0 +1,57 @@
+0	home	HasAddress	10 ames street
+0	home	HasType	home
+0	10 ames street	IsAddressOf	home
+0	home	IsTypeOf	home
+0	home	HasTraffic	heavy traffic
+0	home	HasDistance	4 miles
+0	heavy traffic	IsTrafficOf	home
+0	4 miles	IsDistanceFrom	home
+1	toms house	HasAddress	580 Van Ness Ave
+1	toms house	HasType	friends house
+1	580 Van Ness Ave	IsAddressOf	toms house
+1	friends house	IsTypeOf	toms house
+1	toms house	HasTraffic	moderate traffic
+1	toms house	HasDistance	5 miles
+1	moderate traffic	IsTrafficOf	toms house
+1	5 miles	IsDistanceFrom	toms house
+2	The Clement Hotel	HasAddress	657 Ames Ave
+2	The Clement Hotel	HasType	rest stop
+2	657 Ames Ave	IsAddressOf	The Clement Hotel
+2	rest stop	IsTypeOf	The Clement Hotel
+2	The Clement Hotel	HasTraffic	no traffic
+2	The Clement Hotel	HasDistance	3 miles
+2	no traffic	IsTrafficOf	The Clement Hotel
+2	3 miles	IsDistanceFrom	The Clement Hotel
+3	Ravenswood Shopping Center	HasAddress	434 Arastradero Rd
+3	Ravenswood Shopping Center	HasType	shopping center
+3	434 Arastradero Rd	IsAddressOf	Ravenswood Shopping Center
+3	shopping center	IsTypeOf	Ravenswood Shopping Center
+3	Ravenswood Shopping Center	HasTraffic	moderate traffic
+3	Ravenswood Shopping Center	HasDistance	1 miles
+3	moderate traffic	IsTrafficOf	Ravenswood Shopping Center
+3	1 miles	IsDistanceFrom	Ravenswood Shopping Center
+4	5677 southwest 4th street	HasAddress	5677 southwest 4th street
+4	5677 southwest 4th street	HasType	certain address
+4	5677 southwest 4th street	IsAddressOf	5677 southwest 4th street
+4	certain address	IsTypeOf	5677 southwest 4th street
+4	5677 southwest 4th street	HasTraffic	no traffic
+4	5677 southwest 4th street	HasDistance	2 miles
+4	no traffic	IsTrafficOf	5677 southwest 4th street
+4	2 miles	IsDistanceFrom	5677 southwest 4th street
+5	Town and Country	HasAddress	383 University Ave
+5	Town and Country	HasType	shopping center
+5	383 University Ave	IsAddressOf	Town and Country
+5	shopping center	IsTypeOf	Town and Country
+5	Town and Country	HasTraffic	moderate traffic
+5	Town and Country	HasDistance	6 miles
+5	moderate traffic	IsTrafficOf	Town and Country
+5	6 miles	IsDistanceFrom	Town and Country
+6	jills house	HasAddress	347 Alta Mesa Ave
+6	jills house	HasType	friends house
+6	347 Alta Mesa Ave	IsAddressOf	jills house
+6	friends house	IsTypeOf	jills house
+6	jills house	HasTraffic	no traffic
+6	jills house	HasDistance	3 miles
+6	no traffic	IsTrafficOf	jills house
+6	3 miles	IsDistanceFrom	jills house
+-1	today	IsEqualTo	monday

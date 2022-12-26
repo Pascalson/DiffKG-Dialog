@@ -1,0 +1,49 @@
+0	swimming activity	HasTime	2pm
+0	2pm	IsTimeOf	swimming activity
+0	swimming activity	HasDate	the 18th
+0	the 18th	IsDateOf	swimming activity
+0	swimming activity	HasParty	Marie
+0	Marie	IsPartyOf	swimming activity
+1	swimming activity	HasTime	11am
+1	11am	IsTimeOf	swimming activity
+1	swimming activity	HasDate	the 20th
+1	the 20th	IsDateOf	swimming activity
+1	swimming activity	HasParty	Tom
+1	Tom	IsPartyOf	swimming activity
+2	dinner	HasTime	6pm
+2	6pm	IsTimeOf	dinner
+2	dinner	HasDate	the 14th
+2	the 14th	IsDateOf	dinner
+2	dinner	HasParty	Marie
+2	Marie	IsPartyOf	dinner
+3	dinner	HasTime	8pm
+3	8pm	IsTimeOf	dinner
+3	dinner	HasDate	the 2nd
+3	the 2nd	IsDateOf	dinner
+3	dinner	HasParty	Jeff
+3	Jeff	IsPartyOf	dinner
+4	swimming activity	HasTime	6pm
+4	6pm	IsTimeOf	swimming activity
+4	swimming activity	HasDate	the 14th
+4	the 14th	IsDateOf	swimming activity
+4	swimming activity	HasParty	Jon
+4	Jon	IsPartyOf	swimming activity
+5	swimming activity	HasTime	4pm
+5	4pm	IsTimeOf	swimming activity
+5	swimming activity	HasDate	sunday
+5	sunday	IsDateOf	swimming activity
+5	swimming activity	HasParty	mother
+5	mother	IsPartyOf	swimming activity
+6	doctor appointment	HasTime	5pm
+6	5pm	IsTimeOf	doctor appointment
+6	doctor appointment	HasDate	the 8th
+6	the 8th	IsDateOf	doctor appointment
+6	doctor appointment	HasParty	Jon
+6	Jon	IsPartyOf	doctor appointment
+7	doctor appointment	HasTime	9am
+7	9am	IsTimeOf	doctor appointment
+7	doctor appointment	HasDate	saturday
+7	saturday	IsDateOf	doctor appointment
+7	doctor appointment	HasParty	Jeff
+7	Jeff	IsPartyOf	doctor appointment
+-1	today	IsEqualTo	monday

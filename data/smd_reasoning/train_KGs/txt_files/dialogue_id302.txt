@@ -1,0 +1,65 @@
+0	Sigona Farmers Market	HasAddress	638 Amherst St
+0	Sigona Farmers Market	HasType	grocery store
+0	638 Amherst St	IsAddressOf	Sigona Farmers Market
+0	grocery store	IsTypeOf	Sigona Farmers Market
+0	Sigona Farmers Market	HasTraffic	moderate traffic
+0	Sigona Farmers Market	HasDistance	4 miles
+0	moderate traffic	IsTrafficOf	Sigona Farmers Market
+0	4 miles	IsDistanceFrom	Sigona Farmers Market
+1	Palo Alto Garage R	HasAddress	481 Amaranta Ave
+1	Palo Alto Garage R	HasType	parking garage
+1	481 Amaranta Ave	IsAddressOf	Palo Alto Garage R
+1	parking garage	IsTypeOf	Palo Alto Garage R
+1	Palo Alto Garage R	HasTraffic	road block nearby
+1	Palo Alto Garage R	HasDistance	4 miles
+1	road block nearby	IsTrafficOf	Palo Alto Garage R
+1	4 miles	IsDistanceFrom	Palo Alto Garage R
+2	Safeway	HasAddress	452 Arcadia Pl
+2	Safeway	HasType	grocery store
+2	452 Arcadia Pl	IsAddressOf	Safeway
+2	grocery store	IsTypeOf	Safeway
+2	Safeway	HasTraffic	road block nearby
+2	Safeway	HasDistance	3 miles
+2	road block nearby	IsTrafficOf	Safeway
+2	3 miles	IsDistanceFrom	Safeway
+3	Dish Parking	HasAddress	550 Alester Ave
+3	Dish Parking	HasType	parking garage
+3	550 Alester Ave	IsAddressOf	Dish Parking
+3	parking garage	IsTypeOf	Dish Parking
+3	Dish Parking	HasTraffic	heavy traffic
+3	Dish Parking	HasDistance	2 miles
+3	heavy traffic	IsTrafficOf	Dish Parking
+3	2 miles	IsDistanceFrom	Dish Parking
+4	The Westin	HasAddress	329 El Camino Real
+4	The Westin	HasType	rest stop
+4	329 El Camino Real	IsAddressOf	The Westin
+4	rest stop	IsTypeOf	The Westin
+4	The Westin	HasTraffic	no traffic
+4	The Westin	HasDistance	4 miles
+4	no traffic	IsTrafficOf	The Westin
+4	4 miles	IsDistanceFrom	The Westin
+5	Travelers Lodge	HasAddress	333 Arbol Dr
+5	Travelers Lodge	HasType	rest stop
+5	333 Arbol Dr	IsAddressOf	Travelers Lodge
+5	rest stop	IsTypeOf	Travelers Lodge
+5	Travelers Lodge	HasTraffic	road block nearby
+5	Travelers Lodge	HasDistance	3 miles
+5	road block nearby	IsTrafficOf	Travelers Lodge
+5	3 miles	IsDistanceFrom	Travelers Lodge
+6	76	HasAddress	91 El Camino Real
+6	76	HasType	gas station
+6	91 El Camino Real	IsAddressOf	76
+6	gas station	IsTypeOf	76
+6	76	HasTraffic	heavy traffic
+6	76	HasDistance	5 miles
+6	heavy traffic	IsTrafficOf	76
+6	5 miles	IsDistanceFrom	76
+7	Coupa	HasAddress	394 Van Ness Ave
+7	Coupa	HasType	coffee or tea place
+7	394 Van Ness Ave	IsAddressOf	Coupa
+7	coffee or tea place	IsTypeOf	Coupa
+7	Coupa	HasTraffic	heavy traffic
+7	Coupa	HasDistance	8 miles
+7	heavy traffic	IsTrafficOf	Coupa
+7	8 miles	IsDistanceFrom	Coupa
+-1	today	IsEqualTo	monday

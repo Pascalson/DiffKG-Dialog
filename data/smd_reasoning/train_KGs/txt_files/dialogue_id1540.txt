@@ -1,0 +1,57 @@
+0	5672 barringer street	HasAddress	5672 barringer street
+0	5672 barringer street	HasType	certain address
+0	5672 barringer street	IsAddressOf	5672 barringer street
+0	certain address	IsTypeOf	5672 barringer street
+0	5672 barringer street	HasTraffic	heavy traffic
+0	5672 barringer street	HasDistance	5 miles
+0	heavy traffic	IsTrafficOf	5672 barringer street
+0	5 miles	IsDistanceFrom	5672 barringer street
+1	Pizza Chicago	HasAddress	915 Arbol Dr
+1	Pizza Chicago	HasType	pizza restaurant
+1	915 Arbol Dr	IsAddressOf	Pizza Chicago
+1	pizza restaurant	IsTypeOf	Pizza Chicago
+1	Pizza Chicago	HasTraffic	heavy traffic
+1	Pizza Chicago	HasDistance	6 miles
+1	heavy traffic	IsTrafficOf	Pizza Chicago
+1	6 miles	IsDistanceFrom	Pizza Chicago
+2	jacks house	HasAddress	864 Almanor Ln
+2	jacks house	HasType	friends house
+2	864 Almanor Ln	IsAddressOf	jacks house
+2	friends house	IsTypeOf	jacks house
+2	jacks house	HasTraffic	no traffic
+2	jacks house	HasDistance	6 miles
+2	no traffic	IsTrafficOf	jacks house
+2	6 miles	IsDistanceFrom	jacks house
+3	Round Table	HasAddress	113 Anton Ct
+3	Round Table	HasType	pizza restaurant
+3	113 Anton Ct	IsAddressOf	Round Table
+3	pizza restaurant	IsTypeOf	Round Table
+3	Round Table	HasTraffic	heavy traffic
+3	Round Table	HasDistance	2 miles
+3	heavy traffic	IsTrafficOf	Round Table
+3	2 miles	IsDistanceFrom	Round Table
+4	Chef Chu's	HasAddress	593 Arrowhead Way
+4	Chef Chu's	HasType	chinese restaurant
+4	593 Arrowhead Way	IsAddressOf	Chef Chu's
+4	chinese restaurant	IsTypeOf	Chef Chu's
+4	Chef Chu's	HasTraffic	heavy traffic
+4	Chef Chu's	HasDistance	5 miles
+4	heavy traffic	IsTrafficOf	Chef Chu's
+4	5 miles	IsDistanceFrom	Chef Chu's
+5	Midtown Shopping Center	HasAddress	338 Alester Ave
+5	Midtown Shopping Center	HasType	shopping center
+5	338 Alester Ave	IsAddressOf	Midtown Shopping Center
+5	shopping center	IsTypeOf	Midtown Shopping Center
+5	Midtown Shopping Center	HasTraffic	no traffic
+5	Midtown Shopping Center	HasDistance	3 miles
+5	no traffic	IsTrafficOf	Midtown Shopping Center
+5	3 miles	IsDistanceFrom	Midtown Shopping Center
+6	Sigona Farmers Market	HasAddress	638 Amherst St
+6	Sigona Farmers Market	HasType	grocery store
+6	638 Amherst St	IsAddressOf	Sigona Farmers Market
+6	grocery store	IsTypeOf	Sigona Farmers Market
+6	Sigona Farmers Market	HasTraffic	no traffic
+6	Sigona Farmers Market	HasDistance	4 miles
+6	no traffic	IsTrafficOf	Sigona Farmers Market
+6	4 miles	IsDistanceFrom	Sigona Farmers Market
+-1	today	IsEqualTo	monday

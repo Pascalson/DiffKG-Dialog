@@ -1,0 +1,57 @@
+0	Valero	HasAddress	200 Alester Ave
+0	Valero	HasType	gas station
+0	200 Alester Ave	IsAddressOf	Valero
+0	gas station	IsTypeOf	Valero
+0	Valero	HasTraffic	moderate traffic
+0	Valero	HasDistance	2 miles
+0	moderate traffic	IsTrafficOf	Valero
+0	2 miles	IsDistanceFrom	Valero
+1	Ravenswood Shopping Center	HasAddress	434 Arastradero Rd
+1	Ravenswood Shopping Center	HasType	shopping center
+1	434 Arastradero Rd	IsAddressOf	Ravenswood Shopping Center
+1	shopping center	IsTypeOf	Ravenswood Shopping Center
+1	Ravenswood Shopping Center	HasTraffic	moderate traffic
+1	Ravenswood Shopping Center	HasDistance	1 miles
+1	moderate traffic	IsTrafficOf	Ravenswood Shopping Center
+1	1 miles	IsDistanceFrom	Ravenswood Shopping Center
+2	Safeway	HasAddress	452 Arcadia Pl
+2	Safeway	HasType	grocery store
+2	452 Arcadia Pl	IsAddressOf	Safeway
+2	grocery store	IsTypeOf	Safeway
+2	Safeway	HasTraffic	heavy traffic
+2	Safeway	HasDistance	4 miles
+2	heavy traffic	IsTrafficOf	Safeway
+2	4 miles	IsDistanceFrom	Safeway
+3	Hotel Keen	HasAddress	578 Arbol Dr
+3	Hotel Keen	HasType	rest stop
+3	578 Arbol Dr	IsAddressOf	Hotel Keen
+3	rest stop	IsTypeOf	Hotel Keen
+3	Hotel Keen	HasTraffic	moderate traffic
+3	Hotel Keen	HasDistance	3 miles
+3	moderate traffic	IsTrafficOf	Hotel Keen
+3	3 miles	IsDistanceFrom	Hotel Keen
+4	Pizza Chicago	HasAddress	915 Arbol Dr
+4	Pizza Chicago	HasType	pizza restaurant
+4	915 Arbol Dr	IsAddressOf	Pizza Chicago
+4	pizza restaurant	IsTypeOf	Pizza Chicago
+4	Pizza Chicago	HasTraffic	heavy traffic
+4	Pizza Chicago	HasDistance	4 miles
+4	heavy traffic	IsTrafficOf	Pizza Chicago
+4	4 miles	IsDistanceFrom	Pizza Chicago
+5	home	HasAddress	56 cadwell street
+5	home	HasType	home
+5	56 cadwell street	IsAddressOf	home
+5	home	IsTypeOf	home
+5	home	HasTraffic	heavy traffic
+5	home	HasDistance	1 miles
+5	heavy traffic	IsTrafficOf	home
+5	1 miles	IsDistanceFrom	home
+6	Mandarin Roots	HasAddress	271 Springer Street
+6	Mandarin Roots	HasType	chinese restaurant
+6	271 Springer Street	IsAddressOf	Mandarin Roots
+6	chinese restaurant	IsTypeOf	Mandarin Roots
+6	Mandarin Roots	HasTraffic	moderate traffic
+6	Mandarin Roots	HasDistance	5 miles
+6	moderate traffic	IsTrafficOf	Mandarin Roots
+6	5 miles	IsDistanceFrom	Mandarin Roots
+-1	today	IsEqualTo	monday

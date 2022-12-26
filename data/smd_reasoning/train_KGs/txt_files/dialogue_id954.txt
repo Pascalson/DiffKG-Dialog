@@ -1,0 +1,57 @@
+0	Palo Alto Medical Foundation	HasAddress	611 Ames Ave
+0	Palo Alto Medical Foundation	HasType	hospital
+0	611 Ames Ave	IsAddressOf	Palo Alto Medical Foundation
+0	hospital	IsTypeOf	Palo Alto Medical Foundation
+0	Palo Alto Medical Foundation	HasTraffic	no traffic
+0	Palo Alto Medical Foundation	HasDistance	4 miles
+0	no traffic	IsTrafficOf	Palo Alto Medical Foundation
+0	4 miles	IsDistanceFrom	Palo Alto Medical Foundation
+1	Whole Foods	HasAddress	819 Alma St
+1	Whole Foods	HasType	grocery store
+1	819 Alma St	IsAddressOf	Whole Foods
+1	grocery store	IsTypeOf	Whole Foods
+1	Whole Foods	HasTraffic	no traffic
+1	Whole Foods	HasDistance	6 miles
+1	no traffic	IsTrafficOf	Whole Foods
+1	6 miles	IsDistanceFrom	Whole Foods
+2	Jing Jing	HasAddress	113 Arbol Dr
+2	Jing Jing	HasType	chinese restaurant
+2	113 Arbol Dr	IsAddressOf	Jing Jing
+2	chinese restaurant	IsTypeOf	Jing Jing
+2	Jing Jing	HasTraffic	moderate traffic
+2	Jing Jing	HasDistance	4 miles
+2	moderate traffic	IsTrafficOf	Jing Jing
+2	4 miles	IsDistanceFrom	Jing Jing
+3	home	HasAddress	5671 barringer street
+3	home	HasType	home
+3	5671 barringer street	IsAddressOf	home
+3	home	IsTypeOf	home
+3	home	HasTraffic	heavy traffic
+3	home	HasDistance	2 miles
+3	heavy traffic	IsTrafficOf	home
+3	2 miles	IsDistanceFrom	home
+4	Ravenswood Shopping Center	HasAddress	434 Arastradero Rd
+4	Ravenswood Shopping Center	HasType	shopping center
+4	434 Arastradero Rd	IsAddressOf	Ravenswood Shopping Center
+4	shopping center	IsTypeOf	Ravenswood Shopping Center
+4	Ravenswood Shopping Center	HasTraffic	no traffic
+4	Ravenswood Shopping Center	HasDistance	5 miles
+4	no traffic	IsTrafficOf	Ravenswood Shopping Center
+4	5 miles	IsDistanceFrom	Ravenswood Shopping Center
+5	P.F. Changs	HasAddress	669 El Camino Real
+5	P.F. Changs	HasType	chinese restaurant
+5	669 El Camino Real	IsAddressOf	P.F. Changs
+5	chinese restaurant	IsTypeOf	P.F. Changs
+5	P.F. Changs	HasTraffic	no traffic
+5	P.F. Changs	HasDistance	1 miles
+5	no traffic	IsTrafficOf	P.F. Changs
+5	1 miles	IsDistanceFrom	P.F. Changs
+6	Starbucks	HasAddress	792 Bedoin Street
+6	Starbucks	HasType	coffee or tea place
+6	792 Bedoin Street	IsAddressOf	Starbucks
+6	coffee or tea place	IsTypeOf	Starbucks
+6	Starbucks	HasTraffic	moderate traffic
+6	Starbucks	HasDistance	5 miles
+6	moderate traffic	IsTrafficOf	Starbucks
+6	5 miles	IsDistanceFrom	Starbucks
+-1	today	IsEqualTo	monday

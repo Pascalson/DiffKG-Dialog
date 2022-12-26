@@ -1,0 +1,65 @@
+0	Pizza My Heart	HasAddress	528 Anton Ct
+0	Pizza My Heart	HasType	pizza restaurant
+0	528 Anton Ct	IsAddressOf	Pizza My Heart
+0	pizza restaurant	IsTypeOf	Pizza My Heart
+0	Pizza My Heart	HasTraffic	car collision nearby
+0	Pizza My Heart	HasDistance	4 miles
+0	car collision nearby	IsTrafficOf	Pizza My Heart
+0	4 miles	IsDistanceFrom	Pizza My Heart
+1	P.F. Changs	HasAddress	669 El Camino Real
+1	P.F. Changs	HasType	chinese restaurant
+1	669 El Camino Real	IsAddressOf	P.F. Changs
+1	chinese restaurant	IsTypeOf	P.F. Changs
+1	P.F. Changs	HasTraffic	car collision nearby
+1	P.F. Changs	HasDistance	2 miles
+1	car collision nearby	IsTrafficOf	P.F. Changs
+1	2 miles	IsDistanceFrom	P.F. Changs
+2	5677 southwest 4th street	HasAddress	5677 southwest 4th street
+2	5677 southwest 4th street	HasType	certain address
+2	5677 southwest 4th street	IsAddressOf	5677 southwest 4th street
+2	certain address	IsTypeOf	5677 southwest 4th street
+2	5677 southwest 4th street	HasTraffic	heavy traffic
+2	5677 southwest 4th street	HasDistance	2 miles
+2	heavy traffic	IsTrafficOf	5677 southwest 4th street
+2	2 miles	IsDistanceFrom	5677 southwest 4th street
+3	Jing Jing	HasAddress	113 Arbol Dr
+3	Jing Jing	HasType	chinese restaurant
+3	113 Arbol Dr	IsAddressOf	Jing Jing
+3	chinese restaurant	IsTypeOf	Jing Jing
+3	Jing Jing	HasTraffic	car collision nearby
+3	Jing Jing	HasDistance	1 miles
+3	car collision nearby	IsTrafficOf	Jing Jing
+3	1 miles	IsDistanceFrom	Jing Jing
+4	Valero	HasAddress	200 Alester Ave
+4	Valero	HasType	gas station
+4	200 Alester Ave	IsAddressOf	Valero
+4	gas station	IsTypeOf	Valero
+4	Valero	HasTraffic	car collision nearby
+4	Valero	HasDistance	4 miles
+4	car collision nearby	IsTrafficOf	Valero
+4	4 miles	IsDistanceFrom	Valero
+5	Stanford Express Care	HasAddress	214 El Camino Real
+5	Stanford Express Care	HasType	hospital
+5	214 El Camino Real	IsAddressOf	Stanford Express Care
+5	hospital	IsTypeOf	Stanford Express Care
+5	Stanford Express Care	HasTraffic	moderate traffic
+5	Stanford Express Care	HasDistance	1 miles
+5	moderate traffic	IsTrafficOf	Stanford Express Care
+5	1 miles	IsDistanceFrom	Stanford Express Care
+6	jills house	HasAddress	347 Alta Mesa Ave
+6	jills house	HasType	friends house
+6	347 Alta Mesa Ave	IsAddressOf	jills house
+6	friends house	IsTypeOf	jills house
+6	jills house	HasTraffic	moderate traffic
+6	jills house	HasDistance	3 miles
+6	moderate traffic	IsTrafficOf	jills house
+6	3 miles	IsDistanceFrom	jills house
+7	Stanford Childrens Health	HasAddress	899 Ames Ct
+7	Stanford Childrens Health	HasType	hospital
+7	899 Ames Ct	IsAddressOf	Stanford Childrens Health
+7	hospital	IsTypeOf	Stanford Childrens Health
+7	Stanford Childrens Health	HasTraffic	car collision nearby
+7	Stanford Childrens Health	HasDistance	6 miles
+7	car collision nearby	IsTrafficOf	Stanford Childrens Health
+7	6 miles	IsDistanceFrom	Stanford Childrens Health
+-1	today	IsEqualTo	monday

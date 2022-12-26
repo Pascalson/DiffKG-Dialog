@@ -1,0 +1,65 @@
+0	Travelers Lodge	HasAddress	333 Arbol Dr
+0	Travelers Lodge	HasType	rest stop
+0	333 Arbol Dr	IsAddressOf	Travelers Lodge
+0	rest stop	IsTypeOf	Travelers Lodge
+0	Travelers Lodge	HasTraffic	heavy traffic
+0	Travelers Lodge	HasDistance	2 miles
+0	heavy traffic	IsTrafficOf	Travelers Lodge
+0	2 miles	IsDistanceFrom	Travelers Lodge
+1	jills house	HasAddress	347 Alta Mesa Ave
+1	jills house	HasType	friends house
+1	347 Alta Mesa Ave	IsAddressOf	jills house
+1	friends house	IsTypeOf	jills house
+1	jills house	HasTraffic	road block nearby
+1	jills house	HasDistance	6 miles
+1	road block nearby	IsTrafficOf	jills house
+1	6 miles	IsDistanceFrom	jills house
+2	Palo Alto Garage R	HasAddress	481 Amaranta Ave
+2	Palo Alto Garage R	HasType	parking garage
+2	481 Amaranta Ave	IsAddressOf	Palo Alto Garage R
+2	parking garage	IsTypeOf	Palo Alto Garage R
+2	Palo Alto Garage R	HasTraffic	road block nearby
+2	Palo Alto Garage R	HasDistance	1 miles
+2	road block nearby	IsTrafficOf	Palo Alto Garage R
+2	1 miles	IsDistanceFrom	Palo Alto Garage R
+3	Dominos	HasAddress	776 Arastradero Rd
+3	Dominos	HasType	pizza restaurant
+3	776 Arastradero Rd	IsAddressOf	Dominos
+3	pizza restaurant	IsTypeOf	Dominos
+3	Dominos	HasTraffic	road block nearby
+3	Dominos	HasDistance	3 miles
+3	road block nearby	IsTrafficOf	Dominos
+3	3 miles	IsDistanceFrom	Dominos
+4	The Westin	HasAddress	329 El Camino Real
+4	The Westin	HasType	rest stop
+4	329 El Camino Real	IsAddressOf	The Westin
+4	rest stop	IsTypeOf	The Westin
+4	The Westin	HasTraffic	car collision nearby
+4	The Westin	HasDistance	2 miles
+4	car collision nearby	IsTrafficOf	The Westin
+4	2 miles	IsDistanceFrom	The Westin
+5	Stanford Childrens Health	HasAddress	899 Ames Ct
+5	Stanford Childrens Health	HasType	hospital
+5	899 Ames Ct	IsAddressOf	Stanford Childrens Health
+5	hospital	IsTypeOf	Stanford Childrens Health
+5	Stanford Childrens Health	HasTraffic	road block nearby
+5	Stanford Childrens Health	HasDistance	6 miles
+5	road block nearby	IsTrafficOf	Stanford Childrens Health
+5	6 miles	IsDistanceFrom	Stanford Childrens Health
+6	Pizza Chicago	HasAddress	915 Arbol Dr
+6	Pizza Chicago	HasType	pizza restaurant
+6	915 Arbol Dr	IsAddressOf	Pizza Chicago
+6	pizza restaurant	IsTypeOf	Pizza Chicago
+6	Pizza Chicago	HasTraffic	no traffic
+6	Pizza Chicago	HasDistance	6 miles
+6	no traffic	IsTrafficOf	Pizza Chicago
+6	6 miles	IsDistanceFrom	Pizza Chicago
+7	Pizza My Heart	HasAddress	528 Anton Ct
+7	Pizza My Heart	HasType	pizza restaurant
+7	528 Anton Ct	IsAddressOf	Pizza My Heart
+7	pizza restaurant	IsTypeOf	Pizza My Heart
+7	Pizza My Heart	HasTraffic	car collision nearby
+7	Pizza My Heart	HasDistance	3 miles
+7	car collision nearby	IsTrafficOf	Pizza My Heart
+7	3 miles	IsDistanceFrom	Pizza My Heart
+-1	today	IsEqualTo	monday

@@ -1,0 +1,57 @@
+0	home	HasAddress	56 cadwell street
+0	home	HasType	home
+0	56 cadwell street	IsAddressOf	home
+0	home	IsTypeOf	home
+0	home	HasTraffic	no traffic
+0	home	HasDistance	3 miles
+0	no traffic	IsTrafficOf	home
+0	3 miles	IsDistanceFrom	home
+1	Dominos	HasAddress	776 Arastradero Rd
+1	Dominos	HasType	pizza restaurant
+1	776 Arastradero Rd	IsAddressOf	Dominos
+1	pizza restaurant	IsTypeOf	Dominos
+1	Dominos	HasTraffic	heavy traffic
+1	Dominos	HasDistance	6 miles
+1	heavy traffic	IsTrafficOf	Dominos
+1	6 miles	IsDistanceFrom	Dominos
+2	Jing Jing	HasAddress	113 Arbol Dr
+2	Jing Jing	HasType	chinese restaurant
+2	113 Arbol Dr	IsAddressOf	Jing Jing
+2	chinese restaurant	IsTypeOf	Jing Jing
+2	Jing Jing	HasTraffic	no traffic
+2	Jing Jing	HasDistance	4 miles
+2	no traffic	IsTrafficOf	Jing Jing
+2	4 miles	IsDistanceFrom	Jing Jing
+3	Philz	HasAddress	583 Alester Ave
+3	Philz	HasType	coffee or tea place
+3	583 Alester Ave	IsAddressOf	Philz
+3	coffee or tea place	IsTypeOf	Philz
+3	Philz	HasTraffic	moderate traffic
+3	Philz	HasDistance	6 miles
+3	moderate traffic	IsTrafficOf	Philz
+3	6 miles	IsDistanceFrom	Philz
+4	Palo Alto Cafe	HasAddress	436 Alger Dr
+4	Palo Alto Cafe	HasType	coffee or tea place
+4	436 Alger Dr	IsAddressOf	Palo Alto Cafe
+4	coffee or tea place	IsTypeOf	Palo Alto Cafe
+4	Palo Alto Cafe	HasTraffic	no traffic
+4	Palo Alto Cafe	HasDistance	2 miles
+4	no traffic	IsTrafficOf	Palo Alto Cafe
+4	2 miles	IsDistanceFrom	Palo Alto Cafe
+5	Pizza My Heart	HasAddress	528 Anton Ct
+5	Pizza My Heart	HasType	pizza restaurant
+5	528 Anton Ct	IsAddressOf	Pizza My Heart
+5	pizza restaurant	IsTypeOf	Pizza My Heart
+5	Pizza My Heart	HasTraffic	no traffic
+5	Pizza My Heart	HasDistance	5 miles
+5	no traffic	IsTrafficOf	Pizza My Heart
+5	5 miles	IsDistanceFrom	Pizza My Heart
+6	Palo Alto Medical Foundation	HasAddress	611 Ames Ave
+6	Palo Alto Medical Foundation	HasType	hospital
+6	611 Ames Ave	IsAddressOf	Palo Alto Medical Foundation
+6	hospital	IsTypeOf	Palo Alto Medical Foundation
+6	Palo Alto Medical Foundation	HasTraffic	moderate traffic
+6	Palo Alto Medical Foundation	HasDistance	4 miles
+6	moderate traffic	IsTrafficOf	Palo Alto Medical Foundation
+6	4 miles	IsDistanceFrom	Palo Alto Medical Foundation
+-1	today	IsEqualTo	monday

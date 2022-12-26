@@ -1,0 +1,57 @@
+0	Four Seasons	HasAddress	465 Arcadia Pl
+0	Four Seasons	HasType	rest stop
+0	465 Arcadia Pl	IsAddressOf	Four Seasons
+0	rest stop	IsTypeOf	Four Seasons
+0	Four Seasons	HasTraffic	heavy traffic
+0	Four Seasons	HasDistance	3 miles
+0	heavy traffic	IsTrafficOf	Four Seasons
+0	3 miles	IsDistanceFrom	Four Seasons
+1	Panda Express	HasAddress	842 Arrowhead Way
+1	Panda Express	HasType	chinese restaurant
+1	842 Arrowhead Way	IsAddressOf	Panda Express
+1	chinese restaurant	IsTypeOf	Panda Express
+1	Panda Express	HasTraffic	moderate traffic
+1	Panda Express	HasDistance	1 miles
+1	moderate traffic	IsTrafficOf	Panda Express
+1	1 miles	IsDistanceFrom	Panda Express
+2	The Clement Hotel	HasAddress	657 Ames Ave
+2	The Clement Hotel	HasType	rest stop
+2	657 Ames Ave	IsAddressOf	The Clement Hotel
+2	rest stop	IsTypeOf	The Clement Hotel
+2	The Clement Hotel	HasTraffic	no traffic
+2	The Clement Hotel	HasDistance	5 miles
+2	no traffic	IsTrafficOf	The Clement Hotel
+2	5 miles	IsDistanceFrom	The Clement Hotel
+3	Stanford Oval Parking	HasAddress	610 Amarillo Ave
+3	Stanford Oval Parking	HasType	parking garage
+3	610 Amarillo Ave	IsAddressOf	Stanford Oval Parking
+3	parking garage	IsTypeOf	Stanford Oval Parking
+3	Stanford Oval Parking	HasTraffic	no traffic
+3	Stanford Oval Parking	HasDistance	5 miles
+3	no traffic	IsTrafficOf	Stanford Oval Parking
+3	5 miles	IsDistanceFrom	Stanford Oval Parking
+4	Chef Chu's	HasAddress	593 Arrowhead Way
+4	Chef Chu's	HasType	chinese restaurant
+4	593 Arrowhead Way	IsAddressOf	Chef Chu's
+4	chinese restaurant	IsTypeOf	Chef Chu's
+4	Chef Chu's	HasTraffic	heavy traffic
+4	Chef Chu's	HasDistance	5 miles
+4	heavy traffic	IsTrafficOf	Chef Chu's
+4	5 miles	IsDistanceFrom	Chef Chu's
+5	Safeway	HasAddress	452 Arcadia Pl
+5	Safeway	HasType	grocery store
+5	452 Arcadia Pl	IsAddressOf	Safeway
+5	grocery store	IsTypeOf	Safeway
+5	Safeway	HasTraffic	moderate traffic
+5	Safeway	HasDistance	4 miles
+5	moderate traffic	IsTrafficOf	Safeway
+5	4 miles	IsDistanceFrom	Safeway
+6	Sigona Farmers Market	HasAddress	638 Amherst St
+6	Sigona Farmers Market	HasType	grocery store
+6	638 Amherst St	IsAddressOf	Sigona Farmers Market
+6	grocery store	IsTypeOf	Sigona Farmers Market
+6	Sigona Farmers Market	HasTraffic	no traffic
+6	Sigona Farmers Market	HasDistance	4 miles
+6	no traffic	IsTrafficOf	Sigona Farmers Market
+6	4 miles	IsDistanceFrom	Sigona Farmers Market
+-1	today	IsEqualTo	monday

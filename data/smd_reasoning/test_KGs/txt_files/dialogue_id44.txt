@@ -1,0 +1,57 @@
+0	Pizza Hut	HasAddress	704 El Camino Real
+0	Pizza Hut	HasType	pizza restaurant
+0	704 El Camino Real	IsAddressOf	Pizza Hut
+0	pizza restaurant	IsTypeOf	Pizza Hut
+0	Pizza Hut	HasTraffic	heavy traffic
+0	Pizza Hut	HasDistance	2 miles
+0	heavy traffic	IsTrafficOf	Pizza Hut
+0	2 miles	IsDistanceFrom	Pizza Hut
+1	Cafe Venetia	HasAddress	269 Alger Dr
+1	Cafe Venetia	HasType	coffee or tea place
+1	269 Alger Dr	IsAddressOf	Cafe Venetia
+1	coffee or tea place	IsTypeOf	Cafe Venetia
+1	Cafe Venetia	HasTraffic	no traffic
+1	Cafe Venetia	HasDistance	6 miles
+1	no traffic	IsTrafficOf	Cafe Venetia
+1	6 miles	IsDistanceFrom	Cafe Venetia
+2	Midtown Shopping Center	HasAddress	338 Alester Ave
+2	Midtown Shopping Center	HasType	shopping center
+2	338 Alester Ave	IsAddressOf	Midtown Shopping Center
+2	shopping center	IsTypeOf	Midtown Shopping Center
+2	Midtown Shopping Center	HasTraffic	heavy traffic
+2	Midtown Shopping Center	HasDistance	5 miles
+2	heavy traffic	IsTrafficOf	Midtown Shopping Center
+2	5 miles	IsDistanceFrom	Midtown Shopping Center
+3	jills house	HasAddress	347 Alta Mesa Ave
+3	jills house	HasType	friends house
+3	347 Alta Mesa Ave	IsAddressOf	jills house
+3	friends house	IsTypeOf	jills house
+3	jills house	HasTraffic	moderate traffic
+3	jills house	HasDistance	2 miles
+3	moderate traffic	IsTrafficOf	jills house
+3	2 miles	IsDistanceFrom	jills house
+4	Stanford Express Care	HasAddress	214 El Camino Real
+4	Stanford Express Care	HasType	hospital
+4	214 El Camino Real	IsAddressOf	Stanford Express Care
+4	hospital	IsTypeOf	Stanford Express Care
+4	Stanford Express Care	HasTraffic	heavy traffic
+4	Stanford Express Care	HasDistance	6 miles
+4	heavy traffic	IsTrafficOf	Stanford Express Care
+4	6 miles	IsDistanceFrom	Stanford Express Care
+5	Philz	HasAddress	583 Alester Ave
+5	Philz	HasType	coffee or tea place
+5	583 Alester Ave	IsAddressOf	Philz
+5	coffee or tea place	IsTypeOf	Philz
+5	Philz	HasTraffic	heavy traffic
+5	Philz	HasDistance	4 miles
+5	heavy traffic	IsTrafficOf	Philz
+5	4 miles	IsDistanceFrom	Philz
+6	Mandarin Roots	HasAddress	271 Springer Street
+6	Mandarin Roots	HasType	chinese restaurant
+6	271 Springer Street	IsAddressOf	Mandarin Roots
+6	chinese restaurant	IsTypeOf	Mandarin Roots
+6	Mandarin Roots	HasTraffic	moderate traffic
+6	Mandarin Roots	HasDistance	4 miles
+6	moderate traffic	IsTrafficOf	Mandarin Roots
+6	4 miles	IsDistanceFrom	Mandarin Roots
+-1	today	IsEqualTo	monday

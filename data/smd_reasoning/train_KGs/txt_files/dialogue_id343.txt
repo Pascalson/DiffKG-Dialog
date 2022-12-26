@@ -1,0 +1,57 @@
+0	Mandarin Roots	HasAddress	271 Springer Street
+0	Mandarin Roots	HasType	chinese restaurant
+0	271 Springer Street	IsAddressOf	Mandarin Roots
+0	chinese restaurant	IsTypeOf	Mandarin Roots
+0	Mandarin Roots	HasTraffic	moderate traffic
+0	Mandarin Roots	HasDistance	4 miles
+0	moderate traffic	IsTrafficOf	Mandarin Roots
+0	4 miles	IsDistanceFrom	Mandarin Roots
+1	Coupa	HasAddress	394 Van Ness Ave
+1	Coupa	HasType	coffee or tea place
+1	394 Van Ness Ave	IsAddressOf	Coupa
+1	coffee or tea place	IsTypeOf	Coupa
+1	Coupa	HasTraffic	moderate traffic
+1	Coupa	HasDistance	6 miles
+1	moderate traffic	IsTrafficOf	Coupa
+1	6 miles	IsDistanceFrom	Coupa
+2	Dominos	HasAddress	776 Arastradero Rd
+2	Dominos	HasType	pizza restaurant
+2	776 Arastradero Rd	IsAddressOf	Dominos
+2	pizza restaurant	IsTypeOf	Dominos
+2	Dominos	HasTraffic	no traffic
+2	Dominos	HasDistance	1 miles
+2	no traffic	IsTrafficOf	Dominos
+2	1 miles	IsDistanceFrom	Dominos
+3	5677 springer street	HasAddress	5677 springer street
+3	5677 springer street	HasType	certain address
+3	5677 springer street	IsAddressOf	5677 springer street
+3	certain address	IsTypeOf	5677 springer street
+3	5677 springer street	HasTraffic	no traffic
+3	5677 springer street	HasDistance	1 miles
+3	no traffic	IsTrafficOf	5677 springer street
+3	1 miles	IsDistanceFrom	5677 springer street
+4	Stanford Childrens Health	HasAddress	899 Ames Ct
+4	Stanford Childrens Health	HasType	hospital
+4	899 Ames Ct	IsAddressOf	Stanford Childrens Health
+4	hospital	IsTypeOf	Stanford Childrens Health
+4	Stanford Childrens Health	HasTraffic	heavy traffic
+4	Stanford Childrens Health	HasDistance	5 miles
+4	heavy traffic	IsTrafficOf	Stanford Childrens Health
+4	5 miles	IsDistanceFrom	Stanford Childrens Health
+5	Pizza My Heart	HasAddress	528 Anton Ct
+5	Pizza My Heart	HasType	pizza restaurant
+5	528 Anton Ct	IsAddressOf	Pizza My Heart
+5	pizza restaurant	IsTypeOf	Pizza My Heart
+5	Pizza My Heart	HasTraffic	moderate traffic
+5	Pizza My Heart	HasDistance	6 miles
+5	moderate traffic	IsTrafficOf	Pizza My Heart
+5	6 miles	IsDistanceFrom	Pizza My Heart
+6	Palo Alto Garage R	HasAddress	481 Amaranta Ave
+6	Palo Alto Garage R	HasType	parking garage
+6	481 Amaranta Ave	IsAddressOf	Palo Alto Garage R
+6	parking garage	IsTypeOf	Palo Alto Garage R
+6	Palo Alto Garage R	HasTraffic	moderate traffic
+6	Palo Alto Garage R	HasDistance	2 miles
+6	moderate traffic	IsTrafficOf	Palo Alto Garage R
+6	2 miles	IsDistanceFrom	Palo Alto Garage R
+-1	today	IsEqualTo	monday

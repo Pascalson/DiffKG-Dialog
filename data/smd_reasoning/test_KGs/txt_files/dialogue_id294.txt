@@ -1,0 +1,65 @@
+0	Starbucks	HasAddress	792 Bedoin Street
+0	Starbucks	HasType	coffee or tea place
+0	792 Bedoin Street	IsAddressOf	Starbucks
+0	coffee or tea place	IsTypeOf	Starbucks
+0	Starbucks	HasTraffic	heavy traffic
+0	Starbucks	HasDistance	5 miles
+0	heavy traffic	IsTrafficOf	Starbucks
+0	5 miles	IsDistanceFrom	Starbucks
+1	Stanford Shopping Center	HasAddress	773 Alger Dr
+1	Stanford Shopping Center	HasType	shopping center
+1	773 Alger Dr	IsAddressOf	Stanford Shopping Center
+1	shopping center	IsTypeOf	Stanford Shopping Center
+1	Stanford Shopping Center	HasTraffic	no traffic
+1	Stanford Shopping Center	HasDistance	7 miles
+1	no traffic	IsTrafficOf	Stanford Shopping Center
+1	7 miles	IsDistanceFrom	Stanford Shopping Center
+2	Jing Jing	HasAddress	113 Arbol Dr
+2	Jing Jing	HasType	chinese restaurant
+2	113 Arbol Dr	IsAddressOf	Jing Jing
+2	chinese restaurant	IsTypeOf	Jing Jing
+2	Jing Jing	HasTraffic	no traffic
+2	Jing Jing	HasDistance	2 miles
+2	no traffic	IsTrafficOf	Jing Jing
+2	2 miles	IsDistanceFrom	Jing Jing
+3	Travelers Lodge	HasAddress	333 Arbol Dr
+3	Travelers Lodge	HasType	rest stop
+3	333 Arbol Dr	IsAddressOf	Travelers Lodge
+3	rest stop	IsTypeOf	Travelers Lodge
+3	Travelers Lodge	HasTraffic	car collision nearby
+3	Travelers Lodge	HasDistance	6 miles
+3	car collision nearby	IsTrafficOf	Travelers Lodge
+3	6 miles	IsDistanceFrom	Travelers Lodge
+4	Stanford Express Care	HasAddress	214 El Camino Real
+4	Stanford Express Care	HasType	hospital
+4	214 El Camino Real	IsAddressOf	Stanford Express Care
+4	hospital	IsTypeOf	Stanford Express Care
+4	Stanford Express Care	HasTraffic	no traffic
+4	Stanford Express Care	HasDistance	6 miles
+4	no traffic	IsTrafficOf	Stanford Express Care
+4	6 miles	IsDistanceFrom	Stanford Express Care
+5	Dish Parking	HasAddress	550 Alester Ave
+5	Dish Parking	HasType	parking garage
+5	550 Alester Ave	IsAddressOf	Dish Parking
+5	parking garage	IsTypeOf	Dish Parking
+5	Dish Parking	HasTraffic	heavy traffic
+5	Dish Parking	HasDistance	1 miles
+5	heavy traffic	IsTrafficOf	Dish Parking
+5	1 miles	IsDistanceFrom	Dish Parking
+6	Ravenswood Shopping Center	HasAddress	434 Arastradero Rd
+6	Ravenswood Shopping Center	HasType	shopping center
+6	434 Arastradero Rd	IsAddressOf	Ravenswood Shopping Center
+6	shopping center	IsTypeOf	Ravenswood Shopping Center
+6	Ravenswood Shopping Center	HasTraffic	road block nearby
+6	Ravenswood Shopping Center	HasDistance	1 miles
+6	road block nearby	IsTrafficOf	Ravenswood Shopping Center
+6	1 miles	IsDistanceFrom	Ravenswood Shopping Center
+7	P.F. Changs	HasAddress	669 El Camino Real
+7	P.F. Changs	HasType	chinese restaurant
+7	669 El Camino Real	IsAddressOf	P.F. Changs
+7	chinese restaurant	IsTypeOf	P.F. Changs
+7	P.F. Changs	HasTraffic	road block nearby
+7	P.F. Changs	HasDistance	4 miles
+7	road block nearby	IsTrafficOf	P.F. Changs
+7	4 miles	IsDistanceFrom	P.F. Changs
+-1	today	IsEqualTo	monday

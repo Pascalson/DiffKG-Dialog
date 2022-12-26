@@ -1,0 +1,57 @@
+0	Webster Garage	HasAddress	880 Ames Ct
+0	Webster Garage	HasType	parking garage
+0	880 Ames Ct	IsAddressOf	Webster Garage
+0	parking garage	IsTypeOf	Webster Garage
+0	Webster Garage	HasTraffic	heavy traffic
+0	Webster Garage	HasDistance	3 miles
+0	heavy traffic	IsTrafficOf	Webster Garage
+0	3 miles	IsDistanceFrom	Webster Garage
+1	P.F. Changs	HasAddress	669 El Camino Real
+1	P.F. Changs	HasType	chinese restaurant
+1	669 El Camino Real	IsAddressOf	P.F. Changs
+1	chinese restaurant	IsTypeOf	P.F. Changs
+1	P.F. Changs	HasTraffic	moderate traffic
+1	P.F. Changs	HasDistance	6 miles
+1	moderate traffic	IsTrafficOf	P.F. Changs
+1	6 miles	IsDistanceFrom	P.F. Changs
+2	Midtown Shopping Center	HasAddress	338 Alester Ave
+2	Midtown Shopping Center	HasType	shopping center
+2	338 Alester Ave	IsAddressOf	Midtown Shopping Center
+2	shopping center	IsTypeOf	Midtown Shopping Center
+2	Midtown Shopping Center	HasTraffic	no traffic
+2	Midtown Shopping Center	HasDistance	3 miles
+2	no traffic	IsTrafficOf	Midtown Shopping Center
+2	3 miles	IsDistanceFrom	Midtown Shopping Center
+3	Jing Jing	HasAddress	113 Arbol Dr
+3	Jing Jing	HasType	chinese restaurant
+3	113 Arbol Dr	IsAddressOf	Jing Jing
+3	chinese restaurant	IsTypeOf	Jing Jing
+3	Jing Jing	HasTraffic	heavy traffic
+3	Jing Jing	HasDistance	5 miles
+3	heavy traffic	IsTrafficOf	Jing Jing
+3	5 miles	IsDistanceFrom	Jing Jing
+4	Philz	HasAddress	583 Alester Ave
+4	Philz	HasType	coffee or tea place
+4	583 Alester Ave	IsAddressOf	Philz
+4	coffee or tea place	IsTypeOf	Philz
+4	Philz	HasTraffic	moderate traffic
+4	Philz	HasDistance	2 miles
+4	moderate traffic	IsTrafficOf	Philz
+4	2 miles	IsDistanceFrom	Philz
+5	The Westin	HasAddress	329 El Camino Real
+5	The Westin	HasType	rest stop
+5	329 El Camino Real	IsAddressOf	The Westin
+5	rest stop	IsTypeOf	The Westin
+5	The Westin	HasTraffic	no traffic
+5	The Westin	HasDistance	4 miles
+5	no traffic	IsTrafficOf	The Westin
+5	4 miles	IsDistanceFrom	The Westin
+6	Valero	HasAddress	200 Alester Ave
+6	Valero	HasType	gas station
+6	200 Alester Ave	IsAddressOf	Valero
+6	gas station	IsTypeOf	Valero
+6	Valero	HasTraffic	no traffic
+6	Valero	HasDistance	2 miles
+6	no traffic	IsTrafficOf	Valero
+6	2 miles	IsDistanceFrom	Valero
+-1	today	IsEqualTo	monday

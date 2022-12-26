@@ -1,0 +1,57 @@
+0	Stanford Childrens Health	HasAddress	899 Ames Ct
+0	Stanford Childrens Health	HasType	hospital
+0	899 Ames Ct	IsAddressOf	Stanford Childrens Health
+0	hospital	IsTypeOf	Stanford Childrens Health
+0	Stanford Childrens Health	HasTraffic	moderate traffic
+0	Stanford Childrens Health	HasDistance	1 miles
+0	moderate traffic	IsTrafficOf	Stanford Childrens Health
+0	1 miles	IsDistanceFrom	Stanford Childrens Health
+1	jacks house	HasAddress	864 Almanor Ln
+1	jacks house	HasType	friends house
+1	864 Almanor Ln	IsAddressOf	jacks house
+1	friends house	IsTypeOf	jacks house
+1	jacks house	HasTraffic	moderate traffic
+1	jacks house	HasDistance	5 miles
+1	moderate traffic	IsTrafficOf	jacks house
+1	5 miles	IsDistanceFrom	jacks house
+2	Dominos	HasAddress	776 Arastradero Rd
+2	Dominos	HasType	pizza restaurant
+2	776 Arastradero Rd	IsAddressOf	Dominos
+2	pizza restaurant	IsTypeOf	Dominos
+2	Dominos	HasTraffic	heavy traffic
+2	Dominos	HasDistance	1 miles
+2	heavy traffic	IsTrafficOf	Dominos
+2	1 miles	IsDistanceFrom	Dominos
+3	Philz	HasAddress	583 Alester Ave
+3	Philz	HasType	coffee or tea place
+3	583 Alester Ave	IsAddressOf	Philz
+3	coffee or tea place	IsTypeOf	Philz
+3	Philz	HasTraffic	heavy traffic
+3	Philz	HasDistance	3 miles
+3	heavy traffic	IsTrafficOf	Philz
+3	3 miles	IsDistanceFrom	Philz
+4	Four Seasons	HasAddress	465 Arcadia Pl
+4	Four Seasons	HasType	rest stop
+4	465 Arcadia Pl	IsAddressOf	Four Seasons
+4	rest stop	IsTypeOf	Four Seasons
+4	Four Seasons	HasTraffic	moderate traffic
+4	Four Seasons	HasDistance	4 miles
+4	moderate traffic	IsTrafficOf	Four Seasons
+4	4 miles	IsDistanceFrom	Four Seasons
+5	Panda Express	HasAddress	842 Arrowhead Way
+5	Panda Express	HasType	chinese restaurant
+5	842 Arrowhead Way	IsAddressOf	Panda Express
+5	chinese restaurant	IsTypeOf	Panda Express
+5	Panda Express	HasTraffic	moderate traffic
+5	Panda Express	HasDistance	6 miles
+5	moderate traffic	IsTrafficOf	Panda Express
+5	6 miles	IsDistanceFrom	Panda Express
+6	Palo Alto Garage R	HasAddress	481 Amaranta Ave
+6	Palo Alto Garage R	HasType	parking garage
+6	481 Amaranta Ave	IsAddressOf	Palo Alto Garage R
+6	parking garage	IsTypeOf	Palo Alto Garage R
+6	Palo Alto Garage R	HasTraffic	no traffic
+6	Palo Alto Garage R	HasDistance	2 miles
+6	no traffic	IsTrafficOf	Palo Alto Garage R
+6	2 miles	IsDistanceFrom	Palo Alto Garage R
+-1	today	IsEqualTo	monday

@@ -1,0 +1,57 @@
+0	Trader Joes	HasAddress	408 University Ave
+0	Trader Joes	HasType	grocery store
+0	408 University Ave	IsAddressOf	Trader Joes
+0	grocery store	IsTypeOf	Trader Joes
+0	Trader Joes	HasTraffic	heavy traffic
+0	Trader Joes	HasDistance	2 miles
+0	heavy traffic	IsTrafficOf	Trader Joes
+0	2 miles	IsDistanceFrom	Trader Joes
+1	Comfort Inn	HasAddress	753 University Ave
+1	Comfort Inn	HasType	rest stop
+1	753 University Ave	IsAddressOf	Comfort Inn
+1	rest stop	IsTypeOf	Comfort Inn
+1	Comfort Inn	HasTraffic	heavy traffic
+1	Comfort Inn	HasDistance	1 miles
+1	heavy traffic	IsTrafficOf	Comfort Inn
+1	1 miles	IsDistanceFrom	Comfort Inn
+2	toms house	HasAddress	580 Van Ness Ave
+2	toms house	HasType	friends house
+2	580 Van Ness Ave	IsAddressOf	toms house
+2	friends house	IsTypeOf	toms house
+2	toms house	HasTraffic	heavy traffic
+2	toms house	HasDistance	5 miles
+2	heavy traffic	IsTrafficOf	toms house
+2	5 miles	IsDistanceFrom	toms house
+3	Jing Jing	HasAddress	113 Arbol Dr
+3	Jing Jing	HasType	chinese restaurant
+3	113 Arbol Dr	IsAddressOf	Jing Jing
+3	chinese restaurant	IsTypeOf	Jing Jing
+3	Jing Jing	HasTraffic	moderate traffic
+3	Jing Jing	HasDistance	3 miles
+3	moderate traffic	IsTrafficOf	Jing Jing
+3	3 miles	IsDistanceFrom	Jing Jing
+4	5677 southwest 4th street	HasAddress	5677 southwest 4th street
+4	5677 southwest 4th street	HasType	certain address
+4	5677 southwest 4th street	IsAddressOf	5677 southwest 4th street
+4	certain address	IsTypeOf	5677 southwest 4th street
+4	5677 southwest 4th street	HasTraffic	heavy traffic
+4	5677 southwest 4th street	HasDistance	1 miles
+4	heavy traffic	IsTrafficOf	5677 southwest 4th street
+4	1 miles	IsDistanceFrom	5677 southwest 4th street
+5	home	HasAddress	5671 barringer street
+5	home	HasType	home
+5	5671 barringer street	IsAddressOf	home
+5	home	IsTypeOf	home
+5	home	HasTraffic	no traffic
+5	home	HasDistance	6 miles
+5	no traffic	IsTrafficOf	home
+5	6 miles	IsDistanceFrom	home
+6	Starbucks	HasAddress	792 Bedoin Street
+6	Starbucks	HasType	coffee or tea place
+6	792 Bedoin Street	IsAddressOf	Starbucks
+6	coffee or tea place	IsTypeOf	Starbucks
+6	Starbucks	HasTraffic	moderate traffic
+6	Starbucks	HasDistance	5 miles
+6	moderate traffic	IsTrafficOf	Starbucks
+6	5 miles	IsDistanceFrom	Starbucks
+-1	today	IsEqualTo	monday

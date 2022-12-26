@@ -1,0 +1,57 @@
+0	Town and Country	HasAddress	383 University Ave
+0	Town and Country	HasType	shopping center
+0	383 University Ave	IsAddressOf	Town and Country
+0	shopping center	IsTypeOf	Town and Country
+0	Town and Country	HasTraffic	heavy traffic
+0	Town and Country	HasDistance	4 miles
+0	heavy traffic	IsTrafficOf	Town and Country
+0	4 miles	IsDistanceFrom	Town and Country
+1	Coupa	HasAddress	394 Van Ness Ave
+1	Coupa	HasType	coffee or tea place
+1	394 Van Ness Ave	IsAddressOf	Coupa
+1	coffee or tea place	IsTypeOf	Coupa
+1	Coupa	HasTraffic	moderate traffic
+1	Coupa	HasDistance	6 miles
+1	moderate traffic	IsTrafficOf	Coupa
+1	6 miles	IsDistanceFrom	Coupa
+2	The Westin	HasAddress	329 El Camino Real
+2	The Westin	HasType	rest stop
+2	329 El Camino Real	IsAddressOf	The Westin
+2	rest stop	IsTypeOf	The Westin
+2	The Westin	HasTraffic	no traffic
+2	The Westin	HasDistance	4 miles
+2	no traffic	IsTrafficOf	The Westin
+2	4 miles	IsDistanceFrom	The Westin
+3	Jing Jing	HasAddress	113 Arbol Dr
+3	Jing Jing	HasType	chinese restaurant
+3	113 Arbol Dr	IsAddressOf	Jing Jing
+3	chinese restaurant	IsTypeOf	Jing Jing
+3	Jing Jing	HasTraffic	heavy traffic
+3	Jing Jing	HasDistance	5 miles
+3	heavy traffic	IsTrafficOf	Jing Jing
+3	5 miles	IsDistanceFrom	Jing Jing
+4	Philz	HasAddress	583 Alester Ave
+4	Philz	HasType	coffee or tea place
+4	583 Alester Ave	IsAddressOf	Philz
+4	coffee or tea place	IsTypeOf	Philz
+4	Philz	HasTraffic	moderate traffic
+4	Philz	HasDistance	2 miles
+4	moderate traffic	IsTrafficOf	Philz
+4	2 miles	IsDistanceFrom	Philz
+5	Whole Foods	HasAddress	819 Alma St
+5	Whole Foods	HasType	grocery store
+5	819 Alma St	IsAddressOf	Whole Foods
+5	grocery store	IsTypeOf	Whole Foods
+5	Whole Foods	HasTraffic	heavy traffic
+5	Whole Foods	HasDistance	2 miles
+5	heavy traffic	IsTrafficOf	Whole Foods
+5	2 miles	IsDistanceFrom	Whole Foods
+6	Safeway	HasAddress	452 Arcadia Pl
+6	Safeway	HasType	grocery store
+6	452 Arcadia Pl	IsAddressOf	Safeway
+6	grocery store	IsTypeOf	Safeway
+6	Safeway	HasTraffic	moderate traffic
+6	Safeway	HasDistance	4 miles
+6	moderate traffic	IsTrafficOf	Safeway
+6	4 miles	IsDistanceFrom	Safeway
+-1	today	IsEqualTo	monday

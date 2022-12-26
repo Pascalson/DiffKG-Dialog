@@ -1,0 +1,57 @@
+0	Comfort Inn	HasAddress	753 University Ave
+0	Comfort Inn	HasType	rest stop
+0	753 University Ave	IsAddressOf	Comfort Inn
+0	rest stop	IsTypeOf	Comfort Inn
+0	Comfort Inn	HasTraffic	no traffic
+0	Comfort Inn	HasDistance	2 miles
+0	no traffic	IsTrafficOf	Comfort Inn
+0	2 miles	IsDistanceFrom	Comfort Inn
+1	home	HasAddress	5671 barringer street
+1	home	HasType	home
+1	5671 barringer street	IsAddressOf	home
+1	home	IsTypeOf	home
+1	home	HasTraffic	moderate traffic
+1	home	HasDistance	3 miles
+1	moderate traffic	IsTrafficOf	home
+1	3 miles	IsDistanceFrom	home
+2	Hotel Keen	HasAddress	578 Arbol Dr
+2	Hotel Keen	HasType	rest stop
+2	578 Arbol Dr	IsAddressOf	Hotel Keen
+2	rest stop	IsTypeOf	Hotel Keen
+2	Hotel Keen	HasTraffic	no traffic
+2	Hotel Keen	HasDistance	3 miles
+2	no traffic	IsTrafficOf	Hotel Keen
+2	3 miles	IsDistanceFrom	Hotel Keen
+3	Ravenswood Shopping Center	HasAddress	434 Arastradero Rd
+3	Ravenswood Shopping Center	HasType	shopping center
+3	434 Arastradero Rd	IsAddressOf	Ravenswood Shopping Center
+3	shopping center	IsTypeOf	Ravenswood Shopping Center
+3	Ravenswood Shopping Center	HasTraffic	no traffic
+3	Ravenswood Shopping Center	HasDistance	1 miles
+3	no traffic	IsTrafficOf	Ravenswood Shopping Center
+3	1 miles	IsDistanceFrom	Ravenswood Shopping Center
+4	Trader Joes	HasAddress	408 University Ave
+4	Trader Joes	HasType	grocery store
+4	408 University Ave	IsAddressOf	Trader Joes
+4	grocery store	IsTypeOf	Trader Joes
+4	Trader Joes	HasTraffic	heavy traffic
+4	Trader Joes	HasDistance	5 miles
+4	heavy traffic	IsTrafficOf	Trader Joes
+4	5 miles	IsDistanceFrom	Trader Joes
+5	Teavana	HasAddress	145 Amherst St
+5	Teavana	HasType	coffee or tea place
+5	145 Amherst St	IsAddressOf	Teavana
+5	coffee or tea place	IsTypeOf	Teavana
+5	Teavana	HasTraffic	heavy traffic
+5	Teavana	HasDistance	2 miles
+5	heavy traffic	IsTrafficOf	Teavana
+5	2 miles	IsDistanceFrom	Teavana
+6	Midtown Shopping Center	HasAddress	338 Alester Ave
+6	Midtown Shopping Center	HasType	shopping center
+6	338 Alester Ave	IsAddressOf	Midtown Shopping Center
+6	shopping center	IsTypeOf	Midtown Shopping Center
+6	Midtown Shopping Center	HasTraffic	heavy traffic
+6	Midtown Shopping Center	HasDistance	3 miles
+6	heavy traffic	IsTrafficOf	Midtown Shopping Center
+6	3 miles	IsDistanceFrom	Midtown Shopping Center
+-1	today	IsEqualTo	monday

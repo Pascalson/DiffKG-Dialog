@@ -1,0 +1,65 @@
+0	Town and Country	HasAddress	383 University Ave
+0	Town and Country	HasType	shopping center
+0	383 University Ave	IsAddressOf	Town and Country
+0	shopping center	IsTypeOf	Town and Country
+0	Town and Country	HasTraffic	car collision nearby
+0	Town and Country	HasDistance	4 miles
+0	car collision nearby	IsTrafficOf	Town and Country
+0	4 miles	IsDistanceFrom	Town and Country
+1	Travelers Lodge	HasAddress	333 Arbol Dr
+1	Travelers Lodge	HasType	rest stop
+1	333 Arbol Dr	IsAddressOf	Travelers Lodge
+1	rest stop	IsTypeOf	Travelers Lodge
+1	Travelers Lodge	HasTraffic	car collision nearby
+1	Travelers Lodge	HasDistance	2 miles
+1	car collision nearby	IsTrafficOf	Travelers Lodge
+1	2 miles	IsDistanceFrom	Travelers Lodge
+2	Webster Garage	HasAddress	880 Ames Ct
+2	Webster Garage	HasType	parking garage
+2	880 Ames Ct	IsAddressOf	Webster Garage
+2	parking garage	IsTypeOf	Webster Garage
+2	Webster Garage	HasTraffic	road block nearby
+2	Webster Garage	HasDistance	6 miles
+2	road block nearby	IsTrafficOf	Webster Garage
+2	6 miles	IsDistanceFrom	Webster Garage
+3	5677 southwest 4th street	HasAddress	5677 southwest 4th street
+3	5677 southwest 4th street	HasType	certain address
+3	5677 southwest 4th street	IsAddressOf	5677 southwest 4th street
+3	certain address	IsTypeOf	5677 southwest 4th street
+3	5677 southwest 4th street	HasTraffic	moderate traffic
+3	5677 southwest 4th street	HasDistance	2 miles
+3	moderate traffic	IsTrafficOf	5677 southwest 4th street
+3	2 miles	IsDistanceFrom	5677 southwest 4th street
+4	Peets Coffee	HasAddress	9981 Archuleta Ave
+4	Peets Coffee	HasType	coffee or tea place
+4	9981 Archuleta Ave	IsAddressOf	Peets Coffee
+4	coffee or tea place	IsTypeOf	Peets Coffee
+4	Peets Coffee	HasTraffic	car collision nearby
+4	Peets Coffee	HasDistance	7 miles
+4	car collision nearby	IsTrafficOf	Peets Coffee
+4	7 miles	IsDistanceFrom	Peets Coffee
+5	The Clement Hotel	HasAddress	657 Ames Ave
+5	The Clement Hotel	HasType	rest stop
+5	657 Ames Ave	IsAddressOf	The Clement Hotel
+5	rest stop	IsTypeOf	The Clement Hotel
+5	The Clement Hotel	HasTraffic	car collision nearby
+5	The Clement Hotel	HasDistance	6 miles
+5	car collision nearby	IsTrafficOf	The Clement Hotel
+5	6 miles	IsDistanceFrom	The Clement Hotel
+6	Shell	HasAddress	53 University Av
+6	Shell	HasType	gas station
+6	53 University Av	IsAddressOf	Shell
+6	gas station	IsTypeOf	Shell
+6	Shell	HasTraffic	no traffic
+6	Shell	HasDistance	4 miles
+6	no traffic	IsTrafficOf	Shell
+6	4 miles	IsDistanceFrom	Shell
+7	Stanford Childrens Health	HasAddress	899 Ames Ct
+7	Stanford Childrens Health	HasType	hospital
+7	899 Ames Ct	IsAddressOf	Stanford Childrens Health
+7	hospital	IsTypeOf	Stanford Childrens Health
+7	Stanford Childrens Health	HasTraffic	moderate traffic
+7	Stanford Childrens Health	HasDistance	5 miles
+7	moderate traffic	IsTrafficOf	Stanford Childrens Health
+7	5 miles	IsDistanceFrom	Stanford Childrens Health
+-1	today	IsEqualTo	monday

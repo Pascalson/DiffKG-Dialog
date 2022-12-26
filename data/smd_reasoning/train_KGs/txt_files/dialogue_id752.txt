@@ -1,0 +1,65 @@
+0	Whole Foods	HasAddress	819 Alma St
+0	Whole Foods	HasType	grocery store
+0	819 Alma St	IsAddressOf	Whole Foods
+0	grocery store	IsTypeOf	Whole Foods
+0	Whole Foods	HasTraffic	car collision nearby
+0	Whole Foods	HasDistance	6 miles
+0	car collision nearby	IsTrafficOf	Whole Foods
+0	6 miles	IsDistanceFrom	Whole Foods
+1	Jing Jing	HasAddress	113 Arbol Dr
+1	Jing Jing	HasType	chinese restaurant
+1	113 Arbol Dr	IsAddressOf	Jing Jing
+1	chinese restaurant	IsTypeOf	Jing Jing
+1	Jing Jing	HasTraffic	car collision nearby
+1	Jing Jing	HasDistance	5 miles
+1	car collision nearby	IsTrafficOf	Jing Jing
+1	5 miles	IsDistanceFrom	Jing Jing
+2	Dish Parking	HasAddress	550 Alester Ave
+2	Dish Parking	HasType	parking garage
+2	550 Alester Ave	IsAddressOf	Dish Parking
+2	parking garage	IsTypeOf	Dish Parking
+2	Dish Parking	HasTraffic	car collision nearby
+2	Dish Parking	HasDistance	4 miles
+2	car collision nearby	IsTrafficOf	Dish Parking
+2	4 miles	IsDistanceFrom	Dish Parking
+3	Topanga Mall	HasAddress	171 Oak Rd
+3	Topanga Mall	HasType	shopping center
+3	171 Oak Rd	IsAddressOf	Topanga Mall
+3	shopping center	IsTypeOf	Topanga Mall
+3	Topanga Mall	HasTraffic	moderate traffic
+3	Topanga Mall	HasDistance	5 miles
+3	moderate traffic	IsTrafficOf	Topanga Mall
+3	5 miles	IsDistanceFrom	Topanga Mall
+4	Pizza My Heart	HasAddress	528 Anton Ct
+4	Pizza My Heart	HasType	pizza restaurant
+4	528 Anton Ct	IsAddressOf	Pizza My Heart
+4	pizza restaurant	IsTypeOf	Pizza My Heart
+4	Pizza My Heart	HasTraffic	no traffic
+4	Pizza My Heart	HasDistance	4 miles
+4	no traffic	IsTrafficOf	Pizza My Heart
+4	4 miles	IsDistanceFrom	Pizza My Heart
+5	Four Seasons	HasAddress	465 Arcadia Pl
+5	Four Seasons	HasType	rest stop
+5	465 Arcadia Pl	IsAddressOf	Four Seasons
+5	rest stop	IsTypeOf	Four Seasons
+5	Four Seasons	HasTraffic	car collision nearby
+5	Four Seasons	HasDistance	2 miles
+5	car collision nearby	IsTrafficOf	Four Seasons
+5	2 miles	IsDistanceFrom	Four Seasons
+6	Starbucks	HasAddress	792 Bedoin Street
+6	Starbucks	HasType	coffee or tea place
+6	792 Bedoin Street	IsAddressOf	Starbucks
+6	coffee or tea place	IsTypeOf	Starbucks
+6	Starbucks	HasTraffic	no traffic
+6	Starbucks	HasDistance	1 miles
+6	no traffic	IsTrafficOf	Starbucks
+6	1 miles	IsDistanceFrom	Starbucks
+7	Stanford Shopping Center	HasAddress	773 Alger Dr
+7	Stanford Shopping Center	HasType	shopping center
+7	773 Alger Dr	IsAddressOf	Stanford Shopping Center
+7	shopping center	IsTypeOf	Stanford Shopping Center
+7	Stanford Shopping Center	HasTraffic	car collision nearby
+7	Stanford Shopping Center	HasDistance	4 miles
+7	car collision nearby	IsTrafficOf	Stanford Shopping Center
+7	4 miles	IsDistanceFrom	Stanford Shopping Center
+-1	today	IsEqualTo	monday

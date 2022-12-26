@@ -1,0 +1,65 @@
+0	Pizza My Heart	HasAddress	528 Anton Ct
+0	Pizza My Heart	HasType	pizza restaurant
+0	528 Anton Ct	IsAddressOf	Pizza My Heart
+0	pizza restaurant	IsTypeOf	Pizza My Heart
+0	Pizza My Heart	HasTraffic	moderate traffic
+0	Pizza My Heart	HasDistance	6 miles
+0	moderate traffic	IsTrafficOf	Pizza My Heart
+0	6 miles	IsDistanceFrom	Pizza My Heart
+1	Town and Country	HasAddress	383 University Ave
+1	Town and Country	HasType	shopping center
+1	383 University Ave	IsAddressOf	Town and Country
+1	shopping center	IsTypeOf	Town and Country
+1	Town and Country	HasTraffic	heavy traffic
+1	Town and Country	HasDistance	2 miles
+1	heavy traffic	IsTrafficOf	Town and Country
+1	2 miles	IsDistanceFrom	Town and Country
+2	toms house	HasAddress	580 Van Ness Ave
+2	toms house	HasType	friends house
+2	580 Van Ness Ave	IsAddressOf	toms house
+2	friends house	IsTypeOf	toms house
+2	toms house	HasTraffic	no traffic
+2	toms house	HasDistance	2 miles
+2	no traffic	IsTrafficOf	toms house
+2	2 miles	IsDistanceFrom	toms house
+3	jacks house	HasAddress	864 Almanor Ln
+3	jacks house	HasType	friends house
+3	864 Almanor Ln	IsAddressOf	jacks house
+3	friends house	IsTypeOf	jacks house
+3	jacks house	HasTraffic	no traffic
+3	jacks house	HasDistance	4 miles
+3	no traffic	IsTrafficOf	jacks house
+3	4 miles	IsDistanceFrom	jacks house
+4	Peets Coffee	HasAddress	9981 Archuleta Ave
+4	Peets Coffee	HasType	coffee or tea place
+4	9981 Archuleta Ave	IsAddressOf	Peets Coffee
+4	coffee or tea place	IsTypeOf	Peets Coffee
+4	Peets Coffee	HasTraffic	car collision nearby
+4	Peets Coffee	HasDistance	3 miles
+4	car collision nearby	IsTrafficOf	Peets Coffee
+4	3 miles	IsDistanceFrom	Peets Coffee
+5	Palo Alto Garage R	HasAddress	481 Amaranta Ave
+5	Palo Alto Garage R	HasType	parking garage
+5	481 Amaranta Ave	IsAddressOf	Palo Alto Garage R
+5	parking garage	IsTypeOf	Palo Alto Garage R
+5	Palo Alto Garage R	HasTraffic	car collision nearby
+5	Palo Alto Garage R	HasDistance	1 miles
+5	car collision nearby	IsTrafficOf	Palo Alto Garage R
+5	1 miles	IsDistanceFrom	Palo Alto Garage R
+6	Round Table	HasAddress	113 Anton Ct
+6	Round Table	HasType	pizza restaurant
+6	113 Anton Ct	IsAddressOf	Round Table
+6	pizza restaurant	IsTypeOf	Round Table
+6	Round Table	HasTraffic	road block nearby
+6	Round Table	HasDistance	8 miles
+6	road block nearby	IsTrafficOf	Round Table
+6	8 miles	IsDistanceFrom	Round Table
+7	Travelers Lodge	HasAddress	333 Arbol Dr
+7	Travelers Lodge	HasType	rest stop
+7	333 Arbol Dr	IsAddressOf	Travelers Lodge
+7	rest stop	IsTypeOf	Travelers Lodge
+7	Travelers Lodge	HasTraffic	no traffic
+7	Travelers Lodge	HasDistance	6 miles
+7	no traffic	IsTrafficOf	Travelers Lodge
+7	6 miles	IsDistanceFrom	Travelers Lodge
+-1	today	IsEqualTo	monday

@@ -1,0 +1,31 @@
+0	dentist appointment	HasTime	2pm
+0	2pm	IsTimeOf	dentist appointment
+0	dentist appointment	HasDate	friday
+0	friday	IsDateOf	dentist appointment
+1	meeting	HasTime	2pm
+1	2pm	IsTimeOf	meeting
+1	meeting	HasDate	monday
+1	monday	IsDateOf	meeting
+1	meeting	HasParty	sales team
+1	sales team	IsPartyOf	meeting
+1	meeting	HasRoom	conference room 100
+1	conference room 100	IsRoomOf	meeting
+1	meeting	HasAgenda	discuss the company picnic
+1	discuss the company picnic	IsAgendaOf	meeting
+2	dinner	HasTime	5pm
+2	5pm	IsTimeOf	dinner
+2	dinner	HasDate	monday
+2	monday	IsDateOf	dinner
+3	swimming activity	HasTime	3pm
+3	3pm	IsTimeOf	swimming activity
+3	swimming activity	HasDate	monday
+3	monday	IsDateOf	swimming activity
+4	yoga activity	HasTime	10am
+4	10am	IsTimeOf	yoga activity
+4	yoga activity	HasDate	friday
+4	friday	IsDateOf	yoga activity
+5	tennis activity	HasTime	10am
+5	10am	IsTimeOf	tennis activity
+5	tennis activity	HasDate	friday
+5	friday	IsDateOf	tennis activity
+-1	today	IsEqualTo	monday

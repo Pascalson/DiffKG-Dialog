@@ -1,0 +1,57 @@
+0	Sigona Farmers Market	HasAddress	638 Amherst St
+0	Sigona Farmers Market	HasType	grocery store
+0	638 Amherst St	IsAddressOf	Sigona Farmers Market
+0	grocery store	IsTypeOf	Sigona Farmers Market
+0	Sigona Farmers Market	HasTraffic	moderate traffic
+0	Sigona Farmers Market	HasDistance	1 miles
+0	moderate traffic	IsTrafficOf	Sigona Farmers Market
+0	1 miles	IsDistanceFrom	Sigona Farmers Market
+1	Chef Chu's	HasAddress	593 Arrowhead Way
+1	Chef Chu's	HasType	chinese restaurant
+1	593 Arrowhead Way	IsAddressOf	Chef Chu's
+1	chinese restaurant	IsTypeOf	Chef Chu's
+1	Chef Chu's	HasTraffic	heavy traffic
+1	Chef Chu's	HasDistance	1 miles
+1	heavy traffic	IsTrafficOf	Chef Chu's
+1	1 miles	IsDistanceFrom	Chef Chu's
+2	Stanford Childrens Health	HasAddress	899 Ames Ct
+2	Stanford Childrens Health	HasType	hospital
+2	899 Ames Ct	IsAddressOf	Stanford Childrens Health
+2	hospital	IsTypeOf	Stanford Childrens Health
+2	Stanford Childrens Health	HasTraffic	moderate traffic
+2	Stanford Childrens Health	HasDistance	3 miles
+2	moderate traffic	IsTrafficOf	Stanford Childrens Health
+2	3 miles	IsDistanceFrom	Stanford Childrens Health
+3	Pizza Chicago	HasAddress	915 Arbol Dr
+3	Pizza Chicago	HasType	pizza restaurant
+3	915 Arbol Dr	IsAddressOf	Pizza Chicago
+3	pizza restaurant	IsTypeOf	Pizza Chicago
+3	Pizza Chicago	HasTraffic	heavy traffic
+3	Pizza Chicago	HasDistance	4 miles
+3	heavy traffic	IsTrafficOf	Pizza Chicago
+3	4 miles	IsDistanceFrom	Pizza Chicago
+4	Palo Alto Cafe	HasAddress	436 Alger Dr
+4	Palo Alto Cafe	HasType	coffee or tea place
+4	436 Alger Dr	IsAddressOf	Palo Alto Cafe
+4	coffee or tea place	IsTypeOf	Palo Alto Cafe
+4	Palo Alto Cafe	HasTraffic	moderate traffic
+4	Palo Alto Cafe	HasDistance	3 miles
+4	moderate traffic	IsTrafficOf	Palo Alto Cafe
+4	3 miles	IsDistanceFrom	Palo Alto Cafe
+5	Starbucks	HasAddress	792 Bedoin Street
+5	Starbucks	HasType	coffee or tea place
+5	792 Bedoin Street	IsAddressOf	Starbucks
+5	coffee or tea place	IsTypeOf	Starbucks
+5	Starbucks	HasTraffic	heavy traffic
+5	Starbucks	HasDistance	6 miles
+5	heavy traffic	IsTrafficOf	Starbucks
+5	6 miles	IsDistanceFrom	Starbucks
+6	home	HasAddress	5671 barringer street
+6	home	HasType	home
+6	5671 barringer street	IsAddressOf	home
+6	home	IsTypeOf	home
+6	home	HasTraffic	heavy traffic
+6	home	HasDistance	3 miles
+6	heavy traffic	IsTrafficOf	home
+6	3 miles	IsDistanceFrom	home
+-1	today	IsEqualTo	monday

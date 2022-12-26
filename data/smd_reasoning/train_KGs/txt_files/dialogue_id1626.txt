@@ -1,0 +1,65 @@
+0	Papa Johns	HasAddress	110 Arastradero Rd
+0	Papa Johns	HasType	pizza restaurant
+0	110 Arastradero Rd	IsAddressOf	Papa Johns
+0	pizza restaurant	IsTypeOf	Papa Johns
+0	Papa Johns	HasTraffic	car collision nearby
+0	Papa Johns	HasDistance	3 miles
+0	car collision nearby	IsTrafficOf	Papa Johns
+0	3 miles	IsDistanceFrom	Papa Johns
+1	Stanford Express Care	HasAddress	214 El Camino Real
+1	Stanford Express Care	HasType	hospital
+1	214 El Camino Real	IsAddressOf	Stanford Express Care
+1	hospital	IsTypeOf	Stanford Express Care
+1	Stanford Express Care	HasTraffic	car collision nearby
+1	Stanford Express Care	HasDistance	5 miles
+1	car collision nearby	IsTrafficOf	Stanford Express Care
+1	5 miles	IsDistanceFrom	Stanford Express Care
+2	Stanford Shopping Center	HasAddress	773 Alger Dr
+2	Stanford Shopping Center	HasType	shopping center
+2	773 Alger Dr	IsAddressOf	Stanford Shopping Center
+2	shopping center	IsTypeOf	Stanford Shopping Center
+2	Stanford Shopping Center	HasTraffic	moderate traffic
+2	Stanford Shopping Center	HasDistance	2 miles
+2	moderate traffic	IsTrafficOf	Stanford Shopping Center
+2	2 miles	IsDistanceFrom	Stanford Shopping Center
+3	Midtown Shopping Center	HasAddress	338 Alester Ave
+3	Midtown Shopping Center	HasType	shopping center
+3	338 Alester Ave	IsAddressOf	Midtown Shopping Center
+3	shopping center	IsTypeOf	Midtown Shopping Center
+3	Midtown Shopping Center	HasTraffic	heavy traffic
+3	Midtown Shopping Center	HasDistance	4 miles
+3	heavy traffic	IsTrafficOf	Midtown Shopping Center
+3	4 miles	IsDistanceFrom	Midtown Shopping Center
+4	Stanford Oval Parking	HasAddress	610 Amarillo Ave
+4	Stanford Oval Parking	HasType	parking garage
+4	610 Amarillo Ave	IsAddressOf	Stanford Oval Parking
+4	parking garage	IsTypeOf	Stanford Oval Parking
+4	Stanford Oval Parking	HasTraffic	no traffic
+4	Stanford Oval Parking	HasDistance	6 miles
+4	no traffic	IsTrafficOf	Stanford Oval Parking
+4	6 miles	IsDistanceFrom	Stanford Oval Parking
+5	Cafe Venetia	HasAddress	269 Alger Dr
+5	Cafe Venetia	HasType	coffee or tea place
+5	269 Alger Dr	IsAddressOf	Cafe Venetia
+5	coffee or tea place	IsTypeOf	Cafe Venetia
+5	Cafe Venetia	HasTraffic	heavy traffic
+5	Cafe Venetia	HasDistance	6 miles
+5	heavy traffic	IsTrafficOf	Cafe Venetia
+5	6 miles	IsDistanceFrom	Cafe Venetia
+6	Pizza Hut	HasAddress	704 El Camino Real
+6	Pizza Hut	HasType	pizza restaurant
+6	704 El Camino Real	IsAddressOf	Pizza Hut
+6	pizza restaurant	IsTypeOf	Pizza Hut
+6	Pizza Hut	HasTraffic	moderate traffic
+6	Pizza Hut	HasDistance	1 miles
+6	moderate traffic	IsTrafficOf	Pizza Hut
+6	1 miles	IsDistanceFrom	Pizza Hut
+7	Hotel Keen	HasAddress	578 Arbol Dr
+7	Hotel Keen	HasType	rest stop
+7	578 Arbol Dr	IsAddressOf	Hotel Keen
+7	rest stop	IsTypeOf	Hotel Keen
+7	Hotel Keen	HasTraffic	road block nearby
+7	Hotel Keen	HasDistance	7 miles
+7	road block nearby	IsTrafficOf	Hotel Keen
+7	7 miles	IsDistanceFrom	Hotel Keen
+-1	today	IsEqualTo	monday

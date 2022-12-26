@@ -1,0 +1,37 @@
+0	optometrist appointment	HasTime	2pm
+0	2pm	IsTimeOf	optometrist appointment
+0	optometrist appointment	HasDate	the 13th
+0	the 13th	IsDateOf	optometrist appointment
+0	optometrist appointment	HasParty	brother
+0	brother	IsPartyOf	optometrist appointment
+1	dentist appointment	HasTime	2pm
+1	2pm	IsTimeOf	dentist appointment
+1	dentist appointment	HasDate	thursday
+1	thursday	IsDateOf	dentist appointment
+1	dentist appointment	HasParty	Marie
+1	Marie	IsPartyOf	dentist appointment
+2	taking medicine	HasTime	10am
+2	10am	IsTimeOf	taking medicine
+2	taking medicine	HasDate	tuesday
+2	tuesday	IsDateOf	taking medicine
+2	taking medicine	HasParty	Tom
+2	Tom	IsPartyOf	taking medicine
+3	football activity	HasTime	9am
+3	9am	IsTimeOf	football activity
+3	football activity	HasDate	sunday
+3	sunday	IsDateOf	football activity
+3	football activity	HasParty	Alex
+3	Alex	IsPartyOf	football activity
+4	lab appointment	HasTime	5pm
+4	5pm	IsTimeOf	lab appointment
+4	lab appointment	HasDate	the 4th
+4	the 4th	IsDateOf	lab appointment
+4	lab appointment	HasParty	Tom
+4	Tom	IsPartyOf	lab appointment
+5	dinner	HasTime	7pm
+5	7pm	IsTimeOf	dinner
+5	dinner	HasDate	wednesday
+5	wednesday	IsDateOf	dinner
+5	dinner	HasParty	Jon
+5	Jon	IsPartyOf	dinner
+-1	today	IsEqualTo	monday

@@ -1,0 +1,65 @@
+0	jills house	HasAddress	347 Alta Mesa Ave
+0	jills house	HasType	friends house
+0	347 Alta Mesa Ave	IsAddressOf	jills house
+0	friends house	IsTypeOf	jills house
+0	jills house	HasTraffic	no traffic
+0	jills house	HasDistance	1 miles
+0	no traffic	IsTrafficOf	jills house
+0	1 miles	IsDistanceFrom	jills house
+1	The Clement Hotel	HasAddress	657 Ames Ave
+1	The Clement Hotel	HasType	rest stop
+1	657 Ames Ave	IsAddressOf	The Clement Hotel
+1	rest stop	IsTypeOf	The Clement Hotel
+1	The Clement Hotel	HasTraffic	road block nearby
+1	The Clement Hotel	HasDistance	4 miles
+1	road block nearby	IsTrafficOf	The Clement Hotel
+1	4 miles	IsDistanceFrom	The Clement Hotel
+2	Webster Garage	HasAddress	880 Ames Ct
+2	Webster Garage	HasType	parking garage
+2	880 Ames Ct	IsAddressOf	Webster Garage
+2	parking garage	IsTypeOf	Webster Garage
+2	Webster Garage	HasTraffic	moderate traffic
+2	Webster Garage	HasDistance	2 miles
+2	moderate traffic	IsTrafficOf	Webster Garage
+2	2 miles	IsDistanceFrom	Webster Garage
+3	Stanford Shopping Center	HasAddress	773 Alger Dr
+3	Stanford Shopping Center	HasType	shopping center
+3	773 Alger Dr	IsAddressOf	Stanford Shopping Center
+3	shopping center	IsTypeOf	Stanford Shopping Center
+3	Stanford Shopping Center	HasTraffic	moderate traffic
+3	Stanford Shopping Center	HasDistance	6 miles
+3	moderate traffic	IsTrafficOf	Stanford Shopping Center
+3	6 miles	IsDistanceFrom	Stanford Shopping Center
+4	Papa Johns	HasAddress	110 Arastradero Rd
+4	Papa Johns	HasType	pizza restaurant
+4	110 Arastradero Rd	IsAddressOf	Papa Johns
+4	pizza restaurant	IsTypeOf	Papa Johns
+4	Papa Johns	HasTraffic	road block nearby
+4	Papa Johns	HasDistance	1 miles
+4	road block nearby	IsTrafficOf	Papa Johns
+4	1 miles	IsDistanceFrom	Papa Johns
+5	Round Table	HasAddress	113 Anton Ct
+5	Round Table	HasType	pizza restaurant
+5	113 Anton Ct	IsAddressOf	Round Table
+5	pizza restaurant	IsTypeOf	Round Table
+5	Round Table	HasTraffic	heavy traffic
+5	Round Table	HasDistance	2 miles
+5	heavy traffic	IsTrafficOf	Round Table
+5	2 miles	IsDistanceFrom	Round Table
+6	Jing Jing	HasAddress	113 Arbol Dr
+6	Jing Jing	HasType	chinese restaurant
+6	113 Arbol Dr	IsAddressOf	Jing Jing
+6	chinese restaurant	IsTypeOf	Jing Jing
+6	Jing Jing	HasTraffic	heavy traffic
+6	Jing Jing	HasDistance	3 miles
+6	heavy traffic	IsTrafficOf	Jing Jing
+6	3 miles	IsDistanceFrom	Jing Jing
+7	Four Seasons	HasAddress	465 Arcadia Pl
+7	Four Seasons	HasType	rest stop
+7	465 Arcadia Pl	IsAddressOf	Four Seasons
+7	rest stop	IsTypeOf	Four Seasons
+7	Four Seasons	HasTraffic	road block nearby
+7	Four Seasons	HasDistance	2 miles
+7	road block nearby	IsTrafficOf	Four Seasons
+7	2 miles	IsDistanceFrom	Four Seasons
+-1	today	IsEqualTo	monday

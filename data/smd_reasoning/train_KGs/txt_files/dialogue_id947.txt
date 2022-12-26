@@ -1,0 +1,57 @@
+0	Palo Alto Medical Foundation	HasAddress	611 Ames Ave
+0	Palo Alto Medical Foundation	HasType	hospital
+0	611 Ames Ave	IsAddressOf	Palo Alto Medical Foundation
+0	hospital	IsTypeOf	Palo Alto Medical Foundation
+0	Palo Alto Medical Foundation	HasTraffic	heavy traffic
+0	Palo Alto Medical Foundation	HasDistance	5 miles
+0	heavy traffic	IsTrafficOf	Palo Alto Medical Foundation
+0	5 miles	IsDistanceFrom	Palo Alto Medical Foundation
+1	home	HasAddress	56 cadwell street
+1	home	HasType	home
+1	56 cadwell street	IsAddressOf	home
+1	home	IsTypeOf	home
+1	home	HasTraffic	moderate traffic
+1	home	HasDistance	2 miles
+1	moderate traffic	IsTrafficOf	home
+1	2 miles	IsDistanceFrom	home
+2	The Clement Hotel	HasAddress	657 Ames Ave
+2	The Clement Hotel	HasType	rest stop
+2	657 Ames Ave	IsAddressOf	The Clement Hotel
+2	rest stop	IsTypeOf	The Clement Hotel
+2	The Clement Hotel	HasTraffic	moderate traffic
+2	The Clement Hotel	HasDistance	2 miles
+2	moderate traffic	IsTrafficOf	The Clement Hotel
+2	2 miles	IsDistanceFrom	The Clement Hotel
+3	Comfort Inn	HasAddress	753 University Ave
+3	Comfort Inn	HasType	rest stop
+3	753 University Ave	IsAddressOf	Comfort Inn
+3	rest stop	IsTypeOf	Comfort Inn
+3	Comfort Inn	HasTraffic	heavy traffic
+3	Comfort Inn	HasDistance	5 miles
+3	heavy traffic	IsTrafficOf	Comfort Inn
+3	5 miles	IsDistanceFrom	Comfort Inn
+4	Safeway	HasAddress	452 Arcadia Pl
+4	Safeway	HasType	grocery store
+4	452 Arcadia Pl	IsAddressOf	Safeway
+4	grocery store	IsTypeOf	Safeway
+4	Safeway	HasTraffic	heavy traffic
+4	Safeway	HasDistance	4 miles
+4	heavy traffic	IsTrafficOf	Safeway
+4	4 miles	IsDistanceFrom	Safeway
+5	home	HasAddress	10 ames street
+5	home	HasType	home
+5	10 ames street	IsAddressOf	home
+5	home	IsTypeOf	home
+5	home	HasTraffic	moderate traffic
+5	home	HasDistance	5 miles
+5	moderate traffic	IsTrafficOf	home
+5	5 miles	IsDistanceFrom	home
+6	Starbucks	HasAddress	792 Bedoin Street
+6	Starbucks	HasType	coffee or tea place
+6	792 Bedoin Street	IsAddressOf	Starbucks
+6	coffee or tea place	IsTypeOf	Starbucks
+6	Starbucks	HasTraffic	moderate traffic
+6	Starbucks	HasDistance	6 miles
+6	moderate traffic	IsTrafficOf	Starbucks
+6	6 miles	IsDistanceFrom	Starbucks
+-1	today	IsEqualTo	monday

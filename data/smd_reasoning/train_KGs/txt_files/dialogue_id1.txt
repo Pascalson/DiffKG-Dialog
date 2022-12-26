@@ -1,0 +1,65 @@
+0	Town and Country	HasAddress	383 University Ave
+0	Town and Country	HasType	shopping center
+0	383 University Ave	IsAddressOf	Town and Country
+0	shopping center	IsTypeOf	Town and Country
+0	Town and Country	HasTraffic	moderate traffic
+0	Town and Country	HasDistance	4 miles
+0	moderate traffic	IsTrafficOf	Town and Country
+0	4 miles	IsDistanceFrom	Town and Country
+1	76	HasAddress	91 El Camino Real
+1	76	HasType	gas station
+1	91 El Camino Real	IsAddressOf	76
+1	gas station	IsTypeOf	76
+1	76	HasTraffic	moderate traffic
+1	76	HasDistance	4 miles
+1	moderate traffic	IsTrafficOf	76
+1	4 miles	IsDistanceFrom	76
+2	Stanford Shopping Center	HasAddress	773 Alger Dr
+2	Stanford Shopping Center	HasType	shopping center
+2	773 Alger Dr	IsAddressOf	Stanford Shopping Center
+2	shopping center	IsTypeOf	Stanford Shopping Center
+2	Stanford Shopping Center	HasTraffic	moderate traffic
+2	Stanford Shopping Center	HasDistance	2 miles
+2	moderate traffic	IsTrafficOf	Stanford Shopping Center
+2	2 miles	IsDistanceFrom	Stanford Shopping Center
+3	Teavana	HasAddress	145 Amherst St
+3	Teavana	HasType	coffee or tea place
+3	145 Amherst St	IsAddressOf	Teavana
+3	coffee or tea place	IsTypeOf	Teavana
+3	Teavana	HasTraffic	moderate traffic
+3	Teavana	HasDistance	3 miles
+3	moderate traffic	IsTrafficOf	Teavana
+3	3 miles	IsDistanceFrom	Teavana
+4	Dominos	HasAddress	776 Arastradero Rd
+4	Dominos	HasType	pizza restaurant
+4	776 Arastradero Rd	IsAddressOf	Dominos
+4	pizza restaurant	IsTypeOf	Dominos
+4	Dominos	HasTraffic	moderate traffic
+4	Dominos	HasDistance	4 miles
+4	moderate traffic	IsTrafficOf	Dominos
+4	4 miles	IsDistanceFrom	Dominos
+5	Palo Alto Garage R	HasAddress	481 Amaranta Ave
+5	Palo Alto Garage R	HasType	parking garage
+5	481 Amaranta Ave	IsAddressOf	Palo Alto Garage R
+5	parking garage	IsTypeOf	Palo Alto Garage R
+5	Palo Alto Garage R	HasTraffic	road block nearby
+5	Palo Alto Garage R	HasDistance	4 miles
+5	road block nearby	IsTrafficOf	Palo Alto Garage R
+5	4 miles	IsDistanceFrom	Palo Alto Garage R
+6	Stanford Express Care	HasAddress	214 El Camino Real
+6	Stanford Express Care	HasType	hospital
+6	214 El Camino Real	IsAddressOf	Stanford Express Care
+6	hospital	IsTypeOf	Stanford Express Care
+6	Stanford Express Care	HasTraffic	no traffic
+6	Stanford Express Care	HasDistance	5 miles
+6	no traffic	IsTrafficOf	Stanford Express Care
+6	5 miles	IsDistanceFrom	Stanford Express Care
+7	Palo Alto Medical Foundation	HasAddress	611 Ames Ave
+7	Palo Alto Medical Foundation	HasType	hospital
+7	611 Ames Ave	IsAddressOf	Palo Alto Medical Foundation
+7	hospital	IsTypeOf	Palo Alto Medical Foundation
+7	Palo Alto Medical Foundation	HasTraffic	no traffic
+7	Palo Alto Medical Foundation	HasDistance	3 miles
+7	no traffic	IsTrafficOf	Palo Alto Medical Foundation
+7	3 miles	IsDistanceFrom	Palo Alto Medical Foundation
+-1	today	IsEqualTo	monday

@@ -1,0 +1,65 @@
+0	Webster Garage	HasAddress	880 Ames Ct
+0	Webster Garage	HasType	parking garage
+0	880 Ames Ct	IsAddressOf	Webster Garage
+0	parking garage	IsTypeOf	Webster Garage
+0	Webster Garage	HasTraffic	heavy traffic
+0	Webster Garage	HasDistance	3 miles
+0	heavy traffic	IsTrafficOf	Webster Garage
+0	3 miles	IsDistanceFrom	Webster Garage
+1	Stanford Childrens Health	HasAddress	899 Ames Ct
+1	Stanford Childrens Health	HasType	hospital
+1	899 Ames Ct	IsAddressOf	Stanford Childrens Health
+1	hospital	IsTypeOf	Stanford Childrens Health
+1	Stanford Childrens Health	HasTraffic	car collision nearby
+1	Stanford Childrens Health	HasDistance	3 miles
+1	car collision nearby	IsTrafficOf	Stanford Childrens Health
+1	3 miles	IsDistanceFrom	Stanford Childrens Health
+2	5677 springer street	HasAddress	5677 springer street
+2	5677 springer street	HasType	certain address
+2	5677 springer street	IsAddressOf	5677 springer street
+2	certain address	IsTypeOf	5677 springer street
+2	5677 springer street	HasTraffic	heavy traffic
+2	5677 springer street	HasDistance	6 miles
+2	heavy traffic	IsTrafficOf	5677 springer street
+2	6 miles	IsDistanceFrom	5677 springer street
+3	Panda Express	HasAddress	842 Arrowhead Way
+3	Panda Express	HasType	chinese restaurant
+3	842 Arrowhead Way	IsAddressOf	Panda Express
+3	chinese restaurant	IsTypeOf	Panda Express
+3	Panda Express	HasTraffic	car collision nearby
+3	Panda Express	HasDistance	5 miles
+3	car collision nearby	IsTrafficOf	Panda Express
+3	5 miles	IsDistanceFrom	Panda Express
+4	Civic Center Garage	HasAddress	270 Altaire Walk
+4	Civic Center Garage	HasType	parking garage
+4	270 Altaire Walk	IsAddressOf	Civic Center Garage
+4	parking garage	IsTypeOf	Civic Center Garage
+4	Civic Center Garage	HasTraffic	road block nearby
+4	Civic Center Garage	HasDistance	1 miles
+4	road block nearby	IsTrafficOf	Civic Center Garage
+4	1 miles	IsDistanceFrom	Civic Center Garage
+5	Papa Johns	HasAddress	110 Arastradero Rd
+5	Papa Johns	HasType	pizza restaurant
+5	110 Arastradero Rd	IsAddressOf	Papa Johns
+5	pizza restaurant	IsTypeOf	Papa Johns
+5	Papa Johns	HasTraffic	road block nearby
+5	Papa Johns	HasDistance	5 miles
+5	road block nearby	IsTrafficOf	Papa Johns
+5	5 miles	IsDistanceFrom	Papa Johns
+6	Pizza Chicago	HasAddress	915 Arbol Dr
+6	Pizza Chicago	HasType	pizza restaurant
+6	915 Arbol Dr	IsAddressOf	Pizza Chicago
+6	pizza restaurant	IsTypeOf	Pizza Chicago
+6	Pizza Chicago	HasTraffic	moderate traffic
+6	Pizza Chicago	HasDistance	5 miles
+6	moderate traffic	IsTrafficOf	Pizza Chicago
+6	5 miles	IsDistanceFrom	Pizza Chicago
+7	Coupa	HasAddress	394 Van Ness Ave
+7	Coupa	HasType	coffee or tea place
+7	394 Van Ness Ave	IsAddressOf	Coupa
+7	coffee or tea place	IsTypeOf	Coupa
+7	Coupa	HasTraffic	moderate traffic
+7	Coupa	HasDistance	7 miles
+7	moderate traffic	IsTrafficOf	Coupa
+7	7 miles	IsDistanceFrom	Coupa
+-1	today	IsEqualTo	monday

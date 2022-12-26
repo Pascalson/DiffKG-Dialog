@@ -1,0 +1,65 @@
+0	home	HasAddress	10 ames street
+0	home	HasType	home
+0	10 ames street	IsAddressOf	home
+0	home	IsTypeOf	home
+0	home	HasTraffic	car collision nearby
+0	home	HasDistance	5 miles
+0	car collision nearby	IsTrafficOf	home
+0	5 miles	IsDistanceFrom	home
+1	Dish Parking	HasAddress	550 Alester Ave
+1	Dish Parking	HasType	parking garage
+1	550 Alester Ave	IsAddressOf	Dish Parking
+1	parking garage	IsTypeOf	Dish Parking
+1	Dish Parking	HasTraffic	no traffic
+1	Dish Parking	HasDistance	3 miles
+1	no traffic	IsTrafficOf	Dish Parking
+1	3 miles	IsDistanceFrom	Dish Parking
+2	Palo Alto Cafe	HasAddress	436 Alger Dr
+2	Palo Alto Cafe	HasType	coffee or tea place
+2	436 Alger Dr	IsAddressOf	Palo Alto Cafe
+2	coffee or tea place	IsTypeOf	Palo Alto Cafe
+2	Palo Alto Cafe	HasTraffic	heavy traffic
+2	Palo Alto Cafe	HasDistance	1 miles
+2	heavy traffic	IsTrafficOf	Palo Alto Cafe
+2	1 miles	IsDistanceFrom	Palo Alto Cafe
+3	Safeway	HasAddress	452 Arcadia Pl
+3	Safeway	HasType	grocery store
+3	452 Arcadia Pl	IsAddressOf	Safeway
+3	grocery store	IsTypeOf	Safeway
+3	Safeway	HasTraffic	car collision nearby
+3	Safeway	HasDistance	5 miles
+3	car collision nearby	IsTrafficOf	Safeway
+3	5 miles	IsDistanceFrom	Safeway
+4	Panda Express	HasAddress	842 Arrowhead Way
+4	Panda Express	HasType	chinese restaurant
+4	842 Arrowhead Way	IsAddressOf	Panda Express
+4	chinese restaurant	IsTypeOf	Panda Express
+4	Panda Express	HasTraffic	heavy traffic
+4	Panda Express	HasDistance	6 miles
+4	heavy traffic	IsTrafficOf	Panda Express
+4	6 miles	IsDistanceFrom	Panda Express
+5	5672 barringer street	HasAddress	5672 barringer street
+5	5672 barringer street	HasType	certain address
+5	5672 barringer street	IsAddressOf	5672 barringer street
+5	certain address	IsTypeOf	5672 barringer street
+5	5672 barringer street	HasTraffic	heavy traffic
+5	5672 barringer street	HasDistance	5 miles
+5	heavy traffic	IsTrafficOf	5672 barringer street
+5	5 miles	IsDistanceFrom	5672 barringer street
+6	The Westin	HasAddress	329 El Camino Real
+6	The Westin	HasType	rest stop
+6	329 El Camino Real	IsAddressOf	The Westin
+6	rest stop	IsTypeOf	The Westin
+6	The Westin	HasTraffic	car collision nearby
+6	The Westin	HasDistance	1 miles
+6	car collision nearby	IsTrafficOf	The Westin
+6	1 miles	IsDistanceFrom	The Westin
+7	Hotel Keen	HasAddress	578 Arbol Dr
+7	Hotel Keen	HasType	rest stop
+7	578 Arbol Dr	IsAddressOf	Hotel Keen
+7	rest stop	IsTypeOf	Hotel Keen
+7	Hotel Keen	HasTraffic	road block nearby
+7	Hotel Keen	HasDistance	5 miles
+7	road block nearby	IsTrafficOf	Hotel Keen
+7	5 miles	IsDistanceFrom	Hotel Keen
+-1	today	IsEqualTo	monday

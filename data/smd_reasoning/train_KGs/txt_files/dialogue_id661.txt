@@ -1,0 +1,65 @@
+0	Coupa	HasAddress	394 Van Ness Ave
+0	Coupa	HasType	coffee or tea place
+0	394 Van Ness Ave	IsAddressOf	Coupa
+0	coffee or tea place	IsTypeOf	Coupa
+0	Coupa	HasTraffic	car collision nearby
+0	Coupa	HasDistance	6 miles
+0	car collision nearby	IsTrafficOf	Coupa
+0	6 miles	IsDistanceFrom	Coupa
+1	Peets Coffee	HasAddress	9981 Archuleta Ave
+1	Peets Coffee	HasType	coffee or tea place
+1	9981 Archuleta Ave	IsAddressOf	Peets Coffee
+1	coffee or tea place	IsTypeOf	Peets Coffee
+1	Peets Coffee	HasTraffic	moderate traffic
+1	Peets Coffee	HasDistance	1 miles
+1	moderate traffic	IsTrafficOf	Peets Coffee
+1	1 miles	IsDistanceFrom	Peets Coffee
+2	Travelers Lodge	HasAddress	333 Arbol Dr
+2	Travelers Lodge	HasType	rest stop
+2	333 Arbol Dr	IsAddressOf	Travelers Lodge
+2	rest stop	IsTypeOf	Travelers Lodge
+2	Travelers Lodge	HasTraffic	no traffic
+2	Travelers Lodge	HasDistance	1 miles
+2	no traffic	IsTrafficOf	Travelers Lodge
+2	1 miles	IsDistanceFrom	Travelers Lodge
+3	Stanford Childrens Health	HasAddress	899 Ames Ct
+3	Stanford Childrens Health	HasType	hospital
+3	899 Ames Ct	IsAddressOf	Stanford Childrens Health
+3	hospital	IsTypeOf	Stanford Childrens Health
+3	Stanford Childrens Health	HasTraffic	car collision nearby
+3	Stanford Childrens Health	HasDistance	6 miles
+3	car collision nearby	IsTrafficOf	Stanford Childrens Health
+3	6 miles	IsDistanceFrom	Stanford Childrens Health
+4	Safeway	HasAddress	452 Arcadia Pl
+4	Safeway	HasType	grocery store
+4	452 Arcadia Pl	IsAddressOf	Safeway
+4	grocery store	IsTypeOf	Safeway
+4	Safeway	HasTraffic	no traffic
+4	Safeway	HasDistance	6 miles
+4	no traffic	IsTrafficOf	Safeway
+4	6 miles	IsDistanceFrom	Safeway
+5	Webster Garage	HasAddress	880 Ames Ct
+5	Webster Garage	HasType	parking garage
+5	880 Ames Ct	IsAddressOf	Webster Garage
+5	parking garage	IsTypeOf	Webster Garage
+5	Webster Garage	HasTraffic	no traffic
+5	Webster Garage	HasDistance	2 miles
+5	no traffic	IsTrafficOf	Webster Garage
+5	2 miles	IsDistanceFrom	Webster Garage
+6	Philz	HasAddress	583 Alester Ave
+6	Philz	HasType	coffee or tea place
+6	583 Alester Ave	IsAddressOf	Philz
+6	coffee or tea place	IsTypeOf	Philz
+6	Philz	HasTraffic	moderate traffic
+6	Philz	HasDistance	2 miles
+6	moderate traffic	IsTrafficOf	Philz
+6	2 miles	IsDistanceFrom	Philz
+7	The Clement Hotel	HasAddress	657 Ames Ave
+7	The Clement Hotel	HasType	rest stop
+7	657 Ames Ave	IsAddressOf	The Clement Hotel
+7	rest stop	IsTypeOf	The Clement Hotel
+7	The Clement Hotel	HasTraffic	heavy traffic
+7	The Clement Hotel	HasDistance	2 miles
+7	heavy traffic	IsTrafficOf	The Clement Hotel
+7	2 miles	IsDistanceFrom	The Clement Hotel
+-1	today	IsEqualTo	monday

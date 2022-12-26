@@ -1,0 +1,57 @@
+0	5672 barringer street	HasAddress	5672 barringer street
+0	5672 barringer street	HasType	certain address
+0	5672 barringer street	IsAddressOf	5672 barringer street
+0	certain address	IsTypeOf	5672 barringer street
+0	5672 barringer street	HasTraffic	moderate traffic
+0	5672 barringer street	HasDistance	1 miles
+0	moderate traffic	IsTrafficOf	5672 barringer street
+0	1 miles	IsDistanceFrom	5672 barringer street
+1	Palo Alto Garage R	HasAddress	481 Amaranta Ave
+1	Palo Alto Garage R	HasType	parking garage
+1	481 Amaranta Ave	IsAddressOf	Palo Alto Garage R
+1	parking garage	IsTypeOf	Palo Alto Garage R
+1	Palo Alto Garage R	HasTraffic	moderate traffic
+1	Palo Alto Garage R	HasDistance	5 miles
+1	moderate traffic	IsTrafficOf	Palo Alto Garage R
+1	5 miles	IsDistanceFrom	Palo Alto Garage R
+2	5677 springer street	HasAddress	5677 springer street
+2	5677 springer street	HasType	certain address
+2	5677 springer street	IsAddressOf	5677 springer street
+2	certain address	IsTypeOf	5677 springer street
+2	5677 springer street	HasTraffic	moderate traffic
+2	5677 springer street	HasDistance	5 miles
+2	moderate traffic	IsTrafficOf	5677 springer street
+2	5 miles	IsDistanceFrom	5677 springer street
+3	P.F. Changs	HasAddress	669 El Camino Real
+3	P.F. Changs	HasType	chinese restaurant
+3	669 El Camino Real	IsAddressOf	P.F. Changs
+3	chinese restaurant	IsTypeOf	P.F. Changs
+3	P.F. Changs	HasTraffic	heavy traffic
+3	P.F. Changs	HasDistance	2 miles
+3	heavy traffic	IsTrafficOf	P.F. Changs
+3	2 miles	IsDistanceFrom	P.F. Changs
+4	Whole Foods	HasAddress	819 Alma St
+4	Whole Foods	HasType	grocery store
+4	819 Alma St	IsAddressOf	Whole Foods
+4	grocery store	IsTypeOf	Whole Foods
+4	Whole Foods	HasTraffic	no traffic
+4	Whole Foods	HasDistance	3 miles
+4	no traffic	IsTrafficOf	Whole Foods
+4	3 miles	IsDistanceFrom	Whole Foods
+5	jacks house	HasAddress	864 Almanor Ln
+5	jacks house	HasType	friends house
+5	864 Almanor Ln	IsAddressOf	jacks house
+5	friends house	IsTypeOf	jacks house
+5	jacks house	HasTraffic	no traffic
+5	jacks house	HasDistance	2 miles
+5	no traffic	IsTrafficOf	jacks house
+5	2 miles	IsDistanceFrom	jacks house
+6	Town and Country	HasAddress	383 University Ave
+6	Town and Country	HasType	shopping center
+6	383 University Ave	IsAddressOf	Town and Country
+6	shopping center	IsTypeOf	Town and Country
+6	Town and Country	HasTraffic	moderate traffic
+6	Town and Country	HasDistance	4 miles
+6	moderate traffic	IsTrafficOf	Town and Country
+6	4 miles	IsDistanceFrom	Town and Country
+-1	today	IsEqualTo	monday

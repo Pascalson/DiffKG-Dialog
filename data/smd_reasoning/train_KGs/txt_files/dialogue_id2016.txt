@@ -1,0 +1,57 @@
+0	Cafe Venetia	HasAddress	269 Alger Dr
+0	Cafe Venetia	HasType	coffee or tea place
+0	269 Alger Dr	IsAddressOf	Cafe Venetia
+0	coffee or tea place	IsTypeOf	Cafe Venetia
+0	Cafe Venetia	HasTraffic	heavy traffic
+0	Cafe Venetia	HasDistance	6 miles
+0	heavy traffic	IsTrafficOf	Cafe Venetia
+0	6 miles	IsDistanceFrom	Cafe Venetia
+1	Stanford Express Care	HasAddress	214 El Camino Real
+1	Stanford Express Care	HasType	hospital
+1	214 El Camino Real	IsAddressOf	Stanford Express Care
+1	hospital	IsTypeOf	Stanford Express Care
+1	Stanford Express Care	HasTraffic	moderate traffic
+1	Stanford Express Care	HasDistance	2 miles
+1	moderate traffic	IsTrafficOf	Stanford Express Care
+1	2 miles	IsDistanceFrom	Stanford Express Care
+2	Stanford Oval Parking	HasAddress	610 Amarillo Ave
+2	Stanford Oval Parking	HasType	parking garage
+2	610 Amarillo Ave	IsAddressOf	Stanford Oval Parking
+2	parking garage	IsTypeOf	Stanford Oval Parking
+2	Stanford Oval Parking	HasTraffic	moderate traffic
+2	Stanford Oval Parking	HasDistance	2 miles
+2	moderate traffic	IsTrafficOf	Stanford Oval Parking
+2	2 miles	IsDistanceFrom	Stanford Oval Parking
+3	Chef Chu's	HasAddress	593 Arrowhead Way
+3	Chef Chu's	HasType	chinese restaurant
+3	593 Arrowhead Way	IsAddressOf	Chef Chu's
+3	chinese restaurant	IsTypeOf	Chef Chu's
+3	Chef Chu's	HasTraffic	moderate traffic
+3	Chef Chu's	HasDistance	2 miles
+3	moderate traffic	IsTrafficOf	Chef Chu's
+3	2 miles	IsDistanceFrom	Chef Chu's
+4	Palo Alto Garage R	HasAddress	481 Amaranta Ave
+4	Palo Alto Garage R	HasType	parking garage
+4	481 Amaranta Ave	IsAddressOf	Palo Alto Garage R
+4	parking garage	IsTypeOf	Palo Alto Garage R
+4	Palo Alto Garage R	HasTraffic	heavy traffic
+4	Palo Alto Garage R	HasDistance	2 miles
+4	heavy traffic	IsTrafficOf	Palo Alto Garage R
+4	2 miles	IsDistanceFrom	Palo Alto Garage R
+5	Dominos	HasAddress	776 Arastradero Rd
+5	Dominos	HasType	pizza restaurant
+5	776 Arastradero Rd	IsAddressOf	Dominos
+5	pizza restaurant	IsTypeOf	Dominos
+5	Dominos	HasTraffic	moderate traffic
+5	Dominos	HasDistance	4 miles
+5	moderate traffic	IsTrafficOf	Dominos
+5	4 miles	IsDistanceFrom	Dominos
+6	Ravenswood Shopping Center	HasAddress	434 Arastradero Rd
+6	Ravenswood Shopping Center	HasType	shopping center
+6	434 Arastradero Rd	IsAddressOf	Ravenswood Shopping Center
+6	shopping center	IsTypeOf	Ravenswood Shopping Center
+6	Ravenswood Shopping Center	HasTraffic	heavy traffic
+6	Ravenswood Shopping Center	HasDistance	2 miles
+6	heavy traffic	IsTrafficOf	Ravenswood Shopping Center
+6	2 miles	IsDistanceFrom	Ravenswood Shopping Center
+-1	today	IsEqualTo	monday

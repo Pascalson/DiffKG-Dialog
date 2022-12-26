@@ -1,0 +1,53 @@
+0	football activity	HasTime	11am
+0	11am	IsTimeOf	football activity
+0	football activity	HasDate	the 19th
+0	the 19th	IsDateOf	football activity
+0	football activity	HasParty	Ana
+0	Ana	IsPartyOf	football activity
+1	football activity	HasTime	1pm
+1	1pm	IsTimeOf	football activity
+1	football activity	HasDate	the 4th
+1	the 4th	IsDateOf	football activity
+1	football activity	HasParty	Marie
+1	Marie	IsPartyOf	football activity
+2	conference	HasTime	2pm
+2	2pm	IsTimeOf	conference
+2	conference	HasDate	sunday
+2	sunday	IsDateOf	conference
+2	conference	HasParty	vice president
+2	vice president	IsPartyOf	conference
+2	conference	HasRoom	conference room 102
+2	conference room 102	IsRoomOf	conference
+2	conference	HasAgenda	onboard new members
+2	onboard new members	IsAgendaOf	conference
+3	football activity	HasTime	5pm
+3	5pm	IsTimeOf	football activity
+3	football activity	HasDate	monday
+3	monday	IsDateOf	football activity
+3	football activity	HasParty	Jon
+3	Jon	IsPartyOf	football activity
+4	dentist appointment	HasTime	6pm
+4	6pm	IsTimeOf	dentist appointment
+4	dentist appointment	HasDate	the 16th
+4	the 16th	IsDateOf	dentist appointment
+4	dentist appointment	HasParty	Marie
+4	Marie	IsPartyOf	dentist appointment
+5	dinner	HasTime	6pm
+5	6pm	IsTimeOf	dinner
+5	dinner	HasDate	the 2nd
+5	the 2nd	IsDateOf	dinner
+5	dinner	HasParty	father
+5	father	IsPartyOf	dinner
+6	football activity	HasTime	2pm
+6	2pm	IsTimeOf	football activity
+6	football activity	HasDate	the 4th
+6	the 4th	IsDateOf	football activity
+6	football activity	HasParty	Marie
+6	Marie	IsPartyOf	football activity
+7	swimming activity	HasTime	11am
+7	11am	IsTimeOf	swimming activity
+7	swimming activity	HasDate	the 17th
+7	the 17th	IsDateOf	swimming activity
+7	swimming activity	HasParty	brother
+7	brother	IsPartyOf	swimming activity
+-1	today	IsEqualTo	monday

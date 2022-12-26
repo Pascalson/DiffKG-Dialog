@@ -1,0 +1,57 @@
+0	Panda Express	HasAddress	842 Arrowhead Way
+0	Panda Express	HasType	chinese restaurant
+0	842 Arrowhead Way	IsAddressOf	Panda Express
+0	chinese restaurant	IsTypeOf	Panda Express
+0	Panda Express	HasTraffic	no traffic
+0	Panda Express	HasDistance	6 miles
+0	no traffic	IsTrafficOf	Panda Express
+0	6 miles	IsDistanceFrom	Panda Express
+1	Philz	HasAddress	583 Alester Ave
+1	Philz	HasType	coffee or tea place
+1	583 Alester Ave	IsAddressOf	Philz
+1	coffee or tea place	IsTypeOf	Philz
+1	Philz	HasTraffic	heavy traffic
+1	Philz	HasDistance	2 miles
+1	heavy traffic	IsTrafficOf	Philz
+1	2 miles	IsDistanceFrom	Philz
+2	Starbucks	HasAddress	792 Bedoin Street
+2	Starbucks	HasType	coffee or tea place
+2	792 Bedoin Street	IsAddressOf	Starbucks
+2	coffee or tea place	IsTypeOf	Starbucks
+2	Starbucks	HasTraffic	no traffic
+2	Starbucks	HasDistance	6 miles
+2	no traffic	IsTrafficOf	Starbucks
+2	6 miles	IsDistanceFrom	Starbucks
+3	Four Seasons	HasAddress	465 Arcadia Pl
+3	Four Seasons	HasType	rest stop
+3	465 Arcadia Pl	IsAddressOf	Four Seasons
+3	rest stop	IsTypeOf	Four Seasons
+3	Four Seasons	HasTraffic	no traffic
+3	Four Seasons	HasDistance	5 miles
+3	no traffic	IsTrafficOf	Four Seasons
+3	5 miles	IsDistanceFrom	Four Seasons
+4	Safeway	HasAddress	452 Arcadia Pl
+4	Safeway	HasType	grocery store
+4	452 Arcadia Pl	IsAddressOf	Safeway
+4	grocery store	IsTypeOf	Safeway
+4	Safeway	HasTraffic	moderate traffic
+4	Safeway	HasDistance	3 miles
+4	moderate traffic	IsTrafficOf	Safeway
+4	3 miles	IsDistanceFrom	Safeway
+5	home	HasAddress	10 ames street
+5	home	HasType	home
+5	10 ames street	IsAddressOf	home
+5	home	IsTypeOf	home
+5	home	HasTraffic	moderate traffic
+5	home	HasDistance	3 miles
+5	moderate traffic	IsTrafficOf	home
+5	3 miles	IsDistanceFrom	home
+6	Town and Country	HasAddress	383 University Ave
+6	Town and Country	HasType	shopping center
+6	383 University Ave	IsAddressOf	Town and Country
+6	shopping center	IsTypeOf	Town and Country
+6	Town and Country	HasTraffic	no traffic
+6	Town and Country	HasDistance	4 miles
+6	no traffic	IsTrafficOf	Town and Country
+6	4 miles	IsDistanceFrom	Town and Country
+-1	today	IsEqualTo	monday

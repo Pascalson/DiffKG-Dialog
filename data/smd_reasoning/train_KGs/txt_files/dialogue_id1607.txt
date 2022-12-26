@@ -1,0 +1,65 @@
+0	Shell	HasAddress	53 University Av
+0	Shell	HasType	gas station
+0	53 University Av	IsAddressOf	Shell
+0	gas station	IsTypeOf	Shell
+0	Shell	HasTraffic	road block nearby
+0	Shell	HasDistance	5 miles
+0	road block nearby	IsTrafficOf	Shell
+0	5 miles	IsDistanceFrom	Shell
+1	Midtown Shopping Center	HasAddress	338 Alester Ave
+1	Midtown Shopping Center	HasType	shopping center
+1	338 Alester Ave	IsAddressOf	Midtown Shopping Center
+1	shopping center	IsTypeOf	Midtown Shopping Center
+1	Midtown Shopping Center	HasTraffic	moderate traffic
+1	Midtown Shopping Center	HasDistance	2 miles
+1	moderate traffic	IsTrafficOf	Midtown Shopping Center
+1	2 miles	IsDistanceFrom	Midtown Shopping Center
+2	Round Table	HasAddress	113 Anton Ct
+2	Round Table	HasType	pizza restaurant
+2	113 Anton Ct	IsAddressOf	Round Table
+2	pizza restaurant	IsTypeOf	Round Table
+2	Round Table	HasTraffic	moderate traffic
+2	Round Table	HasDistance	5 miles
+2	moderate traffic	IsTrafficOf	Round Table
+2	5 miles	IsDistanceFrom	Round Table
+3	Panda Express	HasAddress	842 Arrowhead Way
+3	Panda Express	HasType	chinese restaurant
+3	842 Arrowhead Way	IsAddressOf	Panda Express
+3	chinese restaurant	IsTypeOf	Panda Express
+3	Panda Express	HasTraffic	car collision nearby
+3	Panda Express	HasDistance	1 miles
+3	car collision nearby	IsTrafficOf	Panda Express
+3	1 miles	IsDistanceFrom	Panda Express
+4	Stanford Oval Parking	HasAddress	610 Amarillo Ave
+4	Stanford Oval Parking	HasType	parking garage
+4	610 Amarillo Ave	IsAddressOf	Stanford Oval Parking
+4	parking garage	IsTypeOf	Stanford Oval Parking
+4	Stanford Oval Parking	HasTraffic	no traffic
+4	Stanford Oval Parking	HasDistance	5 miles
+4	no traffic	IsTrafficOf	Stanford Oval Parking
+4	5 miles	IsDistanceFrom	Stanford Oval Parking
+5	Chef Chu's	HasAddress	593 Arrowhead Way
+5	Chef Chu's	HasType	chinese restaurant
+5	593 Arrowhead Way	IsAddressOf	Chef Chu's
+5	chinese restaurant	IsTypeOf	Chef Chu's
+5	Chef Chu's	HasTraffic	no traffic
+5	Chef Chu's	HasDistance	2 miles
+5	no traffic	IsTrafficOf	Chef Chu's
+5	2 miles	IsDistanceFrom	Chef Chu's
+6	Town and Country	HasAddress	383 University Ave
+6	Town and Country	HasType	shopping center
+6	383 University Ave	IsAddressOf	Town and Country
+6	shopping center	IsTypeOf	Town and Country
+6	Town and Country	HasTraffic	moderate traffic
+6	Town and Country	HasDistance	3 miles
+6	moderate traffic	IsTrafficOf	Town and Country
+6	3 miles	IsDistanceFrom	Town and Country
+7	Peets Coffee	HasAddress	9981 Archuleta Ave
+7	Peets Coffee	HasType	coffee or tea place
+7	9981 Archuleta Ave	IsAddressOf	Peets Coffee
+7	coffee or tea place	IsTypeOf	Peets Coffee
+7	Peets Coffee	HasTraffic	car collision nearby
+7	Peets Coffee	HasDistance	4 miles
+7	car collision nearby	IsTrafficOf	Peets Coffee
+7	4 miles	IsDistanceFrom	Peets Coffee
+-1	today	IsEqualTo	monday

@@ -1,0 +1,61 @@
+0	meeting	HasTime	10am
+0	10am	IsTimeOf	meeting
+0	meeting	HasDate	saturday
+0	saturday	IsDateOf	meeting
+0	meeting	HasParty	HR
+0	HR	IsPartyOf	meeting
+0	meeting	HasRoom	conference room 50
+0	conference room 50	IsRoomOf	meeting
+0	meeting	HasAgenda	discuss dress code
+0	discuss dress code	IsAgendaOf	meeting
+1	lab appointment	HasTime	3pm
+1	3pm	IsTimeOf	lab appointment
+1	lab appointment	HasDate	the 20th
+1	the 20th	IsDateOf	lab appointment
+1	lab appointment	HasParty	Alex
+1	Alex	IsPartyOf	lab appointment
+2	conference	HasTime	11am
+2	11am	IsTimeOf	conference
+2	conference	HasDate	the 13th
+2	the 13th	IsDateOf	conference
+2	conference	HasParty	sales team
+2	sales team	IsPartyOf	conference
+2	conference	HasRoom	conference room 100
+2	conference room 100	IsRoomOf	conference
+2	conference	HasAgenda	sign the NDA
+2	sign the NDA	IsAgendaOf	conference
+3	doctor appointment	HasTime	2pm
+3	2pm	IsTimeOf	doctor appointment
+3	doctor appointment	HasDate	the 7th
+3	the 7th	IsDateOf	doctor appointment
+3	doctor appointment	HasParty	Ana
+3	Ana	IsPartyOf	doctor appointment
+4	dinner	HasTime	7pm
+4	7pm	IsTimeOf	dinner
+4	dinner	HasDate	the 14th
+4	the 14th	IsDateOf	dinner
+4	dinner	HasParty	mother
+4	mother	IsPartyOf	dinner
+5	yoga activity	HasTime	11am
+5	11am	IsTimeOf	yoga activity
+5	yoga activity	HasDate	the 1st
+5	the 1st	IsDateOf	yoga activity
+5	yoga activity	HasParty	aunt
+5	aunt	IsPartyOf	yoga activity
+6	dinner	HasTime	8pm
+6	8pm	IsTimeOf	dinner
+6	dinner	HasDate	the 8th
+6	the 8th	IsDateOf	dinner
+6	dinner	HasParty	Martha
+6	Martha	IsPartyOf	dinner
+7	meeting	HasTime	10am
+7	10am	IsTimeOf	meeting
+7	meeting	HasDate	friday
+7	friday	IsDateOf	meeting
+7	meeting	HasParty	HR
+7	HR	IsPartyOf	meeting
+7	meeting	HasRoom	conference room 100
+7	conference room 100	IsRoomOf	meeting
+7	meeting	HasAgenda	discuss the merger
+7	discuss the merger	IsAgendaOf	meeting
+-1	today	IsEqualTo	monday

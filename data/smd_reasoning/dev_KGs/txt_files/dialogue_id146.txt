@@ -1,0 +1,57 @@
+0	Philz	HasAddress	583 Alester Ave
+0	Philz	HasType	coffee or tea place
+0	583 Alester Ave	IsAddressOf	Philz
+0	coffee or tea place	IsTypeOf	Philz
+0	Philz	HasTraffic	heavy traffic
+0	Philz	HasDistance	4 miles
+0	heavy traffic	IsTrafficOf	Philz
+0	4 miles	IsDistanceFrom	Philz
+1	Town and Country	HasAddress	383 University Ave
+1	Town and Country	HasType	shopping center
+1	383 University Ave	IsAddressOf	Town and Country
+1	shopping center	IsTypeOf	Town and Country
+1	Town and Country	HasTraffic	heavy traffic
+1	Town and Country	HasDistance	1 miles
+1	heavy traffic	IsTrafficOf	Town and Country
+1	1 miles	IsDistanceFrom	Town and Country
+2	jacks house	HasAddress	864 Almanor Ln
+2	jacks house	HasType	friends house
+2	864 Almanor Ln	IsAddressOf	jacks house
+2	friends house	IsTypeOf	jacks house
+2	jacks house	HasTraffic	moderate traffic
+2	jacks house	HasDistance	6 miles
+2	moderate traffic	IsTrafficOf	jacks house
+2	6 miles	IsDistanceFrom	jacks house
+3	Starbucks	HasAddress	792 Bedoin Street
+3	Starbucks	HasType	coffee or tea place
+3	792 Bedoin Street	IsAddressOf	Starbucks
+3	coffee or tea place	IsTypeOf	Starbucks
+3	Starbucks	HasTraffic	no traffic
+3	Starbucks	HasDistance	3 miles
+3	no traffic	IsTrafficOf	Starbucks
+3	3 miles	IsDistanceFrom	Starbucks
+4	Teavana	HasAddress	145 Amherst St
+4	Teavana	HasType	coffee or tea place
+4	145 Amherst St	IsAddressOf	Teavana
+4	coffee or tea place	IsTypeOf	Teavana
+4	Teavana	HasTraffic	heavy traffic
+4	Teavana	HasDistance	1 miles
+4	heavy traffic	IsTrafficOf	Teavana
+4	1 miles	IsDistanceFrom	Teavana
+5	P.F. Changs	HasAddress	669 El Camino Real
+5	P.F. Changs	HasType	chinese restaurant
+5	669 El Camino Real	IsAddressOf	P.F. Changs
+5	chinese restaurant	IsTypeOf	P.F. Changs
+5	P.F. Changs	HasTraffic	no traffic
+5	P.F. Changs	HasDistance	3 miles
+5	no traffic	IsTrafficOf	P.F. Changs
+5	3 miles	IsDistanceFrom	P.F. Changs
+6	5672 barringer street	HasAddress	5672 barringer street
+6	5672 barringer street	HasType	certain address
+6	5672 barringer street	IsAddressOf	5672 barringer street
+6	certain address	IsTypeOf	5672 barringer street
+6	5672 barringer street	HasTraffic	moderate traffic
+6	5672 barringer street	HasDistance	5 miles
+6	moderate traffic	IsTrafficOf	5672 barringer street
+6	5 miles	IsDistanceFrom	5672 barringer street
+-1	today	IsEqualTo	monday

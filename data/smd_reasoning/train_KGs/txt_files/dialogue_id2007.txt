@@ -1,0 +1,65 @@
+0	Dominos	HasAddress	776 Arastradero Rd
+0	Dominos	HasType	pizza restaurant
+0	776 Arastradero Rd	IsAddressOf	Dominos
+0	pizza restaurant	IsTypeOf	Dominos
+0	Dominos	HasTraffic	car collision nearby
+0	Dominos	HasDistance	2 miles
+0	car collision nearby	IsTrafficOf	Dominos
+0	2 miles	IsDistanceFrom	Dominos
+1	Teavana	HasAddress	145 Amherst St
+1	Teavana	HasType	coffee or tea place
+1	145 Amherst St	IsAddressOf	Teavana
+1	coffee or tea place	IsTypeOf	Teavana
+1	Teavana	HasTraffic	no traffic
+1	Teavana	HasDistance	1 miles
+1	no traffic	IsTrafficOf	Teavana
+1	1 miles	IsDistanceFrom	Teavana
+2	tai pan	HasAddress	830 Almanor Ln
+2	tai pan	HasType	chinese restaurant
+2	830 Almanor Ln	IsAddressOf	tai pan
+2	chinese restaurant	IsTypeOf	tai pan
+2	tai pan	HasTraffic	heavy traffic
+2	tai pan	HasDistance	1 miles
+2	heavy traffic	IsTrafficOf	tai pan
+2	1 miles	IsDistanceFrom	tai pan
+3	home	HasAddress	10 ames street
+3	home	HasType	home
+3	10 ames street	IsAddressOf	home
+3	home	IsTypeOf	home
+3	home	HasTraffic	no traffic
+3	home	HasDistance	2 miles
+3	no traffic	IsTrafficOf	home
+3	2 miles	IsDistanceFrom	home
+4	Papa Johns	HasAddress	110 Arastradero Rd
+4	Papa Johns	HasType	pizza restaurant
+4	110 Arastradero Rd	IsAddressOf	Papa Johns
+4	pizza restaurant	IsTypeOf	Papa Johns
+4	Papa Johns	HasTraffic	no traffic
+4	Papa Johns	HasDistance	5 miles
+4	no traffic	IsTrafficOf	Papa Johns
+4	5 miles	IsDistanceFrom	Papa Johns
+5	home	HasAddress	10 ames street
+5	home	HasType	home
+5	10 ames street	IsAddressOf	home
+5	home	IsTypeOf	home
+5	home	HasTraffic	no traffic
+5	home	HasDistance	2 miles
+5	no traffic	IsTrafficOf	home
+5	2 miles	IsDistanceFrom	home
+6	Webster Garage	HasAddress	880 Ames Ct
+6	Webster Garage	HasType	parking garage
+6	880 Ames Ct	IsAddressOf	Webster Garage
+6	parking garage	IsTypeOf	Webster Garage
+6	Webster Garage	HasTraffic	heavy traffic
+6	Webster Garage	HasDistance	2 miles
+6	heavy traffic	IsTrafficOf	Webster Garage
+6	2 miles	IsDistanceFrom	Webster Garage
+7	Pizza My Heart	HasAddress	528 Anton Ct
+7	Pizza My Heart	HasType	pizza restaurant
+7	528 Anton Ct	IsAddressOf	Pizza My Heart
+7	pizza restaurant	IsTypeOf	Pizza My Heart
+7	Pizza My Heart	HasTraffic	moderate traffic
+7	Pizza My Heart	HasDistance	4 miles
+7	moderate traffic	IsTrafficOf	Pizza My Heart
+7	4 miles	IsDistanceFrom	Pizza My Heart
+-1	today	IsEqualTo	monday

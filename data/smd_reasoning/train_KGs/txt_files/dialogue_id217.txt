@@ -1,0 +1,57 @@
+0	Town and Country	HasAddress	383 University Ave
+0	Town and Country	HasType	shopping center
+0	383 University Ave	IsAddressOf	Town and Country
+0	shopping center	IsTypeOf	Town and Country
+0	Town and Country	HasTraffic	heavy traffic
+0	Town and Country	HasDistance	4 miles
+0	heavy traffic	IsTrafficOf	Town and Country
+0	4 miles	IsDistanceFrom	Town and Country
+1	Jing Jing	HasAddress	113 Arbol Dr
+1	Jing Jing	HasType	chinese restaurant
+1	113 Arbol Dr	IsAddressOf	Jing Jing
+1	chinese restaurant	IsTypeOf	Jing Jing
+1	Jing Jing	HasTraffic	heavy traffic
+1	Jing Jing	HasDistance	5 miles
+1	heavy traffic	IsTrafficOf	Jing Jing
+1	5 miles	IsDistanceFrom	Jing Jing
+2	Cafe Venetia	HasAddress	269 Alger Dr
+2	Cafe Venetia	HasType	coffee or tea place
+2	269 Alger Dr	IsAddressOf	Cafe Venetia
+2	coffee or tea place	IsTypeOf	Cafe Venetia
+2	Cafe Venetia	HasTraffic	no traffic
+2	Cafe Venetia	HasDistance	4 miles
+2	no traffic	IsTrafficOf	Cafe Venetia
+2	4 miles	IsDistanceFrom	Cafe Venetia
+3	Midtown Shopping Center	HasAddress	338 Alester Ave
+3	Midtown Shopping Center	HasType	shopping center
+3	338 Alester Ave	IsAddressOf	Midtown Shopping Center
+3	shopping center	IsTypeOf	Midtown Shopping Center
+3	Midtown Shopping Center	HasTraffic	no traffic
+3	Midtown Shopping Center	HasDistance	3 miles
+3	no traffic	IsTrafficOf	Midtown Shopping Center
+3	3 miles	IsDistanceFrom	Midtown Shopping Center
+4	Stanford Oval Parking	HasAddress	610 Amarillo Ave
+4	Stanford Oval Parking	HasType	parking garage
+4	610 Amarillo Ave	IsAddressOf	Stanford Oval Parking
+4	parking garage	IsTypeOf	Stanford Oval Parking
+4	Stanford Oval Parking	HasTraffic	no traffic
+4	Stanford Oval Parking	HasDistance	5 miles
+4	no traffic	IsTrafficOf	Stanford Oval Parking
+4	5 miles	IsDistanceFrom	Stanford Oval Parking
+5	5672 barringer street	HasAddress	5672 barringer street
+5	5672 barringer street	HasType	certain address
+5	5672 barringer street	IsAddressOf	5672 barringer street
+5	certain address	IsTypeOf	5672 barringer street
+5	5672 barringer street	HasTraffic	heavy traffic
+5	5672 barringer street	HasDistance	5 miles
+5	heavy traffic	IsTrafficOf	5672 barringer street
+5	5 miles	IsDistanceFrom	5672 barringer street
+6	Stanford Express Care	HasAddress	214 El Camino Real
+6	Stanford Express Care	HasType	hospital
+6	214 El Camino Real	IsAddressOf	Stanford Express Care
+6	hospital	IsTypeOf	Stanford Express Care
+6	Stanford Express Care	HasTraffic	no traffic
+6	Stanford Express Care	HasDistance	3 miles
+6	no traffic	IsTrafficOf	Stanford Express Care
+6	3 miles	IsDistanceFrom	Stanford Express Care
+-1	today	IsEqualTo	monday

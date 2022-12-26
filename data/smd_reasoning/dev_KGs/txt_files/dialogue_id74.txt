@@ -1,0 +1,57 @@
+0	Round Table	HasAddress	113 Anton Ct
+0	Round Table	HasType	pizza restaurant
+0	113 Anton Ct	IsAddressOf	Round Table
+0	pizza restaurant	IsTypeOf	Round Table
+0	Round Table	HasTraffic	moderate traffic
+0	Round Table	HasDistance	2 miles
+0	moderate traffic	IsTrafficOf	Round Table
+0	2 miles	IsDistanceFrom	Round Table
+1	The Westin	HasAddress	329 El Camino Real
+1	The Westin	HasType	rest stop
+1	329 El Camino Real	IsAddressOf	The Westin
+1	rest stop	IsTypeOf	The Westin
+1	The Westin	HasTraffic	no traffic
+1	The Westin	HasDistance	4 miles
+1	no traffic	IsTrafficOf	The Westin
+1	4 miles	IsDistanceFrom	The Westin
+2	5672 barringer street	HasAddress	5672 barringer street
+2	5672 barringer street	HasType	certain address
+2	5672 barringer street	IsAddressOf	5672 barringer street
+2	certain address	IsTypeOf	5672 barringer street
+2	5672 barringer street	HasTraffic	heavy traffic
+2	5672 barringer street	HasDistance	4 miles
+2	heavy traffic	IsTrafficOf	5672 barringer street
+2	4 miles	IsDistanceFrom	5672 barringer street
+3	Pizza Hut	HasAddress	704 El Camino Real
+3	Pizza Hut	HasType	pizza restaurant
+3	704 El Camino Real	IsAddressOf	Pizza Hut
+3	pizza restaurant	IsTypeOf	Pizza Hut
+3	Pizza Hut	HasTraffic	moderate traffic
+3	Pizza Hut	HasDistance	1 miles
+3	moderate traffic	IsTrafficOf	Pizza Hut
+3	1 miles	IsDistanceFrom	Pizza Hut
+4	Palo Alto Cafe	HasAddress	436 Alger Dr
+4	Palo Alto Cafe	HasType	coffee or tea place
+4	436 Alger Dr	IsAddressOf	Palo Alto Cafe
+4	coffee or tea place	IsTypeOf	Palo Alto Cafe
+4	Palo Alto Cafe	HasTraffic	heavy traffic
+4	Palo Alto Cafe	HasDistance	5 miles
+4	heavy traffic	IsTrafficOf	Palo Alto Cafe
+4	5 miles	IsDistanceFrom	Palo Alto Cafe
+5	Teavana	HasAddress	145 Amherst St
+5	Teavana	HasType	coffee or tea place
+5	145 Amherst St	IsAddressOf	Teavana
+5	coffee or tea place	IsTypeOf	Teavana
+5	Teavana	HasTraffic	heavy traffic
+5	Teavana	HasDistance	5 miles
+5	heavy traffic	IsTrafficOf	Teavana
+5	5 miles	IsDistanceFrom	Teavana
+6	Four Seasons	HasAddress	465 Arcadia Pl
+6	Four Seasons	HasType	rest stop
+6	465 Arcadia Pl	IsAddressOf	Four Seasons
+6	rest stop	IsTypeOf	Four Seasons
+6	Four Seasons	HasTraffic	heavy traffic
+6	Four Seasons	HasDistance	3 miles
+6	heavy traffic	IsTrafficOf	Four Seasons
+6	3 miles	IsDistanceFrom	Four Seasons
+-1	today	IsEqualTo	monday

@@ -1,0 +1,57 @@
+0	Four Seasons	HasAddress	465 Arcadia Pl
+0	Four Seasons	HasType	rest stop
+0	465 Arcadia Pl	IsAddressOf	Four Seasons
+0	rest stop	IsTypeOf	Four Seasons
+0	Four Seasons	HasTraffic	moderate traffic
+0	Four Seasons	HasDistance	6 miles
+0	moderate traffic	IsTrafficOf	Four Seasons
+0	6 miles	IsDistanceFrom	Four Seasons
+1	Panda Express	HasAddress	842 Arrowhead Way
+1	Panda Express	HasType	chinese restaurant
+1	842 Arrowhead Way	IsAddressOf	Panda Express
+1	chinese restaurant	IsTypeOf	Panda Express
+1	Panda Express	HasTraffic	moderate traffic
+1	Panda Express	HasDistance	4 miles
+1	moderate traffic	IsTrafficOf	Panda Express
+1	4 miles	IsDistanceFrom	Panda Express
+2	The Westin	HasAddress	329 El Camino Real
+2	The Westin	HasType	rest stop
+2	329 El Camino Real	IsAddressOf	The Westin
+2	rest stop	IsTypeOf	The Westin
+2	The Westin	HasTraffic	heavy traffic
+2	The Westin	HasDistance	3 miles
+2	heavy traffic	IsTrafficOf	The Westin
+2	3 miles	IsDistanceFrom	The Westin
+3	P.F. Changs	HasAddress	669 El Camino Real
+3	P.F. Changs	HasType	chinese restaurant
+3	669 El Camino Real	IsAddressOf	P.F. Changs
+3	chinese restaurant	IsTypeOf	P.F. Changs
+3	P.F. Changs	HasTraffic	no traffic
+3	P.F. Changs	HasDistance	6 miles
+3	no traffic	IsTrafficOf	P.F. Changs
+3	6 miles	IsDistanceFrom	P.F. Changs
+4	Midtown Shopping Center	HasAddress	338 Alester Ave
+4	Midtown Shopping Center	HasType	shopping center
+4	338 Alester Ave	IsAddressOf	Midtown Shopping Center
+4	shopping center	IsTypeOf	Midtown Shopping Center
+4	Midtown Shopping Center	HasTraffic	moderate traffic
+4	Midtown Shopping Center	HasDistance	1 miles
+4	moderate traffic	IsTrafficOf	Midtown Shopping Center
+4	1 miles	IsDistanceFrom	Midtown Shopping Center
+5	Palo Alto Medical Foundation	HasAddress	611 Ames Ave
+5	Palo Alto Medical Foundation	HasType	hospital
+5	611 Ames Ave	IsAddressOf	Palo Alto Medical Foundation
+5	hospital	IsTypeOf	Palo Alto Medical Foundation
+5	Palo Alto Medical Foundation	HasTraffic	no traffic
+5	Palo Alto Medical Foundation	HasDistance	4 miles
+5	no traffic	IsTrafficOf	Palo Alto Medical Foundation
+5	4 miles	IsDistanceFrom	Palo Alto Medical Foundation
+6	Jing Jing	HasAddress	113 Arbol Dr
+6	Jing Jing	HasType	chinese restaurant
+6	113 Arbol Dr	IsAddressOf	Jing Jing
+6	chinese restaurant	IsTypeOf	Jing Jing
+6	Jing Jing	HasTraffic	moderate traffic
+6	Jing Jing	HasDistance	2 miles
+6	moderate traffic	IsTrafficOf	Jing Jing
+6	2 miles	IsDistanceFrom	Jing Jing
+-1	today	IsEqualTo	monday

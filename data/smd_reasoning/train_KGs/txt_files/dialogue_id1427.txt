@@ -1,0 +1,65 @@
+0	Travelers Lodge	HasAddress	333 Arbol Dr
+0	Travelers Lodge	HasType	rest stop
+0	333 Arbol Dr	IsAddressOf	Travelers Lodge
+0	rest stop	IsTypeOf	Travelers Lodge
+0	Travelers Lodge	HasTraffic	moderate traffic
+0	Travelers Lodge	HasDistance	3 miles
+0	moderate traffic	IsTrafficOf	Travelers Lodge
+0	3 miles	IsDistanceFrom	Travelers Lodge
+1	Hotel Keen	HasAddress	578 Arbol Dr
+1	Hotel Keen	HasType	rest stop
+1	578 Arbol Dr	IsAddressOf	Hotel Keen
+1	rest stop	IsTypeOf	Hotel Keen
+1	Hotel Keen	HasTraffic	road block nearby
+1	Hotel Keen	HasDistance	2 miles
+1	road block nearby	IsTrafficOf	Hotel Keen
+1	2 miles	IsDistanceFrom	Hotel Keen
+2	Palo Alto Garage R	HasAddress	481 Amaranta Ave
+2	Palo Alto Garage R	HasType	parking garage
+2	481 Amaranta Ave	IsAddressOf	Palo Alto Garage R
+2	parking garage	IsTypeOf	Palo Alto Garage R
+2	Palo Alto Garage R	HasTraffic	no traffic
+2	Palo Alto Garage R	HasDistance	3 miles
+2	no traffic	IsTrafficOf	Palo Alto Garage R
+2	3 miles	IsDistanceFrom	Palo Alto Garage R
+3	Dominos	HasAddress	776 Arastradero Rd
+3	Dominos	HasType	pizza restaurant
+3	776 Arastradero Rd	IsAddressOf	Dominos
+3	pizza restaurant	IsTypeOf	Dominos
+3	Dominos	HasTraffic	no traffic
+3	Dominos	HasDistance	5 miles
+3	no traffic	IsTrafficOf	Dominos
+3	5 miles	IsDistanceFrom	Dominos
+4	Ravenswood Shopping Center	HasAddress	434 Arastradero Rd
+4	Ravenswood Shopping Center	HasType	shopping center
+4	434 Arastradero Rd	IsAddressOf	Ravenswood Shopping Center
+4	shopping center	IsTypeOf	Ravenswood Shopping Center
+4	Ravenswood Shopping Center	HasTraffic	road block nearby
+4	Ravenswood Shopping Center	HasDistance	5 miles
+4	road block nearby	IsTrafficOf	Ravenswood Shopping Center
+4	5 miles	IsDistanceFrom	Ravenswood Shopping Center
+5	Palo Alto Cafe	HasAddress	436 Alger Dr
+5	Palo Alto Cafe	HasType	coffee or tea place
+5	436 Alger Dr	IsAddressOf	Palo Alto Cafe
+5	coffee or tea place	IsTypeOf	Palo Alto Cafe
+5	Palo Alto Cafe	HasTraffic	moderate traffic
+5	Palo Alto Cafe	HasDistance	5 miles
+5	moderate traffic	IsTrafficOf	Palo Alto Cafe
+5	5 miles	IsDistanceFrom	Palo Alto Cafe
+6	Topanga Mall	HasAddress	171 Oak Rd
+6	Topanga Mall	HasType	shopping center
+6	171 Oak Rd	IsAddressOf	Topanga Mall
+6	shopping center	IsTypeOf	Topanga Mall
+6	Topanga Mall	HasTraffic	no traffic
+6	Topanga Mall	HasDistance	3 miles
+6	no traffic	IsTrafficOf	Topanga Mall
+6	3 miles	IsDistanceFrom	Topanga Mall
+7	Pizza My Heart	HasAddress	528 Anton Ct
+7	Pizza My Heart	HasType	pizza restaurant
+7	528 Anton Ct	IsAddressOf	Pizza My Heart
+7	pizza restaurant	IsTypeOf	Pizza My Heart
+7	Pizza My Heart	HasTraffic	no traffic
+7	Pizza My Heart	HasDistance	4 miles
+7	no traffic	IsTrafficOf	Pizza My Heart
+7	4 miles	IsDistanceFrom	Pizza My Heart
+-1	today	IsEqualTo	monday

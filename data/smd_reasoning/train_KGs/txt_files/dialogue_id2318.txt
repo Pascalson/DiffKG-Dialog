@@ -1,0 +1,65 @@
+0	Willows Market	HasAddress	409 Bollard St
+0	Willows Market	HasType	grocery store
+0	409 Bollard St	IsAddressOf	Willows Market
+0	grocery store	IsTypeOf	Willows Market
+0	Willows Market	HasTraffic	car collision nearby
+0	Willows Market	HasDistance	4 miles
+0	car collision nearby	IsTrafficOf	Willows Market
+0	4 miles	IsDistanceFrom	Willows Market
+1	Teavana	HasAddress	145 Amherst St
+1	Teavana	HasType	coffee or tea place
+1	145 Amherst St	IsAddressOf	Teavana
+1	coffee or tea place	IsTypeOf	Teavana
+1	Teavana	HasTraffic	car collision nearby
+1	Teavana	HasDistance	2 miles
+1	car collision nearby	IsTrafficOf	Teavana
+1	2 miles	IsDistanceFrom	Teavana
+2	The Westin	HasAddress	329 El Camino Real
+2	The Westin	HasType	rest stop
+2	329 El Camino Real	IsAddressOf	The Westin
+2	rest stop	IsTypeOf	The Westin
+2	The Westin	HasTraffic	no traffic
+2	The Westin	HasDistance	6 miles
+2	no traffic	IsTrafficOf	The Westin
+2	6 miles	IsDistanceFrom	The Westin
+3	Ravenswood Shopping Center	HasAddress	434 Arastradero Rd
+3	Ravenswood Shopping Center	HasType	shopping center
+3	434 Arastradero Rd	IsAddressOf	Ravenswood Shopping Center
+3	shopping center	IsTypeOf	Ravenswood Shopping Center
+3	Ravenswood Shopping Center	HasTraffic	no traffic
+3	Ravenswood Shopping Center	HasDistance	3 miles
+3	no traffic	IsTrafficOf	Ravenswood Shopping Center
+3	3 miles	IsDistanceFrom	Ravenswood Shopping Center
+4	Stanford Oval Parking	HasAddress	610 Amarillo Ave
+4	Stanford Oval Parking	HasType	parking garage
+4	610 Amarillo Ave	IsAddressOf	Stanford Oval Parking
+4	parking garage	IsTypeOf	Stanford Oval Parking
+4	Stanford Oval Parking	HasTraffic	moderate traffic
+4	Stanford Oval Parking	HasDistance	6 miles
+4	moderate traffic	IsTrafficOf	Stanford Oval Parking
+4	6 miles	IsDistanceFrom	Stanford Oval Parking
+5	Chef Chu's	HasAddress	593 Arrowhead Way
+5	Chef Chu's	HasType	chinese restaurant
+5	593 Arrowhead Way	IsAddressOf	Chef Chu's
+5	chinese restaurant	IsTypeOf	Chef Chu's
+5	Chef Chu's	HasTraffic	car collision nearby
+5	Chef Chu's	HasDistance	5 miles
+5	car collision nearby	IsTrafficOf	Chef Chu's
+5	5 miles	IsDistanceFrom	Chef Chu's
+6	Palo Alto Medical Foundation	HasAddress	611 Ames Ave
+6	Palo Alto Medical Foundation	HasType	hospital
+6	611 Ames Ave	IsAddressOf	Palo Alto Medical Foundation
+6	hospital	IsTypeOf	Palo Alto Medical Foundation
+6	Palo Alto Medical Foundation	HasTraffic	moderate traffic
+6	Palo Alto Medical Foundation	HasDistance	3 miles
+6	moderate traffic	IsTrafficOf	Palo Alto Medical Foundation
+6	3 miles	IsDistanceFrom	Palo Alto Medical Foundation
+7	Four Seasons	HasAddress	465 Arcadia Pl
+7	Four Seasons	HasType	rest stop
+7	465 Arcadia Pl	IsAddressOf	Four Seasons
+7	rest stop	IsTypeOf	Four Seasons
+7	Four Seasons	HasTraffic	car collision nearby
+7	Four Seasons	HasDistance	6 miles
+7	car collision nearby	IsTrafficOf	Four Seasons
+7	6 miles	IsDistanceFrom	Four Seasons
+-1	today	IsEqualTo	monday

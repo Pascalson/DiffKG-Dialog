@@ -1,0 +1,65 @@
+0	76	HasAddress	91 El Camino Real
+0	76	HasType	gas station
+0	91 El Camino Real	IsAddressOf	76
+0	gas station	IsTypeOf	76
+0	76	HasTraffic	heavy traffic
+0	76	HasDistance	5 miles
+0	heavy traffic	IsTrafficOf	76
+0	5 miles	IsDistanceFrom	76
+1	Willows Market	HasAddress	409 Bollard St
+1	Willows Market	HasType	grocery store
+1	409 Bollard St	IsAddressOf	Willows Market
+1	grocery store	IsTypeOf	Willows Market
+1	Willows Market	HasTraffic	heavy traffic
+1	Willows Market	HasDistance	1 miles
+1	heavy traffic	IsTrafficOf	Willows Market
+1	1 miles	IsDistanceFrom	Willows Market
+2	Travelers Lodge	HasAddress	333 Arbol Dr
+2	Travelers Lodge	HasType	rest stop
+2	333 Arbol Dr	IsAddressOf	Travelers Lodge
+2	rest stop	IsTypeOf	Travelers Lodge
+2	Travelers Lodge	HasTraffic	car collision nearby
+2	Travelers Lodge	HasDistance	5 miles
+2	car collision nearby	IsTrafficOf	Travelers Lodge
+2	5 miles	IsDistanceFrom	Travelers Lodge
+3	Jing Jing	HasAddress	113 Arbol Dr
+3	Jing Jing	HasType	chinese restaurant
+3	113 Arbol Dr	IsAddressOf	Jing Jing
+3	chinese restaurant	IsTypeOf	Jing Jing
+3	Jing Jing	HasTraffic	moderate traffic
+3	Jing Jing	HasDistance	6 miles
+3	moderate traffic	IsTrafficOf	Jing Jing
+3	6 miles	IsDistanceFrom	Jing Jing
+4	Safeway	HasAddress	452 Arcadia Pl
+4	Safeway	HasType	grocery store
+4	452 Arcadia Pl	IsAddressOf	Safeway
+4	grocery store	IsTypeOf	Safeway
+4	Safeway	HasTraffic	heavy traffic
+4	Safeway	HasDistance	5 miles
+4	heavy traffic	IsTrafficOf	Safeway
+4	5 miles	IsDistanceFrom	Safeway
+5	jacks house	HasAddress	864 Almanor Ln
+5	jacks house	HasType	friends house
+5	864 Almanor Ln	IsAddressOf	jacks house
+5	friends house	IsTypeOf	jacks house
+5	jacks house	HasTraffic	moderate traffic
+5	jacks house	HasDistance	4 miles
+5	moderate traffic	IsTrafficOf	jacks house
+5	4 miles	IsDistanceFrom	jacks house
+6	Peets Coffee	HasAddress	9981 Archuleta Ave
+6	Peets Coffee	HasType	coffee or tea place
+6	9981 Archuleta Ave	IsAddressOf	Peets Coffee
+6	coffee or tea place	IsTypeOf	Peets Coffee
+6	Peets Coffee	HasTraffic	no traffic
+6	Peets Coffee	HasDistance	2 miles
+6	no traffic	IsTrafficOf	Peets Coffee
+6	2 miles	IsDistanceFrom	Peets Coffee
+7	Hacienda Market	HasAddress	1313 Chester Ave
+7	Hacienda Market	HasType	grocery store
+7	1313 Chester Ave	IsAddressOf	Hacienda Market
+7	grocery store	IsTypeOf	Hacienda Market
+7	Hacienda Market	HasTraffic	moderate traffic
+7	Hacienda Market	HasDistance	2 miles
+7	moderate traffic	IsTrafficOf	Hacienda Market
+7	2 miles	IsDistanceFrom	Hacienda Market
+-1	today	IsEqualTo	monday

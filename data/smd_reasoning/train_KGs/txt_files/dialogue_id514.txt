@@ -1,0 +1,65 @@
+0	Dominos	HasAddress	776 Arastradero Rd
+0	Dominos	HasType	pizza restaurant
+0	776 Arastradero Rd	IsAddressOf	Dominos
+0	pizza restaurant	IsTypeOf	Dominos
+0	Dominos	HasTraffic	heavy traffic
+0	Dominos	HasDistance	4 miles
+0	heavy traffic	IsTrafficOf	Dominos
+0	4 miles	IsDistanceFrom	Dominos
+1	Four Seasons	HasAddress	465 Arcadia Pl
+1	Four Seasons	HasType	rest stop
+1	465 Arcadia Pl	IsAddressOf	Four Seasons
+1	rest stop	IsTypeOf	Four Seasons
+1	Four Seasons	HasTraffic	car collision nearby
+1	Four Seasons	HasDistance	1 miles
+1	car collision nearby	IsTrafficOf	Four Seasons
+1	1 miles	IsDistanceFrom	Four Seasons
+2	Pizza My Heart	HasAddress	528 Anton Ct
+2	Pizza My Heart	HasType	pizza restaurant
+2	528 Anton Ct	IsAddressOf	Pizza My Heart
+2	pizza restaurant	IsTypeOf	Pizza My Heart
+2	Pizza My Heart	HasTraffic	moderate traffic
+2	Pizza My Heart	HasDistance	4 miles
+2	moderate traffic	IsTrafficOf	Pizza My Heart
+2	4 miles	IsDistanceFrom	Pizza My Heart
+3	5677 southwest 4th street	HasAddress	5677 southwest 4th street
+3	5677 southwest 4th street	HasType	certain address
+3	5677 southwest 4th street	IsAddressOf	5677 southwest 4th street
+3	certain address	IsTypeOf	5677 southwest 4th street
+3	5677 southwest 4th street	HasTraffic	car collision nearby
+3	5677 southwest 4th street	HasDistance	5 miles
+3	car collision nearby	IsTrafficOf	5677 southwest 4th street
+3	5 miles	IsDistanceFrom	5677 southwest 4th street
+4	toms house	HasAddress	580 Van Ness Ave
+4	toms house	HasType	friends house
+4	580 Van Ness Ave	IsAddressOf	toms house
+4	friends house	IsTypeOf	toms house
+4	toms house	HasTraffic	road block nearby
+4	toms house	HasDistance	6 miles
+4	road block nearby	IsTrafficOf	toms house
+4	6 miles	IsDistanceFrom	toms house
+5	Safeway	HasAddress	452 Arcadia Pl
+5	Safeway	HasType	grocery store
+5	452 Arcadia Pl	IsAddressOf	Safeway
+5	grocery store	IsTypeOf	Safeway
+5	Safeway	HasTraffic	moderate traffic
+5	Safeway	HasDistance	4 miles
+5	moderate traffic	IsTrafficOf	Safeway
+5	4 miles	IsDistanceFrom	Safeway
+6	Stanford Express Care	HasAddress	214 El Camino Real
+6	Stanford Express Care	HasType	hospital
+6	214 El Camino Real	IsAddressOf	Stanford Express Care
+6	hospital	IsTypeOf	Stanford Express Care
+6	Stanford Express Care	HasTraffic	car collision nearby
+6	Stanford Express Care	HasDistance	4 miles
+6	car collision nearby	IsTrafficOf	Stanford Express Care
+6	4 miles	IsDistanceFrom	Stanford Express Care
+7	Starbucks	HasAddress	792 Bedoin Street
+7	Starbucks	HasType	coffee or tea place
+7	792 Bedoin Street	IsAddressOf	Starbucks
+7	coffee or tea place	IsTypeOf	Starbucks
+7	Starbucks	HasTraffic	road block nearby
+7	Starbucks	HasDistance	3 miles
+7	road block nearby	IsTrafficOf	Starbucks
+7	3 miles	IsDistanceFrom	Starbucks
+-1	today	IsEqualTo	monday

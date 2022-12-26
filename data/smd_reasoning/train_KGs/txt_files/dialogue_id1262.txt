@@ -1,0 +1,57 @@
+0	jills house	HasAddress	347 Alta Mesa Ave
+0	jills house	HasType	friends house
+0	347 Alta Mesa Ave	IsAddressOf	jills house
+0	friends house	IsTypeOf	jills house
+0	jills house	HasTraffic	moderate traffic
+0	jills house	HasDistance	3 miles
+0	moderate traffic	IsTrafficOf	jills house
+0	3 miles	IsDistanceFrom	jills house
+1	Pizza Chicago	HasAddress	915 Arbol Dr
+1	Pizza Chicago	HasType	pizza restaurant
+1	915 Arbol Dr	IsAddressOf	Pizza Chicago
+1	pizza restaurant	IsTypeOf	Pizza Chicago
+1	Pizza Chicago	HasTraffic	heavy traffic
+1	Pizza Chicago	HasDistance	5 miles
+1	heavy traffic	IsTrafficOf	Pizza Chicago
+1	5 miles	IsDistanceFrom	Pizza Chicago
+2	tai pan	HasAddress	830 Almanor Ln
+2	tai pan	HasType	chinese restaurant
+2	830 Almanor Ln	IsAddressOf	tai pan
+2	chinese restaurant	IsTypeOf	tai pan
+2	tai pan	HasTraffic	heavy traffic
+2	tai pan	HasDistance	2 miles
+2	heavy traffic	IsTrafficOf	tai pan
+2	2 miles	IsDistanceFrom	tai pan
+3	Chef Chu's	HasAddress	593 Arrowhead Way
+3	Chef Chu's	HasType	chinese restaurant
+3	593 Arrowhead Way	IsAddressOf	Chef Chu's
+3	chinese restaurant	IsTypeOf	Chef Chu's
+3	Chef Chu's	HasTraffic	no traffic
+3	Chef Chu's	HasDistance	4 miles
+3	no traffic	IsTrafficOf	Chef Chu's
+3	4 miles	IsDistanceFrom	Chef Chu's
+4	Stanford Childrens Health	HasAddress	899 Ames Ct
+4	Stanford Childrens Health	HasType	hospital
+4	899 Ames Ct	IsAddressOf	Stanford Childrens Health
+4	hospital	IsTypeOf	Stanford Childrens Health
+4	Stanford Childrens Health	HasTraffic	moderate traffic
+4	Stanford Childrens Health	HasDistance	5 miles
+4	moderate traffic	IsTrafficOf	Stanford Childrens Health
+4	5 miles	IsDistanceFrom	Stanford Childrens Health
+5	Palo Alto Cafe	HasAddress	436 Alger Dr
+5	Palo Alto Cafe	HasType	coffee or tea place
+5	436 Alger Dr	IsAddressOf	Palo Alto Cafe
+5	coffee or tea place	IsTypeOf	Palo Alto Cafe
+5	Palo Alto Cafe	HasTraffic	no traffic
+5	Palo Alto Cafe	HasDistance	4 miles
+5	no traffic	IsTrafficOf	Palo Alto Cafe
+5	4 miles	IsDistanceFrom	Palo Alto Cafe
+6	Starbucks	HasAddress	792 Bedoin Street
+6	Starbucks	HasType	coffee or tea place
+6	792 Bedoin Street	IsAddressOf	Starbucks
+6	coffee or tea place	IsTypeOf	Starbucks
+6	Starbucks	HasTraffic	moderate traffic
+6	Starbucks	HasDistance	4 miles
+6	moderate traffic	IsTrafficOf	Starbucks
+6	4 miles	IsDistanceFrom	Starbucks
+-1	today	IsEqualTo	monday

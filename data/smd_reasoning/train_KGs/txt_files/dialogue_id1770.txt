@@ -1,0 +1,57 @@
+0	The Westin	HasAddress	329 El Camino Real
+0	The Westin	HasType	rest stop
+0	329 El Camino Real	IsAddressOf	The Westin
+0	rest stop	IsTypeOf	The Westin
+0	The Westin	HasTraffic	heavy traffic
+0	The Westin	HasDistance	4 miles
+0	heavy traffic	IsTrafficOf	The Westin
+0	4 miles	IsDistanceFrom	The Westin
+1	Stanford Express Care	HasAddress	214 El Camino Real
+1	Stanford Express Care	HasType	hospital
+1	214 El Camino Real	IsAddressOf	Stanford Express Care
+1	hospital	IsTypeOf	Stanford Express Care
+1	Stanford Express Care	HasTraffic	no traffic
+1	Stanford Express Care	HasDistance	5 miles
+1	no traffic	IsTrafficOf	Stanford Express Care
+1	5 miles	IsDistanceFrom	Stanford Express Care
+2	Sigona Farmers Market	HasAddress	638 Amherst St
+2	Sigona Farmers Market	HasType	grocery store
+2	638 Amherst St	IsAddressOf	Sigona Farmers Market
+2	grocery store	IsTypeOf	Sigona Farmers Market
+2	Sigona Farmers Market	HasTraffic	moderate traffic
+2	Sigona Farmers Market	HasDistance	2 miles
+2	moderate traffic	IsTrafficOf	Sigona Farmers Market
+2	2 miles	IsDistanceFrom	Sigona Farmers Market
+3	Ravenswood Shopping Center	HasAddress	434 Arastradero Rd
+3	Ravenswood Shopping Center	HasType	shopping center
+3	434 Arastradero Rd	IsAddressOf	Ravenswood Shopping Center
+3	shopping center	IsTypeOf	Ravenswood Shopping Center
+3	Ravenswood Shopping Center	HasTraffic	moderate traffic
+3	Ravenswood Shopping Center	HasDistance	4 miles
+3	moderate traffic	IsTrafficOf	Ravenswood Shopping Center
+3	4 miles	IsDistanceFrom	Ravenswood Shopping Center
+4	jacks house	HasAddress	864 Almanor Ln
+4	jacks house	HasType	friends house
+4	864 Almanor Ln	IsAddressOf	jacks house
+4	friends house	IsTypeOf	jacks house
+4	jacks house	HasTraffic	heavy traffic
+4	jacks house	HasDistance	3 miles
+4	heavy traffic	IsTrafficOf	jacks house
+4	3 miles	IsDistanceFrom	jacks house
+5	Whole Foods	HasAddress	819 Alma St
+5	Whole Foods	HasType	grocery store
+5	819 Alma St	IsAddressOf	Whole Foods
+5	grocery store	IsTypeOf	Whole Foods
+5	Whole Foods	HasTraffic	moderate traffic
+5	Whole Foods	HasDistance	6 miles
+5	moderate traffic	IsTrafficOf	Whole Foods
+5	6 miles	IsDistanceFrom	Whole Foods
+6	Hotel Keen	HasAddress	578 Arbol Dr
+6	Hotel Keen	HasType	rest stop
+6	578 Arbol Dr	IsAddressOf	Hotel Keen
+6	rest stop	IsTypeOf	Hotel Keen
+6	Hotel Keen	HasTraffic	no traffic
+6	Hotel Keen	HasDistance	5 miles
+6	no traffic	IsTrafficOf	Hotel Keen
+6	5 miles	IsDistanceFrom	Hotel Keen
+-1	today	IsEqualTo	monday

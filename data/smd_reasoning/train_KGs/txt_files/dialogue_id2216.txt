@@ -1,0 +1,57 @@
+0	The Clement Hotel	HasAddress	657 Ames Ave
+0	The Clement Hotel	HasType	rest stop
+0	657 Ames Ave	IsAddressOf	The Clement Hotel
+0	rest stop	IsTypeOf	The Clement Hotel
+0	The Clement Hotel	HasTraffic	no traffic
+0	The Clement Hotel	HasDistance	1 miles
+0	no traffic	IsTrafficOf	The Clement Hotel
+0	1 miles	IsDistanceFrom	The Clement Hotel
+1	Dominos	HasAddress	776 Arastradero Rd
+1	Dominos	HasType	pizza restaurant
+1	776 Arastradero Rd	IsAddressOf	Dominos
+1	pizza restaurant	IsTypeOf	Dominos
+1	Dominos	HasTraffic	no traffic
+1	Dominos	HasDistance	5 miles
+1	no traffic	IsTrafficOf	Dominos
+1	5 miles	IsDistanceFrom	Dominos
+2	Whole Foods	HasAddress	819 Alma St
+2	Whole Foods	HasType	grocery store
+2	819 Alma St	IsAddressOf	Whole Foods
+2	grocery store	IsTypeOf	Whole Foods
+2	Whole Foods	HasTraffic	no traffic
+2	Whole Foods	HasDistance	5 miles
+2	no traffic	IsTrafficOf	Whole Foods
+2	5 miles	IsDistanceFrom	Whole Foods
+3	Palo Alto Garage R	HasAddress	481 Amaranta Ave
+3	Palo Alto Garage R	HasType	parking garage
+3	481 Amaranta Ave	IsAddressOf	Palo Alto Garage R
+3	parking garage	IsTypeOf	Palo Alto Garage R
+3	Palo Alto Garage R	HasTraffic	heavy traffic
+3	Palo Alto Garage R	HasDistance	1 miles
+3	heavy traffic	IsTrafficOf	Palo Alto Garage R
+3	1 miles	IsDistanceFrom	Palo Alto Garage R
+4	Coupa	HasAddress	394 Van Ness Ave
+4	Coupa	HasType	coffee or tea place
+4	394 Van Ness Ave	IsAddressOf	Coupa
+4	coffee or tea place	IsTypeOf	Coupa
+4	Coupa	HasTraffic	no traffic
+4	Coupa	HasDistance	1 miles
+4	no traffic	IsTrafficOf	Coupa
+4	1 miles	IsDistanceFrom	Coupa
+5	jacks house	HasAddress	864 Almanor Ln
+5	jacks house	HasType	friends house
+5	864 Almanor Ln	IsAddressOf	jacks house
+5	friends house	IsTypeOf	jacks house
+5	jacks house	HasTraffic	moderate traffic
+5	jacks house	HasDistance	6 miles
+5	moderate traffic	IsTrafficOf	jacks house
+5	6 miles	IsDistanceFrom	jacks house
+6	Chef Chu's	HasAddress	593 Arrowhead Way
+6	Chef Chu's	HasType	chinese restaurant
+6	593 Arrowhead Way	IsAddressOf	Chef Chu's
+6	chinese restaurant	IsTypeOf	Chef Chu's
+6	Chef Chu's	HasTraffic	moderate traffic
+6	Chef Chu's	HasDistance	5 miles
+6	moderate traffic	IsTrafficOf	Chef Chu's
+6	5 miles	IsDistanceFrom	Chef Chu's
+-1	today	IsEqualTo	monday

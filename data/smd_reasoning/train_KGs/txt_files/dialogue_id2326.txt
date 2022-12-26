@@ -1,0 +1,65 @@
+0	Dish Parking	HasAddress	550 Alester Ave
+0	Dish Parking	HasType	parking garage
+0	550 Alester Ave	IsAddressOf	Dish Parking
+0	parking garage	IsTypeOf	Dish Parking
+0	Dish Parking	HasTraffic	heavy traffic
+0	Dish Parking	HasDistance	6 miles
+0	heavy traffic	IsTrafficOf	Dish Parking
+0	6 miles	IsDistanceFrom	Dish Parking
+1	Stanford Oval Parking	HasAddress	610 Amarillo Ave
+1	Stanford Oval Parking	HasType	parking garage
+1	610 Amarillo Ave	IsAddressOf	Stanford Oval Parking
+1	parking garage	IsTypeOf	Stanford Oval Parking
+1	Stanford Oval Parking	HasTraffic	car collision nearby
+1	Stanford Oval Parking	HasDistance	1 miles
+1	car collision nearby	IsTrafficOf	Stanford Oval Parking
+1	1 miles	IsDistanceFrom	Stanford Oval Parking
+2	Starbucks	HasAddress	792 Bedoin Street
+2	Starbucks	HasType	coffee or tea place
+2	792 Bedoin Street	IsAddressOf	Starbucks
+2	coffee or tea place	IsTypeOf	Starbucks
+2	Starbucks	HasTraffic	no traffic
+2	Starbucks	HasDistance	7 miles
+2	no traffic	IsTrafficOf	Starbucks
+2	7 miles	IsDistanceFrom	Starbucks
+3	Topanga Mall	HasAddress	171 Oak Rd
+3	Topanga Mall	HasType	shopping center
+3	171 Oak Rd	IsAddressOf	Topanga Mall
+3	shopping center	IsTypeOf	Topanga Mall
+3	Topanga Mall	HasTraffic	road block nearby
+3	Topanga Mall	HasDistance	4 miles
+3	road block nearby	IsTrafficOf	Topanga Mall
+3	4 miles	IsDistanceFrom	Topanga Mall
+4	Hotel Keen	HasAddress	578 Arbol Dr
+4	Hotel Keen	HasType	rest stop
+4	578 Arbol Dr	IsAddressOf	Hotel Keen
+4	rest stop	IsTypeOf	Hotel Keen
+4	Hotel Keen	HasTraffic	moderate traffic
+4	Hotel Keen	HasDistance	1 miles
+4	moderate traffic	IsTrafficOf	Hotel Keen
+4	1 miles	IsDistanceFrom	Hotel Keen
+5	Stanford Express Care	HasAddress	214 El Camino Real
+5	Stanford Express Care	HasType	hospital
+5	214 El Camino Real	IsAddressOf	Stanford Express Care
+5	hospital	IsTypeOf	Stanford Express Care
+5	Stanford Express Care	HasTraffic	moderate traffic
+5	Stanford Express Care	HasDistance	2 miles
+5	moderate traffic	IsTrafficOf	Stanford Express Care
+5	2 miles	IsDistanceFrom	Stanford Express Care
+6	P.F. Changs	HasAddress	669 El Camino Real
+6	P.F. Changs	HasType	chinese restaurant
+6	669 El Camino Real	IsAddressOf	P.F. Changs
+6	chinese restaurant	IsTypeOf	P.F. Changs
+6	P.F. Changs	HasTraffic	car collision nearby
+6	P.F. Changs	HasDistance	2 miles
+6	car collision nearby	IsTrafficOf	P.F. Changs
+6	2 miles	IsDistanceFrom	P.F. Changs
+7	Philz	HasAddress	583 Alester Ave
+7	Philz	HasType	coffee or tea place
+7	583 Alester Ave	IsAddressOf	Philz
+7	coffee or tea place	IsTypeOf	Philz
+7	Philz	HasTraffic	car collision nearby
+7	Philz	HasDistance	3 miles
+7	car collision nearby	IsTrafficOf	Philz
+7	3 miles	IsDistanceFrom	Philz
+-1	today	IsEqualTo	monday

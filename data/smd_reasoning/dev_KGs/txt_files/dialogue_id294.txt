@@ -1,0 +1,65 @@
+0	Philz	HasAddress	583 Alester Ave
+0	Philz	HasType	coffee or tea place
+0	583 Alester Ave	IsAddressOf	Philz
+0	coffee or tea place	IsTypeOf	Philz
+0	Philz	HasTraffic	heavy traffic
+0	Philz	HasDistance	3 miles
+0	heavy traffic	IsTrafficOf	Philz
+0	3 miles	IsDistanceFrom	Philz
+1	Dish Parking	HasAddress	550 Alester Ave
+1	Dish Parking	HasType	parking garage
+1	550 Alester Ave	IsAddressOf	Dish Parking
+1	parking garage	IsTypeOf	Dish Parking
+1	Dish Parking	HasTraffic	heavy traffic
+1	Dish Parking	HasDistance	5 miles
+1	heavy traffic	IsTrafficOf	Dish Parking
+1	5 miles	IsDistanceFrom	Dish Parking
+2	home	HasAddress	56 cadwell street
+2	home	HasType	home
+2	56 cadwell street	IsAddressOf	home
+2	home	IsTypeOf	home
+2	home	HasTraffic	car collision nearby
+2	home	HasDistance	6 miles
+2	car collision nearby	IsTrafficOf	home
+2	6 miles	IsDistanceFrom	home
+3	Travelers Lodge	HasAddress	333 Arbol Dr
+3	Travelers Lodge	HasType	rest stop
+3	333 Arbol Dr	IsAddressOf	Travelers Lodge
+3	rest stop	IsTypeOf	Travelers Lodge
+3	Travelers Lodge	HasTraffic	moderate traffic
+3	Travelers Lodge	HasDistance	1 miles
+3	moderate traffic	IsTrafficOf	Travelers Lodge
+3	1 miles	IsDistanceFrom	Travelers Lodge
+4	Cafe Venetia	HasAddress	269 Alger Dr
+4	Cafe Venetia	HasType	coffee or tea place
+4	269 Alger Dr	IsAddressOf	Cafe Venetia
+4	coffee or tea place	IsTypeOf	Cafe Venetia
+4	Cafe Venetia	HasTraffic	car collision nearby
+4	Cafe Venetia	HasDistance	6 miles
+4	car collision nearby	IsTrafficOf	Cafe Venetia
+4	6 miles	IsDistanceFrom	Cafe Venetia
+5	Midtown Shopping Center	HasAddress	338 Alester Ave
+5	Midtown Shopping Center	HasType	shopping center
+5	338 Alester Ave	IsAddressOf	Midtown Shopping Center
+5	shopping center	IsTypeOf	Midtown Shopping Center
+5	Midtown Shopping Center	HasTraffic	heavy traffic
+5	Midtown Shopping Center	HasDistance	1 miles
+5	heavy traffic	IsTrafficOf	Midtown Shopping Center
+5	1 miles	IsDistanceFrom	Midtown Shopping Center
+6	Palo Alto Garage R	HasAddress	481 Amaranta Ave
+6	Palo Alto Garage R	HasType	parking garage
+6	481 Amaranta Ave	IsAddressOf	Palo Alto Garage R
+6	parking garage	IsTypeOf	Palo Alto Garage R
+6	Palo Alto Garage R	HasTraffic	heavy traffic
+6	Palo Alto Garage R	HasDistance	6 miles
+6	heavy traffic	IsTrafficOf	Palo Alto Garage R
+6	6 miles	IsDistanceFrom	Palo Alto Garage R
+7	5677 springer street	HasAddress	5677 springer street
+7	5677 springer street	HasType	certain address
+7	5677 springer street	IsAddressOf	5677 springer street
+7	certain address	IsTypeOf	5677 springer street
+7	5677 springer street	HasTraffic	moderate traffic
+7	5677 springer street	HasDistance	1 miles
+7	moderate traffic	IsTrafficOf	5677 springer street
+7	1 miles	IsDistanceFrom	5677 springer street
+-1	today	IsEqualTo	monday

@@ -1,0 +1,65 @@
+0	Webster Garage	HasAddress	880 Ames Ct
+0	Webster Garage	HasType	parking garage
+0	880 Ames Ct	IsAddressOf	Webster Garage
+0	parking garage	IsTypeOf	Webster Garage
+0	Webster Garage	HasTraffic	moderate traffic
+0	Webster Garage	HasDistance	4 miles
+0	moderate traffic	IsTrafficOf	Webster Garage
+0	4 miles	IsDistanceFrom	Webster Garage
+1	Shell	HasAddress	53 University Av
+1	Shell	HasType	gas station
+1	53 University Av	IsAddressOf	Shell
+1	gas station	IsTypeOf	Shell
+1	Shell	HasTraffic	road block nearby
+1	Shell	HasDistance	6 miles
+1	road block nearby	IsTrafficOf	Shell
+1	6 miles	IsDistanceFrom	Shell
+2	jills house	HasAddress	347 Alta Mesa Ave
+2	jills house	HasType	friends house
+2	347 Alta Mesa Ave	IsAddressOf	jills house
+2	friends house	IsTypeOf	jills house
+2	jills house	HasTraffic	moderate traffic
+2	jills house	HasDistance	2 miles
+2	moderate traffic	IsTrafficOf	jills house
+2	2 miles	IsDistanceFrom	jills house
+3	P.F. Changs	HasAddress	669 El Camino Real
+3	P.F. Changs	HasType	chinese restaurant
+3	669 El Camino Real	IsAddressOf	P.F. Changs
+3	chinese restaurant	IsTypeOf	P.F. Changs
+3	P.F. Changs	HasTraffic	road block nearby
+3	P.F. Changs	HasDistance	1 miles
+3	road block nearby	IsTrafficOf	P.F. Changs
+3	1 miles	IsDistanceFrom	P.F. Changs
+4	Mandarin Roots	HasAddress	271 Springer Street
+4	Mandarin Roots	HasType	chinese restaurant
+4	271 Springer Street	IsAddressOf	Mandarin Roots
+4	chinese restaurant	IsTypeOf	Mandarin Roots
+4	Mandarin Roots	HasTraffic	moderate traffic
+4	Mandarin Roots	HasDistance	5 miles
+4	moderate traffic	IsTrafficOf	Mandarin Roots
+4	5 miles	IsDistanceFrom	Mandarin Roots
+5	Round Table	HasAddress	113 Anton Ct
+5	Round Table	HasType	pizza restaurant
+5	113 Anton Ct	IsAddressOf	Round Table
+5	pizza restaurant	IsTypeOf	Round Table
+5	Round Table	HasTraffic	no traffic
+5	Round Table	HasDistance	3 miles
+5	no traffic	IsTrafficOf	Round Table
+5	3 miles	IsDistanceFrom	Round Table
+6	5672 barringer street	HasAddress	5672 barringer street
+6	5672 barringer street	HasType	certain address
+6	5672 barringer street	IsAddressOf	5672 barringer street
+6	certain address	IsTypeOf	5672 barringer street
+6	5672 barringer street	HasTraffic	moderate traffic
+6	5672 barringer street	HasDistance	1 miles
+6	moderate traffic	IsTrafficOf	5672 barringer street
+6	1 miles	IsDistanceFrom	5672 barringer street
+7	Town and Country	HasAddress	383 University Ave
+7	Town and Country	HasType	shopping center
+7	383 University Ave	IsAddressOf	Town and Country
+7	shopping center	IsTypeOf	Town and Country
+7	Town and Country	HasTraffic	car collision nearby
+7	Town and Country	HasDistance	1 miles
+7	car collision nearby	IsTrafficOf	Town and Country
+7	1 miles	IsDistanceFrom	Town and Country
+-1	today	IsEqualTo	monday

@@ -1,0 +1,57 @@
+0	Stanford Shopping Center	HasAddress	773 Alger Dr
+0	Stanford Shopping Center	HasType	shopping center
+0	773 Alger Dr	IsAddressOf	Stanford Shopping Center
+0	shopping center	IsTypeOf	Stanford Shopping Center
+0	Stanford Shopping Center	HasTraffic	no traffic
+0	Stanford Shopping Center	HasDistance	2 miles
+0	no traffic	IsTrafficOf	Stanford Shopping Center
+0	2 miles	IsDistanceFrom	Stanford Shopping Center
+1	Town and Country	HasAddress	383 University Ave
+1	Town and Country	HasType	shopping center
+1	383 University Ave	IsAddressOf	Town and Country
+1	shopping center	IsTypeOf	Town and Country
+1	Town and Country	HasTraffic	heavy traffic
+1	Town and Country	HasDistance	1 miles
+1	heavy traffic	IsTrafficOf	Town and Country
+1	1 miles	IsDistanceFrom	Town and Country
+2	Four Seasons	HasAddress	465 Arcadia Pl
+2	Four Seasons	HasType	rest stop
+2	465 Arcadia Pl	IsAddressOf	Four Seasons
+2	rest stop	IsTypeOf	Four Seasons
+2	Four Seasons	HasTraffic	heavy traffic
+2	Four Seasons	HasDistance	5 miles
+2	heavy traffic	IsTrafficOf	Four Seasons
+2	5 miles	IsDistanceFrom	Four Seasons
+3	home	HasAddress	56 cadwell street
+3	home	HasType	home
+3	56 cadwell street	IsAddressOf	home
+3	home	IsTypeOf	home
+3	home	HasTraffic	heavy traffic
+3	home	HasDistance	4 miles
+3	heavy traffic	IsTrafficOf	home
+3	4 miles	IsDistanceFrom	home
+4	5677 springer street	HasAddress	5677 springer street
+4	5677 springer street	HasType	certain address
+4	5677 springer street	IsAddressOf	5677 springer street
+4	certain address	IsTypeOf	5677 springer street
+4	5677 springer street	HasTraffic	no traffic
+4	5677 springer street	HasDistance	3 miles
+4	no traffic	IsTrafficOf	5677 springer street
+4	3 miles	IsDistanceFrom	5677 springer street
+5	Midtown Shopping Center	HasAddress	338 Alester Ave
+5	Midtown Shopping Center	HasType	shopping center
+5	338 Alester Ave	IsAddressOf	Midtown Shopping Center
+5	shopping center	IsTypeOf	Midtown Shopping Center
+5	Midtown Shopping Center	HasTraffic	moderate traffic
+5	Midtown Shopping Center	HasDistance	5 miles
+5	moderate traffic	IsTrafficOf	Midtown Shopping Center
+5	5 miles	IsDistanceFrom	Midtown Shopping Center
+6	Dominos	HasAddress	776 Arastradero Rd
+6	Dominos	HasType	pizza restaurant
+6	776 Arastradero Rd	IsAddressOf	Dominos
+6	pizza restaurant	IsTypeOf	Dominos
+6	Dominos	HasTraffic	heavy traffic
+6	Dominos	HasDistance	2 miles
+6	heavy traffic	IsTrafficOf	Dominos
+6	2 miles	IsDistanceFrom	Dominos
+-1	today	IsEqualTo	monday

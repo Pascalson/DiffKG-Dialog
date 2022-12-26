@@ -1,0 +1,57 @@
+0	Teavana	HasAddress	145 Amherst St
+0	Teavana	HasType	coffee or tea place
+0	145 Amherst St	IsAddressOf	Teavana
+0	coffee or tea place	IsTypeOf	Teavana
+0	Teavana	HasTraffic	moderate traffic
+0	Teavana	HasDistance	3 miles
+0	moderate traffic	IsTrafficOf	Teavana
+0	3 miles	IsDistanceFrom	Teavana
+1	Dominos	HasAddress	776 Arastradero Rd
+1	Dominos	HasType	pizza restaurant
+1	776 Arastradero Rd	IsAddressOf	Dominos
+1	pizza restaurant	IsTypeOf	Dominos
+1	Dominos	HasTraffic	moderate traffic
+1	Dominos	HasDistance	3 miles
+1	moderate traffic	IsTrafficOf	Dominos
+1	3 miles	IsDistanceFrom	Dominos
+2	Round Table	HasAddress	113 Anton Ct
+2	Round Table	HasType	pizza restaurant
+2	113 Anton Ct	IsAddressOf	Round Table
+2	pizza restaurant	IsTypeOf	Round Table
+2	Round Table	HasTraffic	heavy traffic
+2	Round Table	HasDistance	6 miles
+2	heavy traffic	IsTrafficOf	Round Table
+2	6 miles	IsDistanceFrom	Round Table
+3	Coupa	HasAddress	394 Van Ness Ave
+3	Coupa	HasType	coffee or tea place
+3	394 Van Ness Ave	IsAddressOf	Coupa
+3	coffee or tea place	IsTypeOf	Coupa
+3	Coupa	HasTraffic	moderate traffic
+3	Coupa	HasDistance	4 miles
+3	moderate traffic	IsTrafficOf	Coupa
+3	4 miles	IsDistanceFrom	Coupa
+4	Pizza My Heart	HasAddress	528 Anton Ct
+4	Pizza My Heart	HasType	pizza restaurant
+4	528 Anton Ct	IsAddressOf	Pizza My Heart
+4	pizza restaurant	IsTypeOf	Pizza My Heart
+4	Pizza My Heart	HasTraffic	no traffic
+4	Pizza My Heart	HasDistance	2 miles
+4	no traffic	IsTrafficOf	Pizza My Heart
+4	2 miles	IsDistanceFrom	Pizza My Heart
+5	Palo Alto Medical Foundation	HasAddress	611 Ames Ave
+5	Palo Alto Medical Foundation	HasType	hospital
+5	611 Ames Ave	IsAddressOf	Palo Alto Medical Foundation
+5	hospital	IsTypeOf	Palo Alto Medical Foundation
+5	Palo Alto Medical Foundation	HasTraffic	heavy traffic
+5	Palo Alto Medical Foundation	HasDistance	4 miles
+5	heavy traffic	IsTrafficOf	Palo Alto Medical Foundation
+5	4 miles	IsDistanceFrom	Palo Alto Medical Foundation
+6	Palo Alto Cafe	HasAddress	436 Alger Dr
+6	Palo Alto Cafe	HasType	coffee or tea place
+6	436 Alger Dr	IsAddressOf	Palo Alto Cafe
+6	coffee or tea place	IsTypeOf	Palo Alto Cafe
+6	Palo Alto Cafe	HasTraffic	no traffic
+6	Palo Alto Cafe	HasDistance	6 miles
+6	no traffic	IsTrafficOf	Palo Alto Cafe
+6	6 miles	IsDistanceFrom	Palo Alto Cafe
+-1	today	IsEqualTo	monday

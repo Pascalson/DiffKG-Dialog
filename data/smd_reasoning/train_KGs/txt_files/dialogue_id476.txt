@@ -1,0 +1,57 @@
+0	Starbucks	HasAddress	792 Bedoin Street
+0	Starbucks	HasType	coffee or tea place
+0	792 Bedoin Street	IsAddressOf	Starbucks
+0	coffee or tea place	IsTypeOf	Starbucks
+0	Starbucks	HasTraffic	moderate traffic
+0	Starbucks	HasDistance	4 miles
+0	moderate traffic	IsTrafficOf	Starbucks
+0	4 miles	IsDistanceFrom	Starbucks
+1	Palo Alto Garage R	HasAddress	481 Amaranta Ave
+1	Palo Alto Garage R	HasType	parking garage
+1	481 Amaranta Ave	IsAddressOf	Palo Alto Garage R
+1	parking garage	IsTypeOf	Palo Alto Garage R
+1	Palo Alto Garage R	HasTraffic	moderate traffic
+1	Palo Alto Garage R	HasDistance	4 miles
+1	moderate traffic	IsTrafficOf	Palo Alto Garage R
+1	4 miles	IsDistanceFrom	Palo Alto Garage R
+2	tai pan	HasAddress	830 Almanor Ln
+2	tai pan	HasType	chinese restaurant
+2	830 Almanor Ln	IsAddressOf	tai pan
+2	chinese restaurant	IsTypeOf	tai pan
+2	tai pan	HasTraffic	heavy traffic
+2	tai pan	HasDistance	6 miles
+2	heavy traffic	IsTrafficOf	tai pan
+2	6 miles	IsDistanceFrom	tai pan
+3	Pizza Hut	HasAddress	704 El Camino Real
+3	Pizza Hut	HasType	pizza restaurant
+3	704 El Camino Real	IsAddressOf	Pizza Hut
+3	pizza restaurant	IsTypeOf	Pizza Hut
+3	Pizza Hut	HasTraffic	no traffic
+3	Pizza Hut	HasDistance	5 miles
+3	no traffic	IsTrafficOf	Pizza Hut
+3	5 miles	IsDistanceFrom	Pizza Hut
+4	Webster Garage	HasAddress	880 Ames Ct
+4	Webster Garage	HasType	parking garage
+4	880 Ames Ct	IsAddressOf	Webster Garage
+4	parking garage	IsTypeOf	Webster Garage
+4	Webster Garage	HasTraffic	moderate traffic
+4	Webster Garage	HasDistance	1 miles
+4	moderate traffic	IsTrafficOf	Webster Garage
+4	1 miles	IsDistanceFrom	Webster Garage
+5	Ravenswood Shopping Center	HasAddress	434 Arastradero Rd
+5	Ravenswood Shopping Center	HasType	shopping center
+5	434 Arastradero Rd	IsAddressOf	Ravenswood Shopping Center
+5	shopping center	IsTypeOf	Ravenswood Shopping Center
+5	Ravenswood Shopping Center	HasTraffic	heavy traffic
+5	Ravenswood Shopping Center	HasDistance	4 miles
+5	heavy traffic	IsTrafficOf	Ravenswood Shopping Center
+5	4 miles	IsDistanceFrom	Ravenswood Shopping Center
+6	Round Table	HasAddress	113 Anton Ct
+6	Round Table	HasType	pizza restaurant
+6	113 Anton Ct	IsAddressOf	Round Table
+6	pizza restaurant	IsTypeOf	Round Table
+6	Round Table	HasTraffic	no traffic
+6	Round Table	HasDistance	4 miles
+6	no traffic	IsTrafficOf	Round Table
+6	4 miles	IsDistanceFrom	Round Table
+-1	today	IsEqualTo	monday

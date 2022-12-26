@@ -1,0 +1,65 @@
+0	Pizza Hut	HasAddress	704 El Camino Real
+0	Pizza Hut	HasType	pizza restaurant
+0	704 El Camino Real	IsAddressOf	Pizza Hut
+0	pizza restaurant	IsTypeOf	Pizza Hut
+0	Pizza Hut	HasTraffic	car collision nearby
+0	Pizza Hut	HasDistance	2 miles
+0	car collision nearby	IsTrafficOf	Pizza Hut
+0	2 miles	IsDistanceFrom	Pizza Hut
+1	Pizza Chicago	HasAddress	915 Arbol Dr
+1	Pizza Chicago	HasType	pizza restaurant
+1	915 Arbol Dr	IsAddressOf	Pizza Chicago
+1	pizza restaurant	IsTypeOf	Pizza Chicago
+1	Pizza Chicago	HasTraffic	no traffic
+1	Pizza Chicago	HasDistance	6 miles
+1	no traffic	IsTrafficOf	Pizza Chicago
+1	6 miles	IsDistanceFrom	Pizza Chicago
+2	Four Seasons	HasAddress	465 Arcadia Pl
+2	Four Seasons	HasType	rest stop
+2	465 Arcadia Pl	IsAddressOf	Four Seasons
+2	rest stop	IsTypeOf	Four Seasons
+2	Four Seasons	HasTraffic	car collision nearby
+2	Four Seasons	HasDistance	6 miles
+2	car collision nearby	IsTrafficOf	Four Seasons
+2	6 miles	IsDistanceFrom	Four Seasons
+3	Comfort Inn	HasAddress	753 University Ave
+3	Comfort Inn	HasType	rest stop
+3	753 University Ave	IsAddressOf	Comfort Inn
+3	rest stop	IsTypeOf	Comfort Inn
+3	Comfort Inn	HasTraffic	moderate traffic
+3	Comfort Inn	HasDistance	6 miles
+3	moderate traffic	IsTrafficOf	Comfort Inn
+3	6 miles	IsDistanceFrom	Comfort Inn
+4	toms house	HasAddress	580 Van Ness Ave
+4	toms house	HasType	friends house
+4	580 Van Ness Ave	IsAddressOf	toms house
+4	friends house	IsTypeOf	toms house
+4	toms house	HasTraffic	road block nearby
+4	toms house	HasDistance	4 miles
+4	road block nearby	IsTrafficOf	toms house
+4	4 miles	IsDistanceFrom	toms house
+5	Midtown Shopping Center	HasAddress	338 Alester Ave
+5	Midtown Shopping Center	HasType	shopping center
+5	338 Alester Ave	IsAddressOf	Midtown Shopping Center
+5	shopping center	IsTypeOf	Midtown Shopping Center
+5	Midtown Shopping Center	HasTraffic	moderate traffic
+5	Midtown Shopping Center	HasDistance	1 miles
+5	moderate traffic	IsTrafficOf	Midtown Shopping Center
+5	1 miles	IsDistanceFrom	Midtown Shopping Center
+6	Mandarin Roots	HasAddress	271 Springer Street
+6	Mandarin Roots	HasType	chinese restaurant
+6	271 Springer Street	IsAddressOf	Mandarin Roots
+6	chinese restaurant	IsTypeOf	Mandarin Roots
+6	Mandarin Roots	HasTraffic	car collision nearby
+6	Mandarin Roots	HasDistance	3 miles
+6	car collision nearby	IsTrafficOf	Mandarin Roots
+6	3 miles	IsDistanceFrom	Mandarin Roots
+7	5677 southwest 4th street	HasAddress	5677 southwest 4th street
+7	5677 southwest 4th street	HasType	certain address
+7	5677 southwest 4th street	IsAddressOf	5677 southwest 4th street
+7	certain address	IsTypeOf	5677 southwest 4th street
+7	5677 southwest 4th street	HasTraffic	no traffic
+7	5677 southwest 4th street	HasDistance	1 miles
+7	no traffic	IsTrafficOf	5677 southwest 4th street
+7	1 miles	IsDistanceFrom	5677 southwest 4th street
+-1	today	IsEqualTo	monday

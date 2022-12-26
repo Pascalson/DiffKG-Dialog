@@ -1,0 +1,65 @@
+0	Stanford Oval Parking	HasAddress	610 Amarillo Ave
+0	Stanford Oval Parking	HasType	parking garage
+0	610 Amarillo Ave	IsAddressOf	Stanford Oval Parking
+0	parking garage	IsTypeOf	Stanford Oval Parking
+0	Stanford Oval Parking	HasTraffic	heavy traffic
+0	Stanford Oval Parking	HasDistance	6 miles
+0	heavy traffic	IsTrafficOf	Stanford Oval Parking
+0	6 miles	IsDistanceFrom	Stanford Oval Parking
+1	Round Table	HasAddress	113 Anton Ct
+1	Round Table	HasType	pizza restaurant
+1	113 Anton Ct	IsAddressOf	Round Table
+1	pizza restaurant	IsTypeOf	Round Table
+1	Round Table	HasTraffic	no traffic
+1	Round Table	HasDistance	5 miles
+1	no traffic	IsTrafficOf	Round Table
+1	5 miles	IsDistanceFrom	Round Table
+2	Travelers Lodge	HasAddress	333 Arbol Dr
+2	Travelers Lodge	HasType	rest stop
+2	333 Arbol Dr	IsAddressOf	Travelers Lodge
+2	rest stop	IsTypeOf	Travelers Lodge
+2	Travelers Lodge	HasTraffic	moderate traffic
+2	Travelers Lodge	HasDistance	3 miles
+2	moderate traffic	IsTrafficOf	Travelers Lodge
+2	3 miles	IsDistanceFrom	Travelers Lodge
+3	Whole Foods	HasAddress	819 Alma St
+3	Whole Foods	HasType	grocery store
+3	819 Alma St	IsAddressOf	Whole Foods
+3	grocery store	IsTypeOf	Whole Foods
+3	Whole Foods	HasTraffic	no traffic
+3	Whole Foods	HasDistance	5 miles
+3	no traffic	IsTrafficOf	Whole Foods
+3	5 miles	IsDistanceFrom	Whole Foods
+4	Peets Coffee	HasAddress	9981 Archuleta Ave
+4	Peets Coffee	HasType	coffee or tea place
+4	9981 Archuleta Ave	IsAddressOf	Peets Coffee
+4	coffee or tea place	IsTypeOf	Peets Coffee
+4	Peets Coffee	HasTraffic	car collision nearby
+4	Peets Coffee	HasDistance	4 miles
+4	car collision nearby	IsTrafficOf	Peets Coffee
+4	4 miles	IsDistanceFrom	Peets Coffee
+5	Palo Alto Garage R	HasAddress	481 Amaranta Ave
+5	Palo Alto Garage R	HasType	parking garage
+5	481 Amaranta Ave	IsAddressOf	Palo Alto Garage R
+5	parking garage	IsTypeOf	Palo Alto Garage R
+5	Palo Alto Garage R	HasTraffic	moderate traffic
+5	Palo Alto Garage R	HasDistance	2 miles
+5	moderate traffic	IsTrafficOf	Palo Alto Garage R
+5	2 miles	IsDistanceFrom	Palo Alto Garage R
+6	Palo Alto Cafe	HasAddress	436 Alger Dr
+6	Palo Alto Cafe	HasType	coffee or tea place
+6	436 Alger Dr	IsAddressOf	Palo Alto Cafe
+6	coffee or tea place	IsTypeOf	Palo Alto Cafe
+6	Palo Alto Cafe	HasTraffic	road block nearby
+6	Palo Alto Cafe	HasDistance	5 miles
+6	road block nearby	IsTrafficOf	Palo Alto Cafe
+6	5 miles	IsDistanceFrom	Palo Alto Cafe
+7	jills house	HasAddress	347 Alta Mesa Ave
+7	jills house	HasType	friends house
+7	347 Alta Mesa Ave	IsAddressOf	jills house
+7	friends house	IsTypeOf	jills house
+7	jills house	HasTraffic	moderate traffic
+7	jills house	HasDistance	5 miles
+7	moderate traffic	IsTrafficOf	jills house
+7	5 miles	IsDistanceFrom	jills house
+-1	today	IsEqualTo	monday

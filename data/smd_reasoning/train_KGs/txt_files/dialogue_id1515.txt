@@ -1,0 +1,57 @@
+0	Starbucks	HasAddress	792 Bedoin Street
+0	Starbucks	HasType	coffee or tea place
+0	792 Bedoin Street	IsAddressOf	Starbucks
+0	coffee or tea place	IsTypeOf	Starbucks
+0	Starbucks	HasTraffic	no traffic
+0	Starbucks	HasDistance	6 miles
+0	no traffic	IsTrafficOf	Starbucks
+0	6 miles	IsDistanceFrom	Starbucks
+1	The Westin	HasAddress	329 El Camino Real
+1	The Westin	HasType	rest stop
+1	329 El Camino Real	IsAddressOf	The Westin
+1	rest stop	IsTypeOf	The Westin
+1	The Westin	HasTraffic	heavy traffic
+1	The Westin	HasDistance	2 miles
+1	heavy traffic	IsTrafficOf	The Westin
+1	2 miles	IsDistanceFrom	The Westin
+2	Chevron	HasAddress	783 Arcadia Pl
+2	Chevron	HasType	gas station
+2	783 Arcadia Pl	IsAddressOf	Chevron
+2	gas station	IsTypeOf	Chevron
+2	Chevron	HasTraffic	no traffic
+2	Chevron	HasDistance	5 miles
+2	no traffic	IsTrafficOf	Chevron
+2	5 miles	IsDistanceFrom	Chevron
+3	Palo Alto Cafe	HasAddress	436 Alger Dr
+3	Palo Alto Cafe	HasType	coffee or tea place
+3	436 Alger Dr	IsAddressOf	Palo Alto Cafe
+3	coffee or tea place	IsTypeOf	Palo Alto Cafe
+3	Palo Alto Cafe	HasTraffic	no traffic
+3	Palo Alto Cafe	HasDistance	2 miles
+3	no traffic	IsTrafficOf	Palo Alto Cafe
+3	2 miles	IsDistanceFrom	Palo Alto Cafe
+4	5677 southwest 4th street	HasAddress	5677 southwest 4th street
+4	5677 southwest 4th street	HasType	certain address
+4	5677 southwest 4th street	IsAddressOf	5677 southwest 4th street
+4	certain address	IsTypeOf	5677 southwest 4th street
+4	5677 southwest 4th street	HasTraffic	moderate traffic
+4	5677 southwest 4th street	HasDistance	4 miles
+4	moderate traffic	IsTrafficOf	5677 southwest 4th street
+4	4 miles	IsDistanceFrom	5677 southwest 4th street
+5	The Clement Hotel	HasAddress	657 Ames Ave
+5	The Clement Hotel	HasType	rest stop
+5	657 Ames Ave	IsAddressOf	The Clement Hotel
+5	rest stop	IsTypeOf	The Clement Hotel
+5	The Clement Hotel	HasTraffic	no traffic
+5	The Clement Hotel	HasDistance	6 miles
+5	no traffic	IsTrafficOf	The Clement Hotel
+5	6 miles	IsDistanceFrom	The Clement Hotel
+6	Four Seasons	HasAddress	465 Arcadia Pl
+6	Four Seasons	HasType	rest stop
+6	465 Arcadia Pl	IsAddressOf	Four Seasons
+6	rest stop	IsTypeOf	Four Seasons
+6	Four Seasons	HasTraffic	moderate traffic
+6	Four Seasons	HasDistance	1 miles
+6	moderate traffic	IsTrafficOf	Four Seasons
+6	1 miles	IsDistanceFrom	Four Seasons
+-1	today	IsEqualTo	monday

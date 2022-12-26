@@ -1,0 +1,57 @@
+0	jills house	HasAddress	347 Alta Mesa Ave
+0	jills house	HasType	friends house
+0	347 Alta Mesa Ave	IsAddressOf	jills house
+0	friends house	IsTypeOf	jills house
+0	jills house	HasTraffic	heavy traffic
+0	jills house	HasDistance	2 miles
+0	heavy traffic	IsTrafficOf	jills house
+0	2 miles	IsDistanceFrom	jills house
+1	Valero	HasAddress	200 Alester Ave
+1	Valero	HasType	gas station
+1	200 Alester Ave	IsAddressOf	Valero
+1	gas station	IsTypeOf	Valero
+1	Valero	HasTraffic	moderate traffic
+1	Valero	HasDistance	1 miles
+1	moderate traffic	IsTrafficOf	Valero
+1	1 miles	IsDistanceFrom	Valero
+2	Town and Country	HasAddress	383 University Ave
+2	Town and Country	HasType	shopping center
+2	383 University Ave	IsAddressOf	Town and Country
+2	shopping center	IsTypeOf	Town and Country
+2	Town and Country	HasTraffic	no traffic
+2	Town and Country	HasDistance	3 miles
+2	no traffic	IsTrafficOf	Town and Country
+2	3 miles	IsDistanceFrom	Town and Country
+3	Stanford Oval Parking	HasAddress	610 Amarillo Ave
+3	Stanford Oval Parking	HasType	parking garage
+3	610 Amarillo Ave	IsAddressOf	Stanford Oval Parking
+3	parking garage	IsTypeOf	Stanford Oval Parking
+3	Stanford Oval Parking	HasTraffic	heavy traffic
+3	Stanford Oval Parking	HasDistance	4 miles
+3	heavy traffic	IsTrafficOf	Stanford Oval Parking
+3	4 miles	IsDistanceFrom	Stanford Oval Parking
+4	tai pan	HasAddress	830 Almanor Ln
+4	tai pan	HasType	chinese restaurant
+4	830 Almanor Ln	IsAddressOf	tai pan
+4	chinese restaurant	IsTypeOf	tai pan
+4	tai pan	HasTraffic	heavy traffic
+4	tai pan	HasDistance	1 miles
+4	heavy traffic	IsTrafficOf	tai pan
+4	1 miles	IsDistanceFrom	tai pan
+5	Ravenswood Shopping Center	HasAddress	434 Arastradero Rd
+5	Ravenswood Shopping Center	HasType	shopping center
+5	434 Arastradero Rd	IsAddressOf	Ravenswood Shopping Center
+5	shopping center	IsTypeOf	Ravenswood Shopping Center
+5	Ravenswood Shopping Center	HasTraffic	heavy traffic
+5	Ravenswood Shopping Center	HasDistance	2 miles
+5	heavy traffic	IsTrafficOf	Ravenswood Shopping Center
+5	2 miles	IsDistanceFrom	Ravenswood Shopping Center
+6	Whole Foods	HasAddress	819 Alma St
+6	Whole Foods	HasType	grocery store
+6	819 Alma St	IsAddressOf	Whole Foods
+6	grocery store	IsTypeOf	Whole Foods
+6	Whole Foods	HasTraffic	no traffic
+6	Whole Foods	HasDistance	6 miles
+6	no traffic	IsTrafficOf	Whole Foods
+6	6 miles	IsDistanceFrom	Whole Foods
+-1	today	IsEqualTo	monday

@@ -1,0 +1,65 @@
+0	Palo Alto Cafe	HasAddress	436 Alger Dr
+0	Palo Alto Cafe	HasType	coffee or tea place
+0	436 Alger Dr	IsAddressOf	Palo Alto Cafe
+0	coffee or tea place	IsTypeOf	Palo Alto Cafe
+0	Palo Alto Cafe	HasTraffic	no traffic
+0	Palo Alto Cafe	HasDistance	4 miles
+0	no traffic	IsTrafficOf	Palo Alto Cafe
+0	4 miles	IsDistanceFrom	Palo Alto Cafe
+1	Hotel Keen	HasAddress	578 Arbol Dr
+1	Hotel Keen	HasType	rest stop
+1	578 Arbol Dr	IsAddressOf	Hotel Keen
+1	rest stop	IsTypeOf	Hotel Keen
+1	Hotel Keen	HasTraffic	car collision nearby
+1	Hotel Keen	HasDistance	2 miles
+1	car collision nearby	IsTrafficOf	Hotel Keen
+1	2 miles	IsDistanceFrom	Hotel Keen
+2	home	HasAddress	56 cadwell street
+2	home	HasType	home
+2	56 cadwell street	IsAddressOf	home
+2	home	IsTypeOf	home
+2	home	HasTraffic	moderate traffic
+2	home	HasDistance	5 miles
+2	moderate traffic	IsTrafficOf	home
+2	5 miles	IsDistanceFrom	home
+3	Topanga Mall	HasAddress	171 Oak Rd
+3	Topanga Mall	HasType	shopping center
+3	171 Oak Rd	IsAddressOf	Topanga Mall
+3	shopping center	IsTypeOf	Topanga Mall
+3	Topanga Mall	HasTraffic	road block nearby
+3	Topanga Mall	HasDistance	5 miles
+3	road block nearby	IsTrafficOf	Topanga Mall
+3	5 miles	IsDistanceFrom	Topanga Mall
+4	76	HasAddress	91 El Camino Real
+4	76	HasType	gas station
+4	91 El Camino Real	IsAddressOf	76
+4	gas station	IsTypeOf	76
+4	76	HasTraffic	no traffic
+4	76	HasDistance	1 miles
+4	no traffic	IsTrafficOf	76
+4	1 miles	IsDistanceFrom	76
+5	Palo Alto Garage R	HasAddress	481 Amaranta Ave
+5	Palo Alto Garage R	HasType	parking garage
+5	481 Amaranta Ave	IsAddressOf	Palo Alto Garage R
+5	parking garage	IsTypeOf	Palo Alto Garage R
+5	Palo Alto Garage R	HasTraffic	no traffic
+5	Palo Alto Garage R	HasDistance	6 miles
+5	no traffic	IsTrafficOf	Palo Alto Garage R
+5	6 miles	IsDistanceFrom	Palo Alto Garage R
+6	jills house	HasAddress	347 Alta Mesa Ave
+6	jills house	HasType	friends house
+6	347 Alta Mesa Ave	IsAddressOf	jills house
+6	friends house	IsTypeOf	jills house
+6	jills house	HasTraffic	heavy traffic
+6	jills house	HasDistance	3 miles
+6	heavy traffic	IsTrafficOf	jills house
+6	3 miles	IsDistanceFrom	jills house
+7	Dominos	HasAddress	776 Arastradero Rd
+7	Dominos	HasType	pizza restaurant
+7	776 Arastradero Rd	IsAddressOf	Dominos
+7	pizza restaurant	IsTypeOf	Dominos
+7	Dominos	HasTraffic	heavy traffic
+7	Dominos	HasDistance	5 miles
+7	heavy traffic	IsTrafficOf	Dominos
+7	5 miles	IsDistanceFrom	Dominos
+-1	today	IsEqualTo	monday

@@ -1,0 +1,65 @@
+0	The Westin	HasAddress	329 El Camino Real
+0	The Westin	HasType	rest stop
+0	329 El Camino Real	IsAddressOf	The Westin
+0	rest stop	IsTypeOf	The Westin
+0	The Westin	HasTraffic	moderate traffic
+0	The Westin	HasDistance	6 miles
+0	moderate traffic	IsTrafficOf	The Westin
+0	6 miles	IsDistanceFrom	The Westin
+1	jacks house	HasAddress	864 Almanor Ln
+1	jacks house	HasType	friends house
+1	864 Almanor Ln	IsAddressOf	jacks house
+1	friends house	IsTypeOf	jacks house
+1	jacks house	HasTraffic	road block nearby
+1	jacks house	HasDistance	5 miles
+1	road block nearby	IsTrafficOf	jacks house
+1	5 miles	IsDistanceFrom	jacks house
+2	Shell	HasAddress	53 University Av
+2	Shell	HasType	gas station
+2	53 University Av	IsAddressOf	Shell
+2	gas station	IsTypeOf	Shell
+2	Shell	HasTraffic	no traffic
+2	Shell	HasDistance	3 miles
+2	no traffic	IsTrafficOf	Shell
+2	3 miles	IsDistanceFrom	Shell
+3	Four Seasons	HasAddress	465 Arcadia Pl
+3	Four Seasons	HasType	rest stop
+3	465 Arcadia Pl	IsAddressOf	Four Seasons
+3	rest stop	IsTypeOf	Four Seasons
+3	Four Seasons	HasTraffic	heavy traffic
+3	Four Seasons	HasDistance	5 miles
+3	heavy traffic	IsTrafficOf	Four Seasons
+3	5 miles	IsDistanceFrom	Four Seasons
+4	Stanford Oval Parking	HasAddress	610 Amarillo Ave
+4	Stanford Oval Parking	HasType	parking garage
+4	610 Amarillo Ave	IsAddressOf	Stanford Oval Parking
+4	parking garage	IsTypeOf	Stanford Oval Parking
+4	Stanford Oval Parking	HasTraffic	car collision nearby
+4	Stanford Oval Parking	HasDistance	1 miles
+4	car collision nearby	IsTrafficOf	Stanford Oval Parking
+4	1 miles	IsDistanceFrom	Stanford Oval Parking
+5	Topanga Mall	HasAddress	171 Oak Rd
+5	Topanga Mall	HasType	shopping center
+5	171 Oak Rd	IsAddressOf	Topanga Mall
+5	shopping center	IsTypeOf	Topanga Mall
+5	Topanga Mall	HasTraffic	road block nearby
+5	Topanga Mall	HasDistance	4 miles
+5	road block nearby	IsTrafficOf	Topanga Mall
+5	4 miles	IsDistanceFrom	Topanga Mall
+6	Civic Center Garage	HasAddress	270 Altaire Walk
+6	Civic Center Garage	HasType	parking garage
+6	270 Altaire Walk	IsAddressOf	Civic Center Garage
+6	parking garage	IsTypeOf	Civic Center Garage
+6	Civic Center Garage	HasTraffic	heavy traffic
+6	Civic Center Garage	HasDistance	3 miles
+6	heavy traffic	IsTrafficOf	Civic Center Garage
+6	3 miles	IsDistanceFrom	Civic Center Garage
+7	Mandarin Roots	HasAddress	271 Springer Street
+7	Mandarin Roots	HasType	chinese restaurant
+7	271 Springer Street	IsAddressOf	Mandarin Roots
+7	chinese restaurant	IsTypeOf	Mandarin Roots
+7	Mandarin Roots	HasTraffic	road block nearby
+7	Mandarin Roots	HasDistance	5 miles
+7	road block nearby	IsTrafficOf	Mandarin Roots
+7	5 miles	IsDistanceFrom	Mandarin Roots
+-1	today	IsEqualTo	monday

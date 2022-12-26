@@ -1,0 +1,57 @@
+0	jills house	HasAddress	347 Alta Mesa Ave
+0	jills house	HasType	friends house
+0	347 Alta Mesa Ave	IsAddressOf	jills house
+0	friends house	IsTypeOf	jills house
+0	jills house	HasTraffic	no traffic
+0	jills house	HasDistance	1 miles
+0	no traffic	IsTrafficOf	jills house
+0	1 miles	IsDistanceFrom	jills house
+1	home	HasAddress	56 cadwell street
+1	home	HasType	home
+1	56 cadwell street	IsAddressOf	home
+1	home	IsTypeOf	home
+1	home	HasTraffic	no traffic
+1	home	HasDistance	3 miles
+1	no traffic	IsTrafficOf	home
+1	3 miles	IsDistanceFrom	home
+2	jacks house	HasAddress	864 Almanor Ln
+2	jacks house	HasType	friends house
+2	864 Almanor Ln	IsAddressOf	jacks house
+2	friends house	IsTypeOf	jacks house
+2	jacks house	HasTraffic	heavy traffic
+2	jacks house	HasDistance	6 miles
+2	heavy traffic	IsTrafficOf	jacks house
+2	6 miles	IsDistanceFrom	jacks house
+3	Chef Chu's	HasAddress	593 Arrowhead Way
+3	Chef Chu's	HasType	chinese restaurant
+3	593 Arrowhead Way	IsAddressOf	Chef Chu's
+3	chinese restaurant	IsTypeOf	Chef Chu's
+3	Chef Chu's	HasTraffic	moderate traffic
+3	Chef Chu's	HasDistance	1 miles
+3	moderate traffic	IsTrafficOf	Chef Chu's
+3	1 miles	IsDistanceFrom	Chef Chu's
+4	Valero	HasAddress	200 Alester Ave
+4	Valero	HasType	gas station
+4	200 Alester Ave	IsAddressOf	Valero
+4	gas station	IsTypeOf	Valero
+4	Valero	HasTraffic	heavy traffic
+4	Valero	HasDistance	5 miles
+4	heavy traffic	IsTrafficOf	Valero
+4	5 miles	IsDistanceFrom	Valero
+5	Hotel Keen	HasAddress	578 Arbol Dr
+5	Hotel Keen	HasType	rest stop
+5	578 Arbol Dr	IsAddressOf	Hotel Keen
+5	rest stop	IsTypeOf	Hotel Keen
+5	Hotel Keen	HasTraffic	heavy traffic
+5	Hotel Keen	HasDistance	3 miles
+5	heavy traffic	IsTrafficOf	Hotel Keen
+5	3 miles	IsDistanceFrom	Hotel Keen
+6	Stanford Childrens Health	HasAddress	899 Ames Ct
+6	Stanford Childrens Health	HasType	hospital
+6	899 Ames Ct	IsAddressOf	Stanford Childrens Health
+6	hospital	IsTypeOf	Stanford Childrens Health
+6	Stanford Childrens Health	HasTraffic	no traffic
+6	Stanford Childrens Health	HasDistance	1 miles
+6	no traffic	IsTrafficOf	Stanford Childrens Health
+6	1 miles	IsDistanceFrom	Stanford Childrens Health
+-1	today	IsEqualTo	monday

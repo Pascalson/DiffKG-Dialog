@@ -1,0 +1,57 @@
+0	Starbucks	HasAddress	792 Bedoin Street
+0	Starbucks	HasType	coffee or tea place
+0	792 Bedoin Street	IsAddressOf	Starbucks
+0	coffee or tea place	IsTypeOf	Starbucks
+0	Starbucks	HasTraffic	heavy traffic
+0	Starbucks	HasDistance	4 miles
+0	heavy traffic	IsTrafficOf	Starbucks
+0	4 miles	IsDistanceFrom	Starbucks
+1	Round Table	HasAddress	113 Anton Ct
+1	Round Table	HasType	pizza restaurant
+1	113 Anton Ct	IsAddressOf	Round Table
+1	pizza restaurant	IsTypeOf	Round Table
+1	Round Table	HasTraffic	heavy traffic
+1	Round Table	HasDistance	5 miles
+1	heavy traffic	IsTrafficOf	Round Table
+1	5 miles	IsDistanceFrom	Round Table
+2	5672 barringer street	HasAddress	5672 barringer street
+2	5672 barringer street	HasType	certain address
+2	5672 barringer street	IsAddressOf	5672 barringer street
+2	certain address	IsTypeOf	5672 barringer street
+2	5672 barringer street	HasTraffic	heavy traffic
+2	5672 barringer street	HasDistance	6 miles
+2	heavy traffic	IsTrafficOf	5672 barringer street
+2	6 miles	IsDistanceFrom	5672 barringer street
+3	The Westin	HasAddress	329 El Camino Real
+3	The Westin	HasType	rest stop
+3	329 El Camino Real	IsAddressOf	The Westin
+3	rest stop	IsTypeOf	The Westin
+3	The Westin	HasTraffic	heavy traffic
+3	The Westin	HasDistance	4 miles
+3	heavy traffic	IsTrafficOf	The Westin
+3	4 miles	IsDistanceFrom	The Westin
+4	home	HasAddress	56 cadwell street
+4	home	HasType	home
+4	56 cadwell street	IsAddressOf	home
+4	home	IsTypeOf	home
+4	home	HasTraffic	moderate traffic
+4	home	HasDistance	2 miles
+4	moderate traffic	IsTrafficOf	home
+4	2 miles	IsDistanceFrom	home
+5	Hotel Keen	HasAddress	578 Arbol Dr
+5	Hotel Keen	HasType	rest stop
+5	578 Arbol Dr	IsAddressOf	Hotel Keen
+5	rest stop	IsTypeOf	Hotel Keen
+5	Hotel Keen	HasTraffic	no traffic
+5	Hotel Keen	HasDistance	4 miles
+5	no traffic	IsTrafficOf	Hotel Keen
+5	4 miles	IsDistanceFrom	Hotel Keen
+6	Coupa	HasAddress	394 Van Ness Ave
+6	Coupa	HasType	coffee or tea place
+6	394 Van Ness Ave	IsAddressOf	Coupa
+6	coffee or tea place	IsTypeOf	Coupa
+6	Coupa	HasTraffic	no traffic
+6	Coupa	HasDistance	4 miles
+6	no traffic	IsTrafficOf	Coupa
+6	4 miles	IsDistanceFrom	Coupa
+-1	today	IsEqualTo	monday

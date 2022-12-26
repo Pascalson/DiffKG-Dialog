@@ -1,0 +1,11 @@
+CUDA_VISIBLE_DEVICES=1 python train.py --model_checkpoint ../pretrained_models/unifiedQA-T5/small \
+    --output_dir runs/opendialkg_DcatInitWockT5_onlyW_entspathlabel \
+    --kg_path opendialkg_data/opendialkg \
+    --train_set_path opendialkg_data/train.csv \
+    --train_set_cache opendialkg_train \
+    --valid_set_path opendialkg_data/valid.csv \
+    --valid_set_cache opendialkg_dev \
+    --n_epochs 50 \
+    --train_batch_size 32 \
+    --valid_batch_size 32 \
+    --gradient_accumulation_steps 1 \

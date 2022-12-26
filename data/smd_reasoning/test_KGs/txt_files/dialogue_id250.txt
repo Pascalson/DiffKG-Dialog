@@ -1,0 +1,57 @@
+0	Stanford Express Care	HasAddress	214 El Camino Real
+0	Stanford Express Care	HasType	hospital
+0	214 El Camino Real	IsAddressOf	Stanford Express Care
+0	hospital	IsTypeOf	Stanford Express Care
+0	Stanford Express Care	HasTraffic	no traffic
+0	Stanford Express Care	HasDistance	3 miles
+0	no traffic	IsTrafficOf	Stanford Express Care
+0	3 miles	IsDistanceFrom	Stanford Express Care
+1	home	HasAddress	5671 barringer street
+1	home	HasType	home
+1	5671 barringer street	IsAddressOf	home
+1	home	IsTypeOf	home
+1	home	HasTraffic	heavy traffic
+1	home	HasDistance	4 miles
+1	heavy traffic	IsTrafficOf	home
+1	4 miles	IsDistanceFrom	home
+2	Whole Foods	HasAddress	819 Alma St
+2	Whole Foods	HasType	grocery store
+2	819 Alma St	IsAddressOf	Whole Foods
+2	grocery store	IsTypeOf	Whole Foods
+2	Whole Foods	HasTraffic	heavy traffic
+2	Whole Foods	HasDistance	2 miles
+2	heavy traffic	IsTrafficOf	Whole Foods
+2	2 miles	IsDistanceFrom	Whole Foods
+3	P.F. Changs	HasAddress	669 El Camino Real
+3	P.F. Changs	HasType	chinese restaurant
+3	669 El Camino Real	IsAddressOf	P.F. Changs
+3	chinese restaurant	IsTypeOf	P.F. Changs
+3	P.F. Changs	HasTraffic	moderate traffic
+3	P.F. Changs	HasDistance	6 miles
+3	moderate traffic	IsTrafficOf	P.F. Changs
+3	6 miles	IsDistanceFrom	P.F. Changs
+4	Jing Jing	HasAddress	113 Arbol Dr
+4	Jing Jing	HasType	chinese restaurant
+4	113 Arbol Dr	IsAddressOf	Jing Jing
+4	chinese restaurant	IsTypeOf	Jing Jing
+4	Jing Jing	HasTraffic	heavy traffic
+4	Jing Jing	HasDistance	5 miles
+4	heavy traffic	IsTrafficOf	Jing Jing
+4	5 miles	IsDistanceFrom	Jing Jing
+5	Pizza My Heart	HasAddress	528 Anton Ct
+5	Pizza My Heart	HasType	pizza restaurant
+5	528 Anton Ct	IsAddressOf	Pizza My Heart
+5	pizza restaurant	IsTypeOf	Pizza My Heart
+5	Pizza My Heart	HasTraffic	moderate traffic
+5	Pizza My Heart	HasDistance	6 miles
+5	moderate traffic	IsTrafficOf	Pizza My Heart
+5	6 miles	IsDistanceFrom	Pizza My Heart
+6	Cafe Venetia	HasAddress	269 Alger Dr
+6	Cafe Venetia	HasType	coffee or tea place
+6	269 Alger Dr	IsAddressOf	Cafe Venetia
+6	coffee or tea place	IsTypeOf	Cafe Venetia
+6	Cafe Venetia	HasTraffic	no traffic
+6	Cafe Venetia	HasDistance	4 miles
+6	no traffic	IsTrafficOf	Cafe Venetia
+6	4 miles	IsDistanceFrom	Cafe Venetia
+-1	today	IsEqualTo	monday

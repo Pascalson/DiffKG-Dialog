@@ -1,0 +1,65 @@
+0	home	HasAddress	5671 barringer street
+0	home	HasType	home
+0	5671 barringer street	IsAddressOf	home
+0	home	IsTypeOf	home
+0	home	HasTraffic	car collision nearby
+0	home	HasDistance	5 miles
+0	car collision nearby	IsTrafficOf	home
+0	5 miles	IsDistanceFrom	home
+1	Pizza My Heart	HasAddress	528 Anton Ct
+1	Pizza My Heart	HasType	pizza restaurant
+1	528 Anton Ct	IsAddressOf	Pizza My Heart
+1	pizza restaurant	IsTypeOf	Pizza My Heart
+1	Pizza My Heart	HasTraffic	car collision nearby
+1	Pizza My Heart	HasDistance	6 miles
+1	car collision nearby	IsTrafficOf	Pizza My Heart
+1	6 miles	IsDistanceFrom	Pizza My Heart
+2	Stanford Express Care	HasAddress	214 El Camino Real
+2	Stanford Express Care	HasType	hospital
+2	214 El Camino Real	IsAddressOf	Stanford Express Care
+2	hospital	IsTypeOf	Stanford Express Care
+2	Stanford Express Care	HasTraffic	moderate traffic
+2	Stanford Express Care	HasDistance	6 miles
+2	moderate traffic	IsTrafficOf	Stanford Express Care
+2	6 miles	IsDistanceFrom	Stanford Express Care
+3	76	HasAddress	91 El Camino Real
+3	76	HasType	gas station
+3	91 El Camino Real	IsAddressOf	76
+3	gas station	IsTypeOf	76
+3	76	HasTraffic	heavy traffic
+3	76	HasDistance	4 miles
+3	heavy traffic	IsTrafficOf	76
+3	4 miles	IsDistanceFrom	76
+4	Stanford Shopping Center	HasAddress	773 Alger Dr
+4	Stanford Shopping Center	HasType	shopping center
+4	773 Alger Dr	IsAddressOf	Stanford Shopping Center
+4	shopping center	IsTypeOf	Stanford Shopping Center
+4	Stanford Shopping Center	HasTraffic	moderate traffic
+4	Stanford Shopping Center	HasDistance	7 miles
+4	moderate traffic	IsTrafficOf	Stanford Shopping Center
+4	7 miles	IsDistanceFrom	Stanford Shopping Center
+5	Papa Johns	HasAddress	110 Arastradero Rd
+5	Papa Johns	HasType	pizza restaurant
+5	110 Arastradero Rd	IsAddressOf	Papa Johns
+5	pizza restaurant	IsTypeOf	Papa Johns
+5	Papa Johns	HasTraffic	heavy traffic
+5	Papa Johns	HasDistance	2 miles
+5	heavy traffic	IsTrafficOf	Papa Johns
+5	2 miles	IsDistanceFrom	Papa Johns
+6	Palo Alto Cafe	HasAddress	436 Alger Dr
+6	Palo Alto Cafe	HasType	coffee or tea place
+6	436 Alger Dr	IsAddressOf	Palo Alto Cafe
+6	coffee or tea place	IsTypeOf	Palo Alto Cafe
+6	Palo Alto Cafe	HasTraffic	road block nearby
+6	Palo Alto Cafe	HasDistance	2 miles
+6	road block nearby	IsTrafficOf	Palo Alto Cafe
+6	2 miles	IsDistanceFrom	Palo Alto Cafe
+7	5677 southwest 4th street	HasAddress	5677 southwest 4th street
+7	5677 southwest 4th street	HasType	certain address
+7	5677 southwest 4th street	IsAddressOf	5677 southwest 4th street
+7	certain address	IsTypeOf	5677 southwest 4th street
+7	5677 southwest 4th street	HasTraffic	heavy traffic
+7	5677 southwest 4th street	HasDistance	6 miles
+7	heavy traffic	IsTrafficOf	5677 southwest 4th street
+7	6 miles	IsDistanceFrom	5677 southwest 4th street
+-1	today	IsEqualTo	monday

@@ -1,0 +1,65 @@
+0	5677 springer street	HasAddress	5677 springer street
+0	5677 springer street	HasType	certain address
+0	5677 springer street	IsAddressOf	5677 springer street
+0	certain address	IsTypeOf	5677 springer street
+0	5677 springer street	HasTraffic	moderate traffic
+0	5677 springer street	HasDistance	2 miles
+0	moderate traffic	IsTrafficOf	5677 springer street
+0	2 miles	IsDistanceFrom	5677 springer street
+1	Stanford Express Care	HasAddress	214 El Camino Real
+1	Stanford Express Care	HasType	hospital
+1	214 El Camino Real	IsAddressOf	Stanford Express Care
+1	hospital	IsTypeOf	Stanford Express Care
+1	Stanford Express Care	HasTraffic	heavy traffic
+1	Stanford Express Care	HasDistance	1 miles
+1	heavy traffic	IsTrafficOf	Stanford Express Care
+1	1 miles	IsDistanceFrom	Stanford Express Care
+2	jills house	HasAddress	347 Alta Mesa Ave
+2	jills house	HasType	friends house
+2	347 Alta Mesa Ave	IsAddressOf	jills house
+2	friends house	IsTypeOf	jills house
+2	jills house	HasTraffic	moderate traffic
+2	jills house	HasDistance	1 miles
+2	moderate traffic	IsTrafficOf	jills house
+2	1 miles	IsDistanceFrom	jills house
+3	Midtown Shopping Center	HasAddress	338 Alester Ave
+3	Midtown Shopping Center	HasType	shopping center
+3	338 Alester Ave	IsAddressOf	Midtown Shopping Center
+3	shopping center	IsTypeOf	Midtown Shopping Center
+3	Midtown Shopping Center	HasTraffic	road block nearby
+3	Midtown Shopping Center	HasDistance	5 miles
+3	road block nearby	IsTrafficOf	Midtown Shopping Center
+3	5 miles	IsDistanceFrom	Midtown Shopping Center
+4	home	HasAddress	56 cadwell street
+4	home	HasType	home
+4	56 cadwell street	IsAddressOf	home
+4	home	IsTypeOf	home
+4	home	HasTraffic	heavy traffic
+4	home	HasDistance	1 miles
+4	heavy traffic	IsTrafficOf	home
+4	1 miles	IsDistanceFrom	home
+5	Dominos	HasAddress	776 Arastradero Rd
+5	Dominos	HasType	pizza restaurant
+5	776 Arastradero Rd	IsAddressOf	Dominos
+5	pizza restaurant	IsTypeOf	Dominos
+5	Dominos	HasTraffic	heavy traffic
+5	Dominos	HasDistance	2 miles
+5	heavy traffic	IsTrafficOf	Dominos
+5	2 miles	IsDistanceFrom	Dominos
+6	Panda Express	HasAddress	842 Arrowhead Way
+6	Panda Express	HasType	chinese restaurant
+6	842 Arrowhead Way	IsAddressOf	Panda Express
+6	chinese restaurant	IsTypeOf	Panda Express
+6	Panda Express	HasTraffic	moderate traffic
+6	Panda Express	HasDistance	1 miles
+6	moderate traffic	IsTrafficOf	Panda Express
+6	1 miles	IsDistanceFrom	Panda Express
+7	Cafe Venetia	HasAddress	269 Alger Dr
+7	Cafe Venetia	HasType	coffee or tea place
+7	269 Alger Dr	IsAddressOf	Cafe Venetia
+7	coffee or tea place	IsTypeOf	Cafe Venetia
+7	Cafe Venetia	HasTraffic	car collision nearby
+7	Cafe Venetia	HasDistance	4 miles
+7	car collision nearby	IsTrafficOf	Cafe Venetia
+7	4 miles	IsDistanceFrom	Cafe Venetia
+-1	today	IsEqualTo	monday

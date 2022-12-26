@@ -1,0 +1,57 @@
+0	Chevron	HasAddress	783 Arcadia Pl
+0	Chevron	HasType	gas station
+0	783 Arcadia Pl	IsAddressOf	Chevron
+0	gas station	IsTypeOf	Chevron
+0	Chevron	HasTraffic	heavy traffic
+0	Chevron	HasDistance	5 miles
+0	heavy traffic	IsTrafficOf	Chevron
+0	5 miles	IsDistanceFrom	Chevron
+1	Dominos	HasAddress	776 Arastradero Rd
+1	Dominos	HasType	pizza restaurant
+1	776 Arastradero Rd	IsAddressOf	Dominos
+1	pizza restaurant	IsTypeOf	Dominos
+1	Dominos	HasTraffic	heavy traffic
+1	Dominos	HasDistance	4 miles
+1	heavy traffic	IsTrafficOf	Dominos
+1	4 miles	IsDistanceFrom	Dominos
+2	home	HasAddress	56 cadwell street
+2	home	HasType	home
+2	56 cadwell street	IsAddressOf	home
+2	home	IsTypeOf	home
+2	home	HasTraffic	moderate traffic
+2	home	HasDistance	5 miles
+2	moderate traffic	IsTrafficOf	home
+2	5 miles	IsDistanceFrom	home
+3	Stanford Childrens Health	HasAddress	899 Ames Ct
+3	Stanford Childrens Health	HasType	hospital
+3	899 Ames Ct	IsAddressOf	Stanford Childrens Health
+3	hospital	IsTypeOf	Stanford Childrens Health
+3	Stanford Childrens Health	HasTraffic	moderate traffic
+3	Stanford Childrens Health	HasDistance	5 miles
+3	moderate traffic	IsTrafficOf	Stanford Childrens Health
+3	5 miles	IsDistanceFrom	Stanford Childrens Health
+4	Ravenswood Shopping Center	HasAddress	434 Arastradero Rd
+4	Ravenswood Shopping Center	HasType	shopping center
+4	434 Arastradero Rd	IsAddressOf	Ravenswood Shopping Center
+4	shopping center	IsTypeOf	Ravenswood Shopping Center
+4	Ravenswood Shopping Center	HasTraffic	heavy traffic
+4	Ravenswood Shopping Center	HasDistance	5 miles
+4	heavy traffic	IsTrafficOf	Ravenswood Shopping Center
+4	5 miles	IsDistanceFrom	Ravenswood Shopping Center
+5	5672 barringer street	HasAddress	5672 barringer street
+5	5672 barringer street	HasType	certain address
+5	5672 barringer street	IsAddressOf	5672 barringer street
+5	certain address	IsTypeOf	5672 barringer street
+5	5672 barringer street	HasTraffic	heavy traffic
+5	5672 barringer street	HasDistance	6 miles
+5	heavy traffic	IsTrafficOf	5672 barringer street
+5	6 miles	IsDistanceFrom	5672 barringer street
+6	tai pan	HasAddress	830 Almanor Ln
+6	tai pan	HasType	chinese restaurant
+6	830 Almanor Ln	IsAddressOf	tai pan
+6	chinese restaurant	IsTypeOf	tai pan
+6	tai pan	HasTraffic	heavy traffic
+6	tai pan	HasDistance	2 miles
+6	heavy traffic	IsTrafficOf	tai pan
+6	2 miles	IsDistanceFrom	tai pan
+-1	today	IsEqualTo	monday

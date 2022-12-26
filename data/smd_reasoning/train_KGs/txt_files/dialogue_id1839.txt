@@ -1,0 +1,57 @@
+0	Coupa	HasAddress	394 Van Ness Ave
+0	Coupa	HasType	coffee or tea place
+0	394 Van Ness Ave	IsAddressOf	Coupa
+0	coffee or tea place	IsTypeOf	Coupa
+0	Coupa	HasTraffic	no traffic
+0	Coupa	HasDistance	2 miles
+0	no traffic	IsTrafficOf	Coupa
+0	2 miles	IsDistanceFrom	Coupa
+1	Stanford Shopping Center	HasAddress	773 Alger Dr
+1	Stanford Shopping Center	HasType	shopping center
+1	773 Alger Dr	IsAddressOf	Stanford Shopping Center
+1	shopping center	IsTypeOf	Stanford Shopping Center
+1	Stanford Shopping Center	HasTraffic	moderate traffic
+1	Stanford Shopping Center	HasDistance	1 miles
+1	moderate traffic	IsTrafficOf	Stanford Shopping Center
+1	1 miles	IsDistanceFrom	Stanford Shopping Center
+2	5672 barringer street	HasAddress	5672 barringer street
+2	5672 barringer street	HasType	certain address
+2	5672 barringer street	IsAddressOf	5672 barringer street
+2	certain address	IsTypeOf	5672 barringer street
+2	5672 barringer street	HasTraffic	heavy traffic
+2	5672 barringer street	HasDistance	6 miles
+2	heavy traffic	IsTrafficOf	5672 barringer street
+2	6 miles	IsDistanceFrom	5672 barringer street
+3	Philz	HasAddress	583 Alester Ave
+3	Philz	HasType	coffee or tea place
+3	583 Alester Ave	IsAddressOf	Philz
+3	coffee or tea place	IsTypeOf	Philz
+3	Philz	HasTraffic	heavy traffic
+3	Philz	HasDistance	5 miles
+3	heavy traffic	IsTrafficOf	Philz
+3	5 miles	IsDistanceFrom	Philz
+4	Stanford Childrens Health	HasAddress	899 Ames Ct
+4	Stanford Childrens Health	HasType	hospital
+4	899 Ames Ct	IsAddressOf	Stanford Childrens Health
+4	hospital	IsTypeOf	Stanford Childrens Health
+4	Stanford Childrens Health	HasTraffic	no traffic
+4	Stanford Childrens Health	HasDistance	6 miles
+4	no traffic	IsTrafficOf	Stanford Childrens Health
+4	6 miles	IsDistanceFrom	Stanford Childrens Health
+5	Jing Jing	HasAddress	113 Arbol Dr
+5	Jing Jing	HasType	chinese restaurant
+5	113 Arbol Dr	IsAddressOf	Jing Jing
+5	chinese restaurant	IsTypeOf	Jing Jing
+5	Jing Jing	HasTraffic	heavy traffic
+5	Jing Jing	HasDistance	6 miles
+5	heavy traffic	IsTrafficOf	Jing Jing
+5	6 miles	IsDistanceFrom	Jing Jing
+6	Webster Garage	HasAddress	880 Ames Ct
+6	Webster Garage	HasType	parking garage
+6	880 Ames Ct	IsAddressOf	Webster Garage
+6	parking garage	IsTypeOf	Webster Garage
+6	Webster Garage	HasTraffic	heavy traffic
+6	Webster Garage	HasDistance	4 miles
+6	heavy traffic	IsTrafficOf	Webster Garage
+6	4 miles	IsDistanceFrom	Webster Garage
+-1	today	IsEqualTo	monday

@@ -1,0 +1,57 @@
+0	Palo Alto Garage R	HasAddress	481 Amaranta Ave
+0	Palo Alto Garage R	HasType	parking garage
+0	481 Amaranta Ave	IsAddressOf	Palo Alto Garage R
+0	parking garage	IsTypeOf	Palo Alto Garage R
+0	Palo Alto Garage R	HasTraffic	no traffic
+0	Palo Alto Garage R	HasDistance	3 miles
+0	no traffic	IsTrafficOf	Palo Alto Garage R
+0	3 miles	IsDistanceFrom	Palo Alto Garage R
+1	The Clement Hotel	HasAddress	657 Ames Ave
+1	The Clement Hotel	HasType	rest stop
+1	657 Ames Ave	IsAddressOf	The Clement Hotel
+1	rest stop	IsTypeOf	The Clement Hotel
+1	The Clement Hotel	HasTraffic	heavy traffic
+1	The Clement Hotel	HasDistance	6 miles
+1	heavy traffic	IsTrafficOf	The Clement Hotel
+1	6 miles	IsDistanceFrom	The Clement Hotel
+2	Safeway	HasAddress	452 Arcadia Pl
+2	Safeway	HasType	grocery store
+2	452 Arcadia Pl	IsAddressOf	Safeway
+2	grocery store	IsTypeOf	Safeway
+2	Safeway	HasTraffic	no traffic
+2	Safeway	HasDistance	6 miles
+2	no traffic	IsTrafficOf	Safeway
+2	6 miles	IsDistanceFrom	Safeway
+3	home	HasAddress	56 cadwell street
+3	home	HasType	home
+3	56 cadwell street	IsAddressOf	home
+3	home	IsTypeOf	home
+3	home	HasTraffic	no traffic
+3	home	HasDistance	4 miles
+3	no traffic	IsTrafficOf	home
+3	4 miles	IsDistanceFrom	home
+4	Panda Express	HasAddress	842 Arrowhead Way
+4	Panda Express	HasType	chinese restaurant
+4	842 Arrowhead Way	IsAddressOf	Panda Express
+4	chinese restaurant	IsTypeOf	Panda Express
+4	Panda Express	HasTraffic	heavy traffic
+4	Panda Express	HasDistance	3 miles
+4	heavy traffic	IsTrafficOf	Panda Express
+4	3 miles	IsDistanceFrom	Panda Express
+5	tai pan	HasAddress	830 Almanor Ln
+5	tai pan	HasType	chinese restaurant
+5	830 Almanor Ln	IsAddressOf	tai pan
+5	chinese restaurant	IsTypeOf	tai pan
+5	tai pan	HasTraffic	no traffic
+5	tai pan	HasDistance	3 miles
+5	no traffic	IsTrafficOf	tai pan
+5	3 miles	IsDistanceFrom	tai pan
+6	Town and Country	HasAddress	383 University Ave
+6	Town and Country	HasType	shopping center
+6	383 University Ave	IsAddressOf	Town and Country
+6	shopping center	IsTypeOf	Town and Country
+6	Town and Country	HasTraffic	no traffic
+6	Town and Country	HasDistance	3 miles
+6	no traffic	IsTrafficOf	Town and Country
+6	3 miles	IsDistanceFrom	Town and Country
+-1	today	IsEqualTo	monday

@@ -1,0 +1,65 @@
+0	Chef Chu's	HasAddress	593 Arrowhead Way
+0	Chef Chu's	HasType	chinese restaurant
+0	593 Arrowhead Way	IsAddressOf	Chef Chu's
+0	chinese restaurant	IsTypeOf	Chef Chu's
+0	Chef Chu's	HasTraffic	road block nearby
+0	Chef Chu's	HasDistance	3 miles
+0	road block nearby	IsTrafficOf	Chef Chu's
+0	3 miles	IsDistanceFrom	Chef Chu's
+1	Comfort Inn	HasAddress	753 University Ave
+1	Comfort Inn	HasType	rest stop
+1	753 University Ave	IsAddressOf	Comfort Inn
+1	rest stop	IsTypeOf	Comfort Inn
+1	Comfort Inn	HasTraffic	heavy traffic
+1	Comfort Inn	HasDistance	2 miles
+1	heavy traffic	IsTrafficOf	Comfort Inn
+1	2 miles	IsDistanceFrom	Comfort Inn
+2	home	HasAddress	5671 barringer street
+2	home	HasType	home
+2	5671 barringer street	IsAddressOf	home
+2	home	IsTypeOf	home
+2	home	HasTraffic	moderate traffic
+2	home	HasDistance	3 miles
+2	moderate traffic	IsTrafficOf	home
+2	3 miles	IsDistanceFrom	home
+3	Civic Center Garage	HasAddress	270 Altaire Walk
+3	Civic Center Garage	HasType	parking garage
+3	270 Altaire Walk	IsAddressOf	Civic Center Garage
+3	parking garage	IsTypeOf	Civic Center Garage
+3	Civic Center Garage	HasTraffic	road block nearby
+3	Civic Center Garage	HasDistance	2 miles
+3	road block nearby	IsTrafficOf	Civic Center Garage
+3	2 miles	IsDistanceFrom	Civic Center Garage
+4	Trader Joes	HasAddress	408 University Ave
+4	Trader Joes	HasType	grocery store
+4	408 University Ave	IsAddressOf	Trader Joes
+4	grocery store	IsTypeOf	Trader Joes
+4	Trader Joes	HasTraffic	no traffic
+4	Trader Joes	HasDistance	1 miles
+4	no traffic	IsTrafficOf	Trader Joes
+4	1 miles	IsDistanceFrom	Trader Joes
+5	The Westin	HasAddress	329 El Camino Real
+5	The Westin	HasType	rest stop
+5	329 El Camino Real	IsAddressOf	The Westin
+5	rest stop	IsTypeOf	The Westin
+5	The Westin	HasTraffic	no traffic
+5	The Westin	HasDistance	6 miles
+5	no traffic	IsTrafficOf	The Westin
+5	6 miles	IsDistanceFrom	The Westin
+6	Four Seasons	HasAddress	465 Arcadia Pl
+6	Four Seasons	HasType	rest stop
+6	465 Arcadia Pl	IsAddressOf	Four Seasons
+6	rest stop	IsTypeOf	Four Seasons
+6	Four Seasons	HasTraffic	no traffic
+6	Four Seasons	HasDistance	4 miles
+6	no traffic	IsTrafficOf	Four Seasons
+6	4 miles	IsDistanceFrom	Four Seasons
+7	Dish Parking	HasAddress	550 Alester Ave
+7	Dish Parking	HasType	parking garage
+7	550 Alester Ave	IsAddressOf	Dish Parking
+7	parking garage	IsTypeOf	Dish Parking
+7	Dish Parking	HasTraffic	no traffic
+7	Dish Parking	HasDistance	1 miles
+7	no traffic	IsTrafficOf	Dish Parking
+7	1 miles	IsDistanceFrom	Dish Parking
+-1	today	IsEqualTo	monday

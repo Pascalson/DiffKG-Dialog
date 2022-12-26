@@ -1,0 +1,57 @@
+0	home	HasAddress	5671 barringer street
+0	home	HasType	home
+0	5671 barringer street	IsAddressOf	home
+0	home	IsTypeOf	home
+0	home	HasTraffic	heavy traffic
+0	home	HasDistance	4 miles
+0	heavy traffic	IsTrafficOf	home
+0	4 miles	IsDistanceFrom	home
+1	Teavana	HasAddress	145 Amherst St
+1	Teavana	HasType	coffee or tea place
+1	145 Amherst St	IsAddressOf	Teavana
+1	coffee or tea place	IsTypeOf	Teavana
+1	Teavana	HasTraffic	heavy traffic
+1	Teavana	HasDistance	6 miles
+1	heavy traffic	IsTrafficOf	Teavana
+1	6 miles	IsDistanceFrom	Teavana
+2	Sigona Farmers Market	HasAddress	638 Amherst St
+2	Sigona Farmers Market	HasType	grocery store
+2	638 Amherst St	IsAddressOf	Sigona Farmers Market
+2	grocery store	IsTypeOf	Sigona Farmers Market
+2	Sigona Farmers Market	HasTraffic	moderate traffic
+2	Sigona Farmers Market	HasDistance	3 miles
+2	moderate traffic	IsTrafficOf	Sigona Farmers Market
+2	3 miles	IsDistanceFrom	Sigona Farmers Market
+3	home	HasAddress	56 cadwell street
+3	home	HasType	home
+3	56 cadwell street	IsAddressOf	home
+3	home	IsTypeOf	home
+3	home	HasTraffic	no traffic
+3	home	HasDistance	3 miles
+3	no traffic	IsTrafficOf	home
+3	3 miles	IsDistanceFrom	home
+4	Stanford Oval Parking	HasAddress	610 Amarillo Ave
+4	Stanford Oval Parking	HasType	parking garage
+4	610 Amarillo Ave	IsAddressOf	Stanford Oval Parking
+4	parking garage	IsTypeOf	Stanford Oval Parking
+4	Stanford Oval Parking	HasTraffic	moderate traffic
+4	Stanford Oval Parking	HasDistance	2 miles
+4	moderate traffic	IsTrafficOf	Stanford Oval Parking
+4	2 miles	IsDistanceFrom	Stanford Oval Parking
+5	Webster Garage	HasAddress	880 Ames Ct
+5	Webster Garage	HasType	parking garage
+5	880 Ames Ct	IsAddressOf	Webster Garage
+5	parking garage	IsTypeOf	Webster Garage
+5	Webster Garage	HasTraffic	heavy traffic
+5	Webster Garage	HasDistance	6 miles
+5	heavy traffic	IsTrafficOf	Webster Garage
+5	6 miles	IsDistanceFrom	Webster Garage
+6	Whole Foods	HasAddress	819 Alma St
+6	Whole Foods	HasType	grocery store
+6	819 Alma St	IsAddressOf	Whole Foods
+6	grocery store	IsTypeOf	Whole Foods
+6	Whole Foods	HasTraffic	moderate traffic
+6	Whole Foods	HasDistance	1 miles
+6	moderate traffic	IsTrafficOf	Whole Foods
+6	1 miles	IsDistanceFrom	Whole Foods
+-1	today	IsEqualTo	monday

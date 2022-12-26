@@ -1,0 +1,65 @@
+0	Mandarin Roots	HasAddress	271 Springer Street
+0	Mandarin Roots	HasType	chinese restaurant
+0	271 Springer Street	IsAddressOf	Mandarin Roots
+0	chinese restaurant	IsTypeOf	Mandarin Roots
+0	Mandarin Roots	HasTraffic	no traffic
+0	Mandarin Roots	HasDistance	2 miles
+0	no traffic	IsTrafficOf	Mandarin Roots
+0	2 miles	IsDistanceFrom	Mandarin Roots
+1	Shell	HasAddress	53 University Av
+1	Shell	HasType	gas station
+1	53 University Av	IsAddressOf	Shell
+1	gas station	IsTypeOf	Shell
+1	Shell	HasTraffic	car collision nearby
+1	Shell	HasDistance	2 miles
+1	car collision nearby	IsTrafficOf	Shell
+1	2 miles	IsDistanceFrom	Shell
+2	Jing Jing	HasAddress	113 Arbol Dr
+2	Jing Jing	HasType	chinese restaurant
+2	113 Arbol Dr	IsAddressOf	Jing Jing
+2	chinese restaurant	IsTypeOf	Jing Jing
+2	Jing Jing	HasTraffic	road block nearby
+2	Jing Jing	HasDistance	7 miles
+2	road block nearby	IsTrafficOf	Jing Jing
+2	7 miles	IsDistanceFrom	Jing Jing
+3	Travelers Lodge	HasAddress	333 Arbol Dr
+3	Travelers Lodge	HasType	rest stop
+3	333 Arbol Dr	IsAddressOf	Travelers Lodge
+3	rest stop	IsTypeOf	Travelers Lodge
+3	Travelers Lodge	HasTraffic	no traffic
+3	Travelers Lodge	HasDistance	6 miles
+3	no traffic	IsTrafficOf	Travelers Lodge
+3	6 miles	IsDistanceFrom	Travelers Lodge
+4	Safeway	HasAddress	452 Arcadia Pl
+4	Safeway	HasType	grocery store
+4	452 Arcadia Pl	IsAddressOf	Safeway
+4	grocery store	IsTypeOf	Safeway
+4	Safeway	HasTraffic	road block nearby
+4	Safeway	HasDistance	1 miles
+4	road block nearby	IsTrafficOf	Safeway
+4	1 miles	IsDistanceFrom	Safeway
+5	Palo Alto Medical Foundation	HasAddress	611 Ames Ave
+5	Palo Alto Medical Foundation	HasType	hospital
+5	611 Ames Ave	IsAddressOf	Palo Alto Medical Foundation
+5	hospital	IsTypeOf	Palo Alto Medical Foundation
+5	Palo Alto Medical Foundation	HasTraffic	road block nearby
+5	Palo Alto Medical Foundation	HasDistance	5 miles
+5	road block nearby	IsTrafficOf	Palo Alto Medical Foundation
+5	5 miles	IsDistanceFrom	Palo Alto Medical Foundation
+6	76	HasAddress	91 El Camino Real
+6	76	HasType	gas station
+6	91 El Camino Real	IsAddressOf	76
+6	gas station	IsTypeOf	76
+6	76	HasTraffic	moderate traffic
+6	76	HasDistance	5 miles
+6	moderate traffic	IsTrafficOf	76
+6	5 miles	IsDistanceFrom	76
+7	The Clement Hotel	HasAddress	657 Ames Ave
+7	The Clement Hotel	HasType	rest stop
+7	657 Ames Ave	IsAddressOf	The Clement Hotel
+7	rest stop	IsTypeOf	The Clement Hotel
+7	The Clement Hotel	HasTraffic	moderate traffic
+7	The Clement Hotel	HasDistance	6 miles
+7	moderate traffic	IsTrafficOf	The Clement Hotel
+7	6 miles	IsDistanceFrom	The Clement Hotel
+-1	today	IsEqualTo	monday

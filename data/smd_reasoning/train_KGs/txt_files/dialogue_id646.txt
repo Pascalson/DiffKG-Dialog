@@ -1,0 +1,65 @@
+0	home	HasAddress	56 cadwell street
+0	home	HasType	home
+0	56 cadwell street	IsAddressOf	home
+0	home	IsTypeOf	home
+0	home	HasTraffic	moderate traffic
+0	home	HasDistance	3 miles
+0	moderate traffic	IsTrafficOf	home
+0	3 miles	IsDistanceFrom	home
+1	Safeway	HasAddress	452 Arcadia Pl
+1	Safeway	HasType	grocery store
+1	452 Arcadia Pl	IsAddressOf	Safeway
+1	grocery store	IsTypeOf	Safeway
+1	Safeway	HasTraffic	car collision nearby
+1	Safeway	HasDistance	5 miles
+1	car collision nearby	IsTrafficOf	Safeway
+1	5 miles	IsDistanceFrom	Safeway
+2	Midtown Shopping Center	HasAddress	338 Alester Ave
+2	Midtown Shopping Center	HasType	shopping center
+2	338 Alester Ave	IsAddressOf	Midtown Shopping Center
+2	shopping center	IsTypeOf	Midtown Shopping Center
+2	Midtown Shopping Center	HasTraffic	heavy traffic
+2	Midtown Shopping Center	HasDistance	6 miles
+2	heavy traffic	IsTrafficOf	Midtown Shopping Center
+2	6 miles	IsDistanceFrom	Midtown Shopping Center
+3	Topanga Mall	HasAddress	171 Oak Rd
+3	Topanga Mall	HasType	shopping center
+3	171 Oak Rd	IsAddressOf	Topanga Mall
+3	shopping center	IsTypeOf	Topanga Mall
+3	Topanga Mall	HasTraffic	heavy traffic
+3	Topanga Mall	HasDistance	4 miles
+3	heavy traffic	IsTrafficOf	Topanga Mall
+3	4 miles	IsDistanceFrom	Topanga Mall
+4	Chevron	HasAddress	783 Arcadia Pl
+4	Chevron	HasType	gas station
+4	783 Arcadia Pl	IsAddressOf	Chevron
+4	gas station	IsTypeOf	Chevron
+4	Chevron	HasTraffic	car collision nearby
+4	Chevron	HasDistance	3 miles
+4	car collision nearby	IsTrafficOf	Chevron
+4	3 miles	IsDistanceFrom	Chevron
+5	The Clement Hotel	HasAddress	657 Ames Ave
+5	The Clement Hotel	HasType	rest stop
+5	657 Ames Ave	IsAddressOf	The Clement Hotel
+5	rest stop	IsTypeOf	The Clement Hotel
+5	The Clement Hotel	HasTraffic	moderate traffic
+5	The Clement Hotel	HasDistance	2 miles
+5	moderate traffic	IsTrafficOf	The Clement Hotel
+5	2 miles	IsDistanceFrom	The Clement Hotel
+6	P.F. Changs	HasAddress	669 El Camino Real
+6	P.F. Changs	HasType	chinese restaurant
+6	669 El Camino Real	IsAddressOf	P.F. Changs
+6	chinese restaurant	IsTypeOf	P.F. Changs
+6	P.F. Changs	HasTraffic	car collision nearby
+6	P.F. Changs	HasDistance	3 miles
+6	car collision nearby	IsTrafficOf	P.F. Changs
+6	3 miles	IsDistanceFrom	P.F. Changs
+7	jacks house	HasAddress	864 Almanor Ln
+7	jacks house	HasType	friends house
+7	864 Almanor Ln	IsAddressOf	jacks house
+7	friends house	IsTypeOf	jacks house
+7	jacks house	HasTraffic	moderate traffic
+7	jacks house	HasDistance	8 miles
+7	moderate traffic	IsTrafficOf	jacks house
+7	8 miles	IsDistanceFrom	jacks house
+-1	today	IsEqualTo	monday

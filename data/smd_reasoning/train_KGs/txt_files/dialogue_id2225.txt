@@ -1,0 +1,57 @@
+0	Pizza Chicago	HasAddress	915 Arbol Dr
+0	Pizza Chicago	HasType	pizza restaurant
+0	915 Arbol Dr	IsAddressOf	Pizza Chicago
+0	pizza restaurant	IsTypeOf	Pizza Chicago
+0	Pizza Chicago	HasTraffic	heavy traffic
+0	Pizza Chicago	HasDistance	5 miles
+0	heavy traffic	IsTrafficOf	Pizza Chicago
+0	5 miles	IsDistanceFrom	Pizza Chicago
+1	Civic Center Garage	HasAddress	270 Altaire Walk
+1	Civic Center Garage	HasType	parking garage
+1	270 Altaire Walk	IsAddressOf	Civic Center Garage
+1	parking garage	IsTypeOf	Civic Center Garage
+1	Civic Center Garage	HasTraffic	heavy traffic
+1	Civic Center Garage	HasDistance	3 miles
+1	heavy traffic	IsTrafficOf	Civic Center Garage
+1	3 miles	IsDistanceFrom	Civic Center Garage
+2	Town and Country	HasAddress	383 University Ave
+2	Town and Country	HasType	shopping center
+2	383 University Ave	IsAddressOf	Town and Country
+2	shopping center	IsTypeOf	Town and Country
+2	Town and Country	HasTraffic	no traffic
+2	Town and Country	HasDistance	1 miles
+2	no traffic	IsTrafficOf	Town and Country
+2	1 miles	IsDistanceFrom	Town and Country
+3	Cafe Venetia	HasAddress	269 Alger Dr
+3	Cafe Venetia	HasType	coffee or tea place
+3	269 Alger Dr	IsAddressOf	Cafe Venetia
+3	coffee or tea place	IsTypeOf	Cafe Venetia
+3	Cafe Venetia	HasTraffic	heavy traffic
+3	Cafe Venetia	HasDistance	2 miles
+3	heavy traffic	IsTrafficOf	Cafe Venetia
+3	2 miles	IsDistanceFrom	Cafe Venetia
+4	Whole Foods	HasAddress	819 Alma St
+4	Whole Foods	HasType	grocery store
+4	819 Alma St	IsAddressOf	Whole Foods
+4	grocery store	IsTypeOf	Whole Foods
+4	Whole Foods	HasTraffic	moderate traffic
+4	Whole Foods	HasDistance	2 miles
+4	moderate traffic	IsTrafficOf	Whole Foods
+4	2 miles	IsDistanceFrom	Whole Foods
+5	Mandarin Roots	HasAddress	271 Springer Street
+5	Mandarin Roots	HasType	chinese restaurant
+5	271 Springer Street	IsAddressOf	Mandarin Roots
+5	chinese restaurant	IsTypeOf	Mandarin Roots
+5	Mandarin Roots	HasTraffic	no traffic
+5	Mandarin Roots	HasDistance	2 miles
+5	no traffic	IsTrafficOf	Mandarin Roots
+5	2 miles	IsDistanceFrom	Mandarin Roots
+6	The Clement Hotel	HasAddress	657 Ames Ave
+6	The Clement Hotel	HasType	rest stop
+6	657 Ames Ave	IsAddressOf	The Clement Hotel
+6	rest stop	IsTypeOf	The Clement Hotel
+6	The Clement Hotel	HasTraffic	moderate traffic
+6	The Clement Hotel	HasDistance	1 miles
+6	moderate traffic	IsTrafficOf	The Clement Hotel
+6	1 miles	IsDistanceFrom	The Clement Hotel
+-1	today	IsEqualTo	monday

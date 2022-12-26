@@ -1,0 +1,57 @@
+0	home	HasAddress	5671 barringer street
+0	home	HasType	home
+0	5671 barringer street	IsAddressOf	home
+0	home	IsTypeOf	home
+0	home	HasTraffic	no traffic
+0	home	HasDistance	4 miles
+0	no traffic	IsTrafficOf	home
+0	4 miles	IsDistanceFrom	home
+1	Midtown Shopping Center	HasAddress	338 Alester Ave
+1	Midtown Shopping Center	HasType	shopping center
+1	338 Alester Ave	IsAddressOf	Midtown Shopping Center
+1	shopping center	IsTypeOf	Midtown Shopping Center
+1	Midtown Shopping Center	HasTraffic	no traffic
+1	Midtown Shopping Center	HasDistance	2 miles
+1	no traffic	IsTrafficOf	Midtown Shopping Center
+1	2 miles	IsDistanceFrom	Midtown Shopping Center
+2	Stanford Shopping Center	HasAddress	773 Alger Dr
+2	Stanford Shopping Center	HasType	shopping center
+2	773 Alger Dr	IsAddressOf	Stanford Shopping Center
+2	shopping center	IsTypeOf	Stanford Shopping Center
+2	Stanford Shopping Center	HasTraffic	moderate traffic
+2	Stanford Shopping Center	HasDistance	6 miles
+2	moderate traffic	IsTrafficOf	Stanford Shopping Center
+2	6 miles	IsDistanceFrom	Stanford Shopping Center
+3	Dish Parking	HasAddress	550 Alester Ave
+3	Dish Parking	HasType	parking garage
+3	550 Alester Ave	IsAddressOf	Dish Parking
+3	parking garage	IsTypeOf	Dish Parking
+3	Dish Parking	HasTraffic	no traffic
+3	Dish Parking	HasDistance	3 miles
+3	no traffic	IsTrafficOf	Dish Parking
+3	3 miles	IsDistanceFrom	Dish Parking
+4	Pizza Hut	HasAddress	704 El Camino Real
+4	Pizza Hut	HasType	pizza restaurant
+4	704 El Camino Real	IsAddressOf	Pizza Hut
+4	pizza restaurant	IsTypeOf	Pizza Hut
+4	Pizza Hut	HasTraffic	moderate traffic
+4	Pizza Hut	HasDistance	3 miles
+4	moderate traffic	IsTrafficOf	Pizza Hut
+4	3 miles	IsDistanceFrom	Pizza Hut
+5	Stanford Express Care	HasAddress	214 El Camino Real
+5	Stanford Express Care	HasType	hospital
+5	214 El Camino Real	IsAddressOf	Stanford Express Care
+5	hospital	IsTypeOf	Stanford Express Care
+5	Stanford Express Care	HasTraffic	moderate traffic
+5	Stanford Express Care	HasDistance	4 miles
+5	moderate traffic	IsTrafficOf	Stanford Express Care
+5	4 miles	IsDistanceFrom	Stanford Express Care
+6	Town and Country	HasAddress	383 University Ave
+6	Town and Country	HasType	shopping center
+6	383 University Ave	IsAddressOf	Town and Country
+6	shopping center	IsTypeOf	Town and Country
+6	Town and Country	HasTraffic	moderate traffic
+6	Town and Country	HasDistance	5 miles
+6	moderate traffic	IsTrafficOf	Town and Country
+6	5 miles	IsDistanceFrom	Town and Country
+-1	today	IsEqualTo	monday

@@ -1,0 +1,65 @@
+0	Palo Alto Garage R	HasAddress	481 Amaranta Ave
+0	Palo Alto Garage R	HasType	parking garage
+0	481 Amaranta Ave	IsAddressOf	Palo Alto Garage R
+0	parking garage	IsTypeOf	Palo Alto Garage R
+0	Palo Alto Garage R	HasTraffic	car collision nearby
+0	Palo Alto Garage R	HasDistance	1 miles
+0	car collision nearby	IsTrafficOf	Palo Alto Garage R
+0	1 miles	IsDistanceFrom	Palo Alto Garage R
+1	Valero	HasAddress	200 Alester Ave
+1	Valero	HasType	gas station
+1	200 Alester Ave	IsAddressOf	Valero
+1	gas station	IsTypeOf	Valero
+1	Valero	HasTraffic	heavy traffic
+1	Valero	HasDistance	4 miles
+1	heavy traffic	IsTrafficOf	Valero
+1	4 miles	IsDistanceFrom	Valero
+2	home	HasAddress	5671 barringer street
+2	home	HasType	home
+2	5671 barringer street	IsAddressOf	home
+2	home	IsTypeOf	home
+2	home	HasTraffic	no traffic
+2	home	HasDistance	5 miles
+2	no traffic	IsTrafficOf	home
+2	5 miles	IsDistanceFrom	home
+3	Stanford Oval Parking	HasAddress	610 Amarillo Ave
+3	Stanford Oval Parking	HasType	parking garage
+3	610 Amarillo Ave	IsAddressOf	Stanford Oval Parking
+3	parking garage	IsTypeOf	Stanford Oval Parking
+3	Stanford Oval Parking	HasTraffic	car collision nearby
+3	Stanford Oval Parking	HasDistance	4 miles
+3	car collision nearby	IsTrafficOf	Stanford Oval Parking
+3	4 miles	IsDistanceFrom	Stanford Oval Parking
+4	Palo Alto Cafe	HasAddress	436 Alger Dr
+4	Palo Alto Cafe	HasType	coffee or tea place
+4	436 Alger Dr	IsAddressOf	Palo Alto Cafe
+4	coffee or tea place	IsTypeOf	Palo Alto Cafe
+4	Palo Alto Cafe	HasTraffic	no traffic
+4	Palo Alto Cafe	HasDistance	3 miles
+4	no traffic	IsTrafficOf	Palo Alto Cafe
+4	3 miles	IsDistanceFrom	Palo Alto Cafe
+5	Philz	HasAddress	583 Alester Ave
+5	Philz	HasType	coffee or tea place
+5	583 Alester Ave	IsAddressOf	Philz
+5	coffee or tea place	IsTypeOf	Philz
+5	Philz	HasTraffic	no traffic
+5	Philz	HasDistance	3 miles
+5	no traffic	IsTrafficOf	Philz
+5	3 miles	IsDistanceFrom	Philz
+6	Four Seasons	HasAddress	465 Arcadia Pl
+6	Four Seasons	HasType	rest stop
+6	465 Arcadia Pl	IsAddressOf	Four Seasons
+6	rest stop	IsTypeOf	Four Seasons
+6	Four Seasons	HasTraffic	heavy traffic
+6	Four Seasons	HasDistance	1 miles
+6	heavy traffic	IsTrafficOf	Four Seasons
+6	1 miles	IsDistanceFrom	Four Seasons
+7	Topanga Mall	HasAddress	171 Oak Rd
+7	Topanga Mall	HasType	shopping center
+7	171 Oak Rd	IsAddressOf	Topanga Mall
+7	shopping center	IsTypeOf	Topanga Mall
+7	Topanga Mall	HasTraffic	road block nearby
+7	Topanga Mall	HasDistance	2 miles
+7	road block nearby	IsTrafficOf	Topanga Mall
+7	2 miles	IsDistanceFrom	Topanga Mall
+-1	today	IsEqualTo	monday

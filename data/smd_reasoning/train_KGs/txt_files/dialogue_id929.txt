@@ -1,0 +1,57 @@
+0	meeting	HasTime	3pm
+0	3pm	IsTimeOf	meeting
+0	meeting	HasDate	the 18th
+0	the 18th	IsDateOf	meeting
+0	meeting	HasParty	executive team
+0	executive team	IsPartyOf	meeting
+0	meeting	HasRoom	conference room 100
+0	conference room 100	IsRoomOf	meeting
+0	meeting	HasAgenda	go over budget
+0	go over budget	IsAgendaOf	meeting
+1	lab appointment	HasTime	5pm
+1	5pm	IsTimeOf	lab appointment
+1	lab appointment	HasDate	the 4th
+1	the 4th	IsDateOf	lab appointment
+1	lab appointment	HasParty	sister
+1	sister	IsPartyOf	lab appointment
+2	yoga activity	HasTime	9am
+2	9am	IsTimeOf	yoga activity
+2	yoga activity	HasDate	thursday
+2	thursday	IsDateOf	yoga activity
+2	yoga activity	HasParty	sister
+2	sister	IsPartyOf	yoga activity
+3	meeting	HasTime	10am
+3	10am	IsTimeOf	meeting
+3	meeting	HasDate	the 14th
+3	the 14th	IsDateOf	meeting
+3	meeting	HasParty	HR
+3	HR	IsPartyOf	meeting
+3	meeting	HasRoom	conference room 102
+3	conference room 102	IsRoomOf	meeting
+3	meeting	HasAgenda	discuss the company picnic
+3	discuss the company picnic	IsAgendaOf	meeting
+4	dentist appointment	HasTime	6pm
+4	6pm	IsTimeOf	dentist appointment
+4	dentist appointment	HasDate	the 18th
+4	the 18th	IsDateOf	dentist appointment
+4	dentist appointment	HasParty	Tom
+4	Tom	IsPartyOf	dentist appointment
+5	dentist appointment	HasTime	10am
+5	10am	IsTimeOf	dentist appointment
+5	dentist appointment	HasDate	saturday
+5	saturday	IsDateOf	dentist appointment
+5	dentist appointment	HasParty	Martha
+5	Martha	IsPartyOf	dentist appointment
+6	football activity	HasTime	3pm
+6	3pm	IsTimeOf	football activity
+6	football activity	HasDate	monday
+6	monday	IsDateOf	football activity
+6	football activity	HasParty	sister
+6	sister	IsPartyOf	football activity
+7	dinner	HasTime	7pm
+7	7pm	IsTimeOf	dinner
+7	dinner	HasDate	the 6th
+7	the 6th	IsDateOf	dinner
+7	dinner	HasParty	Martha
+7	Martha	IsPartyOf	dinner
+-1	today	IsEqualTo	monday

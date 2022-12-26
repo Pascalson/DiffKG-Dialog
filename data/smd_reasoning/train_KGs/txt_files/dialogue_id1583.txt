@@ -1,0 +1,57 @@
+0	Stanford Shopping Center	HasAddress	773 Alger Dr
+0	Stanford Shopping Center	HasType	shopping center
+0	773 Alger Dr	IsAddressOf	Stanford Shopping Center
+0	shopping center	IsTypeOf	Stanford Shopping Center
+0	Stanford Shopping Center	HasTraffic	moderate traffic
+0	Stanford Shopping Center	HasDistance	2 miles
+0	moderate traffic	IsTrafficOf	Stanford Shopping Center
+0	2 miles	IsDistanceFrom	Stanford Shopping Center
+1	Palo Alto Garage R	HasAddress	481 Amaranta Ave
+1	Palo Alto Garage R	HasType	parking garage
+1	481 Amaranta Ave	IsAddressOf	Palo Alto Garage R
+1	parking garage	IsTypeOf	Palo Alto Garage R
+1	Palo Alto Garage R	HasTraffic	moderate traffic
+1	Palo Alto Garage R	HasDistance	2 miles
+1	moderate traffic	IsTrafficOf	Palo Alto Garage R
+1	2 miles	IsDistanceFrom	Palo Alto Garage R
+2	Trader Joes	HasAddress	408 University Ave
+2	Trader Joes	HasType	grocery store
+2	408 University Ave	IsAddressOf	Trader Joes
+2	grocery store	IsTypeOf	Trader Joes
+2	Trader Joes	HasTraffic	no traffic
+2	Trader Joes	HasDistance	5 miles
+2	no traffic	IsTrafficOf	Trader Joes
+2	5 miles	IsDistanceFrom	Trader Joes
+3	Civic Center Garage	HasAddress	270 Altaire Walk
+3	Civic Center Garage	HasType	parking garage
+3	270 Altaire Walk	IsAddressOf	Civic Center Garage
+3	parking garage	IsTypeOf	Civic Center Garage
+3	Civic Center Garage	HasTraffic	no traffic
+3	Civic Center Garage	HasDistance	4 miles
+3	no traffic	IsTrafficOf	Civic Center Garage
+3	4 miles	IsDistanceFrom	Civic Center Garage
+4	Valero	HasAddress	200 Alester Ave
+4	Valero	HasType	gas station
+4	200 Alester Ave	IsAddressOf	Valero
+4	gas station	IsTypeOf	Valero
+4	Valero	HasTraffic	no traffic
+4	Valero	HasDistance	2 miles
+4	no traffic	IsTrafficOf	Valero
+4	2 miles	IsDistanceFrom	Valero
+5	Cafe Venetia	HasAddress	269 Alger Dr
+5	Cafe Venetia	HasType	coffee or tea place
+5	269 Alger Dr	IsAddressOf	Cafe Venetia
+5	coffee or tea place	IsTypeOf	Cafe Venetia
+5	Cafe Venetia	HasTraffic	no traffic
+5	Cafe Venetia	HasDistance	4 miles
+5	no traffic	IsTrafficOf	Cafe Venetia
+5	4 miles	IsDistanceFrom	Cafe Venetia
+6	Chef Chu's	HasAddress	593 Arrowhead Way
+6	Chef Chu's	HasType	chinese restaurant
+6	593 Arrowhead Way	IsAddressOf	Chef Chu's
+6	chinese restaurant	IsTypeOf	Chef Chu's
+6	Chef Chu's	HasTraffic	heavy traffic
+6	Chef Chu's	HasDistance	5 miles
+6	heavy traffic	IsTrafficOf	Chef Chu's
+6	5 miles	IsDistanceFrom	Chef Chu's
+-1	today	IsEqualTo	monday

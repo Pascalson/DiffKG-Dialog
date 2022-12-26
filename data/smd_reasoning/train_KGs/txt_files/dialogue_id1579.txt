@@ -1,0 +1,57 @@
+0	P.F. Changs	HasAddress	669 El Camino Real
+0	P.F. Changs	HasType	chinese restaurant
+0	669 El Camino Real	IsAddressOf	P.F. Changs
+0	chinese restaurant	IsTypeOf	P.F. Changs
+0	P.F. Changs	HasTraffic	no traffic
+0	P.F. Changs	HasDistance	5 miles
+0	no traffic	IsTrafficOf	P.F. Changs
+0	5 miles	IsDistanceFrom	P.F. Changs
+1	Safeway	HasAddress	452 Arcadia Pl
+1	Safeway	HasType	grocery store
+1	452 Arcadia Pl	IsAddressOf	Safeway
+1	grocery store	IsTypeOf	Safeway
+1	Safeway	HasTraffic	heavy traffic
+1	Safeway	HasDistance	6 miles
+1	heavy traffic	IsTrafficOf	Safeway
+1	6 miles	IsDistanceFrom	Safeway
+2	Town and Country	HasAddress	383 University Ave
+2	Town and Country	HasType	shopping center
+2	383 University Ave	IsAddressOf	Town and Country
+2	shopping center	IsTypeOf	Town and Country
+2	Town and Country	HasTraffic	heavy traffic
+2	Town and Country	HasDistance	1 miles
+2	heavy traffic	IsTrafficOf	Town and Country
+2	1 miles	IsDistanceFrom	Town and Country
+3	Palo Alto Garage R	HasAddress	481 Amaranta Ave
+3	Palo Alto Garage R	HasType	parking garage
+3	481 Amaranta Ave	IsAddressOf	Palo Alto Garage R
+3	parking garage	IsTypeOf	Palo Alto Garage R
+3	Palo Alto Garage R	HasTraffic	moderate traffic
+3	Palo Alto Garage R	HasDistance	5 miles
+3	moderate traffic	IsTrafficOf	Palo Alto Garage R
+3	5 miles	IsDistanceFrom	Palo Alto Garage R
+4	Trader Joes	HasAddress	408 University Ave
+4	Trader Joes	HasType	grocery store
+4	408 University Ave	IsAddressOf	Trader Joes
+4	grocery store	IsTypeOf	Trader Joes
+4	Trader Joes	HasTraffic	heavy traffic
+4	Trader Joes	HasDistance	3 miles
+4	heavy traffic	IsTrafficOf	Trader Joes
+4	3 miles	IsDistanceFrom	Trader Joes
+5	Whole Foods	HasAddress	819 Alma St
+5	Whole Foods	HasType	grocery store
+5	819 Alma St	IsAddressOf	Whole Foods
+5	grocery store	IsTypeOf	Whole Foods
+5	Whole Foods	HasTraffic	no traffic
+5	Whole Foods	HasDistance	6 miles
+5	no traffic	IsTrafficOf	Whole Foods
+5	6 miles	IsDistanceFrom	Whole Foods
+6	Starbucks	HasAddress	792 Bedoin Street
+6	Starbucks	HasType	coffee or tea place
+6	792 Bedoin Street	IsAddressOf	Starbucks
+6	coffee or tea place	IsTypeOf	Starbucks
+6	Starbucks	HasTraffic	heavy traffic
+6	Starbucks	HasDistance	1 miles
+6	heavy traffic	IsTrafficOf	Starbucks
+6	1 miles	IsDistanceFrom	Starbucks
+-1	today	IsEqualTo	monday

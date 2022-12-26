@@ -1,0 +1,61 @@
+0	tennis activity	HasTime	11am
+0	11am	IsTimeOf	tennis activity
+0	tennis activity	HasDate	the 10th
+0	the 10th	IsDateOf	tennis activity
+0	tennis activity	HasParty	brother
+0	brother	IsPartyOf	tennis activity
+1	conference	HasTime	5pm
+1	5pm	IsTimeOf	conference
+1	conference	HasDate	the 10th
+1	the 10th	IsDateOf	conference
+1	conference	HasParty	executive team
+1	executive team	IsPartyOf	conference
+1	conference	HasRoom	conference room 50
+1	conference room 50	IsRoomOf	conference
+1	conference	HasAgenda	discuss dress code
+1	discuss dress code	IsAgendaOf	conference
+2	dinner	HasTime	7pm
+2	7pm	IsTimeOf	dinner
+2	dinner	HasDate	thursday
+2	thursday	IsDateOf	dinner
+2	dinner	HasParty	Ana
+2	Ana	IsPartyOf	dinner
+3	lab appointment	HasTime	9am
+3	9am	IsTimeOf	lab appointment
+3	lab appointment	HasDate	thursday
+3	thursday	IsDateOf	lab appointment
+3	lab appointment	HasParty	Martha
+3	Martha	IsPartyOf	lab appointment
+4	conference	HasTime	7pm
+4	7pm	IsTimeOf	conference
+4	conference	HasDate	tuesday
+4	tuesday	IsDateOf	conference
+4	conference	HasParty	management
+4	management	IsPartyOf	conference
+4	conference	HasRoom	conference room 102
+4	conference room 102	IsRoomOf	conference
+4	conference	HasAgenda	go over budget
+4	go over budget	IsAgendaOf	conference
+5	dinner	HasTime	6pm
+5	6pm	IsTimeOf	dinner
+5	dinner	HasDate	monday
+5	monday	IsDateOf	dinner
+5	dinner	HasParty	aunt
+5	aunt	IsPartyOf	dinner
+6	taking medicine	HasTime	2pm
+6	2pm	IsTimeOf	taking medicine
+6	taking medicine	HasDate	thursday
+6	thursday	IsDateOf	taking medicine
+6	taking medicine	HasParty	father
+6	father	IsPartyOf	taking medicine
+7	conference	HasTime	6pm
+7	6pm	IsTimeOf	conference
+7	conference	HasDate	the 10th
+7	the 10th	IsDateOf	conference
+7	conference	HasParty	sales team
+7	sales team	IsPartyOf	conference
+7	conference	HasRoom	conference room 100
+7	conference room 100	IsRoomOf	conference
+7	conference	HasAgenda	discuss dress code
+7	discuss dress code	IsAgendaOf	conference
+-1	today	IsEqualTo	monday

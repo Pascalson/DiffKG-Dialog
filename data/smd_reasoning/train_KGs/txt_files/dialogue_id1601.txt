@@ -1,0 +1,65 @@
+0	Trader Joes	HasAddress	408 University Ave
+0	Trader Joes	HasType	grocery store
+0	408 University Ave	IsAddressOf	Trader Joes
+0	grocery store	IsTypeOf	Trader Joes
+0	Trader Joes	HasTraffic	heavy traffic
+0	Trader Joes	HasDistance	2 miles
+0	heavy traffic	IsTrafficOf	Trader Joes
+0	2 miles	IsDistanceFrom	Trader Joes
+1	76	HasAddress	91 El Camino Real
+1	76	HasType	gas station
+1	91 El Camino Real	IsAddressOf	76
+1	gas station	IsTypeOf	76
+1	76	HasTraffic	moderate traffic
+1	76	HasDistance	4 miles
+1	moderate traffic	IsTrafficOf	76
+1	4 miles	IsDistanceFrom	76
+2	Panda Express	HasAddress	842 Arrowhead Way
+2	Panda Express	HasType	chinese restaurant
+2	842 Arrowhead Way	IsAddressOf	Panda Express
+2	chinese restaurant	IsTypeOf	Panda Express
+2	Panda Express	HasTraffic	no traffic
+2	Panda Express	HasDistance	1 miles
+2	no traffic	IsTrafficOf	Panda Express
+2	1 miles	IsDistanceFrom	Panda Express
+3	home	HasAddress	56 cadwell street
+3	home	HasType	home
+3	56 cadwell street	IsAddressOf	home
+3	home	IsTypeOf	home
+3	home	HasTraffic	heavy traffic
+3	home	HasDistance	2 miles
+3	heavy traffic	IsTrafficOf	home
+3	2 miles	IsDistanceFrom	home
+4	5677 southwest 4th street	HasAddress	5677 southwest 4th street
+4	5677 southwest 4th street	HasType	certain address
+4	5677 southwest 4th street	IsAddressOf	5677 southwest 4th street
+4	certain address	IsTypeOf	5677 southwest 4th street
+4	5677 southwest 4th street	HasTraffic	heavy traffic
+4	5677 southwest 4th street	HasDistance	6 miles
+4	heavy traffic	IsTrafficOf	5677 southwest 4th street
+4	6 miles	IsDistanceFrom	5677 southwest 4th street
+5	The Westin	HasAddress	329 El Camino Real
+5	The Westin	HasType	rest stop
+5	329 El Camino Real	IsAddressOf	The Westin
+5	rest stop	IsTypeOf	The Westin
+5	The Westin	HasTraffic	no traffic
+5	The Westin	HasDistance	6 miles
+5	no traffic	IsTrafficOf	The Westin
+5	6 miles	IsDistanceFrom	The Westin
+6	Chevron	HasAddress	783 Arcadia Pl
+6	Chevron	HasType	gas station
+6	783 Arcadia Pl	IsAddressOf	Chevron
+6	gas station	IsTypeOf	Chevron
+6	Chevron	HasTraffic	heavy traffic
+6	Chevron	HasDistance	2 miles
+6	heavy traffic	IsTrafficOf	Chevron
+6	2 miles	IsDistanceFrom	Chevron
+7	Travelers Lodge	HasAddress	333 Arbol Dr
+7	Travelers Lodge	HasType	rest stop
+7	333 Arbol Dr	IsAddressOf	Travelers Lodge
+7	rest stop	IsTypeOf	Travelers Lodge
+7	Travelers Lodge	HasTraffic	road block nearby
+7	Travelers Lodge	HasDistance	5 miles
+7	road block nearby	IsTrafficOf	Travelers Lodge
+7	5 miles	IsDistanceFrom	Travelers Lodge
+-1	today	IsEqualTo	monday

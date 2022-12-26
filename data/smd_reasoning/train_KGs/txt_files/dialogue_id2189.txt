@@ -1,0 +1,57 @@
+0	Cafe Venetia	HasAddress	269 Alger Dr
+0	Cafe Venetia	HasType	coffee or tea place
+0	269 Alger Dr	IsAddressOf	Cafe Venetia
+0	coffee or tea place	IsTypeOf	Cafe Venetia
+0	Cafe Venetia	HasTraffic	no traffic
+0	Cafe Venetia	HasDistance	4 miles
+0	no traffic	IsTrafficOf	Cafe Venetia
+0	4 miles	IsDistanceFrom	Cafe Venetia
+1	toms house	HasAddress	580 Van Ness Ave
+1	toms house	HasType	friends house
+1	580 Van Ness Ave	IsAddressOf	toms house
+1	friends house	IsTypeOf	toms house
+1	toms house	HasTraffic	no traffic
+1	toms house	HasDistance	1 miles
+1	no traffic	IsTrafficOf	toms house
+1	1 miles	IsDistanceFrom	toms house
+2	5677 southwest 4th street	HasAddress	5677 southwest 4th street
+2	5677 southwest 4th street	HasType	certain address
+2	5677 southwest 4th street	IsAddressOf	5677 southwest 4th street
+2	certain address	IsTypeOf	5677 southwest 4th street
+2	5677 southwest 4th street	HasTraffic	moderate traffic
+2	5677 southwest 4th street	HasDistance	5 miles
+2	moderate traffic	IsTrafficOf	5677 southwest 4th street
+2	5 miles	IsDistanceFrom	5677 southwest 4th street
+3	Palo Alto Medical Foundation	HasAddress	611 Ames Ave
+3	Palo Alto Medical Foundation	HasType	hospital
+3	611 Ames Ave	IsAddressOf	Palo Alto Medical Foundation
+3	hospital	IsTypeOf	Palo Alto Medical Foundation
+3	Palo Alto Medical Foundation	HasTraffic	no traffic
+3	Palo Alto Medical Foundation	HasDistance	5 miles
+3	no traffic	IsTrafficOf	Palo Alto Medical Foundation
+3	5 miles	IsDistanceFrom	Palo Alto Medical Foundation
+4	Four Seasons	HasAddress	465 Arcadia Pl
+4	Four Seasons	HasType	rest stop
+4	465 Arcadia Pl	IsAddressOf	Four Seasons
+4	rest stop	IsTypeOf	Four Seasons
+4	Four Seasons	HasTraffic	heavy traffic
+4	Four Seasons	HasDistance	3 miles
+4	heavy traffic	IsTrafficOf	Four Seasons
+4	3 miles	IsDistanceFrom	Four Seasons
+5	Whole Foods	HasAddress	819 Alma St
+5	Whole Foods	HasType	grocery store
+5	819 Alma St	IsAddressOf	Whole Foods
+5	grocery store	IsTypeOf	Whole Foods
+5	Whole Foods	HasTraffic	heavy traffic
+5	Whole Foods	HasDistance	2 miles
+5	heavy traffic	IsTrafficOf	Whole Foods
+5	2 miles	IsDistanceFrom	Whole Foods
+6	Mandarin Roots	HasAddress	271 Springer Street
+6	Mandarin Roots	HasType	chinese restaurant
+6	271 Springer Street	IsAddressOf	Mandarin Roots
+6	chinese restaurant	IsTypeOf	Mandarin Roots
+6	Mandarin Roots	HasTraffic	moderate traffic
+6	Mandarin Roots	HasDistance	4 miles
+6	moderate traffic	IsTrafficOf	Mandarin Roots
+6	4 miles	IsDistanceFrom	Mandarin Roots
+-1	today	IsEqualTo	monday

@@ -1,0 +1,57 @@
+0	Whole Foods	HasAddress	819 Alma St
+0	Whole Foods	HasType	grocery store
+0	819 Alma St	IsAddressOf	Whole Foods
+0	grocery store	IsTypeOf	Whole Foods
+0	Whole Foods	HasTraffic	heavy traffic
+0	Whole Foods	HasDistance	2 miles
+0	heavy traffic	IsTrafficOf	Whole Foods
+0	2 miles	IsDistanceFrom	Whole Foods
+1	Coupa	HasAddress	394 Van Ness Ave
+1	Coupa	HasType	coffee or tea place
+1	394 Van Ness Ave	IsAddressOf	Coupa
+1	coffee or tea place	IsTypeOf	Coupa
+1	Coupa	HasTraffic	moderate traffic
+1	Coupa	HasDistance	6 miles
+1	moderate traffic	IsTrafficOf	Coupa
+1	6 miles	IsDistanceFrom	Coupa
+2	Chevron	HasAddress	783 Arcadia Pl
+2	Chevron	HasType	gas station
+2	783 Arcadia Pl	IsAddressOf	Chevron
+2	gas station	IsTypeOf	Chevron
+2	Chevron	HasTraffic	moderate traffic
+2	Chevron	HasDistance	3 miles
+2	moderate traffic	IsTrafficOf	Chevron
+2	3 miles	IsDistanceFrom	Chevron
+3	Midtown Shopping Center	HasAddress	338 Alester Ave
+3	Midtown Shopping Center	HasType	shopping center
+3	338 Alester Ave	IsAddressOf	Midtown Shopping Center
+3	shopping center	IsTypeOf	Midtown Shopping Center
+3	Midtown Shopping Center	HasTraffic	no traffic
+3	Midtown Shopping Center	HasDistance	3 miles
+3	no traffic	IsTrafficOf	Midtown Shopping Center
+3	3 miles	IsDistanceFrom	Midtown Shopping Center
+4	home	HasAddress	5671 barringer street
+4	home	HasType	home
+4	5671 barringer street	IsAddressOf	home
+4	home	IsTypeOf	home
+4	home	HasTraffic	heavy traffic
+4	home	HasDistance	5 miles
+4	heavy traffic	IsTrafficOf	home
+4	5 miles	IsDistanceFrom	home
+5	home	HasAddress	56 cadwell street
+5	home	HasType	home
+5	56 cadwell street	IsAddressOf	home
+5	home	IsTypeOf	home
+5	home	HasTraffic	heavy traffic
+5	home	HasDistance	4 miles
+5	heavy traffic	IsTrafficOf	home
+5	4 miles	IsDistanceFrom	home
+6	The Clement Hotel	HasAddress	657 Ames Ave
+6	The Clement Hotel	HasType	rest stop
+6	657 Ames Ave	IsAddressOf	The Clement Hotel
+6	rest stop	IsTypeOf	The Clement Hotel
+6	The Clement Hotel	HasTraffic	no traffic
+6	The Clement Hotel	HasDistance	5 miles
+6	no traffic	IsTrafficOf	The Clement Hotel
+6	5 miles	IsDistanceFrom	The Clement Hotel
+-1	today	IsEqualTo	monday

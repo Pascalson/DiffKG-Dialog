@@ -1,0 +1,57 @@
+0	Valero	HasAddress	200 Alester Ave
+0	Valero	HasType	gas station
+0	200 Alester Ave	IsAddressOf	Valero
+0	gas station	IsTypeOf	Valero
+0	Valero	HasTraffic	no traffic
+0	Valero	HasDistance	2 miles
+0	no traffic	IsTrafficOf	Valero
+0	2 miles	IsDistanceFrom	Valero
+1	Chef Chu's	HasAddress	593 Arrowhead Way
+1	Chef Chu's	HasType	chinese restaurant
+1	593 Arrowhead Way	IsAddressOf	Chef Chu's
+1	chinese restaurant	IsTypeOf	Chef Chu's
+1	Chef Chu's	HasTraffic	heavy traffic
+1	Chef Chu's	HasDistance	5 miles
+1	heavy traffic	IsTrafficOf	Chef Chu's
+1	5 miles	IsDistanceFrom	Chef Chu's
+2	5677 southwest 4th street	HasAddress	5677 southwest 4th street
+2	5677 southwest 4th street	HasType	certain address
+2	5677 southwest 4th street	IsAddressOf	5677 southwest 4th street
+2	certain address	IsTypeOf	5677 southwest 4th street
+2	5677 southwest 4th street	HasTraffic	moderate traffic
+2	5677 southwest 4th street	HasDistance	5 miles
+2	moderate traffic	IsTrafficOf	5677 southwest 4th street
+2	5 miles	IsDistanceFrom	5677 southwest 4th street
+3	jills house	HasAddress	347 Alta Mesa Ave
+3	jills house	HasType	friends house
+3	347 Alta Mesa Ave	IsAddressOf	jills house
+3	friends house	IsTypeOf	jills house
+3	jills house	HasTraffic	heavy traffic
+3	jills house	HasDistance	4 miles
+3	heavy traffic	IsTrafficOf	jills house
+3	4 miles	IsDistanceFrom	jills house
+4	Town and Country	HasAddress	383 University Ave
+4	Town and Country	HasType	shopping center
+4	383 University Ave	IsAddressOf	Town and Country
+4	shopping center	IsTypeOf	Town and Country
+4	Town and Country	HasTraffic	heavy traffic
+4	Town and Country	HasDistance	4 miles
+4	heavy traffic	IsTrafficOf	Town and Country
+4	4 miles	IsDistanceFrom	Town and Country
+5	Pizza Chicago	HasAddress	915 Arbol Dr
+5	Pizza Chicago	HasType	pizza restaurant
+5	915 Arbol Dr	IsAddressOf	Pizza Chicago
+5	pizza restaurant	IsTypeOf	Pizza Chicago
+5	Pizza Chicago	HasTraffic	heavy traffic
+5	Pizza Chicago	HasDistance	6 miles
+5	heavy traffic	IsTrafficOf	Pizza Chicago
+5	6 miles	IsDistanceFrom	Pizza Chicago
+6	Panda Express	HasAddress	842 Arrowhead Way
+6	Panda Express	HasType	chinese restaurant
+6	842 Arrowhead Way	IsAddressOf	Panda Express
+6	chinese restaurant	IsTypeOf	Panda Express
+6	Panda Express	HasTraffic	moderate traffic
+6	Panda Express	HasDistance	1 miles
+6	moderate traffic	IsTrafficOf	Panda Express
+6	1 miles	IsDistanceFrom	Panda Express
+-1	today	IsEqualTo	monday

@@ -1,0 +1,65 @@
+0	jills house	HasAddress	347 Alta Mesa Ave
+0	jills house	HasType	friends house
+0	347 Alta Mesa Ave	IsAddressOf	jills house
+0	friends house	IsTypeOf	jills house
+0	jills house	HasTraffic	heavy traffic
+0	jills house	HasDistance	2 miles
+0	heavy traffic	IsTrafficOf	jills house
+0	2 miles	IsDistanceFrom	jills house
+1	jacks house	HasAddress	864 Almanor Ln
+1	jacks house	HasType	friends house
+1	864 Almanor Ln	IsAddressOf	jacks house
+1	friends house	IsTypeOf	jacks house
+1	jacks house	HasTraffic	road block nearby
+1	jacks house	HasDistance	1 miles
+1	road block nearby	IsTrafficOf	jacks house
+1	1 miles	IsDistanceFrom	jacks house
+2	Ravenswood Shopping Center	HasAddress	434 Arastradero Rd
+2	Ravenswood Shopping Center	HasType	shopping center
+2	434 Arastradero Rd	IsAddressOf	Ravenswood Shopping Center
+2	shopping center	IsTypeOf	Ravenswood Shopping Center
+2	Ravenswood Shopping Center	HasTraffic	no traffic
+2	Ravenswood Shopping Center	HasDistance	5 miles
+2	no traffic	IsTrafficOf	Ravenswood Shopping Center
+2	5 miles	IsDistanceFrom	Ravenswood Shopping Center
+3	Valero	HasAddress	200 Alester Ave
+3	Valero	HasType	gas station
+3	200 Alester Ave	IsAddressOf	Valero
+3	gas station	IsTypeOf	Valero
+3	Valero	HasTraffic	road block nearby
+3	Valero	HasDistance	6 miles
+3	road block nearby	IsTrafficOf	Valero
+3	6 miles	IsDistanceFrom	Valero
+4	Willows Market	HasAddress	409 Bollard St
+4	Willows Market	HasType	grocery store
+4	409 Bollard St	IsAddressOf	Willows Market
+4	grocery store	IsTypeOf	Willows Market
+4	Willows Market	HasTraffic	road block nearby
+4	Willows Market	HasDistance	5 miles
+4	road block nearby	IsTrafficOf	Willows Market
+4	5 miles	IsDistanceFrom	Willows Market
+5	Dominos	HasAddress	776 Arastradero Rd
+5	Dominos	HasType	pizza restaurant
+5	776 Arastradero Rd	IsAddressOf	Dominos
+5	pizza restaurant	IsTypeOf	Dominos
+5	Dominos	HasTraffic	road block nearby
+5	Dominos	HasDistance	2 miles
+5	road block nearby	IsTrafficOf	Dominos
+5	2 miles	IsDistanceFrom	Dominos
+6	Trader Joes	HasAddress	408 University Ave
+6	Trader Joes	HasType	grocery store
+6	408 University Ave	IsAddressOf	Trader Joes
+6	grocery store	IsTypeOf	Trader Joes
+6	Trader Joes	HasTraffic	heavy traffic
+6	Trader Joes	HasDistance	6 miles
+6	heavy traffic	IsTrafficOf	Trader Joes
+6	6 miles	IsDistanceFrom	Trader Joes
+7	76	HasAddress	91 El Camino Real
+7	76	HasType	gas station
+7	91 El Camino Real	IsAddressOf	76
+7	gas station	IsTypeOf	76
+7	76	HasTraffic	car collision nearby
+7	76	HasDistance	1 miles
+7	car collision nearby	IsTrafficOf	76
+7	1 miles	IsDistanceFrom	76
+-1	today	IsEqualTo	monday

@@ -1,0 +1,65 @@
+0	P.F. Changs	HasAddress	669 El Camino Real
+0	P.F. Changs	HasType	chinese restaurant
+0	669 El Camino Real	IsAddressOf	P.F. Changs
+0	chinese restaurant	IsTypeOf	P.F. Changs
+0	P.F. Changs	HasTraffic	car collision nearby
+0	P.F. Changs	HasDistance	4 miles
+0	car collision nearby	IsTrafficOf	P.F. Changs
+0	4 miles	IsDistanceFrom	P.F. Changs
+1	Comfort Inn	HasAddress	753 University Ave
+1	Comfort Inn	HasType	rest stop
+1	753 University Ave	IsAddressOf	Comfort Inn
+1	rest stop	IsTypeOf	Comfort Inn
+1	Comfort Inn	HasTraffic	heavy traffic
+1	Comfort Inn	HasDistance	3 miles
+1	heavy traffic	IsTrafficOf	Comfort Inn
+1	3 miles	IsDistanceFrom	Comfort Inn
+2	5677 southwest 4th street	HasAddress	5677 southwest 4th street
+2	5677 southwest 4th street	HasType	certain address
+2	5677 southwest 4th street	IsAddressOf	5677 southwest 4th street
+2	certain address	IsTypeOf	5677 southwest 4th street
+2	5677 southwest 4th street	HasTraffic	no traffic
+2	5677 southwest 4th street	HasDistance	6 miles
+2	no traffic	IsTrafficOf	5677 southwest 4th street
+2	6 miles	IsDistanceFrom	5677 southwest 4th street
+3	Papa Johns	HasAddress	110 Arastradero Rd
+3	Papa Johns	HasType	pizza restaurant
+3	110 Arastradero Rd	IsAddressOf	Papa Johns
+3	pizza restaurant	IsTypeOf	Papa Johns
+3	Papa Johns	HasTraffic	heavy traffic
+3	Papa Johns	HasDistance	6 miles
+3	heavy traffic	IsTrafficOf	Papa Johns
+3	6 miles	IsDistanceFrom	Papa Johns
+4	Topanga Mall	HasAddress	171 Oak Rd
+4	Topanga Mall	HasType	shopping center
+4	171 Oak Rd	IsAddressOf	Topanga Mall
+4	shopping center	IsTypeOf	Topanga Mall
+4	Topanga Mall	HasTraffic	car collision nearby
+4	Topanga Mall	HasDistance	4 miles
+4	car collision nearby	IsTrafficOf	Topanga Mall
+4	4 miles	IsDistanceFrom	Topanga Mall
+5	Hacienda Market	HasAddress	1313 Chester Ave
+5	Hacienda Market	HasType	grocery store
+5	1313 Chester Ave	IsAddressOf	Hacienda Market
+5	grocery store	IsTypeOf	Hacienda Market
+5	Hacienda Market	HasTraffic	moderate traffic
+5	Hacienda Market	HasDistance	1 miles
+5	moderate traffic	IsTrafficOf	Hacienda Market
+5	1 miles	IsDistanceFrom	Hacienda Market
+6	Ravenswood Shopping Center	HasAddress	434 Arastradero Rd
+6	Ravenswood Shopping Center	HasType	shopping center
+6	434 Arastradero Rd	IsAddressOf	Ravenswood Shopping Center
+6	shopping center	IsTypeOf	Ravenswood Shopping Center
+6	Ravenswood Shopping Center	HasTraffic	road block nearby
+6	Ravenswood Shopping Center	HasDistance	6 miles
+6	road block nearby	IsTrafficOf	Ravenswood Shopping Center
+6	6 miles	IsDistanceFrom	Ravenswood Shopping Center
+7	Stanford Shopping Center	HasAddress	773 Alger Dr
+7	Stanford Shopping Center	HasType	shopping center
+7	773 Alger Dr	IsAddressOf	Stanford Shopping Center
+7	shopping center	IsTypeOf	Stanford Shopping Center
+7	Stanford Shopping Center	HasTraffic	moderate traffic
+7	Stanford Shopping Center	HasDistance	1 miles
+7	moderate traffic	IsTrafficOf	Stanford Shopping Center
+7	1 miles	IsDistanceFrom	Stanford Shopping Center
+-1	today	IsEqualTo	monday

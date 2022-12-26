@@ -1,0 +1,65 @@
+0	Trader Joes	HasAddress	408 University Ave
+0	Trader Joes	HasType	grocery store
+0	408 University Ave	IsAddressOf	Trader Joes
+0	grocery store	IsTypeOf	Trader Joes
+0	Trader Joes	HasTraffic	no traffic
+0	Trader Joes	HasDistance	6 miles
+0	no traffic	IsTrafficOf	Trader Joes
+0	6 miles	IsDistanceFrom	Trader Joes
+1	Safeway	HasAddress	452 Arcadia Pl
+1	Safeway	HasType	grocery store
+1	452 Arcadia Pl	IsAddressOf	Safeway
+1	grocery store	IsTypeOf	Safeway
+1	Safeway	HasTraffic	no traffic
+1	Safeway	HasDistance	6 miles
+1	no traffic	IsTrafficOf	Safeway
+1	6 miles	IsDistanceFrom	Safeway
+2	home	HasAddress	56 cadwell street
+2	home	HasType	home
+2	56 cadwell street	IsAddressOf	home
+2	home	IsTypeOf	home
+2	home	HasTraffic	moderate traffic
+2	home	HasDistance	4 miles
+2	moderate traffic	IsTrafficOf	home
+2	4 miles	IsDistanceFrom	home
+3	Town and Country	HasAddress	383 University Ave
+3	Town and Country	HasType	shopping center
+3	383 University Ave	IsAddressOf	Town and Country
+3	shopping center	IsTypeOf	Town and Country
+3	Town and Country	HasTraffic	car collision nearby
+3	Town and Country	HasDistance	8 miles
+3	car collision nearby	IsTrafficOf	Town and Country
+3	8 miles	IsDistanceFrom	Town and Country
+4	Webster Garage	HasAddress	880 Ames Ct
+4	Webster Garage	HasType	parking garage
+4	880 Ames Ct	IsAddressOf	Webster Garage
+4	parking garage	IsTypeOf	Webster Garage
+4	Webster Garage	HasTraffic	road block nearby
+4	Webster Garage	HasDistance	4 miles
+4	road block nearby	IsTrafficOf	Webster Garage
+4	4 miles	IsDistanceFrom	Webster Garage
+5	Chevron	HasAddress	783 Arcadia Pl
+5	Chevron	HasType	gas station
+5	783 Arcadia Pl	IsAddressOf	Chevron
+5	gas station	IsTypeOf	Chevron
+5	Chevron	HasTraffic	heavy traffic
+5	Chevron	HasDistance	5 miles
+5	heavy traffic	IsTrafficOf	Chevron
+5	5 miles	IsDistanceFrom	Chevron
+6	Pizza Chicago	HasAddress	915 Arbol Dr
+6	Pizza Chicago	HasType	pizza restaurant
+6	915 Arbol Dr	IsAddressOf	Pizza Chicago
+6	pizza restaurant	IsTypeOf	Pizza Chicago
+6	Pizza Chicago	HasTraffic	road block nearby
+6	Pizza Chicago	HasDistance	4 miles
+6	road block nearby	IsTrafficOf	Pizza Chicago
+6	4 miles	IsDistanceFrom	Pizza Chicago
+7	Shell	HasAddress	53 University Av
+7	Shell	HasType	gas station
+7	53 University Av	IsAddressOf	Shell
+7	gas station	IsTypeOf	Shell
+7	Shell	HasTraffic	moderate traffic
+7	Shell	HasDistance	3 miles
+7	moderate traffic	IsTrafficOf	Shell
+7	3 miles	IsDistanceFrom	Shell
+-1	today	IsEqualTo	monday

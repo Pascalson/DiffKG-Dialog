@@ -1,0 +1,57 @@
+0	Teavana	HasAddress	145 Amherst St
+0	Teavana	HasType	coffee or tea place
+0	145 Amherst St	IsAddressOf	Teavana
+0	coffee or tea place	IsTypeOf	Teavana
+0	Teavana	HasTraffic	heavy traffic
+0	Teavana	HasDistance	5 miles
+0	heavy traffic	IsTrafficOf	Teavana
+0	5 miles	IsDistanceFrom	Teavana
+1	Starbucks	HasAddress	792 Bedoin Street
+1	Starbucks	HasType	coffee or tea place
+1	792 Bedoin Street	IsAddressOf	Starbucks
+1	coffee or tea place	IsTypeOf	Starbucks
+1	Starbucks	HasTraffic	heavy traffic
+1	Starbucks	HasDistance	3 miles
+1	heavy traffic	IsTrafficOf	Starbucks
+1	3 miles	IsDistanceFrom	Starbucks
+2	Jing Jing	HasAddress	113 Arbol Dr
+2	Jing Jing	HasType	chinese restaurant
+2	113 Arbol Dr	IsAddressOf	Jing Jing
+2	chinese restaurant	IsTypeOf	Jing Jing
+2	Jing Jing	HasTraffic	moderate traffic
+2	Jing Jing	HasDistance	3 miles
+2	moderate traffic	IsTrafficOf	Jing Jing
+2	3 miles	IsDistanceFrom	Jing Jing
+3	Panda Express	HasAddress	842 Arrowhead Way
+3	Panda Express	HasType	chinese restaurant
+3	842 Arrowhead Way	IsAddressOf	Panda Express
+3	chinese restaurant	IsTypeOf	Panda Express
+3	Panda Express	HasTraffic	no traffic
+3	Panda Express	HasDistance	4 miles
+3	no traffic	IsTrafficOf	Panda Express
+3	4 miles	IsDistanceFrom	Panda Express
+4	home	HasAddress	5671 barringer street
+4	home	HasType	home
+4	5671 barringer street	IsAddressOf	home
+4	home	IsTypeOf	home
+4	home	HasTraffic	moderate traffic
+4	home	HasDistance	3 miles
+4	moderate traffic	IsTrafficOf	home
+4	3 miles	IsDistanceFrom	home
+5	jills house	HasAddress	347 Alta Mesa Ave
+5	jills house	HasType	friends house
+5	347 Alta Mesa Ave	IsAddressOf	jills house
+5	friends house	IsTypeOf	jills house
+5	jills house	HasTraffic	no traffic
+5	jills house	HasDistance	1 miles
+5	no traffic	IsTrafficOf	jills house
+5	1 miles	IsDistanceFrom	jills house
+6	Ravenswood Shopping Center	HasAddress	434 Arastradero Rd
+6	Ravenswood Shopping Center	HasType	shopping center
+6	434 Arastradero Rd	IsAddressOf	Ravenswood Shopping Center
+6	shopping center	IsTypeOf	Ravenswood Shopping Center
+6	Ravenswood Shopping Center	HasTraffic	no traffic
+6	Ravenswood Shopping Center	HasDistance	1 miles
+6	no traffic	IsTrafficOf	Ravenswood Shopping Center
+6	1 miles	IsDistanceFrom	Ravenswood Shopping Center
+-1	today	IsEqualTo	monday

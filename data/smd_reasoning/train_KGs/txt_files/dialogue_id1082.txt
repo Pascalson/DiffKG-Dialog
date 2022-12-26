@@ -1,0 +1,57 @@
+0	Palo Alto Garage R	HasAddress	481 Amaranta Ave
+0	Palo Alto Garage R	HasType	parking garage
+0	481 Amaranta Ave	IsAddressOf	Palo Alto Garage R
+0	parking garage	IsTypeOf	Palo Alto Garage R
+0	Palo Alto Garage R	HasTraffic	moderate traffic
+0	Palo Alto Garage R	HasDistance	2 miles
+0	moderate traffic	IsTrafficOf	Palo Alto Garage R
+0	2 miles	IsDistanceFrom	Palo Alto Garage R
+1	The Westin	HasAddress	329 El Camino Real
+1	The Westin	HasType	rest stop
+1	329 El Camino Real	IsAddressOf	The Westin
+1	rest stop	IsTypeOf	The Westin
+1	The Westin	HasTraffic	heavy traffic
+1	The Westin	HasDistance	1 miles
+1	heavy traffic	IsTrafficOf	The Westin
+1	1 miles	IsDistanceFrom	The Westin
+2	Valero	HasAddress	200 Alester Ave
+2	Valero	HasType	gas station
+2	200 Alester Ave	IsAddressOf	Valero
+2	gas station	IsTypeOf	Valero
+2	Valero	HasTraffic	moderate traffic
+2	Valero	HasDistance	3 miles
+2	moderate traffic	IsTrafficOf	Valero
+2	3 miles	IsDistanceFrom	Valero
+3	Webster Garage	HasAddress	880 Ames Ct
+3	Webster Garage	HasType	parking garage
+3	880 Ames Ct	IsAddressOf	Webster Garage
+3	parking garage	IsTypeOf	Webster Garage
+3	Webster Garage	HasTraffic	heavy traffic
+3	Webster Garage	HasDistance	4 miles
+3	heavy traffic	IsTrafficOf	Webster Garage
+3	4 miles	IsDistanceFrom	Webster Garage
+4	Coupa	HasAddress	394 Van Ness Ave
+4	Coupa	HasType	coffee or tea place
+4	394 Van Ness Ave	IsAddressOf	Coupa
+4	coffee or tea place	IsTypeOf	Coupa
+4	Coupa	HasTraffic	moderate traffic
+4	Coupa	HasDistance	6 miles
+4	moderate traffic	IsTrafficOf	Coupa
+4	6 miles	IsDistanceFrom	Coupa
+5	Stanford Shopping Center	HasAddress	773 Alger Dr
+5	Stanford Shopping Center	HasType	shopping center
+5	773 Alger Dr	IsAddressOf	Stanford Shopping Center
+5	shopping center	IsTypeOf	Stanford Shopping Center
+5	Stanford Shopping Center	HasTraffic	heavy traffic
+5	Stanford Shopping Center	HasDistance	3 miles
+5	heavy traffic	IsTrafficOf	Stanford Shopping Center
+5	3 miles	IsDistanceFrom	Stanford Shopping Center
+6	home	HasAddress	10 ames street
+6	home	HasType	home
+6	10 ames street	IsAddressOf	home
+6	home	IsTypeOf	home
+6	home	HasTraffic	moderate traffic
+6	home	HasDistance	5 miles
+6	moderate traffic	IsTrafficOf	home
+6	5 miles	IsDistanceFrom	home
+-1	today	IsEqualTo	monday

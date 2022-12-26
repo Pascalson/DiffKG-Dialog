@@ -1,0 +1,65 @@
+0	Round Table	HasAddress	113 Anton Ct
+0	Round Table	HasType	pizza restaurant
+0	113 Anton Ct	IsAddressOf	Round Table
+0	pizza restaurant	IsTypeOf	Round Table
+0	Round Table	HasTraffic	no traffic
+0	Round Table	HasDistance	5 miles
+0	no traffic	IsTrafficOf	Round Table
+0	5 miles	IsDistanceFrom	Round Table
+1	Panda Express	HasAddress	842 Arrowhead Way
+1	Panda Express	HasType	chinese restaurant
+1	842 Arrowhead Way	IsAddressOf	Panda Express
+1	chinese restaurant	IsTypeOf	Panda Express
+1	Panda Express	HasTraffic	no traffic
+1	Panda Express	HasDistance	4 miles
+1	no traffic	IsTrafficOf	Panda Express
+1	4 miles	IsDistanceFrom	Panda Express
+2	jacks house	HasAddress	864 Almanor Ln
+2	jacks house	HasType	friends house
+2	864 Almanor Ln	IsAddressOf	jacks house
+2	friends house	IsTypeOf	jacks house
+2	jacks house	HasTraffic	road block nearby
+2	jacks house	HasDistance	4 miles
+2	road block nearby	IsTrafficOf	jacks house
+2	4 miles	IsDistanceFrom	jacks house
+3	Mandarin Roots	HasAddress	271 Springer Street
+3	Mandarin Roots	HasType	chinese restaurant
+3	271 Springer Street	IsAddressOf	Mandarin Roots
+3	chinese restaurant	IsTypeOf	Mandarin Roots
+3	Mandarin Roots	HasTraffic	road block nearby
+3	Mandarin Roots	HasDistance	6 miles
+3	road block nearby	IsTrafficOf	Mandarin Roots
+3	6 miles	IsDistanceFrom	Mandarin Roots
+4	Peets Coffee	HasAddress	9981 Archuleta Ave
+4	Peets Coffee	HasType	coffee or tea place
+4	9981 Archuleta Ave	IsAddressOf	Peets Coffee
+4	coffee or tea place	IsTypeOf	Peets Coffee
+4	Peets Coffee	HasTraffic	car collision nearby
+4	Peets Coffee	HasDistance	4 miles
+4	car collision nearby	IsTrafficOf	Peets Coffee
+4	4 miles	IsDistanceFrom	Peets Coffee
+5	Shell	HasAddress	53 University Av
+5	Shell	HasType	gas station
+5	53 University Av	IsAddressOf	Shell
+5	gas station	IsTypeOf	Shell
+5	Shell	HasTraffic	moderate traffic
+5	Shell	HasDistance	4 miles
+5	moderate traffic	IsTrafficOf	Shell
+5	4 miles	IsDistanceFrom	Shell
+6	5677 southwest 4th street	HasAddress	5677 southwest 4th street
+6	5677 southwest 4th street	HasType	certain address
+6	5677 southwest 4th street	IsAddressOf	5677 southwest 4th street
+6	certain address	IsTypeOf	5677 southwest 4th street
+6	5677 southwest 4th street	HasTraffic	no traffic
+6	5677 southwest 4th street	HasDistance	4 miles
+6	no traffic	IsTrafficOf	5677 southwest 4th street
+6	4 miles	IsDistanceFrom	5677 southwest 4th street
+7	Palo Alto Medical Foundation	HasAddress	611 Ames Ave
+7	Palo Alto Medical Foundation	HasType	hospital
+7	611 Ames Ave	IsAddressOf	Palo Alto Medical Foundation
+7	hospital	IsTypeOf	Palo Alto Medical Foundation
+7	Palo Alto Medical Foundation	HasTraffic	car collision nearby
+7	Palo Alto Medical Foundation	HasDistance	3 miles
+7	car collision nearby	IsTrafficOf	Palo Alto Medical Foundation
+7	3 miles	IsDistanceFrom	Palo Alto Medical Foundation
+-1	today	IsEqualTo	monday

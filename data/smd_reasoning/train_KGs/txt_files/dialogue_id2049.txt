@@ -1,0 +1,65 @@
+0	Palo Alto Medical Foundation	HasAddress	611 Ames Ave
+0	Palo Alto Medical Foundation	HasType	hospital
+0	611 Ames Ave	IsAddressOf	Palo Alto Medical Foundation
+0	hospital	IsTypeOf	Palo Alto Medical Foundation
+0	Palo Alto Medical Foundation	HasTraffic	no traffic
+0	Palo Alto Medical Foundation	HasDistance	4 miles
+0	no traffic	IsTrafficOf	Palo Alto Medical Foundation
+0	4 miles	IsDistanceFrom	Palo Alto Medical Foundation
+1	Safeway	HasAddress	452 Arcadia Pl
+1	Safeway	HasType	grocery store
+1	452 Arcadia Pl	IsAddressOf	Safeway
+1	grocery store	IsTypeOf	Safeway
+1	Safeway	HasTraffic	no traffic
+1	Safeway	HasDistance	1 miles
+1	no traffic	IsTrafficOf	Safeway
+1	1 miles	IsDistanceFrom	Safeway
+2	Midtown Shopping Center	HasAddress	338 Alester Ave
+2	Midtown Shopping Center	HasType	shopping center
+2	338 Alester Ave	IsAddressOf	Midtown Shopping Center
+2	shopping center	IsTypeOf	Midtown Shopping Center
+2	Midtown Shopping Center	HasTraffic	road block nearby
+2	Midtown Shopping Center	HasDistance	5 miles
+2	road block nearby	IsTrafficOf	Midtown Shopping Center
+2	5 miles	IsDistanceFrom	Midtown Shopping Center
+3	toms house	HasAddress	580 Van Ness Ave
+3	toms house	HasType	friends house
+3	580 Van Ness Ave	IsAddressOf	toms house
+3	friends house	IsTypeOf	toms house
+3	toms house	HasTraffic	no traffic
+3	toms house	HasDistance	2 miles
+3	no traffic	IsTrafficOf	toms house
+3	2 miles	IsDistanceFrom	toms house
+4	Dish Parking	HasAddress	550 Alester Ave
+4	Dish Parking	HasType	parking garage
+4	550 Alester Ave	IsAddressOf	Dish Parking
+4	parking garage	IsTypeOf	Dish Parking
+4	Dish Parking	HasTraffic	car collision nearby
+4	Dish Parking	HasDistance	3 miles
+4	car collision nearby	IsTrafficOf	Dish Parking
+4	3 miles	IsDistanceFrom	Dish Parking
+5	home	HasAddress	56 cadwell street
+5	home	HasType	home
+5	56 cadwell street	IsAddressOf	home
+5	home	IsTypeOf	home
+5	home	HasTraffic	road block nearby
+5	home	HasDistance	2 miles
+5	road block nearby	IsTrafficOf	home
+5	2 miles	IsDistanceFrom	home
+6	P.F. Changs	HasAddress	669 El Camino Real
+6	P.F. Changs	HasType	chinese restaurant
+6	669 El Camino Real	IsAddressOf	P.F. Changs
+6	chinese restaurant	IsTypeOf	P.F. Changs
+6	P.F. Changs	HasTraffic	road block nearby
+6	P.F. Changs	HasDistance	6 miles
+6	road block nearby	IsTrafficOf	P.F. Changs
+6	6 miles	IsDistanceFrom	P.F. Changs
+7	The Clement Hotel	HasAddress	657 Ames Ave
+7	The Clement Hotel	HasType	rest stop
+7	657 Ames Ave	IsAddressOf	The Clement Hotel
+7	rest stop	IsTypeOf	The Clement Hotel
+7	The Clement Hotel	HasTraffic	road block nearby
+7	The Clement Hotel	HasDistance	6 miles
+7	road block nearby	IsTrafficOf	The Clement Hotel
+7	6 miles	IsDistanceFrom	The Clement Hotel
+-1	today	IsEqualTo	monday

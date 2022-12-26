@@ -1,0 +1,65 @@
+0	jacks house	HasAddress	864 Almanor Ln
+0	jacks house	HasType	friends house
+0	864 Almanor Ln	IsAddressOf	jacks house
+0	friends house	IsTypeOf	jacks house
+0	jacks house	HasTraffic	heavy traffic
+0	jacks house	HasDistance	4 miles
+0	heavy traffic	IsTrafficOf	jacks house
+0	4 miles	IsDistanceFrom	jacks house
+1	P.F. Changs	HasAddress	669 El Camino Real
+1	P.F. Changs	HasType	chinese restaurant
+1	669 El Camino Real	IsAddressOf	P.F. Changs
+1	chinese restaurant	IsTypeOf	P.F. Changs
+1	P.F. Changs	HasTraffic	car collision nearby
+1	P.F. Changs	HasDistance	2 miles
+1	car collision nearby	IsTrafficOf	P.F. Changs
+1	2 miles	IsDistanceFrom	P.F. Changs
+2	Round Table	HasAddress	113 Anton Ct
+2	Round Table	HasType	pizza restaurant
+2	113 Anton Ct	IsAddressOf	Round Table
+2	pizza restaurant	IsTypeOf	Round Table
+2	Round Table	HasTraffic	moderate traffic
+2	Round Table	HasDistance	5 miles
+2	moderate traffic	IsTrafficOf	Round Table
+2	5 miles	IsDistanceFrom	Round Table
+3	Travelers Lodge	HasAddress	333 Arbol Dr
+3	Travelers Lodge	HasType	rest stop
+3	333 Arbol Dr	IsAddressOf	Travelers Lodge
+3	rest stop	IsTypeOf	Travelers Lodge
+3	Travelers Lodge	HasTraffic	road block nearby
+3	Travelers Lodge	HasDistance	2 miles
+3	road block nearby	IsTrafficOf	Travelers Lodge
+3	2 miles	IsDistanceFrom	Travelers Lodge
+4	76	HasAddress	91 El Camino Real
+4	76	HasType	gas station
+4	91 El Camino Real	IsAddressOf	76
+4	gas station	IsTypeOf	76
+4	76	HasTraffic	heavy traffic
+4	76	HasDistance	4 miles
+4	heavy traffic	IsTrafficOf	76
+4	4 miles	IsDistanceFrom	76
+5	Civic Center Garage	HasAddress	270 Altaire Walk
+5	Civic Center Garage	HasType	parking garage
+5	270 Altaire Walk	IsAddressOf	Civic Center Garage
+5	parking garage	IsTypeOf	Civic Center Garage
+5	Civic Center Garage	HasTraffic	road block nearby
+5	Civic Center Garage	HasDistance	5 miles
+5	road block nearby	IsTrafficOf	Civic Center Garage
+5	5 miles	IsDistanceFrom	Civic Center Garage
+6	Palo Alto Medical Foundation	HasAddress	611 Ames Ave
+6	Palo Alto Medical Foundation	HasType	hospital
+6	611 Ames Ave	IsAddressOf	Palo Alto Medical Foundation
+6	hospital	IsTypeOf	Palo Alto Medical Foundation
+6	Palo Alto Medical Foundation	HasTraffic	heavy traffic
+6	Palo Alto Medical Foundation	HasDistance	3 miles
+6	heavy traffic	IsTrafficOf	Palo Alto Medical Foundation
+6	3 miles	IsDistanceFrom	Palo Alto Medical Foundation
+7	Panda Express	HasAddress	842 Arrowhead Way
+7	Panda Express	HasType	chinese restaurant
+7	842 Arrowhead Way	IsAddressOf	Panda Express
+7	chinese restaurant	IsTypeOf	Panda Express
+7	Panda Express	HasTraffic	moderate traffic
+7	Panda Express	HasDistance	5 miles
+7	moderate traffic	IsTrafficOf	Panda Express
+7	5 miles	IsDistanceFrom	Panda Express
+-1	today	IsEqualTo	monday

@@ -1,0 +1,57 @@
+0	Stanford Oval Parking	HasAddress	610 Amarillo Ave
+0	Stanford Oval Parking	HasType	parking garage
+0	610 Amarillo Ave	IsAddressOf	Stanford Oval Parking
+0	parking garage	IsTypeOf	Stanford Oval Parking
+0	Stanford Oval Parking	HasTraffic	heavy traffic
+0	Stanford Oval Parking	HasDistance	6 miles
+0	heavy traffic	IsTrafficOf	Stanford Oval Parking
+0	6 miles	IsDistanceFrom	Stanford Oval Parking
+1	Philz	HasAddress	583 Alester Ave
+1	Philz	HasType	coffee or tea place
+1	583 Alester Ave	IsAddressOf	Philz
+1	coffee or tea place	IsTypeOf	Philz
+1	Philz	HasTraffic	moderate traffic
+1	Philz	HasDistance	4 miles
+1	moderate traffic	IsTrafficOf	Philz
+1	4 miles	IsDistanceFrom	Philz
+2	Valero	HasAddress	200 Alester Ave
+2	Valero	HasType	gas station
+2	200 Alester Ave	IsAddressOf	Valero
+2	gas station	IsTypeOf	Valero
+2	Valero	HasTraffic	moderate traffic
+2	Valero	HasDistance	2 miles
+2	moderate traffic	IsTrafficOf	Valero
+2	2 miles	IsDistanceFrom	Valero
+3	Stanford Express Care	HasAddress	214 El Camino Real
+3	Stanford Express Care	HasType	hospital
+3	214 El Camino Real	IsAddressOf	Stanford Express Care
+3	hospital	IsTypeOf	Stanford Express Care
+3	Stanford Express Care	HasTraffic	moderate traffic
+3	Stanford Express Care	HasDistance	2 miles
+3	moderate traffic	IsTrafficOf	Stanford Express Care
+3	2 miles	IsDistanceFrom	Stanford Express Care
+4	Palo Alto Medical Foundation	HasAddress	611 Ames Ave
+4	Palo Alto Medical Foundation	HasType	hospital
+4	611 Ames Ave	IsAddressOf	Palo Alto Medical Foundation
+4	hospital	IsTypeOf	Palo Alto Medical Foundation
+4	Palo Alto Medical Foundation	HasTraffic	heavy traffic
+4	Palo Alto Medical Foundation	HasDistance	2 miles
+4	heavy traffic	IsTrafficOf	Palo Alto Medical Foundation
+4	2 miles	IsDistanceFrom	Palo Alto Medical Foundation
+5	5672 barringer street	HasAddress	5672 barringer street
+5	5672 barringer street	HasType	certain address
+5	5672 barringer street	IsAddressOf	5672 barringer street
+5	certain address	IsTypeOf	5672 barringer street
+5	5672 barringer street	HasTraffic	no traffic
+5	5672 barringer street	HasDistance	1 miles
+5	no traffic	IsTrafficOf	5672 barringer street
+5	1 miles	IsDistanceFrom	5672 barringer street
+6	Palo Alto Cafe	HasAddress	436 Alger Dr
+6	Palo Alto Cafe	HasType	coffee or tea place
+6	436 Alger Dr	IsAddressOf	Palo Alto Cafe
+6	coffee or tea place	IsTypeOf	Palo Alto Cafe
+6	Palo Alto Cafe	HasTraffic	moderate traffic
+6	Palo Alto Cafe	HasDistance	3 miles
+6	moderate traffic	IsTrafficOf	Palo Alto Cafe
+6	3 miles	IsDistanceFrom	Palo Alto Cafe
+-1	today	IsEqualTo	monday

@@ -1,0 +1,65 @@
+0	Chef Chu's	HasAddress	593 Arrowhead Way
+0	Chef Chu's	HasType	chinese restaurant
+0	593 Arrowhead Way	IsAddressOf	Chef Chu's
+0	chinese restaurant	IsTypeOf	Chef Chu's
+0	Chef Chu's	HasTraffic	road block nearby
+0	Chef Chu's	HasDistance	8 miles
+0	road block nearby	IsTrafficOf	Chef Chu's
+0	8 miles	IsDistanceFrom	Chef Chu's
+1	jills house	HasAddress	347 Alta Mesa Ave
+1	jills house	HasType	friends house
+1	347 Alta Mesa Ave	IsAddressOf	jills house
+1	friends house	IsTypeOf	jills house
+1	jills house	HasTraffic	no traffic
+1	jills house	HasDistance	1 miles
+1	no traffic	IsTrafficOf	jills house
+1	1 miles	IsDistanceFrom	jills house
+2	Coupa	HasAddress	394 Van Ness Ave
+2	Coupa	HasType	coffee or tea place
+2	394 Van Ness Ave	IsAddressOf	Coupa
+2	coffee or tea place	IsTypeOf	Coupa
+2	Coupa	HasTraffic	no traffic
+2	Coupa	HasDistance	3 miles
+2	no traffic	IsTrafficOf	Coupa
+2	3 miles	IsDistanceFrom	Coupa
+3	Safeway	HasAddress	452 Arcadia Pl
+3	Safeway	HasType	grocery store
+3	452 Arcadia Pl	IsAddressOf	Safeway
+3	grocery store	IsTypeOf	Safeway
+3	Safeway	HasTraffic	road block nearby
+3	Safeway	HasDistance	5 miles
+3	road block nearby	IsTrafficOf	Safeway
+3	5 miles	IsDistanceFrom	Safeway
+4	Panda Express	HasAddress	842 Arrowhead Way
+4	Panda Express	HasType	chinese restaurant
+4	842 Arrowhead Way	IsAddressOf	Panda Express
+4	chinese restaurant	IsTypeOf	Panda Express
+4	Panda Express	HasTraffic	heavy traffic
+4	Panda Express	HasDistance	5 miles
+4	heavy traffic	IsTrafficOf	Panda Express
+4	5 miles	IsDistanceFrom	Panda Express
+5	Hacienda Market	HasAddress	1313 Chester Ave
+5	Hacienda Market	HasType	grocery store
+5	1313 Chester Ave	IsAddressOf	Hacienda Market
+5	grocery store	IsTypeOf	Hacienda Market
+5	Hacienda Market	HasTraffic	road block nearby
+5	Hacienda Market	HasDistance	4 miles
+5	road block nearby	IsTrafficOf	Hacienda Market
+5	4 miles	IsDistanceFrom	Hacienda Market
+6	The Westin	HasAddress	329 El Camino Real
+6	The Westin	HasType	rest stop
+6	329 El Camino Real	IsAddressOf	The Westin
+6	rest stop	IsTypeOf	The Westin
+6	The Westin	HasTraffic	moderate traffic
+6	The Westin	HasDistance	2 miles
+6	moderate traffic	IsTrafficOf	The Westin
+6	2 miles	IsDistanceFrom	The Westin
+7	Pizza Chicago	HasAddress	915 Arbol Dr
+7	Pizza Chicago	HasType	pizza restaurant
+7	915 Arbol Dr	IsAddressOf	Pizza Chicago
+7	pizza restaurant	IsTypeOf	Pizza Chicago
+7	Pizza Chicago	HasTraffic	road block nearby
+7	Pizza Chicago	HasDistance	3 miles
+7	road block nearby	IsTrafficOf	Pizza Chicago
+7	3 miles	IsDistanceFrom	Pizza Chicago
+-1	today	IsEqualTo	monday

@@ -1,0 +1,57 @@
+0	Dish Parking	HasAddress	550 Alester Ave
+0	Dish Parking	HasType	parking garage
+0	550 Alester Ave	IsAddressOf	Dish Parking
+0	parking garage	IsTypeOf	Dish Parking
+0	Dish Parking	HasTraffic	heavy traffic
+0	Dish Parking	HasDistance	5 miles
+0	heavy traffic	IsTrafficOf	Dish Parking
+0	5 miles	IsDistanceFrom	Dish Parking
+1	Jing Jing	HasAddress	113 Arbol Dr
+1	Jing Jing	HasType	chinese restaurant
+1	113 Arbol Dr	IsAddressOf	Jing Jing
+1	chinese restaurant	IsTypeOf	Jing Jing
+1	Jing Jing	HasTraffic	heavy traffic
+1	Jing Jing	HasDistance	5 miles
+1	heavy traffic	IsTrafficOf	Jing Jing
+1	5 miles	IsDistanceFrom	Jing Jing
+2	Town and Country	HasAddress	383 University Ave
+2	Town and Country	HasType	shopping center
+2	383 University Ave	IsAddressOf	Town and Country
+2	shopping center	IsTypeOf	Town and Country
+2	Town and Country	HasTraffic	heavy traffic
+2	Town and Country	HasDistance	4 miles
+2	heavy traffic	IsTrafficOf	Town and Country
+2	4 miles	IsDistanceFrom	Town and Country
+3	jills house	HasAddress	347 Alta Mesa Ave
+3	jills house	HasType	friends house
+3	347 Alta Mesa Ave	IsAddressOf	jills house
+3	friends house	IsTypeOf	jills house
+3	jills house	HasTraffic	heavy traffic
+3	jills house	HasDistance	4 miles
+3	heavy traffic	IsTrafficOf	jills house
+3	4 miles	IsDistanceFrom	jills house
+4	Mandarin Roots	HasAddress	271 Springer Street
+4	Mandarin Roots	HasType	chinese restaurant
+4	271 Springer Street	IsAddressOf	Mandarin Roots
+4	chinese restaurant	IsTypeOf	Mandarin Roots
+4	Mandarin Roots	HasTraffic	moderate traffic
+4	Mandarin Roots	HasDistance	4 miles
+4	moderate traffic	IsTrafficOf	Mandarin Roots
+4	4 miles	IsDistanceFrom	Mandarin Roots
+5	Midtown Shopping Center	HasAddress	338 Alester Ave
+5	Midtown Shopping Center	HasType	shopping center
+5	338 Alester Ave	IsAddressOf	Midtown Shopping Center
+5	shopping center	IsTypeOf	Midtown Shopping Center
+5	Midtown Shopping Center	HasTraffic	no traffic
+5	Midtown Shopping Center	HasDistance	3 miles
+5	no traffic	IsTrafficOf	Midtown Shopping Center
+5	3 miles	IsDistanceFrom	Midtown Shopping Center
+6	Palo Alto Garage R	HasAddress	481 Amaranta Ave
+6	Palo Alto Garage R	HasType	parking garage
+6	481 Amaranta Ave	IsAddressOf	Palo Alto Garage R
+6	parking garage	IsTypeOf	Palo Alto Garage R
+6	Palo Alto Garage R	HasTraffic	moderate traffic
+6	Palo Alto Garage R	HasDistance	2 miles
+6	moderate traffic	IsTrafficOf	Palo Alto Garage R
+6	2 miles	IsDistanceFrom	Palo Alto Garage R
+-1	today	IsEqualTo	monday

@@ -1,0 +1,61 @@
+0	meeting	HasTime	2pm
+0	2pm	IsTimeOf	meeting
+0	meeting	HasDate	the 12th
+0	the 12th	IsDateOf	meeting
+0	meeting	HasParty	vice president
+0	vice president	IsPartyOf	meeting
+0	meeting	HasRoom	conference room 102
+0	conference room 102	IsRoomOf	meeting
+0	meeting	HasAgenda	discuss dress code
+0	discuss dress code	IsAgendaOf	meeting
+1	taking medicine	HasTime	7pm
+1	7pm	IsTimeOf	taking medicine
+1	taking medicine	HasDate	the 18th
+1	the 18th	IsDateOf	taking medicine
+1	taking medicine	HasParty	Jeff
+1	Jeff	IsPartyOf	taking medicine
+2	dentist appointment	HasTime	7pm
+2	7pm	IsTimeOf	dentist appointment
+2	dentist appointment	HasDate	the 19th
+2	the 19th	IsDateOf	dentist appointment
+2	dentist appointment	HasParty	Alex
+2	Alex	IsPartyOf	dentist appointment
+3	taking medicine	HasTime	10am
+3	10am	IsTimeOf	taking medicine
+3	taking medicine	HasDate	saturday
+3	saturday	IsDateOf	taking medicine
+3	taking medicine	HasParty	Martha
+3	Martha	IsPartyOf	taking medicine
+4	swimming activity	HasTime	11am
+4	11am	IsTimeOf	swimming activity
+4	swimming activity	HasDate	the 19th
+4	the 19th	IsDateOf	swimming activity
+4	swimming activity	HasParty	Jeff
+4	Jeff	IsPartyOf	swimming activity
+5	meeting	HasTime	5pm
+5	5pm	IsTimeOf	meeting
+5	meeting	HasDate	the 15th
+5	the 15th	IsDateOf	meeting
+5	meeting	HasParty	sales team
+5	sales team	IsPartyOf	meeting
+5	meeting	HasRoom	conference room 100
+5	conference room 100	IsRoomOf	meeting
+5	meeting	HasAgenda	go over quarterly report
+5	go over quarterly report	IsAgendaOf	meeting
+6	conference	HasTime	3pm
+6	3pm	IsTimeOf	conference
+6	conference	HasDate	the 1st
+6	the 1st	IsDateOf	conference
+6	conference	HasParty	management
+6	management	IsPartyOf	conference
+6	conference	HasRoom	conference room 50
+6	conference room 50	IsRoomOf	conference
+6	conference	HasAgenda	discuss the company picnic
+6	discuss the company picnic	IsAgendaOf	conference
+7	dentist appointment	HasTime	5pm
+7	5pm	IsTimeOf	dentist appointment
+7	dentist appointment	HasDate	the 4th
+7	the 4th	IsDateOf	dentist appointment
+7	dentist appointment	HasParty	sister
+7	sister	IsPartyOf	dentist appointment
+-1	today	IsEqualTo	monday

@@ -1,0 +1,65 @@
+0	Cafe Venetia	HasAddress	269 Alger Dr
+0	Cafe Venetia	HasType	coffee or tea place
+0	269 Alger Dr	IsAddressOf	Cafe Venetia
+0	coffee or tea place	IsTypeOf	Cafe Venetia
+0	Cafe Venetia	HasTraffic	no traffic
+0	Cafe Venetia	HasDistance	2 miles
+0	no traffic	IsTrafficOf	Cafe Venetia
+0	2 miles	IsDistanceFrom	Cafe Venetia
+1	Trader Joes	HasAddress	408 University Ave
+1	Trader Joes	HasType	grocery store
+1	408 University Ave	IsAddressOf	Trader Joes
+1	grocery store	IsTypeOf	Trader Joes
+1	Trader Joes	HasTraffic	no traffic
+1	Trader Joes	HasDistance	5 miles
+1	no traffic	IsTrafficOf	Trader Joes
+1	5 miles	IsDistanceFrom	Trader Joes
+2	Travelers Lodge	HasAddress	333 Arbol Dr
+2	Travelers Lodge	HasType	rest stop
+2	333 Arbol Dr	IsAddressOf	Travelers Lodge
+2	rest stop	IsTypeOf	Travelers Lodge
+2	Travelers Lodge	HasTraffic	no traffic
+2	Travelers Lodge	HasDistance	2 miles
+2	no traffic	IsTrafficOf	Travelers Lodge
+2	2 miles	IsDistanceFrom	Travelers Lodge
+3	Philz	HasAddress	583 Alester Ave
+3	Philz	HasType	coffee or tea place
+3	583 Alester Ave	IsAddressOf	Philz
+3	coffee or tea place	IsTypeOf	Philz
+3	Philz	HasTraffic	moderate traffic
+3	Philz	HasDistance	2 miles
+3	moderate traffic	IsTrafficOf	Philz
+3	2 miles	IsDistanceFrom	Philz
+4	Mandarin Roots	HasAddress	271 Springer Street
+4	Mandarin Roots	HasType	chinese restaurant
+4	271 Springer Street	IsAddressOf	Mandarin Roots
+4	chinese restaurant	IsTypeOf	Mandarin Roots
+4	Mandarin Roots	HasTraffic	road block nearby
+4	Mandarin Roots	HasDistance	4 miles
+4	road block nearby	IsTrafficOf	Mandarin Roots
+4	4 miles	IsDistanceFrom	Mandarin Roots
+5	Coupa	HasAddress	394 Van Ness Ave
+5	Coupa	HasType	coffee or tea place
+5	394 Van Ness Ave	IsAddressOf	Coupa
+5	coffee or tea place	IsTypeOf	Coupa
+5	Coupa	HasTraffic	heavy traffic
+5	Coupa	HasDistance	2 miles
+5	heavy traffic	IsTrafficOf	Coupa
+5	2 miles	IsDistanceFrom	Coupa
+6	Dish Parking	HasAddress	550 Alester Ave
+6	Dish Parking	HasType	parking garage
+6	550 Alester Ave	IsAddressOf	Dish Parking
+6	parking garage	IsTypeOf	Dish Parking
+6	Dish Parking	HasTraffic	moderate traffic
+6	Dish Parking	HasDistance	6 miles
+6	moderate traffic	IsTrafficOf	Dish Parking
+6	6 miles	IsDistanceFrom	Dish Parking
+7	Starbucks	HasAddress	792 Bedoin Street
+7	Starbucks	HasType	coffee or tea place
+7	792 Bedoin Street	IsAddressOf	Starbucks
+7	coffee or tea place	IsTypeOf	Starbucks
+7	Starbucks	HasTraffic	moderate traffic
+7	Starbucks	HasDistance	3 miles
+7	moderate traffic	IsTrafficOf	Starbucks
+7	3 miles	IsDistanceFrom	Starbucks
+-1	today	IsEqualTo	monday

@@ -1,0 +1,65 @@
+0	Philz	HasAddress	583 Alester Ave
+0	Philz	HasType	coffee or tea place
+0	583 Alester Ave	IsAddressOf	Philz
+0	coffee or tea place	IsTypeOf	Philz
+0	Philz	HasTraffic	road block nearby
+0	Philz	HasDistance	6 miles
+0	road block nearby	IsTrafficOf	Philz
+0	6 miles	IsDistanceFrom	Philz
+1	Town and Country	HasAddress	383 University Ave
+1	Town and Country	HasType	shopping center
+1	383 University Ave	IsAddressOf	Town and Country
+1	shopping center	IsTypeOf	Town and Country
+1	Town and Country	HasTraffic	moderate traffic
+1	Town and Country	HasDistance	2 miles
+1	moderate traffic	IsTrafficOf	Town and Country
+1	2 miles	IsDistanceFrom	Town and Country
+2	jills house	HasAddress	347 Alta Mesa Ave
+2	jills house	HasType	friends house
+2	347 Alta Mesa Ave	IsAddressOf	jills house
+2	friends house	IsTypeOf	jills house
+2	jills house	HasTraffic	road block nearby
+2	jills house	HasDistance	3 miles
+2	road block nearby	IsTrafficOf	jills house
+2	3 miles	IsDistanceFrom	jills house
+3	Midtown Shopping Center	HasAddress	338 Alester Ave
+3	Midtown Shopping Center	HasType	shopping center
+3	338 Alester Ave	IsAddressOf	Midtown Shopping Center
+3	shopping center	IsTypeOf	Midtown Shopping Center
+3	Midtown Shopping Center	HasTraffic	road block nearby
+3	Midtown Shopping Center	HasDistance	5 miles
+3	road block nearby	IsTrafficOf	Midtown Shopping Center
+3	5 miles	IsDistanceFrom	Midtown Shopping Center
+4	Palo Alto Garage R	HasAddress	481 Amaranta Ave
+4	Palo Alto Garage R	HasType	parking garage
+4	481 Amaranta Ave	IsAddressOf	Palo Alto Garage R
+4	parking garage	IsTypeOf	Palo Alto Garage R
+4	Palo Alto Garage R	HasTraffic	road block nearby
+4	Palo Alto Garage R	HasDistance	3 miles
+4	road block nearby	IsTrafficOf	Palo Alto Garage R
+4	3 miles	IsDistanceFrom	Palo Alto Garage R
+5	76	HasAddress	91 El Camino Real
+5	76	HasType	gas station
+5	91 El Camino Real	IsAddressOf	76
+5	gas station	IsTypeOf	76
+5	76	HasTraffic	no traffic
+5	76	HasDistance	5 miles
+5	no traffic	IsTrafficOf	76
+5	5 miles	IsDistanceFrom	76
+6	Jing Jing	HasAddress	113 Arbol Dr
+6	Jing Jing	HasType	chinese restaurant
+6	113 Arbol Dr	IsAddressOf	Jing Jing
+6	chinese restaurant	IsTypeOf	Jing Jing
+6	Jing Jing	HasTraffic	no traffic
+6	Jing Jing	HasDistance	3 miles
+6	no traffic	IsTrafficOf	Jing Jing
+6	3 miles	IsDistanceFrom	Jing Jing
+7	Peets Coffee	HasAddress	9981 Archuleta Ave
+7	Peets Coffee	HasType	coffee or tea place
+7	9981 Archuleta Ave	IsAddressOf	Peets Coffee
+7	coffee or tea place	IsTypeOf	Peets Coffee
+7	Peets Coffee	HasTraffic	no traffic
+7	Peets Coffee	HasDistance	3 miles
+7	no traffic	IsTrafficOf	Peets Coffee
+7	3 miles	IsDistanceFrom	Peets Coffee
+-1	today	IsEqualTo	monday

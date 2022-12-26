@@ -1,0 +1,65 @@
+0	Dominos	HasAddress	776 Arastradero Rd
+0	Dominos	HasType	pizza restaurant
+0	776 Arastradero Rd	IsAddressOf	Dominos
+0	pizza restaurant	IsTypeOf	Dominos
+0	Dominos	HasTraffic	heavy traffic
+0	Dominos	HasDistance	3 miles
+0	heavy traffic	IsTrafficOf	Dominos
+0	3 miles	IsDistanceFrom	Dominos
+1	Valero	HasAddress	200 Alester Ave
+1	Valero	HasType	gas station
+1	200 Alester Ave	IsAddressOf	Valero
+1	gas station	IsTypeOf	Valero
+1	Valero	HasTraffic	moderate traffic
+1	Valero	HasDistance	7 miles
+1	moderate traffic	IsTrafficOf	Valero
+1	7 miles	IsDistanceFrom	Valero
+2	Dish Parking	HasAddress	550 Alester Ave
+2	Dish Parking	HasType	parking garage
+2	550 Alester Ave	IsAddressOf	Dish Parking
+2	parking garage	IsTypeOf	Dish Parking
+2	Dish Parking	HasTraffic	no traffic
+2	Dish Parking	HasDistance	1 miles
+2	no traffic	IsTrafficOf	Dish Parking
+2	1 miles	IsDistanceFrom	Dish Parking
+3	Town and Country	HasAddress	383 University Ave
+3	Town and Country	HasType	shopping center
+3	383 University Ave	IsAddressOf	Town and Country
+3	shopping center	IsTypeOf	Town and Country
+3	Town and Country	HasTraffic	heavy traffic
+3	Town and Country	HasDistance	3 miles
+3	heavy traffic	IsTrafficOf	Town and Country
+3	3 miles	IsDistanceFrom	Town and Country
+4	Mandarin Roots	HasAddress	271 Springer Street
+4	Mandarin Roots	HasType	chinese restaurant
+4	271 Springer Street	IsAddressOf	Mandarin Roots
+4	chinese restaurant	IsTypeOf	Mandarin Roots
+4	Mandarin Roots	HasTraffic	no traffic
+4	Mandarin Roots	HasDistance	1 miles
+4	no traffic	IsTrafficOf	Mandarin Roots
+4	1 miles	IsDistanceFrom	Mandarin Roots
+5	Cafe Venetia	HasAddress	269 Alger Dr
+5	Cafe Venetia	HasType	coffee or tea place
+5	269 Alger Dr	IsAddressOf	Cafe Venetia
+5	coffee or tea place	IsTypeOf	Cafe Venetia
+5	Cafe Venetia	HasTraffic	road block nearby
+5	Cafe Venetia	HasDistance	5 miles
+5	road block nearby	IsTrafficOf	Cafe Venetia
+5	5 miles	IsDistanceFrom	Cafe Venetia
+6	Sigona Farmers Market	HasAddress	638 Amherst St
+6	Sigona Farmers Market	HasType	grocery store
+6	638 Amherst St	IsAddressOf	Sigona Farmers Market
+6	grocery store	IsTypeOf	Sigona Farmers Market
+6	Sigona Farmers Market	HasTraffic	car collision nearby
+6	Sigona Farmers Market	HasDistance	6 miles
+6	car collision nearby	IsTrafficOf	Sigona Farmers Market
+6	6 miles	IsDistanceFrom	Sigona Farmers Market
+7	Chef Chu's	HasAddress	593 Arrowhead Way
+7	Chef Chu's	HasType	chinese restaurant
+7	593 Arrowhead Way	IsAddressOf	Chef Chu's
+7	chinese restaurant	IsTypeOf	Chef Chu's
+7	Chef Chu's	HasTraffic	no traffic
+7	Chef Chu's	HasDistance	1 miles
+7	no traffic	IsTrafficOf	Chef Chu's
+7	1 miles	IsDistanceFrom	Chef Chu's
+-1	today	IsEqualTo	monday

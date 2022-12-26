@@ -1,0 +1,65 @@
+0	Papa Johns	HasAddress	110 Arastradero Rd
+0	Papa Johns	HasType	pizza restaurant
+0	110 Arastradero Rd	IsAddressOf	Papa Johns
+0	pizza restaurant	IsTypeOf	Papa Johns
+0	Papa Johns	HasTraffic	road block nearby
+0	Papa Johns	HasDistance	4 miles
+0	road block nearby	IsTrafficOf	Papa Johns
+0	4 miles	IsDistanceFrom	Papa Johns
+1	Pizza Hut	HasAddress	704 El Camino Real
+1	Pizza Hut	HasType	pizza restaurant
+1	704 El Camino Real	IsAddressOf	Pizza Hut
+1	pizza restaurant	IsTypeOf	Pizza Hut
+1	Pizza Hut	HasTraffic	car collision nearby
+1	Pizza Hut	HasDistance	4 miles
+1	car collision nearby	IsTrafficOf	Pizza Hut
+1	4 miles	IsDistanceFrom	Pizza Hut
+2	Willows Market	HasAddress	409 Bollard St
+2	Willows Market	HasType	grocery store
+2	409 Bollard St	IsAddressOf	Willows Market
+2	grocery store	IsTypeOf	Willows Market
+2	Willows Market	HasTraffic	heavy traffic
+2	Willows Market	HasDistance	3 miles
+2	heavy traffic	IsTrafficOf	Willows Market
+2	3 miles	IsDistanceFrom	Willows Market
+3	Topanga Mall	HasAddress	171 Oak Rd
+3	Topanga Mall	HasType	shopping center
+3	171 Oak Rd	IsAddressOf	Topanga Mall
+3	shopping center	IsTypeOf	Topanga Mall
+3	Topanga Mall	HasTraffic	road block nearby
+3	Topanga Mall	HasDistance	5 miles
+3	road block nearby	IsTrafficOf	Topanga Mall
+3	5 miles	IsDistanceFrom	Topanga Mall
+4	Webster Garage	HasAddress	880 Ames Ct
+4	Webster Garage	HasType	parking garage
+4	880 Ames Ct	IsAddressOf	Webster Garage
+4	parking garage	IsTypeOf	Webster Garage
+4	Webster Garage	HasTraffic	moderate traffic
+4	Webster Garage	HasDistance	1 miles
+4	moderate traffic	IsTrafficOf	Webster Garage
+4	1 miles	IsDistanceFrom	Webster Garage
+5	toms house	HasAddress	580 Van Ness Ave
+5	toms house	HasType	friends house
+5	580 Van Ness Ave	IsAddressOf	toms house
+5	friends house	IsTypeOf	toms house
+5	toms house	HasTraffic	moderate traffic
+5	toms house	HasDistance	1 miles
+5	moderate traffic	IsTrafficOf	toms house
+5	1 miles	IsDistanceFrom	toms house
+6	Philz	HasAddress	583 Alester Ave
+6	Philz	HasType	coffee or tea place
+6	583 Alester Ave	IsAddressOf	Philz
+6	coffee or tea place	IsTypeOf	Philz
+6	Philz	HasTraffic	road block nearby
+6	Philz	HasDistance	4 miles
+6	road block nearby	IsTrafficOf	Philz
+6	4 miles	IsDistanceFrom	Philz
+7	Whole Foods	HasAddress	819 Alma St
+7	Whole Foods	HasType	grocery store
+7	819 Alma St	IsAddressOf	Whole Foods
+7	grocery store	IsTypeOf	Whole Foods
+7	Whole Foods	HasTraffic	car collision nearby
+7	Whole Foods	HasDistance	1 miles
+7	car collision nearby	IsTrafficOf	Whole Foods
+7	1 miles	IsDistanceFrom	Whole Foods
+-1	today	IsEqualTo	monday

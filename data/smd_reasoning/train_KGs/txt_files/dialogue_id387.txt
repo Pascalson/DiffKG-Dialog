@@ -1,0 +1,65 @@
+0	Palo Alto Garage R	HasAddress	481 Amaranta Ave
+0	Palo Alto Garage R	HasType	parking garage
+0	481 Amaranta Ave	IsAddressOf	Palo Alto Garage R
+0	parking garage	IsTypeOf	Palo Alto Garage R
+0	Palo Alto Garage R	HasTraffic	car collision nearby
+0	Palo Alto Garage R	HasDistance	1 miles
+0	car collision nearby	IsTrafficOf	Palo Alto Garage R
+0	1 miles	IsDistanceFrom	Palo Alto Garage R
+1	Willows Market	HasAddress	409 Bollard St
+1	Willows Market	HasType	grocery store
+1	409 Bollard St	IsAddressOf	Willows Market
+1	grocery store	IsTypeOf	Willows Market
+1	Willows Market	HasTraffic	car collision nearby
+1	Willows Market	HasDistance	6 miles
+1	car collision nearby	IsTrafficOf	Willows Market
+1	6 miles	IsDistanceFrom	Willows Market
+2	P.F. Changs	HasAddress	669 El Camino Real
+2	P.F. Changs	HasType	chinese restaurant
+2	669 El Camino Real	IsAddressOf	P.F. Changs
+2	chinese restaurant	IsTypeOf	P.F. Changs
+2	P.F. Changs	HasTraffic	no traffic
+2	P.F. Changs	HasDistance	5 miles
+2	no traffic	IsTrafficOf	P.F. Changs
+2	5 miles	IsDistanceFrom	P.F. Changs
+3	Midtown Shopping Center	HasAddress	338 Alester Ave
+3	Midtown Shopping Center	HasType	shopping center
+3	338 Alester Ave	IsAddressOf	Midtown Shopping Center
+3	shopping center	IsTypeOf	Midtown Shopping Center
+3	Midtown Shopping Center	HasTraffic	heavy traffic
+3	Midtown Shopping Center	HasDistance	2 miles
+3	heavy traffic	IsTrafficOf	Midtown Shopping Center
+3	2 miles	IsDistanceFrom	Midtown Shopping Center
+4	Four Seasons	HasAddress	465 Arcadia Pl
+4	Four Seasons	HasType	rest stop
+4	465 Arcadia Pl	IsAddressOf	Four Seasons
+4	rest stop	IsTypeOf	Four Seasons
+4	Four Seasons	HasTraffic	heavy traffic
+4	Four Seasons	HasDistance	4 miles
+4	heavy traffic	IsTrafficOf	Four Seasons
+4	4 miles	IsDistanceFrom	Four Seasons
+5	Webster Garage	HasAddress	880 Ames Ct
+5	Webster Garage	HasType	parking garage
+5	880 Ames Ct	IsAddressOf	Webster Garage
+5	parking garage	IsTypeOf	Webster Garage
+5	Webster Garage	HasTraffic	road block nearby
+5	Webster Garage	HasDistance	5 miles
+5	road block nearby	IsTrafficOf	Webster Garage
+5	5 miles	IsDistanceFrom	Webster Garage
+6	Hacienda Market	HasAddress	1313 Chester Ave
+6	Hacienda Market	HasType	grocery store
+6	1313 Chester Ave	IsAddressOf	Hacienda Market
+6	grocery store	IsTypeOf	Hacienda Market
+6	Hacienda Market	HasTraffic	heavy traffic
+6	Hacienda Market	HasDistance	5 miles
+6	heavy traffic	IsTrafficOf	Hacienda Market
+6	5 miles	IsDistanceFrom	Hacienda Market
+7	home	HasAddress	10 ames street
+7	home	HasType	home
+7	10 ames street	IsAddressOf	home
+7	home	IsTypeOf	home
+7	home	HasTraffic	no traffic
+7	home	HasDistance	1 miles
+7	no traffic	IsTrafficOf	home
+7	1 miles	IsDistanceFrom	home
+-1	today	IsEqualTo	monday

@@ -1,0 +1,57 @@
+0	Four Seasons	HasAddress	465 Arcadia Pl
+0	Four Seasons	HasType	rest stop
+0	465 Arcadia Pl	IsAddressOf	Four Seasons
+0	rest stop	IsTypeOf	Four Seasons
+0	Four Seasons	HasTraffic	heavy traffic
+0	Four Seasons	HasDistance	3 miles
+0	heavy traffic	IsTrafficOf	Four Seasons
+0	3 miles	IsDistanceFrom	Four Seasons
+1	Philz	HasAddress	583 Alester Ave
+1	Philz	HasType	coffee or tea place
+1	583 Alester Ave	IsAddressOf	Philz
+1	coffee or tea place	IsTypeOf	Philz
+1	Philz	HasTraffic	no traffic
+1	Philz	HasDistance	5 miles
+1	no traffic	IsTrafficOf	Philz
+1	5 miles	IsDistanceFrom	Philz
+2	Round Table	HasAddress	113 Anton Ct
+2	Round Table	HasType	pizza restaurant
+2	113 Anton Ct	IsAddressOf	Round Table
+2	pizza restaurant	IsTypeOf	Round Table
+2	Round Table	HasTraffic	no traffic
+2	Round Table	HasDistance	2 miles
+2	no traffic	IsTrafficOf	Round Table
+2	2 miles	IsDistanceFrom	Round Table
+3	Comfort Inn	HasAddress	753 University Ave
+3	Comfort Inn	HasType	rest stop
+3	753 University Ave	IsAddressOf	Comfort Inn
+3	rest stop	IsTypeOf	Comfort Inn
+3	Comfort Inn	HasTraffic	moderate traffic
+3	Comfort Inn	HasDistance	6 miles
+3	moderate traffic	IsTrafficOf	Comfort Inn
+3	6 miles	IsDistanceFrom	Comfort Inn
+4	The Clement Hotel	HasAddress	657 Ames Ave
+4	The Clement Hotel	HasType	rest stop
+4	657 Ames Ave	IsAddressOf	The Clement Hotel
+4	rest stop	IsTypeOf	The Clement Hotel
+4	The Clement Hotel	HasTraffic	no traffic
+4	The Clement Hotel	HasDistance	5 miles
+4	no traffic	IsTrafficOf	The Clement Hotel
+4	5 miles	IsDistanceFrom	The Clement Hotel
+5	jacks house	HasAddress	864 Almanor Ln
+5	jacks house	HasType	friends house
+5	864 Almanor Ln	IsAddressOf	jacks house
+5	friends house	IsTypeOf	jacks house
+5	jacks house	HasTraffic	heavy traffic
+5	jacks house	HasDistance	6 miles
+5	heavy traffic	IsTrafficOf	jacks house
+5	6 miles	IsDistanceFrom	jacks house
+6	Stanford Shopping Center	HasAddress	773 Alger Dr
+6	Stanford Shopping Center	HasType	shopping center
+6	773 Alger Dr	IsAddressOf	Stanford Shopping Center
+6	shopping center	IsTypeOf	Stanford Shopping Center
+6	Stanford Shopping Center	HasTraffic	heavy traffic
+6	Stanford Shopping Center	HasDistance	1 miles
+6	heavy traffic	IsTrafficOf	Stanford Shopping Center
+6	1 miles	IsDistanceFrom	Stanford Shopping Center
+-1	today	IsEqualTo	monday

@@ -1,0 +1,65 @@
+0	Travelers Lodge	HasAddress	333 Arbol Dr
+0	Travelers Lodge	HasType	rest stop
+0	333 Arbol Dr	IsAddressOf	Travelers Lodge
+0	rest stop	IsTypeOf	Travelers Lodge
+0	Travelers Lodge	HasTraffic	moderate traffic
+0	Travelers Lodge	HasDistance	1 miles
+0	moderate traffic	IsTrafficOf	Travelers Lodge
+0	1 miles	IsDistanceFrom	Travelers Lodge
+1	Papa Johns	HasAddress	110 Arastradero Rd
+1	Papa Johns	HasType	pizza restaurant
+1	110 Arastradero Rd	IsAddressOf	Papa Johns
+1	pizza restaurant	IsTypeOf	Papa Johns
+1	Papa Johns	HasTraffic	moderate traffic
+1	Papa Johns	HasDistance	4 miles
+1	moderate traffic	IsTrafficOf	Papa Johns
+1	4 miles	IsDistanceFrom	Papa Johns
+2	Midtown Shopping Center	HasAddress	338 Alester Ave
+2	Midtown Shopping Center	HasType	shopping center
+2	338 Alester Ave	IsAddressOf	Midtown Shopping Center
+2	shopping center	IsTypeOf	Midtown Shopping Center
+2	Midtown Shopping Center	HasTraffic	road block nearby
+2	Midtown Shopping Center	HasDistance	2 miles
+2	road block nearby	IsTrafficOf	Midtown Shopping Center
+2	2 miles	IsDistanceFrom	Midtown Shopping Center
+3	Pizza Hut	HasAddress	704 El Camino Real
+3	Pizza Hut	HasType	pizza restaurant
+3	704 El Camino Real	IsAddressOf	Pizza Hut
+3	pizza restaurant	IsTypeOf	Pizza Hut
+3	Pizza Hut	HasTraffic	car collision nearby
+3	Pizza Hut	HasDistance	2 miles
+3	car collision nearby	IsTrafficOf	Pizza Hut
+3	2 miles	IsDistanceFrom	Pizza Hut
+4	Mandarin Roots	HasAddress	271 Springer Street
+4	Mandarin Roots	HasType	chinese restaurant
+4	271 Springer Street	IsAddressOf	Mandarin Roots
+4	chinese restaurant	IsTypeOf	Mandarin Roots
+4	Mandarin Roots	HasTraffic	heavy traffic
+4	Mandarin Roots	HasDistance	5 miles
+4	heavy traffic	IsTrafficOf	Mandarin Roots
+4	5 miles	IsDistanceFrom	Mandarin Roots
+5	Comfort Inn	HasAddress	753 University Ave
+5	Comfort Inn	HasType	rest stop
+5	753 University Ave	IsAddressOf	Comfort Inn
+5	rest stop	IsTypeOf	Comfort Inn
+5	Comfort Inn	HasTraffic	heavy traffic
+5	Comfort Inn	HasDistance	2 miles
+5	heavy traffic	IsTrafficOf	Comfort Inn
+5	2 miles	IsDistanceFrom	Comfort Inn
+6	Ravenswood Shopping Center	HasAddress	434 Arastradero Rd
+6	Ravenswood Shopping Center	HasType	shopping center
+6	434 Arastradero Rd	IsAddressOf	Ravenswood Shopping Center
+6	shopping center	IsTypeOf	Ravenswood Shopping Center
+6	Ravenswood Shopping Center	HasTraffic	heavy traffic
+6	Ravenswood Shopping Center	HasDistance	5 miles
+6	heavy traffic	IsTrafficOf	Ravenswood Shopping Center
+6	5 miles	IsDistanceFrom	Ravenswood Shopping Center
+7	Teavana	HasAddress	145 Amherst St
+7	Teavana	HasType	coffee or tea place
+7	145 Amherst St	IsAddressOf	Teavana
+7	coffee or tea place	IsTypeOf	Teavana
+7	Teavana	HasTraffic	moderate traffic
+7	Teavana	HasDistance	5 miles
+7	moderate traffic	IsTrafficOf	Teavana
+7	5 miles	IsDistanceFrom	Teavana
+-1	today	IsEqualTo	monday

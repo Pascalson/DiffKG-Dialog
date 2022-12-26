@@ -1,0 +1,65 @@
+0	76	HasAddress	91 El Camino Real
+0	76	HasType	gas station
+0	91 El Camino Real	IsAddressOf	76
+0	gas station	IsTypeOf	76
+0	76	HasTraffic	no traffic
+0	76	HasDistance	2 miles
+0	no traffic	IsTrafficOf	76
+0	2 miles	IsDistanceFrom	76
+1	Dominos	HasAddress	776 Arastradero Rd
+1	Dominos	HasType	pizza restaurant
+1	776 Arastradero Rd	IsAddressOf	Dominos
+1	pizza restaurant	IsTypeOf	Dominos
+1	Dominos	HasTraffic	road block nearby
+1	Dominos	HasDistance	2 miles
+1	road block nearby	IsTrafficOf	Dominos
+1	2 miles	IsDistanceFrom	Dominos
+2	Whole Foods	HasAddress	819 Alma St
+2	Whole Foods	HasType	grocery store
+2	819 Alma St	IsAddressOf	Whole Foods
+2	grocery store	IsTypeOf	Whole Foods
+2	Whole Foods	HasTraffic	road block nearby
+2	Whole Foods	HasDistance	2 miles
+2	road block nearby	IsTrafficOf	Whole Foods
+2	2 miles	IsDistanceFrom	Whole Foods
+3	Stanford Childrens Health	HasAddress	899 Ames Ct
+3	Stanford Childrens Health	HasType	hospital
+3	899 Ames Ct	IsAddressOf	Stanford Childrens Health
+3	hospital	IsTypeOf	Stanford Childrens Health
+3	Stanford Childrens Health	HasTraffic	no traffic
+3	Stanford Childrens Health	HasDistance	1 miles
+3	no traffic	IsTrafficOf	Stanford Childrens Health
+3	1 miles	IsDistanceFrom	Stanford Childrens Health
+4	toms house	HasAddress	580 Van Ness Ave
+4	toms house	HasType	friends house
+4	580 Van Ness Ave	IsAddressOf	toms house
+4	friends house	IsTypeOf	toms house
+4	toms house	HasTraffic	car collision nearby
+4	toms house	HasDistance	1 miles
+4	car collision nearby	IsTrafficOf	toms house
+4	1 miles	IsDistanceFrom	toms house
+5	Hotel Keen	HasAddress	578 Arbol Dr
+5	Hotel Keen	HasType	rest stop
+5	578 Arbol Dr	IsAddressOf	Hotel Keen
+5	rest stop	IsTypeOf	Hotel Keen
+5	Hotel Keen	HasTraffic	car collision nearby
+5	Hotel Keen	HasDistance	3 miles
+5	car collision nearby	IsTrafficOf	Hotel Keen
+5	3 miles	IsDistanceFrom	Hotel Keen
+6	The Clement Hotel	HasAddress	657 Ames Ave
+6	The Clement Hotel	HasType	rest stop
+6	657 Ames Ave	IsAddressOf	The Clement Hotel
+6	rest stop	IsTypeOf	The Clement Hotel
+6	The Clement Hotel	HasTraffic	no traffic
+6	The Clement Hotel	HasDistance	5 miles
+6	no traffic	IsTrafficOf	The Clement Hotel
+6	5 miles	IsDistanceFrom	The Clement Hotel
+7	Pizza Chicago	HasAddress	915 Arbol Dr
+7	Pizza Chicago	HasType	pizza restaurant
+7	915 Arbol Dr	IsAddressOf	Pizza Chicago
+7	pizza restaurant	IsTypeOf	Pizza Chicago
+7	Pizza Chicago	HasTraffic	road block nearby
+7	Pizza Chicago	HasDistance	3 miles
+7	road block nearby	IsTrafficOf	Pizza Chicago
+7	3 miles	IsDistanceFrom	Pizza Chicago
+-1	today	IsEqualTo	monday

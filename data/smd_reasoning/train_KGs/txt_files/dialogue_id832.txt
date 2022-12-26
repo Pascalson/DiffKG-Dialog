@@ -1,0 +1,57 @@
+0	The Clement Hotel	HasAddress	657 Ames Ave
+0	The Clement Hotel	HasType	rest stop
+0	657 Ames Ave	IsAddressOf	The Clement Hotel
+0	rest stop	IsTypeOf	The Clement Hotel
+0	The Clement Hotel	HasTraffic	moderate traffic
+0	The Clement Hotel	HasDistance	2 miles
+0	moderate traffic	IsTrafficOf	The Clement Hotel
+0	2 miles	IsDistanceFrom	The Clement Hotel
+1	Whole Foods	HasAddress	819 Alma St
+1	Whole Foods	HasType	grocery store
+1	819 Alma St	IsAddressOf	Whole Foods
+1	grocery store	IsTypeOf	Whole Foods
+1	Whole Foods	HasTraffic	moderate traffic
+1	Whole Foods	HasDistance	2 miles
+1	moderate traffic	IsTrafficOf	Whole Foods
+1	2 miles	IsDistanceFrom	Whole Foods
+2	home	HasAddress	10 ames street
+2	home	HasType	home
+2	10 ames street	IsAddressOf	home
+2	home	IsTypeOf	home
+2	home	HasTraffic	no traffic
+2	home	HasDistance	5 miles
+2	no traffic	IsTrafficOf	home
+2	5 miles	IsDistanceFrom	home
+3	Palo Alto Cafe	HasAddress	436 Alger Dr
+3	Palo Alto Cafe	HasType	coffee or tea place
+3	436 Alger Dr	IsAddressOf	Palo Alto Cafe
+3	coffee or tea place	IsTypeOf	Palo Alto Cafe
+3	Palo Alto Cafe	HasTraffic	heavy traffic
+3	Palo Alto Cafe	HasDistance	2 miles
+3	heavy traffic	IsTrafficOf	Palo Alto Cafe
+3	2 miles	IsDistanceFrom	Palo Alto Cafe
+4	Sigona Farmers Market	HasAddress	638 Amherst St
+4	Sigona Farmers Market	HasType	grocery store
+4	638 Amherst St	IsAddressOf	Sigona Farmers Market
+4	grocery store	IsTypeOf	Sigona Farmers Market
+4	Sigona Farmers Market	HasTraffic	moderate traffic
+4	Sigona Farmers Market	HasDistance	1 miles
+4	moderate traffic	IsTrafficOf	Sigona Farmers Market
+4	1 miles	IsDistanceFrom	Sigona Farmers Market
+5	Civic Center Garage	HasAddress	270 Altaire Walk
+5	Civic Center Garage	HasType	parking garage
+5	270 Altaire Walk	IsAddressOf	Civic Center Garage
+5	parking garage	IsTypeOf	Civic Center Garage
+5	Civic Center Garage	HasTraffic	no traffic
+5	Civic Center Garage	HasDistance	6 miles
+5	no traffic	IsTrafficOf	Civic Center Garage
+5	6 miles	IsDistanceFrom	Civic Center Garage
+6	Palo Alto Medical Foundation	HasAddress	611 Ames Ave
+6	Palo Alto Medical Foundation	HasType	hospital
+6	611 Ames Ave	IsAddressOf	Palo Alto Medical Foundation
+6	hospital	IsTypeOf	Palo Alto Medical Foundation
+6	Palo Alto Medical Foundation	HasTraffic	no traffic
+6	Palo Alto Medical Foundation	HasDistance	4 miles
+6	no traffic	IsTrafficOf	Palo Alto Medical Foundation
+6	4 miles	IsDistanceFrom	Palo Alto Medical Foundation
+-1	today	IsEqualTo	monday

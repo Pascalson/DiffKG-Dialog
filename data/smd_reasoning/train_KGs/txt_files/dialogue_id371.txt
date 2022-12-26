@@ -1,0 +1,57 @@
+0	Chevron	HasAddress	783 Arcadia Pl
+0	Chevron	HasType	gas station
+0	783 Arcadia Pl	IsAddressOf	Chevron
+0	gas station	IsTypeOf	Chevron
+0	Chevron	HasTraffic	moderate traffic
+0	Chevron	HasDistance	3 miles
+0	moderate traffic	IsTrafficOf	Chevron
+0	3 miles	IsDistanceFrom	Chevron
+1	P.F. Changs	HasAddress	669 El Camino Real
+1	P.F. Changs	HasType	chinese restaurant
+1	669 El Camino Real	IsAddressOf	P.F. Changs
+1	chinese restaurant	IsTypeOf	P.F. Changs
+1	P.F. Changs	HasTraffic	moderate traffic
+1	P.F. Changs	HasDistance	6 miles
+1	moderate traffic	IsTrafficOf	P.F. Changs
+1	6 miles	IsDistanceFrom	P.F. Changs
+2	Palo Alto Garage R	HasAddress	481 Amaranta Ave
+2	Palo Alto Garage R	HasType	parking garage
+2	481 Amaranta Ave	IsAddressOf	Palo Alto Garage R
+2	parking garage	IsTypeOf	Palo Alto Garage R
+2	Palo Alto Garage R	HasTraffic	moderate traffic
+2	Palo Alto Garage R	HasDistance	2 miles
+2	moderate traffic	IsTrafficOf	Palo Alto Garage R
+2	2 miles	IsDistanceFrom	Palo Alto Garage R
+3	5677 springer street	HasAddress	5677 springer street
+3	5677 springer street	HasType	certain address
+3	5677 springer street	IsAddressOf	5677 springer street
+3	certain address	IsTypeOf	5677 springer street
+3	5677 springer street	HasTraffic	no traffic
+3	5677 springer street	HasDistance	1 miles
+3	no traffic	IsTrafficOf	5677 springer street
+3	1 miles	IsDistanceFrom	5677 springer street
+4	Mandarin Roots	HasAddress	271 Springer Street
+4	Mandarin Roots	HasType	chinese restaurant
+4	271 Springer Street	IsAddressOf	Mandarin Roots
+4	chinese restaurant	IsTypeOf	Mandarin Roots
+4	Mandarin Roots	HasTraffic	moderate traffic
+4	Mandarin Roots	HasDistance	4 miles
+4	moderate traffic	IsTrafficOf	Mandarin Roots
+4	4 miles	IsDistanceFrom	Mandarin Roots
+5	toms house	HasAddress	580 Van Ness Ave
+5	toms house	HasType	friends house
+5	580 Van Ness Ave	IsAddressOf	toms house
+5	friends house	IsTypeOf	toms house
+5	toms house	HasTraffic	no traffic
+5	toms house	HasDistance	1 miles
+5	no traffic	IsTrafficOf	toms house
+5	1 miles	IsDistanceFrom	toms house
+6	Whole Foods	HasAddress	819 Alma St
+6	Whole Foods	HasType	grocery store
+6	819 Alma St	IsAddressOf	Whole Foods
+6	grocery store	IsTypeOf	Whole Foods
+6	Whole Foods	HasTraffic	heavy traffic
+6	Whole Foods	HasDistance	2 miles
+6	heavy traffic	IsTrafficOf	Whole Foods
+6	2 miles	IsDistanceFrom	Whole Foods
+-1	today	IsEqualTo	monday

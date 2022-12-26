@@ -1,0 +1,57 @@
+0	Round Table	HasAddress	113 Anton Ct
+0	Round Table	HasType	pizza restaurant
+0	113 Anton Ct	IsAddressOf	Round Table
+0	pizza restaurant	IsTypeOf	Round Table
+0	Round Table	HasTraffic	moderate traffic
+0	Round Table	HasDistance	4 miles
+0	moderate traffic	IsTrafficOf	Round Table
+0	4 miles	IsDistanceFrom	Round Table
+1	jacks house	HasAddress	864 Almanor Ln
+1	jacks house	HasType	friends house
+1	864 Almanor Ln	IsAddressOf	jacks house
+1	friends house	IsTypeOf	jacks house
+1	jacks house	HasTraffic	heavy traffic
+1	jacks house	HasDistance	4 miles
+1	heavy traffic	IsTrafficOf	jacks house
+1	4 miles	IsDistanceFrom	jacks house
+2	Dominos	HasAddress	776 Arastradero Rd
+2	Dominos	HasType	pizza restaurant
+2	776 Arastradero Rd	IsAddressOf	Dominos
+2	pizza restaurant	IsTypeOf	Dominos
+2	Dominos	HasTraffic	moderate traffic
+2	Dominos	HasDistance	1 miles
+2	moderate traffic	IsTrafficOf	Dominos
+2	1 miles	IsDistanceFrom	Dominos
+3	The Westin	HasAddress	329 El Camino Real
+3	The Westin	HasType	rest stop
+3	329 El Camino Real	IsAddressOf	The Westin
+3	rest stop	IsTypeOf	The Westin
+3	The Westin	HasTraffic	moderate traffic
+3	The Westin	HasDistance	6 miles
+3	moderate traffic	IsTrafficOf	The Westin
+3	6 miles	IsDistanceFrom	The Westin
+4	Safeway	HasAddress	452 Arcadia Pl
+4	Safeway	HasType	grocery store
+4	452 Arcadia Pl	IsAddressOf	Safeway
+4	grocery store	IsTypeOf	Safeway
+4	Safeway	HasTraffic	moderate traffic
+4	Safeway	HasDistance	1 miles
+4	moderate traffic	IsTrafficOf	Safeway
+4	1 miles	IsDistanceFrom	Safeway
+5	Stanford Express Care	HasAddress	214 El Camino Real
+5	Stanford Express Care	HasType	hospital
+5	214 El Camino Real	IsAddressOf	Stanford Express Care
+5	hospital	IsTypeOf	Stanford Express Care
+5	Stanford Express Care	HasTraffic	moderate traffic
+5	Stanford Express Care	HasDistance	1 miles
+5	moderate traffic	IsTrafficOf	Stanford Express Care
+5	1 miles	IsDistanceFrom	Stanford Express Care
+6	Valero	HasAddress	200 Alester Ave
+6	Valero	HasType	gas station
+6	200 Alester Ave	IsAddressOf	Valero
+6	gas station	IsTypeOf	Valero
+6	Valero	HasTraffic	no traffic
+6	Valero	HasDistance	5 miles
+6	no traffic	IsTrafficOf	Valero
+6	5 miles	IsDistanceFrom	Valero
+-1	today	IsEqualTo	monday

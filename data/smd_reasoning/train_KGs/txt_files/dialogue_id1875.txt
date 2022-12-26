@@ -1,0 +1,65 @@
+0	5672 barringer street	HasAddress	5672 barringer street
+0	5672 barringer street	HasType	certain address
+0	5672 barringer street	IsAddressOf	5672 barringer street
+0	certain address	IsTypeOf	5672 barringer street
+0	5672 barringer street	HasTraffic	heavy traffic
+0	5672 barringer street	HasDistance	6 miles
+0	heavy traffic	IsTrafficOf	5672 barringer street
+0	6 miles	IsDistanceFrom	5672 barringer street
+1	Four Seasons	HasAddress	465 Arcadia Pl
+1	Four Seasons	HasType	rest stop
+1	465 Arcadia Pl	IsAddressOf	Four Seasons
+1	rest stop	IsTypeOf	Four Seasons
+1	Four Seasons	HasTraffic	road block nearby
+1	Four Seasons	HasDistance	1 miles
+1	road block nearby	IsTrafficOf	Four Seasons
+1	1 miles	IsDistanceFrom	Four Seasons
+2	Hotel Keen	HasAddress	578 Arbol Dr
+2	Hotel Keen	HasType	rest stop
+2	578 Arbol Dr	IsAddressOf	Hotel Keen
+2	rest stop	IsTypeOf	Hotel Keen
+2	Hotel Keen	HasTraffic	moderate traffic
+2	Hotel Keen	HasDistance	4 miles
+2	moderate traffic	IsTrafficOf	Hotel Keen
+2	4 miles	IsDistanceFrom	Hotel Keen
+3	5677 southwest 4th street	HasAddress	5677 southwest 4th street
+3	5677 southwest 4th street	HasType	certain address
+3	5677 southwest 4th street	IsAddressOf	5677 southwest 4th street
+3	certain address	IsTypeOf	5677 southwest 4th street
+3	5677 southwest 4th street	HasTraffic	road block nearby
+3	5677 southwest 4th street	HasDistance	2 miles
+3	road block nearby	IsTrafficOf	5677 southwest 4th street
+3	2 miles	IsDistanceFrom	5677 southwest 4th street
+4	tai pan	HasAddress	830 Almanor Ln
+4	tai pan	HasType	chinese restaurant
+4	830 Almanor Ln	IsAddressOf	tai pan
+4	chinese restaurant	IsTypeOf	tai pan
+4	tai pan	HasTraffic	car collision nearby
+4	tai pan	HasDistance	6 miles
+4	car collision nearby	IsTrafficOf	tai pan
+4	6 miles	IsDistanceFrom	tai pan
+5	Stanford Express Care	HasAddress	214 El Camino Real
+5	Stanford Express Care	HasType	hospital
+5	214 El Camino Real	IsAddressOf	Stanford Express Care
+5	hospital	IsTypeOf	Stanford Express Care
+5	Stanford Express Care	HasTraffic	heavy traffic
+5	Stanford Express Care	HasDistance	3 miles
+5	heavy traffic	IsTrafficOf	Stanford Express Care
+5	3 miles	IsDistanceFrom	Stanford Express Care
+6	Panda Express	HasAddress	842 Arrowhead Way
+6	Panda Express	HasType	chinese restaurant
+6	842 Arrowhead Way	IsAddressOf	Panda Express
+6	chinese restaurant	IsTypeOf	Panda Express
+6	Panda Express	HasTraffic	heavy traffic
+6	Panda Express	HasDistance	3 miles
+6	heavy traffic	IsTrafficOf	Panda Express
+6	3 miles	IsDistanceFrom	Panda Express
+7	Valero	HasAddress	200 Alester Ave
+7	Valero	HasType	gas station
+7	200 Alester Ave	IsAddressOf	Valero
+7	gas station	IsTypeOf	Valero
+7	Valero	HasTraffic	heavy traffic
+7	Valero	HasDistance	6 miles
+7	heavy traffic	IsTrafficOf	Valero
+7	6 miles	IsDistanceFrom	Valero
+-1	today	IsEqualTo	monday

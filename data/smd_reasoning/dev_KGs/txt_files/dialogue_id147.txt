@@ -1,0 +1,65 @@
+0	home	HasAddress	5671 barringer street
+0	home	HasType	home
+0	5671 barringer street	IsAddressOf	home
+0	home	IsTypeOf	home
+0	home	HasTraffic	no traffic
+0	home	HasDistance	2 miles
+0	no traffic	IsTrafficOf	home
+0	2 miles	IsDistanceFrom	home
+1	Trader Joes	HasAddress	408 University Ave
+1	Trader Joes	HasType	grocery store
+1	408 University Ave	IsAddressOf	Trader Joes
+1	grocery store	IsTypeOf	Trader Joes
+1	Trader Joes	HasTraffic	road block nearby
+1	Trader Joes	HasDistance	1 miles
+1	road block nearby	IsTrafficOf	Trader Joes
+1	1 miles	IsDistanceFrom	Trader Joes
+2	Four Seasons	HasAddress	465 Arcadia Pl
+2	Four Seasons	HasType	rest stop
+2	465 Arcadia Pl	IsAddressOf	Four Seasons
+2	rest stop	IsTypeOf	Four Seasons
+2	Four Seasons	HasTraffic	heavy traffic
+2	Four Seasons	HasDistance	5 miles
+2	heavy traffic	IsTrafficOf	Four Seasons
+2	5 miles	IsDistanceFrom	Four Seasons
+3	Stanford Childrens Health	HasAddress	899 Ames Ct
+3	Stanford Childrens Health	HasType	hospital
+3	899 Ames Ct	IsAddressOf	Stanford Childrens Health
+3	hospital	IsTypeOf	Stanford Childrens Health
+3	Stanford Childrens Health	HasTraffic	heavy traffic
+3	Stanford Childrens Health	HasDistance	5 miles
+3	heavy traffic	IsTrafficOf	Stanford Childrens Health
+3	5 miles	IsDistanceFrom	Stanford Childrens Health
+4	Pizza Chicago	HasAddress	915 Arbol Dr
+4	Pizza Chicago	HasType	pizza restaurant
+4	915 Arbol Dr	IsAddressOf	Pizza Chicago
+4	pizza restaurant	IsTypeOf	Pizza Chicago
+4	Pizza Chicago	HasTraffic	no traffic
+4	Pizza Chicago	HasDistance	4 miles
+4	no traffic	IsTrafficOf	Pizza Chicago
+4	4 miles	IsDistanceFrom	Pizza Chicago
+5	Mandarin Roots	HasAddress	271 Springer Street
+5	Mandarin Roots	HasType	chinese restaurant
+5	271 Springer Street	IsAddressOf	Mandarin Roots
+5	chinese restaurant	IsTypeOf	Mandarin Roots
+5	Mandarin Roots	HasTraffic	road block nearby
+5	Mandarin Roots	HasDistance	5 miles
+5	road block nearby	IsTrafficOf	Mandarin Roots
+5	5 miles	IsDistanceFrom	Mandarin Roots
+6	The Westin	HasAddress	329 El Camino Real
+6	The Westin	HasType	rest stop
+6	329 El Camino Real	IsAddressOf	The Westin
+6	rest stop	IsTypeOf	The Westin
+6	The Westin	HasTraffic	car collision nearby
+6	The Westin	HasDistance	6 miles
+6	car collision nearby	IsTrafficOf	The Westin
+6	6 miles	IsDistanceFrom	The Westin
+7	Teavana	HasAddress	145 Amherst St
+7	Teavana	HasType	coffee or tea place
+7	145 Amherst St	IsAddressOf	Teavana
+7	coffee or tea place	IsTypeOf	Teavana
+7	Teavana	HasTraffic	no traffic
+7	Teavana	HasDistance	3 miles
+7	no traffic	IsTrafficOf	Teavana
+7	3 miles	IsDistanceFrom	Teavana
+-1	today	IsEqualTo	monday

@@ -1,0 +1,57 @@
+0	Dominos	HasAddress	776 Arastradero Rd
+0	Dominos	HasType	pizza restaurant
+0	776 Arastradero Rd	IsAddressOf	Dominos
+0	pizza restaurant	IsTypeOf	Dominos
+0	Dominos	HasTraffic	heavy traffic
+0	Dominos	HasDistance	4 miles
+0	heavy traffic	IsTrafficOf	Dominos
+0	4 miles	IsDistanceFrom	Dominos
+1	tai pan	HasAddress	830 Almanor Ln
+1	tai pan	HasType	chinese restaurant
+1	830 Almanor Ln	IsAddressOf	tai pan
+1	chinese restaurant	IsTypeOf	tai pan
+1	tai pan	HasTraffic	no traffic
+1	tai pan	HasDistance	6 miles
+1	no traffic	IsTrafficOf	tai pan
+1	6 miles	IsDistanceFrom	tai pan
+2	5677 southwest 4th street	HasAddress	5677 southwest 4th street
+2	5677 southwest 4th street	HasType	certain address
+2	5677 southwest 4th street	IsAddressOf	5677 southwest 4th street
+2	certain address	IsTypeOf	5677 southwest 4th street
+2	5677 southwest 4th street	HasTraffic	heavy traffic
+2	5677 southwest 4th street	HasDistance	1 miles
+2	heavy traffic	IsTrafficOf	5677 southwest 4th street
+2	1 miles	IsDistanceFrom	5677 southwest 4th street
+3	Jing Jing	HasAddress	113 Arbol Dr
+3	Jing Jing	HasType	chinese restaurant
+3	113 Arbol Dr	IsAddressOf	Jing Jing
+3	chinese restaurant	IsTypeOf	Jing Jing
+3	Jing Jing	HasTraffic	moderate traffic
+3	Jing Jing	HasDistance	5 miles
+3	moderate traffic	IsTrafficOf	Jing Jing
+3	5 miles	IsDistanceFrom	Jing Jing
+4	Webster Garage	HasAddress	880 Ames Ct
+4	Webster Garage	HasType	parking garage
+4	880 Ames Ct	IsAddressOf	Webster Garage
+4	parking garage	IsTypeOf	Webster Garage
+4	Webster Garage	HasTraffic	heavy traffic
+4	Webster Garage	HasDistance	1 miles
+4	heavy traffic	IsTrafficOf	Webster Garage
+4	1 miles	IsDistanceFrom	Webster Garage
+5	Round Table	HasAddress	113 Anton Ct
+5	Round Table	HasType	pizza restaurant
+5	113 Anton Ct	IsAddressOf	Round Table
+5	pizza restaurant	IsTypeOf	Round Table
+5	Round Table	HasTraffic	moderate traffic
+5	Round Table	HasDistance	1 miles
+5	moderate traffic	IsTrafficOf	Round Table
+5	1 miles	IsDistanceFrom	Round Table
+6	home	HasAddress	10 ames street
+6	home	HasType	home
+6	10 ames street	IsAddressOf	home
+6	home	IsTypeOf	home
+6	home	HasTraffic	heavy traffic
+6	home	HasDistance	2 miles
+6	heavy traffic	IsTrafficOf	home
+6	2 miles	IsDistanceFrom	home
+-1	today	IsEqualTo	monday

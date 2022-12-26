@@ -1,0 +1,57 @@
+0	5672 barringer street	HasAddress	5672 barringer street
+0	5672 barringer street	HasType	certain address
+0	5672 barringer street	IsAddressOf	5672 barringer street
+0	certain address	IsTypeOf	5672 barringer street
+0	5672 barringer street	HasTraffic	no traffic
+0	5672 barringer street	HasDistance	1 miles
+0	no traffic	IsTrafficOf	5672 barringer street
+0	1 miles	IsDistanceFrom	5672 barringer street
+1	Teavana	HasAddress	145 Amherst St
+1	Teavana	HasType	coffee or tea place
+1	145 Amherst St	IsAddressOf	Teavana
+1	coffee or tea place	IsTypeOf	Teavana
+1	Teavana	HasTraffic	heavy traffic
+1	Teavana	HasDistance	1 miles
+1	heavy traffic	IsTrafficOf	Teavana
+1	1 miles	IsDistanceFrom	Teavana
+2	Palo Alto Garage R	HasAddress	481 Amaranta Ave
+2	Palo Alto Garage R	HasType	parking garage
+2	481 Amaranta Ave	IsAddressOf	Palo Alto Garage R
+2	parking garage	IsTypeOf	Palo Alto Garage R
+2	Palo Alto Garage R	HasTraffic	heavy traffic
+2	Palo Alto Garage R	HasDistance	4 miles
+2	heavy traffic	IsTrafficOf	Palo Alto Garage R
+2	4 miles	IsDistanceFrom	Palo Alto Garage R
+3	Midtown Shopping Center	HasAddress	338 Alester Ave
+3	Midtown Shopping Center	HasType	shopping center
+3	338 Alester Ave	IsAddressOf	Midtown Shopping Center
+3	shopping center	IsTypeOf	Midtown Shopping Center
+3	Midtown Shopping Center	HasTraffic	heavy traffic
+3	Midtown Shopping Center	HasDistance	2 miles
+3	heavy traffic	IsTrafficOf	Midtown Shopping Center
+3	2 miles	IsDistanceFrom	Midtown Shopping Center
+4	Hotel Keen	HasAddress	578 Arbol Dr
+4	Hotel Keen	HasType	rest stop
+4	578 Arbol Dr	IsAddressOf	Hotel Keen
+4	rest stop	IsTypeOf	Hotel Keen
+4	Hotel Keen	HasTraffic	no traffic
+4	Hotel Keen	HasDistance	4 miles
+4	no traffic	IsTrafficOf	Hotel Keen
+4	4 miles	IsDistanceFrom	Hotel Keen
+5	home	HasAddress	10 ames street
+5	home	HasType	home
+5	10 ames street	IsAddressOf	home
+5	home	IsTypeOf	home
+5	home	HasTraffic	no traffic
+5	home	HasDistance	1 miles
+5	no traffic	IsTrafficOf	home
+5	1 miles	IsDistanceFrom	home
+6	home	HasAddress	10 ames street
+6	home	HasType	home
+6	10 ames street	IsAddressOf	home
+6	home	IsTypeOf	home
+6	home	HasTraffic	no traffic
+6	home	HasDistance	5 miles
+6	no traffic	IsTrafficOf	home
+6	5 miles	IsDistanceFrom	home
+-1	today	IsEqualTo	monday

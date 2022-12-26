@@ -1,0 +1,61 @@
+0	conference	HasTime	9am
+0	9am	IsTimeOf	conference
+0	conference	HasDate	saturday
+0	saturday	IsDateOf	conference
+0	conference	HasParty	sales team
+0	sales team	IsPartyOf	conference
+0	conference	HasRoom	conference room 102
+0	conference room 102	IsRoomOf	conference
+0	conference	HasAgenda	discuss the company picnic
+0	discuss the company picnic	IsAgendaOf	conference
+1	conference	HasTime	6pm
+1	6pm	IsTimeOf	conference
+1	conference	HasDate	wednesday
+1	wednesday	IsDateOf	conference
+1	conference	HasParty	sales team
+1	sales team	IsPartyOf	conference
+1	conference	HasRoom	conference room 50
+1	conference room 50	IsRoomOf	conference
+1	conference	HasAgenda	go over budget
+1	go over budget	IsAgendaOf	conference
+2	optometrist appointment	HasTime	4pm
+2	4pm	IsTimeOf	optometrist appointment
+2	optometrist appointment	HasDate	sunday
+2	sunday	IsDateOf	optometrist appointment
+2	optometrist appointment	HasParty	Jon
+2	Jon	IsPartyOf	optometrist appointment
+3	football activity	HasTime	9am
+3	9am	IsTimeOf	football activity
+3	football activity	HasDate	thursday
+3	thursday	IsDateOf	football activity
+3	football activity	HasParty	Marie
+3	Marie	IsPartyOf	football activity
+4	lab appointment	HasTime	9am
+4	9am	IsTimeOf	lab appointment
+4	lab appointment	HasDate	the 13th
+4	the 13th	IsDateOf	lab appointment
+4	lab appointment	HasParty	Tom
+4	Tom	IsPartyOf	lab appointment
+5	football activity	HasTime	6pm
+5	6pm	IsTimeOf	football activity
+5	football activity	HasDate	thursday
+5	thursday	IsDateOf	football activity
+5	football activity	HasParty	Jeff
+5	Jeff	IsPartyOf	football activity
+6	optometrist appointment	HasTime	1pm
+6	1pm	IsTimeOf	optometrist appointment
+6	optometrist appointment	HasDate	thursday
+6	thursday	IsDateOf	optometrist appointment
+6	optometrist appointment	HasParty	Jeff
+6	Jeff	IsPartyOf	optometrist appointment
+7	meeting	HasTime	11am
+7	11am	IsTimeOf	meeting
+7	meeting	HasDate	tuesday
+7	tuesday	IsDateOf	meeting
+7	meeting	HasParty	boss
+7	boss	IsPartyOf	meeting
+7	meeting	HasRoom	conference room 50
+7	conference room 50	IsRoomOf	meeting
+7	meeting	HasAgenda	discuss the company picnic
+7	discuss the company picnic	IsAgendaOf	meeting
+-1	today	IsEqualTo	monday

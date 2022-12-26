@@ -1,0 +1,41 @@
+0	tennis activity	HasTime	7pm
+0	7pm	IsTimeOf	tennis activity
+0	tennis activity	HasDate	tuesday
+0	tuesday	IsDateOf	tennis activity
+0	tennis activity	HasParty	brother
+0	brother	IsPartyOf	tennis activity
+1	dentist appointment	HasTime	11am
+1	11am	IsTimeOf	dentist appointment
+1	dentist appointment	HasDate	the 3rd
+1	the 3rd	IsDateOf	dentist appointment
+1	dentist appointment	HasParty	aunt
+1	aunt	IsPartyOf	dentist appointment
+2	taking medicine	HasTime	6pm
+2	6pm	IsTimeOf	taking medicine
+2	taking medicine	HasDate	the 10th
+2	the 10th	IsDateOf	taking medicine
+2	taking medicine	HasParty	father
+2	father	IsPartyOf	taking medicine
+3	doctor appointment	HasTime	5pm
+3	5pm	IsTimeOf	doctor appointment
+3	doctor appointment	HasDate	the 5th
+3	the 5th	IsDateOf	doctor appointment
+3	doctor appointment	HasParty	Tom
+3	Tom	IsPartyOf	doctor appointment
+4	conference	HasTime	6pm
+4	6pm	IsTimeOf	conference
+4	conference	HasDate	the 4th
+4	the 4th	IsDateOf	conference
+4	conference	HasParty	infrastructure team
+4	infrastructure team	IsPartyOf	conference
+4	conference	HasRoom	conference room 100
+4	conference room 100	IsRoomOf	conference
+4	conference	HasAgenda	go over budget
+4	go over budget	IsAgendaOf	conference
+5	swimming activity	HasTime	4pm
+5	4pm	IsTimeOf	swimming activity
+5	swimming activity	HasDate	the 13th
+5	the 13th	IsDateOf	swimming activity
+5	swimming activity	HasParty	Martha
+5	Martha	IsPartyOf	swimming activity
+-1	today	IsEqualTo	monday

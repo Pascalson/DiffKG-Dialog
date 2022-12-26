@@ -1,0 +1,65 @@
+0	Trader Joes	HasAddress	408 University Ave
+0	Trader Joes	HasType	grocery store
+0	408 University Ave	IsAddressOf	Trader Joes
+0	grocery store	IsTypeOf	Trader Joes
+0	Trader Joes	HasTraffic	car collision nearby
+0	Trader Joes	HasDistance	4 miles
+0	car collision nearby	IsTrafficOf	Trader Joes
+0	4 miles	IsDistanceFrom	Trader Joes
+1	Starbucks	HasAddress	792 Bedoin Street
+1	Starbucks	HasType	coffee or tea place
+1	792 Bedoin Street	IsAddressOf	Starbucks
+1	coffee or tea place	IsTypeOf	Starbucks
+1	Starbucks	HasTraffic	moderate traffic
+1	Starbucks	HasDistance	1 miles
+1	moderate traffic	IsTrafficOf	Starbucks
+1	1 miles	IsDistanceFrom	Starbucks
+2	home	HasAddress	56 cadwell street
+2	home	HasType	home
+2	56 cadwell street	IsAddressOf	home
+2	home	IsTypeOf	home
+2	home	HasTraffic	car collision nearby
+2	home	HasDistance	6 miles
+2	car collision nearby	IsTrafficOf	home
+2	6 miles	IsDistanceFrom	home
+3	Ravenswood Shopping Center	HasAddress	434 Arastradero Rd
+3	Ravenswood Shopping Center	HasType	shopping center
+3	434 Arastradero Rd	IsAddressOf	Ravenswood Shopping Center
+3	shopping center	IsTypeOf	Ravenswood Shopping Center
+3	Ravenswood Shopping Center	HasTraffic	no traffic
+3	Ravenswood Shopping Center	HasDistance	4 miles
+3	no traffic	IsTrafficOf	Ravenswood Shopping Center
+3	4 miles	IsDistanceFrom	Ravenswood Shopping Center
+4	home	HasAddress	10 ames street
+4	home	HasType	home
+4	10 ames street	IsAddressOf	home
+4	home	IsTypeOf	home
+4	home	HasTraffic	road block nearby
+4	home	HasDistance	3 miles
+4	road block nearby	IsTrafficOf	home
+4	3 miles	IsDistanceFrom	home
+5	Chevron	HasAddress	783 Arcadia Pl
+5	Chevron	HasType	gas station
+5	783 Arcadia Pl	IsAddressOf	Chevron
+5	gas station	IsTypeOf	Chevron
+5	Chevron	HasTraffic	road block nearby
+5	Chevron	HasDistance	6 miles
+5	road block nearby	IsTrafficOf	Chevron
+5	6 miles	IsDistanceFrom	Chevron
+6	Jing Jing	HasAddress	113 Arbol Dr
+6	Jing Jing	HasType	chinese restaurant
+6	113 Arbol Dr	IsAddressOf	Jing Jing
+6	chinese restaurant	IsTypeOf	Jing Jing
+6	Jing Jing	HasTraffic	road block nearby
+6	Jing Jing	HasDistance	2 miles
+6	road block nearby	IsTrafficOf	Jing Jing
+6	2 miles	IsDistanceFrom	Jing Jing
+7	Palo Alto Cafe	HasAddress	436 Alger Dr
+7	Palo Alto Cafe	HasType	coffee or tea place
+7	436 Alger Dr	IsAddressOf	Palo Alto Cafe
+7	coffee or tea place	IsTypeOf	Palo Alto Cafe
+7	Palo Alto Cafe	HasTraffic	heavy traffic
+7	Palo Alto Cafe	HasDistance	2 miles
+7	heavy traffic	IsTrafficOf	Palo Alto Cafe
+7	2 miles	IsDistanceFrom	Palo Alto Cafe
+-1	today	IsEqualTo	monday

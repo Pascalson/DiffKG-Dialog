@@ -1,0 +1,65 @@
+0	Pizza My Heart	HasAddress	528 Anton Ct
+0	Pizza My Heart	HasType	pizza restaurant
+0	528 Anton Ct	IsAddressOf	Pizza My Heart
+0	pizza restaurant	IsTypeOf	Pizza My Heart
+0	Pizza My Heart	HasTraffic	no traffic
+0	Pizza My Heart	HasDistance	6 miles
+0	no traffic	IsTrafficOf	Pizza My Heart
+0	6 miles	IsDistanceFrom	Pizza My Heart
+1	Dominos	HasAddress	776 Arastradero Rd
+1	Dominos	HasType	pizza restaurant
+1	776 Arastradero Rd	IsAddressOf	Dominos
+1	pizza restaurant	IsTypeOf	Dominos
+1	Dominos	HasTraffic	moderate traffic
+1	Dominos	HasDistance	5 miles
+1	moderate traffic	IsTrafficOf	Dominos
+1	5 miles	IsDistanceFrom	Dominos
+2	Hotel Keen	HasAddress	578 Arbol Dr
+2	Hotel Keen	HasType	rest stop
+2	578 Arbol Dr	IsAddressOf	Hotel Keen
+2	rest stop	IsTypeOf	Hotel Keen
+2	Hotel Keen	HasTraffic	car collision nearby
+2	Hotel Keen	HasDistance	1 miles
+2	car collision nearby	IsTrafficOf	Hotel Keen
+2	1 miles	IsDistanceFrom	Hotel Keen
+3	Town and Country	HasAddress	383 University Ave
+3	Town and Country	HasType	shopping center
+3	383 University Ave	IsAddressOf	Town and Country
+3	shopping center	IsTypeOf	Town and Country
+3	Town and Country	HasTraffic	road block nearby
+3	Town and Country	HasDistance	3 miles
+3	road block nearby	IsTrafficOf	Town and Country
+3	3 miles	IsDistanceFrom	Town and Country
+4	Philz	HasAddress	583 Alester Ave
+4	Philz	HasType	coffee or tea place
+4	583 Alester Ave	IsAddressOf	Philz
+4	coffee or tea place	IsTypeOf	Philz
+4	Philz	HasTraffic	heavy traffic
+4	Philz	HasDistance	4 miles
+4	heavy traffic	IsTrafficOf	Philz
+4	4 miles	IsDistanceFrom	Philz
+5	Safeway	HasAddress	452 Arcadia Pl
+5	Safeway	HasType	grocery store
+5	452 Arcadia Pl	IsAddressOf	Safeway
+5	grocery store	IsTypeOf	Safeway
+5	Safeway	HasTraffic	car collision nearby
+5	Safeway	HasDistance	4 miles
+5	car collision nearby	IsTrafficOf	Safeway
+5	4 miles	IsDistanceFrom	Safeway
+6	Civic Center Garage	HasAddress	270 Altaire Walk
+6	Civic Center Garage	HasType	parking garage
+6	270 Altaire Walk	IsAddressOf	Civic Center Garage
+6	parking garage	IsTypeOf	Civic Center Garage
+6	Civic Center Garage	HasTraffic	road block nearby
+6	Civic Center Garage	HasDistance	6 miles
+6	road block nearby	IsTrafficOf	Civic Center Garage
+6	6 miles	IsDistanceFrom	Civic Center Garage
+7	P.F. Changs	HasAddress	669 El Camino Real
+7	P.F. Changs	HasType	chinese restaurant
+7	669 El Camino Real	IsAddressOf	P.F. Changs
+7	chinese restaurant	IsTypeOf	P.F. Changs
+7	P.F. Changs	HasTraffic	heavy traffic
+7	P.F. Changs	HasDistance	5 miles
+7	heavy traffic	IsTrafficOf	P.F. Changs
+7	5 miles	IsDistanceFrom	P.F. Changs
+-1	today	IsEqualTo	monday

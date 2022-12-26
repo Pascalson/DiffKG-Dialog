@@ -1,0 +1,65 @@
+0	Stanford Oval Parking	HasAddress	610 Amarillo Ave
+0	Stanford Oval Parking	HasType	parking garage
+0	610 Amarillo Ave	IsAddressOf	Stanford Oval Parking
+0	parking garage	IsTypeOf	Stanford Oval Parking
+0	Stanford Oval Parking	HasTraffic	car collision nearby
+0	Stanford Oval Parking	HasDistance	1 miles
+0	car collision nearby	IsTrafficOf	Stanford Oval Parking
+0	1 miles	IsDistanceFrom	Stanford Oval Parking
+1	Philz	HasAddress	583 Alester Ave
+1	Philz	HasType	coffee or tea place
+1	583 Alester Ave	IsAddressOf	Philz
+1	coffee or tea place	IsTypeOf	Philz
+1	Philz	HasTraffic	road block nearby
+1	Philz	HasDistance	5 miles
+1	road block nearby	IsTrafficOf	Philz
+1	5 miles	IsDistanceFrom	Philz
+2	Stanford Express Care	HasAddress	214 El Camino Real
+2	Stanford Express Care	HasType	hospital
+2	214 El Camino Real	IsAddressOf	Stanford Express Care
+2	hospital	IsTypeOf	Stanford Express Care
+2	Stanford Express Care	HasTraffic	moderate traffic
+2	Stanford Express Care	HasDistance	5 miles
+2	moderate traffic	IsTrafficOf	Stanford Express Care
+2	5 miles	IsDistanceFrom	Stanford Express Care
+3	Shell	HasAddress	53 University Av
+3	Shell	HasType	gas station
+3	53 University Av	IsAddressOf	Shell
+3	gas station	IsTypeOf	Shell
+3	Shell	HasTraffic	no traffic
+3	Shell	HasDistance	2 miles
+3	no traffic	IsTrafficOf	Shell
+3	2 miles	IsDistanceFrom	Shell
+4	jacks house	HasAddress	864 Almanor Ln
+4	jacks house	HasType	friends house
+4	864 Almanor Ln	IsAddressOf	jacks house
+4	friends house	IsTypeOf	jacks house
+4	jacks house	HasTraffic	road block nearby
+4	jacks house	HasDistance	3 miles
+4	road block nearby	IsTrafficOf	jacks house
+4	3 miles	IsDistanceFrom	jacks house
+5	Papa Johns	HasAddress	110 Arastradero Rd
+5	Papa Johns	HasType	pizza restaurant
+5	110 Arastradero Rd	IsAddressOf	Papa Johns
+5	pizza restaurant	IsTypeOf	Papa Johns
+5	Papa Johns	HasTraffic	no traffic
+5	Papa Johns	HasDistance	2 miles
+5	no traffic	IsTrafficOf	Papa Johns
+5	2 miles	IsDistanceFrom	Papa Johns
+6	P.F. Changs	HasAddress	669 El Camino Real
+6	P.F. Changs	HasType	chinese restaurant
+6	669 El Camino Real	IsAddressOf	P.F. Changs
+6	chinese restaurant	IsTypeOf	P.F. Changs
+6	P.F. Changs	HasTraffic	car collision nearby
+6	P.F. Changs	HasDistance	2 miles
+6	car collision nearby	IsTrafficOf	P.F. Changs
+6	2 miles	IsDistanceFrom	P.F. Changs
+7	Topanga Mall	HasAddress	171 Oak Rd
+7	Topanga Mall	HasType	shopping center
+7	171 Oak Rd	IsAddressOf	Topanga Mall
+7	shopping center	IsTypeOf	Topanga Mall
+7	Topanga Mall	HasTraffic	road block nearby
+7	Topanga Mall	HasDistance	1 miles
+7	road block nearby	IsTrafficOf	Topanga Mall
+7	1 miles	IsDistanceFrom	Topanga Mall
+-1	today	IsEqualTo	monday

@@ -1,0 +1,57 @@
+0	Trader Joes	HasAddress	408 University Ave
+0	Trader Joes	HasType	grocery store
+0	408 University Ave	IsAddressOf	Trader Joes
+0	grocery store	IsTypeOf	Trader Joes
+0	Trader Joes	HasTraffic	no traffic
+0	Trader Joes	HasDistance	5 miles
+0	no traffic	IsTrafficOf	Trader Joes
+0	5 miles	IsDistanceFrom	Trader Joes
+1	jills house	HasAddress	347 Alta Mesa Ave
+1	jills house	HasType	friends house
+1	347 Alta Mesa Ave	IsAddressOf	jills house
+1	friends house	IsTypeOf	jills house
+1	jills house	HasTraffic	heavy traffic
+1	jills house	HasDistance	4 miles
+1	heavy traffic	IsTrafficOf	jills house
+1	4 miles	IsDistanceFrom	jills house
+2	5677 southwest 4th street	HasAddress	5677 southwest 4th street
+2	5677 southwest 4th street	HasType	certain address
+2	5677 southwest 4th street	IsAddressOf	5677 southwest 4th street
+2	certain address	IsTypeOf	5677 southwest 4th street
+2	5677 southwest 4th street	HasTraffic	moderate traffic
+2	5677 southwest 4th street	HasDistance	5 miles
+2	moderate traffic	IsTrafficOf	5677 southwest 4th street
+2	5 miles	IsDistanceFrom	5677 southwest 4th street
+3	Mandarin Roots	HasAddress	271 Springer Street
+3	Mandarin Roots	HasType	chinese restaurant
+3	271 Springer Street	IsAddressOf	Mandarin Roots
+3	chinese restaurant	IsTypeOf	Mandarin Roots
+3	Mandarin Roots	HasTraffic	moderate traffic
+3	Mandarin Roots	HasDistance	4 miles
+3	moderate traffic	IsTrafficOf	Mandarin Roots
+3	4 miles	IsDistanceFrom	Mandarin Roots
+4	home	HasAddress	5672 barringer street
+4	home	HasType	home
+4	5672 barringer street	IsAddressOf	home
+4	home	IsTypeOf	home
+4	home	HasTraffic	heavy traffic
+4	home	HasDistance	4 miles
+4	heavy traffic	IsTrafficOf	home
+4	4 miles	IsDistanceFrom	home
+5	Comfort Inn	HasAddress	753 University Ave
+5	Comfort Inn	HasType	rest stop
+5	753 University Ave	IsAddressOf	Comfort Inn
+5	rest stop	IsTypeOf	Comfort Inn
+5	Comfort Inn	HasTraffic	no traffic
+5	Comfort Inn	HasDistance	5 miles
+5	no traffic	IsTrafficOf	Comfort Inn
+5	5 miles	IsDistanceFrom	Comfort Inn
+6	Ravenswood Shopping Center	HasAddress	434 Arastradero Rd
+6	Ravenswood Shopping Center	HasType	shopping center
+6	434 Arastradero Rd	IsAddressOf	Ravenswood Shopping Center
+6	shopping center	IsTypeOf	Ravenswood Shopping Center
+6	Ravenswood Shopping Center	HasTraffic	heavy traffic
+6	Ravenswood Shopping Center	HasDistance	4 miles
+6	heavy traffic	IsTrafficOf	Ravenswood Shopping Center
+6	4 miles	IsDistanceFrom	Ravenswood Shopping Center
+-1	today	IsEqualTo	monday

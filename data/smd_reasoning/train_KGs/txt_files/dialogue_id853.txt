@@ -1,0 +1,57 @@
+0	Hotel Keen	HasAddress	578 Arbol Dr
+0	Hotel Keen	HasType	rest stop
+0	578 Arbol Dr	IsAddressOf	Hotel Keen
+0	rest stop	IsTypeOf	Hotel Keen
+0	Hotel Keen	HasTraffic	heavy traffic
+0	Hotel Keen	HasDistance	5 miles
+0	heavy traffic	IsTrafficOf	Hotel Keen
+0	5 miles	IsDistanceFrom	Hotel Keen
+1	Town and Country	HasAddress	383 University Ave
+1	Town and Country	HasType	shopping center
+1	383 University Ave	IsAddressOf	Town and Country
+1	shopping center	IsTypeOf	Town and Country
+1	Town and Country	HasTraffic	heavy traffic
+1	Town and Country	HasDistance	4 miles
+1	heavy traffic	IsTrafficOf	Town and Country
+1	4 miles	IsDistanceFrom	Town and Country
+2	Mandarin Roots	HasAddress	271 Springer Street
+2	Mandarin Roots	HasType	chinese restaurant
+2	271 Springer Street	IsAddressOf	Mandarin Roots
+2	chinese restaurant	IsTypeOf	Mandarin Roots
+2	Mandarin Roots	HasTraffic	moderate traffic
+2	Mandarin Roots	HasDistance	4 miles
+2	moderate traffic	IsTrafficOf	Mandarin Roots
+2	4 miles	IsDistanceFrom	Mandarin Roots
+3	Starbucks	HasAddress	792 Bedoin Street
+3	Starbucks	HasType	coffee or tea place
+3	792 Bedoin Street	IsAddressOf	Starbucks
+3	coffee or tea place	IsTypeOf	Starbucks
+3	Starbucks	HasTraffic	no traffic
+3	Starbucks	HasDistance	6 miles
+3	no traffic	IsTrafficOf	Starbucks
+3	6 miles	IsDistanceFrom	Starbucks
+4	home	HasAddress	5671 barringer street
+4	home	HasType	home
+4	5671 barringer street	IsAddressOf	home
+4	home	IsTypeOf	home
+4	home	HasTraffic	heavy traffic
+4	home	HasDistance	4 miles
+4	heavy traffic	IsTrafficOf	home
+4	4 miles	IsDistanceFrom	home
+5	Stanford Express Care	HasAddress	214 El Camino Real
+5	Stanford Express Care	HasType	hospital
+5	214 El Camino Real	IsAddressOf	Stanford Express Care
+5	hospital	IsTypeOf	Stanford Express Care
+5	Stanford Express Care	HasTraffic	no traffic
+5	Stanford Express Care	HasDistance	3 miles
+5	no traffic	IsTrafficOf	Stanford Express Care
+5	3 miles	IsDistanceFrom	Stanford Express Care
+6	Webster Garage	HasAddress	880 Ames Ct
+6	Webster Garage	HasType	parking garage
+6	880 Ames Ct	IsAddressOf	Webster Garage
+6	parking garage	IsTypeOf	Webster Garage
+6	Webster Garage	HasTraffic	heavy traffic
+6	Webster Garage	HasDistance	3 miles
+6	heavy traffic	IsTrafficOf	Webster Garage
+6	3 miles	IsDistanceFrom	Webster Garage
+-1	today	IsEqualTo	monday

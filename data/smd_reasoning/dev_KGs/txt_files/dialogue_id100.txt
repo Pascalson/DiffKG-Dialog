@@ -1,0 +1,57 @@
+0	Mandarin Roots	HasAddress	271 Springer Street
+0	Mandarin Roots	HasType	chinese restaurant
+0	271 Springer Street	IsAddressOf	Mandarin Roots
+0	chinese restaurant	IsTypeOf	Mandarin Roots
+0	Mandarin Roots	HasTraffic	no traffic
+0	Mandarin Roots	HasDistance	6 miles
+0	no traffic	IsTrafficOf	Mandarin Roots
+0	6 miles	IsDistanceFrom	Mandarin Roots
+1	Safeway	HasAddress	452 Arcadia Pl
+1	Safeway	HasType	grocery store
+1	452 Arcadia Pl	IsAddressOf	Safeway
+1	grocery store	IsTypeOf	Safeway
+1	Safeway	HasTraffic	no traffic
+1	Safeway	HasDistance	1 miles
+1	no traffic	IsTrafficOf	Safeway
+1	1 miles	IsDistanceFrom	Safeway
+2	Pizza Hut	HasAddress	704 El Camino Real
+2	Pizza Hut	HasType	pizza restaurant
+2	704 El Camino Real	IsAddressOf	Pizza Hut
+2	pizza restaurant	IsTypeOf	Pizza Hut
+2	Pizza Hut	HasTraffic	no traffic
+2	Pizza Hut	HasDistance	4 miles
+2	no traffic	IsTrafficOf	Pizza Hut
+2	4 miles	IsDistanceFrom	Pizza Hut
+3	Four Seasons	HasAddress	465 Arcadia Pl
+3	Four Seasons	HasType	rest stop
+3	465 Arcadia Pl	IsAddressOf	Four Seasons
+3	rest stop	IsTypeOf	Four Seasons
+3	Four Seasons	HasTraffic	heavy traffic
+3	Four Seasons	HasDistance	2 miles
+3	heavy traffic	IsTrafficOf	Four Seasons
+3	2 miles	IsDistanceFrom	Four Seasons
+4	The Westin	HasAddress	329 El Camino Real
+4	The Westin	HasType	rest stop
+4	329 El Camino Real	IsAddressOf	The Westin
+4	rest stop	IsTypeOf	The Westin
+4	The Westin	HasTraffic	moderate traffic
+4	The Westin	HasDistance	5 miles
+4	moderate traffic	IsTrafficOf	The Westin
+4	5 miles	IsDistanceFrom	The Westin
+5	Round Table	HasAddress	113 Anton Ct
+5	Round Table	HasType	pizza restaurant
+5	113 Anton Ct	IsAddressOf	Round Table
+5	pizza restaurant	IsTypeOf	Round Table
+5	Round Table	HasTraffic	heavy traffic
+5	Round Table	HasDistance	6 miles
+5	heavy traffic	IsTrafficOf	Round Table
+5	6 miles	IsDistanceFrom	Round Table
+6	Trader Joes	HasAddress	408 University Ave
+6	Trader Joes	HasType	grocery store
+6	408 University Ave	IsAddressOf	Trader Joes
+6	grocery store	IsTypeOf	Trader Joes
+6	Trader Joes	HasTraffic	moderate traffic
+6	Trader Joes	HasDistance	1 miles
+6	moderate traffic	IsTrafficOf	Trader Joes
+6	1 miles	IsDistanceFrom	Trader Joes
+-1	today	IsEqualTo	monday

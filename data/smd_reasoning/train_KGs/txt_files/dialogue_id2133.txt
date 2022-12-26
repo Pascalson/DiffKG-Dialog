@@ -1,0 +1,65 @@
+0	Hotel Keen	HasAddress	578 Arbol Dr
+0	Hotel Keen	HasType	rest stop
+0	578 Arbol Dr	IsAddressOf	Hotel Keen
+0	rest stop	IsTypeOf	Hotel Keen
+0	Hotel Keen	HasTraffic	car collision nearby
+0	Hotel Keen	HasDistance	5 miles
+0	car collision nearby	IsTrafficOf	Hotel Keen
+0	5 miles	IsDistanceFrom	Hotel Keen
+1	Stanford Shopping Center	HasAddress	773 Alger Dr
+1	Stanford Shopping Center	HasType	shopping center
+1	773 Alger Dr	IsAddressOf	Stanford Shopping Center
+1	shopping center	IsTypeOf	Stanford Shopping Center
+1	Stanford Shopping Center	HasTraffic	road block nearby
+1	Stanford Shopping Center	HasDistance	6 miles
+1	road block nearby	IsTrafficOf	Stanford Shopping Center
+1	6 miles	IsDistanceFrom	Stanford Shopping Center
+2	Coupa	HasAddress	394 Van Ness Ave
+2	Coupa	HasType	coffee or tea place
+2	394 Van Ness Ave	IsAddressOf	Coupa
+2	coffee or tea place	IsTypeOf	Coupa
+2	Coupa	HasTraffic	heavy traffic
+2	Coupa	HasDistance	3 miles
+2	heavy traffic	IsTrafficOf	Coupa
+2	3 miles	IsDistanceFrom	Coupa
+3	Palo Alto Cafe	HasAddress	436 Alger Dr
+3	Palo Alto Cafe	HasType	coffee or tea place
+3	436 Alger Dr	IsAddressOf	Palo Alto Cafe
+3	coffee or tea place	IsTypeOf	Palo Alto Cafe
+3	Palo Alto Cafe	HasTraffic	car collision nearby
+3	Palo Alto Cafe	HasDistance	2 miles
+3	car collision nearby	IsTrafficOf	Palo Alto Cafe
+3	2 miles	IsDistanceFrom	Palo Alto Cafe
+4	Palo Alto Garage R	HasAddress	481 Amaranta Ave
+4	Palo Alto Garage R	HasType	parking garage
+4	481 Amaranta Ave	IsAddressOf	Palo Alto Garage R
+4	parking garage	IsTypeOf	Palo Alto Garage R
+4	Palo Alto Garage R	HasTraffic	no traffic
+4	Palo Alto Garage R	HasDistance	5 miles
+4	no traffic	IsTrafficOf	Palo Alto Garage R
+4	5 miles	IsDistanceFrom	Palo Alto Garage R
+5	Teavana	HasAddress	145 Amherst St
+5	Teavana	HasType	coffee or tea place
+5	145 Amherst St	IsAddressOf	Teavana
+5	coffee or tea place	IsTypeOf	Teavana
+5	Teavana	HasTraffic	road block nearby
+5	Teavana	HasDistance	6 miles
+5	road block nearby	IsTrafficOf	Teavana
+5	6 miles	IsDistanceFrom	Teavana
+6	Jing Jing	HasAddress	113 Arbol Dr
+6	Jing Jing	HasType	chinese restaurant
+6	113 Arbol Dr	IsAddressOf	Jing Jing
+6	chinese restaurant	IsTypeOf	Jing Jing
+6	Jing Jing	HasTraffic	car collision nearby
+6	Jing Jing	HasDistance	1 miles
+6	car collision nearby	IsTrafficOf	Jing Jing
+6	1 miles	IsDistanceFrom	Jing Jing
+7	Safeway	HasAddress	452 Arcadia Pl
+7	Safeway	HasType	grocery store
+7	452 Arcadia Pl	IsAddressOf	Safeway
+7	grocery store	IsTypeOf	Safeway
+7	Safeway	HasTraffic	car collision nearby
+7	Safeway	HasDistance	1 miles
+7	car collision nearby	IsTrafficOf	Safeway
+7	1 miles	IsDistanceFrom	Safeway
+-1	today	IsEqualTo	monday

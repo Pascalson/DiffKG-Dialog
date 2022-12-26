@@ -1,0 +1,57 @@
+0	Civic Center Garage	HasAddress	270 Altaire Walk
+0	Civic Center Garage	HasType	parking garage
+0	270 Altaire Walk	IsAddressOf	Civic Center Garage
+0	parking garage	IsTypeOf	Civic Center Garage
+0	Civic Center Garage	HasTraffic	heavy traffic
+0	Civic Center Garage	HasDistance	6 miles
+0	heavy traffic	IsTrafficOf	Civic Center Garage
+0	6 miles	IsDistanceFrom	Civic Center Garage
+1	Dominos	HasAddress	776 Arastradero Rd
+1	Dominos	HasType	pizza restaurant
+1	776 Arastradero Rd	IsAddressOf	Dominos
+1	pizza restaurant	IsTypeOf	Dominos
+1	Dominos	HasTraffic	moderate traffic
+1	Dominos	HasDistance	1 miles
+1	moderate traffic	IsTrafficOf	Dominos
+1	1 miles	IsDistanceFrom	Dominos
+2	Pizza My Heart	HasAddress	528 Anton Ct
+2	Pizza My Heart	HasType	pizza restaurant
+2	528 Anton Ct	IsAddressOf	Pizza My Heart
+2	pizza restaurant	IsTypeOf	Pizza My Heart
+2	Pizza My Heart	HasTraffic	no traffic
+2	Pizza My Heart	HasDistance	2 miles
+2	no traffic	IsTrafficOf	Pizza My Heart
+2	2 miles	IsDistanceFrom	Pizza My Heart
+3	Jing Jing	HasAddress	113 Arbol Dr
+3	Jing Jing	HasType	chinese restaurant
+3	113 Arbol Dr	IsAddressOf	Jing Jing
+3	chinese restaurant	IsTypeOf	Jing Jing
+3	Jing Jing	HasTraffic	no traffic
+3	Jing Jing	HasDistance	1 miles
+3	no traffic	IsTrafficOf	Jing Jing
+3	1 miles	IsDistanceFrom	Jing Jing
+4	Valero	HasAddress	200 Alester Ave
+4	Valero	HasType	gas station
+4	200 Alester Ave	IsAddressOf	Valero
+4	gas station	IsTypeOf	Valero
+4	Valero	HasTraffic	heavy traffic
+4	Valero	HasDistance	5 miles
+4	heavy traffic	IsTrafficOf	Valero
+4	5 miles	IsDistanceFrom	Valero
+5	Stanford Express Care	HasAddress	214 El Camino Real
+5	Stanford Express Care	HasType	hospital
+5	214 El Camino Real	IsAddressOf	Stanford Express Care
+5	hospital	IsTypeOf	Stanford Express Care
+5	Stanford Express Care	HasTraffic	no traffic
+5	Stanford Express Care	HasDistance	3 miles
+5	no traffic	IsTrafficOf	Stanford Express Care
+5	3 miles	IsDistanceFrom	Stanford Express Care
+6	Stanford Shopping Center	HasAddress	773 Alger Dr
+6	Stanford Shopping Center	HasType	shopping center
+6	773 Alger Dr	IsAddressOf	Stanford Shopping Center
+6	shopping center	IsTypeOf	Stanford Shopping Center
+6	Stanford Shopping Center	HasTraffic	moderate traffic
+6	Stanford Shopping Center	HasDistance	5 miles
+6	moderate traffic	IsTrafficOf	Stanford Shopping Center
+6	5 miles	IsDistanceFrom	Stanford Shopping Center
+-1	today	IsEqualTo	monday

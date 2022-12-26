@@ -1,0 +1,65 @@
+0	Papa Johns	HasAddress	110 Arastradero Rd
+0	Papa Johns	HasType	pizza restaurant
+0	110 Arastradero Rd	IsAddressOf	Papa Johns
+0	pizza restaurant	IsTypeOf	Papa Johns
+0	Papa Johns	HasTraffic	heavy traffic
+0	Papa Johns	HasDistance	3 miles
+0	heavy traffic	IsTrafficOf	Papa Johns
+0	3 miles	IsDistanceFrom	Papa Johns
+1	Stanford Childrens Health	HasAddress	899 Ames Ct
+1	Stanford Childrens Health	HasType	hospital
+1	899 Ames Ct	IsAddressOf	Stanford Childrens Health
+1	hospital	IsTypeOf	Stanford Childrens Health
+1	Stanford Childrens Health	HasTraffic	road block nearby
+1	Stanford Childrens Health	HasDistance	5 miles
+1	road block nearby	IsTrafficOf	Stanford Childrens Health
+1	5 miles	IsDistanceFrom	Stanford Childrens Health
+2	toms house	HasAddress	580 Van Ness Ave
+2	toms house	HasType	friends house
+2	580 Van Ness Ave	IsAddressOf	toms house
+2	friends house	IsTypeOf	toms house
+2	toms house	HasTraffic	moderate traffic
+2	toms house	HasDistance	3 miles
+2	moderate traffic	IsTrafficOf	toms house
+2	3 miles	IsDistanceFrom	toms house
+3	Topanga Mall	HasAddress	171 Oak Rd
+3	Topanga Mall	HasType	shopping center
+3	171 Oak Rd	IsAddressOf	Topanga Mall
+3	shopping center	IsTypeOf	Topanga Mall
+3	Topanga Mall	HasTraffic	heavy traffic
+3	Topanga Mall	HasDistance	3 miles
+3	heavy traffic	IsTrafficOf	Topanga Mall
+3	3 miles	IsDistanceFrom	Topanga Mall
+4	Dominos	HasAddress	776 Arastradero Rd
+4	Dominos	HasType	pizza restaurant
+4	776 Arastradero Rd	IsAddressOf	Dominos
+4	pizza restaurant	IsTypeOf	Dominos
+4	Dominos	HasTraffic	no traffic
+4	Dominos	HasDistance	1 miles
+4	no traffic	IsTrafficOf	Dominos
+4	1 miles	IsDistanceFrom	Dominos
+5	Comfort Inn	HasAddress	753 University Ave
+5	Comfort Inn	HasType	rest stop
+5	753 University Ave	IsAddressOf	Comfort Inn
+5	rest stop	IsTypeOf	Comfort Inn
+5	Comfort Inn	HasTraffic	heavy traffic
+5	Comfort Inn	HasDistance	3 miles
+5	heavy traffic	IsTrafficOf	Comfort Inn
+5	3 miles	IsDistanceFrom	Comfort Inn
+6	home	HasAddress	5671 barringer street
+6	home	HasType	home
+6	5671 barringer street	IsAddressOf	home
+6	home	IsTypeOf	home
+6	home	HasTraffic	moderate traffic
+6	home	HasDistance	1 miles
+6	moderate traffic	IsTrafficOf	home
+6	1 miles	IsDistanceFrom	home
+7	Sigona Farmers Market	HasAddress	638 Amherst St
+7	Sigona Farmers Market	HasType	grocery store
+7	638 Amherst St	IsAddressOf	Sigona Farmers Market
+7	grocery store	IsTypeOf	Sigona Farmers Market
+7	Sigona Farmers Market	HasTraffic	moderate traffic
+7	Sigona Farmers Market	HasDistance	6 miles
+7	moderate traffic	IsTrafficOf	Sigona Farmers Market
+7	6 miles	IsDistanceFrom	Sigona Farmers Market
+-1	today	IsEqualTo	monday

@@ -1,0 +1,65 @@
+0	Stanford Express Care	HasAddress	214 El Camino Real
+0	Stanford Express Care	HasType	hospital
+0	214 El Camino Real	IsAddressOf	Stanford Express Care
+0	hospital	IsTypeOf	Stanford Express Care
+0	Stanford Express Care	HasTraffic	moderate traffic
+0	Stanford Express Care	HasDistance	6 miles
+0	moderate traffic	IsTrafficOf	Stanford Express Care
+0	6 miles	IsDistanceFrom	Stanford Express Care
+1	5672 barringer street	HasAddress	5672 barringer street
+1	5672 barringer street	HasType	certain address
+1	5672 barringer street	IsAddressOf	5672 barringer street
+1	certain address	IsTypeOf	5672 barringer street
+1	5672 barringer street	HasTraffic	heavy traffic
+1	5672 barringer street	HasDistance	5 miles
+1	heavy traffic	IsTrafficOf	5672 barringer street
+1	5 miles	IsDistanceFrom	5672 barringer street
+2	The Clement Hotel	HasAddress	657 Ames Ave
+2	The Clement Hotel	HasType	rest stop
+2	657 Ames Ave	IsAddressOf	The Clement Hotel
+2	rest stop	IsTypeOf	The Clement Hotel
+2	The Clement Hotel	HasTraffic	moderate traffic
+2	The Clement Hotel	HasDistance	5 miles
+2	moderate traffic	IsTrafficOf	The Clement Hotel
+2	5 miles	IsDistanceFrom	The Clement Hotel
+3	Trader Joes	HasAddress	408 University Ave
+3	Trader Joes	HasType	grocery store
+3	408 University Ave	IsAddressOf	Trader Joes
+3	grocery store	IsTypeOf	Trader Joes
+3	Trader Joes	HasTraffic	moderate traffic
+3	Trader Joes	HasDistance	1 miles
+3	moderate traffic	IsTrafficOf	Trader Joes
+3	1 miles	IsDistanceFrom	Trader Joes
+4	tai pan	HasAddress	830 Almanor Ln
+4	tai pan	HasType	chinese restaurant
+4	830 Almanor Ln	IsAddressOf	tai pan
+4	chinese restaurant	IsTypeOf	tai pan
+4	tai pan	HasTraffic	moderate traffic
+4	tai pan	HasDistance	5 miles
+4	moderate traffic	IsTrafficOf	tai pan
+4	5 miles	IsDistanceFrom	tai pan
+5	Topanga Mall	HasAddress	171 Oak Rd
+5	Topanga Mall	HasType	shopping center
+5	171 Oak Rd	IsAddressOf	Topanga Mall
+5	shopping center	IsTypeOf	Topanga Mall
+5	Topanga Mall	HasTraffic	moderate traffic
+5	Topanga Mall	HasDistance	4 miles
+5	moderate traffic	IsTrafficOf	Topanga Mall
+5	4 miles	IsDistanceFrom	Topanga Mall
+6	Teavana	HasAddress	145 Amherst St
+6	Teavana	HasType	coffee or tea place
+6	145 Amherst St	IsAddressOf	Teavana
+6	coffee or tea place	IsTypeOf	Teavana
+6	Teavana	HasTraffic	road block nearby
+6	Teavana	HasDistance	2 miles
+6	road block nearby	IsTrafficOf	Teavana
+6	2 miles	IsDistanceFrom	Teavana
+7	The Westin	HasAddress	329 El Camino Real
+7	The Westin	HasType	rest stop
+7	329 El Camino Real	IsAddressOf	The Westin
+7	rest stop	IsTypeOf	The Westin
+7	The Westin	HasTraffic	no traffic
+7	The Westin	HasDistance	4 miles
+7	no traffic	IsTrafficOf	The Westin
+7	4 miles	IsDistanceFrom	The Westin
+-1	today	IsEqualTo	monday

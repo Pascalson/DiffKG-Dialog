@@ -1,0 +1,65 @@
+0	Teavana	HasAddress	145 Amherst St
+0	Teavana	HasType	coffee or tea place
+0	145 Amherst St	IsAddressOf	Teavana
+0	coffee or tea place	IsTypeOf	Teavana
+0	Teavana	HasTraffic	moderate traffic
+0	Teavana	HasDistance	3 miles
+0	moderate traffic	IsTrafficOf	Teavana
+0	3 miles	IsDistanceFrom	Teavana
+1	Stanford Childrens Health	HasAddress	899 Ames Ct
+1	Stanford Childrens Health	HasType	hospital
+1	899 Ames Ct	IsAddressOf	Stanford Childrens Health
+1	hospital	IsTypeOf	Stanford Childrens Health
+1	Stanford Childrens Health	HasTraffic	heavy traffic
+1	Stanford Childrens Health	HasDistance	2 miles
+1	heavy traffic	IsTrafficOf	Stanford Childrens Health
+1	2 miles	IsDistanceFrom	Stanford Childrens Health
+2	The Clement Hotel	HasAddress	657 Ames Ave
+2	The Clement Hotel	HasType	rest stop
+2	657 Ames Ave	IsAddressOf	The Clement Hotel
+2	rest stop	IsTypeOf	The Clement Hotel
+2	The Clement Hotel	HasTraffic	road block nearby
+2	The Clement Hotel	HasDistance	1 miles
+2	road block nearby	IsTrafficOf	The Clement Hotel
+2	1 miles	IsDistanceFrom	The Clement Hotel
+3	Sigona Farmers Market	HasAddress	638 Amherst St
+3	Sigona Farmers Market	HasType	grocery store
+3	638 Amherst St	IsAddressOf	Sigona Farmers Market
+3	grocery store	IsTypeOf	Sigona Farmers Market
+3	Sigona Farmers Market	HasTraffic	moderate traffic
+3	Sigona Farmers Market	HasDistance	2 miles
+3	moderate traffic	IsTrafficOf	Sigona Farmers Market
+3	2 miles	IsDistanceFrom	Sigona Farmers Market
+4	Round Table	HasAddress	113 Anton Ct
+4	Round Table	HasType	pizza restaurant
+4	113 Anton Ct	IsAddressOf	Round Table
+4	pizza restaurant	IsTypeOf	Round Table
+4	Round Table	HasTraffic	moderate traffic
+4	Round Table	HasDistance	1 miles
+4	moderate traffic	IsTrafficOf	Round Table
+4	1 miles	IsDistanceFrom	Round Table
+5	Chef Chu's	HasAddress	593 Arrowhead Way
+5	Chef Chu's	HasType	chinese restaurant
+5	593 Arrowhead Way	IsAddressOf	Chef Chu's
+5	chinese restaurant	IsTypeOf	Chef Chu's
+5	Chef Chu's	HasTraffic	road block nearby
+5	Chef Chu's	HasDistance	6 miles
+5	road block nearby	IsTrafficOf	Chef Chu's
+5	6 miles	IsDistanceFrom	Chef Chu's
+6	Stanford Shopping Center	HasAddress	773 Alger Dr
+6	Stanford Shopping Center	HasType	shopping center
+6	773 Alger Dr	IsAddressOf	Stanford Shopping Center
+6	shopping center	IsTypeOf	Stanford Shopping Center
+6	Stanford Shopping Center	HasTraffic	no traffic
+6	Stanford Shopping Center	HasDistance	2 miles
+6	no traffic	IsTrafficOf	Stanford Shopping Center
+6	2 miles	IsDistanceFrom	Stanford Shopping Center
+7	Stanford Oval Parking	HasAddress	610 Amarillo Ave
+7	Stanford Oval Parking	HasType	parking garage
+7	610 Amarillo Ave	IsAddressOf	Stanford Oval Parking
+7	parking garage	IsTypeOf	Stanford Oval Parking
+7	Stanford Oval Parking	HasTraffic	moderate traffic
+7	Stanford Oval Parking	HasDistance	1 miles
+7	moderate traffic	IsTrafficOf	Stanford Oval Parking
+7	1 miles	IsDistanceFrom	Stanford Oval Parking
+-1	today	IsEqualTo	monday

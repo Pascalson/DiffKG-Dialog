@@ -1,0 +1,65 @@
+0	Pizza My Heart	HasAddress	528 Anton Ct
+0	Pizza My Heart	HasType	pizza restaurant
+0	528 Anton Ct	IsAddressOf	Pizza My Heart
+0	pizza restaurant	IsTypeOf	Pizza My Heart
+0	Pizza My Heart	HasTraffic	car collision nearby
+0	Pizza My Heart	HasDistance	4 miles
+0	car collision nearby	IsTrafficOf	Pizza My Heart
+0	4 miles	IsDistanceFrom	Pizza My Heart
+1	The Clement Hotel	HasAddress	657 Ames Ave
+1	The Clement Hotel	HasType	rest stop
+1	657 Ames Ave	IsAddressOf	The Clement Hotel
+1	rest stop	IsTypeOf	The Clement Hotel
+1	The Clement Hotel	HasTraffic	heavy traffic
+1	The Clement Hotel	HasDistance	6 miles
+1	heavy traffic	IsTrafficOf	The Clement Hotel
+1	6 miles	IsDistanceFrom	The Clement Hotel
+2	The Westin	HasAddress	329 El Camino Real
+2	The Westin	HasType	rest stop
+2	329 El Camino Real	IsAddressOf	The Westin
+2	rest stop	IsTypeOf	The Westin
+2	The Westin	HasTraffic	heavy traffic
+2	The Westin	HasDistance	6 miles
+2	heavy traffic	IsTrafficOf	The Westin
+2	6 miles	IsDistanceFrom	The Westin
+3	Town and Country	HasAddress	383 University Ave
+3	Town and Country	HasType	shopping center
+3	383 University Ave	IsAddressOf	Town and Country
+3	shopping center	IsTypeOf	Town and Country
+3	Town and Country	HasTraffic	road block nearby
+3	Town and Country	HasDistance	3 miles
+3	road block nearby	IsTrafficOf	Town and Country
+3	3 miles	IsDistanceFrom	Town and Country
+4	5677 springer street	HasAddress	5677 springer street
+4	5677 springer street	HasType	certain address
+4	5677 springer street	IsAddressOf	5677 springer street
+4	certain address	IsTypeOf	5677 springer street
+4	5677 springer street	HasTraffic	car collision nearby
+4	5677 springer street	HasDistance	4 miles
+4	car collision nearby	IsTrafficOf	5677 springer street
+4	4 miles	IsDistanceFrom	5677 springer street
+5	Civic Center Garage	HasAddress	270 Altaire Walk
+5	Civic Center Garage	HasType	parking garage
+5	270 Altaire Walk	IsAddressOf	Civic Center Garage
+5	parking garage	IsTypeOf	Civic Center Garage
+5	Civic Center Garage	HasTraffic	no traffic
+5	Civic Center Garage	HasDistance	3 miles
+5	no traffic	IsTrafficOf	Civic Center Garage
+5	3 miles	IsDistanceFrom	Civic Center Garage
+6	home	HasAddress	56 cadwell street
+6	home	HasType	home
+6	56 cadwell street	IsAddressOf	home
+6	home	IsTypeOf	home
+6	home	HasTraffic	car collision nearby
+6	home	HasDistance	3 miles
+6	car collision nearby	IsTrafficOf	home
+6	3 miles	IsDistanceFrom	home
+7	Sigona Farmers Market	HasAddress	638 Amherst St
+7	Sigona Farmers Market	HasType	grocery store
+7	638 Amherst St	IsAddressOf	Sigona Farmers Market
+7	grocery store	IsTypeOf	Sigona Farmers Market
+7	Sigona Farmers Market	HasTraffic	moderate traffic
+7	Sigona Farmers Market	HasDistance	2 miles
+7	moderate traffic	IsTrafficOf	Sigona Farmers Market
+7	2 miles	IsDistanceFrom	Sigona Farmers Market
+-1	today	IsEqualTo	monday

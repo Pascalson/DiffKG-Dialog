@@ -1,0 +1,57 @@
+0	Chef Chu's	HasAddress	593 Arrowhead Way
+0	Chef Chu's	HasType	chinese restaurant
+0	593 Arrowhead Way	IsAddressOf	Chef Chu's
+0	chinese restaurant	IsTypeOf	Chef Chu's
+0	Chef Chu's	HasTraffic	moderate traffic
+0	Chef Chu's	HasDistance	3 miles
+0	moderate traffic	IsTrafficOf	Chef Chu's
+0	3 miles	IsDistanceFrom	Chef Chu's
+1	Valero	HasAddress	200 Alester Ave
+1	Valero	HasType	gas station
+1	200 Alester Ave	IsAddressOf	Valero
+1	gas station	IsTypeOf	Valero
+1	Valero	HasTraffic	heavy traffic
+1	Valero	HasDistance	1 miles
+1	heavy traffic	IsTrafficOf	Valero
+1	1 miles	IsDistanceFrom	Valero
+2	Stanford Shopping Center	HasAddress	773 Alger Dr
+2	Stanford Shopping Center	HasType	shopping center
+2	773 Alger Dr	IsAddressOf	Stanford Shopping Center
+2	shopping center	IsTypeOf	Stanford Shopping Center
+2	Stanford Shopping Center	HasTraffic	heavy traffic
+2	Stanford Shopping Center	HasDistance	5 miles
+2	heavy traffic	IsTrafficOf	Stanford Shopping Center
+2	5 miles	IsDistanceFrom	Stanford Shopping Center
+3	Trader Joes	HasAddress	408 University Ave
+3	Trader Joes	HasType	grocery store
+3	408 University Ave	IsAddressOf	Trader Joes
+3	grocery store	IsTypeOf	Trader Joes
+3	Trader Joes	HasTraffic	moderate traffic
+3	Trader Joes	HasDistance	5 miles
+3	moderate traffic	IsTrafficOf	Trader Joes
+3	5 miles	IsDistanceFrom	Trader Joes
+4	Stanford Express Care	HasAddress	214 El Camino Real
+4	Stanford Express Care	HasType	hospital
+4	214 El Camino Real	IsAddressOf	Stanford Express Care
+4	hospital	IsTypeOf	Stanford Express Care
+4	Stanford Express Care	HasTraffic	moderate traffic
+4	Stanford Express Care	HasDistance	5 miles
+4	moderate traffic	IsTrafficOf	Stanford Express Care
+4	5 miles	IsDistanceFrom	Stanford Express Care
+5	tai pan	HasAddress	830 Almanor Ln
+5	tai pan	HasType	chinese restaurant
+5	830 Almanor Ln	IsAddressOf	tai pan
+5	chinese restaurant	IsTypeOf	tai pan
+5	tai pan	HasTraffic	no traffic
+5	tai pan	HasDistance	1 miles
+5	no traffic	IsTrafficOf	tai pan
+5	1 miles	IsDistanceFrom	tai pan
+6	Hotel Keen	HasAddress	578 Arbol Dr
+6	Hotel Keen	HasType	rest stop
+6	578 Arbol Dr	IsAddressOf	Hotel Keen
+6	rest stop	IsTypeOf	Hotel Keen
+6	Hotel Keen	HasTraffic	heavy traffic
+6	Hotel Keen	HasDistance	3 miles
+6	heavy traffic	IsTrafficOf	Hotel Keen
+6	3 miles	IsDistanceFrom	Hotel Keen
+-1	today	IsEqualTo	monday

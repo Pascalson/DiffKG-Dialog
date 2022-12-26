@@ -1,0 +1,65 @@
+0	Willows Market	HasAddress	409 Bollard St
+0	Willows Market	HasType	grocery store
+0	409 Bollard St	IsAddressOf	Willows Market
+0	grocery store	IsTypeOf	Willows Market
+0	Willows Market	HasTraffic	heavy traffic
+0	Willows Market	HasDistance	3 miles
+0	heavy traffic	IsTrafficOf	Willows Market
+0	3 miles	IsDistanceFrom	Willows Market
+1	tai pan	HasAddress	830 Almanor Ln
+1	tai pan	HasType	chinese restaurant
+1	830 Almanor Ln	IsAddressOf	tai pan
+1	chinese restaurant	IsTypeOf	tai pan
+1	tai pan	HasTraffic	heavy traffic
+1	tai pan	HasDistance	4 miles
+1	heavy traffic	IsTrafficOf	tai pan
+1	4 miles	IsDistanceFrom	tai pan
+2	home	HasAddress	5671 barringer street
+2	home	HasType	home
+2	5671 barringer street	IsAddressOf	home
+2	home	IsTypeOf	home
+2	home	HasTraffic	car collision nearby
+2	home	HasDistance	3 miles
+2	car collision nearby	IsTrafficOf	home
+2	3 miles	IsDistanceFrom	home
+3	Ravenswood Shopping Center	HasAddress	434 Arastradero Rd
+3	Ravenswood Shopping Center	HasType	shopping center
+3	434 Arastradero Rd	IsAddressOf	Ravenswood Shopping Center
+3	shopping center	IsTypeOf	Ravenswood Shopping Center
+3	Ravenswood Shopping Center	HasTraffic	car collision nearby
+3	Ravenswood Shopping Center	HasDistance	5 miles
+3	car collision nearby	IsTrafficOf	Ravenswood Shopping Center
+3	5 miles	IsDistanceFrom	Ravenswood Shopping Center
+4	Trader Joes	HasAddress	408 University Ave
+4	Trader Joes	HasType	grocery store
+4	408 University Ave	IsAddressOf	Trader Joes
+4	grocery store	IsTypeOf	Trader Joes
+4	Trader Joes	HasTraffic	heavy traffic
+4	Trader Joes	HasDistance	2 miles
+4	heavy traffic	IsTrafficOf	Trader Joes
+4	2 miles	IsDistanceFrom	Trader Joes
+5	Whole Foods	HasAddress	819 Alma St
+5	Whole Foods	HasType	grocery store
+5	819 Alma St	IsAddressOf	Whole Foods
+5	grocery store	IsTypeOf	Whole Foods
+5	Whole Foods	HasTraffic	no traffic
+5	Whole Foods	HasDistance	1 miles
+5	no traffic	IsTrafficOf	Whole Foods
+5	1 miles	IsDistanceFrom	Whole Foods
+6	Comfort Inn	HasAddress	753 University Ave
+6	Comfort Inn	HasType	rest stop
+6	753 University Ave	IsAddressOf	Comfort Inn
+6	rest stop	IsTypeOf	Comfort Inn
+6	Comfort Inn	HasTraffic	car collision nearby
+6	Comfort Inn	HasDistance	2 miles
+6	car collision nearby	IsTrafficOf	Comfort Inn
+6	2 miles	IsDistanceFrom	Comfort Inn
+7	home	HasAddress	5671 barringer street
+7	home	HasType	home
+7	5671 barringer street	IsAddressOf	home
+7	home	IsTypeOf	home
+7	home	HasTraffic	road block nearby
+7	home	HasDistance	2 miles
+7	road block nearby	IsTrafficOf	home
+7	2 miles	IsDistanceFrom	home
+-1	today	IsEqualTo	monday

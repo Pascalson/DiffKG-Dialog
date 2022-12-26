@@ -1,0 +1,65 @@
+0	Sigona Farmers Market	HasAddress	638 Amherst St
+0	Sigona Farmers Market	HasType	grocery store
+0	638 Amherst St	IsAddressOf	Sigona Farmers Market
+0	grocery store	IsTypeOf	Sigona Farmers Market
+0	Sigona Farmers Market	HasTraffic	heavy traffic
+0	Sigona Farmers Market	HasDistance	5 miles
+0	heavy traffic	IsTrafficOf	Sigona Farmers Market
+0	5 miles	IsDistanceFrom	Sigona Farmers Market
+1	home	HasAddress	5671 barringer street
+1	home	HasType	home
+1	5671 barringer street	IsAddressOf	home
+1	home	IsTypeOf	home
+1	home	HasTraffic	heavy traffic
+1	home	HasDistance	2 miles
+1	heavy traffic	IsTrafficOf	home
+1	2 miles	IsDistanceFrom	home
+2	Whole Foods	HasAddress	819 Alma St
+2	Whole Foods	HasType	grocery store
+2	819 Alma St	IsAddressOf	Whole Foods
+2	grocery store	IsTypeOf	Whole Foods
+2	Whole Foods	HasTraffic	no traffic
+2	Whole Foods	HasDistance	2 miles
+2	no traffic	IsTrafficOf	Whole Foods
+2	2 miles	IsDistanceFrom	Whole Foods
+3	Chevron	HasAddress	783 Arcadia Pl
+3	Chevron	HasType	gas station
+3	783 Arcadia Pl	IsAddressOf	Chevron
+3	gas station	IsTypeOf	Chevron
+3	Chevron	HasTraffic	car collision nearby
+3	Chevron	HasDistance	6 miles
+3	car collision nearby	IsTrafficOf	Chevron
+3	6 miles	IsDistanceFrom	Chevron
+4	The Westin	HasAddress	329 El Camino Real
+4	The Westin	HasType	rest stop
+4	329 El Camino Real	IsAddressOf	The Westin
+4	rest stop	IsTypeOf	The Westin
+4	The Westin	HasTraffic	moderate traffic
+4	The Westin	HasDistance	4 miles
+4	moderate traffic	IsTrafficOf	The Westin
+4	4 miles	IsDistanceFrom	The Westin
+5	Hotel Keen	HasAddress	578 Arbol Dr
+5	Hotel Keen	HasType	rest stop
+5	578 Arbol Dr	IsAddressOf	Hotel Keen
+5	rest stop	IsTypeOf	Hotel Keen
+5	Hotel Keen	HasTraffic	moderate traffic
+5	Hotel Keen	HasDistance	6 miles
+5	moderate traffic	IsTrafficOf	Hotel Keen
+5	6 miles	IsDistanceFrom	Hotel Keen
+6	jacks house	HasAddress	864 Almanor Ln
+6	jacks house	HasType	friends house
+6	864 Almanor Ln	IsAddressOf	jacks house
+6	friends house	IsTypeOf	jacks house
+6	jacks house	HasTraffic	no traffic
+6	jacks house	HasDistance	3 miles
+6	no traffic	IsTrafficOf	jacks house
+6	3 miles	IsDistanceFrom	jacks house
+7	home	HasAddress	56 cadwell street
+7	home	HasType	home
+7	56 cadwell street	IsAddressOf	home
+7	home	IsTypeOf	home
+7	home	HasTraffic	no traffic
+7	home	HasDistance	4 miles
+7	no traffic	IsTrafficOf	home
+7	4 miles	IsDistanceFrom	home
+-1	today	IsEqualTo	monday

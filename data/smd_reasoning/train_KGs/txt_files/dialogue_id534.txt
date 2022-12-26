@@ -1,0 +1,65 @@
+0	Chevron	HasAddress	783 Arcadia Pl
+0	Chevron	HasType	gas station
+0	783 Arcadia Pl	IsAddressOf	Chevron
+0	gas station	IsTypeOf	Chevron
+0	Chevron	HasTraffic	heavy traffic
+0	Chevron	HasDistance	2 miles
+0	heavy traffic	IsTrafficOf	Chevron
+0	2 miles	IsDistanceFrom	Chevron
+1	Safeway	HasAddress	452 Arcadia Pl
+1	Safeway	HasType	grocery store
+1	452 Arcadia Pl	IsAddressOf	Safeway
+1	grocery store	IsTypeOf	Safeway
+1	Safeway	HasTraffic	car collision nearby
+1	Safeway	HasDistance	6 miles
+1	car collision nearby	IsTrafficOf	Safeway
+1	6 miles	IsDistanceFrom	Safeway
+2	5677 springer street	HasAddress	5677 springer street
+2	5677 springer street	HasType	certain address
+2	5677 springer street	IsAddressOf	5677 springer street
+2	certain address	IsTypeOf	5677 springer street
+2	5677 springer street	HasTraffic	moderate traffic
+2	5677 springer street	HasDistance	2 miles
+2	moderate traffic	IsTrafficOf	5677 springer street
+2	2 miles	IsDistanceFrom	5677 springer street
+3	Panda Express	HasAddress	842 Arrowhead Way
+3	Panda Express	HasType	chinese restaurant
+3	842 Arrowhead Way	IsAddressOf	Panda Express
+3	chinese restaurant	IsTypeOf	Panda Express
+3	Panda Express	HasTraffic	road block nearby
+3	Panda Express	HasDistance	4 miles
+3	road block nearby	IsTrafficOf	Panda Express
+3	4 miles	IsDistanceFrom	Panda Express
+4	home	HasAddress	5671 barringer street
+4	home	HasType	home
+4	5671 barringer street	IsAddressOf	home
+4	home	IsTypeOf	home
+4	home	HasTraffic	car collision nearby
+4	home	HasDistance	5 miles
+4	car collision nearby	IsTrafficOf	home
+4	5 miles	IsDistanceFrom	home
+5	Town and Country	HasAddress	383 University Ave
+5	Town and Country	HasType	shopping center
+5	383 University Ave	IsAddressOf	Town and Country
+5	shopping center	IsTypeOf	Town and Country
+5	Town and Country	HasTraffic	no traffic
+5	Town and Country	HasDistance	5 miles
+5	no traffic	IsTrafficOf	Town and Country
+5	5 miles	IsDistanceFrom	Town and Country
+6	Round Table	HasAddress	113 Anton Ct
+6	Round Table	HasType	pizza restaurant
+6	113 Anton Ct	IsAddressOf	Round Table
+6	pizza restaurant	IsTypeOf	Round Table
+6	Round Table	HasTraffic	road block nearby
+6	Round Table	HasDistance	6 miles
+6	road block nearby	IsTrafficOf	Round Table
+6	6 miles	IsDistanceFrom	Round Table
+7	The Westin	HasAddress	329 El Camino Real
+7	The Westin	HasType	rest stop
+7	329 El Camino Real	IsAddressOf	The Westin
+7	rest stop	IsTypeOf	The Westin
+7	The Westin	HasTraffic	car collision nearby
+7	The Westin	HasDistance	8 miles
+7	car collision nearby	IsTrafficOf	The Westin
+7	8 miles	IsDistanceFrom	The Westin
+-1	today	IsEqualTo	monday

@@ -1,0 +1,57 @@
+0	Pizza My Heart	HasAddress	528 Anton Ct
+0	Pizza My Heart	HasType	pizza restaurant
+0	528 Anton Ct	IsAddressOf	Pizza My Heart
+0	pizza restaurant	IsTypeOf	Pizza My Heart
+0	Pizza My Heart	HasTraffic	heavy traffic
+0	Pizza My Heart	HasDistance	3 miles
+0	heavy traffic	IsTrafficOf	Pizza My Heart
+0	3 miles	IsDistanceFrom	Pizza My Heart
+1	Town and Country	HasAddress	383 University Ave
+1	Town and Country	HasType	shopping center
+1	383 University Ave	IsAddressOf	Town and Country
+1	shopping center	IsTypeOf	Town and Country
+1	Town and Country	HasTraffic	moderate traffic
+1	Town and Country	HasDistance	1 miles
+1	moderate traffic	IsTrafficOf	Town and Country
+1	1 miles	IsDistanceFrom	Town and Country
+2	Stanford Childrens Health	HasAddress	899 Ames Ct
+2	Stanford Childrens Health	HasType	hospital
+2	899 Ames Ct	IsAddressOf	Stanford Childrens Health
+2	hospital	IsTypeOf	Stanford Childrens Health
+2	Stanford Childrens Health	HasTraffic	no traffic
+2	Stanford Childrens Health	HasDistance	3 miles
+2	no traffic	IsTrafficOf	Stanford Childrens Health
+2	3 miles	IsDistanceFrom	Stanford Childrens Health
+3	Mandarin Roots	HasAddress	271 Springer Street
+3	Mandarin Roots	HasType	chinese restaurant
+3	271 Springer Street	IsAddressOf	Mandarin Roots
+3	chinese restaurant	IsTypeOf	Mandarin Roots
+3	Mandarin Roots	HasTraffic	heavy traffic
+3	Mandarin Roots	HasDistance	6 miles
+3	heavy traffic	IsTrafficOf	Mandarin Roots
+3	6 miles	IsDistanceFrom	Mandarin Roots
+4	Round Table	HasAddress	113 Anton Ct
+4	Round Table	HasType	pizza restaurant
+4	113 Anton Ct	IsAddressOf	Round Table
+4	pizza restaurant	IsTypeOf	Round Table
+4	Round Table	HasTraffic	no traffic
+4	Round Table	HasDistance	4 miles
+4	no traffic	IsTrafficOf	Round Table
+4	4 miles	IsDistanceFrom	Round Table
+5	P.F. Changs	HasAddress	669 El Camino Real
+5	P.F. Changs	HasType	chinese restaurant
+5	669 El Camino Real	IsAddressOf	P.F. Changs
+5	chinese restaurant	IsTypeOf	P.F. Changs
+5	P.F. Changs	HasTraffic	no traffic
+5	P.F. Changs	HasDistance	1 miles
+5	no traffic	IsTrafficOf	P.F. Changs
+5	1 miles	IsDistanceFrom	P.F. Changs
+6	Panda Express	HasAddress	842 Arrowhead Way
+6	Panda Express	HasType	chinese restaurant
+6	842 Arrowhead Way	IsAddressOf	Panda Express
+6	chinese restaurant	IsTypeOf	Panda Express
+6	Panda Express	HasTraffic	moderate traffic
+6	Panda Express	HasDistance	2 miles
+6	moderate traffic	IsTrafficOf	Panda Express
+6	2 miles	IsDistanceFrom	Panda Express
+-1	today	IsEqualTo	monday

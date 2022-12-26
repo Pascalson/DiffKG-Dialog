@@ -1,0 +1,57 @@
+0	Cafe Venetia	HasAddress	269 Alger Dr
+0	Cafe Venetia	HasType	coffee or tea place
+0	269 Alger Dr	IsAddressOf	Cafe Venetia
+0	coffee or tea place	IsTypeOf	Cafe Venetia
+0	Cafe Venetia	HasTraffic	no traffic
+0	Cafe Venetia	HasDistance	4 miles
+0	no traffic	IsTrafficOf	Cafe Venetia
+0	4 miles	IsDistanceFrom	Cafe Venetia
+1	Pizza Chicago	HasAddress	915 Arbol Dr
+1	Pizza Chicago	HasType	pizza restaurant
+1	915 Arbol Dr	IsAddressOf	Pizza Chicago
+1	pizza restaurant	IsTypeOf	Pizza Chicago
+1	Pizza Chicago	HasTraffic	heavy traffic
+1	Pizza Chicago	HasDistance	6 miles
+1	heavy traffic	IsTrafficOf	Pizza Chicago
+1	6 miles	IsDistanceFrom	Pizza Chicago
+2	Mandarin Roots	HasAddress	271 Springer Street
+2	Mandarin Roots	HasType	chinese restaurant
+2	271 Springer Street	IsAddressOf	Mandarin Roots
+2	chinese restaurant	IsTypeOf	Mandarin Roots
+2	Mandarin Roots	HasTraffic	moderate traffic
+2	Mandarin Roots	HasDistance	4 miles
+2	moderate traffic	IsTrafficOf	Mandarin Roots
+2	4 miles	IsDistanceFrom	Mandarin Roots
+3	Midtown Shopping Center	HasAddress	338 Alester Ave
+3	Midtown Shopping Center	HasType	shopping center
+3	338 Alester Ave	IsAddressOf	Midtown Shopping Center
+3	shopping center	IsTypeOf	Midtown Shopping Center
+3	Midtown Shopping Center	HasTraffic	no traffic
+3	Midtown Shopping Center	HasDistance	3 miles
+3	no traffic	IsTrafficOf	Midtown Shopping Center
+3	3 miles	IsDistanceFrom	Midtown Shopping Center
+4	Stanford Oval Parking	HasAddress	610 Amarillo Ave
+4	Stanford Oval Parking	HasType	parking garage
+4	610 Amarillo Ave	IsAddressOf	Stanford Oval Parking
+4	parking garage	IsTypeOf	Stanford Oval Parking
+4	Stanford Oval Parking	HasTraffic	no traffic
+4	Stanford Oval Parking	HasDistance	5 miles
+4	no traffic	IsTrafficOf	Stanford Oval Parking
+4	5 miles	IsDistanceFrom	Stanford Oval Parking
+5	tai pan	HasAddress	830 Almanor Ln
+5	tai pan	HasType	chinese restaurant
+5	830 Almanor Ln	IsAddressOf	tai pan
+5	chinese restaurant	IsTypeOf	tai pan
+5	tai pan	HasTraffic	heavy traffic
+5	tai pan	HasDistance	3 miles
+5	heavy traffic	IsTrafficOf	tai pan
+5	3 miles	IsDistanceFrom	tai pan
+6	toms house	HasAddress	580 Van Ness Ave
+6	toms house	HasType	friends house
+6	580 Van Ness Ave	IsAddressOf	toms house
+6	friends house	IsTypeOf	toms house
+6	toms house	HasTraffic	no traffic
+6	toms house	HasDistance	1 miles
+6	no traffic	IsTrafficOf	toms house
+6	1 miles	IsDistanceFrom	toms house
+-1	today	IsEqualTo	monday

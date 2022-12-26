@@ -1,0 +1,57 @@
+0	P.F. Changs	HasAddress	669 El Camino Real
+0	P.F. Changs	HasType	chinese restaurant
+0	669 El Camino Real	IsAddressOf	P.F. Changs
+0	chinese restaurant	IsTypeOf	P.F. Changs
+0	P.F. Changs	HasTraffic	no traffic
+0	P.F. Changs	HasDistance	3 miles
+0	no traffic	IsTrafficOf	P.F. Changs
+0	3 miles	IsDistanceFrom	P.F. Changs
+1	Stanford Express Care	HasAddress	214 El Camino Real
+1	Stanford Express Care	HasType	hospital
+1	214 El Camino Real	IsAddressOf	Stanford Express Care
+1	hospital	IsTypeOf	Stanford Express Care
+1	Stanford Express Care	HasTraffic	moderate traffic
+1	Stanford Express Care	HasDistance	1 miles
+1	moderate traffic	IsTrafficOf	Stanford Express Care
+1	1 miles	IsDistanceFrom	Stanford Express Care
+2	Ravenswood Shopping Center	HasAddress	434 Arastradero Rd
+2	Ravenswood Shopping Center	HasType	shopping center
+2	434 Arastradero Rd	IsAddressOf	Ravenswood Shopping Center
+2	shopping center	IsTypeOf	Ravenswood Shopping Center
+2	Ravenswood Shopping Center	HasTraffic	moderate traffic
+2	Ravenswood Shopping Center	HasDistance	3 miles
+2	moderate traffic	IsTrafficOf	Ravenswood Shopping Center
+2	3 miles	IsDistanceFrom	Ravenswood Shopping Center
+3	Pizza Chicago	HasAddress	915 Arbol Dr
+3	Pizza Chicago	HasType	pizza restaurant
+3	915 Arbol Dr	IsAddressOf	Pizza Chicago
+3	pizza restaurant	IsTypeOf	Pizza Chicago
+3	Pizza Chicago	HasTraffic	no traffic
+3	Pizza Chicago	HasDistance	2 miles
+3	no traffic	IsTrafficOf	Pizza Chicago
+3	2 miles	IsDistanceFrom	Pizza Chicago
+4	Pizza My Heart	HasAddress	528 Anton Ct
+4	Pizza My Heart	HasType	pizza restaurant
+4	528 Anton Ct	IsAddressOf	Pizza My Heart
+4	pizza restaurant	IsTypeOf	Pizza My Heart
+4	Pizza My Heart	HasTraffic	heavy traffic
+4	Pizza My Heart	HasDistance	3 miles
+4	heavy traffic	IsTrafficOf	Pizza My Heart
+4	3 miles	IsDistanceFrom	Pizza My Heart
+5	home	HasAddress	10 ames street
+5	home	HasType	home
+5	10 ames street	IsAddressOf	home
+5	home	IsTypeOf	home
+5	home	HasTraffic	moderate traffic
+5	home	HasDistance	5 miles
+5	moderate traffic	IsTrafficOf	home
+5	5 miles	IsDistanceFrom	home
+6	Midtown Shopping Center	HasAddress	338 Alester Ave
+6	Midtown Shopping Center	HasType	shopping center
+6	338 Alester Ave	IsAddressOf	Midtown Shopping Center
+6	shopping center	IsTypeOf	Midtown Shopping Center
+6	Midtown Shopping Center	HasTraffic	moderate traffic
+6	Midtown Shopping Center	HasDistance	6 miles
+6	moderate traffic	IsTrafficOf	Midtown Shopping Center
+6	6 miles	IsDistanceFrom	Midtown Shopping Center
+-1	today	IsEqualTo	monday

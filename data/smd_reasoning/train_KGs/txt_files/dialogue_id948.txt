@@ -1,0 +1,65 @@
+0	Pizza Hut	HasAddress	704 El Camino Real
+0	Pizza Hut	HasType	pizza restaurant
+0	704 El Camino Real	IsAddressOf	Pizza Hut
+0	pizza restaurant	IsTypeOf	Pizza Hut
+0	Pizza Hut	HasTraffic	no traffic
+0	Pizza Hut	HasDistance	5 miles
+0	no traffic	IsTrafficOf	Pizza Hut
+0	5 miles	IsDistanceFrom	Pizza Hut
+1	Round Table	HasAddress	113 Anton Ct
+1	Round Table	HasType	pizza restaurant
+1	113 Anton Ct	IsAddressOf	Round Table
+1	pizza restaurant	IsTypeOf	Round Table
+1	Round Table	HasTraffic	car collision nearby
+1	Round Table	HasDistance	3 miles
+1	car collision nearby	IsTrafficOf	Round Table
+1	3 miles	IsDistanceFrom	Round Table
+2	Stanford Express Care	HasAddress	214 El Camino Real
+2	Stanford Express Care	HasType	hospital
+2	214 El Camino Real	IsAddressOf	Stanford Express Care
+2	hospital	IsTypeOf	Stanford Express Care
+2	Stanford Express Care	HasTraffic	no traffic
+2	Stanford Express Care	HasDistance	3 miles
+2	no traffic	IsTrafficOf	Stanford Express Care
+2	3 miles	IsDistanceFrom	Stanford Express Care
+3	Palo Alto Medical Foundation	HasAddress	611 Ames Ave
+3	Palo Alto Medical Foundation	HasType	hospital
+3	611 Ames Ave	IsAddressOf	Palo Alto Medical Foundation
+3	hospital	IsTypeOf	Palo Alto Medical Foundation
+3	Palo Alto Medical Foundation	HasTraffic	moderate traffic
+3	Palo Alto Medical Foundation	HasDistance	1 miles
+3	moderate traffic	IsTrafficOf	Palo Alto Medical Foundation
+3	1 miles	IsDistanceFrom	Palo Alto Medical Foundation
+4	Stanford Childrens Health	HasAddress	899 Ames Ct
+4	Stanford Childrens Health	HasType	hospital
+4	899 Ames Ct	IsAddressOf	Stanford Childrens Health
+4	hospital	IsTypeOf	Stanford Childrens Health
+4	Stanford Childrens Health	HasTraffic	moderate traffic
+4	Stanford Childrens Health	HasDistance	2 miles
+4	moderate traffic	IsTrafficOf	Stanford Childrens Health
+4	2 miles	IsDistanceFrom	Stanford Childrens Health
+5	Teavana	HasAddress	145 Amherst St
+5	Teavana	HasType	coffee or tea place
+5	145 Amherst St	IsAddressOf	Teavana
+5	coffee or tea place	IsTypeOf	Teavana
+5	Teavana	HasTraffic	heavy traffic
+5	Teavana	HasDistance	5 miles
+5	heavy traffic	IsTrafficOf	Teavana
+5	5 miles	IsDistanceFrom	Teavana
+6	tai pan	HasAddress	830 Almanor Ln
+6	tai pan	HasType	chinese restaurant
+6	830 Almanor Ln	IsAddressOf	tai pan
+6	chinese restaurant	IsTypeOf	tai pan
+6	tai pan	HasTraffic	no traffic
+6	tai pan	HasDistance	6 miles
+6	no traffic	IsTrafficOf	tai pan
+6	6 miles	IsDistanceFrom	tai pan
+7	Starbucks	HasAddress	792 Bedoin Street
+7	Starbucks	HasType	coffee or tea place
+7	792 Bedoin Street	IsAddressOf	Starbucks
+7	coffee or tea place	IsTypeOf	Starbucks
+7	Starbucks	HasTraffic	car collision nearby
+7	Starbucks	HasDistance	5 miles
+7	car collision nearby	IsTrafficOf	Starbucks
+7	5 miles	IsDistanceFrom	Starbucks
+-1	today	IsEqualTo	monday

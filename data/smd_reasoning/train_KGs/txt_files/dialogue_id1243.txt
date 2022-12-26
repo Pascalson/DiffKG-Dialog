@@ -1,0 +1,65 @@
+0	Topanga Mall	HasAddress	171 Oak Rd
+0	Topanga Mall	HasType	shopping center
+0	171 Oak Rd	IsAddressOf	Topanga Mall
+0	shopping center	IsTypeOf	Topanga Mall
+0	Topanga Mall	HasTraffic	moderate traffic
+0	Topanga Mall	HasDistance	8 miles
+0	moderate traffic	IsTrafficOf	Topanga Mall
+0	8 miles	IsDistanceFrom	Topanga Mall
+1	P.F. Changs	HasAddress	669 El Camino Real
+1	P.F. Changs	HasType	chinese restaurant
+1	669 El Camino Real	IsAddressOf	P.F. Changs
+1	chinese restaurant	IsTypeOf	P.F. Changs
+1	P.F. Changs	HasTraffic	no traffic
+1	P.F. Changs	HasDistance	3 miles
+1	no traffic	IsTrafficOf	P.F. Changs
+1	3 miles	IsDistanceFrom	P.F. Changs
+2	Travelers Lodge	HasAddress	333 Arbol Dr
+2	Travelers Lodge	HasType	rest stop
+2	333 Arbol Dr	IsAddressOf	Travelers Lodge
+2	rest stop	IsTypeOf	Travelers Lodge
+2	Travelers Lodge	HasTraffic	heavy traffic
+2	Travelers Lodge	HasDistance	6 miles
+2	heavy traffic	IsTrafficOf	Travelers Lodge
+2	6 miles	IsDistanceFrom	Travelers Lodge
+3	Round Table	HasAddress	113 Anton Ct
+3	Round Table	HasType	pizza restaurant
+3	113 Anton Ct	IsAddressOf	Round Table
+3	pizza restaurant	IsTypeOf	Round Table
+3	Round Table	HasTraffic	car collision nearby
+3	Round Table	HasDistance	1 miles
+3	car collision nearby	IsTrafficOf	Round Table
+3	1 miles	IsDistanceFrom	Round Table
+4	Dominos	HasAddress	776 Arastradero Rd
+4	Dominos	HasType	pizza restaurant
+4	776 Arastradero Rd	IsAddressOf	Dominos
+4	pizza restaurant	IsTypeOf	Dominos
+4	Dominos	HasTraffic	moderate traffic
+4	Dominos	HasDistance	4 miles
+4	moderate traffic	IsTrafficOf	Dominos
+4	4 miles	IsDistanceFrom	Dominos
+5	Palo Alto Cafe	HasAddress	436 Alger Dr
+5	Palo Alto Cafe	HasType	coffee or tea place
+5	436 Alger Dr	IsAddressOf	Palo Alto Cafe
+5	coffee or tea place	IsTypeOf	Palo Alto Cafe
+5	Palo Alto Cafe	HasTraffic	road block nearby
+5	Palo Alto Cafe	HasDistance	4 miles
+5	road block nearby	IsTrafficOf	Palo Alto Cafe
+5	4 miles	IsDistanceFrom	Palo Alto Cafe
+6	Dish Parking	HasAddress	550 Alester Ave
+6	Dish Parking	HasType	parking garage
+6	550 Alester Ave	IsAddressOf	Dish Parking
+6	parking garage	IsTypeOf	Dish Parking
+6	Dish Parking	HasTraffic	no traffic
+6	Dish Parking	HasDistance	4 miles
+6	no traffic	IsTrafficOf	Dish Parking
+6	4 miles	IsDistanceFrom	Dish Parking
+7	Pizza Chicago	HasAddress	915 Arbol Dr
+7	Pizza Chicago	HasType	pizza restaurant
+7	915 Arbol Dr	IsAddressOf	Pizza Chicago
+7	pizza restaurant	IsTypeOf	Pizza Chicago
+7	Pizza Chicago	HasTraffic	heavy traffic
+7	Pizza Chicago	HasDistance	3 miles
+7	heavy traffic	IsTrafficOf	Pizza Chicago
+7	3 miles	IsDistanceFrom	Pizza Chicago
+-1	today	IsEqualTo	monday

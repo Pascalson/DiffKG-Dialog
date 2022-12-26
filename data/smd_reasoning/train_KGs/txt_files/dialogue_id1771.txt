@@ -1,0 +1,57 @@
+0	tai pan	HasAddress	830 Almanor Ln
+0	tai pan	HasType	chinese restaurant
+0	830 Almanor Ln	IsAddressOf	tai pan
+0	chinese restaurant	IsTypeOf	tai pan
+0	tai pan	HasTraffic	moderate traffic
+0	tai pan	HasDistance	6 miles
+0	moderate traffic	IsTrafficOf	tai pan
+0	6 miles	IsDistanceFrom	tai pan
+1	Comfort Inn	HasAddress	753 University Ave
+1	Comfort Inn	HasType	rest stop
+1	753 University Ave	IsAddressOf	Comfort Inn
+1	rest stop	IsTypeOf	Comfort Inn
+1	Comfort Inn	HasTraffic	moderate traffic
+1	Comfort Inn	HasDistance	2 miles
+1	moderate traffic	IsTrafficOf	Comfort Inn
+1	2 miles	IsDistanceFrom	Comfort Inn
+2	Chevron	HasAddress	783 Arcadia Pl
+2	Chevron	HasType	gas station
+2	783 Arcadia Pl	IsAddressOf	Chevron
+2	gas station	IsTypeOf	Chevron
+2	Chevron	HasTraffic	moderate traffic
+2	Chevron	HasDistance	3 miles
+2	moderate traffic	IsTrafficOf	Chevron
+2	3 miles	IsDistanceFrom	Chevron
+3	toms house	HasAddress	580 Van Ness Ave
+3	toms house	HasType	friends house
+3	580 Van Ness Ave	IsAddressOf	toms house
+3	friends house	IsTypeOf	toms house
+3	toms house	HasTraffic	no traffic
+3	toms house	HasDistance	3 miles
+3	no traffic	IsTrafficOf	toms house
+3	3 miles	IsDistanceFrom	toms house
+4	Panda Express	HasAddress	842 Arrowhead Way
+4	Panda Express	HasType	chinese restaurant
+4	842 Arrowhead Way	IsAddressOf	Panda Express
+4	chinese restaurant	IsTypeOf	Panda Express
+4	Panda Express	HasTraffic	no traffic
+4	Panda Express	HasDistance	6 miles
+4	no traffic	IsTrafficOf	Panda Express
+4	6 miles	IsDistanceFrom	Panda Express
+5	Safeway	HasAddress	452 Arcadia Pl
+5	Safeway	HasType	grocery store
+5	452 Arcadia Pl	IsAddressOf	Safeway
+5	grocery store	IsTypeOf	Safeway
+5	Safeway	HasTraffic	moderate traffic
+5	Safeway	HasDistance	3 miles
+5	moderate traffic	IsTrafficOf	Safeway
+5	3 miles	IsDistanceFrom	Safeway
+6	Mandarin Roots	HasAddress	271 Springer Street
+6	Mandarin Roots	HasType	chinese restaurant
+6	271 Springer Street	IsAddressOf	Mandarin Roots
+6	chinese restaurant	IsTypeOf	Mandarin Roots
+6	Mandarin Roots	HasTraffic	no traffic
+6	Mandarin Roots	HasDistance	1 miles
+6	no traffic	IsTrafficOf	Mandarin Roots
+6	1 miles	IsDistanceFrom	Mandarin Roots
+-1	today	IsEqualTo	monday

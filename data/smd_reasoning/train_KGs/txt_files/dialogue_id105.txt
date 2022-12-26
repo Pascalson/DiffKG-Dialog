@@ -1,0 +1,65 @@
+0	The Westin	HasAddress	329 El Camino Real
+0	The Westin	HasType	rest stop
+0	329 El Camino Real	IsAddressOf	The Westin
+0	rest stop	IsTypeOf	The Westin
+0	The Westin	HasTraffic	moderate traffic
+0	The Westin	HasDistance	5 miles
+0	moderate traffic	IsTrafficOf	The Westin
+0	5 miles	IsDistanceFrom	The Westin
+1	Starbucks	HasAddress	792 Bedoin Street
+1	Starbucks	HasType	coffee or tea place
+1	792 Bedoin Street	IsAddressOf	Starbucks
+1	coffee or tea place	IsTypeOf	Starbucks
+1	Starbucks	HasTraffic	road block nearby
+1	Starbucks	HasDistance	5 miles
+1	road block nearby	IsTrafficOf	Starbucks
+1	5 miles	IsDistanceFrom	Starbucks
+2	Civic Center Garage	HasAddress	270 Altaire Walk
+2	Civic Center Garage	HasType	parking garage
+2	270 Altaire Walk	IsAddressOf	Civic Center Garage
+2	parking garage	IsTypeOf	Civic Center Garage
+2	Civic Center Garage	HasTraffic	heavy traffic
+2	Civic Center Garage	HasDistance	4 miles
+2	heavy traffic	IsTrafficOf	Civic Center Garage
+2	4 miles	IsDistanceFrom	Civic Center Garage
+3	Stanford Childrens Health	HasAddress	899 Ames Ct
+3	Stanford Childrens Health	HasType	hospital
+3	899 Ames Ct	IsAddressOf	Stanford Childrens Health
+3	hospital	IsTypeOf	Stanford Childrens Health
+3	Stanford Childrens Health	HasTraffic	road block nearby
+3	Stanford Childrens Health	HasDistance	4 miles
+3	road block nearby	IsTrafficOf	Stanford Childrens Health
+3	4 miles	IsDistanceFrom	Stanford Childrens Health
+4	toms house	HasAddress	580 Van Ness Ave
+4	toms house	HasType	friends house
+4	580 Van Ness Ave	IsAddressOf	toms house
+4	friends house	IsTypeOf	toms house
+4	toms house	HasTraffic	road block nearby
+4	toms house	HasDistance	1 miles
+4	road block nearby	IsTrafficOf	toms house
+4	1 miles	IsDistanceFrom	toms house
+5	Jing Jing	HasAddress	113 Arbol Dr
+5	Jing Jing	HasType	chinese restaurant
+5	113 Arbol Dr	IsAddressOf	Jing Jing
+5	chinese restaurant	IsTypeOf	Jing Jing
+5	Jing Jing	HasTraffic	road block nearby
+5	Jing Jing	HasDistance	5 miles
+5	road block nearby	IsTrafficOf	Jing Jing
+5	5 miles	IsDistanceFrom	Jing Jing
+6	home	HasAddress	10 ames street
+6	home	HasType	home
+6	10 ames street	IsAddressOf	home
+6	home	IsTypeOf	home
+6	home	HasTraffic	moderate traffic
+6	home	HasDistance	1 miles
+6	moderate traffic	IsTrafficOf	home
+6	1 miles	IsDistanceFrom	home
+7	jills house	HasAddress	347 Alta Mesa Ave
+7	jills house	HasType	friends house
+7	347 Alta Mesa Ave	IsAddressOf	jills house
+7	friends house	IsTypeOf	jills house
+7	jills house	HasTraffic	heavy traffic
+7	jills house	HasDistance	3 miles
+7	heavy traffic	IsTrafficOf	jills house
+7	3 miles	IsDistanceFrom	jills house
+-1	today	IsEqualTo	monday

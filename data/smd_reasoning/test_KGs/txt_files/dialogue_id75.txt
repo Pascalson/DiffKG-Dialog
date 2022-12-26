@@ -1,0 +1,65 @@
+0	toms house	HasAddress	580 Van Ness Ave
+0	toms house	HasType	friends house
+0	580 Van Ness Ave	IsAddressOf	toms house
+0	friends house	IsTypeOf	toms house
+0	toms house	HasTraffic	no traffic
+0	toms house	HasDistance	3 miles
+0	no traffic	IsTrafficOf	toms house
+0	3 miles	IsDistanceFrom	toms house
+1	Panda Express	HasAddress	842 Arrowhead Way
+1	Panda Express	HasType	chinese restaurant
+1	842 Arrowhead Way	IsAddressOf	Panda Express
+1	chinese restaurant	IsTypeOf	Panda Express
+1	Panda Express	HasTraffic	heavy traffic
+1	Panda Express	HasDistance	5 miles
+1	heavy traffic	IsTrafficOf	Panda Express
+1	5 miles	IsDistanceFrom	Panda Express
+2	Teavana	HasAddress	145 Amherst St
+2	Teavana	HasType	coffee or tea place
+2	145 Amherst St	IsAddressOf	Teavana
+2	coffee or tea place	IsTypeOf	Teavana
+2	Teavana	HasTraffic	moderate traffic
+2	Teavana	HasDistance	5 miles
+2	moderate traffic	IsTrafficOf	Teavana
+2	5 miles	IsDistanceFrom	Teavana
+3	Midtown Shopping Center	HasAddress	338 Alester Ave
+3	Midtown Shopping Center	HasType	shopping center
+3	338 Alester Ave	IsAddressOf	Midtown Shopping Center
+3	shopping center	IsTypeOf	Midtown Shopping Center
+3	Midtown Shopping Center	HasTraffic	car collision nearby
+3	Midtown Shopping Center	HasDistance	3 miles
+3	car collision nearby	IsTrafficOf	Midtown Shopping Center
+3	3 miles	IsDistanceFrom	Midtown Shopping Center
+4	5677 southwest 4th street	HasAddress	5677 southwest 4th street
+4	5677 southwest 4th street	HasType	certain address
+4	5677 southwest 4th street	IsAddressOf	5677 southwest 4th street
+4	certain address	IsTypeOf	5677 southwest 4th street
+4	5677 southwest 4th street	HasTraffic	road block nearby
+4	5677 southwest 4th street	HasDistance	2 miles
+4	road block nearby	IsTrafficOf	5677 southwest 4th street
+4	2 miles	IsDistanceFrom	5677 southwest 4th street
+5	Stanford Express Care	HasAddress	214 El Camino Real
+5	Stanford Express Care	HasType	hospital
+5	214 El Camino Real	IsAddressOf	Stanford Express Care
+5	hospital	IsTypeOf	Stanford Express Care
+5	Stanford Express Care	HasTraffic	no traffic
+5	Stanford Express Care	HasDistance	2 miles
+5	no traffic	IsTrafficOf	Stanford Express Care
+5	2 miles	IsDistanceFrom	Stanford Express Care
+6	home	HasAddress	10 ames street
+6	home	HasType	home
+6	10 ames street	IsAddressOf	home
+6	home	IsTypeOf	home
+6	home	HasTraffic	no traffic
+6	home	HasDistance	4 miles
+6	no traffic	IsTrafficOf	home
+6	4 miles	IsDistanceFrom	home
+7	The Clement Hotel	HasAddress	657 Ames Ave
+7	The Clement Hotel	HasType	rest stop
+7	657 Ames Ave	IsAddressOf	The Clement Hotel
+7	rest stop	IsTypeOf	The Clement Hotel
+7	The Clement Hotel	HasTraffic	heavy traffic
+7	The Clement Hotel	HasDistance	4 miles
+7	heavy traffic	IsTrafficOf	The Clement Hotel
+7	4 miles	IsDistanceFrom	The Clement Hotel
+-1	today	IsEqualTo	monday

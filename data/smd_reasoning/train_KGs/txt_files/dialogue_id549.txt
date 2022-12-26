@@ -1,0 +1,65 @@
+0	Willows Market	HasAddress	409 Bollard St
+0	Willows Market	HasType	grocery store
+0	409 Bollard St	IsAddressOf	Willows Market
+0	grocery store	IsTypeOf	Willows Market
+0	Willows Market	HasTraffic	car collision nearby
+0	Willows Market	HasDistance	5 miles
+0	car collision nearby	IsTrafficOf	Willows Market
+0	5 miles	IsDistanceFrom	Willows Market
+1	Chef Chu's	HasAddress	593 Arrowhead Way
+1	Chef Chu's	HasType	chinese restaurant
+1	593 Arrowhead Way	IsAddressOf	Chef Chu's
+1	chinese restaurant	IsTypeOf	Chef Chu's
+1	Chef Chu's	HasTraffic	road block nearby
+1	Chef Chu's	HasDistance	5 miles
+1	road block nearby	IsTrafficOf	Chef Chu's
+1	5 miles	IsDistanceFrom	Chef Chu's
+2	Cafe Venetia	HasAddress	269 Alger Dr
+2	Cafe Venetia	HasType	coffee or tea place
+2	269 Alger Dr	IsAddressOf	Cafe Venetia
+2	coffee or tea place	IsTypeOf	Cafe Venetia
+2	Cafe Venetia	HasTraffic	moderate traffic
+2	Cafe Venetia	HasDistance	3 miles
+2	moderate traffic	IsTrafficOf	Cafe Venetia
+2	3 miles	IsDistanceFrom	Cafe Venetia
+3	Sigona Farmers Market	HasAddress	638 Amherst St
+3	Sigona Farmers Market	HasType	grocery store
+3	638 Amherst St	IsAddressOf	Sigona Farmers Market
+3	grocery store	IsTypeOf	Sigona Farmers Market
+3	Sigona Farmers Market	HasTraffic	moderate traffic
+3	Sigona Farmers Market	HasDistance	5 miles
+3	moderate traffic	IsTrafficOf	Sigona Farmers Market
+3	5 miles	IsDistanceFrom	Sigona Farmers Market
+4	Coupa	HasAddress	394 Van Ness Ave
+4	Coupa	HasType	coffee or tea place
+4	394 Van Ness Ave	IsAddressOf	Coupa
+4	coffee or tea place	IsTypeOf	Coupa
+4	Coupa	HasTraffic	heavy traffic
+4	Coupa	HasDistance	2 miles
+4	heavy traffic	IsTrafficOf	Coupa
+4	2 miles	IsDistanceFrom	Coupa
+5	Stanford Oval Parking	HasAddress	610 Amarillo Ave
+5	Stanford Oval Parking	HasType	parking garage
+5	610 Amarillo Ave	IsAddressOf	Stanford Oval Parking
+5	parking garage	IsTypeOf	Stanford Oval Parking
+5	Stanford Oval Parking	HasTraffic	moderate traffic
+5	Stanford Oval Parking	HasDistance	3 miles
+5	moderate traffic	IsTrafficOf	Stanford Oval Parking
+5	3 miles	IsDistanceFrom	Stanford Oval Parking
+6	Valero	HasAddress	200 Alester Ave
+6	Valero	HasType	gas station
+6	200 Alester Ave	IsAddressOf	Valero
+6	gas station	IsTypeOf	Valero
+6	Valero	HasTraffic	heavy traffic
+6	Valero	HasDistance	3 miles
+6	heavy traffic	IsTrafficOf	Valero
+6	3 miles	IsDistanceFrom	Valero
+7	Stanford Express Care	HasAddress	214 El Camino Real
+7	Stanford Express Care	HasType	hospital
+7	214 El Camino Real	IsAddressOf	Stanford Express Care
+7	hospital	IsTypeOf	Stanford Express Care
+7	Stanford Express Care	HasTraffic	heavy traffic
+7	Stanford Express Care	HasDistance	5 miles
+7	heavy traffic	IsTrafficOf	Stanford Express Care
+7	5 miles	IsDistanceFrom	Stanford Express Care
+-1	today	IsEqualTo	monday

@@ -1,0 +1,65 @@
+0	toms house	HasAddress	580 Van Ness Ave
+0	toms house	HasType	friends house
+0	580 Van Ness Ave	IsAddressOf	toms house
+0	friends house	IsTypeOf	toms house
+0	toms house	HasTraffic	heavy traffic
+0	toms house	HasDistance	3 miles
+0	heavy traffic	IsTrafficOf	toms house
+0	3 miles	IsDistanceFrom	toms house
+1	Teavana	HasAddress	145 Amherst St
+1	Teavana	HasType	coffee or tea place
+1	145 Amherst St	IsAddressOf	Teavana
+1	coffee or tea place	IsTypeOf	Teavana
+1	Teavana	HasTraffic	moderate traffic
+1	Teavana	HasDistance	4 miles
+1	moderate traffic	IsTrafficOf	Teavana
+1	4 miles	IsDistanceFrom	Teavana
+2	Jing Jing	HasAddress	113 Arbol Dr
+2	Jing Jing	HasType	chinese restaurant
+2	113 Arbol Dr	IsAddressOf	Jing Jing
+2	chinese restaurant	IsTypeOf	Jing Jing
+2	Jing Jing	HasTraffic	heavy traffic
+2	Jing Jing	HasDistance	5 miles
+2	heavy traffic	IsTrafficOf	Jing Jing
+2	5 miles	IsDistanceFrom	Jing Jing
+3	Round Table	HasAddress	113 Anton Ct
+3	Round Table	HasType	pizza restaurant
+3	113 Anton Ct	IsAddressOf	Round Table
+3	pizza restaurant	IsTypeOf	Round Table
+3	Round Table	HasTraffic	no traffic
+3	Round Table	HasDistance	1 miles
+3	no traffic	IsTrafficOf	Round Table
+3	1 miles	IsDistanceFrom	Round Table
+4	Panda Express	HasAddress	842 Arrowhead Way
+4	Panda Express	HasType	chinese restaurant
+4	842 Arrowhead Way	IsAddressOf	Panda Express
+4	chinese restaurant	IsTypeOf	Panda Express
+4	Panda Express	HasTraffic	road block nearby
+4	Panda Express	HasDistance	5 miles
+4	road block nearby	IsTrafficOf	Panda Express
+4	5 miles	IsDistanceFrom	Panda Express
+5	jills house	HasAddress	347 Alta Mesa Ave
+5	jills house	HasType	friends house
+5	347 Alta Mesa Ave	IsAddressOf	jills house
+5	friends house	IsTypeOf	jills house
+5	jills house	HasTraffic	car collision nearby
+5	jills house	HasDistance	2 miles
+5	car collision nearby	IsTrafficOf	jills house
+5	2 miles	IsDistanceFrom	jills house
+6	Valero	HasAddress	200 Alester Ave
+6	Valero	HasType	gas station
+6	200 Alester Ave	IsAddressOf	Valero
+6	gas station	IsTypeOf	Valero
+6	Valero	HasTraffic	car collision nearby
+6	Valero	HasDistance	6 miles
+6	car collision nearby	IsTrafficOf	Valero
+6	6 miles	IsDistanceFrom	Valero
+7	Palo Alto Garage R	HasAddress	481 Amaranta Ave
+7	Palo Alto Garage R	HasType	parking garage
+7	481 Amaranta Ave	IsAddressOf	Palo Alto Garage R
+7	parking garage	IsTypeOf	Palo Alto Garage R
+7	Palo Alto Garage R	HasTraffic	heavy traffic
+7	Palo Alto Garage R	HasDistance	1 miles
+7	heavy traffic	IsTrafficOf	Palo Alto Garage R
+7	1 miles	IsDistanceFrom	Palo Alto Garage R
+-1	today	IsEqualTo	monday

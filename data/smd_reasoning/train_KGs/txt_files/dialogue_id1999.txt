@@ -1,0 +1,57 @@
+0	Pizza Chicago	HasAddress	915 Arbol Dr
+0	Pizza Chicago	HasType	pizza restaurant
+0	915 Arbol Dr	IsAddressOf	Pizza Chicago
+0	pizza restaurant	IsTypeOf	Pizza Chicago
+0	Pizza Chicago	HasTraffic	heavy traffic
+0	Pizza Chicago	HasDistance	6 miles
+0	heavy traffic	IsTrafficOf	Pizza Chicago
+0	6 miles	IsDistanceFrom	Pizza Chicago
+1	Stanford Oval Parking	HasAddress	610 Amarillo Ave
+1	Stanford Oval Parking	HasType	parking garage
+1	610 Amarillo Ave	IsAddressOf	Stanford Oval Parking
+1	parking garage	IsTypeOf	Stanford Oval Parking
+1	Stanford Oval Parking	HasTraffic	no traffic
+1	Stanford Oval Parking	HasDistance	5 miles
+1	no traffic	IsTrafficOf	Stanford Oval Parking
+1	5 miles	IsDistanceFrom	Stanford Oval Parking
+2	5672 barringer street	HasAddress	5672 barringer street
+2	5672 barringer street	HasType	certain address
+2	5672 barringer street	IsAddressOf	5672 barringer street
+2	certain address	IsTypeOf	5672 barringer street
+2	5672 barringer street	HasTraffic	heavy traffic
+2	5672 barringer street	HasDistance	5 miles
+2	heavy traffic	IsTrafficOf	5672 barringer street
+2	5 miles	IsDistanceFrom	5672 barringer street
+3	Stanford Express Care	HasAddress	214 El Camino Real
+3	Stanford Express Care	HasType	hospital
+3	214 El Camino Real	IsAddressOf	Stanford Express Care
+3	hospital	IsTypeOf	Stanford Express Care
+3	Stanford Express Care	HasTraffic	no traffic
+3	Stanford Express Care	HasDistance	3 miles
+3	no traffic	IsTrafficOf	Stanford Express Care
+3	3 miles	IsDistanceFrom	Stanford Express Care
+4	Four Seasons	HasAddress	465 Arcadia Pl
+4	Four Seasons	HasType	rest stop
+4	465 Arcadia Pl	IsAddressOf	Four Seasons
+4	rest stop	IsTypeOf	Four Seasons
+4	Four Seasons	HasTraffic	heavy traffic
+4	Four Seasons	HasDistance	3 miles
+4	heavy traffic	IsTrafficOf	Four Seasons
+4	3 miles	IsDistanceFrom	Four Seasons
+5	Philz	HasAddress	583 Alester Ave
+5	Philz	HasType	coffee or tea place
+5	583 Alester Ave	IsAddressOf	Philz
+5	coffee or tea place	IsTypeOf	Philz
+5	Philz	HasTraffic	moderate traffic
+5	Philz	HasDistance	2 miles
+5	moderate traffic	IsTrafficOf	Philz
+5	2 miles	IsDistanceFrom	Philz
+6	home	HasAddress	5671 barringer street
+6	home	HasType	home
+6	5671 barringer street	IsAddressOf	home
+6	home	IsTypeOf	home
+6	home	HasTraffic	heavy traffic
+6	home	HasDistance	4 miles
+6	heavy traffic	IsTrafficOf	home
+6	4 miles	IsDistanceFrom	home
+-1	today	IsEqualTo	monday

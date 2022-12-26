@@ -1,0 +1,57 @@
+0	Palo Alto Cafe	HasAddress	436 Alger Dr
+0	Palo Alto Cafe	HasType	coffee or tea place
+0	436 Alger Dr	IsAddressOf	Palo Alto Cafe
+0	coffee or tea place	IsTypeOf	Palo Alto Cafe
+0	Palo Alto Cafe	HasTraffic	moderate traffic
+0	Palo Alto Cafe	HasDistance	3 miles
+0	moderate traffic	IsTrafficOf	Palo Alto Cafe
+0	3 miles	IsDistanceFrom	Palo Alto Cafe
+1	Palo Alto Garage R	HasAddress	481 Amaranta Ave
+1	Palo Alto Garage R	HasType	parking garage
+1	481 Amaranta Ave	IsAddressOf	Palo Alto Garage R
+1	parking garage	IsTypeOf	Palo Alto Garage R
+1	Palo Alto Garage R	HasTraffic	heavy traffic
+1	Palo Alto Garage R	HasDistance	5 miles
+1	heavy traffic	IsTrafficOf	Palo Alto Garage R
+1	5 miles	IsDistanceFrom	Palo Alto Garage R
+2	Pizza Hut	HasAddress	704 El Camino Real
+2	Pizza Hut	HasType	pizza restaurant
+2	704 El Camino Real	IsAddressOf	Pizza Hut
+2	pizza restaurant	IsTypeOf	Pizza Hut
+2	Pizza Hut	HasTraffic	no traffic
+2	Pizza Hut	HasDistance	5 miles
+2	no traffic	IsTrafficOf	Pizza Hut
+2	5 miles	IsDistanceFrom	Pizza Hut
+3	Jing Jing	HasAddress	113 Arbol Dr
+3	Jing Jing	HasType	chinese restaurant
+3	113 Arbol Dr	IsAddressOf	Jing Jing
+3	chinese restaurant	IsTypeOf	Jing Jing
+3	Jing Jing	HasTraffic	heavy traffic
+3	Jing Jing	HasDistance	2 miles
+3	heavy traffic	IsTrafficOf	Jing Jing
+3	2 miles	IsDistanceFrom	Jing Jing
+4	jacks house	HasAddress	864 Almanor Ln
+4	jacks house	HasType	friends house
+4	864 Almanor Ln	IsAddressOf	jacks house
+4	friends house	IsTypeOf	jacks house
+4	jacks house	HasTraffic	heavy traffic
+4	jacks house	HasDistance	5 miles
+4	heavy traffic	IsTrafficOf	jacks house
+4	5 miles	IsDistanceFrom	jacks house
+5	Pizza Chicago	HasAddress	915 Arbol Dr
+5	Pizza Chicago	HasType	pizza restaurant
+5	915 Arbol Dr	IsAddressOf	Pizza Chicago
+5	pizza restaurant	IsTypeOf	Pizza Chicago
+5	Pizza Chicago	HasTraffic	heavy traffic
+5	Pizza Chicago	HasDistance	4 miles
+5	heavy traffic	IsTrafficOf	Pizza Chicago
+5	4 miles	IsDistanceFrom	Pizza Chicago
+6	Philz	HasAddress	583 Alester Ave
+6	Philz	HasType	coffee or tea place
+6	583 Alester Ave	IsAddressOf	Philz
+6	coffee or tea place	IsTypeOf	Philz
+6	Philz	HasTraffic	heavy traffic
+6	Philz	HasDistance	1 miles
+6	heavy traffic	IsTrafficOf	Philz
+6	1 miles	IsDistanceFrom	Philz
+-1	today	IsEqualTo	monday

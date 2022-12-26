@@ -1,0 +1,65 @@
+0	tai pan	HasAddress	830 Almanor Ln
+0	tai pan	HasType	chinese restaurant
+0	830 Almanor Ln	IsAddressOf	tai pan
+0	chinese restaurant	IsTypeOf	tai pan
+0	tai pan	HasTraffic	heavy traffic
+0	tai pan	HasDistance	1 miles
+0	heavy traffic	IsTrafficOf	tai pan
+0	1 miles	IsDistanceFrom	tai pan
+1	Palo Alto Cafe	HasAddress	436 Alger Dr
+1	Palo Alto Cafe	HasType	coffee or tea place
+1	436 Alger Dr	IsAddressOf	Palo Alto Cafe
+1	coffee or tea place	IsTypeOf	Palo Alto Cafe
+1	Palo Alto Cafe	HasTraffic	no traffic
+1	Palo Alto Cafe	HasDistance	1 miles
+1	no traffic	IsTrafficOf	Palo Alto Cafe
+1	1 miles	IsDistanceFrom	Palo Alto Cafe
+2	Philz	HasAddress	583 Alester Ave
+2	Philz	HasType	coffee or tea place
+2	583 Alester Ave	IsAddressOf	Philz
+2	coffee or tea place	IsTypeOf	Philz
+2	Philz	HasTraffic	moderate traffic
+2	Philz	HasDistance	1 miles
+2	moderate traffic	IsTrafficOf	Philz
+2	1 miles	IsDistanceFrom	Philz
+3	Stanford Oval Parking	HasAddress	610 Amarillo Ave
+3	Stanford Oval Parking	HasType	parking garage
+3	610 Amarillo Ave	IsAddressOf	Stanford Oval Parking
+3	parking garage	IsTypeOf	Stanford Oval Parking
+3	Stanford Oval Parking	HasTraffic	car collision nearby
+3	Stanford Oval Parking	HasDistance	1 miles
+3	car collision nearby	IsTrafficOf	Stanford Oval Parking
+3	1 miles	IsDistanceFrom	Stanford Oval Parking
+4	jills house	HasAddress	347 Alta Mesa Ave
+4	jills house	HasType	friends house
+4	347 Alta Mesa Ave	IsAddressOf	jills house
+4	friends house	IsTypeOf	jills house
+4	jills house	HasTraffic	no traffic
+4	jills house	HasDistance	5 miles
+4	no traffic	IsTrafficOf	jills house
+4	5 miles	IsDistanceFrom	jills house
+5	Travelers Lodge	HasAddress	333 Arbol Dr
+5	Travelers Lodge	HasType	rest stop
+5	333 Arbol Dr	IsAddressOf	Travelers Lodge
+5	rest stop	IsTypeOf	Travelers Lodge
+5	Travelers Lodge	HasTraffic	moderate traffic
+5	Travelers Lodge	HasDistance	5 miles
+5	moderate traffic	IsTrafficOf	Travelers Lodge
+5	5 miles	IsDistanceFrom	Travelers Lodge
+6	Hotel Keen	HasAddress	578 Arbol Dr
+6	Hotel Keen	HasType	rest stop
+6	578 Arbol Dr	IsAddressOf	Hotel Keen
+6	rest stop	IsTypeOf	Hotel Keen
+6	Hotel Keen	HasTraffic	no traffic
+6	Hotel Keen	HasDistance	4 miles
+6	no traffic	IsTrafficOf	Hotel Keen
+6	4 miles	IsDistanceFrom	Hotel Keen
+7	Pizza Hut	HasAddress	704 El Camino Real
+7	Pizza Hut	HasType	pizza restaurant
+7	704 El Camino Real	IsAddressOf	Pizza Hut
+7	pizza restaurant	IsTypeOf	Pizza Hut
+7	Pizza Hut	HasTraffic	road block nearby
+7	Pizza Hut	HasDistance	6 miles
+7	road block nearby	IsTrafficOf	Pizza Hut
+7	6 miles	IsDistanceFrom	Pizza Hut
+-1	today	IsEqualTo	monday

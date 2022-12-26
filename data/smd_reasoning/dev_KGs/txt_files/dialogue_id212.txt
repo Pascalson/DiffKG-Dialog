@@ -1,0 +1,65 @@
+0	Palo Alto Garage R	HasAddress	481 Amaranta Ave
+0	Palo Alto Garage R	HasType	parking garage
+0	481 Amaranta Ave	IsAddressOf	Palo Alto Garage R
+0	parking garage	IsTypeOf	Palo Alto Garage R
+0	Palo Alto Garage R	HasTraffic	heavy traffic
+0	Palo Alto Garage R	HasDistance	3 miles
+0	heavy traffic	IsTrafficOf	Palo Alto Garage R
+0	3 miles	IsDistanceFrom	Palo Alto Garage R
+1	Coupa	HasAddress	394 Van Ness Ave
+1	Coupa	HasType	coffee or tea place
+1	394 Van Ness Ave	IsAddressOf	Coupa
+1	coffee or tea place	IsTypeOf	Coupa
+1	Coupa	HasTraffic	heavy traffic
+1	Coupa	HasDistance	6 miles
+1	heavy traffic	IsTrafficOf	Coupa
+1	6 miles	IsDistanceFrom	Coupa
+2	Valero	HasAddress	200 Alester Ave
+2	Valero	HasType	gas station
+2	200 Alester Ave	IsAddressOf	Valero
+2	gas station	IsTypeOf	Valero
+2	Valero	HasTraffic	road block nearby
+2	Valero	HasDistance	3 miles
+2	road block nearby	IsTrafficOf	Valero
+2	3 miles	IsDistanceFrom	Valero
+3	Chef Chu's	HasAddress	593 Arrowhead Way
+3	Chef Chu's	HasType	chinese restaurant
+3	593 Arrowhead Way	IsAddressOf	Chef Chu's
+3	chinese restaurant	IsTypeOf	Chef Chu's
+3	Chef Chu's	HasTraffic	heavy traffic
+3	Chef Chu's	HasDistance	3 miles
+3	heavy traffic	IsTrafficOf	Chef Chu's
+3	3 miles	IsDistanceFrom	Chef Chu's
+4	Civic Center Garage	HasAddress	270 Altaire Walk
+4	Civic Center Garage	HasType	parking garage
+4	270 Altaire Walk	IsAddressOf	Civic Center Garage
+4	parking garage	IsTypeOf	Civic Center Garage
+4	Civic Center Garage	HasTraffic	no traffic
+4	Civic Center Garage	HasDistance	2 miles
+4	no traffic	IsTrafficOf	Civic Center Garage
+4	2 miles	IsDistanceFrom	Civic Center Garage
+5	Stanford Childrens Health	HasAddress	899 Ames Ct
+5	Stanford Childrens Health	HasType	hospital
+5	899 Ames Ct	IsAddressOf	Stanford Childrens Health
+5	hospital	IsTypeOf	Stanford Childrens Health
+5	Stanford Childrens Health	HasTraffic	no traffic
+5	Stanford Childrens Health	HasDistance	1 miles
+5	no traffic	IsTrafficOf	Stanford Childrens Health
+5	1 miles	IsDistanceFrom	Stanford Childrens Health
+6	76	HasAddress	91 El Camino Real
+6	76	HasType	gas station
+6	91 El Camino Real	IsAddressOf	76
+6	gas station	IsTypeOf	76
+6	76	HasTraffic	heavy traffic
+6	76	HasDistance	8 miles
+6	heavy traffic	IsTrafficOf	76
+6	8 miles	IsDistanceFrom	76
+7	Jing Jing	HasAddress	113 Arbol Dr
+7	Jing Jing	HasType	chinese restaurant
+7	113 Arbol Dr	IsAddressOf	Jing Jing
+7	chinese restaurant	IsTypeOf	Jing Jing
+7	Jing Jing	HasTraffic	no traffic
+7	Jing Jing	HasDistance	6 miles
+7	no traffic	IsTrafficOf	Jing Jing
+7	6 miles	IsDistanceFrom	Jing Jing
+-1	today	IsEqualTo	monday

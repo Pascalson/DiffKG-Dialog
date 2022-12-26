@@ -1,0 +1,65 @@
+0	home	HasAddress	10 ames street
+0	home	HasType	home
+0	10 ames street	IsAddressOf	home
+0	home	IsTypeOf	home
+0	home	HasTraffic	car collision nearby
+0	home	HasDistance	4 miles
+0	car collision nearby	IsTrafficOf	home
+0	4 miles	IsDistanceFrom	home
+1	Civic Center Garage	HasAddress	270 Altaire Walk
+1	Civic Center Garage	HasType	parking garage
+1	270 Altaire Walk	IsAddressOf	Civic Center Garage
+1	parking garage	IsTypeOf	Civic Center Garage
+1	Civic Center Garage	HasTraffic	no traffic
+1	Civic Center Garage	HasDistance	4 miles
+1	no traffic	IsTrafficOf	Civic Center Garage
+1	4 miles	IsDistanceFrom	Civic Center Garage
+2	Teavana	HasAddress	145 Amherst St
+2	Teavana	HasType	coffee or tea place
+2	145 Amherst St	IsAddressOf	Teavana
+2	coffee or tea place	IsTypeOf	Teavana
+2	Teavana	HasTraffic	road block nearby
+2	Teavana	HasDistance	2 miles
+2	road block nearby	IsTrafficOf	Teavana
+2	2 miles	IsDistanceFrom	Teavana
+3	Papa Johns	HasAddress	110 Arastradero Rd
+3	Papa Johns	HasType	pizza restaurant
+3	110 Arastradero Rd	IsAddressOf	Papa Johns
+3	pizza restaurant	IsTypeOf	Papa Johns
+3	Papa Johns	HasTraffic	moderate traffic
+3	Papa Johns	HasDistance	6 miles
+3	moderate traffic	IsTrafficOf	Papa Johns
+3	6 miles	IsDistanceFrom	Papa Johns
+4	toms house	HasAddress	580 Van Ness Ave
+4	toms house	HasType	friends house
+4	580 Van Ness Ave	IsAddressOf	toms house
+4	friends house	IsTypeOf	toms house
+4	toms house	HasTraffic	heavy traffic
+4	toms house	HasDistance	5 miles
+4	heavy traffic	IsTrafficOf	toms house
+4	5 miles	IsDistanceFrom	toms house
+5	Whole Foods	HasAddress	819 Alma St
+5	Whole Foods	HasType	grocery store
+5	819 Alma St	IsAddressOf	Whole Foods
+5	grocery store	IsTypeOf	Whole Foods
+5	Whole Foods	HasTraffic	no traffic
+5	Whole Foods	HasDistance	4 miles
+5	no traffic	IsTrafficOf	Whole Foods
+5	4 miles	IsDistanceFrom	Whole Foods
+6	Coupa	HasAddress	394 Van Ness Ave
+6	Coupa	HasType	coffee or tea place
+6	394 Van Ness Ave	IsAddressOf	Coupa
+6	coffee or tea place	IsTypeOf	Coupa
+6	Coupa	HasTraffic	road block nearby
+6	Coupa	HasDistance	2 miles
+6	road block nearby	IsTrafficOf	Coupa
+6	2 miles	IsDistanceFrom	Coupa
+7	The Westin	HasAddress	329 El Camino Real
+7	The Westin	HasType	rest stop
+7	329 El Camino Real	IsAddressOf	The Westin
+7	rest stop	IsTypeOf	The Westin
+7	The Westin	HasTraffic	no traffic
+7	The Westin	HasDistance	3 miles
+7	no traffic	IsTrafficOf	The Westin
+7	3 miles	IsDistanceFrom	The Westin
+-1	today	IsEqualTo	monday

@@ -1,0 +1,37 @@
+0	conference	HasTime	3pm
+0	3pm	IsTimeOf	conference
+0	conference	HasDate	friday
+0	friday	IsDateOf	conference
+0	conference	HasParty	executive team
+0	executive team	IsPartyOf	conference
+0	conference	HasRoom	conference room 100
+0	conference room 100	IsRoomOf	conference
+0	conference	HasAgenda	discuss the merger
+0	discuss the merger	IsAgendaOf	conference
+1	lab appointment	HasTime	3pm
+1	3pm	IsTimeOf	lab appointment
+1	lab appointment	HasDate	thursday
+1	thursday	IsDateOf	lab appointment
+2	meeting	HasTime	2pm
+2	2pm	IsTimeOf	meeting
+2	meeting	HasDate	friday
+2	friday	IsDateOf	meeting
+2	meeting	HasParty	sales team
+2	sales team	IsPartyOf	meeting
+2	meeting	HasRoom	conference room 50
+2	conference room 50	IsRoomOf	meeting
+2	meeting	HasAgenda	go over budget
+2	go over budget	IsAgendaOf	meeting
+3	doctor appointment	HasTime	2pm
+3	2pm	IsTimeOf	doctor appointment
+3	doctor appointment	HasDate	tuesday
+3	tuesday	IsDateOf	doctor appointment
+4	dentist appointment	HasTime	11am
+4	11am	IsTimeOf	dentist appointment
+4	dentist appointment	HasDate	tuesday
+4	tuesday	IsDateOf	dentist appointment
+5	swimming activity	HasTime	2pm
+5	2pm	IsTimeOf	swimming activity
+5	swimming activity	HasDate	friday
+5	friday	IsDateOf	swimming activity
+-1	today	IsEqualTo	monday

@@ -1,0 +1,57 @@
+0	P.F. Changs	HasAddress	669 El Camino Real
+0	P.F. Changs	HasType	chinese restaurant
+0	669 El Camino Real	IsAddressOf	P.F. Changs
+0	chinese restaurant	IsTypeOf	P.F. Changs
+0	P.F. Changs	HasTraffic	moderate traffic
+0	P.F. Changs	HasDistance	4 miles
+0	moderate traffic	IsTrafficOf	P.F. Changs
+0	4 miles	IsDistanceFrom	P.F. Changs
+1	Cafe Venetia	HasAddress	269 Alger Dr
+1	Cafe Venetia	HasType	coffee or tea place
+1	269 Alger Dr	IsAddressOf	Cafe Venetia
+1	coffee or tea place	IsTypeOf	Cafe Venetia
+1	Cafe Venetia	HasTraffic	heavy traffic
+1	Cafe Venetia	HasDistance	2 miles
+1	heavy traffic	IsTrafficOf	Cafe Venetia
+1	2 miles	IsDistanceFrom	Cafe Venetia
+2	Whole Foods	HasAddress	819 Alma St
+2	Whole Foods	HasType	grocery store
+2	819 Alma St	IsAddressOf	Whole Foods
+2	grocery store	IsTypeOf	Whole Foods
+2	Whole Foods	HasTraffic	no traffic
+2	Whole Foods	HasDistance	6 miles
+2	no traffic	IsTrafficOf	Whole Foods
+2	6 miles	IsDistanceFrom	Whole Foods
+3	Stanford Oval Parking	HasAddress	610 Amarillo Ave
+3	Stanford Oval Parking	HasType	parking garage
+3	610 Amarillo Ave	IsAddressOf	Stanford Oval Parking
+3	parking garage	IsTypeOf	Stanford Oval Parking
+3	Stanford Oval Parking	HasTraffic	moderate traffic
+3	Stanford Oval Parking	HasDistance	2 miles
+3	moderate traffic	IsTrafficOf	Stanford Oval Parking
+3	2 miles	IsDistanceFrom	Stanford Oval Parking
+4	Panda Express	HasAddress	842 Arrowhead Way
+4	Panda Express	HasType	chinese restaurant
+4	842 Arrowhead Way	IsAddressOf	Panda Express
+4	chinese restaurant	IsTypeOf	Panda Express
+4	Panda Express	HasTraffic	no traffic
+4	Panda Express	HasDistance	4 miles
+4	no traffic	IsTrafficOf	Panda Express
+4	4 miles	IsDistanceFrom	Panda Express
+5	Stanford Shopping Center	HasAddress	773 Alger Dr
+5	Stanford Shopping Center	HasType	shopping center
+5	773 Alger Dr	IsAddressOf	Stanford Shopping Center
+5	shopping center	IsTypeOf	Stanford Shopping Center
+5	Stanford Shopping Center	HasTraffic	moderate traffic
+5	Stanford Shopping Center	HasDistance	6 miles
+5	moderate traffic	IsTrafficOf	Stanford Shopping Center
+5	6 miles	IsDistanceFrom	Stanford Shopping Center
+6	Ravenswood Shopping Center	HasAddress	434 Arastradero Rd
+6	Ravenswood Shopping Center	HasType	shopping center
+6	434 Arastradero Rd	IsAddressOf	Ravenswood Shopping Center
+6	shopping center	IsTypeOf	Ravenswood Shopping Center
+6	Ravenswood Shopping Center	HasTraffic	no traffic
+6	Ravenswood Shopping Center	HasDistance	2 miles
+6	no traffic	IsTrafficOf	Ravenswood Shopping Center
+6	2 miles	IsDistanceFrom	Ravenswood Shopping Center
+-1	today	IsEqualTo	monday

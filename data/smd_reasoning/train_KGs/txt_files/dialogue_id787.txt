@@ -1,0 +1,57 @@
+0	Panda Express	HasAddress	842 Arrowhead Way
+0	Panda Express	HasType	chinese restaurant
+0	842 Arrowhead Way	IsAddressOf	Panda Express
+0	chinese restaurant	IsTypeOf	Panda Express
+0	Panda Express	HasTraffic	heavy traffic
+0	Panda Express	HasDistance	4 miles
+0	heavy traffic	IsTrafficOf	Panda Express
+0	4 miles	IsDistanceFrom	Panda Express
+1	The Clement Hotel	HasAddress	657 Ames Ave
+1	The Clement Hotel	HasType	rest stop
+1	657 Ames Ave	IsAddressOf	The Clement Hotel
+1	rest stop	IsTypeOf	The Clement Hotel
+1	The Clement Hotel	HasTraffic	no traffic
+1	The Clement Hotel	HasDistance	6 miles
+1	no traffic	IsTrafficOf	The Clement Hotel
+1	6 miles	IsDistanceFrom	The Clement Hotel
+2	jacks house	HasAddress	864 Almanor Ln
+2	jacks house	HasType	friends house
+2	864 Almanor Ln	IsAddressOf	jacks house
+2	friends house	IsTypeOf	jacks house
+2	jacks house	HasTraffic	moderate traffic
+2	jacks house	HasDistance	5 miles
+2	moderate traffic	IsTrafficOf	jacks house
+2	5 miles	IsDistanceFrom	jacks house
+3	Dominos	HasAddress	776 Arastradero Rd
+3	Dominos	HasType	pizza restaurant
+3	776 Arastradero Rd	IsAddressOf	Dominos
+3	pizza restaurant	IsTypeOf	Dominos
+3	Dominos	HasTraffic	no traffic
+3	Dominos	HasDistance	2 miles
+3	no traffic	IsTrafficOf	Dominos
+3	2 miles	IsDistanceFrom	Dominos
+4	Stanford Oval Parking	HasAddress	610 Amarillo Ave
+4	Stanford Oval Parking	HasType	parking garage
+4	610 Amarillo Ave	IsAddressOf	Stanford Oval Parking
+4	parking garage	IsTypeOf	Stanford Oval Parking
+4	Stanford Oval Parking	HasTraffic	moderate traffic
+4	Stanford Oval Parking	HasDistance	1 miles
+4	moderate traffic	IsTrafficOf	Stanford Oval Parking
+4	1 miles	IsDistanceFrom	Stanford Oval Parking
+5	Dish Parking	HasAddress	550 Alester Ave
+5	Dish Parking	HasType	parking garage
+5	550 Alester Ave	IsAddressOf	Dish Parking
+5	parking garage	IsTypeOf	Dish Parking
+5	Dish Parking	HasTraffic	heavy traffic
+5	Dish Parking	HasDistance	6 miles
+5	heavy traffic	IsTrafficOf	Dish Parking
+5	6 miles	IsDistanceFrom	Dish Parking
+6	Palo Alto Garage R	HasAddress	481 Amaranta Ave
+6	Palo Alto Garage R	HasType	parking garage
+6	481 Amaranta Ave	IsAddressOf	Palo Alto Garage R
+6	parking garage	IsTypeOf	Palo Alto Garage R
+6	Palo Alto Garage R	HasTraffic	moderate traffic
+6	Palo Alto Garage R	HasDistance	5 miles
+6	moderate traffic	IsTrafficOf	Palo Alto Garage R
+6	5 miles	IsDistanceFrom	Palo Alto Garage R
+-1	today	IsEqualTo	monday

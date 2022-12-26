@@ -1,0 +1,65 @@
+0	Safeway	HasAddress	452 Arcadia Pl
+0	Safeway	HasType	grocery store
+0	452 Arcadia Pl	IsAddressOf	Safeway
+0	grocery store	IsTypeOf	Safeway
+0	Safeway	HasTraffic	no traffic
+0	Safeway	HasDistance	4 miles
+0	no traffic	IsTrafficOf	Safeway
+0	4 miles	IsDistanceFrom	Safeway
+1	Stanford Shopping Center	HasAddress	773 Alger Dr
+1	Stanford Shopping Center	HasType	shopping center
+1	773 Alger Dr	IsAddressOf	Stanford Shopping Center
+1	shopping center	IsTypeOf	Stanford Shopping Center
+1	Stanford Shopping Center	HasTraffic	heavy traffic
+1	Stanford Shopping Center	HasDistance	5 miles
+1	heavy traffic	IsTrafficOf	Stanford Shopping Center
+1	5 miles	IsDistanceFrom	Stanford Shopping Center
+2	Pizza Chicago	HasAddress	915 Arbol Dr
+2	Pizza Chicago	HasType	pizza restaurant
+2	915 Arbol Dr	IsAddressOf	Pizza Chicago
+2	pizza restaurant	IsTypeOf	Pizza Chicago
+2	Pizza Chicago	HasTraffic	heavy traffic
+2	Pizza Chicago	HasDistance	7 miles
+2	heavy traffic	IsTrafficOf	Pizza Chicago
+2	7 miles	IsDistanceFrom	Pizza Chicago
+3	Chevron	HasAddress	783 Arcadia Pl
+3	Chevron	HasType	gas station
+3	783 Arcadia Pl	IsAddressOf	Chevron
+3	gas station	IsTypeOf	Chevron
+3	Chevron	HasTraffic	no traffic
+3	Chevron	HasDistance	4 miles
+3	no traffic	IsTrafficOf	Chevron
+3	4 miles	IsDistanceFrom	Chevron
+4	Stanford Childrens Health	HasAddress	899 Ames Ct
+4	Stanford Childrens Health	HasType	hospital
+4	899 Ames Ct	IsAddressOf	Stanford Childrens Health
+4	hospital	IsTypeOf	Stanford Childrens Health
+4	Stanford Childrens Health	HasTraffic	road block nearby
+4	Stanford Childrens Health	HasDistance	5 miles
+4	road block nearby	IsTrafficOf	Stanford Childrens Health
+4	5 miles	IsDistanceFrom	Stanford Childrens Health
+5	toms house	HasAddress	580 Van Ness Ave
+5	toms house	HasType	friends house
+5	580 Van Ness Ave	IsAddressOf	toms house
+5	friends house	IsTypeOf	toms house
+5	toms house	HasTraffic	car collision nearby
+5	toms house	HasDistance	1 miles
+5	car collision nearby	IsTrafficOf	toms house
+5	1 miles	IsDistanceFrom	toms house
+6	jills house	HasAddress	347 Alta Mesa Ave
+6	jills house	HasType	friends house
+6	347 Alta Mesa Ave	IsAddressOf	jills house
+6	friends house	IsTypeOf	jills house
+6	jills house	HasTraffic	no traffic
+6	jills house	HasDistance	6 miles
+6	no traffic	IsTrafficOf	jills house
+6	6 miles	IsDistanceFrom	jills house
+7	Civic Center Garage	HasAddress	270 Altaire Walk
+7	Civic Center Garage	HasType	parking garage
+7	270 Altaire Walk	IsAddressOf	Civic Center Garage
+7	parking garage	IsTypeOf	Civic Center Garage
+7	Civic Center Garage	HasTraffic	heavy traffic
+7	Civic Center Garage	HasDistance	6 miles
+7	heavy traffic	IsTrafficOf	Civic Center Garage
+7	6 miles	IsDistanceFrom	Civic Center Garage
+-1	today	IsEqualTo	monday

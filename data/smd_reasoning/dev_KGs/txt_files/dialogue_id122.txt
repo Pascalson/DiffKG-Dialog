@@ -1,0 +1,61 @@
+0	meeting	HasTime	1pm
+0	1pm	IsTimeOf	meeting
+0	meeting	HasDate	the 5th
+0	the 5th	IsDateOf	meeting
+0	meeting	HasParty	vice president
+0	vice president	IsPartyOf	meeting
+0	meeting	HasRoom	conference room 100
+0	conference room 100	IsRoomOf	meeting
+0	meeting	HasAgenda	go over quarterly report
+0	go over quarterly report	IsAgendaOf	meeting
+1	conference	HasTime	1pm
+1	1pm	IsTimeOf	conference
+1	conference	HasDate	the 8th
+1	the 8th	IsDateOf	conference
+1	conference	HasParty	HR
+1	HR	IsPartyOf	conference
+1	conference	HasRoom	conference room 50
+1	conference room 50	IsRoomOf	conference
+1	conference	HasAgenda	go over budget
+1	go over budget	IsAgendaOf	conference
+2	taking medicine	HasTime	2pm
+2	2pm	IsTimeOf	taking medicine
+2	taking medicine	HasDate	monday
+2	monday	IsDateOf	taking medicine
+2	taking medicine	HasParty	aunt
+2	aunt	IsPartyOf	taking medicine
+3	doctor appointment	HasTime	9am
+3	9am	IsTimeOf	doctor appointment
+3	doctor appointment	HasDate	the 8th
+3	the 8th	IsDateOf	doctor appointment
+3	doctor appointment	HasParty	mother
+3	mother	IsPartyOf	doctor appointment
+4	tennis activity	HasTime	3pm
+4	3pm	IsTimeOf	tennis activity
+4	tennis activity	HasDate	monday
+4	monday	IsDateOf	tennis activity
+4	tennis activity	HasParty	Jeff
+4	Jeff	IsPartyOf	tennis activity
+5	dinner	HasTime	5pm
+5	5pm	IsTimeOf	dinner
+5	dinner	HasDate	the 13th
+5	the 13th	IsDateOf	dinner
+5	dinner	HasParty	Marie
+5	Marie	IsPartyOf	dinner
+6	lab appointment	HasTime	2pm
+6	2pm	IsTimeOf	lab appointment
+6	lab appointment	HasDate	tuesday
+6	tuesday	IsDateOf	lab appointment
+6	lab appointment	HasParty	father
+6	father	IsPartyOf	lab appointment
+7	meeting	HasTime	5pm
+7	5pm	IsTimeOf	meeting
+7	meeting	HasDate	monday
+7	monday	IsDateOf	meeting
+7	meeting	HasParty	vice president
+7	vice president	IsPartyOf	meeting
+7	meeting	HasRoom	conference room 102
+7	conference room 102	IsRoomOf	meeting
+7	meeting	HasAgenda	discuss the company picnic
+7	discuss the company picnic	IsAgendaOf	meeting
+-1	today	IsEqualTo	monday

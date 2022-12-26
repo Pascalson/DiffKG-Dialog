@@ -1,0 +1,57 @@
+0	Panda Express	HasAddress	842 Arrowhead Way
+0	Panda Express	HasType	chinese restaurant
+0	842 Arrowhead Way	IsAddressOf	Panda Express
+0	chinese restaurant	IsTypeOf	Panda Express
+0	Panda Express	HasTraffic	heavy traffic
+0	Panda Express	HasDistance	3 miles
+0	heavy traffic	IsTrafficOf	Panda Express
+0	3 miles	IsDistanceFrom	Panda Express
+1	The Clement Hotel	HasAddress	657 Ames Ave
+1	The Clement Hotel	HasType	rest stop
+1	657 Ames Ave	IsAddressOf	The Clement Hotel
+1	rest stop	IsTypeOf	The Clement Hotel
+1	The Clement Hotel	HasTraffic	no traffic
+1	The Clement Hotel	HasDistance	4 miles
+1	no traffic	IsTrafficOf	The Clement Hotel
+1	4 miles	IsDistanceFrom	The Clement Hotel
+2	Midtown Shopping Center	HasAddress	338 Alester Ave
+2	Midtown Shopping Center	HasType	shopping center
+2	338 Alester Ave	IsAddressOf	Midtown Shopping Center
+2	shopping center	IsTypeOf	Midtown Shopping Center
+2	Midtown Shopping Center	HasTraffic	moderate traffic
+2	Midtown Shopping Center	HasDistance	1 miles
+2	moderate traffic	IsTrafficOf	Midtown Shopping Center
+2	1 miles	IsDistanceFrom	Midtown Shopping Center
+3	Pizza Chicago	HasAddress	915 Arbol Dr
+3	Pizza Chicago	HasType	pizza restaurant
+3	915 Arbol Dr	IsAddressOf	Pizza Chicago
+3	pizza restaurant	IsTypeOf	Pizza Chicago
+3	Pizza Chicago	HasTraffic	no traffic
+3	Pizza Chicago	HasDistance	6 miles
+3	no traffic	IsTrafficOf	Pizza Chicago
+3	6 miles	IsDistanceFrom	Pizza Chicago
+4	Dish Parking	HasAddress	550 Alester Ave
+4	Dish Parking	HasType	parking garage
+4	550 Alester Ave	IsAddressOf	Dish Parking
+4	parking garage	IsTypeOf	Dish Parking
+4	Dish Parking	HasTraffic	heavy traffic
+4	Dish Parking	HasDistance	6 miles
+4	heavy traffic	IsTrafficOf	Dish Parking
+4	6 miles	IsDistanceFrom	Dish Parking
+5	Cafe Venetia	HasAddress	269 Alger Dr
+5	Cafe Venetia	HasType	coffee or tea place
+5	269 Alger Dr	IsAddressOf	Cafe Venetia
+5	coffee or tea place	IsTypeOf	Cafe Venetia
+5	Cafe Venetia	HasTraffic	moderate traffic
+5	Cafe Venetia	HasDistance	5 miles
+5	moderate traffic	IsTrafficOf	Cafe Venetia
+5	5 miles	IsDistanceFrom	Cafe Venetia
+6	Stanford Shopping Center	HasAddress	773 Alger Dr
+6	Stanford Shopping Center	HasType	shopping center
+6	773 Alger Dr	IsAddressOf	Stanford Shopping Center
+6	shopping center	IsTypeOf	Stanford Shopping Center
+6	Stanford Shopping Center	HasTraffic	no traffic
+6	Stanford Shopping Center	HasDistance	4 miles
+6	no traffic	IsTrafficOf	Stanford Shopping Center
+6	4 miles	IsDistanceFrom	Stanford Shopping Center
+-1	today	IsEqualTo	monday

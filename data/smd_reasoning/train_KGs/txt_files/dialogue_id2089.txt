@@ -1,0 +1,57 @@
+0	Panda Express	HasAddress	842 Arrowhead Way
+0	Panda Express	HasType	chinese restaurant
+0	842 Arrowhead Way	IsAddressOf	Panda Express
+0	chinese restaurant	IsTypeOf	Panda Express
+0	Panda Express	HasTraffic	moderate traffic
+0	Panda Express	HasDistance	1 miles
+0	moderate traffic	IsTrafficOf	Panda Express
+0	1 miles	IsDistanceFrom	Panda Express
+1	Ravenswood Shopping Center	HasAddress	434 Arastradero Rd
+1	Ravenswood Shopping Center	HasType	shopping center
+1	434 Arastradero Rd	IsAddressOf	Ravenswood Shopping Center
+1	shopping center	IsTypeOf	Ravenswood Shopping Center
+1	Ravenswood Shopping Center	HasTraffic	heavy traffic
+1	Ravenswood Shopping Center	HasDistance	4 miles
+1	heavy traffic	IsTrafficOf	Ravenswood Shopping Center
+1	4 miles	IsDistanceFrom	Ravenswood Shopping Center
+2	Dominos	HasAddress	776 Arastradero Rd
+2	Dominos	HasType	pizza restaurant
+2	776 Arastradero Rd	IsAddressOf	Dominos
+2	pizza restaurant	IsTypeOf	Dominos
+2	Dominos	HasTraffic	no traffic
+2	Dominos	HasDistance	1 miles
+2	no traffic	IsTrafficOf	Dominos
+2	1 miles	IsDistanceFrom	Dominos
+3	5672 barringer street	HasAddress	5672 barringer street
+3	5672 barringer street	HasType	certain address
+3	5672 barringer street	IsAddressOf	5672 barringer street
+3	certain address	IsTypeOf	5672 barringer street
+3	5672 barringer street	HasTraffic	heavy traffic
+3	5672 barringer street	HasDistance	5 miles
+3	heavy traffic	IsTrafficOf	5672 barringer street
+3	5 miles	IsDistanceFrom	5672 barringer street
+4	Civic Center Garage	HasAddress	270 Altaire Walk
+4	Civic Center Garage	HasType	parking garage
+4	270 Altaire Walk	IsAddressOf	Civic Center Garage
+4	parking garage	IsTypeOf	Civic Center Garage
+4	Civic Center Garage	HasTraffic	no traffic
+4	Civic Center Garage	HasDistance	4 miles
+4	no traffic	IsTrafficOf	Civic Center Garage
+4	4 miles	IsDistanceFrom	Civic Center Garage
+5	Teavana	HasAddress	145 Amherst St
+5	Teavana	HasType	coffee or tea place
+5	145 Amherst St	IsAddressOf	Teavana
+5	coffee or tea place	IsTypeOf	Teavana
+5	Teavana	HasTraffic	heavy traffic
+5	Teavana	HasDistance	2 miles
+5	heavy traffic	IsTrafficOf	Teavana
+5	2 miles	IsDistanceFrom	Teavana
+6	Valero	HasAddress	200 Alester Ave
+6	Valero	HasType	gas station
+6	200 Alester Ave	IsAddressOf	Valero
+6	gas station	IsTypeOf	Valero
+6	Valero	HasTraffic	no traffic
+6	Valero	HasDistance	2 miles
+6	no traffic	IsTrafficOf	Valero
+6	2 miles	IsDistanceFrom	Valero
+-1	today	IsEqualTo	monday

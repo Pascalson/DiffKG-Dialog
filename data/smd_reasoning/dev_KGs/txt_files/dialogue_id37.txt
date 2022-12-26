@@ -1,0 +1,57 @@
+0	jills house	HasAddress	347 Alta Mesa Ave
+0	jills house	HasType	friends house
+0	347 Alta Mesa Ave	IsAddressOf	jills house
+0	friends house	IsTypeOf	jills house
+0	jills house	HasTraffic	no traffic
+0	jills house	HasDistance	4 miles
+0	no traffic	IsTrafficOf	jills house
+0	4 miles	IsDistanceFrom	jills house
+1	Whole Foods	HasAddress	819 Alma St
+1	Whole Foods	HasType	grocery store
+1	819 Alma St	IsAddressOf	Whole Foods
+1	grocery store	IsTypeOf	Whole Foods
+1	Whole Foods	HasTraffic	no traffic
+1	Whole Foods	HasDistance	1 miles
+1	no traffic	IsTrafficOf	Whole Foods
+1	1 miles	IsDistanceFrom	Whole Foods
+2	Town and Country	HasAddress	383 University Ave
+2	Town and Country	HasType	shopping center
+2	383 University Ave	IsAddressOf	Town and Country
+2	shopping center	IsTypeOf	Town and Country
+2	Town and Country	HasTraffic	heavy traffic
+2	Town and Country	HasDistance	4 miles
+2	heavy traffic	IsTrafficOf	Town and Country
+2	4 miles	IsDistanceFrom	Town and Country
+3	Pizza Hut	HasAddress	704 El Camino Real
+3	Pizza Hut	HasType	pizza restaurant
+3	704 El Camino Real	IsAddressOf	Pizza Hut
+3	pizza restaurant	IsTypeOf	Pizza Hut
+3	Pizza Hut	HasTraffic	no traffic
+3	Pizza Hut	HasDistance	3 miles
+3	no traffic	IsTrafficOf	Pizza Hut
+3	3 miles	IsDistanceFrom	Pizza Hut
+4	Coupa	HasAddress	394 Van Ness Ave
+4	Coupa	HasType	coffee or tea place
+4	394 Van Ness Ave	IsAddressOf	Coupa
+4	coffee or tea place	IsTypeOf	Coupa
+4	Coupa	HasTraffic	heavy traffic
+4	Coupa	HasDistance	5 miles
+4	heavy traffic	IsTrafficOf	Coupa
+4	5 miles	IsDistanceFrom	Coupa
+5	home	HasAddress	5671 barringer street
+5	home	HasType	home
+5	5671 barringer street	IsAddressOf	home
+5	home	IsTypeOf	home
+5	home	HasTraffic	moderate traffic
+5	home	HasDistance	1 miles
+5	moderate traffic	IsTrafficOf	home
+5	1 miles	IsDistanceFrom	home
+6	Dish Parking	HasAddress	550 Alester Ave
+6	Dish Parking	HasType	parking garage
+6	550 Alester Ave	IsAddressOf	Dish Parking
+6	parking garage	IsTypeOf	Dish Parking
+6	Dish Parking	HasTraffic	no traffic
+6	Dish Parking	HasDistance	2 miles
+6	no traffic	IsTrafficOf	Dish Parking
+6	2 miles	IsDistanceFrom	Dish Parking
+-1	today	IsEqualTo	monday

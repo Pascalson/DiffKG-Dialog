@@ -1,0 +1,57 @@
+0	Stanford Shopping Center	HasAddress	773 Alger Dr
+0	Stanford Shopping Center	HasType	shopping center
+0	773 Alger Dr	IsAddressOf	Stanford Shopping Center
+0	shopping center	IsTypeOf	Stanford Shopping Center
+0	Stanford Shopping Center	HasTraffic	no traffic
+0	Stanford Shopping Center	HasDistance	4 miles
+0	no traffic	IsTrafficOf	Stanford Shopping Center
+0	4 miles	IsDistanceFrom	Stanford Shopping Center
+1	home	HasAddress	10 ames street
+1	home	HasType	home
+1	10 ames street	IsAddressOf	home
+1	home	IsTypeOf	home
+1	home	HasTraffic	no traffic
+1	home	HasDistance	6 miles
+1	no traffic	IsTrafficOf	home
+1	6 miles	IsDistanceFrom	home
+2	Sigona Farmers Market	HasAddress	638 Amherst St
+2	Sigona Farmers Market	HasType	grocery store
+2	638 Amherst St	IsAddressOf	Sigona Farmers Market
+2	grocery store	IsTypeOf	Sigona Farmers Market
+2	Sigona Farmers Market	HasTraffic	heavy traffic
+2	Sigona Farmers Market	HasDistance	2 miles
+2	heavy traffic	IsTrafficOf	Sigona Farmers Market
+2	2 miles	IsDistanceFrom	Sigona Farmers Market
+3	Pizza My Heart	HasAddress	528 Anton Ct
+3	Pizza My Heart	HasType	pizza restaurant
+3	528 Anton Ct	IsAddressOf	Pizza My Heart
+3	pizza restaurant	IsTypeOf	Pizza My Heart
+3	Pizza My Heart	HasTraffic	moderate traffic
+3	Pizza My Heart	HasDistance	3 miles
+3	moderate traffic	IsTrafficOf	Pizza My Heart
+3	3 miles	IsDistanceFrom	Pizza My Heart
+4	toms house	HasAddress	580 Van Ness Ave
+4	toms house	HasType	friends house
+4	580 Van Ness Ave	IsAddressOf	toms house
+4	friends house	IsTypeOf	toms house
+4	toms house	HasTraffic	no traffic
+4	toms house	HasDistance	2 miles
+4	no traffic	IsTrafficOf	toms house
+4	2 miles	IsDistanceFrom	toms house
+5	Four Seasons	HasAddress	465 Arcadia Pl
+5	Four Seasons	HasType	rest stop
+5	465 Arcadia Pl	IsAddressOf	Four Seasons
+5	rest stop	IsTypeOf	Four Seasons
+5	Four Seasons	HasTraffic	moderate traffic
+5	Four Seasons	HasDistance	1 miles
+5	moderate traffic	IsTrafficOf	Four Seasons
+5	1 miles	IsDistanceFrom	Four Seasons
+6	Starbucks	HasAddress	792 Bedoin Street
+6	Starbucks	HasType	coffee or tea place
+6	792 Bedoin Street	IsAddressOf	Starbucks
+6	coffee or tea place	IsTypeOf	Starbucks
+6	Starbucks	HasTraffic	no traffic
+6	Starbucks	HasDistance	2 miles
+6	no traffic	IsTrafficOf	Starbucks
+6	2 miles	IsDistanceFrom	Starbucks
+-1	today	IsEqualTo	monday

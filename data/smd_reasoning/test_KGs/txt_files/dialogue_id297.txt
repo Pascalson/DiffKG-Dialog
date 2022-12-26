@@ -1,0 +1,57 @@
+0	Pizza Hut	HasAddress	704 El Camino Real
+0	Pizza Hut	HasType	pizza restaurant
+0	704 El Camino Real	IsAddressOf	Pizza Hut
+0	pizza restaurant	IsTypeOf	Pizza Hut
+0	Pizza Hut	HasTraffic	heavy traffic
+0	Pizza Hut	HasDistance	3 miles
+0	heavy traffic	IsTrafficOf	Pizza Hut
+0	3 miles	IsDistanceFrom	Pizza Hut
+1	Hotel Keen	HasAddress	578 Arbol Dr
+1	Hotel Keen	HasType	rest stop
+1	578 Arbol Dr	IsAddressOf	Hotel Keen
+1	rest stop	IsTypeOf	Hotel Keen
+1	Hotel Keen	HasTraffic	no traffic
+1	Hotel Keen	HasDistance	5 miles
+1	no traffic	IsTrafficOf	Hotel Keen
+1	5 miles	IsDistanceFrom	Hotel Keen
+2	home	HasAddress	56 cadwell street
+2	home	HasType	home
+2	56 cadwell street	IsAddressOf	home
+2	home	IsTypeOf	home
+2	home	HasTraffic	no traffic
+2	home	HasDistance	6 miles
+2	no traffic	IsTrafficOf	home
+2	6 miles	IsDistanceFrom	home
+3	Comfort Inn	HasAddress	753 University Ave
+3	Comfort Inn	HasType	rest stop
+3	753 University Ave	IsAddressOf	Comfort Inn
+3	rest stop	IsTypeOf	Comfort Inn
+3	Comfort Inn	HasTraffic	no traffic
+3	Comfort Inn	HasDistance	6 miles
+3	no traffic	IsTrafficOf	Comfort Inn
+3	6 miles	IsDistanceFrom	Comfort Inn
+4	Cafe Venetia	HasAddress	269 Alger Dr
+4	Cafe Venetia	HasType	coffee or tea place
+4	269 Alger Dr	IsAddressOf	Cafe Venetia
+4	coffee or tea place	IsTypeOf	Cafe Venetia
+4	Cafe Venetia	HasTraffic	heavy traffic
+4	Cafe Venetia	HasDistance	2 miles
+4	heavy traffic	IsTrafficOf	Cafe Venetia
+4	2 miles	IsDistanceFrom	Cafe Venetia
+5	P.F. Changs	HasAddress	669 El Camino Real
+5	P.F. Changs	HasType	chinese restaurant
+5	669 El Camino Real	IsAddressOf	P.F. Changs
+5	chinese restaurant	IsTypeOf	P.F. Changs
+5	P.F. Changs	HasTraffic	no traffic
+5	P.F. Changs	HasDistance	6 miles
+5	no traffic	IsTrafficOf	P.F. Changs
+5	6 miles	IsDistanceFrom	P.F. Changs
+6	Trader Joes	HasAddress	408 University Ave
+6	Trader Joes	HasType	grocery store
+6	408 University Ave	IsAddressOf	Trader Joes
+6	grocery store	IsTypeOf	Trader Joes
+6	Trader Joes	HasTraffic	moderate traffic
+6	Trader Joes	HasDistance	1 miles
+6	moderate traffic	IsTrafficOf	Trader Joes
+6	1 miles	IsDistanceFrom	Trader Joes
+-1	today	IsEqualTo	monday

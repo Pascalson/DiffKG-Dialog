@@ -1,0 +1,65 @@
+0	jills house	HasAddress	347 Alta Mesa Ave
+0	jills house	HasType	friends house
+0	347 Alta Mesa Ave	IsAddressOf	jills house
+0	friends house	IsTypeOf	jills house
+0	jills house	HasTraffic	heavy traffic
+0	jills house	HasDistance	3 miles
+0	heavy traffic	IsTrafficOf	jills house
+0	3 miles	IsDistanceFrom	jills house
+1	Valero	HasAddress	200 Alester Ave
+1	Valero	HasType	gas station
+1	200 Alester Ave	IsAddressOf	Valero
+1	gas station	IsTypeOf	Valero
+1	Valero	HasTraffic	road block nearby
+1	Valero	HasDistance	1 miles
+1	road block nearby	IsTrafficOf	Valero
+1	1 miles	IsDistanceFrom	Valero
+2	home	HasAddress	5671 barringer street
+2	home	HasType	home
+2	5671 barringer street	IsAddressOf	home
+2	home	IsTypeOf	home
+2	home	HasTraffic	heavy traffic
+2	home	HasDistance	4 miles
+2	heavy traffic	IsTrafficOf	home
+2	4 miles	IsDistanceFrom	home
+3	Four Seasons	HasAddress	465 Arcadia Pl
+3	Four Seasons	HasType	rest stop
+3	465 Arcadia Pl	IsAddressOf	Four Seasons
+3	rest stop	IsTypeOf	Four Seasons
+3	Four Seasons	HasTraffic	moderate traffic
+3	Four Seasons	HasDistance	2 miles
+3	moderate traffic	IsTrafficOf	Four Seasons
+3	2 miles	IsDistanceFrom	Four Seasons
+4	Hotel Keen	HasAddress	578 Arbol Dr
+4	Hotel Keen	HasType	rest stop
+4	578 Arbol Dr	IsAddressOf	Hotel Keen
+4	rest stop	IsTypeOf	Hotel Keen
+4	Hotel Keen	HasTraffic	no traffic
+4	Hotel Keen	HasDistance	1 miles
+4	no traffic	IsTrafficOf	Hotel Keen
+4	1 miles	IsDistanceFrom	Hotel Keen
+5	toms house	HasAddress	580 Van Ness Ave
+5	toms house	HasType	friends house
+5	580 Van Ness Ave	IsAddressOf	toms house
+5	friends house	IsTypeOf	toms house
+5	toms house	HasTraffic	moderate traffic
+5	toms house	HasDistance	6 miles
+5	moderate traffic	IsTrafficOf	toms house
+5	6 miles	IsDistanceFrom	toms house
+6	Town and Country	HasAddress	383 University Ave
+6	Town and Country	HasType	shopping center
+6	383 University Ave	IsAddressOf	Town and Country
+6	shopping center	IsTypeOf	Town and Country
+6	Town and Country	HasTraffic	heavy traffic
+6	Town and Country	HasDistance	6 miles
+6	heavy traffic	IsTrafficOf	Town and Country
+6	6 miles	IsDistanceFrom	Town and Country
+7	Mandarin Roots	HasAddress	271 Springer Street
+7	Mandarin Roots	HasType	chinese restaurant
+7	271 Springer Street	IsAddressOf	Mandarin Roots
+7	chinese restaurant	IsTypeOf	Mandarin Roots
+7	Mandarin Roots	HasTraffic	road block nearby
+7	Mandarin Roots	HasDistance	5 miles
+7	road block nearby	IsTrafficOf	Mandarin Roots
+7	5 miles	IsDistanceFrom	Mandarin Roots
+-1	today	IsEqualTo	monday

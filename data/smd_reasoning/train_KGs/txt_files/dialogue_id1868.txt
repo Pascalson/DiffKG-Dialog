@@ -1,0 +1,65 @@
+0	Teavana	HasAddress	145 Amherst St
+0	Teavana	HasType	coffee or tea place
+0	145 Amherst St	IsAddressOf	Teavana
+0	coffee or tea place	IsTypeOf	Teavana
+0	Teavana	HasTraffic	road block nearby
+0	Teavana	HasDistance	2 miles
+0	road block nearby	IsTrafficOf	Teavana
+0	2 miles	IsDistanceFrom	Teavana
+1	Stanford Oval Parking	HasAddress	610 Amarillo Ave
+1	Stanford Oval Parking	HasType	parking garage
+1	610 Amarillo Ave	IsAddressOf	Stanford Oval Parking
+1	parking garage	IsTypeOf	Stanford Oval Parking
+1	Stanford Oval Parking	HasTraffic	road block nearby
+1	Stanford Oval Parking	HasDistance	3 miles
+1	road block nearby	IsTrafficOf	Stanford Oval Parking
+1	3 miles	IsDistanceFrom	Stanford Oval Parking
+2	Pizza Chicago	HasAddress	915 Arbol Dr
+2	Pizza Chicago	HasType	pizza restaurant
+2	915 Arbol Dr	IsAddressOf	Pizza Chicago
+2	pizza restaurant	IsTypeOf	Pizza Chicago
+2	Pizza Chicago	HasTraffic	road block nearby
+2	Pizza Chicago	HasDistance	5 miles
+2	road block nearby	IsTrafficOf	Pizza Chicago
+2	5 miles	IsDistanceFrom	Pizza Chicago
+3	5677 southwest 4th street	HasAddress	5677 southwest 4th street
+3	5677 southwest 4th street	HasType	certain address
+3	5677 southwest 4th street	IsAddressOf	5677 southwest 4th street
+3	certain address	IsTypeOf	5677 southwest 4th street
+3	5677 southwest 4th street	HasTraffic	no traffic
+3	5677 southwest 4th street	HasDistance	2 miles
+3	no traffic	IsTrafficOf	5677 southwest 4th street
+3	2 miles	IsDistanceFrom	5677 southwest 4th street
+4	Valero	HasAddress	200 Alester Ave
+4	Valero	HasType	gas station
+4	200 Alester Ave	IsAddressOf	Valero
+4	gas station	IsTypeOf	Valero
+4	Valero	HasTraffic	heavy traffic
+4	Valero	HasDistance	2 miles
+4	heavy traffic	IsTrafficOf	Valero
+4	2 miles	IsDistanceFrom	Valero
+5	Civic Center Garage	HasAddress	270 Altaire Walk
+5	Civic Center Garage	HasType	parking garage
+5	270 Altaire Walk	IsAddressOf	Civic Center Garage
+5	parking garage	IsTypeOf	Civic Center Garage
+5	Civic Center Garage	HasTraffic	moderate traffic
+5	Civic Center Garage	HasDistance	6 miles
+5	moderate traffic	IsTrafficOf	Civic Center Garage
+5	6 miles	IsDistanceFrom	Civic Center Garage
+6	home	HasAddress	10 ames street
+6	home	HasType	home
+6	10 ames street	IsAddressOf	home
+6	home	IsTypeOf	home
+6	home	HasTraffic	no traffic
+6	home	HasDistance	4 miles
+6	no traffic	IsTrafficOf	home
+6	4 miles	IsDistanceFrom	home
+7	The Clement Hotel	HasAddress	657 Ames Ave
+7	The Clement Hotel	HasType	rest stop
+7	657 Ames Ave	IsAddressOf	The Clement Hotel
+7	rest stop	IsTypeOf	The Clement Hotel
+7	The Clement Hotel	HasTraffic	car collision nearby
+7	The Clement Hotel	HasDistance	4 miles
+7	car collision nearby	IsTrafficOf	The Clement Hotel
+7	4 miles	IsDistanceFrom	The Clement Hotel
+-1	today	IsEqualTo	monday

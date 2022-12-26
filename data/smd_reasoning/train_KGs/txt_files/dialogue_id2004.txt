@@ -1,0 +1,57 @@
+0	Pizza Hut	HasAddress	704 El Camino Real
+0	Pizza Hut	HasType	pizza restaurant
+0	704 El Camino Real	IsAddressOf	Pizza Hut
+0	pizza restaurant	IsTypeOf	Pizza Hut
+0	Pizza Hut	HasTraffic	heavy traffic
+0	Pizza Hut	HasDistance	2 miles
+0	heavy traffic	IsTrafficOf	Pizza Hut
+0	2 miles	IsDistanceFrom	Pizza Hut
+1	Civic Center Garage	HasAddress	270 Altaire Walk
+1	Civic Center Garage	HasType	parking garage
+1	270 Altaire Walk	IsAddressOf	Civic Center Garage
+1	parking garage	IsTypeOf	Civic Center Garage
+1	Civic Center Garage	HasTraffic	heavy traffic
+1	Civic Center Garage	HasDistance	6 miles
+1	heavy traffic	IsTrafficOf	Civic Center Garage
+1	6 miles	IsDistanceFrom	Civic Center Garage
+2	Teavana	HasAddress	145 Amherst St
+2	Teavana	HasType	coffee or tea place
+2	145 Amherst St	IsAddressOf	Teavana
+2	coffee or tea place	IsTypeOf	Teavana
+2	Teavana	HasTraffic	no traffic
+2	Teavana	HasDistance	3 miles
+2	no traffic	IsTrafficOf	Teavana
+2	3 miles	IsDistanceFrom	Teavana
+3	Philz	HasAddress	583 Alester Ave
+3	Philz	HasType	coffee or tea place
+3	583 Alester Ave	IsAddressOf	Philz
+3	coffee or tea place	IsTypeOf	Philz
+3	Philz	HasTraffic	no traffic
+3	Philz	HasDistance	2 miles
+3	no traffic	IsTrafficOf	Philz
+3	2 miles	IsDistanceFrom	Philz
+4	Stanford Shopping Center	HasAddress	773 Alger Dr
+4	Stanford Shopping Center	HasType	shopping center
+4	773 Alger Dr	IsAddressOf	Stanford Shopping Center
+4	shopping center	IsTypeOf	Stanford Shopping Center
+4	Stanford Shopping Center	HasTraffic	no traffic
+4	Stanford Shopping Center	HasDistance	1 miles
+4	no traffic	IsTrafficOf	Stanford Shopping Center
+4	1 miles	IsDistanceFrom	Stanford Shopping Center
+5	Four Seasons	HasAddress	465 Arcadia Pl
+5	Four Seasons	HasType	rest stop
+5	465 Arcadia Pl	IsAddressOf	Four Seasons
+5	rest stop	IsTypeOf	Four Seasons
+5	Four Seasons	HasTraffic	heavy traffic
+5	Four Seasons	HasDistance	2 miles
+5	heavy traffic	IsTrafficOf	Four Seasons
+5	2 miles	IsDistanceFrom	Four Seasons
+6	Valero	HasAddress	200 Alester Ave
+6	Valero	HasType	gas station
+6	200 Alester Ave	IsAddressOf	Valero
+6	gas station	IsTypeOf	Valero
+6	Valero	HasTraffic	no traffic
+6	Valero	HasDistance	4 miles
+6	no traffic	IsTrafficOf	Valero
+6	4 miles	IsDistanceFrom	Valero
+-1	today	IsEqualTo	monday

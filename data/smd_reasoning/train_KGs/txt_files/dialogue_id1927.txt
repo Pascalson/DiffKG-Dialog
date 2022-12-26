@@ -1,0 +1,65 @@
+0	jacks house	HasAddress	864 Almanor Ln
+0	jacks house	HasType	friends house
+0	864 Almanor Ln	IsAddressOf	jacks house
+0	friends house	IsTypeOf	jacks house
+0	jacks house	HasTraffic	heavy traffic
+0	jacks house	HasDistance	2 miles
+0	heavy traffic	IsTrafficOf	jacks house
+0	2 miles	IsDistanceFrom	jacks house
+1	Chevron	HasAddress	783 Arcadia Pl
+1	Chevron	HasType	gas station
+1	783 Arcadia Pl	IsAddressOf	Chevron
+1	gas station	IsTypeOf	Chevron
+1	Chevron	HasTraffic	car collision nearby
+1	Chevron	HasDistance	6 miles
+1	car collision nearby	IsTrafficOf	Chevron
+1	6 miles	IsDistanceFrom	Chevron
+2	home	HasAddress	5671 barringer street
+2	home	HasType	home
+2	5671 barringer street	IsAddressOf	home
+2	home	IsTypeOf	home
+2	home	HasTraffic	moderate traffic
+2	home	HasDistance	6 miles
+2	moderate traffic	IsTrafficOf	home
+2	6 miles	IsDistanceFrom	home
+3	Valero	HasAddress	200 Alester Ave
+3	Valero	HasType	gas station
+3	200 Alester Ave	IsAddressOf	Valero
+3	gas station	IsTypeOf	Valero
+3	Valero	HasTraffic	moderate traffic
+3	Valero	HasDistance	4 miles
+3	moderate traffic	IsTrafficOf	Valero
+3	4 miles	IsDistanceFrom	Valero
+4	Dominos	HasAddress	776 Arastradero Rd
+4	Dominos	HasType	pizza restaurant
+4	776 Arastradero Rd	IsAddressOf	Dominos
+4	pizza restaurant	IsTypeOf	Dominos
+4	Dominos	HasTraffic	no traffic
+4	Dominos	HasDistance	5 miles
+4	no traffic	IsTrafficOf	Dominos
+4	5 miles	IsDistanceFrom	Dominos
+5	Midtown Shopping Center	HasAddress	338 Alester Ave
+5	Midtown Shopping Center	HasType	shopping center
+5	338 Alester Ave	IsAddressOf	Midtown Shopping Center
+5	shopping center	IsTypeOf	Midtown Shopping Center
+5	Midtown Shopping Center	HasTraffic	car collision nearby
+5	Midtown Shopping Center	HasDistance	3 miles
+5	car collision nearby	IsTrafficOf	Midtown Shopping Center
+5	3 miles	IsDistanceFrom	Midtown Shopping Center
+6	Cafe Venetia	HasAddress	269 Alger Dr
+6	Cafe Venetia	HasType	coffee or tea place
+6	269 Alger Dr	IsAddressOf	Cafe Venetia
+6	coffee or tea place	IsTypeOf	Cafe Venetia
+6	Cafe Venetia	HasTraffic	moderate traffic
+6	Cafe Venetia	HasDistance	2 miles
+6	moderate traffic	IsTrafficOf	Cafe Venetia
+6	2 miles	IsDistanceFrom	Cafe Venetia
+7	Town and Country	HasAddress	383 University Ave
+7	Town and Country	HasType	shopping center
+7	383 University Ave	IsAddressOf	Town and Country
+7	shopping center	IsTypeOf	Town and Country
+7	Town and Country	HasTraffic	moderate traffic
+7	Town and Country	HasDistance	2 miles
+7	moderate traffic	IsTrafficOf	Town and Country
+7	2 miles	IsDistanceFrom	Town and Country
+-1	today	IsEqualTo	monday

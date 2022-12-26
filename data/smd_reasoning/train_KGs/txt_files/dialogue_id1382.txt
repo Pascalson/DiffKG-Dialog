@@ -1,0 +1,65 @@
+0	home	HasAddress	56 cadwell street
+0	home	HasType	home
+0	56 cadwell street	IsAddressOf	home
+0	home	IsTypeOf	home
+0	home	HasTraffic	no traffic
+0	home	HasDistance	3 miles
+0	no traffic	IsTrafficOf	home
+0	3 miles	IsDistanceFrom	home
+1	Papa Johns	HasAddress	110 Arastradero Rd
+1	Papa Johns	HasType	pizza restaurant
+1	110 Arastradero Rd	IsAddressOf	Papa Johns
+1	pizza restaurant	IsTypeOf	Papa Johns
+1	Papa Johns	HasTraffic	no traffic
+1	Papa Johns	HasDistance	2 miles
+1	no traffic	IsTrafficOf	Papa Johns
+1	2 miles	IsDistanceFrom	Papa Johns
+2	Dish Parking	HasAddress	550 Alester Ave
+2	Dish Parking	HasType	parking garage
+2	550 Alester Ave	IsAddressOf	Dish Parking
+2	parking garage	IsTypeOf	Dish Parking
+2	Dish Parking	HasTraffic	road block nearby
+2	Dish Parking	HasDistance	2 miles
+2	road block nearby	IsTrafficOf	Dish Parking
+2	2 miles	IsDistanceFrom	Dish Parking
+3	Cafe Venetia	HasAddress	269 Alger Dr
+3	Cafe Venetia	HasType	coffee or tea place
+3	269 Alger Dr	IsAddressOf	Cafe Venetia
+3	coffee or tea place	IsTypeOf	Cafe Venetia
+3	Cafe Venetia	HasTraffic	moderate traffic
+3	Cafe Venetia	HasDistance	1 miles
+3	moderate traffic	IsTrafficOf	Cafe Venetia
+3	1 miles	IsDistanceFrom	Cafe Venetia
+4	Pizza My Heart	HasAddress	528 Anton Ct
+4	Pizza My Heart	HasType	pizza restaurant
+4	528 Anton Ct	IsAddressOf	Pizza My Heart
+4	pizza restaurant	IsTypeOf	Pizza My Heart
+4	Pizza My Heart	HasTraffic	car collision nearby
+4	Pizza My Heart	HasDistance	6 miles
+4	car collision nearby	IsTrafficOf	Pizza My Heart
+4	6 miles	IsDistanceFrom	Pizza My Heart
+5	Panda Express	HasAddress	842 Arrowhead Way
+5	Panda Express	HasType	chinese restaurant
+5	842 Arrowhead Way	IsAddressOf	Panda Express
+5	chinese restaurant	IsTypeOf	Panda Express
+5	Panda Express	HasTraffic	car collision nearby
+5	Panda Express	HasDistance	1 miles
+5	car collision nearby	IsTrafficOf	Panda Express
+5	1 miles	IsDistanceFrom	Panda Express
+6	Stanford Shopping Center	HasAddress	773 Alger Dr
+6	Stanford Shopping Center	HasType	shopping center
+6	773 Alger Dr	IsAddressOf	Stanford Shopping Center
+6	shopping center	IsTypeOf	Stanford Shopping Center
+6	Stanford Shopping Center	HasTraffic	heavy traffic
+6	Stanford Shopping Center	HasDistance	5 miles
+6	heavy traffic	IsTrafficOf	Stanford Shopping Center
+6	5 miles	IsDistanceFrom	Stanford Shopping Center
+7	Hacienda Market	HasAddress	1313 Chester Ave
+7	Hacienda Market	HasType	grocery store
+7	1313 Chester Ave	IsAddressOf	Hacienda Market
+7	grocery store	IsTypeOf	Hacienda Market
+7	Hacienda Market	HasTraffic	no traffic
+7	Hacienda Market	HasDistance	2 miles
+7	no traffic	IsTrafficOf	Hacienda Market
+7	2 miles	IsDistanceFrom	Hacienda Market
+-1	today	IsEqualTo	monday

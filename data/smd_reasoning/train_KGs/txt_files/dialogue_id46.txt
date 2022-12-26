@@ -1,0 +1,65 @@
+0	home	HasAddress	5671 barringer street
+0	home	HasType	home
+0	5671 barringer street	IsAddressOf	home
+0	home	IsTypeOf	home
+0	home	HasTraffic	heavy traffic
+0	home	HasDistance	1 miles
+0	heavy traffic	IsTrafficOf	home
+0	1 miles	IsDistanceFrom	home
+1	home	HasAddress	10 ames street
+1	home	HasType	home
+1	10 ames street	IsAddressOf	home
+1	home	IsTypeOf	home
+1	home	HasTraffic	car collision nearby
+1	home	HasDistance	4 miles
+1	car collision nearby	IsTrafficOf	home
+1	4 miles	IsDistanceFrom	home
+2	toms house	HasAddress	580 Van Ness Ave
+2	toms house	HasType	friends house
+2	580 Van Ness Ave	IsAddressOf	toms house
+2	friends house	IsTypeOf	toms house
+2	toms house	HasTraffic	car collision nearby
+2	toms house	HasDistance	1 miles
+2	car collision nearby	IsTrafficOf	toms house
+2	1 miles	IsDistanceFrom	toms house
+3	home	HasAddress	56 cadwell street
+3	home	HasType	home
+3	56 cadwell street	IsAddressOf	home
+3	home	IsTypeOf	home
+3	home	HasTraffic	moderate traffic
+3	home	HasDistance	5 miles
+3	moderate traffic	IsTrafficOf	home
+3	5 miles	IsDistanceFrom	home
+4	Ravenswood Shopping Center	HasAddress	434 Arastradero Rd
+4	Ravenswood Shopping Center	HasType	shopping center
+4	434 Arastradero Rd	IsAddressOf	Ravenswood Shopping Center
+4	shopping center	IsTypeOf	Ravenswood Shopping Center
+4	Ravenswood Shopping Center	HasTraffic	car collision nearby
+4	Ravenswood Shopping Center	HasDistance	3 miles
+4	car collision nearby	IsTrafficOf	Ravenswood Shopping Center
+4	3 miles	IsDistanceFrom	Ravenswood Shopping Center
+5	Papa Johns	HasAddress	110 Arastradero Rd
+5	Papa Johns	HasType	pizza restaurant
+5	110 Arastradero Rd	IsAddressOf	Papa Johns
+5	pizza restaurant	IsTypeOf	Papa Johns
+5	Papa Johns	HasTraffic	road block nearby
+5	Papa Johns	HasDistance	1 miles
+5	road block nearby	IsTrafficOf	Papa Johns
+5	1 miles	IsDistanceFrom	Papa Johns
+6	Safeway	HasAddress	452 Arcadia Pl
+6	Safeway	HasType	grocery store
+6	452 Arcadia Pl	IsAddressOf	Safeway
+6	grocery store	IsTypeOf	Safeway
+6	Safeway	HasTraffic	moderate traffic
+6	Safeway	HasDistance	5 miles
+6	moderate traffic	IsTrafficOf	Safeway
+6	5 miles	IsDistanceFrom	Safeway
+7	Stanford Shopping Center	HasAddress	773 Alger Dr
+7	Stanford Shopping Center	HasType	shopping center
+7	773 Alger Dr	IsAddressOf	Stanford Shopping Center
+7	shopping center	IsTypeOf	Stanford Shopping Center
+7	Stanford Shopping Center	HasTraffic	no traffic
+7	Stanford Shopping Center	HasDistance	3 miles
+7	no traffic	IsTrafficOf	Stanford Shopping Center
+7	3 miles	IsDistanceFrom	Stanford Shopping Center
+-1	today	IsEqualTo	monday

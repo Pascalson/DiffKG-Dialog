@@ -1,0 +1,57 @@
+0	jills house	HasAddress	347 Alta Mesa Ave
+0	jills house	HasType	friends house
+0	347 Alta Mesa Ave	IsAddressOf	jills house
+0	friends house	IsTypeOf	jills house
+0	jills house	HasTraffic	no traffic
+0	jills house	HasDistance	3 miles
+0	no traffic	IsTrafficOf	jills house
+0	3 miles	IsDistanceFrom	jills house
+1	home	HasAddress	10 ames street
+1	home	HasType	home
+1	10 ames street	IsAddressOf	home
+1	home	IsTypeOf	home
+1	home	HasTraffic	no traffic
+1	home	HasDistance	1 miles
+1	no traffic	IsTrafficOf	home
+1	1 miles	IsDistanceFrom	home
+2	Safeway	HasAddress	452 Arcadia Pl
+2	Safeway	HasType	grocery store
+2	452 Arcadia Pl	IsAddressOf	Safeway
+2	grocery store	IsTypeOf	Safeway
+2	Safeway	HasTraffic	moderate traffic
+2	Safeway	HasDistance	4 miles
+2	moderate traffic	IsTrafficOf	Safeway
+2	4 miles	IsDistanceFrom	Safeway
+3	Chevron	HasAddress	783 Arcadia Pl
+3	Chevron	HasType	gas station
+3	783 Arcadia Pl	IsAddressOf	Chevron
+3	gas station	IsTypeOf	Chevron
+3	Chevron	HasTraffic	moderate traffic
+3	Chevron	HasDistance	6 miles
+3	moderate traffic	IsTrafficOf	Chevron
+3	6 miles	IsDistanceFrom	Chevron
+4	Coupa	HasAddress	394 Van Ness Ave
+4	Coupa	HasType	coffee or tea place
+4	394 Van Ness Ave	IsAddressOf	Coupa
+4	coffee or tea place	IsTypeOf	Coupa
+4	Coupa	HasTraffic	heavy traffic
+4	Coupa	HasDistance	5 miles
+4	heavy traffic	IsTrafficOf	Coupa
+4	5 miles	IsDistanceFrom	Coupa
+5	5672 barringer street	HasAddress	5672 barringer street
+5	5672 barringer street	HasType	certain address
+5	5672 barringer street	IsAddressOf	5672 barringer street
+5	certain address	IsTypeOf	5672 barringer street
+5	5672 barringer street	HasTraffic	no traffic
+5	5672 barringer street	HasDistance	1 miles
+5	no traffic	IsTrafficOf	5672 barringer street
+5	1 miles	IsDistanceFrom	5672 barringer street
+6	tai pan	HasAddress	830 Almanor Ln
+6	tai pan	HasType	chinese restaurant
+6	830 Almanor Ln	IsAddressOf	tai pan
+6	chinese restaurant	IsTypeOf	tai pan
+6	tai pan	HasTraffic	heavy traffic
+6	tai pan	HasDistance	4 miles
+6	heavy traffic	IsTrafficOf	tai pan
+6	4 miles	IsDistanceFrom	tai pan
+-1	today	IsEqualTo	monday

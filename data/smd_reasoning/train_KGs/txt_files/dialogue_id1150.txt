@@ -1,0 +1,65 @@
+0	Peets Coffee	HasAddress	9981 Archuleta Ave
+0	Peets Coffee	HasType	coffee or tea place
+0	9981 Archuleta Ave	IsAddressOf	Peets Coffee
+0	coffee or tea place	IsTypeOf	Peets Coffee
+0	Peets Coffee	HasTraffic	heavy traffic
+0	Peets Coffee	HasDistance	3 miles
+0	heavy traffic	IsTrafficOf	Peets Coffee
+0	3 miles	IsDistanceFrom	Peets Coffee
+1	Civic Center Garage	HasAddress	270 Altaire Walk
+1	Civic Center Garage	HasType	parking garage
+1	270 Altaire Walk	IsAddressOf	Civic Center Garage
+1	parking garage	IsTypeOf	Civic Center Garage
+1	Civic Center Garage	HasTraffic	no traffic
+1	Civic Center Garage	HasDistance	4 miles
+1	no traffic	IsTrafficOf	Civic Center Garage
+1	4 miles	IsDistanceFrom	Civic Center Garage
+2	Sigona Farmers Market	HasAddress	638 Amherst St
+2	Sigona Farmers Market	HasType	grocery store
+2	638 Amherst St	IsAddressOf	Sigona Farmers Market
+2	grocery store	IsTypeOf	Sigona Farmers Market
+2	Sigona Farmers Market	HasTraffic	road block nearby
+2	Sigona Farmers Market	HasDistance	4 miles
+2	road block nearby	IsTrafficOf	Sigona Farmers Market
+2	4 miles	IsDistanceFrom	Sigona Farmers Market
+3	Chef Chu's	HasAddress	593 Arrowhead Way
+3	Chef Chu's	HasType	chinese restaurant
+3	593 Arrowhead Way	IsAddressOf	Chef Chu's
+3	chinese restaurant	IsTypeOf	Chef Chu's
+3	Chef Chu's	HasTraffic	moderate traffic
+3	Chef Chu's	HasDistance	5 miles
+3	moderate traffic	IsTrafficOf	Chef Chu's
+3	5 miles	IsDistanceFrom	Chef Chu's
+4	Ravenswood Shopping Center	HasAddress	434 Arastradero Rd
+4	Ravenswood Shopping Center	HasType	shopping center
+4	434 Arastradero Rd	IsAddressOf	Ravenswood Shopping Center
+4	shopping center	IsTypeOf	Ravenswood Shopping Center
+4	Ravenswood Shopping Center	HasTraffic	no traffic
+4	Ravenswood Shopping Center	HasDistance	4 miles
+4	no traffic	IsTrafficOf	Ravenswood Shopping Center
+4	4 miles	IsDistanceFrom	Ravenswood Shopping Center
+5	Pizza Chicago	HasAddress	915 Arbol Dr
+5	Pizza Chicago	HasType	pizza restaurant
+5	915 Arbol Dr	IsAddressOf	Pizza Chicago
+5	pizza restaurant	IsTypeOf	Pizza Chicago
+5	Pizza Chicago	HasTraffic	no traffic
+5	Pizza Chicago	HasDistance	3 miles
+5	no traffic	IsTrafficOf	Pizza Chicago
+5	3 miles	IsDistanceFrom	Pizza Chicago
+6	Shell	HasAddress	53 University Av
+6	Shell	HasType	gas station
+6	53 University Av	IsAddressOf	Shell
+6	gas station	IsTypeOf	Shell
+6	Shell	HasTraffic	heavy traffic
+6	Shell	HasDistance	2 miles
+6	heavy traffic	IsTrafficOf	Shell
+6	2 miles	IsDistanceFrom	Shell
+7	Whole Foods	HasAddress	819 Alma St
+7	Whole Foods	HasType	grocery store
+7	819 Alma St	IsAddressOf	Whole Foods
+7	grocery store	IsTypeOf	Whole Foods
+7	Whole Foods	HasTraffic	heavy traffic
+7	Whole Foods	HasDistance	4 miles
+7	heavy traffic	IsTrafficOf	Whole Foods
+7	4 miles	IsDistanceFrom	Whole Foods
+-1	today	IsEqualTo	monday

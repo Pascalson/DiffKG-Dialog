@@ -1,0 +1,57 @@
+0	Cafe Venetia	HasAddress	269 Alger Dr
+0	Cafe Venetia	HasType	coffee or tea place
+0	269 Alger Dr	IsAddressOf	Cafe Venetia
+0	coffee or tea place	IsTypeOf	Cafe Venetia
+0	Cafe Venetia	HasTraffic	no traffic
+0	Cafe Venetia	HasDistance	3 miles
+0	no traffic	IsTrafficOf	Cafe Venetia
+0	3 miles	IsDistanceFrom	Cafe Venetia
+1	Palo Alto Garage R	HasAddress	481 Amaranta Ave
+1	Palo Alto Garage R	HasType	parking garage
+1	481 Amaranta Ave	IsAddressOf	Palo Alto Garage R
+1	parking garage	IsTypeOf	Palo Alto Garage R
+1	Palo Alto Garage R	HasTraffic	no traffic
+1	Palo Alto Garage R	HasDistance	6 miles
+1	no traffic	IsTrafficOf	Palo Alto Garage R
+1	6 miles	IsDistanceFrom	Palo Alto Garage R
+2	home	HasAddress	10 ames street
+2	home	HasType	home
+2	10 ames street	IsAddressOf	home
+2	home	IsTypeOf	home
+2	home	HasTraffic	heavy traffic
+2	home	HasDistance	4 miles
+2	heavy traffic	IsTrafficOf	home
+2	4 miles	IsDistanceFrom	home
+3	The Westin	HasAddress	329 El Camino Real
+3	The Westin	HasType	rest stop
+3	329 El Camino Real	IsAddressOf	The Westin
+3	rest stop	IsTypeOf	The Westin
+3	The Westin	HasTraffic	no traffic
+3	The Westin	HasDistance	3 miles
+3	no traffic	IsTrafficOf	The Westin
+3	3 miles	IsDistanceFrom	The Westin
+4	Four Seasons	HasAddress	465 Arcadia Pl
+4	Four Seasons	HasType	rest stop
+4	465 Arcadia Pl	IsAddressOf	Four Seasons
+4	rest stop	IsTypeOf	Four Seasons
+4	Four Seasons	HasTraffic	heavy traffic
+4	Four Seasons	HasDistance	5 miles
+4	heavy traffic	IsTrafficOf	Four Seasons
+4	5 miles	IsDistanceFrom	Four Seasons
+5	Philz	HasAddress	583 Alester Ave
+5	Philz	HasType	coffee or tea place
+5	583 Alester Ave	IsAddressOf	Philz
+5	coffee or tea place	IsTypeOf	Philz
+5	Philz	HasTraffic	no traffic
+5	Philz	HasDistance	4 miles
+5	no traffic	IsTrafficOf	Philz
+5	4 miles	IsDistanceFrom	Philz
+6	Midtown Shopping Center	HasAddress	338 Alester Ave
+6	Midtown Shopping Center	HasType	shopping center
+6	338 Alester Ave	IsAddressOf	Midtown Shopping Center
+6	shopping center	IsTypeOf	Midtown Shopping Center
+6	Midtown Shopping Center	HasTraffic	heavy traffic
+6	Midtown Shopping Center	HasDistance	1 miles
+6	heavy traffic	IsTrafficOf	Midtown Shopping Center
+6	1 miles	IsDistanceFrom	Midtown Shopping Center
+-1	today	IsEqualTo	monday

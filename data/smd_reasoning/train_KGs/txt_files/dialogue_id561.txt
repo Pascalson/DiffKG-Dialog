@@ -1,0 +1,41 @@
+0	meeting	HasTime	11am
+0	11am	IsTimeOf	meeting
+0	meeting	HasDate	wednesday
+0	wednesday	IsDateOf	meeting
+0	meeting	HasParty	boss
+0	boss	IsPartyOf	meeting
+0	meeting	HasRoom	conference room 50
+0	conference room 50	IsRoomOf	meeting
+0	meeting	HasAgenda	go over quarterly report
+0	go over quarterly report	IsAgendaOf	meeting
+1	taking medicine	HasTime	9am
+1	9am	IsTimeOf	taking medicine
+1	taking medicine	HasDate	the 10th
+1	the 10th	IsDateOf	taking medicine
+1	taking medicine	HasParty	Alex
+1	Alex	IsPartyOf	taking medicine
+2	lab appointment	HasTime	6pm
+2	6pm	IsTimeOf	lab appointment
+2	lab appointment	HasDate	the 4th
+2	the 4th	IsDateOf	lab appointment
+2	lab appointment	HasParty	Marie
+2	Marie	IsPartyOf	lab appointment
+3	tennis activity	HasTime	3pm
+3	3pm	IsTimeOf	tennis activity
+3	tennis activity	HasDate	monday
+3	monday	IsDateOf	tennis activity
+3	tennis activity	HasParty	father
+3	father	IsPartyOf	tennis activity
+4	dinner	HasTime	6pm
+4	6pm	IsTimeOf	dinner
+4	dinner	HasDate	tuesday
+4	tuesday	IsDateOf	dinner
+4	dinner	HasParty	Martha
+4	Martha	IsPartyOf	dinner
+5	swimming activity	HasTime	9am
+5	9am	IsTimeOf	swimming activity
+5	swimming activity	HasDate	thursday
+5	thursday	IsDateOf	swimming activity
+5	swimming activity	HasParty	Marie
+5	Marie	IsPartyOf	swimming activity
+-1	today	IsEqualTo	monday

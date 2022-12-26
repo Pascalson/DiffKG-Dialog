@@ -1,0 +1,57 @@
+0	The Westin	HasAddress	329 El Camino Real
+0	The Westin	HasType	rest stop
+0	329 El Camino Real	IsAddressOf	The Westin
+0	rest stop	IsTypeOf	The Westin
+0	The Westin	HasTraffic	no traffic
+0	The Westin	HasDistance	1 miles
+0	no traffic	IsTrafficOf	The Westin
+0	1 miles	IsDistanceFrom	The Westin
+1	Pizza My Heart	HasAddress	528 Anton Ct
+1	Pizza My Heart	HasType	pizza restaurant
+1	528 Anton Ct	IsAddressOf	Pizza My Heart
+1	pizza restaurant	IsTypeOf	Pizza My Heart
+1	Pizza My Heart	HasTraffic	moderate traffic
+1	Pizza My Heart	HasDistance	1 miles
+1	moderate traffic	IsTrafficOf	Pizza My Heart
+1	1 miles	IsDistanceFrom	Pizza My Heart
+2	5677 southwest 4th street	HasAddress	5677 southwest 4th street
+2	5677 southwest 4th street	HasType	certain address
+2	5677 southwest 4th street	IsAddressOf	5677 southwest 4th street
+2	certain address	IsTypeOf	5677 southwest 4th street
+2	5677 southwest 4th street	HasTraffic	no traffic
+2	5677 southwest 4th street	HasDistance	4 miles
+2	no traffic	IsTrafficOf	5677 southwest 4th street
+2	4 miles	IsDistanceFrom	5677 southwest 4th street
+3	The Clement Hotel	HasAddress	657 Ames Ave
+3	The Clement Hotel	HasType	rest stop
+3	657 Ames Ave	IsAddressOf	The Clement Hotel
+3	rest stop	IsTypeOf	The Clement Hotel
+3	The Clement Hotel	HasTraffic	moderate traffic
+3	The Clement Hotel	HasDistance	5 miles
+3	moderate traffic	IsTrafficOf	The Clement Hotel
+3	5 miles	IsDistanceFrom	The Clement Hotel
+4	Town and Country	HasAddress	383 University Ave
+4	Town and Country	HasType	shopping center
+4	383 University Ave	IsAddressOf	Town and Country
+4	shopping center	IsTypeOf	Town and Country
+4	Town and Country	HasTraffic	heavy traffic
+4	Town and Country	HasDistance	1 miles
+4	heavy traffic	IsTrafficOf	Town and Country
+4	1 miles	IsDistanceFrom	Town and Country
+5	Stanford Shopping Center	HasAddress	773 Alger Dr
+5	Stanford Shopping Center	HasType	shopping center
+5	773 Alger Dr	IsAddressOf	Stanford Shopping Center
+5	shopping center	IsTypeOf	Stanford Shopping Center
+5	Stanford Shopping Center	HasTraffic	heavy traffic
+5	Stanford Shopping Center	HasDistance	2 miles
+5	heavy traffic	IsTrafficOf	Stanford Shopping Center
+5	2 miles	IsDistanceFrom	Stanford Shopping Center
+6	Civic Center Garage	HasAddress	270 Altaire Walk
+6	Civic Center Garage	HasType	parking garage
+6	270 Altaire Walk	IsAddressOf	Civic Center Garage
+6	parking garage	IsTypeOf	Civic Center Garage
+6	Civic Center Garage	HasTraffic	heavy traffic
+6	Civic Center Garage	HasDistance	6 miles
+6	heavy traffic	IsTrafficOf	Civic Center Garage
+6	6 miles	IsDistanceFrom	Civic Center Garage
+-1	today	IsEqualTo	monday

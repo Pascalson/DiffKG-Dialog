@@ -1,0 +1,65 @@
+0	home	HasAddress	56 cadwell street
+0	home	HasType	home
+0	56 cadwell street	IsAddressOf	home
+0	home	IsTypeOf	home
+0	home	HasTraffic	moderate traffic
+0	home	HasDistance	4 miles
+0	moderate traffic	IsTrafficOf	home
+0	4 miles	IsDistanceFrom	home
+1	home	HasAddress	5671 barringer street
+1	home	HasType	home
+1	5671 barringer street	IsAddressOf	home
+1	home	IsTypeOf	home
+1	home	HasTraffic	no traffic
+1	home	HasDistance	2 miles
+1	no traffic	IsTrafficOf	home
+1	2 miles	IsDistanceFrom	home
+2	Pizza My Heart	HasAddress	528 Anton Ct
+2	Pizza My Heart	HasType	pizza restaurant
+2	528 Anton Ct	IsAddressOf	Pizza My Heart
+2	pizza restaurant	IsTypeOf	Pizza My Heart
+2	Pizza My Heart	HasTraffic	road block nearby
+2	Pizza My Heart	HasDistance	3 miles
+2	road block nearby	IsTrafficOf	Pizza My Heart
+2	3 miles	IsDistanceFrom	Pizza My Heart
+3	P.F. Changs	HasAddress	669 El Camino Real
+3	P.F. Changs	HasType	chinese restaurant
+3	669 El Camino Real	IsAddressOf	P.F. Changs
+3	chinese restaurant	IsTypeOf	P.F. Changs
+3	P.F. Changs	HasTraffic	road block nearby
+3	P.F. Changs	HasDistance	1 miles
+3	road block nearby	IsTrafficOf	P.F. Changs
+3	1 miles	IsDistanceFrom	P.F. Changs
+4	5677 southwest 4th street	HasAddress	5677 southwest 4th street
+4	5677 southwest 4th street	HasType	certain address
+4	5677 southwest 4th street	IsAddressOf	5677 southwest 4th street
+4	certain address	IsTypeOf	5677 southwest 4th street
+4	5677 southwest 4th street	HasTraffic	moderate traffic
+4	5677 southwest 4th street	HasDistance	1 miles
+4	moderate traffic	IsTrafficOf	5677 southwest 4th street
+4	1 miles	IsDistanceFrom	5677 southwest 4th street
+5	Stanford Oval Parking	HasAddress	610 Amarillo Ave
+5	Stanford Oval Parking	HasType	parking garage
+5	610 Amarillo Ave	IsAddressOf	Stanford Oval Parking
+5	parking garage	IsTypeOf	Stanford Oval Parking
+5	Stanford Oval Parking	HasTraffic	road block nearby
+5	Stanford Oval Parking	HasDistance	5 miles
+5	road block nearby	IsTrafficOf	Stanford Oval Parking
+5	5 miles	IsDistanceFrom	Stanford Oval Parking
+6	Dish Parking	HasAddress	550 Alester Ave
+6	Dish Parking	HasType	parking garage
+6	550 Alester Ave	IsAddressOf	Dish Parking
+6	parking garage	IsTypeOf	Dish Parking
+6	Dish Parking	HasTraffic	moderate traffic
+6	Dish Parking	HasDistance	3 miles
+6	moderate traffic	IsTrafficOf	Dish Parking
+6	3 miles	IsDistanceFrom	Dish Parking
+7	Whole Foods	HasAddress	819 Alma St
+7	Whole Foods	HasType	grocery store
+7	819 Alma St	IsAddressOf	Whole Foods
+7	grocery store	IsTypeOf	Whole Foods
+7	Whole Foods	HasTraffic	car collision nearby
+7	Whole Foods	HasDistance	5 miles
+7	car collision nearby	IsTrafficOf	Whole Foods
+7	5 miles	IsDistanceFrom	Whole Foods
+-1	today	IsEqualTo	monday

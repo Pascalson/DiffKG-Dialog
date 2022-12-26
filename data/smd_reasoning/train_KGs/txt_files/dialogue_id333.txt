@@ -1,0 +1,65 @@
+0	The Westin	HasAddress	329 El Camino Real
+0	The Westin	HasType	rest stop
+0	329 El Camino Real	IsAddressOf	The Westin
+0	rest stop	IsTypeOf	The Westin
+0	The Westin	HasTraffic	car collision nearby
+0	The Westin	HasDistance	5 miles
+0	car collision nearby	IsTrafficOf	The Westin
+0	5 miles	IsDistanceFrom	The Westin
+1	5677 springer street	HasAddress	5677 springer street
+1	5677 springer street	HasType	certain address
+1	5677 springer street	IsAddressOf	5677 springer street
+1	certain address	IsTypeOf	5677 springer street
+1	5677 springer street	HasTraffic	heavy traffic
+1	5677 springer street	HasDistance	2 miles
+1	heavy traffic	IsTrafficOf	5677 springer street
+1	2 miles	IsDistanceFrom	5677 springer street
+2	Jing Jing	HasAddress	113 Arbol Dr
+2	Jing Jing	HasType	chinese restaurant
+2	113 Arbol Dr	IsAddressOf	Jing Jing
+2	chinese restaurant	IsTypeOf	Jing Jing
+2	Jing Jing	HasTraffic	car collision nearby
+2	Jing Jing	HasDistance	4 miles
+2	car collision nearby	IsTrafficOf	Jing Jing
+2	4 miles	IsDistanceFrom	Jing Jing
+3	Coupa	HasAddress	394 Van Ness Ave
+3	Coupa	HasType	coffee or tea place
+3	394 Van Ness Ave	IsAddressOf	Coupa
+3	coffee or tea place	IsTypeOf	Coupa
+3	Coupa	HasTraffic	road block nearby
+3	Coupa	HasDistance	4 miles
+3	road block nearby	IsTrafficOf	Coupa
+3	4 miles	IsDistanceFrom	Coupa
+4	home	HasAddress	56 cadwell street
+4	home	HasType	home
+4	56 cadwell street	IsAddressOf	home
+4	home	IsTypeOf	home
+4	home	HasTraffic	moderate traffic
+4	home	HasDistance	1 miles
+4	moderate traffic	IsTrafficOf	home
+4	1 miles	IsDistanceFrom	home
+5	Dominos	HasAddress	776 Arastradero Rd
+5	Dominos	HasType	pizza restaurant
+5	776 Arastradero Rd	IsAddressOf	Dominos
+5	pizza restaurant	IsTypeOf	Dominos
+5	Dominos	HasTraffic	heavy traffic
+5	Dominos	HasDistance	2 miles
+5	heavy traffic	IsTrafficOf	Dominos
+5	2 miles	IsDistanceFrom	Dominos
+6	Town and Country	HasAddress	383 University Ave
+6	Town and Country	HasType	shopping center
+6	383 University Ave	IsAddressOf	Town and Country
+6	shopping center	IsTypeOf	Town and Country
+6	Town and Country	HasTraffic	moderate traffic
+6	Town and Country	HasDistance	4 miles
+6	moderate traffic	IsTrafficOf	Town and Country
+6	4 miles	IsDistanceFrom	Town and Country
+7	Panda Express	HasAddress	842 Arrowhead Way
+7	Panda Express	HasType	chinese restaurant
+7	842 Arrowhead Way	IsAddressOf	Panda Express
+7	chinese restaurant	IsTypeOf	Panda Express
+7	Panda Express	HasTraffic	no traffic
+7	Panda Express	HasDistance	4 miles
+7	no traffic	IsTrafficOf	Panda Express
+7	4 miles	IsDistanceFrom	Panda Express
+-1	today	IsEqualTo	monday

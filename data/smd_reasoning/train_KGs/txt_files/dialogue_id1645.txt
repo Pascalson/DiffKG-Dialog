@@ -1,0 +1,65 @@
+0	Dish Parking	HasAddress	550 Alester Ave
+0	Dish Parking	HasType	parking garage
+0	550 Alester Ave	IsAddressOf	Dish Parking
+0	parking garage	IsTypeOf	Dish Parking
+0	Dish Parking	HasTraffic	no traffic
+0	Dish Parking	HasDistance	4 miles
+0	no traffic	IsTrafficOf	Dish Parking
+0	4 miles	IsDistanceFrom	Dish Parking
+1	Shell	HasAddress	53 University Av
+1	Shell	HasType	gas station
+1	53 University Av	IsAddressOf	Shell
+1	gas station	IsTypeOf	Shell
+1	Shell	HasTraffic	moderate traffic
+1	Shell	HasDistance	1 miles
+1	moderate traffic	IsTrafficOf	Shell
+1	1 miles	IsDistanceFrom	Shell
+2	Webster Garage	HasAddress	880 Ames Ct
+2	Webster Garage	HasType	parking garage
+2	880 Ames Ct	IsAddressOf	Webster Garage
+2	parking garage	IsTypeOf	Webster Garage
+2	Webster Garage	HasTraffic	moderate traffic
+2	Webster Garage	HasDistance	1 miles
+2	moderate traffic	IsTrafficOf	Webster Garage
+2	1 miles	IsDistanceFrom	Webster Garage
+3	toms house	HasAddress	580 Van Ness Ave
+3	toms house	HasType	friends house
+3	580 Van Ness Ave	IsAddressOf	toms house
+3	friends house	IsTypeOf	toms house
+3	toms house	HasTraffic	car collision nearby
+3	toms house	HasDistance	4 miles
+3	car collision nearby	IsTrafficOf	toms house
+3	4 miles	IsDistanceFrom	toms house
+4	The Clement Hotel	HasAddress	657 Ames Ave
+4	The Clement Hotel	HasType	rest stop
+4	657 Ames Ave	IsAddressOf	The Clement Hotel
+4	rest stop	IsTypeOf	The Clement Hotel
+4	The Clement Hotel	HasTraffic	no traffic
+4	The Clement Hotel	HasDistance	6 miles
+4	no traffic	IsTrafficOf	The Clement Hotel
+4	6 miles	IsDistanceFrom	The Clement Hotel
+5	Four Seasons	HasAddress	465 Arcadia Pl
+5	Four Seasons	HasType	rest stop
+5	465 Arcadia Pl	IsAddressOf	Four Seasons
+5	rest stop	IsTypeOf	Four Seasons
+5	Four Seasons	HasTraffic	road block nearby
+5	Four Seasons	HasDistance	4 miles
+5	road block nearby	IsTrafficOf	Four Seasons
+5	4 miles	IsDistanceFrom	Four Seasons
+6	5672 barringer street	HasAddress	5672 barringer street
+6	5672 barringer street	HasType	certain address
+6	5672 barringer street	IsAddressOf	5672 barringer street
+6	certain address	IsTypeOf	5672 barringer street
+6	5672 barringer street	HasTraffic	road block nearby
+6	5672 barringer street	HasDistance	1 miles
+6	road block nearby	IsTrafficOf	5672 barringer street
+6	1 miles	IsDistanceFrom	5672 barringer street
+7	Ravenswood Shopping Center	HasAddress	434 Arastradero Rd
+7	Ravenswood Shopping Center	HasType	shopping center
+7	434 Arastradero Rd	IsAddressOf	Ravenswood Shopping Center
+7	shopping center	IsTypeOf	Ravenswood Shopping Center
+7	Ravenswood Shopping Center	HasTraffic	moderate traffic
+7	Ravenswood Shopping Center	HasDistance	5 miles
+7	moderate traffic	IsTrafficOf	Ravenswood Shopping Center
+7	5 miles	IsDistanceFrom	Ravenswood Shopping Center
+-1	today	IsEqualTo	monday

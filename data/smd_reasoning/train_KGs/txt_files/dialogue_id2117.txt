@@ -1,0 +1,57 @@
+0	Whole Foods	HasAddress	819 Alma St
+0	Whole Foods	HasType	grocery store
+0	819 Alma St	IsAddressOf	Whole Foods
+0	grocery store	IsTypeOf	Whole Foods
+0	Whole Foods	HasTraffic	heavy traffic
+0	Whole Foods	HasDistance	1 miles
+0	heavy traffic	IsTrafficOf	Whole Foods
+0	1 miles	IsDistanceFrom	Whole Foods
+1	tai pan	HasAddress	830 Almanor Ln
+1	tai pan	HasType	chinese restaurant
+1	830 Almanor Ln	IsAddressOf	tai pan
+1	chinese restaurant	IsTypeOf	tai pan
+1	tai pan	HasTraffic	no traffic
+1	tai pan	HasDistance	6 miles
+1	no traffic	IsTrafficOf	tai pan
+1	6 miles	IsDistanceFrom	tai pan
+2	Four Seasons	HasAddress	465 Arcadia Pl
+2	Four Seasons	HasType	rest stop
+2	465 Arcadia Pl	IsAddressOf	Four Seasons
+2	rest stop	IsTypeOf	Four Seasons
+2	Four Seasons	HasTraffic	moderate traffic
+2	Four Seasons	HasDistance	2 miles
+2	moderate traffic	IsTrafficOf	Four Seasons
+2	2 miles	IsDistanceFrom	Four Seasons
+3	home	HasAddress	56 cadwell street
+3	home	HasType	home
+3	56 cadwell street	IsAddressOf	home
+3	home	IsTypeOf	home
+3	home	HasTraffic	moderate traffic
+3	home	HasDistance	1 miles
+3	moderate traffic	IsTrafficOf	home
+3	1 miles	IsDistanceFrom	home
+4	The Westin	HasAddress	329 El Camino Real
+4	The Westin	HasType	rest stop
+4	329 El Camino Real	IsAddressOf	The Westin
+4	rest stop	IsTypeOf	The Westin
+4	The Westin	HasTraffic	heavy traffic
+4	The Westin	HasDistance	5 miles
+4	heavy traffic	IsTrafficOf	The Westin
+4	5 miles	IsDistanceFrom	The Westin
+5	Pizza Chicago	HasAddress	915 Arbol Dr
+5	Pizza Chicago	HasType	pizza restaurant
+5	915 Arbol Dr	IsAddressOf	Pizza Chicago
+5	pizza restaurant	IsTypeOf	Pizza Chicago
+5	Pizza Chicago	HasTraffic	heavy traffic
+5	Pizza Chicago	HasDistance	4 miles
+5	heavy traffic	IsTrafficOf	Pizza Chicago
+5	4 miles	IsDistanceFrom	Pizza Chicago
+6	5677 southwest 4th street	HasAddress	5677 southwest 4th street
+6	5677 southwest 4th street	HasType	certain address
+6	5677 southwest 4th street	IsAddressOf	5677 southwest 4th street
+6	certain address	IsTypeOf	5677 southwest 4th street
+6	5677 southwest 4th street	HasTraffic	no traffic
+6	5677 southwest 4th street	HasDistance	3 miles
+6	no traffic	IsTrafficOf	5677 southwest 4th street
+6	3 miles	IsDistanceFrom	5677 southwest 4th street
+-1	today	IsEqualTo	monday

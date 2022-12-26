@@ -1,0 +1,65 @@
+0	Round Table	HasAddress	113 Anton Ct
+0	Round Table	HasType	pizza restaurant
+0	113 Anton Ct	IsAddressOf	Round Table
+0	pizza restaurant	IsTypeOf	Round Table
+0	Round Table	HasTraffic	car collision nearby
+0	Round Table	HasDistance	4 miles
+0	car collision nearby	IsTrafficOf	Round Table
+0	4 miles	IsDistanceFrom	Round Table
+1	The Westin	HasAddress	329 El Camino Real
+1	The Westin	HasType	rest stop
+1	329 El Camino Real	IsAddressOf	The Westin
+1	rest stop	IsTypeOf	The Westin
+1	The Westin	HasTraffic	moderate traffic
+1	The Westin	HasDistance	6 miles
+1	moderate traffic	IsTrafficOf	The Westin
+1	6 miles	IsDistanceFrom	The Westin
+2	toms house	HasAddress	580 Van Ness Ave
+2	toms house	HasType	friends house
+2	580 Van Ness Ave	IsAddressOf	toms house
+2	friends house	IsTypeOf	toms house
+2	toms house	HasTraffic	road block nearby
+2	toms house	HasDistance	6 miles
+2	road block nearby	IsTrafficOf	toms house
+2	6 miles	IsDistanceFrom	toms house
+3	Midtown Shopping Center	HasAddress	338 Alester Ave
+3	Midtown Shopping Center	HasType	shopping center
+3	338 Alester Ave	IsAddressOf	Midtown Shopping Center
+3	shopping center	IsTypeOf	Midtown Shopping Center
+3	Midtown Shopping Center	HasTraffic	car collision nearby
+3	Midtown Shopping Center	HasDistance	5 miles
+3	car collision nearby	IsTrafficOf	Midtown Shopping Center
+3	5 miles	IsDistanceFrom	Midtown Shopping Center
+4	Chevron	HasAddress	783 Arcadia Pl
+4	Chevron	HasType	gas station
+4	783 Arcadia Pl	IsAddressOf	Chevron
+4	gas station	IsTypeOf	Chevron
+4	Chevron	HasTraffic	no traffic
+4	Chevron	HasDistance	5 miles
+4	no traffic	IsTrafficOf	Chevron
+4	5 miles	IsDistanceFrom	Chevron
+5	Stanford Express Care	HasAddress	214 El Camino Real
+5	Stanford Express Care	HasType	hospital
+5	214 El Camino Real	IsAddressOf	Stanford Express Care
+5	hospital	IsTypeOf	Stanford Express Care
+5	Stanford Express Care	HasTraffic	car collision nearby
+5	Stanford Express Care	HasDistance	8 miles
+5	car collision nearby	IsTrafficOf	Stanford Express Care
+5	8 miles	IsDistanceFrom	Stanford Express Care
+6	Cafe Venetia	HasAddress	269 Alger Dr
+6	Cafe Venetia	HasType	coffee or tea place
+6	269 Alger Dr	IsAddressOf	Cafe Venetia
+6	coffee or tea place	IsTypeOf	Cafe Venetia
+6	Cafe Venetia	HasTraffic	road block nearby
+6	Cafe Venetia	HasDistance	1 miles
+6	road block nearby	IsTrafficOf	Cafe Venetia
+6	1 miles	IsDistanceFrom	Cafe Venetia
+7	Stanford Oval Parking	HasAddress	610 Amarillo Ave
+7	Stanford Oval Parking	HasType	parking garage
+7	610 Amarillo Ave	IsAddressOf	Stanford Oval Parking
+7	parking garage	IsTypeOf	Stanford Oval Parking
+7	Stanford Oval Parking	HasTraffic	road block nearby
+7	Stanford Oval Parking	HasDistance	5 miles
+7	road block nearby	IsTrafficOf	Stanford Oval Parking
+7	5 miles	IsDistanceFrom	Stanford Oval Parking
+-1	today	IsEqualTo	monday

@@ -1,0 +1,65 @@
+0	P.F. Changs	HasAddress	669 El Camino Real
+0	P.F. Changs	HasType	chinese restaurant
+0	669 El Camino Real	IsAddressOf	P.F. Changs
+0	chinese restaurant	IsTypeOf	P.F. Changs
+0	P.F. Changs	HasTraffic	road block nearby
+0	P.F. Changs	HasDistance	5 miles
+0	road block nearby	IsTrafficOf	P.F. Changs
+0	5 miles	IsDistanceFrom	P.F. Changs
+1	home	HasAddress	5671 barringer street
+1	home	HasType	home
+1	5671 barringer street	IsAddressOf	home
+1	home	IsTypeOf	home
+1	home	HasTraffic	car collision nearby
+1	home	HasDistance	1 miles
+1	car collision nearby	IsTrafficOf	home
+1	1 miles	IsDistanceFrom	home
+2	Panda Express	HasAddress	842 Arrowhead Way
+2	Panda Express	HasType	chinese restaurant
+2	842 Arrowhead Way	IsAddressOf	Panda Express
+2	chinese restaurant	IsTypeOf	Panda Express
+2	Panda Express	HasTraffic	no traffic
+2	Panda Express	HasDistance	4 miles
+2	no traffic	IsTrafficOf	Panda Express
+2	4 miles	IsDistanceFrom	Panda Express
+3	Stanford Express Care	HasAddress	214 El Camino Real
+3	Stanford Express Care	HasType	hospital
+3	214 El Camino Real	IsAddressOf	Stanford Express Care
+3	hospital	IsTypeOf	Stanford Express Care
+3	Stanford Express Care	HasTraffic	heavy traffic
+3	Stanford Express Care	HasDistance	1 miles
+3	heavy traffic	IsTrafficOf	Stanford Express Care
+3	1 miles	IsDistanceFrom	Stanford Express Care
+4	Travelers Lodge	HasAddress	333 Arbol Dr
+4	Travelers Lodge	HasType	rest stop
+4	333 Arbol Dr	IsAddressOf	Travelers Lodge
+4	rest stop	IsTypeOf	Travelers Lodge
+4	Travelers Lodge	HasTraffic	car collision nearby
+4	Travelers Lodge	HasDistance	3 miles
+4	car collision nearby	IsTrafficOf	Travelers Lodge
+4	3 miles	IsDistanceFrom	Travelers Lodge
+5	Town and Country	HasAddress	383 University Ave
+5	Town and Country	HasType	shopping center
+5	383 University Ave	IsAddressOf	Town and Country
+5	shopping center	IsTypeOf	Town and Country
+5	Town and Country	HasTraffic	no traffic
+5	Town and Country	HasDistance	4 miles
+5	no traffic	IsTrafficOf	Town and Country
+5	4 miles	IsDistanceFrom	Town and Country
+6	toms house	HasAddress	580 Van Ness Ave
+6	toms house	HasType	friends house
+6	580 Van Ness Ave	IsAddressOf	toms house
+6	friends house	IsTypeOf	toms house
+6	toms house	HasTraffic	road block nearby
+6	toms house	HasDistance	3 miles
+6	road block nearby	IsTrafficOf	toms house
+6	3 miles	IsDistanceFrom	toms house
+7	Teavana	HasAddress	145 Amherst St
+7	Teavana	HasType	coffee or tea place
+7	145 Amherst St	IsAddressOf	Teavana
+7	coffee or tea place	IsTypeOf	Teavana
+7	Teavana	HasTraffic	no traffic
+7	Teavana	HasDistance	1 miles
+7	no traffic	IsTrafficOf	Teavana
+7	1 miles	IsDistanceFrom	Teavana
+-1	today	IsEqualTo	monday

@@ -1,0 +1,65 @@
+0	Stanford Express Care	HasAddress	214 El Camino Real
+0	Stanford Express Care	HasType	hospital
+0	214 El Camino Real	IsAddressOf	Stanford Express Care
+0	hospital	IsTypeOf	Stanford Express Care
+0	Stanford Express Care	HasTraffic	no traffic
+0	Stanford Express Care	HasDistance	4 miles
+0	no traffic	IsTrafficOf	Stanford Express Care
+0	4 miles	IsDistanceFrom	Stanford Express Care
+1	Whole Foods	HasAddress	819 Alma St
+1	Whole Foods	HasType	grocery store
+1	819 Alma St	IsAddressOf	Whole Foods
+1	grocery store	IsTypeOf	Whole Foods
+1	Whole Foods	HasTraffic	moderate traffic
+1	Whole Foods	HasDistance	5 miles
+1	moderate traffic	IsTrafficOf	Whole Foods
+1	5 miles	IsDistanceFrom	Whole Foods
+2	Safeway	HasAddress	452 Arcadia Pl
+2	Safeway	HasType	grocery store
+2	452 Arcadia Pl	IsAddressOf	Safeway
+2	grocery store	IsTypeOf	Safeway
+2	Safeway	HasTraffic	road block nearby
+2	Safeway	HasDistance	5 miles
+2	road block nearby	IsTrafficOf	Safeway
+2	5 miles	IsDistanceFrom	Safeway
+3	The Westin	HasAddress	329 El Camino Real
+3	The Westin	HasType	rest stop
+3	329 El Camino Real	IsAddressOf	The Westin
+3	rest stop	IsTypeOf	The Westin
+3	The Westin	HasTraffic	car collision nearby
+3	The Westin	HasDistance	4 miles
+3	car collision nearby	IsTrafficOf	The Westin
+3	4 miles	IsDistanceFrom	The Westin
+4	Coupa	HasAddress	394 Van Ness Ave
+4	Coupa	HasType	coffee or tea place
+4	394 Van Ness Ave	IsAddressOf	Coupa
+4	coffee or tea place	IsTypeOf	Coupa
+4	Coupa	HasTraffic	car collision nearby
+4	Coupa	HasDistance	1 miles
+4	car collision nearby	IsTrafficOf	Coupa
+4	1 miles	IsDistanceFrom	Coupa
+5	Mandarin Roots	HasAddress	271 Springer Street
+5	Mandarin Roots	HasType	chinese restaurant
+5	271 Springer Street	IsAddressOf	Mandarin Roots
+5	chinese restaurant	IsTypeOf	Mandarin Roots
+5	Mandarin Roots	HasTraffic	moderate traffic
+5	Mandarin Roots	HasDistance	2 miles
+5	moderate traffic	IsTrafficOf	Mandarin Roots
+5	2 miles	IsDistanceFrom	Mandarin Roots
+6	Pizza My Heart	HasAddress	528 Anton Ct
+6	Pizza My Heart	HasType	pizza restaurant
+6	528 Anton Ct	IsAddressOf	Pizza My Heart
+6	pizza restaurant	IsTypeOf	Pizza My Heart
+6	Pizza My Heart	HasTraffic	road block nearby
+6	Pizza My Heart	HasDistance	1 miles
+6	road block nearby	IsTrafficOf	Pizza My Heart
+6	1 miles	IsDistanceFrom	Pizza My Heart
+7	home	HasAddress	56 cadwell street
+7	home	HasType	home
+7	56 cadwell street	IsAddressOf	home
+7	home	IsTypeOf	home
+7	home	HasTraffic	heavy traffic
+7	home	HasDistance	3 miles
+7	heavy traffic	IsTrafficOf	home
+7	3 miles	IsDistanceFrom	home
+-1	today	IsEqualTo	monday

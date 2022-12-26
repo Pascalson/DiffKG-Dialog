@@ -1,0 +1,65 @@
+0	Stanford Oval Parking	HasAddress	610 Amarillo Ave
+0	Stanford Oval Parking	HasType	parking garage
+0	610 Amarillo Ave	IsAddressOf	Stanford Oval Parking
+0	parking garage	IsTypeOf	Stanford Oval Parking
+0	Stanford Oval Parking	HasTraffic	moderate traffic
+0	Stanford Oval Parking	HasDistance	5 miles
+0	moderate traffic	IsTrafficOf	Stanford Oval Parking
+0	5 miles	IsDistanceFrom	Stanford Oval Parking
+1	Cafe Venetia	HasAddress	269 Alger Dr
+1	Cafe Venetia	HasType	coffee or tea place
+1	269 Alger Dr	IsAddressOf	Cafe Venetia
+1	coffee or tea place	IsTypeOf	Cafe Venetia
+1	Cafe Venetia	HasTraffic	car collision nearby
+1	Cafe Venetia	HasDistance	3 miles
+1	car collision nearby	IsTrafficOf	Cafe Venetia
+1	3 miles	IsDistanceFrom	Cafe Venetia
+2	Valero	HasAddress	200 Alester Ave
+2	Valero	HasType	gas station
+2	200 Alester Ave	IsAddressOf	Valero
+2	gas station	IsTypeOf	Valero
+2	Valero	HasTraffic	road block nearby
+2	Valero	HasDistance	1 miles
+2	road block nearby	IsTrafficOf	Valero
+2	1 miles	IsDistanceFrom	Valero
+3	76	HasAddress	91 El Camino Real
+3	76	HasType	gas station
+3	91 El Camino Real	IsAddressOf	76
+3	gas station	IsTypeOf	76
+3	76	HasTraffic	road block nearby
+3	76	HasDistance	7 miles
+3	road block nearby	IsTrafficOf	76
+3	7 miles	IsDistanceFrom	76
+4	Papa Johns	HasAddress	110 Arastradero Rd
+4	Papa Johns	HasType	pizza restaurant
+4	110 Arastradero Rd	IsAddressOf	Papa Johns
+4	pizza restaurant	IsTypeOf	Papa Johns
+4	Papa Johns	HasTraffic	car collision nearby
+4	Papa Johns	HasDistance	1 miles
+4	car collision nearby	IsTrafficOf	Papa Johns
+4	1 miles	IsDistanceFrom	Papa Johns
+5	jills house	HasAddress	347 Alta Mesa Ave
+5	jills house	HasType	friends house
+5	347 Alta Mesa Ave	IsAddressOf	jills house
+5	friends house	IsTypeOf	jills house
+5	jills house	HasTraffic	heavy traffic
+5	jills house	HasDistance	3 miles
+5	heavy traffic	IsTrafficOf	jills house
+5	3 miles	IsDistanceFrom	jills house
+6	Dominos	HasAddress	776 Arastradero Rd
+6	Dominos	HasType	pizza restaurant
+6	776 Arastradero Rd	IsAddressOf	Dominos
+6	pizza restaurant	IsTypeOf	Dominos
+6	Dominos	HasTraffic	car collision nearby
+6	Dominos	HasDistance	6 miles
+6	car collision nearby	IsTrafficOf	Dominos
+6	6 miles	IsDistanceFrom	Dominos
+7	Hacienda Market	HasAddress	1313 Chester Ave
+7	Hacienda Market	HasType	grocery store
+7	1313 Chester Ave	IsAddressOf	Hacienda Market
+7	grocery store	IsTypeOf	Hacienda Market
+7	Hacienda Market	HasTraffic	road block nearby
+7	Hacienda Market	HasDistance	4 miles
+7	road block nearby	IsTrafficOf	Hacienda Market
+7	4 miles	IsDistanceFrom	Hacienda Market
+-1	today	IsEqualTo	monday

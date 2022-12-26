@@ -1,0 +1,57 @@
+0	Palo Alto Garage R	HasAddress	481 Amaranta Ave
+0	Palo Alto Garage R	HasType	parking garage
+0	481 Amaranta Ave	IsAddressOf	Palo Alto Garage R
+0	parking garage	IsTypeOf	Palo Alto Garage R
+0	Palo Alto Garage R	HasTraffic	no traffic
+0	Palo Alto Garage R	HasDistance	2 miles
+0	no traffic	IsTrafficOf	Palo Alto Garage R
+0	2 miles	IsDistanceFrom	Palo Alto Garage R
+1	Jing Jing	HasAddress	113 Arbol Dr
+1	Jing Jing	HasType	chinese restaurant
+1	113 Arbol Dr	IsAddressOf	Jing Jing
+1	chinese restaurant	IsTypeOf	Jing Jing
+1	Jing Jing	HasTraffic	moderate traffic
+1	Jing Jing	HasDistance	6 miles
+1	moderate traffic	IsTrafficOf	Jing Jing
+1	6 miles	IsDistanceFrom	Jing Jing
+2	Round Table	HasAddress	113 Anton Ct
+2	Round Table	HasType	pizza restaurant
+2	113 Anton Ct	IsAddressOf	Round Table
+2	pizza restaurant	IsTypeOf	Round Table
+2	Round Table	HasTraffic	moderate traffic
+2	Round Table	HasDistance	5 miles
+2	moderate traffic	IsTrafficOf	Round Table
+2	5 miles	IsDistanceFrom	Round Table
+3	Palo Alto Cafe	HasAddress	436 Alger Dr
+3	Palo Alto Cafe	HasType	coffee or tea place
+3	436 Alger Dr	IsAddressOf	Palo Alto Cafe
+3	coffee or tea place	IsTypeOf	Palo Alto Cafe
+3	Palo Alto Cafe	HasTraffic	heavy traffic
+3	Palo Alto Cafe	HasDistance	3 miles
+3	heavy traffic	IsTrafficOf	Palo Alto Cafe
+3	3 miles	IsDistanceFrom	Palo Alto Cafe
+4	The Clement Hotel	HasAddress	657 Ames Ave
+4	The Clement Hotel	HasType	rest stop
+4	657 Ames Ave	IsAddressOf	The Clement Hotel
+4	rest stop	IsTypeOf	The Clement Hotel
+4	The Clement Hotel	HasTraffic	no traffic
+4	The Clement Hotel	HasDistance	4 miles
+4	no traffic	IsTrafficOf	The Clement Hotel
+4	4 miles	IsDistanceFrom	The Clement Hotel
+5	Stanford Shopping Center	HasAddress	773 Alger Dr
+5	Stanford Shopping Center	HasType	shopping center
+5	773 Alger Dr	IsAddressOf	Stanford Shopping Center
+5	shopping center	IsTypeOf	Stanford Shopping Center
+5	Stanford Shopping Center	HasTraffic	no traffic
+5	Stanford Shopping Center	HasDistance	4 miles
+5	no traffic	IsTrafficOf	Stanford Shopping Center
+5	4 miles	IsDistanceFrom	Stanford Shopping Center
+6	jacks house	HasAddress	864 Almanor Ln
+6	jacks house	HasType	friends house
+6	864 Almanor Ln	IsAddressOf	jacks house
+6	friends house	IsTypeOf	jacks house
+6	jacks house	HasTraffic	no traffic
+6	jacks house	HasDistance	5 miles
+6	no traffic	IsTrafficOf	jacks house
+6	5 miles	IsDistanceFrom	jacks house
+-1	today	IsEqualTo	monday

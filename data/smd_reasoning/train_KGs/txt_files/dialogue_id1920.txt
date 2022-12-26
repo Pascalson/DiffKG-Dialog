@@ -1,0 +1,57 @@
+0	jills house	HasAddress	347 Alta Mesa Ave
+0	jills house	HasType	friends house
+0	347 Alta Mesa Ave	IsAddressOf	jills house
+0	friends house	IsTypeOf	jills house
+0	jills house	HasTraffic	no traffic
+0	jills house	HasDistance	4 miles
+0	no traffic	IsTrafficOf	jills house
+0	4 miles	IsDistanceFrom	jills house
+1	Panda Express	HasAddress	842 Arrowhead Way
+1	Panda Express	HasType	chinese restaurant
+1	842 Arrowhead Way	IsAddressOf	Panda Express
+1	chinese restaurant	IsTypeOf	Panda Express
+1	Panda Express	HasTraffic	moderate traffic
+1	Panda Express	HasDistance	5 miles
+1	moderate traffic	IsTrafficOf	Panda Express
+1	5 miles	IsDistanceFrom	Panda Express
+2	Stanford Oval Parking	HasAddress	610 Amarillo Ave
+2	Stanford Oval Parking	HasType	parking garage
+2	610 Amarillo Ave	IsAddressOf	Stanford Oval Parking
+2	parking garage	IsTypeOf	Stanford Oval Parking
+2	Stanford Oval Parking	HasTraffic	heavy traffic
+2	Stanford Oval Parking	HasDistance	4 miles
+2	heavy traffic	IsTrafficOf	Stanford Oval Parking
+2	4 miles	IsDistanceFrom	Stanford Oval Parking
+3	Pizza My Heart	HasAddress	528 Anton Ct
+3	Pizza My Heart	HasType	pizza restaurant
+3	528 Anton Ct	IsAddressOf	Pizza My Heart
+3	pizza restaurant	IsTypeOf	Pizza My Heart
+3	Pizza My Heart	HasTraffic	heavy traffic
+3	Pizza My Heart	HasDistance	2 miles
+3	heavy traffic	IsTrafficOf	Pizza My Heart
+3	2 miles	IsDistanceFrom	Pizza My Heart
+4	home	HasAddress	10 ames street
+4	home	HasType	home
+4	10 ames street	IsAddressOf	home
+4	home	IsTypeOf	home
+4	home	HasTraffic	no traffic
+4	home	HasDistance	5 miles
+4	no traffic	IsTrafficOf	home
+4	5 miles	IsDistanceFrom	home
+5	Starbucks	HasAddress	792 Bedoin Street
+5	Starbucks	HasType	coffee or tea place
+5	792 Bedoin Street	IsAddressOf	Starbucks
+5	coffee or tea place	IsTypeOf	Starbucks
+5	Starbucks	HasTraffic	heavy traffic
+5	Starbucks	HasDistance	3 miles
+5	heavy traffic	IsTrafficOf	Starbucks
+5	3 miles	IsDistanceFrom	Starbucks
+6	Stanford Childrens Health	HasAddress	899 Ames Ct
+6	Stanford Childrens Health	HasType	hospital
+6	899 Ames Ct	IsAddressOf	Stanford Childrens Health
+6	hospital	IsTypeOf	Stanford Childrens Health
+6	Stanford Childrens Health	HasTraffic	heavy traffic
+6	Stanford Childrens Health	HasDistance	5 miles
+6	heavy traffic	IsTrafficOf	Stanford Childrens Health
+6	5 miles	IsDistanceFrom	Stanford Childrens Health
+-1	today	IsEqualTo	monday

@@ -1,0 +1,65 @@
+0	Round Table	HasAddress	113 Anton Ct
+0	Round Table	HasType	pizza restaurant
+0	113 Anton Ct	IsAddressOf	Round Table
+0	pizza restaurant	IsTypeOf	Round Table
+0	Round Table	HasTraffic	moderate traffic
+0	Round Table	HasDistance	2 miles
+0	moderate traffic	IsTrafficOf	Round Table
+0	2 miles	IsDistanceFrom	Round Table
+1	Midtown Shopping Center	HasAddress	338 Alester Ave
+1	Midtown Shopping Center	HasType	shopping center
+1	338 Alester Ave	IsAddressOf	Midtown Shopping Center
+1	shopping center	IsTypeOf	Midtown Shopping Center
+1	Midtown Shopping Center	HasTraffic	road block nearby
+1	Midtown Shopping Center	HasDistance	6 miles
+1	road block nearby	IsTrafficOf	Midtown Shopping Center
+1	6 miles	IsDistanceFrom	Midtown Shopping Center
+2	The Clement Hotel	HasAddress	657 Ames Ave
+2	The Clement Hotel	HasType	rest stop
+2	657 Ames Ave	IsAddressOf	The Clement Hotel
+2	rest stop	IsTypeOf	The Clement Hotel
+2	The Clement Hotel	HasTraffic	no traffic
+2	The Clement Hotel	HasDistance	3 miles
+2	no traffic	IsTrafficOf	The Clement Hotel
+2	3 miles	IsDistanceFrom	The Clement Hotel
+3	Mandarin Roots	HasAddress	271 Springer Street
+3	Mandarin Roots	HasType	chinese restaurant
+3	271 Springer Street	IsAddressOf	Mandarin Roots
+3	chinese restaurant	IsTypeOf	Mandarin Roots
+3	Mandarin Roots	HasTraffic	no traffic
+3	Mandarin Roots	HasDistance	4 miles
+3	no traffic	IsTrafficOf	Mandarin Roots
+3	4 miles	IsDistanceFrom	Mandarin Roots
+4	Valero	HasAddress	200 Alester Ave
+4	Valero	HasType	gas station
+4	200 Alester Ave	IsAddressOf	Valero
+4	gas station	IsTypeOf	Valero
+4	Valero	HasTraffic	car collision nearby
+4	Valero	HasDistance	5 miles
+4	car collision nearby	IsTrafficOf	Valero
+4	5 miles	IsDistanceFrom	Valero
+5	Whole Foods	HasAddress	819 Alma St
+5	Whole Foods	HasType	grocery store
+5	819 Alma St	IsAddressOf	Whole Foods
+5	grocery store	IsTypeOf	Whole Foods
+5	Whole Foods	HasTraffic	car collision nearby
+5	Whole Foods	HasDistance	4 miles
+5	car collision nearby	IsTrafficOf	Whole Foods
+5	4 miles	IsDistanceFrom	Whole Foods
+6	Civic Center Garage	HasAddress	270 Altaire Walk
+6	Civic Center Garage	HasType	parking garage
+6	270 Altaire Walk	IsAddressOf	Civic Center Garage
+6	parking garage	IsTypeOf	Civic Center Garage
+6	Civic Center Garage	HasTraffic	road block nearby
+6	Civic Center Garage	HasDistance	2 miles
+6	road block nearby	IsTrafficOf	Civic Center Garage
+6	2 miles	IsDistanceFrom	Civic Center Garage
+7	Comfort Inn	HasAddress	753 University Ave
+7	Comfort Inn	HasType	rest stop
+7	753 University Ave	IsAddressOf	Comfort Inn
+7	rest stop	IsTypeOf	Comfort Inn
+7	Comfort Inn	HasTraffic	heavy traffic
+7	Comfort Inn	HasDistance	3 miles
+7	heavy traffic	IsTrafficOf	Comfort Inn
+7	3 miles	IsDistanceFrom	Comfort Inn
+-1	today	IsEqualTo	monday

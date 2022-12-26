@@ -1,0 +1,65 @@
+0	Sigona Farmers Market	HasAddress	638 Amherst St
+0	Sigona Farmers Market	HasType	grocery store
+0	638 Amherst St	IsAddressOf	Sigona Farmers Market
+0	grocery store	IsTypeOf	Sigona Farmers Market
+0	Sigona Farmers Market	HasTraffic	moderate traffic
+0	Sigona Farmers Market	HasDistance	4 miles
+0	moderate traffic	IsTrafficOf	Sigona Farmers Market
+0	4 miles	IsDistanceFrom	Sigona Farmers Market
+1	Topanga Mall	HasAddress	171 Oak Rd
+1	Topanga Mall	HasType	shopping center
+1	171 Oak Rd	IsAddressOf	Topanga Mall
+1	shopping center	IsTypeOf	Topanga Mall
+1	Topanga Mall	HasTraffic	heavy traffic
+1	Topanga Mall	HasDistance	6 miles
+1	heavy traffic	IsTrafficOf	Topanga Mall
+1	6 miles	IsDistanceFrom	Topanga Mall
+2	Dominos	HasAddress	776 Arastradero Rd
+2	Dominos	HasType	pizza restaurant
+2	776 Arastradero Rd	IsAddressOf	Dominos
+2	pizza restaurant	IsTypeOf	Dominos
+2	Dominos	HasTraffic	moderate traffic
+2	Dominos	HasDistance	4 miles
+2	moderate traffic	IsTrafficOf	Dominos
+2	4 miles	IsDistanceFrom	Dominos
+3	The Westin	HasAddress	329 El Camino Real
+3	The Westin	HasType	rest stop
+3	329 El Camino Real	IsAddressOf	The Westin
+3	rest stop	IsTypeOf	The Westin
+3	The Westin	HasTraffic	car collision nearby
+3	The Westin	HasDistance	1 miles
+3	car collision nearby	IsTrafficOf	The Westin
+3	1 miles	IsDistanceFrom	The Westin
+4	5672 barringer street	HasAddress	5672 barringer street
+4	5672 barringer street	HasType	certain address
+4	5672 barringer street	IsAddressOf	5672 barringer street
+4	certain address	IsTypeOf	5672 barringer street
+4	5672 barringer street	HasTraffic	car collision nearby
+4	5672 barringer street	HasDistance	2 miles
+4	car collision nearby	IsTrafficOf	5672 barringer street
+4	2 miles	IsDistanceFrom	5672 barringer street
+5	Willows Market	HasAddress	409 Bollard St
+5	Willows Market	HasType	grocery store
+5	409 Bollard St	IsAddressOf	Willows Market
+5	grocery store	IsTypeOf	Willows Market
+5	Willows Market	HasTraffic	no traffic
+5	Willows Market	HasDistance	1 miles
+5	no traffic	IsTrafficOf	Willows Market
+5	1 miles	IsDistanceFrom	Willows Market
+6	jills house	HasAddress	347 Alta Mesa Ave
+6	jills house	HasType	friends house
+6	347 Alta Mesa Ave	IsAddressOf	jills house
+6	friends house	IsTypeOf	jills house
+6	jills house	HasTraffic	no traffic
+6	jills house	HasDistance	4 miles
+6	no traffic	IsTrafficOf	jills house
+6	4 miles	IsDistanceFrom	jills house
+7	Teavana	HasAddress	145 Amherst St
+7	Teavana	HasType	coffee or tea place
+7	145 Amherst St	IsAddressOf	Teavana
+7	coffee or tea place	IsTypeOf	Teavana
+7	Teavana	HasTraffic	moderate traffic
+7	Teavana	HasDistance	6 miles
+7	moderate traffic	IsTrafficOf	Teavana
+7	6 miles	IsDistanceFrom	Teavana
+-1	today	IsEqualTo	monday

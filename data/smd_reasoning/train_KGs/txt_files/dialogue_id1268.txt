@@ -1,0 +1,57 @@
+0	Palo Alto Garage R	HasAddress	481 Amaranta Ave
+0	Palo Alto Garage R	HasType	parking garage
+0	481 Amaranta Ave	IsAddressOf	Palo Alto Garage R
+0	parking garage	IsTypeOf	Palo Alto Garage R
+0	Palo Alto Garage R	HasTraffic	moderate traffic
+0	Palo Alto Garage R	HasDistance	5 miles
+0	moderate traffic	IsTrafficOf	Palo Alto Garage R
+0	5 miles	IsDistanceFrom	Palo Alto Garage R
+1	Mandarin Roots	HasAddress	271 Springer Street
+1	Mandarin Roots	HasType	chinese restaurant
+1	271 Springer Street	IsAddressOf	Mandarin Roots
+1	chinese restaurant	IsTypeOf	Mandarin Roots
+1	Mandarin Roots	HasTraffic	moderate traffic
+1	Mandarin Roots	HasDistance	4 miles
+1	moderate traffic	IsTrafficOf	Mandarin Roots
+1	4 miles	IsDistanceFrom	Mandarin Roots
+2	Stanford Childrens Health	HasAddress	899 Ames Ct
+2	Stanford Childrens Health	HasType	hospital
+2	899 Ames Ct	IsAddressOf	Stanford Childrens Health
+2	hospital	IsTypeOf	Stanford Childrens Health
+2	Stanford Childrens Health	HasTraffic	moderate traffic
+2	Stanford Childrens Health	HasDistance	3 miles
+2	moderate traffic	IsTrafficOf	Stanford Childrens Health
+2	3 miles	IsDistanceFrom	Stanford Childrens Health
+3	Dominos	HasAddress	776 Arastradero Rd
+3	Dominos	HasType	pizza restaurant
+3	776 Arastradero Rd	IsAddressOf	Dominos
+3	pizza restaurant	IsTypeOf	Dominos
+3	Dominos	HasTraffic	heavy traffic
+3	Dominos	HasDistance	3 miles
+3	heavy traffic	IsTrafficOf	Dominos
+3	3 miles	IsDistanceFrom	Dominos
+4	Stanford Express Care	HasAddress	214 El Camino Real
+4	Stanford Express Care	HasType	hospital
+4	214 El Camino Real	IsAddressOf	Stanford Express Care
+4	hospital	IsTypeOf	Stanford Express Care
+4	Stanford Express Care	HasTraffic	heavy traffic
+4	Stanford Express Care	HasDistance	1 miles
+4	heavy traffic	IsTrafficOf	Stanford Express Care
+4	1 miles	IsDistanceFrom	Stanford Express Care
+5	home	HasAddress	5671 barringer street
+5	home	HasType	home
+5	5671 barringer street	IsAddressOf	home
+5	home	IsTypeOf	home
+5	home	HasTraffic	no traffic
+5	home	HasDistance	4 miles
+5	no traffic	IsTrafficOf	home
+5	4 miles	IsDistanceFrom	home
+6	Chef Chu's	HasAddress	593 Arrowhead Way
+6	Chef Chu's	HasType	chinese restaurant
+6	593 Arrowhead Way	IsAddressOf	Chef Chu's
+6	chinese restaurant	IsTypeOf	Chef Chu's
+6	Chef Chu's	HasTraffic	heavy traffic
+6	Chef Chu's	HasDistance	3 miles
+6	heavy traffic	IsTrafficOf	Chef Chu's
+6	3 miles	IsDistanceFrom	Chef Chu's
+-1	today	IsEqualTo	monday

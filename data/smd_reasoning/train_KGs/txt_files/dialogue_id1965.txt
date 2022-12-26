@@ -1,0 +1,65 @@
+0	Stanford Express Care	HasAddress	214 El Camino Real
+0	Stanford Express Care	HasType	hospital
+0	214 El Camino Real	IsAddressOf	Stanford Express Care
+0	hospital	IsTypeOf	Stanford Express Care
+0	Stanford Express Care	HasTraffic	moderate traffic
+0	Stanford Express Care	HasDistance	8 miles
+0	moderate traffic	IsTrafficOf	Stanford Express Care
+0	8 miles	IsDistanceFrom	Stanford Express Care
+1	Teavana	HasAddress	145 Amherst St
+1	Teavana	HasType	coffee or tea place
+1	145 Amherst St	IsAddressOf	Teavana
+1	coffee or tea place	IsTypeOf	Teavana
+1	Teavana	HasTraffic	heavy traffic
+1	Teavana	HasDistance	5 miles
+1	heavy traffic	IsTrafficOf	Teavana
+1	5 miles	IsDistanceFrom	Teavana
+2	jills house	HasAddress	347 Alta Mesa Ave
+2	jills house	HasType	friends house
+2	347 Alta Mesa Ave	IsAddressOf	jills house
+2	friends house	IsTypeOf	jills house
+2	jills house	HasTraffic	moderate traffic
+2	jills house	HasDistance	3 miles
+2	moderate traffic	IsTrafficOf	jills house
+2	3 miles	IsDistanceFrom	jills house
+3	5677 springer street	HasAddress	5677 springer street
+3	5677 springer street	HasType	certain address
+3	5677 springer street	IsAddressOf	5677 springer street
+3	certain address	IsTypeOf	5677 springer street
+3	5677 springer street	HasTraffic	car collision nearby
+3	5677 springer street	HasDistance	6 miles
+3	car collision nearby	IsTrafficOf	5677 springer street
+3	6 miles	IsDistanceFrom	5677 springer street
+4	home	HasAddress	10 ames street
+4	home	HasType	home
+4	10 ames street	IsAddressOf	home
+4	home	IsTypeOf	home
+4	home	HasTraffic	moderate traffic
+4	home	HasDistance	6 miles
+4	moderate traffic	IsTrafficOf	home
+4	6 miles	IsDistanceFrom	home
+5	Sigona Farmers Market	HasAddress	638 Amherst St
+5	Sigona Farmers Market	HasType	grocery store
+5	638 Amherst St	IsAddressOf	Sigona Farmers Market
+5	grocery store	IsTypeOf	Sigona Farmers Market
+5	Sigona Farmers Market	HasTraffic	road block nearby
+5	Sigona Farmers Market	HasDistance	4 miles
+5	road block nearby	IsTrafficOf	Sigona Farmers Market
+5	4 miles	IsDistanceFrom	Sigona Farmers Market
+6	Shell	HasAddress	53 University Av
+6	Shell	HasType	gas station
+6	53 University Av	IsAddressOf	Shell
+6	gas station	IsTypeOf	Shell
+6	Shell	HasTraffic	road block nearby
+6	Shell	HasDistance	4 miles
+6	road block nearby	IsTrafficOf	Shell
+6	4 miles	IsDistanceFrom	Shell
+7	Comfort Inn	HasAddress	753 University Ave
+7	Comfort Inn	HasType	rest stop
+7	753 University Ave	IsAddressOf	Comfort Inn
+7	rest stop	IsTypeOf	Comfort Inn
+7	Comfort Inn	HasTraffic	car collision nearby
+7	Comfort Inn	HasDistance	5 miles
+7	car collision nearby	IsTrafficOf	Comfort Inn
+7	5 miles	IsDistanceFrom	Comfort Inn
+-1	today	IsEqualTo	monday

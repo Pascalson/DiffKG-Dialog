@@ -1,0 +1,57 @@
+0	Chef Chu's	HasAddress	593 Arrowhead Way
+0	Chef Chu's	HasType	chinese restaurant
+0	593 Arrowhead Way	IsAddressOf	Chef Chu's
+0	chinese restaurant	IsTypeOf	Chef Chu's
+0	Chef Chu's	HasTraffic	no traffic
+0	Chef Chu's	HasDistance	1 miles
+0	no traffic	IsTrafficOf	Chef Chu's
+0	1 miles	IsDistanceFrom	Chef Chu's
+1	Sigona Farmers Market	HasAddress	638 Amherst St
+1	Sigona Farmers Market	HasType	grocery store
+1	638 Amherst St	IsAddressOf	Sigona Farmers Market
+1	grocery store	IsTypeOf	Sigona Farmers Market
+1	Sigona Farmers Market	HasTraffic	heavy traffic
+1	Sigona Farmers Market	HasDistance	2 miles
+1	heavy traffic	IsTrafficOf	Sigona Farmers Market
+1	2 miles	IsDistanceFrom	Sigona Farmers Market
+2	5672 barringer street	HasAddress	5672 barringer street
+2	5672 barringer street	HasType	certain address
+2	5672 barringer street	IsAddressOf	5672 barringer street
+2	certain address	IsTypeOf	5672 barringer street
+2	5672 barringer street	HasTraffic	no traffic
+2	5672 barringer street	HasDistance	5 miles
+2	no traffic	IsTrafficOf	5672 barringer street
+2	5 miles	IsDistanceFrom	5672 barringer street
+3	Round Table	HasAddress	113 Anton Ct
+3	Round Table	HasType	pizza restaurant
+3	113 Anton Ct	IsAddressOf	Round Table
+3	pizza restaurant	IsTypeOf	Round Table
+3	Round Table	HasTraffic	no traffic
+3	Round Table	HasDistance	3 miles
+3	no traffic	IsTrafficOf	Round Table
+3	3 miles	IsDistanceFrom	Round Table
+4	Pizza Chicago	HasAddress	915 Arbol Dr
+4	Pizza Chicago	HasType	pizza restaurant
+4	915 Arbol Dr	IsAddressOf	Pizza Chicago
+4	pizza restaurant	IsTypeOf	Pizza Chicago
+4	Pizza Chicago	HasTraffic	no traffic
+4	Pizza Chicago	HasDistance	1 miles
+4	no traffic	IsTrafficOf	Pizza Chicago
+4	1 miles	IsDistanceFrom	Pizza Chicago
+5	Stanford Express Care	HasAddress	214 El Camino Real
+5	Stanford Express Care	HasType	hospital
+5	214 El Camino Real	IsAddressOf	Stanford Express Care
+5	hospital	IsTypeOf	Stanford Express Care
+5	Stanford Express Care	HasTraffic	heavy traffic
+5	Stanford Express Care	HasDistance	5 miles
+5	heavy traffic	IsTrafficOf	Stanford Express Care
+5	5 miles	IsDistanceFrom	Stanford Express Care
+6	Pizza Hut	HasAddress	704 El Camino Real
+6	Pizza Hut	HasType	pizza restaurant
+6	704 El Camino Real	IsAddressOf	Pizza Hut
+6	pizza restaurant	IsTypeOf	Pizza Hut
+6	Pizza Hut	HasTraffic	moderate traffic
+6	Pizza Hut	HasDistance	4 miles
+6	moderate traffic	IsTrafficOf	Pizza Hut
+6	4 miles	IsDistanceFrom	Pizza Hut
+-1	today	IsEqualTo	monday

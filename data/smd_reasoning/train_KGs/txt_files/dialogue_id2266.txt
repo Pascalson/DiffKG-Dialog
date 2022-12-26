@@ -1,0 +1,57 @@
+0	jills house	HasAddress	347 Alta Mesa Ave
+0	jills house	HasType	friends house
+0	347 Alta Mesa Ave	IsAddressOf	jills house
+0	friends house	IsTypeOf	jills house
+0	jills house	HasTraffic	heavy traffic
+0	jills house	HasDistance	3 miles
+0	heavy traffic	IsTrafficOf	jills house
+0	3 miles	IsDistanceFrom	jills house
+1	The Clement Hotel	HasAddress	657 Ames Ave
+1	The Clement Hotel	HasType	rest stop
+1	657 Ames Ave	IsAddressOf	The Clement Hotel
+1	rest stop	IsTypeOf	The Clement Hotel
+1	The Clement Hotel	HasTraffic	heavy traffic
+1	The Clement Hotel	HasDistance	4 miles
+1	heavy traffic	IsTrafficOf	The Clement Hotel
+1	4 miles	IsDistanceFrom	The Clement Hotel
+2	Civic Center Garage	HasAddress	270 Altaire Walk
+2	Civic Center Garage	HasType	parking garage
+2	270 Altaire Walk	IsAddressOf	Civic Center Garage
+2	parking garage	IsTypeOf	Civic Center Garage
+2	Civic Center Garage	HasTraffic	heavy traffic
+2	Civic Center Garage	HasDistance	5 miles
+2	heavy traffic	IsTrafficOf	Civic Center Garage
+2	5 miles	IsDistanceFrom	Civic Center Garage
+3	Pizza My Heart	HasAddress	528 Anton Ct
+3	Pizza My Heart	HasType	pizza restaurant
+3	528 Anton Ct	IsAddressOf	Pizza My Heart
+3	pizza restaurant	IsTypeOf	Pizza My Heart
+3	Pizza My Heart	HasTraffic	no traffic
+3	Pizza My Heart	HasDistance	5 miles
+3	no traffic	IsTrafficOf	Pizza My Heart
+3	5 miles	IsDistanceFrom	Pizza My Heart
+4	Comfort Inn	HasAddress	753 University Ave
+4	Comfort Inn	HasType	rest stop
+4	753 University Ave	IsAddressOf	Comfort Inn
+4	rest stop	IsTypeOf	Comfort Inn
+4	Comfort Inn	HasTraffic	heavy traffic
+4	Comfort Inn	HasDistance	6 miles
+4	heavy traffic	IsTrafficOf	Comfort Inn
+4	6 miles	IsDistanceFrom	Comfort Inn
+5	P.F. Changs	HasAddress	669 El Camino Real
+5	P.F. Changs	HasType	chinese restaurant
+5	669 El Camino Real	IsAddressOf	P.F. Changs
+5	chinese restaurant	IsTypeOf	P.F. Changs
+5	P.F. Changs	HasTraffic	heavy traffic
+5	P.F. Changs	HasDistance	2 miles
+5	heavy traffic	IsTrafficOf	P.F. Changs
+5	2 miles	IsDistanceFrom	P.F. Changs
+6	Trader Joes	HasAddress	408 University Ave
+6	Trader Joes	HasType	grocery store
+6	408 University Ave	IsAddressOf	Trader Joes
+6	grocery store	IsTypeOf	Trader Joes
+6	Trader Joes	HasTraffic	moderate traffic
+6	Trader Joes	HasDistance	1 miles
+6	moderate traffic	IsTrafficOf	Trader Joes
+6	1 miles	IsDistanceFrom	Trader Joes
+-1	today	IsEqualTo	monday

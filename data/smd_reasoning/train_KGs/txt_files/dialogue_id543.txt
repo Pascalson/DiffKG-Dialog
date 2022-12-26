@@ -1,0 +1,65 @@
+0	jacks house	HasAddress	864 Almanor Ln
+0	jacks house	HasType	friends house
+0	864 Almanor Ln	IsAddressOf	jacks house
+0	friends house	IsTypeOf	jacks house
+0	jacks house	HasTraffic	no traffic
+0	jacks house	HasDistance	6 miles
+0	no traffic	IsTrafficOf	jacks house
+0	6 miles	IsDistanceFrom	jacks house
+1	5672 barringer street	HasAddress	5672 barringer street
+1	5672 barringer street	HasType	certain address
+1	5672 barringer street	IsAddressOf	5672 barringer street
+1	certain address	IsTypeOf	5672 barringer street
+1	5672 barringer street	HasTraffic	no traffic
+1	5672 barringer street	HasDistance	6 miles
+1	no traffic	IsTrafficOf	5672 barringer street
+1	6 miles	IsDistanceFrom	5672 barringer street
+2	Pizza Chicago	HasAddress	915 Arbol Dr
+2	Pizza Chicago	HasType	pizza restaurant
+2	915 Arbol Dr	IsAddressOf	Pizza Chicago
+2	pizza restaurant	IsTypeOf	Pizza Chicago
+2	Pizza Chicago	HasTraffic	heavy traffic
+2	Pizza Chicago	HasDistance	4 miles
+2	heavy traffic	IsTrafficOf	Pizza Chicago
+2	4 miles	IsDistanceFrom	Pizza Chicago
+3	Comfort Inn	HasAddress	753 University Ave
+3	Comfort Inn	HasType	rest stop
+3	753 University Ave	IsAddressOf	Comfort Inn
+3	rest stop	IsTypeOf	Comfort Inn
+3	Comfort Inn	HasTraffic	moderate traffic
+3	Comfort Inn	HasDistance	2 miles
+3	moderate traffic	IsTrafficOf	Comfort Inn
+3	2 miles	IsDistanceFrom	Comfort Inn
+4	Philz	HasAddress	583 Alester Ave
+4	Philz	HasType	coffee or tea place
+4	583 Alester Ave	IsAddressOf	Philz
+4	coffee or tea place	IsTypeOf	Philz
+4	Philz	HasTraffic	no traffic
+4	Philz	HasDistance	6 miles
+4	no traffic	IsTrafficOf	Philz
+4	6 miles	IsDistanceFrom	Philz
+5	Stanford Oval Parking	HasAddress	610 Amarillo Ave
+5	Stanford Oval Parking	HasType	parking garage
+5	610 Amarillo Ave	IsAddressOf	Stanford Oval Parking
+5	parking garage	IsTypeOf	Stanford Oval Parking
+5	Stanford Oval Parking	HasTraffic	moderate traffic
+5	Stanford Oval Parking	HasDistance	4 miles
+5	moderate traffic	IsTrafficOf	Stanford Oval Parking
+5	4 miles	IsDistanceFrom	Stanford Oval Parking
+6	Civic Center Garage	HasAddress	270 Altaire Walk
+6	Civic Center Garage	HasType	parking garage
+6	270 Altaire Walk	IsAddressOf	Civic Center Garage
+6	parking garage	IsTypeOf	Civic Center Garage
+6	Civic Center Garage	HasTraffic	moderate traffic
+6	Civic Center Garage	HasDistance	3 miles
+6	moderate traffic	IsTrafficOf	Civic Center Garage
+6	3 miles	IsDistanceFrom	Civic Center Garage
+7	Sigona Farmers Market	HasAddress	638 Amherst St
+7	Sigona Farmers Market	HasType	grocery store
+7	638 Amherst St	IsAddressOf	Sigona Farmers Market
+7	grocery store	IsTypeOf	Sigona Farmers Market
+7	Sigona Farmers Market	HasTraffic	no traffic
+7	Sigona Farmers Market	HasDistance	1 miles
+7	no traffic	IsTrafficOf	Sigona Farmers Market
+7	1 miles	IsDistanceFrom	Sigona Farmers Market
+-1	today	IsEqualTo	monday

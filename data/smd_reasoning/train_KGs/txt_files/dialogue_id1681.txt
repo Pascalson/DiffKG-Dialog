@@ -1,0 +1,57 @@
+0	Stanford Express Care	HasAddress	214 El Camino Real
+0	Stanford Express Care	HasType	hospital
+0	214 El Camino Real	IsAddressOf	Stanford Express Care
+0	hospital	IsTypeOf	Stanford Express Care
+0	Stanford Express Care	HasTraffic	moderate traffic
+0	Stanford Express Care	HasDistance	2 miles
+0	moderate traffic	IsTrafficOf	Stanford Express Care
+0	2 miles	IsDistanceFrom	Stanford Express Care
+1	Chef Chu's	HasAddress	593 Arrowhead Way
+1	Chef Chu's	HasType	chinese restaurant
+1	593 Arrowhead Way	IsAddressOf	Chef Chu's
+1	chinese restaurant	IsTypeOf	Chef Chu's
+1	Chef Chu's	HasTraffic	moderate traffic
+1	Chef Chu's	HasDistance	4 miles
+1	moderate traffic	IsTrafficOf	Chef Chu's
+1	4 miles	IsDistanceFrom	Chef Chu's
+2	Palo Alto Cafe	HasAddress	436 Alger Dr
+2	Palo Alto Cafe	HasType	coffee or tea place
+2	436 Alger Dr	IsAddressOf	Palo Alto Cafe
+2	coffee or tea place	IsTypeOf	Palo Alto Cafe
+2	Palo Alto Cafe	HasTraffic	heavy traffic
+2	Palo Alto Cafe	HasDistance	6 miles
+2	heavy traffic	IsTrafficOf	Palo Alto Cafe
+2	6 miles	IsDistanceFrom	Palo Alto Cafe
+3	The Clement Hotel	HasAddress	657 Ames Ave
+3	The Clement Hotel	HasType	rest stop
+3	657 Ames Ave	IsAddressOf	The Clement Hotel
+3	rest stop	IsTypeOf	The Clement Hotel
+3	The Clement Hotel	HasTraffic	moderate traffic
+3	The Clement Hotel	HasDistance	1 miles
+3	moderate traffic	IsTrafficOf	The Clement Hotel
+3	1 miles	IsDistanceFrom	The Clement Hotel
+4	Valero	HasAddress	200 Alester Ave
+4	Valero	HasType	gas station
+4	200 Alester Ave	IsAddressOf	Valero
+4	gas station	IsTypeOf	Valero
+4	Valero	HasTraffic	heavy traffic
+4	Valero	HasDistance	3 miles
+4	heavy traffic	IsTrafficOf	Valero
+4	3 miles	IsDistanceFrom	Valero
+5	The Westin	HasAddress	329 El Camino Real
+5	The Westin	HasType	rest stop
+5	329 El Camino Real	IsAddressOf	The Westin
+5	rest stop	IsTypeOf	The Westin
+5	The Westin	HasTraffic	no traffic
+5	The Westin	HasDistance	1 miles
+5	no traffic	IsTrafficOf	The Westin
+5	1 miles	IsDistanceFrom	The Westin
+6	P.F. Changs	HasAddress	669 El Camino Real
+6	P.F. Changs	HasType	chinese restaurant
+6	669 El Camino Real	IsAddressOf	P.F. Changs
+6	chinese restaurant	IsTypeOf	P.F. Changs
+6	P.F. Changs	HasTraffic	heavy traffic
+6	P.F. Changs	HasDistance	1 miles
+6	heavy traffic	IsTrafficOf	P.F. Changs
+6	1 miles	IsDistanceFrom	P.F. Changs
+-1	today	IsEqualTo	monday

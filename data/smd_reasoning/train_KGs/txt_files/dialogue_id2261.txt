@@ -1,0 +1,57 @@
+0	Safeway	HasAddress	452 Arcadia Pl
+0	Safeway	HasType	grocery store
+0	452 Arcadia Pl	IsAddressOf	Safeway
+0	grocery store	IsTypeOf	Safeway
+0	Safeway	HasTraffic	moderate traffic
+0	Safeway	HasDistance	1 miles
+0	moderate traffic	IsTrafficOf	Safeway
+0	1 miles	IsDistanceFrom	Safeway
+1	Panda Express	HasAddress	842 Arrowhead Way
+1	Panda Express	HasType	chinese restaurant
+1	842 Arrowhead Way	IsAddressOf	Panda Express
+1	chinese restaurant	IsTypeOf	Panda Express
+1	Panda Express	HasTraffic	no traffic
+1	Panda Express	HasDistance	5 miles
+1	no traffic	IsTrafficOf	Panda Express
+1	5 miles	IsDistanceFrom	Panda Express
+2	Sigona Farmers Market	HasAddress	638 Amherst St
+2	Sigona Farmers Market	HasType	grocery store
+2	638 Amherst St	IsAddressOf	Sigona Farmers Market
+2	grocery store	IsTypeOf	Sigona Farmers Market
+2	Sigona Farmers Market	HasTraffic	heavy traffic
+2	Sigona Farmers Market	HasDistance	3 miles
+2	heavy traffic	IsTrafficOf	Sigona Farmers Market
+2	3 miles	IsDistanceFrom	Sigona Farmers Market
+3	Starbucks	HasAddress	792 Bedoin Street
+3	Starbucks	HasType	coffee or tea place
+3	792 Bedoin Street	IsAddressOf	Starbucks
+3	coffee or tea place	IsTypeOf	Starbucks
+3	Starbucks	HasTraffic	moderate traffic
+3	Starbucks	HasDistance	3 miles
+3	moderate traffic	IsTrafficOf	Starbucks
+3	3 miles	IsDistanceFrom	Starbucks
+4	Coupa	HasAddress	394 Van Ness Ave
+4	Coupa	HasType	coffee or tea place
+4	394 Van Ness Ave	IsAddressOf	Coupa
+4	coffee or tea place	IsTypeOf	Coupa
+4	Coupa	HasTraffic	no traffic
+4	Coupa	HasDistance	4 miles
+4	no traffic	IsTrafficOf	Coupa
+4	4 miles	IsDistanceFrom	Coupa
+5	toms house	HasAddress	580 Van Ness Ave
+5	toms house	HasType	friends house
+5	580 Van Ness Ave	IsAddressOf	toms house
+5	friends house	IsTypeOf	toms house
+5	toms house	HasTraffic	no traffic
+5	toms house	HasDistance	6 miles
+5	no traffic	IsTrafficOf	toms house
+5	6 miles	IsDistanceFrom	toms house
+6	Teavana	HasAddress	145 Amherst St
+6	Teavana	HasType	coffee or tea place
+6	145 Amherst St	IsAddressOf	Teavana
+6	coffee or tea place	IsTypeOf	Teavana
+6	Teavana	HasTraffic	no traffic
+6	Teavana	HasDistance	4 miles
+6	no traffic	IsTrafficOf	Teavana
+6	4 miles	IsDistanceFrom	Teavana
+-1	today	IsEqualTo	monday

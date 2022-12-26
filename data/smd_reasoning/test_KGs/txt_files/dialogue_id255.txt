@@ -1,0 +1,65 @@
+0	Midtown Shopping Center	HasAddress	338 Alester Ave
+0	Midtown Shopping Center	HasType	shopping center
+0	338 Alester Ave	IsAddressOf	Midtown Shopping Center
+0	shopping center	IsTypeOf	Midtown Shopping Center
+0	Midtown Shopping Center	HasTraffic	road block nearby
+0	Midtown Shopping Center	HasDistance	4 miles
+0	road block nearby	IsTrafficOf	Midtown Shopping Center
+0	4 miles	IsDistanceFrom	Midtown Shopping Center
+1	Sigona Farmers Market	HasAddress	638 Amherst St
+1	Sigona Farmers Market	HasType	grocery store
+1	638 Amherst St	IsAddressOf	Sigona Farmers Market
+1	grocery store	IsTypeOf	Sigona Farmers Market
+1	Sigona Farmers Market	HasTraffic	moderate traffic
+1	Sigona Farmers Market	HasDistance	6 miles
+1	moderate traffic	IsTrafficOf	Sigona Farmers Market
+1	6 miles	IsDistanceFrom	Sigona Farmers Market
+2	Palo Alto Garage R	HasAddress	481 Amaranta Ave
+2	Palo Alto Garage R	HasType	parking garage
+2	481 Amaranta Ave	IsAddressOf	Palo Alto Garage R
+2	parking garage	IsTypeOf	Palo Alto Garage R
+2	Palo Alto Garage R	HasTraffic	no traffic
+2	Palo Alto Garage R	HasDistance	3 miles
+2	no traffic	IsTrafficOf	Palo Alto Garage R
+2	3 miles	IsDistanceFrom	Palo Alto Garage R
+3	Webster Garage	HasAddress	880 Ames Ct
+3	Webster Garage	HasType	parking garage
+3	880 Ames Ct	IsAddressOf	Webster Garage
+3	parking garage	IsTypeOf	Webster Garage
+3	Webster Garage	HasTraffic	car collision nearby
+3	Webster Garage	HasDistance	4 miles
+3	car collision nearby	IsTrafficOf	Webster Garage
+3	4 miles	IsDistanceFrom	Webster Garage
+4	Chef Chu's	HasAddress	593 Arrowhead Way
+4	Chef Chu's	HasType	chinese restaurant
+4	593 Arrowhead Way	IsAddressOf	Chef Chu's
+4	chinese restaurant	IsTypeOf	Chef Chu's
+4	Chef Chu's	HasTraffic	moderate traffic
+4	Chef Chu's	HasDistance	6 miles
+4	moderate traffic	IsTrafficOf	Chef Chu's
+4	6 miles	IsDistanceFrom	Chef Chu's
+5	Ravenswood Shopping Center	HasAddress	434 Arastradero Rd
+5	Ravenswood Shopping Center	HasType	shopping center
+5	434 Arastradero Rd	IsAddressOf	Ravenswood Shopping Center
+5	shopping center	IsTypeOf	Ravenswood Shopping Center
+5	Ravenswood Shopping Center	HasTraffic	no traffic
+5	Ravenswood Shopping Center	HasDistance	6 miles
+5	no traffic	IsTrafficOf	Ravenswood Shopping Center
+5	6 miles	IsDistanceFrom	Ravenswood Shopping Center
+6	5672 barringer street	HasAddress	5672 barringer street
+6	5672 barringer street	HasType	certain address
+6	5672 barringer street	IsAddressOf	5672 barringer street
+6	certain address	IsTypeOf	5672 barringer street
+6	5672 barringer street	HasTraffic	no traffic
+6	5672 barringer street	HasDistance	2 miles
+6	no traffic	IsTrafficOf	5672 barringer street
+6	2 miles	IsDistanceFrom	5672 barringer street
+7	Civic Center Garage	HasAddress	270 Altaire Walk
+7	Civic Center Garage	HasType	parking garage
+7	270 Altaire Walk	IsAddressOf	Civic Center Garage
+7	parking garage	IsTypeOf	Civic Center Garage
+7	Civic Center Garage	HasTraffic	moderate traffic
+7	Civic Center Garage	HasDistance	3 miles
+7	moderate traffic	IsTrafficOf	Civic Center Garage
+7	3 miles	IsDistanceFrom	Civic Center Garage
+-1	today	IsEqualTo	monday

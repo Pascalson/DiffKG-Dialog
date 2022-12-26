@@ -1,0 +1,65 @@
+0	The Westin	HasAddress	329 El Camino Real
+0	The Westin	HasType	rest stop
+0	329 El Camino Real	IsAddressOf	The Westin
+0	rest stop	IsTypeOf	The Westin
+0	The Westin	HasTraffic	car collision nearby
+0	The Westin	HasDistance	5 miles
+0	car collision nearby	IsTrafficOf	The Westin
+0	5 miles	IsDistanceFrom	The Westin
+1	P.F. Changs	HasAddress	669 El Camino Real
+1	P.F. Changs	HasType	chinese restaurant
+1	669 El Camino Real	IsAddressOf	P.F. Changs
+1	chinese restaurant	IsTypeOf	P.F. Changs
+1	P.F. Changs	HasTraffic	heavy traffic
+1	P.F. Changs	HasDistance	4 miles
+1	heavy traffic	IsTrafficOf	P.F. Changs
+1	4 miles	IsDistanceFrom	P.F. Changs
+2	Topanga Mall	HasAddress	171 Oak Rd
+2	Topanga Mall	HasType	shopping center
+2	171 Oak Rd	IsAddressOf	Topanga Mall
+2	shopping center	IsTypeOf	Topanga Mall
+2	Topanga Mall	HasTraffic	car collision nearby
+2	Topanga Mall	HasDistance	2 miles
+2	car collision nearby	IsTrafficOf	Topanga Mall
+2	2 miles	IsDistanceFrom	Topanga Mall
+3	Ravenswood Shopping Center	HasAddress	434 Arastradero Rd
+3	Ravenswood Shopping Center	HasType	shopping center
+3	434 Arastradero Rd	IsAddressOf	Ravenswood Shopping Center
+3	shopping center	IsTypeOf	Ravenswood Shopping Center
+3	Ravenswood Shopping Center	HasTraffic	road block nearby
+3	Ravenswood Shopping Center	HasDistance	8 miles
+3	road block nearby	IsTrafficOf	Ravenswood Shopping Center
+3	8 miles	IsDistanceFrom	Ravenswood Shopping Center
+4	Safeway	HasAddress	452 Arcadia Pl
+4	Safeway	HasType	grocery store
+4	452 Arcadia Pl	IsAddressOf	Safeway
+4	grocery store	IsTypeOf	Safeway
+4	Safeway	HasTraffic	heavy traffic
+4	Safeway	HasDistance	1 miles
+4	heavy traffic	IsTrafficOf	Safeway
+4	1 miles	IsDistanceFrom	Safeway
+5	Pizza Chicago	HasAddress	915 Arbol Dr
+5	Pizza Chicago	HasType	pizza restaurant
+5	915 Arbol Dr	IsAddressOf	Pizza Chicago
+5	pizza restaurant	IsTypeOf	Pizza Chicago
+5	Pizza Chicago	HasTraffic	no traffic
+5	Pizza Chicago	HasDistance	2 miles
+5	no traffic	IsTrafficOf	Pizza Chicago
+5	2 miles	IsDistanceFrom	Pizza Chicago
+6	home	HasAddress	5671 barringer street
+6	home	HasType	home
+6	5671 barringer street	IsAddressOf	home
+6	home	IsTypeOf	home
+6	home	HasTraffic	car collision nearby
+6	home	HasDistance	6 miles
+6	car collision nearby	IsTrafficOf	home
+6	6 miles	IsDistanceFrom	home
+7	home	HasAddress	10 ames street
+7	home	HasType	home
+7	10 ames street	IsAddressOf	home
+7	home	IsTypeOf	home
+7	home	HasTraffic	moderate traffic
+7	home	HasDistance	1 miles
+7	moderate traffic	IsTrafficOf	home
+7	1 miles	IsDistanceFrom	home
+-1	today	IsEqualTo	monday

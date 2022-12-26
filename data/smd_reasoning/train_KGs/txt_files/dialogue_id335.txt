@@ -1,0 +1,65 @@
+0	5677 southwest 4th street	HasAddress	5677 southwest 4th street
+0	5677 southwest 4th street	HasType	certain address
+0	5677 southwest 4th street	IsAddressOf	5677 southwest 4th street
+0	certain address	IsTypeOf	5677 southwest 4th street
+0	5677 southwest 4th street	HasTraffic	car collision nearby
+0	5677 southwest 4th street	HasDistance	5 miles
+0	car collision nearby	IsTrafficOf	5677 southwest 4th street
+0	5 miles	IsDistanceFrom	5677 southwest 4th street
+1	Sigona Farmers Market	HasAddress	638 Amherst St
+1	Sigona Farmers Market	HasType	grocery store
+1	638 Amherst St	IsAddressOf	Sigona Farmers Market
+1	grocery store	IsTypeOf	Sigona Farmers Market
+1	Sigona Farmers Market	HasTraffic	road block nearby
+1	Sigona Farmers Market	HasDistance	1 miles
+1	road block nearby	IsTrafficOf	Sigona Farmers Market
+1	1 miles	IsDistanceFrom	Sigona Farmers Market
+2	Webster Garage	HasAddress	880 Ames Ct
+2	Webster Garage	HasType	parking garage
+2	880 Ames Ct	IsAddressOf	Webster Garage
+2	parking garage	IsTypeOf	Webster Garage
+2	Webster Garage	HasTraffic	car collision nearby
+2	Webster Garage	HasDistance	4 miles
+2	car collision nearby	IsTrafficOf	Webster Garage
+2	4 miles	IsDistanceFrom	Webster Garage
+3	Midtown Shopping Center	HasAddress	338 Alester Ave
+3	Midtown Shopping Center	HasType	shopping center
+3	338 Alester Ave	IsAddressOf	Midtown Shopping Center
+3	shopping center	IsTypeOf	Midtown Shopping Center
+3	Midtown Shopping Center	HasTraffic	no traffic
+3	Midtown Shopping Center	HasDistance	5 miles
+3	no traffic	IsTrafficOf	Midtown Shopping Center
+3	5 miles	IsDistanceFrom	Midtown Shopping Center
+4	The Westin	HasAddress	329 El Camino Real
+4	The Westin	HasType	rest stop
+4	329 El Camino Real	IsAddressOf	The Westin
+4	rest stop	IsTypeOf	The Westin
+4	The Westin	HasTraffic	road block nearby
+4	The Westin	HasDistance	6 miles
+4	road block nearby	IsTrafficOf	The Westin
+4	6 miles	IsDistanceFrom	The Westin
+5	Cafe Venetia	HasAddress	269 Alger Dr
+5	Cafe Venetia	HasType	coffee or tea place
+5	269 Alger Dr	IsAddressOf	Cafe Venetia
+5	coffee or tea place	IsTypeOf	Cafe Venetia
+5	Cafe Venetia	HasTraffic	car collision nearby
+5	Cafe Venetia	HasDistance	2 miles
+5	car collision nearby	IsTrafficOf	Cafe Venetia
+5	2 miles	IsDistanceFrom	Cafe Venetia
+6	Dish Parking	HasAddress	550 Alester Ave
+6	Dish Parking	HasType	parking garage
+6	550 Alester Ave	IsAddressOf	Dish Parking
+6	parking garage	IsTypeOf	Dish Parking
+6	Dish Parking	HasTraffic	heavy traffic
+6	Dish Parking	HasDistance	5 miles
+6	heavy traffic	IsTrafficOf	Dish Parking
+6	5 miles	IsDistanceFrom	Dish Parking
+7	Valero	HasAddress	200 Alester Ave
+7	Valero	HasType	gas station
+7	200 Alester Ave	IsAddressOf	Valero
+7	gas station	IsTypeOf	Valero
+7	Valero	HasTraffic	road block nearby
+7	Valero	HasDistance	3 miles
+7	road block nearby	IsTrafficOf	Valero
+7	3 miles	IsDistanceFrom	Valero
+-1	today	IsEqualTo	monday

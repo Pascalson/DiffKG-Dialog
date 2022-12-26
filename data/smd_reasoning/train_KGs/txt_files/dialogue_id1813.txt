@@ -1,0 +1,65 @@
+0	Palo Alto Cafe	HasAddress	436 Alger Dr
+0	Palo Alto Cafe	HasType	coffee or tea place
+0	436 Alger Dr	IsAddressOf	Palo Alto Cafe
+0	coffee or tea place	IsTypeOf	Palo Alto Cafe
+0	Palo Alto Cafe	HasTraffic	car collision nearby
+0	Palo Alto Cafe	HasDistance	3 miles
+0	car collision nearby	IsTrafficOf	Palo Alto Cafe
+0	3 miles	IsDistanceFrom	Palo Alto Cafe
+1	Pizza Hut	HasAddress	704 El Camino Real
+1	Pizza Hut	HasType	pizza restaurant
+1	704 El Camino Real	IsAddressOf	Pizza Hut
+1	pizza restaurant	IsTypeOf	Pizza Hut
+1	Pizza Hut	HasTraffic	heavy traffic
+1	Pizza Hut	HasDistance	6 miles
+1	heavy traffic	IsTrafficOf	Pizza Hut
+1	6 miles	IsDistanceFrom	Pizza Hut
+2	Pizza My Heart	HasAddress	528 Anton Ct
+2	Pizza My Heart	HasType	pizza restaurant
+2	528 Anton Ct	IsAddressOf	Pizza My Heart
+2	pizza restaurant	IsTypeOf	Pizza My Heart
+2	Pizza My Heart	HasTraffic	no traffic
+2	Pizza My Heart	HasDistance	2 miles
+2	no traffic	IsTrafficOf	Pizza My Heart
+2	2 miles	IsDistanceFrom	Pizza My Heart
+3	Dish Parking	HasAddress	550 Alester Ave
+3	Dish Parking	HasType	parking garage
+3	550 Alester Ave	IsAddressOf	Dish Parking
+3	parking garage	IsTypeOf	Dish Parking
+3	Dish Parking	HasTraffic	no traffic
+3	Dish Parking	HasDistance	2 miles
+3	no traffic	IsTrafficOf	Dish Parking
+3	2 miles	IsDistanceFrom	Dish Parking
+4	Coupa	HasAddress	394 Van Ness Ave
+4	Coupa	HasType	coffee or tea place
+4	394 Van Ness Ave	IsAddressOf	Coupa
+4	coffee or tea place	IsTypeOf	Coupa
+4	Coupa	HasTraffic	moderate traffic
+4	Coupa	HasDistance	2 miles
+4	moderate traffic	IsTrafficOf	Coupa
+4	2 miles	IsDistanceFrom	Coupa
+5	P.F. Changs	HasAddress	669 El Camino Real
+5	P.F. Changs	HasType	chinese restaurant
+5	669 El Camino Real	IsAddressOf	P.F. Changs
+5	chinese restaurant	IsTypeOf	P.F. Changs
+5	P.F. Changs	HasTraffic	no traffic
+5	P.F. Changs	HasDistance	3 miles
+5	no traffic	IsTrafficOf	P.F. Changs
+5	3 miles	IsDistanceFrom	P.F. Changs
+6	Jing Jing	HasAddress	113 Arbol Dr
+6	Jing Jing	HasType	chinese restaurant
+6	113 Arbol Dr	IsAddressOf	Jing Jing
+6	chinese restaurant	IsTypeOf	Jing Jing
+6	Jing Jing	HasTraffic	no traffic
+6	Jing Jing	HasDistance	4 miles
+6	no traffic	IsTrafficOf	Jing Jing
+6	4 miles	IsDistanceFrom	Jing Jing
+7	Stanford Express Care	HasAddress	214 El Camino Real
+7	Stanford Express Care	HasType	hospital
+7	214 El Camino Real	IsAddressOf	Stanford Express Care
+7	hospital	IsTypeOf	Stanford Express Care
+7	Stanford Express Care	HasTraffic	moderate traffic
+7	Stanford Express Care	HasDistance	2 miles
+7	moderate traffic	IsTrafficOf	Stanford Express Care
+7	2 miles	IsDistanceFrom	Stanford Express Care
+-1	today	IsEqualTo	monday

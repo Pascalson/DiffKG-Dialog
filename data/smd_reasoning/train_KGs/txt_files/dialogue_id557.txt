@@ -1,0 +1,57 @@
+0	Starbucks	HasAddress	792 Bedoin Street
+0	Starbucks	HasType	coffee or tea place
+0	792 Bedoin Street	IsAddressOf	Starbucks
+0	coffee or tea place	IsTypeOf	Starbucks
+0	Starbucks	HasTraffic	no traffic
+0	Starbucks	HasDistance	6 miles
+0	no traffic	IsTrafficOf	Starbucks
+0	6 miles	IsDistanceFrom	Starbucks
+1	The Clement Hotel	HasAddress	657 Ames Ave
+1	The Clement Hotel	HasType	rest stop
+1	657 Ames Ave	IsAddressOf	The Clement Hotel
+1	rest stop	IsTypeOf	The Clement Hotel
+1	The Clement Hotel	HasTraffic	no traffic
+1	The Clement Hotel	HasDistance	5 miles
+1	no traffic	IsTrafficOf	The Clement Hotel
+1	5 miles	IsDistanceFrom	The Clement Hotel
+2	Sigona Farmers Market	HasAddress	638 Amherst St
+2	Sigona Farmers Market	HasType	grocery store
+2	638 Amherst St	IsAddressOf	Sigona Farmers Market
+2	grocery store	IsTypeOf	Sigona Farmers Market
+2	Sigona Farmers Market	HasTraffic	no traffic
+2	Sigona Farmers Market	HasDistance	4 miles
+2	no traffic	IsTrafficOf	Sigona Farmers Market
+2	4 miles	IsDistanceFrom	Sigona Farmers Market
+3	Dish Parking	HasAddress	550 Alester Ave
+3	Dish Parking	HasType	parking garage
+3	550 Alester Ave	IsAddressOf	Dish Parking
+3	parking garage	IsTypeOf	Dish Parking
+3	Dish Parking	HasTraffic	heavy traffic
+3	Dish Parking	HasDistance	5 miles
+3	heavy traffic	IsTrafficOf	Dish Parking
+3	5 miles	IsDistanceFrom	Dish Parking
+4	The Westin	HasAddress	329 El Camino Real
+4	The Westin	HasType	rest stop
+4	329 El Camino Real	IsAddressOf	The Westin
+4	rest stop	IsTypeOf	The Westin
+4	The Westin	HasTraffic	no traffic
+4	The Westin	HasDistance	4 miles
+4	no traffic	IsTrafficOf	The Westin
+4	4 miles	IsDistanceFrom	The Westin
+5	Comfort Inn	HasAddress	753 University Ave
+5	Comfort Inn	HasType	rest stop
+5	753 University Ave	IsAddressOf	Comfort Inn
+5	rest stop	IsTypeOf	Comfort Inn
+5	Comfort Inn	HasTraffic	no traffic
+5	Comfort Inn	HasDistance	5 miles
+5	no traffic	IsTrafficOf	Comfort Inn
+5	5 miles	IsDistanceFrom	Comfort Inn
+6	Pizza My Heart	HasAddress	528 Anton Ct
+6	Pizza My Heart	HasType	pizza restaurant
+6	528 Anton Ct	IsAddressOf	Pizza My Heart
+6	pizza restaurant	IsTypeOf	Pizza My Heart
+6	Pizza My Heart	HasTraffic	moderate traffic
+6	Pizza My Heart	HasDistance	6 miles
+6	moderate traffic	IsTrafficOf	Pizza My Heart
+6	6 miles	IsDistanceFrom	Pizza My Heart
+-1	today	IsEqualTo	monday

@@ -1,0 +1,57 @@
+0	Trader Joes	HasAddress	408 University Ave
+0	Trader Joes	HasType	grocery store
+0	408 University Ave	IsAddressOf	Trader Joes
+0	grocery store	IsTypeOf	Trader Joes
+0	Trader Joes	HasTraffic	heavy traffic
+0	Trader Joes	HasDistance	4 miles
+0	heavy traffic	IsTrafficOf	Trader Joes
+0	4 miles	IsDistanceFrom	Trader Joes
+1	Stanford Shopping Center	HasAddress	773 Alger Dr
+1	Stanford Shopping Center	HasType	shopping center
+1	773 Alger Dr	IsAddressOf	Stanford Shopping Center
+1	shopping center	IsTypeOf	Stanford Shopping Center
+1	Stanford Shopping Center	HasTraffic	moderate traffic
+1	Stanford Shopping Center	HasDistance	5 miles
+1	moderate traffic	IsTrafficOf	Stanford Shopping Center
+1	5 miles	IsDistanceFrom	Stanford Shopping Center
+2	Pizza Chicago	HasAddress	915 Arbol Dr
+2	Pizza Chicago	HasType	pizza restaurant
+2	915 Arbol Dr	IsAddressOf	Pizza Chicago
+2	pizza restaurant	IsTypeOf	Pizza Chicago
+2	Pizza Chicago	HasTraffic	heavy traffic
+2	Pizza Chicago	HasDistance	4 miles
+2	heavy traffic	IsTrafficOf	Pizza Chicago
+2	4 miles	IsDistanceFrom	Pizza Chicago
+3	home	HasAddress	56 cadwell street
+3	home	HasType	home
+3	56 cadwell street	IsAddressOf	home
+3	home	IsTypeOf	home
+3	home	HasTraffic	moderate traffic
+3	home	HasDistance	5 miles
+3	moderate traffic	IsTrafficOf	home
+3	5 miles	IsDistanceFrom	home
+4	Stanford Express Care	HasAddress	214 El Camino Real
+4	Stanford Express Care	HasType	hospital
+4	214 El Camino Real	IsAddressOf	Stanford Express Care
+4	hospital	IsTypeOf	Stanford Express Care
+4	Stanford Express Care	HasTraffic	heavy traffic
+4	Stanford Express Care	HasDistance	1 miles
+4	heavy traffic	IsTrafficOf	Stanford Express Care
+4	1 miles	IsDistanceFrom	Stanford Express Care
+5	Midtown Shopping Center	HasAddress	338 Alester Ave
+5	Midtown Shopping Center	HasType	shopping center
+5	338 Alester Ave	IsAddressOf	Midtown Shopping Center
+5	shopping center	IsTypeOf	Midtown Shopping Center
+5	Midtown Shopping Center	HasTraffic	heavy traffic
+5	Midtown Shopping Center	HasDistance	3 miles
+5	heavy traffic	IsTrafficOf	Midtown Shopping Center
+5	3 miles	IsDistanceFrom	Midtown Shopping Center
+6	P.F. Changs	HasAddress	669 El Camino Real
+6	P.F. Changs	HasType	chinese restaurant
+6	669 El Camino Real	IsAddressOf	P.F. Changs
+6	chinese restaurant	IsTypeOf	P.F. Changs
+6	P.F. Changs	HasTraffic	no traffic
+6	P.F. Changs	HasDistance	5 miles
+6	no traffic	IsTrafficOf	P.F. Changs
+6	5 miles	IsDistanceFrom	P.F. Changs
+-1	today	IsEqualTo	monday

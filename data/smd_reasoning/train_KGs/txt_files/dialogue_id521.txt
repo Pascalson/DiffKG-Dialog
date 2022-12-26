@@ -1,0 +1,49 @@
+0	yoga activity	HasTime	10am
+0	10am	IsTimeOf	yoga activity
+0	yoga activity	HasDate	the 20th
+0	the 20th	IsDateOf	yoga activity
+0	yoga activity	HasParty	Marie
+0	Marie	IsPartyOf	yoga activity
+1	dinner	HasTime	6pm
+1	6pm	IsTimeOf	dinner
+1	dinner	HasDate	the 15th
+1	the 15th	IsDateOf	dinner
+1	dinner	HasParty	sister
+1	sister	IsPartyOf	dinner
+2	doctor appointment	HasTime	11am
+2	11am	IsTimeOf	doctor appointment
+2	doctor appointment	HasDate	the 16th
+2	the 16th	IsDateOf	doctor appointment
+2	doctor appointment	HasParty	Marie
+2	Marie	IsPartyOf	doctor appointment
+3	tennis activity	HasTime	4pm
+3	4pm	IsTimeOf	tennis activity
+3	tennis activity	HasDate	sunday
+3	sunday	IsDateOf	tennis activity
+3	tennis activity	HasParty	Tom
+3	Tom	IsPartyOf	tennis activity
+4	doctor appointment	HasTime	5pm
+4	5pm	IsTimeOf	doctor appointment
+4	doctor appointment	HasDate	the 9th
+4	the 9th	IsDateOf	doctor appointment
+4	doctor appointment	HasParty	Ana
+4	Ana	IsPartyOf	doctor appointment
+5	dinner	HasTime	8pm
+5	8pm	IsTimeOf	dinner
+5	dinner	HasDate	monday
+5	monday	IsDateOf	dinner
+5	dinner	HasParty	Tom
+5	Tom	IsPartyOf	dinner
+6	football activity	HasTime	10am
+6	10am	IsTimeOf	football activity
+6	football activity	HasDate	the 1st
+6	the 1st	IsDateOf	football activity
+6	football activity	HasParty	mother
+6	mother	IsPartyOf	football activity
+7	doctor appointment	HasTime	2pm
+7	2pm	IsTimeOf	doctor appointment
+7	doctor appointment	HasDate	tuesday
+7	tuesday	IsDateOf	doctor appointment
+7	doctor appointment	HasParty	Martha
+7	Martha	IsPartyOf	doctor appointment
+-1	today	IsEqualTo	monday

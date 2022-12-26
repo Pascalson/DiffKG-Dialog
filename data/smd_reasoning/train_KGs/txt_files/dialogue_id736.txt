@@ -1,0 +1,57 @@
+0	The Westin	HasAddress	329 El Camino Real
+0	The Westin	HasType	rest stop
+0	329 El Camino Real	IsAddressOf	The Westin
+0	rest stop	IsTypeOf	The Westin
+0	The Westin	HasTraffic	no traffic
+0	The Westin	HasDistance	4 miles
+0	no traffic	IsTrafficOf	The Westin
+0	4 miles	IsDistanceFrom	The Westin
+1	Palo Alto Cafe	HasAddress	436 Alger Dr
+1	Palo Alto Cafe	HasType	coffee or tea place
+1	436 Alger Dr	IsAddressOf	Palo Alto Cafe
+1	coffee or tea place	IsTypeOf	Palo Alto Cafe
+1	Palo Alto Cafe	HasTraffic	no traffic
+1	Palo Alto Cafe	HasDistance	5 miles
+1	no traffic	IsTrafficOf	Palo Alto Cafe
+1	5 miles	IsDistanceFrom	Palo Alto Cafe
+2	Safeway	HasAddress	452 Arcadia Pl
+2	Safeway	HasType	grocery store
+2	452 Arcadia Pl	IsAddressOf	Safeway
+2	grocery store	IsTypeOf	Safeway
+2	Safeway	HasTraffic	moderate traffic
+2	Safeway	HasDistance	4 miles
+2	moderate traffic	IsTrafficOf	Safeway
+2	4 miles	IsDistanceFrom	Safeway
+3	Comfort Inn	HasAddress	753 University Ave
+3	Comfort Inn	HasType	rest stop
+3	753 University Ave	IsAddressOf	Comfort Inn
+3	rest stop	IsTypeOf	Comfort Inn
+3	Comfort Inn	HasTraffic	no traffic
+3	Comfort Inn	HasDistance	5 miles
+3	no traffic	IsTrafficOf	Comfort Inn
+3	5 miles	IsDistanceFrom	Comfort Inn
+4	Stanford Shopping Center	HasAddress	773 Alger Dr
+4	Stanford Shopping Center	HasType	shopping center
+4	773 Alger Dr	IsAddressOf	Stanford Shopping Center
+4	shopping center	IsTypeOf	Stanford Shopping Center
+4	Stanford Shopping Center	HasTraffic	moderate traffic
+4	Stanford Shopping Center	HasDistance	2 miles
+4	moderate traffic	IsTrafficOf	Stanford Shopping Center
+4	2 miles	IsDistanceFrom	Stanford Shopping Center
+5	Mandarin Roots	HasAddress	271 Springer Street
+5	Mandarin Roots	HasType	chinese restaurant
+5	271 Springer Street	IsAddressOf	Mandarin Roots
+5	chinese restaurant	IsTypeOf	Mandarin Roots
+5	Mandarin Roots	HasTraffic	moderate traffic
+5	Mandarin Roots	HasDistance	4 miles
+5	moderate traffic	IsTrafficOf	Mandarin Roots
+5	4 miles	IsDistanceFrom	Mandarin Roots
+6	Hotel Keen	HasAddress	578 Arbol Dr
+6	Hotel Keen	HasType	rest stop
+6	578 Arbol Dr	IsAddressOf	Hotel Keen
+6	rest stop	IsTypeOf	Hotel Keen
+6	Hotel Keen	HasTraffic	heavy traffic
+6	Hotel Keen	HasDistance	5 miles
+6	heavy traffic	IsTrafficOf	Hotel Keen
+6	5 miles	IsDistanceFrom	Hotel Keen
+-1	today	IsEqualTo	monday

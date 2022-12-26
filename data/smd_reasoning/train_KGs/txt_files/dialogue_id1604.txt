@@ -1,0 +1,57 @@
+0	5677 springer street	HasAddress	5677 springer street
+0	5677 springer street	HasType	certain address
+0	5677 springer street	IsAddressOf	5677 springer street
+0	certain address	IsTypeOf	5677 springer street
+0	5677 springer street	HasTraffic	moderate traffic
+0	5677 springer street	HasDistance	4 miles
+0	moderate traffic	IsTrafficOf	5677 springer street
+0	4 miles	IsDistanceFrom	5677 springer street
+1	Chevron	HasAddress	783 Arcadia Pl
+1	Chevron	HasType	gas station
+1	783 Arcadia Pl	IsAddressOf	Chevron
+1	gas station	IsTypeOf	Chevron
+1	Chevron	HasTraffic	no traffic
+1	Chevron	HasDistance	5 miles
+1	no traffic	IsTrafficOf	Chevron
+1	5 miles	IsDistanceFrom	Chevron
+2	5677 southwest 4th street	HasAddress	5677 southwest 4th street
+2	5677 southwest 4th street	HasType	certain address
+2	5677 southwest 4th street	IsAddressOf	5677 southwest 4th street
+2	certain address	IsTypeOf	5677 southwest 4th street
+2	5677 southwest 4th street	HasTraffic	no traffic
+2	5677 southwest 4th street	HasDistance	3 miles
+2	no traffic	IsTrafficOf	5677 southwest 4th street
+2	3 miles	IsDistanceFrom	5677 southwest 4th street
+3	Stanford Express Care	HasAddress	214 El Camino Real
+3	Stanford Express Care	HasType	hospital
+3	214 El Camino Real	IsAddressOf	Stanford Express Care
+3	hospital	IsTypeOf	Stanford Express Care
+3	Stanford Express Care	HasTraffic	no traffic
+3	Stanford Express Care	HasDistance	6 miles
+3	no traffic	IsTrafficOf	Stanford Express Care
+3	6 miles	IsDistanceFrom	Stanford Express Care
+4	jills house	HasAddress	347 Alta Mesa Ave
+4	jills house	HasType	friends house
+4	347 Alta Mesa Ave	IsAddressOf	jills house
+4	friends house	IsTypeOf	jills house
+4	jills house	HasTraffic	heavy traffic
+4	jills house	HasDistance	5 miles
+4	heavy traffic	IsTrafficOf	jills house
+4	5 miles	IsDistanceFrom	jills house
+5	toms house	HasAddress	580 Van Ness Ave
+5	toms house	HasType	friends house
+5	580 Van Ness Ave	IsAddressOf	toms house
+5	friends house	IsTypeOf	toms house
+5	toms house	HasTraffic	heavy traffic
+5	toms house	HasDistance	3 miles
+5	heavy traffic	IsTrafficOf	toms house
+5	3 miles	IsDistanceFrom	toms house
+6	Whole Foods	HasAddress	819 Alma St
+6	Whole Foods	HasType	grocery store
+6	819 Alma St	IsAddressOf	Whole Foods
+6	grocery store	IsTypeOf	Whole Foods
+6	Whole Foods	HasTraffic	heavy traffic
+6	Whole Foods	HasDistance	4 miles
+6	heavy traffic	IsTrafficOf	Whole Foods
+6	4 miles	IsDistanceFrom	Whole Foods
+-1	today	IsEqualTo	monday

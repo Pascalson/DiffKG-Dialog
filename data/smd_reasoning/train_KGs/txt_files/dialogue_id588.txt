@@ -1,0 +1,65 @@
+0	Chevron	HasAddress	783 Arcadia Pl
+0	Chevron	HasType	gas station
+0	783 Arcadia Pl	IsAddressOf	Chevron
+0	gas station	IsTypeOf	Chevron
+0	Chevron	HasTraffic	no traffic
+0	Chevron	HasDistance	6 miles
+0	no traffic	IsTrafficOf	Chevron
+0	6 miles	IsDistanceFrom	Chevron
+1	Cafe Venetia	HasAddress	269 Alger Dr
+1	Cafe Venetia	HasType	coffee or tea place
+1	269 Alger Dr	IsAddressOf	Cafe Venetia
+1	coffee or tea place	IsTypeOf	Cafe Venetia
+1	Cafe Venetia	HasTraffic	moderate traffic
+1	Cafe Venetia	HasDistance	1 miles
+1	moderate traffic	IsTrafficOf	Cafe Venetia
+1	1 miles	IsDistanceFrom	Cafe Venetia
+2	Mandarin Roots	HasAddress	271 Springer Street
+2	Mandarin Roots	HasType	chinese restaurant
+2	271 Springer Street	IsAddressOf	Mandarin Roots
+2	chinese restaurant	IsTypeOf	Mandarin Roots
+2	Mandarin Roots	HasTraffic	heavy traffic
+2	Mandarin Roots	HasDistance	4 miles
+2	heavy traffic	IsTrafficOf	Mandarin Roots
+2	4 miles	IsDistanceFrom	Mandarin Roots
+3	Four Seasons	HasAddress	465 Arcadia Pl
+3	Four Seasons	HasType	rest stop
+3	465 Arcadia Pl	IsAddressOf	Four Seasons
+3	rest stop	IsTypeOf	Four Seasons
+3	Four Seasons	HasTraffic	road block nearby
+3	Four Seasons	HasDistance	5 miles
+3	road block nearby	IsTrafficOf	Four Seasons
+3	5 miles	IsDistanceFrom	Four Seasons
+4	Willows Market	HasAddress	409 Bollard St
+4	Willows Market	HasType	grocery store
+4	409 Bollard St	IsAddressOf	Willows Market
+4	grocery store	IsTypeOf	Willows Market
+4	Willows Market	HasTraffic	no traffic
+4	Willows Market	HasDistance	4 miles
+4	no traffic	IsTrafficOf	Willows Market
+4	4 miles	IsDistanceFrom	Willows Market
+5	The Clement Hotel	HasAddress	657 Ames Ave
+5	The Clement Hotel	HasType	rest stop
+5	657 Ames Ave	IsAddressOf	The Clement Hotel
+5	rest stop	IsTypeOf	The Clement Hotel
+5	The Clement Hotel	HasTraffic	heavy traffic
+5	The Clement Hotel	HasDistance	6 miles
+5	heavy traffic	IsTrafficOf	The Clement Hotel
+5	6 miles	IsDistanceFrom	The Clement Hotel
+6	Hacienda Market	HasAddress	1313 Chester Ave
+6	Hacienda Market	HasType	grocery store
+6	1313 Chester Ave	IsAddressOf	Hacienda Market
+6	grocery store	IsTypeOf	Hacienda Market
+6	Hacienda Market	HasTraffic	no traffic
+6	Hacienda Market	HasDistance	5 miles
+6	no traffic	IsTrafficOf	Hacienda Market
+6	5 miles	IsDistanceFrom	Hacienda Market
+7	The Westin	HasAddress	329 El Camino Real
+7	The Westin	HasType	rest stop
+7	329 El Camino Real	IsAddressOf	The Westin
+7	rest stop	IsTypeOf	The Westin
+7	The Westin	HasTraffic	heavy traffic
+7	The Westin	HasDistance	5 miles
+7	heavy traffic	IsTrafficOf	The Westin
+7	5 miles	IsDistanceFrom	The Westin
+-1	today	IsEqualTo	monday

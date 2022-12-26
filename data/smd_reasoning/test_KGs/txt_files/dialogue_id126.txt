@@ -1,0 +1,57 @@
+0	Webster Garage	HasAddress	880 Ames Ct
+0	Webster Garage	HasType	parking garage
+0	880 Ames Ct	IsAddressOf	Webster Garage
+0	parking garage	IsTypeOf	Webster Garage
+0	Webster Garage	HasTraffic	no traffic
+0	Webster Garage	HasDistance	3 miles
+0	no traffic	IsTrafficOf	Webster Garage
+0	3 miles	IsDistanceFrom	Webster Garage
+1	5677 southwest 4th street	HasAddress	5677 southwest 4th street
+1	5677 southwest 4th street	HasType	certain address
+1	5677 southwest 4th street	IsAddressOf	5677 southwest 4th street
+1	certain address	IsTypeOf	5677 southwest 4th street
+1	5677 southwest 4th street	HasTraffic	heavy traffic
+1	5677 southwest 4th street	HasDistance	5 miles
+1	heavy traffic	IsTrafficOf	5677 southwest 4th street
+1	5 miles	IsDistanceFrom	5677 southwest 4th street
+2	jacks house	HasAddress	864 Almanor Ln
+2	jacks house	HasType	friends house
+2	864 Almanor Ln	IsAddressOf	jacks house
+2	friends house	IsTypeOf	jacks house
+2	jacks house	HasTraffic	moderate traffic
+2	jacks house	HasDistance	3 miles
+2	moderate traffic	IsTrafficOf	jacks house
+2	3 miles	IsDistanceFrom	jacks house
+3	The Clement Hotel	HasAddress	657 Ames Ave
+3	The Clement Hotel	HasType	rest stop
+3	657 Ames Ave	IsAddressOf	The Clement Hotel
+3	rest stop	IsTypeOf	The Clement Hotel
+3	The Clement Hotel	HasTraffic	no traffic
+3	The Clement Hotel	HasDistance	3 miles
+3	no traffic	IsTrafficOf	The Clement Hotel
+3	3 miles	IsDistanceFrom	The Clement Hotel
+4	Ravenswood Shopping Center	HasAddress	434 Arastradero Rd
+4	Ravenswood Shopping Center	HasType	shopping center
+4	434 Arastradero Rd	IsAddressOf	Ravenswood Shopping Center
+4	shopping center	IsTypeOf	Ravenswood Shopping Center
+4	Ravenswood Shopping Center	HasTraffic	no traffic
+4	Ravenswood Shopping Center	HasDistance	6 miles
+4	no traffic	IsTrafficOf	Ravenswood Shopping Center
+4	6 miles	IsDistanceFrom	Ravenswood Shopping Center
+5	Pizza My Heart	HasAddress	528 Anton Ct
+5	Pizza My Heart	HasType	pizza restaurant
+5	528 Anton Ct	IsAddressOf	Pizza My Heart
+5	pizza restaurant	IsTypeOf	Pizza My Heart
+5	Pizza My Heart	HasTraffic	moderate traffic
+5	Pizza My Heart	HasDistance	5 miles
+5	moderate traffic	IsTrafficOf	Pizza My Heart
+5	5 miles	IsDistanceFrom	Pizza My Heart
+6	P.F. Changs	HasAddress	669 El Camino Real
+6	P.F. Changs	HasType	chinese restaurant
+6	669 El Camino Real	IsAddressOf	P.F. Changs
+6	chinese restaurant	IsTypeOf	P.F. Changs
+6	P.F. Changs	HasTraffic	no traffic
+6	P.F. Changs	HasDistance	1 miles
+6	no traffic	IsTrafficOf	P.F. Changs
+6	1 miles	IsDistanceFrom	P.F. Changs
+-1	today	IsEqualTo	monday

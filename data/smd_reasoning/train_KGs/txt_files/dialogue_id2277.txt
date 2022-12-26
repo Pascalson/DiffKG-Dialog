@@ -1,0 +1,57 @@
+0	Jing Jing	HasAddress	113 Arbol Dr
+0	Jing Jing	HasType	chinese restaurant
+0	113 Arbol Dr	IsAddressOf	Jing Jing
+0	chinese restaurant	IsTypeOf	Jing Jing
+0	Jing Jing	HasTraffic	heavy traffic
+0	Jing Jing	HasDistance	5 miles
+0	heavy traffic	IsTrafficOf	Jing Jing
+0	5 miles	IsDistanceFrom	Jing Jing
+1	Cafe Venetia	HasAddress	269 Alger Dr
+1	Cafe Venetia	HasType	coffee or tea place
+1	269 Alger Dr	IsAddressOf	Cafe Venetia
+1	coffee or tea place	IsTypeOf	Cafe Venetia
+1	Cafe Venetia	HasTraffic	no traffic
+1	Cafe Venetia	HasDistance	4 miles
+1	no traffic	IsTrafficOf	Cafe Venetia
+1	4 miles	IsDistanceFrom	Cafe Venetia
+2	Teavana	HasAddress	145 Amherst St
+2	Teavana	HasType	coffee or tea place
+2	145 Amherst St	IsAddressOf	Teavana
+2	coffee or tea place	IsTypeOf	Teavana
+2	Teavana	HasTraffic	heavy traffic
+2	Teavana	HasDistance	2 miles
+2	heavy traffic	IsTrafficOf	Teavana
+2	2 miles	IsDistanceFrom	Teavana
+3	toms house	HasAddress	580 Van Ness Ave
+3	toms house	HasType	friends house
+3	580 Van Ness Ave	IsAddressOf	toms house
+3	friends house	IsTypeOf	toms house
+3	toms house	HasTraffic	no traffic
+3	toms house	HasDistance	1 miles
+3	no traffic	IsTrafficOf	toms house
+3	1 miles	IsDistanceFrom	toms house
+4	Panda Express	HasAddress	842 Arrowhead Way
+4	Panda Express	HasType	chinese restaurant
+4	842 Arrowhead Way	IsAddressOf	Panda Express
+4	chinese restaurant	IsTypeOf	Panda Express
+4	Panda Express	HasTraffic	moderate traffic
+4	Panda Express	HasDistance	1 miles
+4	moderate traffic	IsTrafficOf	Panda Express
+4	1 miles	IsDistanceFrom	Panda Express
+5	Palo Alto Garage R	HasAddress	481 Amaranta Ave
+5	Palo Alto Garage R	HasType	parking garage
+5	481 Amaranta Ave	IsAddressOf	Palo Alto Garage R
+5	parking garage	IsTypeOf	Palo Alto Garage R
+5	Palo Alto Garage R	HasTraffic	moderate traffic
+5	Palo Alto Garage R	HasDistance	2 miles
+5	moderate traffic	IsTrafficOf	Palo Alto Garage R
+5	2 miles	IsDistanceFrom	Palo Alto Garage R
+6	Palo Alto Medical Foundation	HasAddress	611 Ames Ave
+6	Palo Alto Medical Foundation	HasType	hospital
+6	611 Ames Ave	IsAddressOf	Palo Alto Medical Foundation
+6	hospital	IsTypeOf	Palo Alto Medical Foundation
+6	Palo Alto Medical Foundation	HasTraffic	no traffic
+6	Palo Alto Medical Foundation	HasDistance	5 miles
+6	no traffic	IsTrafficOf	Palo Alto Medical Foundation
+6	5 miles	IsDistanceFrom	Palo Alto Medical Foundation
+-1	today	IsEqualTo	monday

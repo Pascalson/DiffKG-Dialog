@@ -1,0 +1,65 @@
+0	The Westin	HasAddress	329 El Camino Real
+0	The Westin	HasType	rest stop
+0	329 El Camino Real	IsAddressOf	The Westin
+0	rest stop	IsTypeOf	The Westin
+0	The Westin	HasTraffic	road block nearby
+0	The Westin	HasDistance	3 miles
+0	road block nearby	IsTrafficOf	The Westin
+0	3 miles	IsDistanceFrom	The Westin
+1	home	HasAddress	5671 barringer street
+1	home	HasType	home
+1	5671 barringer street	IsAddressOf	home
+1	home	IsTypeOf	home
+1	home	HasTraffic	road block nearby
+1	home	HasDistance	4 miles
+1	road block nearby	IsTrafficOf	home
+1	4 miles	IsDistanceFrom	home
+2	Four Seasons	HasAddress	465 Arcadia Pl
+2	Four Seasons	HasType	rest stop
+2	465 Arcadia Pl	IsAddressOf	Four Seasons
+2	rest stop	IsTypeOf	Four Seasons
+2	Four Seasons	HasTraffic	no traffic
+2	Four Seasons	HasDistance	2 miles
+2	no traffic	IsTrafficOf	Four Seasons
+2	2 miles	IsDistanceFrom	Four Seasons
+3	Teavana	HasAddress	145 Amherst St
+3	Teavana	HasType	coffee or tea place
+3	145 Amherst St	IsAddressOf	Teavana
+3	coffee or tea place	IsTypeOf	Teavana
+3	Teavana	HasTraffic	moderate traffic
+3	Teavana	HasDistance	3 miles
+3	moderate traffic	IsTrafficOf	Teavana
+3	3 miles	IsDistanceFrom	Teavana
+4	Mandarin Roots	HasAddress	271 Springer Street
+4	Mandarin Roots	HasType	chinese restaurant
+4	271 Springer Street	IsAddressOf	Mandarin Roots
+4	chinese restaurant	IsTypeOf	Mandarin Roots
+4	Mandarin Roots	HasTraffic	moderate traffic
+4	Mandarin Roots	HasDistance	5 miles
+4	moderate traffic	IsTrafficOf	Mandarin Roots
+4	5 miles	IsDistanceFrom	Mandarin Roots
+5	Chef Chu's	HasAddress	593 Arrowhead Way
+5	Chef Chu's	HasType	chinese restaurant
+5	593 Arrowhead Way	IsAddressOf	Chef Chu's
+5	chinese restaurant	IsTypeOf	Chef Chu's
+5	Chef Chu's	HasTraffic	car collision nearby
+5	Chef Chu's	HasDistance	1 miles
+5	car collision nearby	IsTrafficOf	Chef Chu's
+5	1 miles	IsDistanceFrom	Chef Chu's
+6	Dominos	HasAddress	776 Arastradero Rd
+6	Dominos	HasType	pizza restaurant
+6	776 Arastradero Rd	IsAddressOf	Dominos
+6	pizza restaurant	IsTypeOf	Dominos
+6	Dominos	HasTraffic	road block nearby
+6	Dominos	HasDistance	6 miles
+6	road block nearby	IsTrafficOf	Dominos
+6	6 miles	IsDistanceFrom	Dominos
+7	Peets Coffee	HasAddress	9981 Archuleta Ave
+7	Peets Coffee	HasType	coffee or tea place
+7	9981 Archuleta Ave	IsAddressOf	Peets Coffee
+7	coffee or tea place	IsTypeOf	Peets Coffee
+7	Peets Coffee	HasTraffic	car collision nearby
+7	Peets Coffee	HasDistance	3 miles
+7	car collision nearby	IsTrafficOf	Peets Coffee
+7	3 miles	IsDistanceFrom	Peets Coffee
+-1	today	IsEqualTo	monday

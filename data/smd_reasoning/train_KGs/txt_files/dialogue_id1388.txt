@@ -1,0 +1,57 @@
+0	Jing Jing	HasAddress	113 Arbol Dr
+0	Jing Jing	HasType	chinese restaurant
+0	113 Arbol Dr	IsAddressOf	Jing Jing
+0	chinese restaurant	IsTypeOf	Jing Jing
+0	Jing Jing	HasTraffic	no traffic
+0	Jing Jing	HasDistance	6 miles
+0	no traffic	IsTrafficOf	Jing Jing
+0	6 miles	IsDistanceFrom	Jing Jing
+1	toms house	HasAddress	580 Van Ness Ave
+1	toms house	HasType	friends house
+1	580 Van Ness Ave	IsAddressOf	toms house
+1	friends house	IsTypeOf	toms house
+1	toms house	HasTraffic	heavy traffic
+1	toms house	HasDistance	6 miles
+1	heavy traffic	IsTrafficOf	toms house
+1	6 miles	IsDistanceFrom	toms house
+2	Sigona Farmers Market	HasAddress	638 Amherst St
+2	Sigona Farmers Market	HasType	grocery store
+2	638 Amherst St	IsAddressOf	Sigona Farmers Market
+2	grocery store	IsTypeOf	Sigona Farmers Market
+2	Sigona Farmers Market	HasTraffic	moderate traffic
+2	Sigona Farmers Market	HasDistance	3 miles
+2	moderate traffic	IsTrafficOf	Sigona Farmers Market
+2	3 miles	IsDistanceFrom	Sigona Farmers Market
+3	Whole Foods	HasAddress	819 Alma St
+3	Whole Foods	HasType	grocery store
+3	819 Alma St	IsAddressOf	Whole Foods
+3	grocery store	IsTypeOf	Whole Foods
+3	Whole Foods	HasTraffic	heavy traffic
+3	Whole Foods	HasDistance	2 miles
+3	heavy traffic	IsTrafficOf	Whole Foods
+3	2 miles	IsDistanceFrom	Whole Foods
+4	Dish Parking	HasAddress	550 Alester Ave
+4	Dish Parking	HasType	parking garage
+4	550 Alester Ave	IsAddressOf	Dish Parking
+4	parking garage	IsTypeOf	Dish Parking
+4	Dish Parking	HasTraffic	no traffic
+4	Dish Parking	HasDistance	6 miles
+4	no traffic	IsTrafficOf	Dish Parking
+4	6 miles	IsDistanceFrom	Dish Parking
+5	Ravenswood Shopping Center	HasAddress	434 Arastradero Rd
+5	Ravenswood Shopping Center	HasType	shopping center
+5	434 Arastradero Rd	IsAddressOf	Ravenswood Shopping Center
+5	shopping center	IsTypeOf	Ravenswood Shopping Center
+5	Ravenswood Shopping Center	HasTraffic	heavy traffic
+5	Ravenswood Shopping Center	HasDistance	6 miles
+5	heavy traffic	IsTrafficOf	Ravenswood Shopping Center
+5	6 miles	IsDistanceFrom	Ravenswood Shopping Center
+6	Four Seasons	HasAddress	465 Arcadia Pl
+6	Four Seasons	HasType	rest stop
+6	465 Arcadia Pl	IsAddressOf	Four Seasons
+6	rest stop	IsTypeOf	Four Seasons
+6	Four Seasons	HasTraffic	heavy traffic
+6	Four Seasons	HasDistance	2 miles
+6	heavy traffic	IsTrafficOf	Four Seasons
+6	2 miles	IsDistanceFrom	Four Seasons
+-1	today	IsEqualTo	monday

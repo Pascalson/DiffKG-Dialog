@@ -1,0 +1,65 @@
+0	Philz	HasAddress	583 Alester Ave
+0	Philz	HasType	coffee or tea place
+0	583 Alester Ave	IsAddressOf	Philz
+0	coffee or tea place	IsTypeOf	Philz
+0	Philz	HasTraffic	road block nearby
+0	Philz	HasDistance	3 miles
+0	road block nearby	IsTrafficOf	Philz
+0	3 miles	IsDistanceFrom	Philz
+1	Dish Parking	HasAddress	550 Alester Ave
+1	Dish Parking	HasType	parking garage
+1	550 Alester Ave	IsAddressOf	Dish Parking
+1	parking garage	IsTypeOf	Dish Parking
+1	Dish Parking	HasTraffic	heavy traffic
+1	Dish Parking	HasDistance	4 miles
+1	heavy traffic	IsTrafficOf	Dish Parking
+1	4 miles	IsDistanceFrom	Dish Parking
+2	Chevron	HasAddress	783 Arcadia Pl
+2	Chevron	HasType	gas station
+2	783 Arcadia Pl	IsAddressOf	Chevron
+2	gas station	IsTypeOf	Chevron
+2	Chevron	HasTraffic	moderate traffic
+2	Chevron	HasDistance	3 miles
+2	moderate traffic	IsTrafficOf	Chevron
+2	3 miles	IsDistanceFrom	Chevron
+3	Ravenswood Shopping Center	HasAddress	434 Arastradero Rd
+3	Ravenswood Shopping Center	HasType	shopping center
+3	434 Arastradero Rd	IsAddressOf	Ravenswood Shopping Center
+3	shopping center	IsTypeOf	Ravenswood Shopping Center
+3	Ravenswood Shopping Center	HasTraffic	car collision nearby
+3	Ravenswood Shopping Center	HasDistance	1 miles
+3	car collision nearby	IsTrafficOf	Ravenswood Shopping Center
+3	1 miles	IsDistanceFrom	Ravenswood Shopping Center
+4	Shell	HasAddress	53 University Av
+4	Shell	HasType	gas station
+4	53 University Av	IsAddressOf	Shell
+4	gas station	IsTypeOf	Shell
+4	Shell	HasTraffic	road block nearby
+4	Shell	HasDistance	2 miles
+4	road block nearby	IsTrafficOf	Shell
+4	2 miles	IsDistanceFrom	Shell
+5	Cafe Venetia	HasAddress	269 Alger Dr
+5	Cafe Venetia	HasType	coffee or tea place
+5	269 Alger Dr	IsAddressOf	Cafe Venetia
+5	coffee or tea place	IsTypeOf	Cafe Venetia
+5	Cafe Venetia	HasTraffic	moderate traffic
+5	Cafe Venetia	HasDistance	1 miles
+5	moderate traffic	IsTrafficOf	Cafe Venetia
+5	1 miles	IsDistanceFrom	Cafe Venetia
+6	Comfort Inn	HasAddress	753 University Ave
+6	Comfort Inn	HasType	rest stop
+6	753 University Ave	IsAddressOf	Comfort Inn
+6	rest stop	IsTypeOf	Comfort Inn
+6	Comfort Inn	HasTraffic	car collision nearby
+6	Comfort Inn	HasDistance	6 miles
+6	car collision nearby	IsTrafficOf	Comfort Inn
+6	6 miles	IsDistanceFrom	Comfort Inn
+7	Hacienda Market	HasAddress	1313 Chester Ave
+7	Hacienda Market	HasType	grocery store
+7	1313 Chester Ave	IsAddressOf	Hacienda Market
+7	grocery store	IsTypeOf	Hacienda Market
+7	Hacienda Market	HasTraffic	road block nearby
+7	Hacienda Market	HasDistance	3 miles
+7	road block nearby	IsTrafficOf	Hacienda Market
+7	3 miles	IsDistanceFrom	Hacienda Market
+-1	today	IsEqualTo	monday

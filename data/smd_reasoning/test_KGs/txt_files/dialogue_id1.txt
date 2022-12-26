@@ -1,0 +1,57 @@
+0	Chevron	HasAddress	783 Arcadia Pl
+0	Chevron	HasType	gas station
+0	783 Arcadia Pl	IsAddressOf	Chevron
+0	gas station	IsTypeOf	Chevron
+0	Chevron	HasTraffic	moderate traffic
+0	Chevron	HasDistance	5 miles
+0	moderate traffic	IsTrafficOf	Chevron
+0	5 miles	IsDistanceFrom	Chevron
+1	Town and Country	HasAddress	383 University Ave
+1	Town and Country	HasType	shopping center
+1	383 University Ave	IsAddressOf	Town and Country
+1	shopping center	IsTypeOf	Town and Country
+1	Town and Country	HasTraffic	no traffic
+1	Town and Country	HasDistance	5 miles
+1	no traffic	IsTrafficOf	Town and Country
+1	5 miles	IsDistanceFrom	Town and Country
+2	jacks house	HasAddress	864 Almanor Ln
+2	jacks house	HasType	friends house
+2	864 Almanor Ln	IsAddressOf	jacks house
+2	friends house	IsTypeOf	jacks house
+2	jacks house	HasTraffic	no traffic
+2	jacks house	HasDistance	5 miles
+2	no traffic	IsTrafficOf	jacks house
+2	5 miles	IsDistanceFrom	jacks house
+3	home	HasAddress	5671 barringer street
+3	home	HasType	home
+3	5671 barringer street	IsAddressOf	home
+3	home	IsTypeOf	home
+3	home	HasTraffic	heavy traffic
+3	home	HasDistance	6 miles
+3	heavy traffic	IsTrafficOf	home
+3	6 miles	IsDistanceFrom	home
+4	The Clement Hotel	HasAddress	657 Ames Ave
+4	The Clement Hotel	HasType	rest stop
+4	657 Ames Ave	IsAddressOf	The Clement Hotel
+4	rest stop	IsTypeOf	The Clement Hotel
+4	The Clement Hotel	HasTraffic	no traffic
+4	The Clement Hotel	HasDistance	4 miles
+4	no traffic	IsTrafficOf	The Clement Hotel
+4	4 miles	IsDistanceFrom	The Clement Hotel
+5	Sigona Farmers Market	HasAddress	638 Amherst St
+5	Sigona Farmers Market	HasType	grocery store
+5	638 Amherst St	IsAddressOf	Sigona Farmers Market
+5	grocery store	IsTypeOf	Sigona Farmers Market
+5	Sigona Farmers Market	HasTraffic	heavy traffic
+5	Sigona Farmers Market	HasDistance	1 miles
+5	heavy traffic	IsTrafficOf	Sigona Farmers Market
+5	1 miles	IsDistanceFrom	Sigona Farmers Market
+6	tai pan	HasAddress	830 Almanor Ln
+6	tai pan	HasType	chinese restaurant
+6	830 Almanor Ln	IsAddressOf	tai pan
+6	chinese restaurant	IsTypeOf	tai pan
+6	tai pan	HasTraffic	no traffic
+6	tai pan	HasDistance	6 miles
+6	no traffic	IsTrafficOf	tai pan
+6	6 miles	IsDistanceFrom	tai pan
+-1	today	IsEqualTo	monday

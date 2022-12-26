@@ -1,0 +1,65 @@
+0	P.F. Changs	HasAddress	669 El Camino Real
+0	P.F. Changs	HasType	chinese restaurant
+0	669 El Camino Real	IsAddressOf	P.F. Changs
+0	chinese restaurant	IsTypeOf	P.F. Changs
+0	P.F. Changs	HasTraffic	moderate traffic
+0	P.F. Changs	HasDistance	5 miles
+0	moderate traffic	IsTrafficOf	P.F. Changs
+0	5 miles	IsDistanceFrom	P.F. Changs
+1	Ravenswood Shopping Center	HasAddress	434 Arastradero Rd
+1	Ravenswood Shopping Center	HasType	shopping center
+1	434 Arastradero Rd	IsAddressOf	Ravenswood Shopping Center
+1	shopping center	IsTypeOf	Ravenswood Shopping Center
+1	Ravenswood Shopping Center	HasTraffic	moderate traffic
+1	Ravenswood Shopping Center	HasDistance	6 miles
+1	moderate traffic	IsTrafficOf	Ravenswood Shopping Center
+1	6 miles	IsDistanceFrom	Ravenswood Shopping Center
+2	Chef Chu's	HasAddress	593 Arrowhead Way
+2	Chef Chu's	HasType	chinese restaurant
+2	593 Arrowhead Way	IsAddressOf	Chef Chu's
+2	chinese restaurant	IsTypeOf	Chef Chu's
+2	Chef Chu's	HasTraffic	heavy traffic
+2	Chef Chu's	HasDistance	8 miles
+2	heavy traffic	IsTrafficOf	Chef Chu's
+2	8 miles	IsDistanceFrom	Chef Chu's
+3	The Westin	HasAddress	329 El Camino Real
+3	The Westin	HasType	rest stop
+3	329 El Camino Real	IsAddressOf	The Westin
+3	rest stop	IsTypeOf	The Westin
+3	The Westin	HasTraffic	no traffic
+3	The Westin	HasDistance	5 miles
+3	no traffic	IsTrafficOf	The Westin
+3	5 miles	IsDistanceFrom	The Westin
+4	Dish Parking	HasAddress	550 Alester Ave
+4	Dish Parking	HasType	parking garage
+4	550 Alester Ave	IsAddressOf	Dish Parking
+4	parking garage	IsTypeOf	Dish Parking
+4	Dish Parking	HasTraffic	heavy traffic
+4	Dish Parking	HasDistance	2 miles
+4	heavy traffic	IsTrafficOf	Dish Parking
+4	2 miles	IsDistanceFrom	Dish Parking
+5	home	HasAddress	5671 barringer street
+5	home	HasType	home
+5	5671 barringer street	IsAddressOf	home
+5	home	IsTypeOf	home
+5	home	HasTraffic	no traffic
+5	home	HasDistance	1 miles
+5	no traffic	IsTrafficOf	home
+5	1 miles	IsDistanceFrom	home
+6	Philz	HasAddress	583 Alester Ave
+6	Philz	HasType	coffee or tea place
+6	583 Alester Ave	IsAddressOf	Philz
+6	coffee or tea place	IsTypeOf	Philz
+6	Philz	HasTraffic	heavy traffic
+6	Philz	HasDistance	4 miles
+6	heavy traffic	IsTrafficOf	Philz
+6	4 miles	IsDistanceFrom	Philz
+7	Palo Alto Medical Foundation	HasAddress	611 Ames Ave
+7	Palo Alto Medical Foundation	HasType	hospital
+7	611 Ames Ave	IsAddressOf	Palo Alto Medical Foundation
+7	hospital	IsTypeOf	Palo Alto Medical Foundation
+7	Palo Alto Medical Foundation	HasTraffic	no traffic
+7	Palo Alto Medical Foundation	HasDistance	3 miles
+7	no traffic	IsTrafficOf	Palo Alto Medical Foundation
+7	3 miles	IsDistanceFrom	Palo Alto Medical Foundation
+-1	today	IsEqualTo	monday

@@ -1,0 +1,65 @@
+0	Sigona Farmers Market	HasAddress	638 Amherst St
+0	Sigona Farmers Market	HasType	grocery store
+0	638 Amherst St	IsAddressOf	Sigona Farmers Market
+0	grocery store	IsTypeOf	Sigona Farmers Market
+0	Sigona Farmers Market	HasTraffic	heavy traffic
+0	Sigona Farmers Market	HasDistance	3 miles
+0	heavy traffic	IsTrafficOf	Sigona Farmers Market
+0	3 miles	IsDistanceFrom	Sigona Farmers Market
+1	Comfort Inn	HasAddress	753 University Ave
+1	Comfort Inn	HasType	rest stop
+1	753 University Ave	IsAddressOf	Comfort Inn
+1	rest stop	IsTypeOf	Comfort Inn
+1	Comfort Inn	HasTraffic	car collision nearby
+1	Comfort Inn	HasDistance	1 miles
+1	car collision nearby	IsTrafficOf	Comfort Inn
+1	1 miles	IsDistanceFrom	Comfort Inn
+2	The Westin	HasAddress	329 El Camino Real
+2	The Westin	HasType	rest stop
+2	329 El Camino Real	IsAddressOf	The Westin
+2	rest stop	IsTypeOf	The Westin
+2	The Westin	HasTraffic	moderate traffic
+2	The Westin	HasDistance	5 miles
+2	moderate traffic	IsTrafficOf	The Westin
+2	5 miles	IsDistanceFrom	The Westin
+3	Chef Chu's	HasAddress	593 Arrowhead Way
+3	Chef Chu's	HasType	chinese restaurant
+3	593 Arrowhead Way	IsAddressOf	Chef Chu's
+3	chinese restaurant	IsTypeOf	Chef Chu's
+3	Chef Chu's	HasTraffic	car collision nearby
+3	Chef Chu's	HasDistance	1 miles
+3	car collision nearby	IsTrafficOf	Chef Chu's
+3	1 miles	IsDistanceFrom	Chef Chu's
+4	Dominos	HasAddress	776 Arastradero Rd
+4	Dominos	HasType	pizza restaurant
+4	776 Arastradero Rd	IsAddressOf	Dominos
+4	pizza restaurant	IsTypeOf	Dominos
+4	Dominos	HasTraffic	road block nearby
+4	Dominos	HasDistance	6 miles
+4	road block nearby	IsTrafficOf	Dominos
+4	6 miles	IsDistanceFrom	Dominos
+5	Safeway	HasAddress	452 Arcadia Pl
+5	Safeway	HasType	grocery store
+5	452 Arcadia Pl	IsAddressOf	Safeway
+5	grocery store	IsTypeOf	Safeway
+5	Safeway	HasTraffic	moderate traffic
+5	Safeway	HasDistance	3 miles
+5	moderate traffic	IsTrafficOf	Safeway
+5	3 miles	IsDistanceFrom	Safeway
+6	Civic Center Garage	HasAddress	270 Altaire Walk
+6	Civic Center Garage	HasType	parking garage
+6	270 Altaire Walk	IsAddressOf	Civic Center Garage
+6	parking garage	IsTypeOf	Civic Center Garage
+6	Civic Center Garage	HasTraffic	road block nearby
+6	Civic Center Garage	HasDistance	6 miles
+6	road block nearby	IsTrafficOf	Civic Center Garage
+6	6 miles	IsDistanceFrom	Civic Center Garage
+7	Jing Jing	HasAddress	113 Arbol Dr
+7	Jing Jing	HasType	chinese restaurant
+7	113 Arbol Dr	IsAddressOf	Jing Jing
+7	chinese restaurant	IsTypeOf	Jing Jing
+7	Jing Jing	HasTraffic	moderate traffic
+7	Jing Jing	HasDistance	4 miles
+7	moderate traffic	IsTrafficOf	Jing Jing
+7	4 miles	IsDistanceFrom	Jing Jing
+-1	today	IsEqualTo	monday

@@ -1,0 +1,57 @@
+0	Trader Joes	HasAddress	408 University Ave
+0	Trader Joes	HasType	grocery store
+0	408 University Ave	IsAddressOf	Trader Joes
+0	grocery store	IsTypeOf	Trader Joes
+0	Trader Joes	HasTraffic	no traffic
+0	Trader Joes	HasDistance	5 miles
+0	no traffic	IsTrafficOf	Trader Joes
+0	5 miles	IsDistanceFrom	Trader Joes
+1	Valero	HasAddress	200 Alester Ave
+1	Valero	HasType	gas station
+1	200 Alester Ave	IsAddressOf	Valero
+1	gas station	IsTypeOf	Valero
+1	Valero	HasTraffic	no traffic
+1	Valero	HasDistance	2 miles
+1	no traffic	IsTrafficOf	Valero
+1	2 miles	IsDistanceFrom	Valero
+2	5677 springer street	HasAddress	5677 springer street
+2	5677 springer street	HasType	certain address
+2	5677 springer street	IsAddressOf	5677 springer street
+2	certain address	IsTypeOf	5677 springer street
+2	5677 springer street	HasTraffic	no traffic
+2	5677 springer street	HasDistance	1 miles
+2	no traffic	IsTrafficOf	5677 springer street
+2	1 miles	IsDistanceFrom	5677 springer street
+3	Coupa	HasAddress	394 Van Ness Ave
+3	Coupa	HasType	coffee or tea place
+3	394 Van Ness Ave	IsAddressOf	Coupa
+3	coffee or tea place	IsTypeOf	Coupa
+3	Coupa	HasTraffic	moderate traffic
+3	Coupa	HasDistance	6 miles
+3	moderate traffic	IsTrafficOf	Coupa
+3	6 miles	IsDistanceFrom	Coupa
+4	Midtown Shopping Center	HasAddress	338 Alester Ave
+4	Midtown Shopping Center	HasType	shopping center
+4	338 Alester Ave	IsAddressOf	Midtown Shopping Center
+4	shopping center	IsTypeOf	Midtown Shopping Center
+4	Midtown Shopping Center	HasTraffic	no traffic
+4	Midtown Shopping Center	HasDistance	3 miles
+4	no traffic	IsTrafficOf	Midtown Shopping Center
+4	3 miles	IsDistanceFrom	Midtown Shopping Center
+5	Hotel Keen	HasAddress	578 Arbol Dr
+5	Hotel Keen	HasType	rest stop
+5	578 Arbol Dr	IsAddressOf	Hotel Keen
+5	rest stop	IsTypeOf	Hotel Keen
+5	Hotel Keen	HasTraffic	heavy traffic
+5	Hotel Keen	HasDistance	5 miles
+5	heavy traffic	IsTrafficOf	Hotel Keen
+5	5 miles	IsDistanceFrom	Hotel Keen
+6	Stanford Express Care	HasAddress	214 El Camino Real
+6	Stanford Express Care	HasType	hospital
+6	214 El Camino Real	IsAddressOf	Stanford Express Care
+6	hospital	IsTypeOf	Stanford Express Care
+6	Stanford Express Care	HasTraffic	no traffic
+6	Stanford Express Care	HasDistance	3 miles
+6	no traffic	IsTrafficOf	Stanford Express Care
+6	3 miles	IsDistanceFrom	Stanford Express Care
+-1	today	IsEqualTo	monday

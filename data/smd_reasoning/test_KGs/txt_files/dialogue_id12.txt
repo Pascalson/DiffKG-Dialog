@@ -1,0 +1,57 @@
+0	Ravenswood Shopping Center	HasAddress	434 Arastradero Rd
+0	Ravenswood Shopping Center	HasType	shopping center
+0	434 Arastradero Rd	IsAddressOf	Ravenswood Shopping Center
+0	shopping center	IsTypeOf	Ravenswood Shopping Center
+0	Ravenswood Shopping Center	HasTraffic	heavy traffic
+0	Ravenswood Shopping Center	HasDistance	4 miles
+0	heavy traffic	IsTrafficOf	Ravenswood Shopping Center
+0	4 miles	IsDistanceFrom	Ravenswood Shopping Center
+1	Civic Center Garage	HasAddress	270 Altaire Walk
+1	Civic Center Garage	HasType	parking garage
+1	270 Altaire Walk	IsAddressOf	Civic Center Garage
+1	parking garage	IsTypeOf	Civic Center Garage
+1	Civic Center Garage	HasTraffic	no traffic
+1	Civic Center Garage	HasDistance	4 miles
+1	no traffic	IsTrafficOf	Civic Center Garage
+1	4 miles	IsDistanceFrom	Civic Center Garage
+2	jills house	HasAddress	347 Alta Mesa Ave
+2	jills house	HasType	friends house
+2	347 Alta Mesa Ave	IsAddressOf	jills house
+2	friends house	IsTypeOf	jills house
+2	jills house	HasTraffic	heavy traffic
+2	jills house	HasDistance	4 miles
+2	heavy traffic	IsTrafficOf	jills house
+2	4 miles	IsDistanceFrom	jills house
+3	Sigona Farmers Market	HasAddress	638 Amherst St
+3	Sigona Farmers Market	HasType	grocery store
+3	638 Amherst St	IsAddressOf	Sigona Farmers Market
+3	grocery store	IsTypeOf	Sigona Farmers Market
+3	Sigona Farmers Market	HasTraffic	no traffic
+3	Sigona Farmers Market	HasDistance	4 miles
+3	no traffic	IsTrafficOf	Sigona Farmers Market
+3	4 miles	IsDistanceFrom	Sigona Farmers Market
+4	Trader Joes	HasAddress	408 University Ave
+4	Trader Joes	HasType	grocery store
+4	408 University Ave	IsAddressOf	Trader Joes
+4	grocery store	IsTypeOf	Trader Joes
+4	Trader Joes	HasTraffic	no traffic
+4	Trader Joes	HasDistance	5 miles
+4	no traffic	IsTrafficOf	Trader Joes
+4	5 miles	IsDistanceFrom	Trader Joes
+5	Mandarin Roots	HasAddress	271 Springer Street
+5	Mandarin Roots	HasType	chinese restaurant
+5	271 Springer Street	IsAddressOf	Mandarin Roots
+5	chinese restaurant	IsTypeOf	Mandarin Roots
+5	Mandarin Roots	HasTraffic	moderate traffic
+5	Mandarin Roots	HasDistance	4 miles
+5	moderate traffic	IsTrafficOf	Mandarin Roots
+5	4 miles	IsDistanceFrom	Mandarin Roots
+6	Chevron	HasAddress	783 Arcadia Pl
+6	Chevron	HasType	gas station
+6	783 Arcadia Pl	IsAddressOf	Chevron
+6	gas station	IsTypeOf	Chevron
+6	Chevron	HasTraffic	moderate traffic
+6	Chevron	HasDistance	3 miles
+6	moderate traffic	IsTrafficOf	Chevron
+6	3 miles	IsDistanceFrom	Chevron
+-1	today	IsEqualTo	monday

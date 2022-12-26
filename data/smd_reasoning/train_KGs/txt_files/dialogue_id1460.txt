@@ -1,0 +1,65 @@
+0	Town and Country	HasAddress	383 University Ave
+0	Town and Country	HasType	shopping center
+0	383 University Ave	IsAddressOf	Town and Country
+0	shopping center	IsTypeOf	Town and Country
+0	Town and Country	HasTraffic	car collision nearby
+0	Town and Country	HasDistance	6 miles
+0	car collision nearby	IsTrafficOf	Town and Country
+0	6 miles	IsDistanceFrom	Town and Country
+1	jills house	HasAddress	347 Alta Mesa Ave
+1	jills house	HasType	friends house
+1	347 Alta Mesa Ave	IsAddressOf	jills house
+1	friends house	IsTypeOf	jills house
+1	jills house	HasTraffic	moderate traffic
+1	jills house	HasDistance	5 miles
+1	moderate traffic	IsTrafficOf	jills house
+1	5 miles	IsDistanceFrom	jills house
+2	Comfort Inn	HasAddress	753 University Ave
+2	Comfort Inn	HasType	rest stop
+2	753 University Ave	IsAddressOf	Comfort Inn
+2	rest stop	IsTypeOf	Comfort Inn
+2	Comfort Inn	HasTraffic	heavy traffic
+2	Comfort Inn	HasDistance	6 miles
+2	heavy traffic	IsTrafficOf	Comfort Inn
+2	6 miles	IsDistanceFrom	Comfort Inn
+3	76	HasAddress	91 El Camino Real
+3	76	HasType	gas station
+3	91 El Camino Real	IsAddressOf	76
+3	gas station	IsTypeOf	76
+3	76	HasTraffic	heavy traffic
+3	76	HasDistance	4 miles
+3	heavy traffic	IsTrafficOf	76
+3	4 miles	IsDistanceFrom	76
+4	home	HasAddress	5671 barringer street
+4	home	HasType	home
+4	5671 barringer street	IsAddressOf	home
+4	home	IsTypeOf	home
+4	home	HasTraffic	road block nearby
+4	home	HasDistance	2 miles
+4	road block nearby	IsTrafficOf	home
+4	2 miles	IsDistanceFrom	home
+5	Chevron	HasAddress	783 Arcadia Pl
+5	Chevron	HasType	gas station
+5	783 Arcadia Pl	IsAddressOf	Chevron
+5	gas station	IsTypeOf	Chevron
+5	Chevron	HasTraffic	moderate traffic
+5	Chevron	HasDistance	6 miles
+5	moderate traffic	IsTrafficOf	Chevron
+5	6 miles	IsDistanceFrom	Chevron
+6	Cafe Venetia	HasAddress	269 Alger Dr
+6	Cafe Venetia	HasType	coffee or tea place
+6	269 Alger Dr	IsAddressOf	Cafe Venetia
+6	coffee or tea place	IsTypeOf	Cafe Venetia
+6	Cafe Venetia	HasTraffic	moderate traffic
+6	Cafe Venetia	HasDistance	2 miles
+6	moderate traffic	IsTrafficOf	Cafe Venetia
+6	2 miles	IsDistanceFrom	Cafe Venetia
+7	The Westin	HasAddress	329 El Camino Real
+7	The Westin	HasType	rest stop
+7	329 El Camino Real	IsAddressOf	The Westin
+7	rest stop	IsTypeOf	The Westin
+7	The Westin	HasTraffic	heavy traffic
+7	The Westin	HasDistance	1 miles
+7	heavy traffic	IsTrafficOf	The Westin
+7	1 miles	IsDistanceFrom	The Westin
+-1	today	IsEqualTo	monday

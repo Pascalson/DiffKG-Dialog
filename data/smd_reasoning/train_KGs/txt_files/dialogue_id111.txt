@@ -1,0 +1,57 @@
+0	Panda Express	HasAddress	842 Arrowhead Way
+0	Panda Express	HasType	chinese restaurant
+0	842 Arrowhead Way	IsAddressOf	Panda Express
+0	chinese restaurant	IsTypeOf	Panda Express
+0	Panda Express	HasTraffic	heavy traffic
+0	Panda Express	HasDistance	1 miles
+0	heavy traffic	IsTrafficOf	Panda Express
+0	1 miles	IsDistanceFrom	Panda Express
+1	Pizza My Heart	HasAddress	528 Anton Ct
+1	Pizza My Heart	HasType	pizza restaurant
+1	528 Anton Ct	IsAddressOf	Pizza My Heart
+1	pizza restaurant	IsTypeOf	Pizza My Heart
+1	Pizza My Heart	HasTraffic	no traffic
+1	Pizza My Heart	HasDistance	4 miles
+1	no traffic	IsTrafficOf	Pizza My Heart
+1	4 miles	IsDistanceFrom	Pizza My Heart
+2	Stanford Express Care	HasAddress	214 El Camino Real
+2	Stanford Express Care	HasType	hospital
+2	214 El Camino Real	IsAddressOf	Stanford Express Care
+2	hospital	IsTypeOf	Stanford Express Care
+2	Stanford Express Care	HasTraffic	moderate traffic
+2	Stanford Express Care	HasDistance	2 miles
+2	moderate traffic	IsTrafficOf	Stanford Express Care
+2	2 miles	IsDistanceFrom	Stanford Express Care
+3	home	HasAddress	5671 barringer street
+3	home	HasType	home
+3	5671 barringer street	IsAddressOf	home
+3	home	IsTypeOf	home
+3	home	HasTraffic	moderate traffic
+3	home	HasDistance	6 miles
+3	moderate traffic	IsTrafficOf	home
+3	6 miles	IsDistanceFrom	home
+4	Ravenswood Shopping Center	HasAddress	434 Arastradero Rd
+4	Ravenswood Shopping Center	HasType	shopping center
+4	434 Arastradero Rd	IsAddressOf	Ravenswood Shopping Center
+4	shopping center	IsTypeOf	Ravenswood Shopping Center
+4	Ravenswood Shopping Center	HasTraffic	no traffic
+4	Ravenswood Shopping Center	HasDistance	2 miles
+4	no traffic	IsTrafficOf	Ravenswood Shopping Center
+4	2 miles	IsDistanceFrom	Ravenswood Shopping Center
+5	home	HasAddress	56 cadwell street
+5	home	HasType	home
+5	56 cadwell street	IsAddressOf	home
+5	home	IsTypeOf	home
+5	home	HasTraffic	moderate traffic
+5	home	HasDistance	5 miles
+5	moderate traffic	IsTrafficOf	home
+5	5 miles	IsDistanceFrom	home
+6	5677 southwest 4th street	HasAddress	5677 southwest 4th street
+6	5677 southwest 4th street	HasType	certain address
+6	5677 southwest 4th street	IsAddressOf	5677 southwest 4th street
+6	certain address	IsTypeOf	5677 southwest 4th street
+6	5677 southwest 4th street	HasTraffic	moderate traffic
+6	5677 southwest 4th street	HasDistance	6 miles
+6	moderate traffic	IsTrafficOf	5677 southwest 4th street
+6	6 miles	IsDistanceFrom	5677 southwest 4th street
+-1	today	IsEqualTo	monday

@@ -1,0 +1,65 @@
+0	Hotel Keen	HasAddress	578 Arbol Dr
+0	Hotel Keen	HasType	rest stop
+0	578 Arbol Dr	IsAddressOf	Hotel Keen
+0	rest stop	IsTypeOf	Hotel Keen
+0	Hotel Keen	HasTraffic	no traffic
+0	Hotel Keen	HasDistance	2 miles
+0	no traffic	IsTrafficOf	Hotel Keen
+0	2 miles	IsDistanceFrom	Hotel Keen
+1	Dish Parking	HasAddress	550 Alester Ave
+1	Dish Parking	HasType	parking garage
+1	550 Alester Ave	IsAddressOf	Dish Parking
+1	parking garage	IsTypeOf	Dish Parking
+1	Dish Parking	HasTraffic	car collision nearby
+1	Dish Parking	HasDistance	2 miles
+1	car collision nearby	IsTrafficOf	Dish Parking
+1	2 miles	IsDistanceFrom	Dish Parking
+2	P.F. Changs	HasAddress	669 El Camino Real
+2	P.F. Changs	HasType	chinese restaurant
+2	669 El Camino Real	IsAddressOf	P.F. Changs
+2	chinese restaurant	IsTypeOf	P.F. Changs
+2	P.F. Changs	HasTraffic	no traffic
+2	P.F. Changs	HasDistance	2 miles
+2	no traffic	IsTrafficOf	P.F. Changs
+2	2 miles	IsDistanceFrom	P.F. Changs
+3	Papa Johns	HasAddress	110 Arastradero Rd
+3	Papa Johns	HasType	pizza restaurant
+3	110 Arastradero Rd	IsAddressOf	Papa Johns
+3	pizza restaurant	IsTypeOf	Papa Johns
+3	Papa Johns	HasTraffic	car collision nearby
+3	Papa Johns	HasDistance	4 miles
+3	car collision nearby	IsTrafficOf	Papa Johns
+3	4 miles	IsDistanceFrom	Papa Johns
+4	home	HasAddress	5671 barringer street
+4	home	HasType	home
+4	5671 barringer street	IsAddressOf	home
+4	home	IsTypeOf	home
+4	home	HasTraffic	no traffic
+4	home	HasDistance	2 miles
+4	no traffic	IsTrafficOf	home
+4	2 miles	IsDistanceFrom	home
+5	Stanford Shopping Center	HasAddress	773 Alger Dr
+5	Stanford Shopping Center	HasType	shopping center
+5	773 Alger Dr	IsAddressOf	Stanford Shopping Center
+5	shopping center	IsTypeOf	Stanford Shopping Center
+5	Stanford Shopping Center	HasTraffic	car collision nearby
+5	Stanford Shopping Center	HasDistance	6 miles
+5	car collision nearby	IsTrafficOf	Stanford Shopping Center
+5	6 miles	IsDistanceFrom	Stanford Shopping Center
+6	toms house	HasAddress	580 Van Ness Ave
+6	toms house	HasType	friends house
+6	580 Van Ness Ave	IsAddressOf	toms house
+6	friends house	IsTypeOf	toms house
+6	toms house	HasTraffic	no traffic
+6	toms house	HasDistance	6 miles
+6	no traffic	IsTrafficOf	toms house
+6	6 miles	IsDistanceFrom	toms house
+7	Stanford Childrens Health	HasAddress	899 Ames Ct
+7	Stanford Childrens Health	HasType	hospital
+7	899 Ames Ct	IsAddressOf	Stanford Childrens Health
+7	hospital	IsTypeOf	Stanford Childrens Health
+7	Stanford Childrens Health	HasTraffic	heavy traffic
+7	Stanford Childrens Health	HasDistance	3 miles
+7	heavy traffic	IsTrafficOf	Stanford Childrens Health
+7	3 miles	IsDistanceFrom	Stanford Childrens Health
+-1	today	IsEqualTo	monday

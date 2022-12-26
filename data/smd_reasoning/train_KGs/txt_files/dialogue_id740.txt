@@ -1,0 +1,65 @@
+0	home	HasAddress	5671 barringer street
+0	home	HasType	home
+0	5671 barringer street	IsAddressOf	home
+0	home	IsTypeOf	home
+0	home	HasTraffic	moderate traffic
+0	home	HasDistance	6 miles
+0	moderate traffic	IsTrafficOf	home
+0	6 miles	IsDistanceFrom	home
+1	Mandarin Roots	HasAddress	271 Springer Street
+1	Mandarin Roots	HasType	chinese restaurant
+1	271 Springer Street	IsAddressOf	Mandarin Roots
+1	chinese restaurant	IsTypeOf	Mandarin Roots
+1	Mandarin Roots	HasTraffic	road block nearby
+1	Mandarin Roots	HasDistance	2 miles
+1	road block nearby	IsTrafficOf	Mandarin Roots
+1	2 miles	IsDistanceFrom	Mandarin Roots
+2	tai pan	HasAddress	830 Almanor Ln
+2	tai pan	HasType	chinese restaurant
+2	830 Almanor Ln	IsAddressOf	tai pan
+2	chinese restaurant	IsTypeOf	tai pan
+2	tai pan	HasTraffic	road block nearby
+2	tai pan	HasDistance	3 miles
+2	road block nearby	IsTrafficOf	tai pan
+2	3 miles	IsDistanceFrom	tai pan
+3	Peets Coffee	HasAddress	9981 Archuleta Ave
+3	Peets Coffee	HasType	coffee or tea place
+3	9981 Archuleta Ave	IsAddressOf	Peets Coffee
+3	coffee or tea place	IsTypeOf	Peets Coffee
+3	Peets Coffee	HasTraffic	car collision nearby
+3	Peets Coffee	HasDistance	3 miles
+3	car collision nearby	IsTrafficOf	Peets Coffee
+3	3 miles	IsDistanceFrom	Peets Coffee
+4	Four Seasons	HasAddress	465 Arcadia Pl
+4	Four Seasons	HasType	rest stop
+4	465 Arcadia Pl	IsAddressOf	Four Seasons
+4	rest stop	IsTypeOf	Four Seasons
+4	Four Seasons	HasTraffic	moderate traffic
+4	Four Seasons	HasDistance	6 miles
+4	moderate traffic	IsTrafficOf	Four Seasons
+4	6 miles	IsDistanceFrom	Four Seasons
+5	home	HasAddress	56 cadwell street
+5	home	HasType	home
+5	56 cadwell street	IsAddressOf	home
+5	home	IsTypeOf	home
+5	home	HasTraffic	no traffic
+5	home	HasDistance	6 miles
+5	no traffic	IsTrafficOf	home
+5	6 miles	IsDistanceFrom	home
+6	Dish Parking	HasAddress	550 Alester Ave
+6	Dish Parking	HasType	parking garage
+6	550 Alester Ave	IsAddressOf	Dish Parking
+6	parking garage	IsTypeOf	Dish Parking
+6	Dish Parking	HasTraffic	moderate traffic
+6	Dish Parking	HasDistance	5 miles
+6	moderate traffic	IsTrafficOf	Dish Parking
+6	5 miles	IsDistanceFrom	Dish Parking
+7	The Clement Hotel	HasAddress	657 Ames Ave
+7	The Clement Hotel	HasType	rest stop
+7	657 Ames Ave	IsAddressOf	The Clement Hotel
+7	rest stop	IsTypeOf	The Clement Hotel
+7	The Clement Hotel	HasTraffic	heavy traffic
+7	The Clement Hotel	HasDistance	8 miles
+7	heavy traffic	IsTrafficOf	The Clement Hotel
+7	8 miles	IsDistanceFrom	The Clement Hotel
+-1	today	IsEqualTo	monday

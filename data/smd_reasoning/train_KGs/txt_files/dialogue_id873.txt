@@ -1,0 +1,57 @@
+0	Stanford Oval Parking	HasAddress	610 Amarillo Ave
+0	Stanford Oval Parking	HasType	parking garage
+0	610 Amarillo Ave	IsAddressOf	Stanford Oval Parking
+0	parking garage	IsTypeOf	Stanford Oval Parking
+0	Stanford Oval Parking	HasTraffic	no traffic
+0	Stanford Oval Parking	HasDistance	5 miles
+0	no traffic	IsTrafficOf	Stanford Oval Parking
+0	5 miles	IsDistanceFrom	Stanford Oval Parking
+1	Coupa	HasAddress	394 Van Ness Ave
+1	Coupa	HasType	coffee or tea place
+1	394 Van Ness Ave	IsAddressOf	Coupa
+1	coffee or tea place	IsTypeOf	Coupa
+1	Coupa	HasTraffic	no traffic
+1	Coupa	HasDistance	6 miles
+1	no traffic	IsTrafficOf	Coupa
+1	6 miles	IsDistanceFrom	Coupa
+2	P.F. Changs	HasAddress	669 El Camino Real
+2	P.F. Changs	HasType	chinese restaurant
+2	669 El Camino Real	IsAddressOf	P.F. Changs
+2	chinese restaurant	IsTypeOf	P.F. Changs
+2	P.F. Changs	HasTraffic	no traffic
+2	P.F. Changs	HasDistance	1 miles
+2	no traffic	IsTrafficOf	P.F. Changs
+2	1 miles	IsDistanceFrom	P.F. Changs
+3	Jing Jing	HasAddress	113 Arbol Dr
+3	Jing Jing	HasType	chinese restaurant
+3	113 Arbol Dr	IsAddressOf	Jing Jing
+3	chinese restaurant	IsTypeOf	Jing Jing
+3	Jing Jing	HasTraffic	heavy traffic
+3	Jing Jing	HasDistance	1 miles
+3	heavy traffic	IsTrafficOf	Jing Jing
+3	1 miles	IsDistanceFrom	Jing Jing
+4	Round Table	HasAddress	113 Anton Ct
+4	Round Table	HasType	pizza restaurant
+4	113 Anton Ct	IsAddressOf	Round Table
+4	pizza restaurant	IsTypeOf	Round Table
+4	Round Table	HasTraffic	moderate traffic
+4	Round Table	HasDistance	4 miles
+4	moderate traffic	IsTrafficOf	Round Table
+4	4 miles	IsDistanceFrom	Round Table
+5	Pizza Chicago	HasAddress	915 Arbol Dr
+5	Pizza Chicago	HasType	pizza restaurant
+5	915 Arbol Dr	IsAddressOf	Pizza Chicago
+5	pizza restaurant	IsTypeOf	Pizza Chicago
+5	Pizza Chicago	HasTraffic	moderate traffic
+5	Pizza Chicago	HasDistance	2 miles
+5	moderate traffic	IsTrafficOf	Pizza Chicago
+5	2 miles	IsDistanceFrom	Pizza Chicago
+6	Stanford Express Care	HasAddress	214 El Camino Real
+6	Stanford Express Care	HasType	hospital
+6	214 El Camino Real	IsAddressOf	Stanford Express Care
+6	hospital	IsTypeOf	Stanford Express Care
+6	Stanford Express Care	HasTraffic	no traffic
+6	Stanford Express Care	HasDistance	6 miles
+6	no traffic	IsTrafficOf	Stanford Express Care
+6	6 miles	IsDistanceFrom	Stanford Express Care
+-1	today	IsEqualTo	monday

@@ -1,0 +1,65 @@
+0	5677 springer street	HasAddress	5677 springer street
+0	5677 springer street	HasType	certain address
+0	5677 springer street	IsAddressOf	5677 springer street
+0	certain address	IsTypeOf	5677 springer street
+0	5677 springer street	HasTraffic	moderate traffic
+0	5677 springer street	HasDistance	5 miles
+0	moderate traffic	IsTrafficOf	5677 springer street
+0	5 miles	IsDistanceFrom	5677 springer street
+1	Trader Joes	HasAddress	408 University Ave
+1	Trader Joes	HasType	grocery store
+1	408 University Ave	IsAddressOf	Trader Joes
+1	grocery store	IsTypeOf	Trader Joes
+1	Trader Joes	HasTraffic	heavy traffic
+1	Trader Joes	HasDistance	2 miles
+1	heavy traffic	IsTrafficOf	Trader Joes
+1	2 miles	IsDistanceFrom	Trader Joes
+2	Topanga Mall	HasAddress	171 Oak Rd
+2	Topanga Mall	HasType	shopping center
+2	171 Oak Rd	IsAddressOf	Topanga Mall
+2	shopping center	IsTypeOf	Topanga Mall
+2	Topanga Mall	HasTraffic	road block nearby
+2	Topanga Mall	HasDistance	3 miles
+2	road block nearby	IsTrafficOf	Topanga Mall
+2	3 miles	IsDistanceFrom	Topanga Mall
+3	Teavana	HasAddress	145 Amherst St
+3	Teavana	HasType	coffee or tea place
+3	145 Amherst St	IsAddressOf	Teavana
+3	coffee or tea place	IsTypeOf	Teavana
+3	Teavana	HasTraffic	road block nearby
+3	Teavana	HasDistance	5 miles
+3	road block nearby	IsTrafficOf	Teavana
+3	5 miles	IsDistanceFrom	Teavana
+4	Palo Alto Cafe	HasAddress	436 Alger Dr
+4	Palo Alto Cafe	HasType	coffee or tea place
+4	436 Alger Dr	IsAddressOf	Palo Alto Cafe
+4	coffee or tea place	IsTypeOf	Palo Alto Cafe
+4	Palo Alto Cafe	HasTraffic	no traffic
+4	Palo Alto Cafe	HasDistance	4 miles
+4	no traffic	IsTrafficOf	Palo Alto Cafe
+4	4 miles	IsDistanceFrom	Palo Alto Cafe
+5	Sigona Farmers Market	HasAddress	638 Amherst St
+5	Sigona Farmers Market	HasType	grocery store
+5	638 Amherst St	IsAddressOf	Sigona Farmers Market
+5	grocery store	IsTypeOf	Sigona Farmers Market
+5	Sigona Farmers Market	HasTraffic	road block nearby
+5	Sigona Farmers Market	HasDistance	6 miles
+5	road block nearby	IsTrafficOf	Sigona Farmers Market
+5	6 miles	IsDistanceFrom	Sigona Farmers Market
+6	Midtown Shopping Center	HasAddress	338 Alester Ave
+6	Midtown Shopping Center	HasType	shopping center
+6	338 Alester Ave	IsAddressOf	Midtown Shopping Center
+6	shopping center	IsTypeOf	Midtown Shopping Center
+6	Midtown Shopping Center	HasTraffic	car collision nearby
+6	Midtown Shopping Center	HasDistance	6 miles
+6	car collision nearby	IsTrafficOf	Midtown Shopping Center
+6	6 miles	IsDistanceFrom	Midtown Shopping Center
+7	home	HasAddress	56 cadwell street
+7	home	HasType	home
+7	56 cadwell street	IsAddressOf	home
+7	home	IsTypeOf	home
+7	home	HasTraffic	car collision nearby
+7	home	HasDistance	6 miles
+7	car collision nearby	IsTrafficOf	home
+7	6 miles	IsDistanceFrom	home
+-1	today	IsEqualTo	monday

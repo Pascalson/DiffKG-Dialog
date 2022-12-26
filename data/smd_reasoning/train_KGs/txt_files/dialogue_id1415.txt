@@ -1,0 +1,65 @@
+0	tai pan	HasAddress	830 Almanor Ln
+0	tai pan	HasType	chinese restaurant
+0	830 Almanor Ln	IsAddressOf	tai pan
+0	chinese restaurant	IsTypeOf	tai pan
+0	tai pan	HasTraffic	car collision nearby
+0	tai pan	HasDistance	3 miles
+0	car collision nearby	IsTrafficOf	tai pan
+0	3 miles	IsDistanceFrom	tai pan
+1	Pizza Hut	HasAddress	704 El Camino Real
+1	Pizza Hut	HasType	pizza restaurant
+1	704 El Camino Real	IsAddressOf	Pizza Hut
+1	pizza restaurant	IsTypeOf	Pizza Hut
+1	Pizza Hut	HasTraffic	car collision nearby
+1	Pizza Hut	HasDistance	5 miles
+1	car collision nearby	IsTrafficOf	Pizza Hut
+1	5 miles	IsDistanceFrom	Pizza Hut
+2	Cafe Venetia	HasAddress	269 Alger Dr
+2	Cafe Venetia	HasType	coffee or tea place
+2	269 Alger Dr	IsAddressOf	Cafe Venetia
+2	coffee or tea place	IsTypeOf	Cafe Venetia
+2	Cafe Venetia	HasTraffic	road block nearby
+2	Cafe Venetia	HasDistance	3 miles
+2	road block nearby	IsTrafficOf	Cafe Venetia
+2	3 miles	IsDistanceFrom	Cafe Venetia
+3	Palo Alto Cafe	HasAddress	436 Alger Dr
+3	Palo Alto Cafe	HasType	coffee or tea place
+3	436 Alger Dr	IsAddressOf	Palo Alto Cafe
+3	coffee or tea place	IsTypeOf	Palo Alto Cafe
+3	Palo Alto Cafe	HasTraffic	moderate traffic
+3	Palo Alto Cafe	HasDistance	2 miles
+3	moderate traffic	IsTrafficOf	Palo Alto Cafe
+3	2 miles	IsDistanceFrom	Palo Alto Cafe
+4	Stanford Express Care	HasAddress	214 El Camino Real
+4	Stanford Express Care	HasType	hospital
+4	214 El Camino Real	IsAddressOf	Stanford Express Care
+4	hospital	IsTypeOf	Stanford Express Care
+4	Stanford Express Care	HasTraffic	moderate traffic
+4	Stanford Express Care	HasDistance	5 miles
+4	moderate traffic	IsTrafficOf	Stanford Express Care
+4	5 miles	IsDistanceFrom	Stanford Express Care
+5	home	HasAddress	10 ames street
+5	home	HasType	home
+5	10 ames street	IsAddressOf	home
+5	home	IsTypeOf	home
+5	home	HasTraffic	moderate traffic
+5	home	HasDistance	2 miles
+5	moderate traffic	IsTrafficOf	home
+5	2 miles	IsDistanceFrom	home
+6	Panda Express	HasAddress	842 Arrowhead Way
+6	Panda Express	HasType	chinese restaurant
+6	842 Arrowhead Way	IsAddressOf	Panda Express
+6	chinese restaurant	IsTypeOf	Panda Express
+6	Panda Express	HasTraffic	no traffic
+6	Panda Express	HasDistance	2 miles
+6	no traffic	IsTrafficOf	Panda Express
+6	2 miles	IsDistanceFrom	Panda Express
+7	Safeway	HasAddress	452 Arcadia Pl
+7	Safeway	HasType	grocery store
+7	452 Arcadia Pl	IsAddressOf	Safeway
+7	grocery store	IsTypeOf	Safeway
+7	Safeway	HasTraffic	heavy traffic
+7	Safeway	HasDistance	4 miles
+7	heavy traffic	IsTrafficOf	Safeway
+7	4 miles	IsDistanceFrom	Safeway
+-1	today	IsEqualTo	monday

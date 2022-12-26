@@ -1,0 +1,57 @@
+0	Pizza Chicago	HasAddress	915 Arbol Dr
+0	Pizza Chicago	HasType	pizza restaurant
+0	915 Arbol Dr	IsAddressOf	Pizza Chicago
+0	pizza restaurant	IsTypeOf	Pizza Chicago
+0	Pizza Chicago	HasTraffic	moderate traffic
+0	Pizza Chicago	HasDistance	3 miles
+0	moderate traffic	IsTrafficOf	Pizza Chicago
+0	3 miles	IsDistanceFrom	Pizza Chicago
+1	home	HasAddress	5671 barringer street
+1	home	HasType	home
+1	5671 barringer street	IsAddressOf	home
+1	home	IsTypeOf	home
+1	home	HasTraffic	heavy traffic
+1	home	HasDistance	1 miles
+1	heavy traffic	IsTrafficOf	home
+1	1 miles	IsDistanceFrom	home
+2	Civic Center Garage	HasAddress	270 Altaire Walk
+2	Civic Center Garage	HasType	parking garage
+2	270 Altaire Walk	IsAddressOf	Civic Center Garage
+2	parking garage	IsTypeOf	Civic Center Garage
+2	Civic Center Garage	HasTraffic	heavy traffic
+2	Civic Center Garage	HasDistance	3 miles
+2	heavy traffic	IsTrafficOf	Civic Center Garage
+2	3 miles	IsDistanceFrom	Civic Center Garage
+3	Valero	HasAddress	200 Alester Ave
+3	Valero	HasType	gas station
+3	200 Alester Ave	IsAddressOf	Valero
+3	gas station	IsTypeOf	Valero
+3	Valero	HasTraffic	no traffic
+3	Valero	HasDistance	1 miles
+3	no traffic	IsTrafficOf	Valero
+3	1 miles	IsDistanceFrom	Valero
+4	Stanford Shopping Center	HasAddress	773 Alger Dr
+4	Stanford Shopping Center	HasType	shopping center
+4	773 Alger Dr	IsAddressOf	Stanford Shopping Center
+4	shopping center	IsTypeOf	Stanford Shopping Center
+4	Stanford Shopping Center	HasTraffic	moderate traffic
+4	Stanford Shopping Center	HasDistance	6 miles
+4	moderate traffic	IsTrafficOf	Stanford Shopping Center
+4	6 miles	IsDistanceFrom	Stanford Shopping Center
+5	Stanford Oval Parking	HasAddress	610 Amarillo Ave
+5	Stanford Oval Parking	HasType	parking garage
+5	610 Amarillo Ave	IsAddressOf	Stanford Oval Parking
+5	parking garage	IsTypeOf	Stanford Oval Parking
+5	Stanford Oval Parking	HasTraffic	moderate traffic
+5	Stanford Oval Parking	HasDistance	4 miles
+5	moderate traffic	IsTrafficOf	Stanford Oval Parking
+5	4 miles	IsDistanceFrom	Stanford Oval Parking
+6	Chevron	HasAddress	783 Arcadia Pl
+6	Chevron	HasType	gas station
+6	783 Arcadia Pl	IsAddressOf	Chevron
+6	gas station	IsTypeOf	Chevron
+6	Chevron	HasTraffic	heavy traffic
+6	Chevron	HasDistance	5 miles
+6	heavy traffic	IsTrafficOf	Chevron
+6	5 miles	IsDistanceFrom	Chevron
+-1	today	IsEqualTo	monday

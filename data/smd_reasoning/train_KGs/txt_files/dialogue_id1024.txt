@@ -1,0 +1,65 @@
+0	Topanga Mall	HasAddress	171 Oak Rd
+0	Topanga Mall	HasType	shopping center
+0	171 Oak Rd	IsAddressOf	Topanga Mall
+0	shopping center	IsTypeOf	Topanga Mall
+0	Topanga Mall	HasTraffic	heavy traffic
+0	Topanga Mall	HasDistance	1 miles
+0	heavy traffic	IsTrafficOf	Topanga Mall
+0	1 miles	IsDistanceFrom	Topanga Mall
+1	jacks house	HasAddress	864 Almanor Ln
+1	jacks house	HasType	friends house
+1	864 Almanor Ln	IsAddressOf	jacks house
+1	friends house	IsTypeOf	jacks house
+1	jacks house	HasTraffic	car collision nearby
+1	jacks house	HasDistance	6 miles
+1	car collision nearby	IsTrafficOf	jacks house
+1	6 miles	IsDistanceFrom	jacks house
+2	Four Seasons	HasAddress	465 Arcadia Pl
+2	Four Seasons	HasType	rest stop
+2	465 Arcadia Pl	IsAddressOf	Four Seasons
+2	rest stop	IsTypeOf	Four Seasons
+2	Four Seasons	HasTraffic	road block nearby
+2	Four Seasons	HasDistance	3 miles
+2	road block nearby	IsTrafficOf	Four Seasons
+2	3 miles	IsDistanceFrom	Four Seasons
+3	Teavana	HasAddress	145 Amherst St
+3	Teavana	HasType	coffee or tea place
+3	145 Amherst St	IsAddressOf	Teavana
+3	coffee or tea place	IsTypeOf	Teavana
+3	Teavana	HasTraffic	heavy traffic
+3	Teavana	HasDistance	1 miles
+3	heavy traffic	IsTrafficOf	Teavana
+3	1 miles	IsDistanceFrom	Teavana
+4	Pizza Hut	HasAddress	704 El Camino Real
+4	Pizza Hut	HasType	pizza restaurant
+4	704 El Camino Real	IsAddressOf	Pizza Hut
+4	pizza restaurant	IsTypeOf	Pizza Hut
+4	Pizza Hut	HasTraffic	heavy traffic
+4	Pizza Hut	HasDistance	4 miles
+4	heavy traffic	IsTrafficOf	Pizza Hut
+4	4 miles	IsDistanceFrom	Pizza Hut
+5	home	HasAddress	56 cadwell street
+5	home	HasType	home
+5	56 cadwell street	IsAddressOf	home
+5	home	IsTypeOf	home
+5	home	HasTraffic	car collision nearby
+5	home	HasDistance	6 miles
+5	car collision nearby	IsTrafficOf	home
+5	6 miles	IsDistanceFrom	home
+6	Dominos	HasAddress	776 Arastradero Rd
+6	Dominos	HasType	pizza restaurant
+6	776 Arastradero Rd	IsAddressOf	Dominos
+6	pizza restaurant	IsTypeOf	Dominos
+6	Dominos	HasTraffic	no traffic
+6	Dominos	HasDistance	4 miles
+6	no traffic	IsTrafficOf	Dominos
+6	4 miles	IsDistanceFrom	Dominos
+7	Willows Market	HasAddress	409 Bollard St
+7	Willows Market	HasType	grocery store
+7	409 Bollard St	IsAddressOf	Willows Market
+7	grocery store	IsTypeOf	Willows Market
+7	Willows Market	HasTraffic	moderate traffic
+7	Willows Market	HasDistance	6 miles
+7	moderate traffic	IsTrafficOf	Willows Market
+7	6 miles	IsDistanceFrom	Willows Market
+-1	today	IsEqualTo	monday

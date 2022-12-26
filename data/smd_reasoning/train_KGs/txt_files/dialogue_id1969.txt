@@ -1,0 +1,61 @@
+0	dinner	HasTime	7pm
+0	7pm	IsTimeOf	dinner
+0	dinner	HasDate	the 15th
+0	the 15th	IsDateOf	dinner
+0	dinner	HasParty	aunt
+0	aunt	IsPartyOf	dinner
+1	dinner	HasTime	7pm
+1	7pm	IsTimeOf	dinner
+1	dinner	HasDate	the 16th
+1	the 16th	IsDateOf	dinner
+1	dinner	HasParty	mother
+1	mother	IsPartyOf	dinner
+2	meeting	HasTime	6pm
+2	6pm	IsTimeOf	meeting
+2	meeting	HasDate	the 17th
+2	the 17th	IsDateOf	meeting
+2	meeting	HasParty	HR
+2	HR	IsPartyOf	meeting
+2	meeting	HasRoom	conference room 100
+2	conference room 100	IsRoomOf	meeting
+2	meeting	HasAgenda	sign the NDA
+2	sign the NDA	IsAgendaOf	meeting
+3	doctor appointment	HasTime	2pm
+3	2pm	IsTimeOf	doctor appointment
+3	doctor appointment	HasDate	the 14th
+3	the 14th	IsDateOf	doctor appointment
+3	doctor appointment	HasParty	mother
+3	mother	IsPartyOf	doctor appointment
+4	meeting	HasTime	6pm
+4	6pm	IsTimeOf	meeting
+4	meeting	HasDate	friday
+4	friday	IsDateOf	meeting
+4	meeting	HasParty	sales team
+4	sales team	IsPartyOf	meeting
+4	meeting	HasRoom	conference room 100
+4	conference room 100	IsRoomOf	meeting
+4	meeting	HasAgenda	discuss the company picnic
+4	discuss the company picnic	IsAgendaOf	meeting
+5	taking medicine	HasTime	3pm
+5	3pm	IsTimeOf	taking medicine
+5	taking medicine	HasDate	the 8th
+5	the 8th	IsDateOf	taking medicine
+5	taking medicine	HasParty	brother
+5	brother	IsPartyOf	taking medicine
+6	conference	HasTime	9am
+6	9am	IsTimeOf	conference
+6	conference	HasDate	the 6th
+6	the 6th	IsDateOf	conference
+6	conference	HasParty	executive team
+6	executive team	IsPartyOf	conference
+6	conference	HasRoom	conference room 50
+6	conference room 50	IsRoomOf	conference
+6	conference	HasAgenda	discuss the company picnic
+6	discuss the company picnic	IsAgendaOf	conference
+7	dinner	HasTime	8pm
+7	8pm	IsTimeOf	dinner
+7	dinner	HasDate	the 15th
+7	the 15th	IsDateOf	dinner
+7	dinner	HasParty	Tom
+7	Tom	IsPartyOf	dinner
+-1	today	IsEqualTo	monday

@@ -1,0 +1,65 @@
+0	5672 barringer street	HasAddress	5672 barringer street
+0	5672 barringer street	HasType	certain address
+0	5672 barringer street	IsAddressOf	5672 barringer street
+0	certain address	IsTypeOf	5672 barringer street
+0	5672 barringer street	HasTraffic	moderate traffic
+0	5672 barringer street	HasDistance	6 miles
+0	moderate traffic	IsTrafficOf	5672 barringer street
+0	6 miles	IsDistanceFrom	5672 barringer street
+1	Safeway	HasAddress	452 Arcadia Pl
+1	Safeway	HasType	grocery store
+1	452 Arcadia Pl	IsAddressOf	Safeway
+1	grocery store	IsTypeOf	Safeway
+1	Safeway	HasTraffic	no traffic
+1	Safeway	HasDistance	3 miles
+1	no traffic	IsTrafficOf	Safeway
+1	3 miles	IsDistanceFrom	Safeway
+2	jills house	HasAddress	347 Alta Mesa Ave
+2	jills house	HasType	friends house
+2	347 Alta Mesa Ave	IsAddressOf	jills house
+2	friends house	IsTypeOf	jills house
+2	jills house	HasTraffic	moderate traffic
+2	jills house	HasDistance	6 miles
+2	moderate traffic	IsTrafficOf	jills house
+2	6 miles	IsDistanceFrom	jills house
+3	Valero	HasAddress	200 Alester Ave
+3	Valero	HasType	gas station
+3	200 Alester Ave	IsAddressOf	Valero
+3	gas station	IsTypeOf	Valero
+3	Valero	HasTraffic	heavy traffic
+3	Valero	HasDistance	2 miles
+3	heavy traffic	IsTrafficOf	Valero
+3	2 miles	IsDistanceFrom	Valero
+4	Coupa	HasAddress	394 Van Ness Ave
+4	Coupa	HasType	coffee or tea place
+4	394 Van Ness Ave	IsAddressOf	Coupa
+4	coffee or tea place	IsTypeOf	Coupa
+4	Coupa	HasTraffic	road block nearby
+4	Coupa	HasDistance	4 miles
+4	road block nearby	IsTrafficOf	Coupa
+4	4 miles	IsDistanceFrom	Coupa
+5	home	HasAddress	56 cadwell street
+5	home	HasType	home
+5	56 cadwell street	IsAddressOf	home
+5	home	IsTypeOf	home
+5	home	HasTraffic	heavy traffic
+5	home	HasDistance	4 miles
+5	heavy traffic	IsTrafficOf	home
+5	4 miles	IsDistanceFrom	home
+6	Topanga Mall	HasAddress	171 Oak Rd
+6	Topanga Mall	HasType	shopping center
+6	171 Oak Rd	IsAddressOf	Topanga Mall
+6	shopping center	IsTypeOf	Topanga Mall
+6	Topanga Mall	HasTraffic	heavy traffic
+6	Topanga Mall	HasDistance	3 miles
+6	heavy traffic	IsTrafficOf	Topanga Mall
+6	3 miles	IsDistanceFrom	Topanga Mall
+7	Stanford Childrens Health	HasAddress	899 Ames Ct
+7	Stanford Childrens Health	HasType	hospital
+7	899 Ames Ct	IsAddressOf	Stanford Childrens Health
+7	hospital	IsTypeOf	Stanford Childrens Health
+7	Stanford Childrens Health	HasTraffic	moderate traffic
+7	Stanford Childrens Health	HasDistance	3 miles
+7	moderate traffic	IsTrafficOf	Stanford Childrens Health
+7	3 miles	IsDistanceFrom	Stanford Childrens Health
+-1	today	IsEqualTo	monday

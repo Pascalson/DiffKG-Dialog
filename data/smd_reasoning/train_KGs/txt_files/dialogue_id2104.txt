@@ -1,0 +1,57 @@
+0	Pizza Hut	HasAddress	704 El Camino Real
+0	Pizza Hut	HasType	pizza restaurant
+0	704 El Camino Real	IsAddressOf	Pizza Hut
+0	pizza restaurant	IsTypeOf	Pizza Hut
+0	Pizza Hut	HasTraffic	heavy traffic
+0	Pizza Hut	HasDistance	2 miles
+0	heavy traffic	IsTrafficOf	Pizza Hut
+0	2 miles	IsDistanceFrom	Pizza Hut
+1	tai pan	HasAddress	830 Almanor Ln
+1	tai pan	HasType	chinese restaurant
+1	830 Almanor Ln	IsAddressOf	tai pan
+1	chinese restaurant	IsTypeOf	tai pan
+1	tai pan	HasTraffic	heavy traffic
+1	tai pan	HasDistance	5 miles
+1	heavy traffic	IsTrafficOf	tai pan
+1	5 miles	IsDistanceFrom	tai pan
+2	5677 springer street	HasAddress	5677 springer street
+2	5677 springer street	HasType	certain address
+2	5677 springer street	IsAddressOf	5677 springer street
+2	certain address	IsTypeOf	5677 springer street
+2	5677 springer street	HasTraffic	moderate traffic
+2	5677 springer street	HasDistance	1 miles
+2	moderate traffic	IsTrafficOf	5677 springer street
+2	1 miles	IsDistanceFrom	5677 springer street
+3	Whole Foods	HasAddress	819 Alma St
+3	Whole Foods	HasType	grocery store
+3	819 Alma St	IsAddressOf	Whole Foods
+3	grocery store	IsTypeOf	Whole Foods
+3	Whole Foods	HasTraffic	no traffic
+3	Whole Foods	HasDistance	3 miles
+3	no traffic	IsTrafficOf	Whole Foods
+3	3 miles	IsDistanceFrom	Whole Foods
+4	P.F. Changs	HasAddress	669 El Camino Real
+4	P.F. Changs	HasType	chinese restaurant
+4	669 El Camino Real	IsAddressOf	P.F. Changs
+4	chinese restaurant	IsTypeOf	P.F. Changs
+4	P.F. Changs	HasTraffic	heavy traffic
+4	P.F. Changs	HasDistance	3 miles
+4	heavy traffic	IsTrafficOf	P.F. Changs
+4	3 miles	IsDistanceFrom	P.F. Changs
+5	Stanford Oval Parking	HasAddress	610 Amarillo Ave
+5	Stanford Oval Parking	HasType	parking garage
+5	610 Amarillo Ave	IsAddressOf	Stanford Oval Parking
+5	parking garage	IsTypeOf	Stanford Oval Parking
+5	Stanford Oval Parking	HasTraffic	heavy traffic
+5	Stanford Oval Parking	HasDistance	2 miles
+5	heavy traffic	IsTrafficOf	Stanford Oval Parking
+5	2 miles	IsDistanceFrom	Stanford Oval Parking
+6	Trader Joes	HasAddress	408 University Ave
+6	Trader Joes	HasType	grocery store
+6	408 University Ave	IsAddressOf	Trader Joes
+6	grocery store	IsTypeOf	Trader Joes
+6	Trader Joes	HasTraffic	no traffic
+6	Trader Joes	HasDistance	6 miles
+6	no traffic	IsTrafficOf	Trader Joes
+6	6 miles	IsDistanceFrom	Trader Joes
+-1	today	IsEqualTo	monday

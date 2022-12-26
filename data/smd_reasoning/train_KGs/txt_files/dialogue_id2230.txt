@@ -1,0 +1,65 @@
+0	Round Table	HasAddress	113 Anton Ct
+0	Round Table	HasType	pizza restaurant
+0	113 Anton Ct	IsAddressOf	Round Table
+0	pizza restaurant	IsTypeOf	Round Table
+0	Round Table	HasTraffic	car collision nearby
+0	Round Table	HasDistance	5 miles
+0	car collision nearby	IsTrafficOf	Round Table
+0	5 miles	IsDistanceFrom	Round Table
+1	jills house	HasAddress	347 Alta Mesa Ave
+1	jills house	HasType	friends house
+1	347 Alta Mesa Ave	IsAddressOf	jills house
+1	friends house	IsTypeOf	jills house
+1	jills house	HasTraffic	no traffic
+1	jills house	HasDistance	2 miles
+1	no traffic	IsTrafficOf	jills house
+1	2 miles	IsDistanceFrom	jills house
+2	Town and Country	HasAddress	383 University Ave
+2	Town and Country	HasType	shopping center
+2	383 University Ave	IsAddressOf	Town and Country
+2	shopping center	IsTypeOf	Town and Country
+2	Town and Country	HasTraffic	heavy traffic
+2	Town and Country	HasDistance	2 miles
+2	heavy traffic	IsTrafficOf	Town and Country
+2	2 miles	IsDistanceFrom	Town and Country
+3	Travelers Lodge	HasAddress	333 Arbol Dr
+3	Travelers Lodge	HasType	rest stop
+3	333 Arbol Dr	IsAddressOf	Travelers Lodge
+3	rest stop	IsTypeOf	Travelers Lodge
+3	Travelers Lodge	HasTraffic	moderate traffic
+3	Travelers Lodge	HasDistance	6 miles
+3	moderate traffic	IsTrafficOf	Travelers Lodge
+3	6 miles	IsDistanceFrom	Travelers Lodge
+4	jacks house	HasAddress	864 Almanor Ln
+4	jacks house	HasType	friends house
+4	864 Almanor Ln	IsAddressOf	jacks house
+4	friends house	IsTypeOf	jacks house
+4	jacks house	HasTraffic	no traffic
+4	jacks house	HasDistance	2 miles
+4	no traffic	IsTrafficOf	jacks house
+4	2 miles	IsDistanceFrom	jacks house
+5	Papa Johns	HasAddress	110 Arastradero Rd
+5	Papa Johns	HasType	pizza restaurant
+5	110 Arastradero Rd	IsAddressOf	Papa Johns
+5	pizza restaurant	IsTypeOf	Papa Johns
+5	Papa Johns	HasTraffic	no traffic
+5	Papa Johns	HasDistance	3 miles
+5	no traffic	IsTrafficOf	Papa Johns
+5	3 miles	IsDistanceFrom	Papa Johns
+6	Teavana	HasAddress	145 Amherst St
+6	Teavana	HasType	coffee or tea place
+6	145 Amherst St	IsAddressOf	Teavana
+6	coffee or tea place	IsTypeOf	Teavana
+6	Teavana	HasTraffic	road block nearby
+6	Teavana	HasDistance	1 miles
+6	road block nearby	IsTrafficOf	Teavana
+6	1 miles	IsDistanceFrom	Teavana
+7	Chevron	HasAddress	783 Arcadia Pl
+7	Chevron	HasType	gas station
+7	783 Arcadia Pl	IsAddressOf	Chevron
+7	gas station	IsTypeOf	Chevron
+7	Chevron	HasTraffic	heavy traffic
+7	Chevron	HasDistance	6 miles
+7	heavy traffic	IsTrafficOf	Chevron
+7	6 miles	IsDistanceFrom	Chevron
+-1	today	IsEqualTo	monday

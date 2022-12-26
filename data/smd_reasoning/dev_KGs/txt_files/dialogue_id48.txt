@@ -1,0 +1,57 @@
+0	Round Table	HasAddress	113 Anton Ct
+0	Round Table	HasType	pizza restaurant
+0	113 Anton Ct	IsAddressOf	Round Table
+0	pizza restaurant	IsTypeOf	Round Table
+0	Round Table	HasTraffic	heavy traffic
+0	Round Table	HasDistance	2 miles
+0	heavy traffic	IsTrafficOf	Round Table
+0	2 miles	IsDistanceFrom	Round Table
+1	Mandarin Roots	HasAddress	271 Springer Street
+1	Mandarin Roots	HasType	chinese restaurant
+1	271 Springer Street	IsAddressOf	Mandarin Roots
+1	chinese restaurant	IsTypeOf	Mandarin Roots
+1	Mandarin Roots	HasTraffic	moderate traffic
+1	Mandarin Roots	HasDistance	4 miles
+1	moderate traffic	IsTrafficOf	Mandarin Roots
+1	4 miles	IsDistanceFrom	Mandarin Roots
+2	Four Seasons	HasAddress	465 Arcadia Pl
+2	Four Seasons	HasType	rest stop
+2	465 Arcadia Pl	IsAddressOf	Four Seasons
+2	rest stop	IsTypeOf	Four Seasons
+2	Four Seasons	HasTraffic	heavy traffic
+2	Four Seasons	HasDistance	3 miles
+2	heavy traffic	IsTrafficOf	Four Seasons
+2	3 miles	IsDistanceFrom	Four Seasons
+3	home	HasAddress	5671 barringer street
+3	home	HasType	home
+3	5671 barringer street	IsAddressOf	home
+3	home	IsTypeOf	home
+3	home	HasTraffic	heavy traffic
+3	home	HasDistance	4 miles
+3	heavy traffic	IsTrafficOf	home
+3	4 miles	IsDistanceFrom	home
+4	Stanford Oval Parking	HasAddress	610 Amarillo Ave
+4	Stanford Oval Parking	HasType	parking garage
+4	610 Amarillo Ave	IsAddressOf	Stanford Oval Parking
+4	parking garage	IsTypeOf	Stanford Oval Parking
+4	Stanford Oval Parking	HasTraffic	no traffic
+4	Stanford Oval Parking	HasDistance	5 miles
+4	no traffic	IsTrafficOf	Stanford Oval Parking
+4	5 miles	IsDistanceFrom	Stanford Oval Parking
+5	Stanford Shopping Center	HasAddress	773 Alger Dr
+5	Stanford Shopping Center	HasType	shopping center
+5	773 Alger Dr	IsAddressOf	Stanford Shopping Center
+5	shopping center	IsTypeOf	Stanford Shopping Center
+5	Stanford Shopping Center	HasTraffic	moderate traffic
+5	Stanford Shopping Center	HasDistance	2 miles
+5	moderate traffic	IsTrafficOf	Stanford Shopping Center
+5	2 miles	IsDistanceFrom	Stanford Shopping Center
+6	Civic Center Garage	HasAddress	270 Altaire Walk
+6	Civic Center Garage	HasType	parking garage
+6	270 Altaire Walk	IsAddressOf	Civic Center Garage
+6	parking garage	IsTypeOf	Civic Center Garage
+6	Civic Center Garage	HasTraffic	no traffic
+6	Civic Center Garage	HasDistance	4 miles
+6	no traffic	IsTrafficOf	Civic Center Garage
+6	4 miles	IsDistanceFrom	Civic Center Garage
+-1	today	IsEqualTo	monday

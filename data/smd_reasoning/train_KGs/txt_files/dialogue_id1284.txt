@@ -1,0 +1,65 @@
+0	Dominos	HasAddress	776 Arastradero Rd
+0	Dominos	HasType	pizza restaurant
+0	776 Arastradero Rd	IsAddressOf	Dominos
+0	pizza restaurant	IsTypeOf	Dominos
+0	Dominos	HasTraffic	heavy traffic
+0	Dominos	HasDistance	4 miles
+0	heavy traffic	IsTrafficOf	Dominos
+0	4 miles	IsDistanceFrom	Dominos
+1	Four Seasons	HasAddress	465 Arcadia Pl
+1	Four Seasons	HasType	rest stop
+1	465 Arcadia Pl	IsAddressOf	Four Seasons
+1	rest stop	IsTypeOf	Four Seasons
+1	Four Seasons	HasTraffic	no traffic
+1	Four Seasons	HasDistance	4 miles
+1	no traffic	IsTrafficOf	Four Seasons
+1	4 miles	IsDistanceFrom	Four Seasons
+2	jacks house	HasAddress	864 Almanor Ln
+2	jacks house	HasType	friends house
+2	864 Almanor Ln	IsAddressOf	jacks house
+2	friends house	IsTypeOf	jacks house
+2	jacks house	HasTraffic	car collision nearby
+2	jacks house	HasDistance	5 miles
+2	car collision nearby	IsTrafficOf	jacks house
+2	5 miles	IsDistanceFrom	jacks house
+3	Comfort Inn	HasAddress	753 University Ave
+3	Comfort Inn	HasType	rest stop
+3	753 University Ave	IsAddressOf	Comfort Inn
+3	rest stop	IsTypeOf	Comfort Inn
+3	Comfort Inn	HasTraffic	road block nearby
+3	Comfort Inn	HasDistance	6 miles
+3	road block nearby	IsTrafficOf	Comfort Inn
+3	6 miles	IsDistanceFrom	Comfort Inn
+4	P.F. Changs	HasAddress	669 El Camino Real
+4	P.F. Changs	HasType	chinese restaurant
+4	669 El Camino Real	IsAddressOf	P.F. Changs
+4	chinese restaurant	IsTypeOf	P.F. Changs
+4	P.F. Changs	HasTraffic	road block nearby
+4	P.F. Changs	HasDistance	6 miles
+4	road block nearby	IsTrafficOf	P.F. Changs
+4	6 miles	IsDistanceFrom	P.F. Changs
+5	Philz	HasAddress	583 Alester Ave
+5	Philz	HasType	coffee or tea place
+5	583 Alester Ave	IsAddressOf	Philz
+5	coffee or tea place	IsTypeOf	Philz
+5	Philz	HasTraffic	road block nearby
+5	Philz	HasDistance	3 miles
+5	road block nearby	IsTrafficOf	Philz
+5	3 miles	IsDistanceFrom	Philz
+6	Midtown Shopping Center	HasAddress	338 Alester Ave
+6	Midtown Shopping Center	HasType	shopping center
+6	338 Alester Ave	IsAddressOf	Midtown Shopping Center
+6	shopping center	IsTypeOf	Midtown Shopping Center
+6	Midtown Shopping Center	HasTraffic	moderate traffic
+6	Midtown Shopping Center	HasDistance	1 miles
+6	moderate traffic	IsTrafficOf	Midtown Shopping Center
+6	1 miles	IsDistanceFrom	Midtown Shopping Center
+7	5672 barringer street	HasAddress	5672 barringer street
+7	5672 barringer street	HasType	certain address
+7	5672 barringer street	IsAddressOf	5672 barringer street
+7	certain address	IsTypeOf	5672 barringer street
+7	5672 barringer street	HasTraffic	road block nearby
+7	5672 barringer street	HasDistance	4 miles
+7	road block nearby	IsTrafficOf	5672 barringer street
+7	4 miles	IsDistanceFrom	5672 barringer street
+-1	today	IsEqualTo	monday

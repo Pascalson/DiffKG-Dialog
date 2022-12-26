@@ -1,0 +1,57 @@
+0	Philz	HasAddress	583 Alester Ave
+0	Philz	HasType	coffee or tea place
+0	583 Alester Ave	IsAddressOf	Philz
+0	coffee or tea place	IsTypeOf	Philz
+0	Philz	HasTraffic	moderate traffic
+0	Philz	HasDistance	2 miles
+0	moderate traffic	IsTrafficOf	Philz
+0	2 miles	IsDistanceFrom	Philz
+1	Cafe Venetia	HasAddress	269 Alger Dr
+1	Cafe Venetia	HasType	coffee or tea place
+1	269 Alger Dr	IsAddressOf	Cafe Venetia
+1	coffee or tea place	IsTypeOf	Cafe Venetia
+1	Cafe Venetia	HasTraffic	moderate traffic
+1	Cafe Venetia	HasDistance	5 miles
+1	moderate traffic	IsTrafficOf	Cafe Venetia
+1	5 miles	IsDistanceFrom	Cafe Venetia
+2	Chef Chu's	HasAddress	593 Arrowhead Way
+2	Chef Chu's	HasType	chinese restaurant
+2	593 Arrowhead Way	IsAddressOf	Chef Chu's
+2	chinese restaurant	IsTypeOf	Chef Chu's
+2	Chef Chu's	HasTraffic	moderate traffic
+2	Chef Chu's	HasDistance	5 miles
+2	moderate traffic	IsTrafficOf	Chef Chu's
+2	5 miles	IsDistanceFrom	Chef Chu's
+3	home	HasAddress	5671 barringer street
+3	home	HasType	home
+3	5671 barringer street	IsAddressOf	home
+3	home	IsTypeOf	home
+3	home	HasTraffic	moderate traffic
+3	home	HasDistance	6 miles
+3	moderate traffic	IsTrafficOf	home
+3	6 miles	IsDistanceFrom	home
+4	Pizza My Heart	HasAddress	528 Anton Ct
+4	Pizza My Heart	HasType	pizza restaurant
+4	528 Anton Ct	IsAddressOf	Pizza My Heart
+4	pizza restaurant	IsTypeOf	Pizza My Heart
+4	Pizza My Heart	HasTraffic	moderate traffic
+4	Pizza My Heart	HasDistance	4 miles
+4	moderate traffic	IsTrafficOf	Pizza My Heart
+4	4 miles	IsDistanceFrom	Pizza My Heart
+5	Mandarin Roots	HasAddress	271 Springer Street
+5	Mandarin Roots	HasType	chinese restaurant
+5	271 Springer Street	IsAddressOf	Mandarin Roots
+5	chinese restaurant	IsTypeOf	Mandarin Roots
+5	Mandarin Roots	HasTraffic	no traffic
+5	Mandarin Roots	HasDistance	4 miles
+5	no traffic	IsTrafficOf	Mandarin Roots
+5	4 miles	IsDistanceFrom	Mandarin Roots
+6	Ravenswood Shopping Center	HasAddress	434 Arastradero Rd
+6	Ravenswood Shopping Center	HasType	shopping center
+6	434 Arastradero Rd	IsAddressOf	Ravenswood Shopping Center
+6	shopping center	IsTypeOf	Ravenswood Shopping Center
+6	Ravenswood Shopping Center	HasTraffic	moderate traffic
+6	Ravenswood Shopping Center	HasDistance	3 miles
+6	moderate traffic	IsTrafficOf	Ravenswood Shopping Center
+6	3 miles	IsDistanceFrom	Ravenswood Shopping Center
+-1	today	IsEqualTo	monday

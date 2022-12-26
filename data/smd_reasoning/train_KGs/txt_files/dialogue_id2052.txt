@@ -1,0 +1,57 @@
+0	Ravenswood Shopping Center	HasAddress	434 Arastradero Rd
+0	Ravenswood Shopping Center	HasType	shopping center
+0	434 Arastradero Rd	IsAddressOf	Ravenswood Shopping Center
+0	shopping center	IsTypeOf	Ravenswood Shopping Center
+0	Ravenswood Shopping Center	HasTraffic	heavy traffic
+0	Ravenswood Shopping Center	HasDistance	1 miles
+0	heavy traffic	IsTrafficOf	Ravenswood Shopping Center
+0	1 miles	IsDistanceFrom	Ravenswood Shopping Center
+1	Civic Center Garage	HasAddress	270 Altaire Walk
+1	Civic Center Garage	HasType	parking garage
+1	270 Altaire Walk	IsAddressOf	Civic Center Garage
+1	parking garage	IsTypeOf	Civic Center Garage
+1	Civic Center Garage	HasTraffic	no traffic
+1	Civic Center Garage	HasDistance	5 miles
+1	no traffic	IsTrafficOf	Civic Center Garage
+1	5 miles	IsDistanceFrom	Civic Center Garage
+2	Panda Express	HasAddress	842 Arrowhead Way
+2	Panda Express	HasType	chinese restaurant
+2	842 Arrowhead Way	IsAddressOf	Panda Express
+2	chinese restaurant	IsTypeOf	Panda Express
+2	Panda Express	HasTraffic	heavy traffic
+2	Panda Express	HasDistance	6 miles
+2	heavy traffic	IsTrafficOf	Panda Express
+2	6 miles	IsDistanceFrom	Panda Express
+3	P.F. Changs	HasAddress	669 El Camino Real
+3	P.F. Changs	HasType	chinese restaurant
+3	669 El Camino Real	IsAddressOf	P.F. Changs
+3	chinese restaurant	IsTypeOf	P.F. Changs
+3	P.F. Changs	HasTraffic	heavy traffic
+3	P.F. Changs	HasDistance	6 miles
+3	heavy traffic	IsTrafficOf	P.F. Changs
+3	6 miles	IsDistanceFrom	P.F. Changs
+4	Starbucks	HasAddress	792 Bedoin Street
+4	Starbucks	HasType	coffee or tea place
+4	792 Bedoin Street	IsAddressOf	Starbucks
+4	coffee or tea place	IsTypeOf	Starbucks
+4	Starbucks	HasTraffic	moderate traffic
+4	Starbucks	HasDistance	1 miles
+4	moderate traffic	IsTrafficOf	Starbucks
+4	1 miles	IsDistanceFrom	Starbucks
+5	Chevron	HasAddress	783 Arcadia Pl
+5	Chevron	HasType	gas station
+5	783 Arcadia Pl	IsAddressOf	Chevron
+5	gas station	IsTypeOf	Chevron
+5	Chevron	HasTraffic	no traffic
+5	Chevron	HasDistance	4 miles
+5	no traffic	IsTrafficOf	Chevron
+5	4 miles	IsDistanceFrom	Chevron
+6	Palo Alto Cafe	HasAddress	436 Alger Dr
+6	Palo Alto Cafe	HasType	coffee or tea place
+6	436 Alger Dr	IsAddressOf	Palo Alto Cafe
+6	coffee or tea place	IsTypeOf	Palo Alto Cafe
+6	Palo Alto Cafe	HasTraffic	heavy traffic
+6	Palo Alto Cafe	HasDistance	3 miles
+6	heavy traffic	IsTrafficOf	Palo Alto Cafe
+6	3 miles	IsDistanceFrom	Palo Alto Cafe
+-1	today	IsEqualTo	monday

@@ -1,0 +1,61 @@
+0	meeting	HasTime	3pm
+0	3pm	IsTimeOf	meeting
+0	meeting	HasDate	tuesday
+0	tuesday	IsDateOf	meeting
+0	meeting	HasParty	HR
+0	HR	IsPartyOf	meeting
+0	meeting	HasRoom	conference room 50
+0	conference room 50	IsRoomOf	meeting
+0	meeting	HasAgenda	sign the NDA
+0	sign the NDA	IsAgendaOf	meeting
+1	meeting	HasTime	11am
+1	11am	IsTimeOf	meeting
+1	meeting	HasDate	the 20th
+1	the 20th	IsDateOf	meeting
+1	meeting	HasParty	executive team
+1	executive team	IsPartyOf	meeting
+1	meeting	HasRoom	conference room 100
+1	conference room 100	IsRoomOf	meeting
+1	meeting	HasAgenda	go over budget
+1	go over budget	IsAgendaOf	meeting
+2	conference	HasTime	5pm
+2	5pm	IsTimeOf	conference
+2	conference	HasDate	thursday
+2	thursday	IsDateOf	conference
+2	conference	HasParty	HR
+2	HR	IsPartyOf	conference
+2	conference	HasRoom	conference room 100
+2	conference room 100	IsRoomOf	conference
+2	conference	HasAgenda	onboard new members
+2	onboard new members	IsAgendaOf	conference
+3	swimming activity	HasTime	9am
+3	9am	IsTimeOf	swimming activity
+3	swimming activity	HasDate	the 2nd
+3	the 2nd	IsDateOf	swimming activity
+3	swimming activity	HasParty	Tom
+3	Tom	IsPartyOf	swimming activity
+4	optometrist appointment	HasTime	4pm
+4	4pm	IsTimeOf	optometrist appointment
+4	optometrist appointment	HasDate	the 4th
+4	the 4th	IsDateOf	optometrist appointment
+4	optometrist appointment	HasParty	Martha
+4	Martha	IsPartyOf	optometrist appointment
+5	taking medicine	HasTime	11am
+5	11am	IsTimeOf	taking medicine
+5	taking medicine	HasDate	the 11th
+5	the 11th	IsDateOf	taking medicine
+5	taking medicine	HasParty	Marie
+5	Marie	IsPartyOf	taking medicine
+6	taking medicine	HasTime	3pm
+6	3pm	IsTimeOf	taking medicine
+6	taking medicine	HasDate	the 3rd
+6	the 3rd	IsDateOf	taking medicine
+6	taking medicine	HasParty	Marie
+6	Marie	IsPartyOf	taking medicine
+7	taking medicine	HasTime	4pm
+7	4pm	IsTimeOf	taking medicine
+7	taking medicine	HasDate	the 4th
+7	the 4th	IsDateOf	taking medicine
+7	taking medicine	HasParty	Tom
+7	Tom	IsPartyOf	taking medicine
+-1	today	IsEqualTo	monday

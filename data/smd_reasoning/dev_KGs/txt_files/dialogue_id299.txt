@@ -1,0 +1,57 @@
+0	Panda Express	HasAddress	842 Arrowhead Way
+0	Panda Express	HasType	chinese restaurant
+0	842 Arrowhead Way	IsAddressOf	Panda Express
+0	chinese restaurant	IsTypeOf	Panda Express
+0	Panda Express	HasTraffic	no traffic
+0	Panda Express	HasDistance	1 miles
+0	no traffic	IsTrafficOf	Panda Express
+0	1 miles	IsDistanceFrom	Panda Express
+1	Pizza Hut	HasAddress	704 El Camino Real
+1	Pizza Hut	HasType	pizza restaurant
+1	704 El Camino Real	IsAddressOf	Pizza Hut
+1	pizza restaurant	IsTypeOf	Pizza Hut
+1	Pizza Hut	HasTraffic	moderate traffic
+1	Pizza Hut	HasDistance	4 miles
+1	moderate traffic	IsTrafficOf	Pizza Hut
+1	4 miles	IsDistanceFrom	Pizza Hut
+2	Ravenswood Shopping Center	HasAddress	434 Arastradero Rd
+2	Ravenswood Shopping Center	HasType	shopping center
+2	434 Arastradero Rd	IsAddressOf	Ravenswood Shopping Center
+2	shopping center	IsTypeOf	Ravenswood Shopping Center
+2	Ravenswood Shopping Center	HasTraffic	heavy traffic
+2	Ravenswood Shopping Center	HasDistance	1 miles
+2	heavy traffic	IsTrafficOf	Ravenswood Shopping Center
+2	1 miles	IsDistanceFrom	Ravenswood Shopping Center
+3	Trader Joes	HasAddress	408 University Ave
+3	Trader Joes	HasType	grocery store
+3	408 University Ave	IsAddressOf	Trader Joes
+3	grocery store	IsTypeOf	Trader Joes
+3	Trader Joes	HasTraffic	no traffic
+3	Trader Joes	HasDistance	3 miles
+3	no traffic	IsTrafficOf	Trader Joes
+3	3 miles	IsDistanceFrom	Trader Joes
+4	Pizza My Heart	HasAddress	528 Anton Ct
+4	Pizza My Heart	HasType	pizza restaurant
+4	528 Anton Ct	IsAddressOf	Pizza My Heart
+4	pizza restaurant	IsTypeOf	Pizza My Heart
+4	Pizza My Heart	HasTraffic	heavy traffic
+4	Pizza My Heart	HasDistance	5 miles
+4	heavy traffic	IsTrafficOf	Pizza My Heart
+4	5 miles	IsDistanceFrom	Pizza My Heart
+5	jills house	HasAddress	347 Alta Mesa Ave
+5	jills house	HasType	friends house
+5	347 Alta Mesa Ave	IsAddressOf	jills house
+5	friends house	IsTypeOf	jills house
+5	jills house	HasTraffic	no traffic
+5	jills house	HasDistance	4 miles
+5	no traffic	IsTrafficOf	jills house
+5	4 miles	IsDistanceFrom	jills house
+6	Palo Alto Garage R	HasAddress	481 Amaranta Ave
+6	Palo Alto Garage R	HasType	parking garage
+6	481 Amaranta Ave	IsAddressOf	Palo Alto Garage R
+6	parking garage	IsTypeOf	Palo Alto Garage R
+6	Palo Alto Garage R	HasTraffic	heavy traffic
+6	Palo Alto Garage R	HasDistance	6 miles
+6	heavy traffic	IsTrafficOf	Palo Alto Garage R
+6	6 miles	IsDistanceFrom	Palo Alto Garage R
+-1	today	IsEqualTo	monday

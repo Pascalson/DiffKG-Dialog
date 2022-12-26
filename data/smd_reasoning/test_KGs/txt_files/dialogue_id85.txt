@@ -1,0 +1,57 @@
+0	Palo Alto Garage R	HasAddress	481 Amaranta Ave
+0	Palo Alto Garage R	HasType	parking garage
+0	481 Amaranta Ave	IsAddressOf	Palo Alto Garage R
+0	parking garage	IsTypeOf	Palo Alto Garage R
+0	Palo Alto Garage R	HasTraffic	heavy traffic
+0	Palo Alto Garage R	HasDistance	1 miles
+0	heavy traffic	IsTrafficOf	Palo Alto Garage R
+0	1 miles	IsDistanceFrom	Palo Alto Garage R
+1	Stanford Express Care	HasAddress	214 El Camino Real
+1	Stanford Express Care	HasType	hospital
+1	214 El Camino Real	IsAddressOf	Stanford Express Care
+1	hospital	IsTypeOf	Stanford Express Care
+1	Stanford Express Care	HasTraffic	no traffic
+1	Stanford Express Care	HasDistance	2 miles
+1	no traffic	IsTrafficOf	Stanford Express Care
+1	2 miles	IsDistanceFrom	Stanford Express Care
+2	home	HasAddress	10 ames street
+2	home	HasType	home
+2	10 ames street	IsAddressOf	home
+2	home	IsTypeOf	home
+2	home	HasTraffic	no traffic
+2	home	HasDistance	1 miles
+2	no traffic	IsTrafficOf	home
+2	1 miles	IsDistanceFrom	home
+3	tai pan	HasAddress	830 Almanor Ln
+3	tai pan	HasType	chinese restaurant
+3	830 Almanor Ln	IsAddressOf	tai pan
+3	chinese restaurant	IsTypeOf	tai pan
+3	tai pan	HasTraffic	heavy traffic
+3	tai pan	HasDistance	1 miles
+3	heavy traffic	IsTrafficOf	tai pan
+3	1 miles	IsDistanceFrom	tai pan
+4	5677 southwest 4th street	HasAddress	5677 southwest 4th street
+4	5677 southwest 4th street	HasType	certain address
+4	5677 southwest 4th street	IsAddressOf	5677 southwest 4th street
+4	certain address	IsTypeOf	5677 southwest 4th street
+4	5677 southwest 4th street	HasTraffic	heavy traffic
+4	5677 southwest 4th street	HasDistance	2 miles
+4	heavy traffic	IsTrafficOf	5677 southwest 4th street
+4	2 miles	IsDistanceFrom	5677 southwest 4th street
+5	Palo Alto Medical Foundation	HasAddress	611 Ames Ave
+5	Palo Alto Medical Foundation	HasType	hospital
+5	611 Ames Ave	IsAddressOf	Palo Alto Medical Foundation
+5	hospital	IsTypeOf	Palo Alto Medical Foundation
+5	Palo Alto Medical Foundation	HasTraffic	moderate traffic
+5	Palo Alto Medical Foundation	HasDistance	6 miles
+5	moderate traffic	IsTrafficOf	Palo Alto Medical Foundation
+5	6 miles	IsDistanceFrom	Palo Alto Medical Foundation
+6	P.F. Changs	HasAddress	669 El Camino Real
+6	P.F. Changs	HasType	chinese restaurant
+6	669 El Camino Real	IsAddressOf	P.F. Changs
+6	chinese restaurant	IsTypeOf	P.F. Changs
+6	P.F. Changs	HasTraffic	no traffic
+6	P.F. Changs	HasDistance	4 miles
+6	no traffic	IsTrafficOf	P.F. Changs
+6	4 miles	IsDistanceFrom	P.F. Changs
+-1	today	IsEqualTo	monday

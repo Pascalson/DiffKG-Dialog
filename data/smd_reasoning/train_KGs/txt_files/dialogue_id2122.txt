@@ -1,0 +1,57 @@
+0	The Clement Hotel	HasAddress	657 Ames Ave
+0	The Clement Hotel	HasType	rest stop
+0	657 Ames Ave	IsAddressOf	The Clement Hotel
+0	rest stop	IsTypeOf	The Clement Hotel
+0	The Clement Hotel	HasTraffic	no traffic
+0	The Clement Hotel	HasDistance	3 miles
+0	no traffic	IsTrafficOf	The Clement Hotel
+0	3 miles	IsDistanceFrom	The Clement Hotel
+1	Stanford Express Care	HasAddress	214 El Camino Real
+1	Stanford Express Care	HasType	hospital
+1	214 El Camino Real	IsAddressOf	Stanford Express Care
+1	hospital	IsTypeOf	Stanford Express Care
+1	Stanford Express Care	HasTraffic	moderate traffic
+1	Stanford Express Care	HasDistance	2 miles
+1	moderate traffic	IsTrafficOf	Stanford Express Care
+1	2 miles	IsDistanceFrom	Stanford Express Care
+2	Chevron	HasAddress	783 Arcadia Pl
+2	Chevron	HasType	gas station
+2	783 Arcadia Pl	IsAddressOf	Chevron
+2	gas station	IsTypeOf	Chevron
+2	Chevron	HasTraffic	heavy traffic
+2	Chevron	HasDistance	2 miles
+2	heavy traffic	IsTrafficOf	Chevron
+2	2 miles	IsDistanceFrom	Chevron
+3	Cafe Venetia	HasAddress	269 Alger Dr
+3	Cafe Venetia	HasType	coffee or tea place
+3	269 Alger Dr	IsAddressOf	Cafe Venetia
+3	coffee or tea place	IsTypeOf	Cafe Venetia
+3	Cafe Venetia	HasTraffic	no traffic
+3	Cafe Venetia	HasDistance	1 miles
+3	no traffic	IsTrafficOf	Cafe Venetia
+3	1 miles	IsDistanceFrom	Cafe Venetia
+4	Chef Chu's	HasAddress	593 Arrowhead Way
+4	Chef Chu's	HasType	chinese restaurant
+4	593 Arrowhead Way	IsAddressOf	Chef Chu's
+4	chinese restaurant	IsTypeOf	Chef Chu's
+4	Chef Chu's	HasTraffic	moderate traffic
+4	Chef Chu's	HasDistance	6 miles
+4	moderate traffic	IsTrafficOf	Chef Chu's
+4	6 miles	IsDistanceFrom	Chef Chu's
+5	Pizza Hut	HasAddress	704 El Camino Real
+5	Pizza Hut	HasType	pizza restaurant
+5	704 El Camino Real	IsAddressOf	Pizza Hut
+5	pizza restaurant	IsTypeOf	Pizza Hut
+5	Pizza Hut	HasTraffic	moderate traffic
+5	Pizza Hut	HasDistance	5 miles
+5	moderate traffic	IsTrafficOf	Pizza Hut
+5	5 miles	IsDistanceFrom	Pizza Hut
+6	Town and Country	HasAddress	383 University Ave
+6	Town and Country	HasType	shopping center
+6	383 University Ave	IsAddressOf	Town and Country
+6	shopping center	IsTypeOf	Town and Country
+6	Town and Country	HasTraffic	moderate traffic
+6	Town and Country	HasDistance	1 miles
+6	moderate traffic	IsTrafficOf	Town and Country
+6	1 miles	IsDistanceFrom	Town and Country
+-1	today	IsEqualTo	monday

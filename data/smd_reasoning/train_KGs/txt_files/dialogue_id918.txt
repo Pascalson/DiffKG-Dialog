@@ -1,0 +1,57 @@
+0	Comfort Inn	HasAddress	753 University Ave
+0	Comfort Inn	HasType	rest stop
+0	753 University Ave	IsAddressOf	Comfort Inn
+0	rest stop	IsTypeOf	Comfort Inn
+0	Comfort Inn	HasTraffic	moderate traffic
+0	Comfort Inn	HasDistance	3 miles
+0	moderate traffic	IsTrafficOf	Comfort Inn
+0	3 miles	IsDistanceFrom	Comfort Inn
+1	Town and Country	HasAddress	383 University Ave
+1	Town and Country	HasType	shopping center
+1	383 University Ave	IsAddressOf	Town and Country
+1	shopping center	IsTypeOf	Town and Country
+1	Town and Country	HasTraffic	no traffic
+1	Town and Country	HasDistance	3 miles
+1	no traffic	IsTrafficOf	Town and Country
+1	3 miles	IsDistanceFrom	Town and Country
+2	Pizza My Heart	HasAddress	528 Anton Ct
+2	Pizza My Heart	HasType	pizza restaurant
+2	528 Anton Ct	IsAddressOf	Pizza My Heart
+2	pizza restaurant	IsTypeOf	Pizza My Heart
+2	Pizza My Heart	HasTraffic	no traffic
+2	Pizza My Heart	HasDistance	5 miles
+2	no traffic	IsTrafficOf	Pizza My Heart
+2	5 miles	IsDistanceFrom	Pizza My Heart
+3	Ravenswood Shopping Center	HasAddress	434 Arastradero Rd
+3	Ravenswood Shopping Center	HasType	shopping center
+3	434 Arastradero Rd	IsAddressOf	Ravenswood Shopping Center
+3	shopping center	IsTypeOf	Ravenswood Shopping Center
+3	Ravenswood Shopping Center	HasTraffic	no traffic
+3	Ravenswood Shopping Center	HasDistance	6 miles
+3	no traffic	IsTrafficOf	Ravenswood Shopping Center
+3	6 miles	IsDistanceFrom	Ravenswood Shopping Center
+4	Sigona Farmers Market	HasAddress	638 Amherst St
+4	Sigona Farmers Market	HasType	grocery store
+4	638 Amherst St	IsAddressOf	Sigona Farmers Market
+4	grocery store	IsTypeOf	Sigona Farmers Market
+4	Sigona Farmers Market	HasTraffic	heavy traffic
+4	Sigona Farmers Market	HasDistance	2 miles
+4	heavy traffic	IsTrafficOf	Sigona Farmers Market
+4	2 miles	IsDistanceFrom	Sigona Farmers Market
+5	Palo Alto Cafe	HasAddress	436 Alger Dr
+5	Palo Alto Cafe	HasType	coffee or tea place
+5	436 Alger Dr	IsAddressOf	Palo Alto Cafe
+5	coffee or tea place	IsTypeOf	Palo Alto Cafe
+5	Palo Alto Cafe	HasTraffic	heavy traffic
+5	Palo Alto Cafe	HasDistance	1 miles
+5	heavy traffic	IsTrafficOf	Palo Alto Cafe
+5	1 miles	IsDistanceFrom	Palo Alto Cafe
+6	Four Seasons	HasAddress	465 Arcadia Pl
+6	Four Seasons	HasType	rest stop
+6	465 Arcadia Pl	IsAddressOf	Four Seasons
+6	rest stop	IsTypeOf	Four Seasons
+6	Four Seasons	HasTraffic	no traffic
+6	Four Seasons	HasDistance	6 miles
+6	no traffic	IsTrafficOf	Four Seasons
+6	6 miles	IsDistanceFrom	Four Seasons
+-1	today	IsEqualTo	monday

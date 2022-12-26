@@ -1,0 +1,57 @@
+0	Town and Country	HasAddress	383 University Ave
+0	Town and Country	HasType	shopping center
+0	383 University Ave	IsAddressOf	Town and Country
+0	shopping center	IsTypeOf	Town and Country
+0	Town and Country	HasTraffic	no traffic
+0	Town and Country	HasDistance	1 miles
+0	no traffic	IsTrafficOf	Town and Country
+0	1 miles	IsDistanceFrom	Town and Country
+1	Hotel Keen	HasAddress	578 Arbol Dr
+1	Hotel Keen	HasType	rest stop
+1	578 Arbol Dr	IsAddressOf	Hotel Keen
+1	rest stop	IsTypeOf	Hotel Keen
+1	Hotel Keen	HasTraffic	no traffic
+1	Hotel Keen	HasDistance	2 miles
+1	no traffic	IsTrafficOf	Hotel Keen
+1	2 miles	IsDistanceFrom	Hotel Keen
+2	Ravenswood Shopping Center	HasAddress	434 Arastradero Rd
+2	Ravenswood Shopping Center	HasType	shopping center
+2	434 Arastradero Rd	IsAddressOf	Ravenswood Shopping Center
+2	shopping center	IsTypeOf	Ravenswood Shopping Center
+2	Ravenswood Shopping Center	HasTraffic	no traffic
+2	Ravenswood Shopping Center	HasDistance	6 miles
+2	no traffic	IsTrafficOf	Ravenswood Shopping Center
+2	6 miles	IsDistanceFrom	Ravenswood Shopping Center
+3	Pizza My Heart	HasAddress	528 Anton Ct
+3	Pizza My Heart	HasType	pizza restaurant
+3	528 Anton Ct	IsAddressOf	Pizza My Heart
+3	pizza restaurant	IsTypeOf	Pizza My Heart
+3	Pizza My Heart	HasTraffic	no traffic
+3	Pizza My Heart	HasDistance	5 miles
+3	no traffic	IsTrafficOf	Pizza My Heart
+3	5 miles	IsDistanceFrom	Pizza My Heart
+4	home	HasAddress	56 cadwell street
+4	home	HasType	home
+4	56 cadwell street	IsAddressOf	home
+4	home	IsTypeOf	home
+4	home	HasTraffic	moderate traffic
+4	home	HasDistance	2 miles
+4	moderate traffic	IsTrafficOf	home
+4	2 miles	IsDistanceFrom	home
+5	5677 springer street	HasAddress	5677 springer street
+5	5677 springer street	HasType	certain address
+5	5677 springer street	IsAddressOf	5677 springer street
+5	certain address	IsTypeOf	5677 springer street
+5	5677 springer street	HasTraffic	no traffic
+5	5677 springer street	HasDistance	2 miles
+5	no traffic	IsTrafficOf	5677 springer street
+5	2 miles	IsDistanceFrom	5677 springer street
+6	Sigona Farmers Market	HasAddress	638 Amherst St
+6	Sigona Farmers Market	HasType	grocery store
+6	638 Amherst St	IsAddressOf	Sigona Farmers Market
+6	grocery store	IsTypeOf	Sigona Farmers Market
+6	Sigona Farmers Market	HasTraffic	no traffic
+6	Sigona Farmers Market	HasDistance	3 miles
+6	no traffic	IsTrafficOf	Sigona Farmers Market
+6	3 miles	IsDistanceFrom	Sigona Farmers Market
+-1	today	IsEqualTo	monday

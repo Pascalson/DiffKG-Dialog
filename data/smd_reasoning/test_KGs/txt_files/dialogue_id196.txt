@@ -1,0 +1,65 @@
+0	Teavana	HasAddress	145 Amherst St
+0	Teavana	HasType	coffee or tea place
+0	145 Amherst St	IsAddressOf	Teavana
+0	coffee or tea place	IsTypeOf	Teavana
+0	Teavana	HasTraffic	heavy traffic
+0	Teavana	HasDistance	1 miles
+0	heavy traffic	IsTrafficOf	Teavana
+0	1 miles	IsDistanceFrom	Teavana
+1	Philz	HasAddress	583 Alester Ave
+1	Philz	HasType	coffee or tea place
+1	583 Alester Ave	IsAddressOf	Philz
+1	coffee or tea place	IsTypeOf	Philz
+1	Philz	HasTraffic	no traffic
+1	Philz	HasDistance	5 miles
+1	no traffic	IsTrafficOf	Philz
+1	5 miles	IsDistanceFrom	Philz
+2	Comfort Inn	HasAddress	753 University Ave
+2	Comfort Inn	HasType	rest stop
+2	753 University Ave	IsAddressOf	Comfort Inn
+2	rest stop	IsTypeOf	Comfort Inn
+2	Comfort Inn	HasTraffic	car collision nearby
+2	Comfort Inn	HasDistance	5 miles
+2	car collision nearby	IsTrafficOf	Comfort Inn
+2	5 miles	IsDistanceFrom	Comfort Inn
+3	The Westin	HasAddress	329 El Camino Real
+3	The Westin	HasType	rest stop
+3	329 El Camino Real	IsAddressOf	The Westin
+3	rest stop	IsTypeOf	The Westin
+3	The Westin	HasTraffic	road block nearby
+3	The Westin	HasDistance	1 miles
+3	road block nearby	IsTrafficOf	The Westin
+3	1 miles	IsDistanceFrom	The Westin
+4	5677 springer street	HasAddress	5677 springer street
+4	5677 springer street	HasType	certain address
+4	5677 springer street	IsAddressOf	5677 springer street
+4	certain address	IsTypeOf	5677 springer street
+4	5677 springer street	HasTraffic	no traffic
+4	5677 springer street	HasDistance	3 miles
+4	no traffic	IsTrafficOf	5677 springer street
+4	3 miles	IsDistanceFrom	5677 springer street
+5	Travelers Lodge	HasAddress	333 Arbol Dr
+5	Travelers Lodge	HasType	rest stop
+5	333 Arbol Dr	IsAddressOf	Travelers Lodge
+5	rest stop	IsTypeOf	Travelers Lodge
+5	Travelers Lodge	HasTraffic	no traffic
+5	Travelers Lodge	HasDistance	1 miles
+5	no traffic	IsTrafficOf	Travelers Lodge
+5	1 miles	IsDistanceFrom	Travelers Lodge
+6	Stanford Childrens Health	HasAddress	899 Ames Ct
+6	Stanford Childrens Health	HasType	hospital
+6	899 Ames Ct	IsAddressOf	Stanford Childrens Health
+6	hospital	IsTypeOf	Stanford Childrens Health
+6	Stanford Childrens Health	HasTraffic	moderate traffic
+6	Stanford Childrens Health	HasDistance	3 miles
+6	moderate traffic	IsTrafficOf	Stanford Childrens Health
+6	3 miles	IsDistanceFrom	Stanford Childrens Health
+7	home	HasAddress	5671 barringer street
+7	home	HasType	home
+7	5671 barringer street	IsAddressOf	home
+7	home	IsTypeOf	home
+7	home	HasTraffic	moderate traffic
+7	home	HasDistance	1 miles
+7	moderate traffic	IsTrafficOf	home
+7	1 miles	IsDistanceFrom	home
+-1	today	IsEqualTo	monday

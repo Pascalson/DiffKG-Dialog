@@ -1,0 +1,57 @@
+0	Round Table	HasAddress	113 Anton Ct
+0	Round Table	HasType	pizza restaurant
+0	113 Anton Ct	IsAddressOf	Round Table
+0	pizza restaurant	IsTypeOf	Round Table
+0	Round Table	HasTraffic	no traffic
+0	Round Table	HasDistance	1 miles
+0	no traffic	IsTrafficOf	Round Table
+0	1 miles	IsDistanceFrom	Round Table
+1	Pizza Chicago	HasAddress	915 Arbol Dr
+1	Pizza Chicago	HasType	pizza restaurant
+1	915 Arbol Dr	IsAddressOf	Pizza Chicago
+1	pizza restaurant	IsTypeOf	Pizza Chicago
+1	Pizza Chicago	HasTraffic	heavy traffic
+1	Pizza Chicago	HasDistance	4 miles
+1	heavy traffic	IsTrafficOf	Pizza Chicago
+1	4 miles	IsDistanceFrom	Pizza Chicago
+2	Hotel Keen	HasAddress	578 Arbol Dr
+2	Hotel Keen	HasType	rest stop
+2	578 Arbol Dr	IsAddressOf	Hotel Keen
+2	rest stop	IsTypeOf	Hotel Keen
+2	Hotel Keen	HasTraffic	no traffic
+2	Hotel Keen	HasDistance	5 miles
+2	no traffic	IsTrafficOf	Hotel Keen
+2	5 miles	IsDistanceFrom	Hotel Keen
+3	Chevron	HasAddress	783 Arcadia Pl
+3	Chevron	HasType	gas station
+3	783 Arcadia Pl	IsAddressOf	Chevron
+3	gas station	IsTypeOf	Chevron
+3	Chevron	HasTraffic	moderate traffic
+3	Chevron	HasDistance	5 miles
+3	moderate traffic	IsTrafficOf	Chevron
+3	5 miles	IsDistanceFrom	Chevron
+4	Civic Center Garage	HasAddress	270 Altaire Walk
+4	Civic Center Garage	HasType	parking garage
+4	270 Altaire Walk	IsAddressOf	Civic Center Garage
+4	parking garage	IsTypeOf	Civic Center Garage
+4	Civic Center Garage	HasTraffic	no traffic
+4	Civic Center Garage	HasDistance	4 miles
+4	no traffic	IsTrafficOf	Civic Center Garage
+4	4 miles	IsDistanceFrom	Civic Center Garage
+5	Mandarin Roots	HasAddress	271 Springer Street
+5	Mandarin Roots	HasType	chinese restaurant
+5	271 Springer Street	IsAddressOf	Mandarin Roots
+5	chinese restaurant	IsTypeOf	Mandarin Roots
+5	Mandarin Roots	HasTraffic	heavy traffic
+5	Mandarin Roots	HasDistance	6 miles
+5	heavy traffic	IsTrafficOf	Mandarin Roots
+5	6 miles	IsDistanceFrom	Mandarin Roots
+6	Philz	HasAddress	583 Alester Ave
+6	Philz	HasType	coffee or tea place
+6	583 Alester Ave	IsAddressOf	Philz
+6	coffee or tea place	IsTypeOf	Philz
+6	Philz	HasTraffic	heavy traffic
+6	Philz	HasDistance	3 miles
+6	heavy traffic	IsTrafficOf	Philz
+6	3 miles	IsDistanceFrom	Philz
+-1	today	IsEqualTo	monday

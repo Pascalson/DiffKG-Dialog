@@ -1,0 +1,57 @@
+0	Pizza Hut	HasAddress	704 El Camino Real
+0	Pizza Hut	HasType	pizza restaurant
+0	704 El Camino Real	IsAddressOf	Pizza Hut
+0	pizza restaurant	IsTypeOf	Pizza Hut
+0	Pizza Hut	HasTraffic	no traffic
+0	Pizza Hut	HasDistance	2 miles
+0	no traffic	IsTrafficOf	Pizza Hut
+0	2 miles	IsDistanceFrom	Pizza Hut
+1	Stanford Shopping Center	HasAddress	773 Alger Dr
+1	Stanford Shopping Center	HasType	shopping center
+1	773 Alger Dr	IsAddressOf	Stanford Shopping Center
+1	shopping center	IsTypeOf	Stanford Shopping Center
+1	Stanford Shopping Center	HasTraffic	heavy traffic
+1	Stanford Shopping Center	HasDistance	2 miles
+1	heavy traffic	IsTrafficOf	Stanford Shopping Center
+1	2 miles	IsDistanceFrom	Stanford Shopping Center
+2	Stanford Express Care	HasAddress	214 El Camino Real
+2	Stanford Express Care	HasType	hospital
+2	214 El Camino Real	IsAddressOf	Stanford Express Care
+2	hospital	IsTypeOf	Stanford Express Care
+2	Stanford Express Care	HasTraffic	heavy traffic
+2	Stanford Express Care	HasDistance	6 miles
+2	heavy traffic	IsTrafficOf	Stanford Express Care
+2	6 miles	IsDistanceFrom	Stanford Express Care
+3	Comfort Inn	HasAddress	753 University Ave
+3	Comfort Inn	HasType	rest stop
+3	753 University Ave	IsAddressOf	Comfort Inn
+3	rest stop	IsTypeOf	Comfort Inn
+3	Comfort Inn	HasTraffic	no traffic
+3	Comfort Inn	HasDistance	4 miles
+3	no traffic	IsTrafficOf	Comfort Inn
+3	4 miles	IsDistanceFrom	Comfort Inn
+4	Chevron	HasAddress	783 Arcadia Pl
+4	Chevron	HasType	gas station
+4	783 Arcadia Pl	IsAddressOf	Chevron
+4	gas station	IsTypeOf	Chevron
+4	Chevron	HasTraffic	moderate traffic
+4	Chevron	HasDistance	5 miles
+4	moderate traffic	IsTrafficOf	Chevron
+4	5 miles	IsDistanceFrom	Chevron
+5	Four Seasons	HasAddress	465 Arcadia Pl
+5	Four Seasons	HasType	rest stop
+5	465 Arcadia Pl	IsAddressOf	Four Seasons
+5	rest stop	IsTypeOf	Four Seasons
+5	Four Seasons	HasTraffic	heavy traffic
+5	Four Seasons	HasDistance	5 miles
+5	heavy traffic	IsTrafficOf	Four Seasons
+5	5 miles	IsDistanceFrom	Four Seasons
+6	Civic Center Garage	HasAddress	270 Altaire Walk
+6	Civic Center Garage	HasType	parking garage
+6	270 Altaire Walk	IsAddressOf	Civic Center Garage
+6	parking garage	IsTypeOf	Civic Center Garage
+6	Civic Center Garage	HasTraffic	moderate traffic
+6	Civic Center Garage	HasDistance	5 miles
+6	moderate traffic	IsTrafficOf	Civic Center Garage
+6	5 miles	IsDistanceFrom	Civic Center Garage
+-1	today	IsEqualTo	monday

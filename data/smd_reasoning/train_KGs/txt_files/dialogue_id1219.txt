@@ -1,0 +1,65 @@
+0	toms house	HasAddress	580 Van Ness Ave
+0	toms house	HasType	friends house
+0	580 Van Ness Ave	IsAddressOf	toms house
+0	friends house	IsTypeOf	toms house
+0	toms house	HasTraffic	road block nearby
+0	toms house	HasDistance	2 miles
+0	road block nearby	IsTrafficOf	toms house
+0	2 miles	IsDistanceFrom	toms house
+1	Round Table	HasAddress	113 Anton Ct
+1	Round Table	HasType	pizza restaurant
+1	113 Anton Ct	IsAddressOf	Round Table
+1	pizza restaurant	IsTypeOf	Round Table
+1	Round Table	HasTraffic	road block nearby
+1	Round Table	HasDistance	4 miles
+1	road block nearby	IsTrafficOf	Round Table
+1	4 miles	IsDistanceFrom	Round Table
+2	Hotel Keen	HasAddress	578 Arbol Dr
+2	Hotel Keen	HasType	rest stop
+2	578 Arbol Dr	IsAddressOf	Hotel Keen
+2	rest stop	IsTypeOf	Hotel Keen
+2	Hotel Keen	HasTraffic	no traffic
+2	Hotel Keen	HasDistance	1 miles
+2	no traffic	IsTrafficOf	Hotel Keen
+2	1 miles	IsDistanceFrom	Hotel Keen
+3	Trader Joes	HasAddress	408 University Ave
+3	Trader Joes	HasType	grocery store
+3	408 University Ave	IsAddressOf	Trader Joes
+3	grocery store	IsTypeOf	Trader Joes
+3	Trader Joes	HasTraffic	car collision nearby
+3	Trader Joes	HasDistance	2 miles
+3	car collision nearby	IsTrafficOf	Trader Joes
+3	2 miles	IsDistanceFrom	Trader Joes
+4	Pizza Hut	HasAddress	704 El Camino Real
+4	Pizza Hut	HasType	pizza restaurant
+4	704 El Camino Real	IsAddressOf	Pizza Hut
+4	pizza restaurant	IsTypeOf	Pizza Hut
+4	Pizza Hut	HasTraffic	car collision nearby
+4	Pizza Hut	HasDistance	5 miles
+4	car collision nearby	IsTrafficOf	Pizza Hut
+4	5 miles	IsDistanceFrom	Pizza Hut
+5	Webster Garage	HasAddress	880 Ames Ct
+5	Webster Garage	HasType	parking garage
+5	880 Ames Ct	IsAddressOf	Webster Garage
+5	parking garage	IsTypeOf	Webster Garage
+5	Webster Garage	HasTraffic	no traffic
+5	Webster Garage	HasDistance	2 miles
+5	no traffic	IsTrafficOf	Webster Garage
+5	2 miles	IsDistanceFrom	Webster Garage
+6	Pizza Chicago	HasAddress	915 Arbol Dr
+6	Pizza Chicago	HasType	pizza restaurant
+6	915 Arbol Dr	IsAddressOf	Pizza Chicago
+6	pizza restaurant	IsTypeOf	Pizza Chicago
+6	Pizza Chicago	HasTraffic	heavy traffic
+6	Pizza Chicago	HasDistance	5 miles
+6	heavy traffic	IsTrafficOf	Pizza Chicago
+6	5 miles	IsDistanceFrom	Pizza Chicago
+7	Midtown Shopping Center	HasAddress	338 Alester Ave
+7	Midtown Shopping Center	HasType	shopping center
+7	338 Alester Ave	IsAddressOf	Midtown Shopping Center
+7	shopping center	IsTypeOf	Midtown Shopping Center
+7	Midtown Shopping Center	HasTraffic	heavy traffic
+7	Midtown Shopping Center	HasDistance	4 miles
+7	heavy traffic	IsTrafficOf	Midtown Shopping Center
+7	4 miles	IsDistanceFrom	Midtown Shopping Center
+-1	today	IsEqualTo	monday

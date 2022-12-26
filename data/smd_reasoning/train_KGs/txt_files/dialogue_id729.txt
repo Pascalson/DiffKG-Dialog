@@ -1,0 +1,57 @@
+0	jills house	HasAddress	347 Alta Mesa Ave
+0	jills house	HasType	friends house
+0	347 Alta Mesa Ave	IsAddressOf	jills house
+0	friends house	IsTypeOf	jills house
+0	jills house	HasTraffic	moderate traffic
+0	jills house	HasDistance	1 miles
+0	moderate traffic	IsTrafficOf	jills house
+0	1 miles	IsDistanceFrom	jills house
+1	5677 southwest 4th street	HasAddress	5677 southwest 4th street
+1	5677 southwest 4th street	HasType	certain address
+1	5677 southwest 4th street	IsAddressOf	5677 southwest 4th street
+1	certain address	IsTypeOf	5677 southwest 4th street
+1	5677 southwest 4th street	HasTraffic	no traffic
+1	5677 southwest 4th street	HasDistance	5 miles
+1	no traffic	IsTrafficOf	5677 southwest 4th street
+1	5 miles	IsDistanceFrom	5677 southwest 4th street
+2	home	HasAddress	10 ames street
+2	home	HasType	home
+2	10 ames street	IsAddressOf	home
+2	home	IsTypeOf	home
+2	home	HasTraffic	moderate traffic
+2	home	HasDistance	6 miles
+2	moderate traffic	IsTrafficOf	home
+2	6 miles	IsDistanceFrom	home
+3	toms house	HasAddress	580 Van Ness Ave
+3	toms house	HasType	friends house
+3	580 Van Ness Ave	IsAddressOf	toms house
+3	friends house	IsTypeOf	toms house
+3	toms house	HasTraffic	moderate traffic
+3	toms house	HasDistance	5 miles
+3	moderate traffic	IsTrafficOf	toms house
+3	5 miles	IsDistanceFrom	toms house
+4	P.F. Changs	HasAddress	669 El Camino Real
+4	P.F. Changs	HasType	chinese restaurant
+4	669 El Camino Real	IsAddressOf	P.F. Changs
+4	chinese restaurant	IsTypeOf	P.F. Changs
+4	P.F. Changs	HasTraffic	no traffic
+4	P.F. Changs	HasDistance	5 miles
+4	no traffic	IsTrafficOf	P.F. Changs
+4	5 miles	IsDistanceFrom	P.F. Changs
+5	Stanford Shopping Center	HasAddress	773 Alger Dr
+5	Stanford Shopping Center	HasType	shopping center
+5	773 Alger Dr	IsAddressOf	Stanford Shopping Center
+5	shopping center	IsTypeOf	Stanford Shopping Center
+5	Stanford Shopping Center	HasTraffic	heavy traffic
+5	Stanford Shopping Center	HasDistance	1 miles
+5	heavy traffic	IsTrafficOf	Stanford Shopping Center
+5	1 miles	IsDistanceFrom	Stanford Shopping Center
+6	Pizza Chicago	HasAddress	915 Arbol Dr
+6	Pizza Chicago	HasType	pizza restaurant
+6	915 Arbol Dr	IsAddressOf	Pizza Chicago
+6	pizza restaurant	IsTypeOf	Pizza Chicago
+6	Pizza Chicago	HasTraffic	heavy traffic
+6	Pizza Chicago	HasDistance	3 miles
+6	heavy traffic	IsTrafficOf	Pizza Chicago
+6	3 miles	IsDistanceFrom	Pizza Chicago
+-1	today	IsEqualTo	monday

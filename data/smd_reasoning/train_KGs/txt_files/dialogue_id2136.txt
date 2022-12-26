@@ -1,0 +1,57 @@
+0	home	HasAddress	5671 barringer street
+0	home	HasType	home
+0	5671 barringer street	IsAddressOf	home
+0	home	IsTypeOf	home
+0	home	HasTraffic	heavy traffic
+0	home	HasDistance	5 miles
+0	heavy traffic	IsTrafficOf	home
+0	5 miles	IsDistanceFrom	home
+1	Mandarin Roots	HasAddress	271 Springer Street
+1	Mandarin Roots	HasType	chinese restaurant
+1	271 Springer Street	IsAddressOf	Mandarin Roots
+1	chinese restaurant	IsTypeOf	Mandarin Roots
+1	Mandarin Roots	HasTraffic	moderate traffic
+1	Mandarin Roots	HasDistance	4 miles
+1	moderate traffic	IsTrafficOf	Mandarin Roots
+1	4 miles	IsDistanceFrom	Mandarin Roots
+2	Stanford Express Care	HasAddress	214 El Camino Real
+2	Stanford Express Care	HasType	hospital
+2	214 El Camino Real	IsAddressOf	Stanford Express Care
+2	hospital	IsTypeOf	Stanford Express Care
+2	Stanford Express Care	HasTraffic	no traffic
+2	Stanford Express Care	HasDistance	3 miles
+2	no traffic	IsTrafficOf	Stanford Express Care
+2	3 miles	IsDistanceFrom	Stanford Express Care
+3	Teavana	HasAddress	145 Amherst St
+3	Teavana	HasType	coffee or tea place
+3	145 Amherst St	IsAddressOf	Teavana
+3	coffee or tea place	IsTypeOf	Teavana
+3	Teavana	HasTraffic	heavy traffic
+3	Teavana	HasDistance	2 miles
+3	heavy traffic	IsTrafficOf	Teavana
+3	2 miles	IsDistanceFrom	Teavana
+4	Palo Alto Garage R	HasAddress	481 Amaranta Ave
+4	Palo Alto Garage R	HasType	parking garage
+4	481 Amaranta Ave	IsAddressOf	Palo Alto Garage R
+4	parking garage	IsTypeOf	Palo Alto Garage R
+4	Palo Alto Garage R	HasTraffic	moderate traffic
+4	Palo Alto Garage R	HasDistance	2 miles
+4	moderate traffic	IsTrafficOf	Palo Alto Garage R
+4	2 miles	IsDistanceFrom	Palo Alto Garage R
+5	Pizza Hut	HasAddress	704 El Camino Real
+5	Pizza Hut	HasType	pizza restaurant
+5	704 El Camino Real	IsAddressOf	Pizza Hut
+5	pizza restaurant	IsTypeOf	Pizza Hut
+5	Pizza Hut	HasTraffic	heavy traffic
+5	Pizza Hut	HasDistance	3 miles
+5	heavy traffic	IsTrafficOf	Pizza Hut
+5	3 miles	IsDistanceFrom	Pizza Hut
+6	jills house	HasAddress	347 Alta Mesa Ave
+6	jills house	HasType	friends house
+6	347 Alta Mesa Ave	IsAddressOf	jills house
+6	friends house	IsTypeOf	jills house
+6	jills house	HasTraffic	heavy traffic
+6	jills house	HasDistance	4 miles
+6	heavy traffic	IsTrafficOf	jills house
+6	4 miles	IsDistanceFrom	jills house
+-1	today	IsEqualTo	monday

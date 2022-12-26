@@ -1,0 +1,57 @@
+0	Chef Chu's	HasAddress	593 Arrowhead Way
+0	Chef Chu's	HasType	chinese restaurant
+0	593 Arrowhead Way	IsAddressOf	Chef Chu's
+0	chinese restaurant	IsTypeOf	Chef Chu's
+0	Chef Chu's	HasTraffic	no traffic
+0	Chef Chu's	HasDistance	2 miles
+0	no traffic	IsTrafficOf	Chef Chu's
+0	2 miles	IsDistanceFrom	Chef Chu's
+1	P.F. Changs	HasAddress	669 El Camino Real
+1	P.F. Changs	HasType	chinese restaurant
+1	669 El Camino Real	IsAddressOf	P.F. Changs
+1	chinese restaurant	IsTypeOf	P.F. Changs
+1	P.F. Changs	HasTraffic	heavy traffic
+1	P.F. Changs	HasDistance	1 miles
+1	heavy traffic	IsTrafficOf	P.F. Changs
+1	1 miles	IsDistanceFrom	P.F. Changs
+2	The Clement Hotel	HasAddress	657 Ames Ave
+2	The Clement Hotel	HasType	rest stop
+2	657 Ames Ave	IsAddressOf	The Clement Hotel
+2	rest stop	IsTypeOf	The Clement Hotel
+2	The Clement Hotel	HasTraffic	heavy traffic
+2	The Clement Hotel	HasDistance	1 miles
+2	heavy traffic	IsTrafficOf	The Clement Hotel
+2	1 miles	IsDistanceFrom	The Clement Hotel
+3	tai pan	HasAddress	830 Almanor Ln
+3	tai pan	HasType	chinese restaurant
+3	830 Almanor Ln	IsAddressOf	tai pan
+3	chinese restaurant	IsTypeOf	tai pan
+3	tai pan	HasTraffic	moderate traffic
+3	tai pan	HasDistance	4 miles
+3	moderate traffic	IsTrafficOf	tai pan
+3	4 miles	IsDistanceFrom	tai pan
+4	Town and Country	HasAddress	383 University Ave
+4	Town and Country	HasType	shopping center
+4	383 University Ave	IsAddressOf	Town and Country
+4	shopping center	IsTypeOf	Town and Country
+4	Town and Country	HasTraffic	heavy traffic
+4	Town and Country	HasDistance	2 miles
+4	heavy traffic	IsTrafficOf	Town and Country
+4	2 miles	IsDistanceFrom	Town and Country
+5	home	HasAddress	5671 barringer street
+5	home	HasType	home
+5	5671 barringer street	IsAddressOf	home
+5	home	IsTypeOf	home
+5	home	HasTraffic	moderate traffic
+5	home	HasDistance	5 miles
+5	moderate traffic	IsTrafficOf	home
+5	5 miles	IsDistanceFrom	home
+6	The Westin	HasAddress	329 El Camino Real
+6	The Westin	HasType	rest stop
+6	329 El Camino Real	IsAddressOf	The Westin
+6	rest stop	IsTypeOf	The Westin
+6	The Westin	HasTraffic	no traffic
+6	The Westin	HasDistance	4 miles
+6	no traffic	IsTrafficOf	The Westin
+6	4 miles	IsDistanceFrom	The Westin
+-1	today	IsEqualTo	monday

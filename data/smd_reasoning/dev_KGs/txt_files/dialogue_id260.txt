@@ -1,0 +1,65 @@
+0	Coupa	HasAddress	394 Van Ness Ave
+0	Coupa	HasType	coffee or tea place
+0	394 Van Ness Ave	IsAddressOf	Coupa
+0	coffee or tea place	IsTypeOf	Coupa
+0	Coupa	HasTraffic	car collision nearby
+0	Coupa	HasDistance	6 miles
+0	car collision nearby	IsTrafficOf	Coupa
+0	6 miles	IsDistanceFrom	Coupa
+1	Teavana	HasAddress	145 Amherst St
+1	Teavana	HasType	coffee or tea place
+1	145 Amherst St	IsAddressOf	Teavana
+1	coffee or tea place	IsTypeOf	Teavana
+1	Teavana	HasTraffic	no traffic
+1	Teavana	HasDistance	4 miles
+1	no traffic	IsTrafficOf	Teavana
+1	4 miles	IsDistanceFrom	Teavana
+2	76	HasAddress	91 El Camino Real
+2	76	HasType	gas station
+2	91 El Camino Real	IsAddressOf	76
+2	gas station	IsTypeOf	76
+2	76	HasTraffic	no traffic
+2	76	HasDistance	3 miles
+2	no traffic	IsTrafficOf	76
+2	3 miles	IsDistanceFrom	76
+3	Jing Jing	HasAddress	113 Arbol Dr
+3	Jing Jing	HasType	chinese restaurant
+3	113 Arbol Dr	IsAddressOf	Jing Jing
+3	chinese restaurant	IsTypeOf	Jing Jing
+3	Jing Jing	HasTraffic	no traffic
+3	Jing Jing	HasDistance	7 miles
+3	no traffic	IsTrafficOf	Jing Jing
+3	7 miles	IsDistanceFrom	Jing Jing
+4	P.F. Changs	HasAddress	669 El Camino Real
+4	P.F. Changs	HasType	chinese restaurant
+4	669 El Camino Real	IsAddressOf	P.F. Changs
+4	chinese restaurant	IsTypeOf	P.F. Changs
+4	P.F. Changs	HasTraffic	moderate traffic
+4	P.F. Changs	HasDistance	3 miles
+4	moderate traffic	IsTrafficOf	P.F. Changs
+4	3 miles	IsDistanceFrom	P.F. Changs
+5	Mandarin Roots	HasAddress	271 Springer Street
+5	Mandarin Roots	HasType	chinese restaurant
+5	271 Springer Street	IsAddressOf	Mandarin Roots
+5	chinese restaurant	IsTypeOf	Mandarin Roots
+5	Mandarin Roots	HasTraffic	road block nearby
+5	Mandarin Roots	HasDistance	1 miles
+5	road block nearby	IsTrafficOf	Mandarin Roots
+5	1 miles	IsDistanceFrom	Mandarin Roots
+6	Panda Express	HasAddress	842 Arrowhead Way
+6	Panda Express	HasType	chinese restaurant
+6	842 Arrowhead Way	IsAddressOf	Panda Express
+6	chinese restaurant	IsTypeOf	Panda Express
+6	Panda Express	HasTraffic	heavy traffic
+6	Panda Express	HasDistance	5 miles
+6	heavy traffic	IsTrafficOf	Panda Express
+6	5 miles	IsDistanceFrom	Panda Express
+7	Safeway	HasAddress	452 Arcadia Pl
+7	Safeway	HasType	grocery store
+7	452 Arcadia Pl	IsAddressOf	Safeway
+7	grocery store	IsTypeOf	Safeway
+7	Safeway	HasTraffic	heavy traffic
+7	Safeway	HasDistance	6 miles
+7	heavy traffic	IsTrafficOf	Safeway
+7	6 miles	IsDistanceFrom	Safeway
+-1	today	IsEqualTo	monday

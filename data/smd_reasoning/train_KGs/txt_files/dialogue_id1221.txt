@@ -1,0 +1,57 @@
+0	Coupa	HasAddress	394 Van Ness Ave
+0	Coupa	HasType	coffee or tea place
+0	394 Van Ness Ave	IsAddressOf	Coupa
+0	coffee or tea place	IsTypeOf	Coupa
+0	Coupa	HasTraffic	moderate traffic
+0	Coupa	HasDistance	6 miles
+0	moderate traffic	IsTrafficOf	Coupa
+0	6 miles	IsDistanceFrom	Coupa
+1	5672 barringer street	HasAddress	5672 barringer street
+1	5672 barringer street	HasType	certain address
+1	5672 barringer street	IsAddressOf	5672 barringer street
+1	certain address	IsTypeOf	5672 barringer street
+1	5672 barringer street	HasTraffic	heavy traffic
+1	5672 barringer street	HasDistance	5 miles
+1	heavy traffic	IsTrafficOf	5672 barringer street
+1	5 miles	IsDistanceFrom	5672 barringer street
+2	Pizza Hut	HasAddress	704 El Camino Real
+2	Pizza Hut	HasType	pizza restaurant
+2	704 El Camino Real	IsAddressOf	Pizza Hut
+2	pizza restaurant	IsTypeOf	Pizza Hut
+2	Pizza Hut	HasTraffic	heavy traffic
+2	Pizza Hut	HasDistance	3 miles
+2	heavy traffic	IsTrafficOf	Pizza Hut
+2	3 miles	IsDistanceFrom	Pizza Hut
+3	jills house	HasAddress	347 Alta Mesa Ave
+3	jills house	HasType	friends house
+3	347 Alta Mesa Ave	IsAddressOf	jills house
+3	friends house	IsTypeOf	jills house
+3	jills house	HasTraffic	heavy traffic
+3	jills house	HasDistance	4 miles
+3	heavy traffic	IsTrafficOf	jills house
+3	4 miles	IsDistanceFrom	jills house
+4	Palo Alto Garage R	HasAddress	481 Amaranta Ave
+4	Palo Alto Garage R	HasType	parking garage
+4	481 Amaranta Ave	IsAddressOf	Palo Alto Garage R
+4	parking garage	IsTypeOf	Palo Alto Garage R
+4	Palo Alto Garage R	HasTraffic	moderate traffic
+4	Palo Alto Garage R	HasDistance	2 miles
+4	moderate traffic	IsTrafficOf	Palo Alto Garage R
+4	2 miles	IsDistanceFrom	Palo Alto Garage R
+5	Whole Foods	HasAddress	819 Alma St
+5	Whole Foods	HasType	grocery store
+5	819 Alma St	IsAddressOf	Whole Foods
+5	grocery store	IsTypeOf	Whole Foods
+5	Whole Foods	HasTraffic	heavy traffic
+5	Whole Foods	HasDistance	2 miles
+5	heavy traffic	IsTrafficOf	Whole Foods
+5	2 miles	IsDistanceFrom	Whole Foods
+6	5677 springer street	HasAddress	5677 springer street
+6	5677 springer street	HasType	certain address
+6	5677 springer street	IsAddressOf	5677 springer street
+6	certain address	IsTypeOf	5677 springer street
+6	5677 springer street	HasTraffic	no traffic
+6	5677 springer street	HasDistance	1 miles
+6	no traffic	IsTrafficOf	5677 springer street
+6	1 miles	IsDistanceFrom	5677 springer street
+-1	today	IsEqualTo	monday

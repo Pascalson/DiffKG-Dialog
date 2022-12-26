@@ -1,0 +1,49 @@
+0	dentist appointment	HasTime	10am
+0	10am	IsTimeOf	dentist appointment
+0	dentist appointment	HasDate	the 1st
+0	the 1st	IsDateOf	dentist appointment
+0	dentist appointment	HasParty	Alex
+0	Alex	IsPartyOf	dentist appointment
+1	football activity	HasTime	1pm
+1	1pm	IsTimeOf	football activity
+1	football activity	HasDate	wednesday
+1	wednesday	IsDateOf	football activity
+1	football activity	HasParty	brother
+1	brother	IsPartyOf	football activity
+2	football activity	HasTime	6pm
+2	6pm	IsTimeOf	football activity
+2	football activity	HasDate	sunday
+2	sunday	IsDateOf	football activity
+2	football activity	HasParty	Alex
+2	Alex	IsPartyOf	football activity
+3	lab appointment	HasTime	11am
+3	11am	IsTimeOf	lab appointment
+3	lab appointment	HasDate	the 1st
+3	the 1st	IsDateOf	lab appointment
+3	lab appointment	HasParty	Tom
+3	Tom	IsPartyOf	lab appointment
+4	doctor appointment	HasTime	5pm
+4	5pm	IsTimeOf	doctor appointment
+4	doctor appointment	HasDate	the 17th
+4	the 17th	IsDateOf	doctor appointment
+4	doctor appointment	HasParty	Alex
+4	Alex	IsPartyOf	doctor appointment
+5	doctor appointment	HasTime	2pm
+5	2pm	IsTimeOf	doctor appointment
+5	doctor appointment	HasDate	the 14th
+5	the 14th	IsDateOf	doctor appointment
+5	doctor appointment	HasParty	brother
+5	brother	IsPartyOf	doctor appointment
+6	lab appointment	HasTime	6pm
+6	6pm	IsTimeOf	lab appointment
+6	lab appointment	HasDate	the 11th
+6	the 11th	IsDateOf	lab appointment
+6	lab appointment	HasParty	mother
+6	mother	IsPartyOf	lab appointment
+7	taking medicine	HasTime	1pm
+7	1pm	IsTimeOf	taking medicine
+7	taking medicine	HasDate	the 8th
+7	the 8th	IsDateOf	taking medicine
+7	taking medicine	HasParty	Martha
+7	Martha	IsPartyOf	taking medicine
+-1	today	IsEqualTo	monday

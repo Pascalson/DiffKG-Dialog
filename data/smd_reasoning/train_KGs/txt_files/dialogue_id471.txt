@@ -1,0 +1,61 @@
+0	doctor appointment	HasTime	9am
+0	9am	IsTimeOf	doctor appointment
+0	doctor appointment	HasDate	the 8th
+0	the 8th	IsDateOf	doctor appointment
+0	doctor appointment	HasParty	father
+0	father	IsPartyOf	doctor appointment
+1	dentist appointment	HasTime	11am
+1	11am	IsTimeOf	dentist appointment
+1	dentist appointment	HasDate	the 8th
+1	the 8th	IsDateOf	dentist appointment
+1	dentist appointment	HasParty	Jon
+1	Jon	IsPartyOf	dentist appointment
+2	conference	HasTime	1pm
+2	1pm	IsTimeOf	conference
+2	conference	HasDate	the 13th
+2	the 13th	IsDateOf	conference
+2	conference	HasParty	management
+2	management	IsPartyOf	conference
+2	conference	HasRoom	conference room 102
+2	conference room 102	IsRoomOf	conference
+2	conference	HasAgenda	go over quarterly report
+2	go over quarterly report	IsAgendaOf	conference
+3	conference	HasTime	5pm
+3	5pm	IsTimeOf	conference
+3	conference	HasDate	tuesday
+3	tuesday	IsDateOf	conference
+3	conference	HasParty	vice president
+3	vice president	IsPartyOf	conference
+3	conference	HasRoom	conference room 102
+3	conference room 102	IsRoomOf	conference
+3	conference	HasAgenda	go over budget
+3	go over budget	IsAgendaOf	conference
+4	conference	HasTime	6pm
+4	6pm	IsTimeOf	conference
+4	conference	HasDate	monday
+4	monday	IsDateOf	conference
+4	conference	HasParty	management
+4	management	IsPartyOf	conference
+4	conference	HasRoom	conference room 100
+4	conference room 100	IsRoomOf	conference
+4	conference	HasAgenda	discuss the merger
+4	discuss the merger	IsAgendaOf	conference
+5	optometrist appointment	HasTime	9am
+5	9am	IsTimeOf	optometrist appointment
+5	optometrist appointment	HasDate	the 4th
+5	the 4th	IsDateOf	optometrist appointment
+5	optometrist appointment	HasParty	brother
+5	brother	IsPartyOf	optometrist appointment
+6	optometrist appointment	HasTime	2pm
+6	2pm	IsTimeOf	optometrist appointment
+6	optometrist appointment	HasDate	tuesday
+6	tuesday	IsDateOf	optometrist appointment
+6	optometrist appointment	HasParty	Alex
+6	Alex	IsPartyOf	optometrist appointment
+7	doctor appointment	HasTime	3pm
+7	3pm	IsTimeOf	doctor appointment
+7	doctor appointment	HasDate	the 5th
+7	the 5th	IsDateOf	doctor appointment
+7	doctor appointment	HasParty	Tom
+7	Tom	IsPartyOf	doctor appointment
+-1	today	IsEqualTo	monday

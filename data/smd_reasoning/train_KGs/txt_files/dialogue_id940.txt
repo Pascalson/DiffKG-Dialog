@@ -1,0 +1,53 @@
+0	football activity	HasTime	2pm
+0	2pm	IsTimeOf	football activity
+0	football activity	HasDate	the 8th
+0	the 8th	IsDateOf	football activity
+0	football activity	HasParty	Marie
+0	Marie	IsPartyOf	football activity
+1	meeting	HasTime	4pm
+1	4pm	IsTimeOf	meeting
+1	meeting	HasDate	the 5th
+1	the 5th	IsDateOf	meeting
+1	meeting	HasParty	management
+1	management	IsPartyOf	meeting
+1	meeting	HasRoom	conference room 50
+1	conference room 50	IsRoomOf	meeting
+1	meeting	HasAgenda	discuss the company picnic
+1	discuss the company picnic	IsAgendaOf	meeting
+2	football activity	HasTime	10am
+2	10am	IsTimeOf	football activity
+2	football activity	HasDate	the 19th
+2	the 19th	IsDateOf	football activity
+2	football activity	HasParty	Alex
+2	Alex	IsPartyOf	football activity
+3	taking medicine	HasTime	6pm
+3	6pm	IsTimeOf	taking medicine
+3	taking medicine	HasDate	monday
+3	monday	IsDateOf	taking medicine
+3	taking medicine	HasParty	Jon
+3	Jon	IsPartyOf	taking medicine
+4	tennis activity	HasTime	3pm
+4	3pm	IsTimeOf	tennis activity
+4	tennis activity	HasDate	the 12th
+4	the 12th	IsDateOf	tennis activity
+4	tennis activity	HasParty	sister
+4	sister	IsPartyOf	tennis activity
+5	lab appointment	HasTime	1pm
+5	1pm	IsTimeOf	lab appointment
+5	lab appointment	HasDate	sunday
+5	sunday	IsDateOf	lab appointment
+5	lab appointment	HasParty	Ana
+5	Ana	IsPartyOf	lab appointment
+6	tennis activity	HasTime	7pm
+6	7pm	IsTimeOf	tennis activity
+6	tennis activity	HasDate	the 12th
+6	the 12th	IsDateOf	tennis activity
+6	tennis activity	HasParty	Alex
+6	Alex	IsPartyOf	tennis activity
+7	taking medicine	HasTime	11am
+7	11am	IsTimeOf	taking medicine
+7	taking medicine	HasDate	friday
+7	friday	IsDateOf	taking medicine
+7	taking medicine	HasParty	father
+7	father	IsPartyOf	taking medicine
+-1	today	IsEqualTo	monday

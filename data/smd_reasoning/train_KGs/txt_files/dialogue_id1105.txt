@@ -1,0 +1,57 @@
+0	Cafe Venetia	HasAddress	269 Alger Dr
+0	Cafe Venetia	HasType	coffee or tea place
+0	269 Alger Dr	IsAddressOf	Cafe Venetia
+0	coffee or tea place	IsTypeOf	Cafe Venetia
+0	Cafe Venetia	HasTraffic	no traffic
+0	Cafe Venetia	HasDistance	2 miles
+0	no traffic	IsTrafficOf	Cafe Venetia
+0	2 miles	IsDistanceFrom	Cafe Venetia
+1	Stanford Oval Parking	HasAddress	610 Amarillo Ave
+1	Stanford Oval Parking	HasType	parking garage
+1	610 Amarillo Ave	IsAddressOf	Stanford Oval Parking
+1	parking garage	IsTypeOf	Stanford Oval Parking
+1	Stanford Oval Parking	HasTraffic	moderate traffic
+1	Stanford Oval Parking	HasDistance	4 miles
+1	moderate traffic	IsTrafficOf	Stanford Oval Parking
+1	4 miles	IsDistanceFrom	Stanford Oval Parking
+2	Safeway	HasAddress	452 Arcadia Pl
+2	Safeway	HasType	grocery store
+2	452 Arcadia Pl	IsAddressOf	Safeway
+2	grocery store	IsTypeOf	Safeway
+2	Safeway	HasTraffic	heavy traffic
+2	Safeway	HasDistance	1 miles
+2	heavy traffic	IsTrafficOf	Safeway
+2	1 miles	IsDistanceFrom	Safeway
+3	Coupa	HasAddress	394 Van Ness Ave
+3	Coupa	HasType	coffee or tea place
+3	394 Van Ness Ave	IsAddressOf	Coupa
+3	coffee or tea place	IsTypeOf	Coupa
+3	Coupa	HasTraffic	heavy traffic
+3	Coupa	HasDistance	1 miles
+3	heavy traffic	IsTrafficOf	Coupa
+3	1 miles	IsDistanceFrom	Coupa
+4	Philz	HasAddress	583 Alester Ave
+4	Philz	HasType	coffee or tea place
+4	583 Alester Ave	IsAddressOf	Philz
+4	coffee or tea place	IsTypeOf	Philz
+4	Philz	HasTraffic	moderate traffic
+4	Philz	HasDistance	5 miles
+4	moderate traffic	IsTrafficOf	Philz
+4	5 miles	IsDistanceFrom	Philz
+5	toms house	HasAddress	580 Van Ness Ave
+5	toms house	HasType	friends house
+5	580 Van Ness Ave	IsAddressOf	toms house
+5	friends house	IsTypeOf	toms house
+5	toms house	HasTraffic	heavy traffic
+5	toms house	HasDistance	1 miles
+5	heavy traffic	IsTrafficOf	toms house
+5	1 miles	IsDistanceFrom	toms house
+6	tai pan	HasAddress	830 Almanor Ln
+6	tai pan	HasType	chinese restaurant
+6	830 Almanor Ln	IsAddressOf	tai pan
+6	chinese restaurant	IsTypeOf	tai pan
+6	tai pan	HasTraffic	moderate traffic
+6	tai pan	HasDistance	5 miles
+6	moderate traffic	IsTrafficOf	tai pan
+6	5 miles	IsDistanceFrom	tai pan
+-1	today	IsEqualTo	monday

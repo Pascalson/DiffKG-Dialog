@@ -1,0 +1,57 @@
+0	Palo Alto Cafe	HasAddress	436 Alger Dr
+0	Palo Alto Cafe	HasType	coffee or tea place
+0	436 Alger Dr	IsAddressOf	Palo Alto Cafe
+0	coffee or tea place	IsTypeOf	Palo Alto Cafe
+0	Palo Alto Cafe	HasTraffic	moderate traffic
+0	Palo Alto Cafe	HasDistance	1 miles
+0	moderate traffic	IsTrafficOf	Palo Alto Cafe
+0	1 miles	IsDistanceFrom	Palo Alto Cafe
+1	Safeway	HasAddress	452 Arcadia Pl
+1	Safeway	HasType	grocery store
+1	452 Arcadia Pl	IsAddressOf	Safeway
+1	grocery store	IsTypeOf	Safeway
+1	Safeway	HasTraffic	heavy traffic
+1	Safeway	HasDistance	1 miles
+1	heavy traffic	IsTrafficOf	Safeway
+1	1 miles	IsDistanceFrom	Safeway
+2	Jing Jing	HasAddress	113 Arbol Dr
+2	Jing Jing	HasType	chinese restaurant
+2	113 Arbol Dr	IsAddressOf	Jing Jing
+2	chinese restaurant	IsTypeOf	Jing Jing
+2	Jing Jing	HasTraffic	heavy traffic
+2	Jing Jing	HasDistance	1 miles
+2	heavy traffic	IsTrafficOf	Jing Jing
+2	1 miles	IsDistanceFrom	Jing Jing
+3	Pizza Chicago	HasAddress	915 Arbol Dr
+3	Pizza Chicago	HasType	pizza restaurant
+3	915 Arbol Dr	IsAddressOf	Pizza Chicago
+3	pizza restaurant	IsTypeOf	Pizza Chicago
+3	Pizza Chicago	HasTraffic	moderate traffic
+3	Pizza Chicago	HasDistance	2 miles
+3	moderate traffic	IsTrafficOf	Pizza Chicago
+3	2 miles	IsDistanceFrom	Pizza Chicago
+4	home	HasAddress	56 cadwell street
+4	home	HasType	home
+4	56 cadwell street	IsAddressOf	home
+4	home	IsTypeOf	home
+4	home	HasTraffic	heavy traffic
+4	home	HasDistance	1 miles
+4	heavy traffic	IsTrafficOf	home
+4	1 miles	IsDistanceFrom	home
+5	Dish Parking	HasAddress	550 Alester Ave
+5	Dish Parking	HasType	parking garage
+5	550 Alester Ave	IsAddressOf	Dish Parking
+5	parking garage	IsTypeOf	Dish Parking
+5	Dish Parking	HasTraffic	moderate traffic
+5	Dish Parking	HasDistance	5 miles
+5	moderate traffic	IsTrafficOf	Dish Parking
+5	5 miles	IsDistanceFrom	Dish Parking
+6	toms house	HasAddress	580 Van Ness Ave
+6	toms house	HasType	friends house
+6	580 Van Ness Ave	IsAddressOf	toms house
+6	friends house	IsTypeOf	toms house
+6	toms house	HasTraffic	no traffic
+6	toms house	HasDistance	2 miles
+6	no traffic	IsTrafficOf	toms house
+6	2 miles	IsDistanceFrom	toms house
+-1	today	IsEqualTo	monday

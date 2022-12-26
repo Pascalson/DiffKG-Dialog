@@ -1,0 +1,65 @@
+0	jacks house	HasAddress	864 Almanor Ln
+0	jacks house	HasType	friends house
+0	864 Almanor Ln	IsAddressOf	jacks house
+0	friends house	IsTypeOf	jacks house
+0	jacks house	HasTraffic	moderate traffic
+0	jacks house	HasDistance	1 miles
+0	moderate traffic	IsTrafficOf	jacks house
+0	1 miles	IsDistanceFrom	jacks house
+1	Round Table	HasAddress	113 Anton Ct
+1	Round Table	HasType	pizza restaurant
+1	113 Anton Ct	IsAddressOf	Round Table
+1	pizza restaurant	IsTypeOf	Round Table
+1	Round Table	HasTraffic	heavy traffic
+1	Round Table	HasDistance	6 miles
+1	heavy traffic	IsTrafficOf	Round Table
+1	6 miles	IsDistanceFrom	Round Table
+2	P.F. Changs	HasAddress	669 El Camino Real
+2	P.F. Changs	HasType	chinese restaurant
+2	669 El Camino Real	IsAddressOf	P.F. Changs
+2	chinese restaurant	IsTypeOf	P.F. Changs
+2	P.F. Changs	HasTraffic	road block nearby
+2	P.F. Changs	HasDistance	6 miles
+2	road block nearby	IsTrafficOf	P.F. Changs
+2	6 miles	IsDistanceFrom	P.F. Changs
+3	Palo Alto Cafe	HasAddress	436 Alger Dr
+3	Palo Alto Cafe	HasType	coffee or tea place
+3	436 Alger Dr	IsAddressOf	Palo Alto Cafe
+3	coffee or tea place	IsTypeOf	Palo Alto Cafe
+3	Palo Alto Cafe	HasTraffic	heavy traffic
+3	Palo Alto Cafe	HasDistance	6 miles
+3	heavy traffic	IsTrafficOf	Palo Alto Cafe
+3	6 miles	IsDistanceFrom	Palo Alto Cafe
+4	Webster Garage	HasAddress	880 Ames Ct
+4	Webster Garage	HasType	parking garage
+4	880 Ames Ct	IsAddressOf	Webster Garage
+4	parking garage	IsTypeOf	Webster Garage
+4	Webster Garage	HasTraffic	heavy traffic
+4	Webster Garage	HasDistance	4 miles
+4	heavy traffic	IsTrafficOf	Webster Garage
+4	4 miles	IsDistanceFrom	Webster Garage
+5	toms house	HasAddress	580 Van Ness Ave
+5	toms house	HasType	friends house
+5	580 Van Ness Ave	IsAddressOf	toms house
+5	friends house	IsTypeOf	toms house
+5	toms house	HasTraffic	no traffic
+5	toms house	HasDistance	2 miles
+5	no traffic	IsTrafficOf	toms house
+5	2 miles	IsDistanceFrom	toms house
+6	Dish Parking	HasAddress	550 Alester Ave
+6	Dish Parking	HasType	parking garage
+6	550 Alester Ave	IsAddressOf	Dish Parking
+6	parking garage	IsTypeOf	Dish Parking
+6	Dish Parking	HasTraffic	heavy traffic
+6	Dish Parking	HasDistance	6 miles
+6	heavy traffic	IsTrafficOf	Dish Parking
+6	6 miles	IsDistanceFrom	Dish Parking
+7	Stanford Oval Parking	HasAddress	610 Amarillo Ave
+7	Stanford Oval Parking	HasType	parking garage
+7	610 Amarillo Ave	IsAddressOf	Stanford Oval Parking
+7	parking garage	IsTypeOf	Stanford Oval Parking
+7	Stanford Oval Parking	HasTraffic	moderate traffic
+7	Stanford Oval Parking	HasDistance	1 miles
+7	moderate traffic	IsTrafficOf	Stanford Oval Parking
+7	1 miles	IsDistanceFrom	Stanford Oval Parking
+-1	today	IsEqualTo	monday

@@ -1,0 +1,57 @@
+0	Sigona Farmers Market	HasAddress	638 Amherst St
+0	Sigona Farmers Market	HasType	grocery store
+0	638 Amherst St	IsAddressOf	Sigona Farmers Market
+0	grocery store	IsTypeOf	Sigona Farmers Market
+0	Sigona Farmers Market	HasTraffic	heavy traffic
+0	Sigona Farmers Market	HasDistance	4 miles
+0	heavy traffic	IsTrafficOf	Sigona Farmers Market
+0	4 miles	IsDistanceFrom	Sigona Farmers Market
+1	Whole Foods	HasAddress	819 Alma St
+1	Whole Foods	HasType	grocery store
+1	819 Alma St	IsAddressOf	Whole Foods
+1	grocery store	IsTypeOf	Whole Foods
+1	Whole Foods	HasTraffic	heavy traffic
+1	Whole Foods	HasDistance	2 miles
+1	heavy traffic	IsTrafficOf	Whole Foods
+1	2 miles	IsDistanceFrom	Whole Foods
+2	toms house	HasAddress	580 Van Ness Ave
+2	toms house	HasType	friends house
+2	580 Van Ness Ave	IsAddressOf	toms house
+2	friends house	IsTypeOf	toms house
+2	toms house	HasTraffic	heavy traffic
+2	toms house	HasDistance	2 miles
+2	heavy traffic	IsTrafficOf	toms house
+2	2 miles	IsDistanceFrom	toms house
+3	Pizza Chicago	HasAddress	915 Arbol Dr
+3	Pizza Chicago	HasType	pizza restaurant
+3	915 Arbol Dr	IsAddressOf	Pizza Chicago
+3	pizza restaurant	IsTypeOf	Pizza Chicago
+3	Pizza Chicago	HasTraffic	no traffic
+3	Pizza Chicago	HasDistance	2 miles
+3	no traffic	IsTrafficOf	Pizza Chicago
+3	2 miles	IsDistanceFrom	Pizza Chicago
+4	Stanford Shopping Center	HasAddress	773 Alger Dr
+4	Stanford Shopping Center	HasType	shopping center
+4	773 Alger Dr	IsAddressOf	Stanford Shopping Center
+4	shopping center	IsTypeOf	Stanford Shopping Center
+4	Stanford Shopping Center	HasTraffic	no traffic
+4	Stanford Shopping Center	HasDistance	2 miles
+4	no traffic	IsTrafficOf	Stanford Shopping Center
+4	2 miles	IsDistanceFrom	Stanford Shopping Center
+5	Town and Country	HasAddress	383 University Ave
+5	Town and Country	HasType	shopping center
+5	383 University Ave	IsAddressOf	Town and Country
+5	shopping center	IsTypeOf	Town and Country
+5	Town and Country	HasTraffic	no traffic
+5	Town and Country	HasDistance	1 miles
+5	no traffic	IsTrafficOf	Town and Country
+5	1 miles	IsDistanceFrom	Town and Country
+6	The Clement Hotel	HasAddress	657 Ames Ave
+6	The Clement Hotel	HasType	rest stop
+6	657 Ames Ave	IsAddressOf	The Clement Hotel
+6	rest stop	IsTypeOf	The Clement Hotel
+6	The Clement Hotel	HasTraffic	heavy traffic
+6	The Clement Hotel	HasDistance	3 miles
+6	heavy traffic	IsTrafficOf	The Clement Hotel
+6	3 miles	IsDistanceFrom	The Clement Hotel
+-1	today	IsEqualTo	monday

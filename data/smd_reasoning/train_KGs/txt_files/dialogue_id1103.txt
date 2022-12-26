@@ -1,0 +1,65 @@
+0	Civic Center Garage	HasAddress	270 Altaire Walk
+0	Civic Center Garage	HasType	parking garage
+0	270 Altaire Walk	IsAddressOf	Civic Center Garage
+0	parking garage	IsTypeOf	Civic Center Garage
+0	Civic Center Garage	HasTraffic	road block nearby
+0	Civic Center Garage	HasDistance	4 miles
+0	road block nearby	IsTrafficOf	Civic Center Garage
+0	4 miles	IsDistanceFrom	Civic Center Garage
+1	Shell	HasAddress	53 University Av
+1	Shell	HasType	gas station
+1	53 University Av	IsAddressOf	Shell
+1	gas station	IsTypeOf	Shell
+1	Shell	HasTraffic	car collision nearby
+1	Shell	HasDistance	2 miles
+1	car collision nearby	IsTrafficOf	Shell
+1	2 miles	IsDistanceFrom	Shell
+2	5677 southwest 4th street	HasAddress	5677 southwest 4th street
+2	5677 southwest 4th street	HasType	certain address
+2	5677 southwest 4th street	IsAddressOf	5677 southwest 4th street
+2	certain address	IsTypeOf	5677 southwest 4th street
+2	5677 southwest 4th street	HasTraffic	moderate traffic
+2	5677 southwest 4th street	HasDistance	6 miles
+2	moderate traffic	IsTrafficOf	5677 southwest 4th street
+2	6 miles	IsDistanceFrom	5677 southwest 4th street
+3	Stanford Childrens Health	HasAddress	899 Ames Ct
+3	Stanford Childrens Health	HasType	hospital
+3	899 Ames Ct	IsAddressOf	Stanford Childrens Health
+3	hospital	IsTypeOf	Stanford Childrens Health
+3	Stanford Childrens Health	HasTraffic	no traffic
+3	Stanford Childrens Health	HasDistance	6 miles
+3	no traffic	IsTrafficOf	Stanford Childrens Health
+3	6 miles	IsDistanceFrom	Stanford Childrens Health
+4	home	HasAddress	10 ames street
+4	home	HasType	home
+4	10 ames street	IsAddressOf	home
+4	home	IsTypeOf	home
+4	home	HasTraffic	no traffic
+4	home	HasDistance	1 miles
+4	no traffic	IsTrafficOf	home
+4	1 miles	IsDistanceFrom	home
+5	jills house	HasAddress	347 Alta Mesa Ave
+5	jills house	HasType	friends house
+5	347 Alta Mesa Ave	IsAddressOf	jills house
+5	friends house	IsTypeOf	jills house
+5	jills house	HasTraffic	moderate traffic
+5	jills house	HasDistance	5 miles
+5	moderate traffic	IsTrafficOf	jills house
+5	5 miles	IsDistanceFrom	jills house
+6	Pizza Hut	HasAddress	704 El Camino Real
+6	Pizza Hut	HasType	pizza restaurant
+6	704 El Camino Real	IsAddressOf	Pizza Hut
+6	pizza restaurant	IsTypeOf	Pizza Hut
+6	Pizza Hut	HasTraffic	car collision nearby
+6	Pizza Hut	HasDistance	4 miles
+6	car collision nearby	IsTrafficOf	Pizza Hut
+6	4 miles	IsDistanceFrom	Pizza Hut
+7	Philz	HasAddress	583 Alester Ave
+7	Philz	HasType	coffee or tea place
+7	583 Alester Ave	IsAddressOf	Philz
+7	coffee or tea place	IsTypeOf	Philz
+7	Philz	HasTraffic	moderate traffic
+7	Philz	HasDistance	1 miles
+7	moderate traffic	IsTrafficOf	Philz
+7	1 miles	IsDistanceFrom	Philz
+-1	today	IsEqualTo	monday

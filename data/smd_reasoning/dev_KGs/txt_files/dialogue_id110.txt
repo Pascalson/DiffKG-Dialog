@@ -1,0 +1,65 @@
+0	Ravenswood Shopping Center	HasAddress	434 Arastradero Rd
+0	Ravenswood Shopping Center	HasType	shopping center
+0	434 Arastradero Rd	IsAddressOf	Ravenswood Shopping Center
+0	shopping center	IsTypeOf	Ravenswood Shopping Center
+0	Ravenswood Shopping Center	HasTraffic	heavy traffic
+0	Ravenswood Shopping Center	HasDistance	2 miles
+0	heavy traffic	IsTrafficOf	Ravenswood Shopping Center
+0	2 miles	IsDistanceFrom	Ravenswood Shopping Center
+1	Topanga Mall	HasAddress	171 Oak Rd
+1	Topanga Mall	HasType	shopping center
+1	171 Oak Rd	IsAddressOf	Topanga Mall
+1	shopping center	IsTypeOf	Topanga Mall
+1	Topanga Mall	HasTraffic	no traffic
+1	Topanga Mall	HasDistance	4 miles
+1	no traffic	IsTrafficOf	Topanga Mall
+1	4 miles	IsDistanceFrom	Topanga Mall
+2	Cafe Venetia	HasAddress	269 Alger Dr
+2	Cafe Venetia	HasType	coffee or tea place
+2	269 Alger Dr	IsAddressOf	Cafe Venetia
+2	coffee or tea place	IsTypeOf	Cafe Venetia
+2	Cafe Venetia	HasTraffic	heavy traffic
+2	Cafe Venetia	HasDistance	3 miles
+2	heavy traffic	IsTrafficOf	Cafe Venetia
+2	3 miles	IsDistanceFrom	Cafe Venetia
+3	tai pan	HasAddress	830 Almanor Ln
+3	tai pan	HasType	chinese restaurant
+3	830 Almanor Ln	IsAddressOf	tai pan
+3	chinese restaurant	IsTypeOf	tai pan
+3	tai pan	HasTraffic	no traffic
+3	tai pan	HasDistance	4 miles
+3	no traffic	IsTrafficOf	tai pan
+3	4 miles	IsDistanceFrom	tai pan
+4	Four Seasons	HasAddress	465 Arcadia Pl
+4	Four Seasons	HasType	rest stop
+4	465 Arcadia Pl	IsAddressOf	Four Seasons
+4	rest stop	IsTypeOf	Four Seasons
+4	Four Seasons	HasTraffic	car collision nearby
+4	Four Seasons	HasDistance	3 miles
+4	car collision nearby	IsTrafficOf	Four Seasons
+4	3 miles	IsDistanceFrom	Four Seasons
+5	Coupa	HasAddress	394 Van Ness Ave
+5	Coupa	HasType	coffee or tea place
+5	394 Van Ness Ave	IsAddressOf	Coupa
+5	coffee or tea place	IsTypeOf	Coupa
+5	Coupa	HasTraffic	no traffic
+5	Coupa	HasDistance	4 miles
+5	no traffic	IsTrafficOf	Coupa
+5	4 miles	IsDistanceFrom	Coupa
+6	Safeway	HasAddress	452 Arcadia Pl
+6	Safeway	HasType	grocery store
+6	452 Arcadia Pl	IsAddressOf	Safeway
+6	grocery store	IsTypeOf	Safeway
+6	Safeway	HasTraffic	heavy traffic
+6	Safeway	HasDistance	1 miles
+6	heavy traffic	IsTrafficOf	Safeway
+6	1 miles	IsDistanceFrom	Safeway
+7	home	HasAddress	5671 barringer street
+7	home	HasType	home
+7	5671 barringer street	IsAddressOf	home
+7	home	IsTypeOf	home
+7	home	HasTraffic	no traffic
+7	home	HasDistance	6 miles
+7	no traffic	IsTrafficOf	home
+7	6 miles	IsDistanceFrom	home
+-1	today	IsEqualTo	monday

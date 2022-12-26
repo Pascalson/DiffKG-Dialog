@@ -1,0 +1,57 @@
+0	conference	HasTime	11am
+0	11am	IsTimeOf	conference
+0	conference	HasDate	sunday
+0	sunday	IsDateOf	conference
+0	conference	HasParty	infrastructure team
+0	infrastructure team	IsPartyOf	conference
+0	conference	HasRoom	conference room 100
+0	conference room 100	IsRoomOf	conference
+0	conference	HasAgenda	sign the NDA
+0	sign the NDA	IsAgendaOf	conference
+1	meeting	HasTime	1pm
+1	1pm	IsTimeOf	meeting
+1	meeting	HasDate	the 6th
+1	the 6th	IsDateOf	meeting
+1	meeting	HasParty	management
+1	management	IsPartyOf	meeting
+1	meeting	HasRoom	conference room 50
+1	conference room 50	IsRoomOf	meeting
+1	meeting	HasAgenda	discuss the merger
+1	discuss the merger	IsAgendaOf	meeting
+2	yoga activity	HasTime	5pm
+2	5pm	IsTimeOf	yoga activity
+2	yoga activity	HasDate	the 17th
+2	the 17th	IsDateOf	yoga activity
+2	yoga activity	HasParty	father
+2	father	IsPartyOf	yoga activity
+3	lab appointment	HasTime	9am
+3	9am	IsTimeOf	lab appointment
+3	lab appointment	HasDate	monday
+3	monday	IsDateOf	lab appointment
+3	lab appointment	HasParty	Marie
+3	Marie	IsPartyOf	lab appointment
+4	dentist appointment	HasTime	10am
+4	10am	IsTimeOf	dentist appointment
+4	dentist appointment	HasDate	sunday
+4	sunday	IsDateOf	dentist appointment
+4	dentist appointment	HasParty	brother
+4	brother	IsPartyOf	dentist appointment
+5	dentist appointment	HasTime	5pm
+5	5pm	IsTimeOf	dentist appointment
+5	dentist appointment	HasDate	the 11th
+5	the 11th	IsDateOf	dentist appointment
+5	dentist appointment	HasParty	brother
+5	brother	IsPartyOf	dentist appointment
+6	yoga activity	HasTime	9am
+6	9am	IsTimeOf	yoga activity
+6	yoga activity	HasDate	the 10th
+6	the 10th	IsDateOf	yoga activity
+6	yoga activity	HasParty	brother
+6	brother	IsPartyOf	yoga activity
+7	yoga activity	HasTime	2pm
+7	2pm	IsTimeOf	yoga activity
+7	yoga activity	HasDate	tuesday
+7	tuesday	IsDateOf	yoga activity
+7	yoga activity	HasParty	Marie
+7	Marie	IsPartyOf	yoga activity
+-1	today	IsEqualTo	monday

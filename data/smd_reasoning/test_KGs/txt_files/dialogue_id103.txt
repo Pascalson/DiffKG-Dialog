@@ -1,0 +1,57 @@
+0	taking medicine	HasTime	1pm
+0	1pm	IsTimeOf	taking medicine
+0	taking medicine	HasDate	the 7th
+0	the 7th	IsDateOf	taking medicine
+0	taking medicine	HasParty	mother
+0	mother	IsPartyOf	taking medicine
+1	meeting	HasTime	5pm
+1	5pm	IsTimeOf	meeting
+1	meeting	HasDate	the 13th
+1	the 13th	IsDateOf	meeting
+1	meeting	HasParty	vice president
+1	vice president	IsPartyOf	meeting
+1	meeting	HasRoom	conference room 50
+1	conference room 50	IsRoomOf	meeting
+1	meeting	HasAgenda	go over budget
+1	go over budget	IsAgendaOf	meeting
+2	conference	HasTime	2pm
+2	2pm	IsTimeOf	conference
+2	conference	HasDate	the 19th
+2	the 19th	IsDateOf	conference
+2	conference	HasParty	sales team
+2	sales team	IsPartyOf	conference
+2	conference	HasRoom	conference room 102
+2	conference room 102	IsRoomOf	conference
+2	conference	HasAgenda	discuss the company picnic
+2	discuss the company picnic	IsAgendaOf	conference
+3	optometrist appointment	HasTime	11am
+3	11am	IsTimeOf	optometrist appointment
+3	optometrist appointment	HasDate	the 2nd
+3	the 2nd	IsDateOf	optometrist appointment
+3	optometrist appointment	HasParty	Tom
+3	Tom	IsPartyOf	optometrist appointment
+4	swimming activity	HasTime	11am
+4	11am	IsTimeOf	swimming activity
+4	swimming activity	HasDate	sunday
+4	sunday	IsDateOf	swimming activity
+4	swimming activity	HasParty	mother
+4	mother	IsPartyOf	swimming activity
+5	lab appointment	HasTime	11am
+5	11am	IsTimeOf	lab appointment
+5	lab appointment	HasDate	wednesday
+5	wednesday	IsDateOf	lab appointment
+5	lab appointment	HasParty	Tom
+5	Tom	IsPartyOf	lab appointment
+6	dentist appointment	HasTime	3pm
+6	3pm	IsTimeOf	dentist appointment
+6	dentist appointment	HasDate	the 17th
+6	the 17th	IsDateOf	dentist appointment
+6	dentist appointment	HasParty	aunt
+6	aunt	IsPartyOf	dentist appointment
+7	lab appointment	HasTime	11am
+7	11am	IsTimeOf	lab appointment
+7	lab appointment	HasDate	the 8th
+7	the 8th	IsDateOf	lab appointment
+7	lab appointment	HasParty	sister
+7	sister	IsPartyOf	lab appointment
+-1	today	IsEqualTo	monday

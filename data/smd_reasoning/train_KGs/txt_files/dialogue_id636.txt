@@ -1,0 +1,65 @@
+0	Jing Jing	HasAddress	113 Arbol Dr
+0	Jing Jing	HasType	chinese restaurant
+0	113 Arbol Dr	IsAddressOf	Jing Jing
+0	chinese restaurant	IsTypeOf	Jing Jing
+0	Jing Jing	HasTraffic	no traffic
+0	Jing Jing	HasDistance	3 miles
+0	no traffic	IsTrafficOf	Jing Jing
+0	3 miles	IsDistanceFrom	Jing Jing
+1	Pizza My Heart	HasAddress	528 Anton Ct
+1	Pizza My Heart	HasType	pizza restaurant
+1	528 Anton Ct	IsAddressOf	Pizza My Heart
+1	pizza restaurant	IsTypeOf	Pizza My Heart
+1	Pizza My Heart	HasTraffic	no traffic
+1	Pizza My Heart	HasDistance	2 miles
+1	no traffic	IsTrafficOf	Pizza My Heart
+1	2 miles	IsDistanceFrom	Pizza My Heart
+2	Cafe Venetia	HasAddress	269 Alger Dr
+2	Cafe Venetia	HasType	coffee or tea place
+2	269 Alger Dr	IsAddressOf	Cafe Venetia
+2	coffee or tea place	IsTypeOf	Cafe Venetia
+2	Cafe Venetia	HasTraffic	heavy traffic
+2	Cafe Venetia	HasDistance	1 miles
+2	heavy traffic	IsTrafficOf	Cafe Venetia
+2	1 miles	IsDistanceFrom	Cafe Venetia
+3	5677 southwest 4th street	HasAddress	5677 southwest 4th street
+3	5677 southwest 4th street	HasType	certain address
+3	5677 southwest 4th street	IsAddressOf	5677 southwest 4th street
+3	certain address	IsTypeOf	5677 southwest 4th street
+3	5677 southwest 4th street	HasTraffic	heavy traffic
+3	5677 southwest 4th street	HasDistance	6 miles
+3	heavy traffic	IsTrafficOf	5677 southwest 4th street
+3	6 miles	IsDistanceFrom	5677 southwest 4th street
+4	Palo Alto Medical Foundation	HasAddress	611 Ames Ave
+4	Palo Alto Medical Foundation	HasType	hospital
+4	611 Ames Ave	IsAddressOf	Palo Alto Medical Foundation
+4	hospital	IsTypeOf	Palo Alto Medical Foundation
+4	Palo Alto Medical Foundation	HasTraffic	road block nearby
+4	Palo Alto Medical Foundation	HasDistance	1 miles
+4	road block nearby	IsTrafficOf	Palo Alto Medical Foundation
+4	1 miles	IsDistanceFrom	Palo Alto Medical Foundation
+5	Stanford Childrens Health	HasAddress	899 Ames Ct
+5	Stanford Childrens Health	HasType	hospital
+5	899 Ames Ct	IsAddressOf	Stanford Childrens Health
+5	hospital	IsTypeOf	Stanford Childrens Health
+5	Stanford Childrens Health	HasTraffic	heavy traffic
+5	Stanford Childrens Health	HasDistance	3 miles
+5	heavy traffic	IsTrafficOf	Stanford Childrens Health
+5	3 miles	IsDistanceFrom	Stanford Childrens Health
+6	Stanford Oval Parking	HasAddress	610 Amarillo Ave
+6	Stanford Oval Parking	HasType	parking garage
+6	610 Amarillo Ave	IsAddressOf	Stanford Oval Parking
+6	parking garage	IsTypeOf	Stanford Oval Parking
+6	Stanford Oval Parking	HasTraffic	no traffic
+6	Stanford Oval Parking	HasDistance	1 miles
+6	no traffic	IsTrafficOf	Stanford Oval Parking
+6	1 miles	IsDistanceFrom	Stanford Oval Parking
+7	Four Seasons	HasAddress	465 Arcadia Pl
+7	Four Seasons	HasType	rest stop
+7	465 Arcadia Pl	IsAddressOf	Four Seasons
+7	rest stop	IsTypeOf	Four Seasons
+7	Four Seasons	HasTraffic	moderate traffic
+7	Four Seasons	HasDistance	5 miles
+7	moderate traffic	IsTrafficOf	Four Seasons
+7	5 miles	IsDistanceFrom	Four Seasons
+-1	today	IsEqualTo	monday

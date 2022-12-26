@@ -1,0 +1,57 @@
+0	toms house	HasAddress	580 Van Ness Ave
+0	toms house	HasType	friends house
+0	580 Van Ness Ave	IsAddressOf	toms house
+0	friends house	IsTypeOf	toms house
+0	toms house	HasTraffic	heavy traffic
+0	toms house	HasDistance	3 miles
+0	heavy traffic	IsTrafficOf	toms house
+0	3 miles	IsDistanceFrom	toms house
+1	Coupa	HasAddress	394 Van Ness Ave
+1	Coupa	HasType	coffee or tea place
+1	394 Van Ness Ave	IsAddressOf	Coupa
+1	coffee or tea place	IsTypeOf	Coupa
+1	Coupa	HasTraffic	moderate traffic
+1	Coupa	HasDistance	2 miles
+1	moderate traffic	IsTrafficOf	Coupa
+1	2 miles	IsDistanceFrom	Coupa
+2	Palo Alto Medical Foundation	HasAddress	611 Ames Ave
+2	Palo Alto Medical Foundation	HasType	hospital
+2	611 Ames Ave	IsAddressOf	Palo Alto Medical Foundation
+2	hospital	IsTypeOf	Palo Alto Medical Foundation
+2	Palo Alto Medical Foundation	HasTraffic	no traffic
+2	Palo Alto Medical Foundation	HasDistance	2 miles
+2	no traffic	IsTrafficOf	Palo Alto Medical Foundation
+2	2 miles	IsDistanceFrom	Palo Alto Medical Foundation
+3	Stanford Express Care	HasAddress	214 El Camino Real
+3	Stanford Express Care	HasType	hospital
+3	214 El Camino Real	IsAddressOf	Stanford Express Care
+3	hospital	IsTypeOf	Stanford Express Care
+3	Stanford Express Care	HasTraffic	no traffic
+3	Stanford Express Care	HasDistance	5 miles
+3	no traffic	IsTrafficOf	Stanford Express Care
+3	5 miles	IsDistanceFrom	Stanford Express Care
+4	Starbucks	HasAddress	792 Bedoin Street
+4	Starbucks	HasType	coffee or tea place
+4	792 Bedoin Street	IsAddressOf	Starbucks
+4	coffee or tea place	IsTypeOf	Starbucks
+4	Starbucks	HasTraffic	heavy traffic
+4	Starbucks	HasDistance	1 miles
+4	heavy traffic	IsTrafficOf	Starbucks
+4	1 miles	IsDistanceFrom	Starbucks
+5	Panda Express	HasAddress	842 Arrowhead Way
+5	Panda Express	HasType	chinese restaurant
+5	842 Arrowhead Way	IsAddressOf	Panda Express
+5	chinese restaurant	IsTypeOf	Panda Express
+5	Panda Express	HasTraffic	no traffic
+5	Panda Express	HasDistance	2 miles
+5	no traffic	IsTrafficOf	Panda Express
+5	2 miles	IsDistanceFrom	Panda Express
+6	Valero	HasAddress	200 Alester Ave
+6	Valero	HasType	gas station
+6	200 Alester Ave	IsAddressOf	Valero
+6	gas station	IsTypeOf	Valero
+6	Valero	HasTraffic	heavy traffic
+6	Valero	HasDistance	4 miles
+6	heavy traffic	IsTrafficOf	Valero
+6	4 miles	IsDistanceFrom	Valero
+-1	today	IsEqualTo	monday

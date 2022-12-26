@@ -1,0 +1,65 @@
+0	Four Seasons	HasAddress	465 Arcadia Pl
+0	Four Seasons	HasType	rest stop
+0	465 Arcadia Pl	IsAddressOf	Four Seasons
+0	rest stop	IsTypeOf	Four Seasons
+0	Four Seasons	HasTraffic	moderate traffic
+0	Four Seasons	HasDistance	2 miles
+0	moderate traffic	IsTrafficOf	Four Seasons
+0	2 miles	IsDistanceFrom	Four Seasons
+1	Stanford Oval Parking	HasAddress	610 Amarillo Ave
+1	Stanford Oval Parking	HasType	parking garage
+1	610 Amarillo Ave	IsAddressOf	Stanford Oval Parking
+1	parking garage	IsTypeOf	Stanford Oval Parking
+1	Stanford Oval Parking	HasTraffic	car collision nearby
+1	Stanford Oval Parking	HasDistance	3 miles
+1	car collision nearby	IsTrafficOf	Stanford Oval Parking
+1	3 miles	IsDistanceFrom	Stanford Oval Parking
+2	5677 springer street	HasAddress	5677 springer street
+2	5677 springer street	HasType	certain address
+2	5677 springer street	IsAddressOf	5677 springer street
+2	certain address	IsTypeOf	5677 springer street
+2	5677 springer street	HasTraffic	moderate traffic
+2	5677 springer street	HasDistance	1 miles
+2	moderate traffic	IsTrafficOf	5677 springer street
+2	1 miles	IsDistanceFrom	5677 springer street
+3	Town and Country	HasAddress	383 University Ave
+3	Town and Country	HasType	shopping center
+3	383 University Ave	IsAddressOf	Town and Country
+3	shopping center	IsTypeOf	Town and Country
+3	Town and Country	HasTraffic	moderate traffic
+3	Town and Country	HasDistance	6 miles
+3	moderate traffic	IsTrafficOf	Town and Country
+3	6 miles	IsDistanceFrom	Town and Country
+4	Palo Alto Garage R	HasAddress	481 Amaranta Ave
+4	Palo Alto Garage R	HasType	parking garage
+4	481 Amaranta Ave	IsAddressOf	Palo Alto Garage R
+4	parking garage	IsTypeOf	Palo Alto Garage R
+4	Palo Alto Garage R	HasTraffic	no traffic
+4	Palo Alto Garage R	HasDistance	6 miles
+4	no traffic	IsTrafficOf	Palo Alto Garage R
+4	6 miles	IsDistanceFrom	Palo Alto Garage R
+5	Topanga Mall	HasAddress	171 Oak Rd
+5	Topanga Mall	HasType	shopping center
+5	171 Oak Rd	IsAddressOf	Topanga Mall
+5	shopping center	IsTypeOf	Topanga Mall
+5	Topanga Mall	HasTraffic	no traffic
+5	Topanga Mall	HasDistance	3 miles
+5	no traffic	IsTrafficOf	Topanga Mall
+5	3 miles	IsDistanceFrom	Topanga Mall
+6	Shell	HasAddress	53 University Av
+6	Shell	HasType	gas station
+6	53 University Av	IsAddressOf	Shell
+6	gas station	IsTypeOf	Shell
+6	Shell	HasTraffic	no traffic
+6	Shell	HasDistance	6 miles
+6	no traffic	IsTrafficOf	Shell
+6	6 miles	IsDistanceFrom	Shell
+7	The Westin	HasAddress	329 El Camino Real
+7	The Westin	HasType	rest stop
+7	329 El Camino Real	IsAddressOf	The Westin
+7	rest stop	IsTypeOf	The Westin
+7	The Westin	HasTraffic	no traffic
+7	The Westin	HasDistance	7 miles
+7	no traffic	IsTrafficOf	The Westin
+7	7 miles	IsDistanceFrom	The Westin
+-1	today	IsEqualTo	monday

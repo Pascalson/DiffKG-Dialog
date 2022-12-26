@@ -1,0 +1,57 @@
+0	Pizza My Heart	HasAddress	528 Anton Ct
+0	Pizza My Heart	HasType	pizza restaurant
+0	528 Anton Ct	IsAddressOf	Pizza My Heart
+0	pizza restaurant	IsTypeOf	Pizza My Heart
+0	Pizza My Heart	HasTraffic	moderate traffic
+0	Pizza My Heart	HasDistance	5 miles
+0	moderate traffic	IsTrafficOf	Pizza My Heart
+0	5 miles	IsDistanceFrom	Pizza My Heart
+1	Whole Foods	HasAddress	819 Alma St
+1	Whole Foods	HasType	grocery store
+1	819 Alma St	IsAddressOf	Whole Foods
+1	grocery store	IsTypeOf	Whole Foods
+1	Whole Foods	HasTraffic	heavy traffic
+1	Whole Foods	HasDistance	4 miles
+1	heavy traffic	IsTrafficOf	Whole Foods
+1	4 miles	IsDistanceFrom	Whole Foods
+2	Hotel Keen	HasAddress	578 Arbol Dr
+2	Hotel Keen	HasType	rest stop
+2	578 Arbol Dr	IsAddressOf	Hotel Keen
+2	rest stop	IsTypeOf	Hotel Keen
+2	Hotel Keen	HasTraffic	no traffic
+2	Hotel Keen	HasDistance	3 miles
+2	no traffic	IsTrafficOf	Hotel Keen
+2	3 miles	IsDistanceFrom	Hotel Keen
+3	Safeway	HasAddress	452 Arcadia Pl
+3	Safeway	HasType	grocery store
+3	452 Arcadia Pl	IsAddressOf	Safeway
+3	grocery store	IsTypeOf	Safeway
+3	Safeway	HasTraffic	no traffic
+3	Safeway	HasDistance	4 miles
+3	no traffic	IsTrafficOf	Safeway
+3	4 miles	IsDistanceFrom	Safeway
+4	Midtown Shopping Center	HasAddress	338 Alester Ave
+4	Midtown Shopping Center	HasType	shopping center
+4	338 Alester Ave	IsAddressOf	Midtown Shopping Center
+4	shopping center	IsTypeOf	Midtown Shopping Center
+4	Midtown Shopping Center	HasTraffic	no traffic
+4	Midtown Shopping Center	HasDistance	3 miles
+4	no traffic	IsTrafficOf	Midtown Shopping Center
+4	3 miles	IsDistanceFrom	Midtown Shopping Center
+5	Round Table	HasAddress	113 Anton Ct
+5	Round Table	HasType	pizza restaurant
+5	113 Anton Ct	IsAddressOf	Round Table
+5	pizza restaurant	IsTypeOf	Round Table
+5	Round Table	HasTraffic	heavy traffic
+5	Round Table	HasDistance	4 miles
+5	heavy traffic	IsTrafficOf	Round Table
+5	4 miles	IsDistanceFrom	Round Table
+6	Mandarin Roots	HasAddress	271 Springer Street
+6	Mandarin Roots	HasType	chinese restaurant
+6	271 Springer Street	IsAddressOf	Mandarin Roots
+6	chinese restaurant	IsTypeOf	Mandarin Roots
+6	Mandarin Roots	HasTraffic	moderate traffic
+6	Mandarin Roots	HasDistance	3 miles
+6	moderate traffic	IsTrafficOf	Mandarin Roots
+6	3 miles	IsDistanceFrom	Mandarin Roots
+-1	today	IsEqualTo	monday

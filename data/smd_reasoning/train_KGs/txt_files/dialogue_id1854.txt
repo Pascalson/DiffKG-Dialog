@@ -1,0 +1,65 @@
+0	jacks house	HasAddress	864 Almanor Ln
+0	jacks house	HasType	friends house
+0	864 Almanor Ln	IsAddressOf	jacks house
+0	friends house	IsTypeOf	jacks house
+0	jacks house	HasTraffic	road block nearby
+0	jacks house	HasDistance	6 miles
+0	road block nearby	IsTrafficOf	jacks house
+0	6 miles	IsDistanceFrom	jacks house
+1	Cafe Venetia	HasAddress	269 Alger Dr
+1	Cafe Venetia	HasType	coffee or tea place
+1	269 Alger Dr	IsAddressOf	Cafe Venetia
+1	coffee or tea place	IsTypeOf	Cafe Venetia
+1	Cafe Venetia	HasTraffic	moderate traffic
+1	Cafe Venetia	HasDistance	6 miles
+1	moderate traffic	IsTrafficOf	Cafe Venetia
+1	6 miles	IsDistanceFrom	Cafe Venetia
+2	P.F. Changs	HasAddress	669 El Camino Real
+2	P.F. Changs	HasType	chinese restaurant
+2	669 El Camino Real	IsAddressOf	P.F. Changs
+2	chinese restaurant	IsTypeOf	P.F. Changs
+2	P.F. Changs	HasTraffic	car collision nearby
+2	P.F. Changs	HasDistance	3 miles
+2	car collision nearby	IsTrafficOf	P.F. Changs
+2	3 miles	IsDistanceFrom	P.F. Changs
+3	Valero	HasAddress	200 Alester Ave
+3	Valero	HasType	gas station
+3	200 Alester Ave	IsAddressOf	Valero
+3	gas station	IsTypeOf	Valero
+3	Valero	HasTraffic	road block nearby
+3	Valero	HasDistance	5 miles
+3	road block nearby	IsTrafficOf	Valero
+3	5 miles	IsDistanceFrom	Valero
+4	5677 springer street	HasAddress	5677 springer street
+4	5677 springer street	HasType	certain address
+4	5677 springer street	IsAddressOf	5677 springer street
+4	certain address	IsTypeOf	5677 springer street
+4	5677 springer street	HasTraffic	moderate traffic
+4	5677 springer street	HasDistance	6 miles
+4	moderate traffic	IsTrafficOf	5677 springer street
+4	6 miles	IsDistanceFrom	5677 springer street
+5	Pizza Chicago	HasAddress	915 Arbol Dr
+5	Pizza Chicago	HasType	pizza restaurant
+5	915 Arbol Dr	IsAddressOf	Pizza Chicago
+5	pizza restaurant	IsTypeOf	Pizza Chicago
+5	Pizza Chicago	HasTraffic	no traffic
+5	Pizza Chicago	HasDistance	6 miles
+5	no traffic	IsTrafficOf	Pizza Chicago
+5	6 miles	IsDistanceFrom	Pizza Chicago
+6	Town and Country	HasAddress	383 University Ave
+6	Town and Country	HasType	shopping center
+6	383 University Ave	IsAddressOf	Town and Country
+6	shopping center	IsTypeOf	Town and Country
+6	Town and Country	HasTraffic	road block nearby
+6	Town and Country	HasDistance	5 miles
+6	road block nearby	IsTrafficOf	Town and Country
+6	5 miles	IsDistanceFrom	Town and Country
+7	Chevron	HasAddress	783 Arcadia Pl
+7	Chevron	HasType	gas station
+7	783 Arcadia Pl	IsAddressOf	Chevron
+7	gas station	IsTypeOf	Chevron
+7	Chevron	HasTraffic	car collision nearby
+7	Chevron	HasDistance	2 miles
+7	car collision nearby	IsTrafficOf	Chevron
+7	2 miles	IsDistanceFrom	Chevron
+-1	today	IsEqualTo	monday

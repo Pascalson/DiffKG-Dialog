@@ -1,0 +1,65 @@
+0	Cafe Venetia	HasAddress	269 Alger Dr
+0	Cafe Venetia	HasType	coffee or tea place
+0	269 Alger Dr	IsAddressOf	Cafe Venetia
+0	coffee or tea place	IsTypeOf	Cafe Venetia
+0	Cafe Venetia	HasTraffic	moderate traffic
+0	Cafe Venetia	HasDistance	1 miles
+0	moderate traffic	IsTrafficOf	Cafe Venetia
+0	1 miles	IsDistanceFrom	Cafe Venetia
+1	Pizza My Heart	HasAddress	528 Anton Ct
+1	Pizza My Heart	HasType	pizza restaurant
+1	528 Anton Ct	IsAddressOf	Pizza My Heart
+1	pizza restaurant	IsTypeOf	Pizza My Heart
+1	Pizza My Heart	HasTraffic	no traffic
+1	Pizza My Heart	HasDistance	4 miles
+1	no traffic	IsTrafficOf	Pizza My Heart
+1	4 miles	IsDistanceFrom	Pizza My Heart
+2	Comfort Inn	HasAddress	753 University Ave
+2	Comfort Inn	HasType	rest stop
+2	753 University Ave	IsAddressOf	Comfort Inn
+2	rest stop	IsTypeOf	Comfort Inn
+2	Comfort Inn	HasTraffic	no traffic
+2	Comfort Inn	HasDistance	6 miles
+2	no traffic	IsTrafficOf	Comfort Inn
+2	6 miles	IsDistanceFrom	Comfort Inn
+3	jacks house	HasAddress	864 Almanor Ln
+3	jacks house	HasType	friends house
+3	864 Almanor Ln	IsAddressOf	jacks house
+3	friends house	IsTypeOf	jacks house
+3	jacks house	HasTraffic	moderate traffic
+3	jacks house	HasDistance	3 miles
+3	moderate traffic	IsTrafficOf	jacks house
+3	3 miles	IsDistanceFrom	jacks house
+4	jills house	HasAddress	347 Alta Mesa Ave
+4	jills house	HasType	friends house
+4	347 Alta Mesa Ave	IsAddressOf	jills house
+4	friends house	IsTypeOf	jills house
+4	jills house	HasTraffic	car collision nearby
+4	jills house	HasDistance	6 miles
+4	car collision nearby	IsTrafficOf	jills house
+4	6 miles	IsDistanceFrom	jills house
+5	Peets Coffee	HasAddress	9981 Archuleta Ave
+5	Peets Coffee	HasType	coffee or tea place
+5	9981 Archuleta Ave	IsAddressOf	Peets Coffee
+5	coffee or tea place	IsTypeOf	Peets Coffee
+5	Peets Coffee	HasTraffic	moderate traffic
+5	Peets Coffee	HasDistance	5 miles
+5	moderate traffic	IsTrafficOf	Peets Coffee
+5	5 miles	IsDistanceFrom	Peets Coffee
+6	Ravenswood Shopping Center	HasAddress	434 Arastradero Rd
+6	Ravenswood Shopping Center	HasType	shopping center
+6	434 Arastradero Rd	IsAddressOf	Ravenswood Shopping Center
+6	shopping center	IsTypeOf	Ravenswood Shopping Center
+6	Ravenswood Shopping Center	HasTraffic	no traffic
+6	Ravenswood Shopping Center	HasDistance	1 miles
+6	no traffic	IsTrafficOf	Ravenswood Shopping Center
+6	1 miles	IsDistanceFrom	Ravenswood Shopping Center
+7	Sigona Farmers Market	HasAddress	638 Amherst St
+7	Sigona Farmers Market	HasType	grocery store
+7	638 Amherst St	IsAddressOf	Sigona Farmers Market
+7	grocery store	IsTypeOf	Sigona Farmers Market
+7	Sigona Farmers Market	HasTraffic	heavy traffic
+7	Sigona Farmers Market	HasDistance	8 miles
+7	heavy traffic	IsTrafficOf	Sigona Farmers Market
+7	8 miles	IsDistanceFrom	Sigona Farmers Market
+-1	today	IsEqualTo	monday

@@ -1,0 +1,65 @@
+0	Webster Garage	HasAddress	880 Ames Ct
+0	Webster Garage	HasType	parking garage
+0	880 Ames Ct	IsAddressOf	Webster Garage
+0	parking garage	IsTypeOf	Webster Garage
+0	Webster Garage	HasTraffic	moderate traffic
+0	Webster Garage	HasDistance	4 miles
+0	moderate traffic	IsTrafficOf	Webster Garage
+0	4 miles	IsDistanceFrom	Webster Garage
+1	Pizza Hut	HasAddress	704 El Camino Real
+1	Pizza Hut	HasType	pizza restaurant
+1	704 El Camino Real	IsAddressOf	Pizza Hut
+1	pizza restaurant	IsTypeOf	Pizza Hut
+1	Pizza Hut	HasTraffic	car collision nearby
+1	Pizza Hut	HasDistance	3 miles
+1	car collision nearby	IsTrafficOf	Pizza Hut
+1	3 miles	IsDistanceFrom	Pizza Hut
+2	Palo Alto Cafe	HasAddress	436 Alger Dr
+2	Palo Alto Cafe	HasType	coffee or tea place
+2	436 Alger Dr	IsAddressOf	Palo Alto Cafe
+2	coffee or tea place	IsTypeOf	Palo Alto Cafe
+2	Palo Alto Cafe	HasTraffic	heavy traffic
+2	Palo Alto Cafe	HasDistance	3 miles
+2	heavy traffic	IsTrafficOf	Palo Alto Cafe
+2	3 miles	IsDistanceFrom	Palo Alto Cafe
+3	Travelers Lodge	HasAddress	333 Arbol Dr
+3	Travelers Lodge	HasType	rest stop
+3	333 Arbol Dr	IsAddressOf	Travelers Lodge
+3	rest stop	IsTypeOf	Travelers Lodge
+3	Travelers Lodge	HasTraffic	road block nearby
+3	Travelers Lodge	HasDistance	4 miles
+3	road block nearby	IsTrafficOf	Travelers Lodge
+3	4 miles	IsDistanceFrom	Travelers Lodge
+4	tai pan	HasAddress	830 Almanor Ln
+4	tai pan	HasType	chinese restaurant
+4	830 Almanor Ln	IsAddressOf	tai pan
+4	chinese restaurant	IsTypeOf	tai pan
+4	tai pan	HasTraffic	moderate traffic
+4	tai pan	HasDistance	4 miles
+4	moderate traffic	IsTrafficOf	tai pan
+4	4 miles	IsDistanceFrom	tai pan
+5	Papa Johns	HasAddress	110 Arastradero Rd
+5	Papa Johns	HasType	pizza restaurant
+5	110 Arastradero Rd	IsAddressOf	Papa Johns
+5	pizza restaurant	IsTypeOf	Papa Johns
+5	Papa Johns	HasTraffic	moderate traffic
+5	Papa Johns	HasDistance	4 miles
+5	moderate traffic	IsTrafficOf	Papa Johns
+5	4 miles	IsDistanceFrom	Papa Johns
+6	Palo Alto Medical Foundation	HasAddress	611 Ames Ave
+6	Palo Alto Medical Foundation	HasType	hospital
+6	611 Ames Ave	IsAddressOf	Palo Alto Medical Foundation
+6	hospital	IsTypeOf	Palo Alto Medical Foundation
+6	Palo Alto Medical Foundation	HasTraffic	road block nearby
+6	Palo Alto Medical Foundation	HasDistance	3 miles
+6	road block nearby	IsTrafficOf	Palo Alto Medical Foundation
+6	3 miles	IsDistanceFrom	Palo Alto Medical Foundation
+7	Safeway	HasAddress	452 Arcadia Pl
+7	Safeway	HasType	grocery store
+7	452 Arcadia Pl	IsAddressOf	Safeway
+7	grocery store	IsTypeOf	Safeway
+7	Safeway	HasTraffic	road block nearby
+7	Safeway	HasDistance	3 miles
+7	road block nearby	IsTrafficOf	Safeway
+7	3 miles	IsDistanceFrom	Safeway
+-1	today	IsEqualTo	monday

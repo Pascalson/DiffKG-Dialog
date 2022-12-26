@@ -1,0 +1,57 @@
+0	toms house	HasAddress	580 Van Ness Ave
+0	toms house	HasType	friends house
+0	580 Van Ness Ave	IsAddressOf	toms house
+0	friends house	IsTypeOf	toms house
+0	toms house	HasTraffic	no traffic
+0	toms house	HasDistance	6 miles
+0	no traffic	IsTrafficOf	toms house
+0	6 miles	IsDistanceFrom	toms house
+1	Comfort Inn	HasAddress	753 University Ave
+1	Comfort Inn	HasType	rest stop
+1	753 University Ave	IsAddressOf	Comfort Inn
+1	rest stop	IsTypeOf	Comfort Inn
+1	Comfort Inn	HasTraffic	heavy traffic
+1	Comfort Inn	HasDistance	3 miles
+1	heavy traffic	IsTrafficOf	Comfort Inn
+1	3 miles	IsDistanceFrom	Comfort Inn
+2	Safeway	HasAddress	452 Arcadia Pl
+2	Safeway	HasType	grocery store
+2	452 Arcadia Pl	IsAddressOf	Safeway
+2	grocery store	IsTypeOf	Safeway
+2	Safeway	HasTraffic	no traffic
+2	Safeway	HasDistance	6 miles
+2	no traffic	IsTrafficOf	Safeway
+2	6 miles	IsDistanceFrom	Safeway
+3	Midtown Shopping Center	HasAddress	338 Alester Ave
+3	Midtown Shopping Center	HasType	shopping center
+3	338 Alester Ave	IsAddressOf	Midtown Shopping Center
+3	shopping center	IsTypeOf	Midtown Shopping Center
+3	Midtown Shopping Center	HasTraffic	moderate traffic
+3	Midtown Shopping Center	HasDistance	4 miles
+3	moderate traffic	IsTrafficOf	Midtown Shopping Center
+3	4 miles	IsDistanceFrom	Midtown Shopping Center
+4	jills house	HasAddress	347 Alta Mesa Ave
+4	jills house	HasType	friends house
+4	347 Alta Mesa Ave	IsAddressOf	jills house
+4	friends house	IsTypeOf	jills house
+4	jills house	HasTraffic	heavy traffic
+4	jills house	HasDistance	6 miles
+4	heavy traffic	IsTrafficOf	jills house
+4	6 miles	IsDistanceFrom	jills house
+5	Mandarin Roots	HasAddress	271 Springer Street
+5	Mandarin Roots	HasType	chinese restaurant
+5	271 Springer Street	IsAddressOf	Mandarin Roots
+5	chinese restaurant	IsTypeOf	Mandarin Roots
+5	Mandarin Roots	HasTraffic	moderate traffic
+5	Mandarin Roots	HasDistance	2 miles
+5	moderate traffic	IsTrafficOf	Mandarin Roots
+5	2 miles	IsDistanceFrom	Mandarin Roots
+6	Pizza Hut	HasAddress	704 El Camino Real
+6	Pizza Hut	HasType	pizza restaurant
+6	704 El Camino Real	IsAddressOf	Pizza Hut
+6	pizza restaurant	IsTypeOf	Pizza Hut
+6	Pizza Hut	HasTraffic	moderate traffic
+6	Pizza Hut	HasDistance	2 miles
+6	moderate traffic	IsTrafficOf	Pizza Hut
+6	2 miles	IsDistanceFrom	Pizza Hut
+-1	today	IsEqualTo	monday

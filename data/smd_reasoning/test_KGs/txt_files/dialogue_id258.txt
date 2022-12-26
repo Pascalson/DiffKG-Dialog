@@ -1,0 +1,57 @@
+0	Hotel Keen	HasAddress	578 Arbol Dr
+0	Hotel Keen	HasType	rest stop
+0	578 Arbol Dr	IsAddressOf	Hotel Keen
+0	rest stop	IsTypeOf	Hotel Keen
+0	Hotel Keen	HasTraffic	heavy traffic
+0	Hotel Keen	HasDistance	4 miles
+0	heavy traffic	IsTrafficOf	Hotel Keen
+0	4 miles	IsDistanceFrom	Hotel Keen
+1	Stanford Childrens Health	HasAddress	899 Ames Ct
+1	Stanford Childrens Health	HasType	hospital
+1	899 Ames Ct	IsAddressOf	Stanford Childrens Health
+1	hospital	IsTypeOf	Stanford Childrens Health
+1	Stanford Childrens Health	HasTraffic	moderate traffic
+1	Stanford Childrens Health	HasDistance	1 miles
+1	moderate traffic	IsTrafficOf	Stanford Childrens Health
+1	1 miles	IsDistanceFrom	Stanford Childrens Health
+2	Safeway	HasAddress	452 Arcadia Pl
+2	Safeway	HasType	grocery store
+2	452 Arcadia Pl	IsAddressOf	Safeway
+2	grocery store	IsTypeOf	Safeway
+2	Safeway	HasTraffic	no traffic
+2	Safeway	HasDistance	2 miles
+2	no traffic	IsTrafficOf	Safeway
+2	2 miles	IsDistanceFrom	Safeway
+3	Palo Alto Cafe	HasAddress	436 Alger Dr
+3	Palo Alto Cafe	HasType	coffee or tea place
+3	436 Alger Dr	IsAddressOf	Palo Alto Cafe
+3	coffee or tea place	IsTypeOf	Palo Alto Cafe
+3	Palo Alto Cafe	HasTraffic	moderate traffic
+3	Palo Alto Cafe	HasDistance	1 miles
+3	moderate traffic	IsTrafficOf	Palo Alto Cafe
+3	1 miles	IsDistanceFrom	Palo Alto Cafe
+4	Whole Foods	HasAddress	819 Alma St
+4	Whole Foods	HasType	grocery store
+4	819 Alma St	IsAddressOf	Whole Foods
+4	grocery store	IsTypeOf	Whole Foods
+4	Whole Foods	HasTraffic	heavy traffic
+4	Whole Foods	HasDistance	1 miles
+4	heavy traffic	IsTrafficOf	Whole Foods
+4	1 miles	IsDistanceFrom	Whole Foods
+5	Coupa	HasAddress	394 Van Ness Ave
+5	Coupa	HasType	coffee or tea place
+5	394 Van Ness Ave	IsAddressOf	Coupa
+5	coffee or tea place	IsTypeOf	Coupa
+5	Coupa	HasTraffic	moderate traffic
+5	Coupa	HasDistance	6 miles
+5	moderate traffic	IsTrafficOf	Coupa
+5	6 miles	IsDistanceFrom	Coupa
+6	Teavana	HasAddress	145 Amherst St
+6	Teavana	HasType	coffee or tea place
+6	145 Amherst St	IsAddressOf	Teavana
+6	coffee or tea place	IsTypeOf	Teavana
+6	Teavana	HasTraffic	heavy traffic
+6	Teavana	HasDistance	6 miles
+6	heavy traffic	IsTrafficOf	Teavana
+6	6 miles	IsDistanceFrom	Teavana
+-1	today	IsEqualTo	monday

@@ -1,0 +1,53 @@
+0	lab appointment	HasTime	7pm
+0	7pm	IsTimeOf	lab appointment
+0	lab appointment	HasDate	the 4th
+0	the 4th	IsDateOf	lab appointment
+0	lab appointment	HasParty	Jon
+0	Jon	IsPartyOf	lab appointment
+1	football activity	HasTime	6pm
+1	6pm	IsTimeOf	football activity
+1	football activity	HasDate	the 7th
+1	the 7th	IsDateOf	football activity
+1	football activity	HasParty	Jon
+1	Jon	IsPartyOf	football activity
+2	doctor appointment	HasTime	6pm
+2	6pm	IsTimeOf	doctor appointment
+2	doctor appointment	HasDate	the 1st
+2	the 1st	IsDateOf	doctor appointment
+2	doctor appointment	HasParty	Jon
+2	Jon	IsPartyOf	doctor appointment
+3	tennis activity	HasTime	11am
+3	11am	IsTimeOf	tennis activity
+3	tennis activity	HasDate	the 2nd
+3	the 2nd	IsDateOf	tennis activity
+3	tennis activity	HasParty	Jeff
+3	Jeff	IsPartyOf	tennis activity
+4	tennis activity	HasTime	11am
+4	11am	IsTimeOf	tennis activity
+4	tennis activity	HasDate	the 2nd
+4	the 2nd	IsDateOf	tennis activity
+4	tennis activity	HasParty	father
+4	father	IsPartyOf	tennis activity
+5	meeting	HasTime	5pm
+5	5pm	IsTimeOf	meeting
+5	meeting	HasDate	the 7th
+5	the 7th	IsDateOf	meeting
+5	meeting	HasParty	infrastructure team
+5	infrastructure team	IsPartyOf	meeting
+5	meeting	HasRoom	conference room 100
+5	conference room 100	IsRoomOf	meeting
+5	meeting	HasAgenda	discuss dress code
+5	discuss dress code	IsAgendaOf	meeting
+6	dinner	HasTime	7pm
+6	7pm	IsTimeOf	dinner
+6	dinner	HasDate	the 7th
+6	the 7th	IsDateOf	dinner
+6	dinner	HasParty	Tom
+6	Tom	IsPartyOf	dinner
+7	yoga activity	HasTime	4pm
+7	4pm	IsTimeOf	yoga activity
+7	yoga activity	HasDate	the 1st
+7	the 1st	IsDateOf	yoga activity
+7	yoga activity	HasParty	Jon
+7	Jon	IsPartyOf	yoga activity
+-1	today	IsEqualTo	monday

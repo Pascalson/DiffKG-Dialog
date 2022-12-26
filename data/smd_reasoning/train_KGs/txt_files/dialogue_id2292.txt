@@ -1,0 +1,65 @@
+0	Round Table	HasAddress	113 Anton Ct
+0	Round Table	HasType	pizza restaurant
+0	113 Anton Ct	IsAddressOf	Round Table
+0	pizza restaurant	IsTypeOf	Round Table
+0	Round Table	HasTraffic	road block nearby
+0	Round Table	HasDistance	3 miles
+0	road block nearby	IsTrafficOf	Round Table
+0	3 miles	IsDistanceFrom	Round Table
+1	The Clement Hotel	HasAddress	657 Ames Ave
+1	The Clement Hotel	HasType	rest stop
+1	657 Ames Ave	IsAddressOf	The Clement Hotel
+1	rest stop	IsTypeOf	The Clement Hotel
+1	The Clement Hotel	HasTraffic	car collision nearby
+1	The Clement Hotel	HasDistance	2 miles
+1	car collision nearby	IsTrafficOf	The Clement Hotel
+1	2 miles	IsDistanceFrom	The Clement Hotel
+2	Four Seasons	HasAddress	465 Arcadia Pl
+2	Four Seasons	HasType	rest stop
+2	465 Arcadia Pl	IsAddressOf	Four Seasons
+2	rest stop	IsTypeOf	Four Seasons
+2	Four Seasons	HasTraffic	heavy traffic
+2	Four Seasons	HasDistance	4 miles
+2	heavy traffic	IsTrafficOf	Four Seasons
+2	4 miles	IsDistanceFrom	Four Seasons
+3	Panda Express	HasAddress	842 Arrowhead Way
+3	Panda Express	HasType	chinese restaurant
+3	842 Arrowhead Way	IsAddressOf	Panda Express
+3	chinese restaurant	IsTypeOf	Panda Express
+3	Panda Express	HasTraffic	heavy traffic
+3	Panda Express	HasDistance	2 miles
+3	heavy traffic	IsTrafficOf	Panda Express
+3	2 miles	IsDistanceFrom	Panda Express
+4	Travelers Lodge	HasAddress	333 Arbol Dr
+4	Travelers Lodge	HasType	rest stop
+4	333 Arbol Dr	IsAddressOf	Travelers Lodge
+4	rest stop	IsTypeOf	Travelers Lodge
+4	Travelers Lodge	HasTraffic	moderate traffic
+4	Travelers Lodge	HasDistance	4 miles
+4	moderate traffic	IsTrafficOf	Travelers Lodge
+4	4 miles	IsDistanceFrom	Travelers Lodge
+5	Pizza Hut	HasAddress	704 El Camino Real
+5	Pizza Hut	HasType	pizza restaurant
+5	704 El Camino Real	IsAddressOf	Pizza Hut
+5	pizza restaurant	IsTypeOf	Pizza Hut
+5	Pizza Hut	HasTraffic	heavy traffic
+5	Pizza Hut	HasDistance	2 miles
+5	heavy traffic	IsTrafficOf	Pizza Hut
+5	2 miles	IsDistanceFrom	Pizza Hut
+6	Topanga Mall	HasAddress	171 Oak Rd
+6	Topanga Mall	HasType	shopping center
+6	171 Oak Rd	IsAddressOf	Topanga Mall
+6	shopping center	IsTypeOf	Topanga Mall
+6	Topanga Mall	HasTraffic	car collision nearby
+6	Topanga Mall	HasDistance	2 miles
+6	car collision nearby	IsTrafficOf	Topanga Mall
+6	2 miles	IsDistanceFrom	Topanga Mall
+7	Ravenswood Shopping Center	HasAddress	434 Arastradero Rd
+7	Ravenswood Shopping Center	HasType	shopping center
+7	434 Arastradero Rd	IsAddressOf	Ravenswood Shopping Center
+7	shopping center	IsTypeOf	Ravenswood Shopping Center
+7	Ravenswood Shopping Center	HasTraffic	car collision nearby
+7	Ravenswood Shopping Center	HasDistance	4 miles
+7	car collision nearby	IsTrafficOf	Ravenswood Shopping Center
+7	4 miles	IsDistanceFrom	Ravenswood Shopping Center
+-1	today	IsEqualTo	monday

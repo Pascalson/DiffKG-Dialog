@@ -1,0 +1,57 @@
+0	home	HasAddress	56 cadwell street
+0	home	HasType	home
+0	56 cadwell street	IsAddressOf	home
+0	home	IsTypeOf	home
+0	home	HasTraffic	heavy traffic
+0	home	HasDistance	3 miles
+0	heavy traffic	IsTrafficOf	home
+0	3 miles	IsDistanceFrom	home
+1	Stanford Shopping Center	HasAddress	773 Alger Dr
+1	Stanford Shopping Center	HasType	shopping center
+1	773 Alger Dr	IsAddressOf	Stanford Shopping Center
+1	shopping center	IsTypeOf	Stanford Shopping Center
+1	Stanford Shopping Center	HasTraffic	moderate traffic
+1	Stanford Shopping Center	HasDistance	2 miles
+1	moderate traffic	IsTrafficOf	Stanford Shopping Center
+1	2 miles	IsDistanceFrom	Stanford Shopping Center
+2	Philz	HasAddress	583 Alester Ave
+2	Philz	HasType	coffee or tea place
+2	583 Alester Ave	IsAddressOf	Philz
+2	coffee or tea place	IsTypeOf	Philz
+2	Philz	HasTraffic	heavy traffic
+2	Philz	HasDistance	1 miles
+2	heavy traffic	IsTrafficOf	Philz
+2	1 miles	IsDistanceFrom	Philz
+3	Chef Chu's	HasAddress	593 Arrowhead Way
+3	Chef Chu's	HasType	chinese restaurant
+3	593 Arrowhead Way	IsAddressOf	Chef Chu's
+3	chinese restaurant	IsTypeOf	Chef Chu's
+3	Chef Chu's	HasTraffic	moderate traffic
+3	Chef Chu's	HasDistance	4 miles
+3	moderate traffic	IsTrafficOf	Chef Chu's
+3	4 miles	IsDistanceFrom	Chef Chu's
+4	P.F. Changs	HasAddress	669 El Camino Real
+4	P.F. Changs	HasType	chinese restaurant
+4	669 El Camino Real	IsAddressOf	P.F. Changs
+4	chinese restaurant	IsTypeOf	P.F. Changs
+4	P.F. Changs	HasTraffic	heavy traffic
+4	P.F. Changs	HasDistance	4 miles
+4	heavy traffic	IsTrafficOf	P.F. Changs
+4	4 miles	IsDistanceFrom	P.F. Changs
+5	jacks house	HasAddress	864 Almanor Ln
+5	jacks house	HasType	friends house
+5	864 Almanor Ln	IsAddressOf	jacks house
+5	friends house	IsTypeOf	jacks house
+5	jacks house	HasTraffic	moderate traffic
+5	jacks house	HasDistance	1 miles
+5	moderate traffic	IsTrafficOf	jacks house
+5	1 miles	IsDistanceFrom	jacks house
+6	Webster Garage	HasAddress	880 Ames Ct
+6	Webster Garage	HasType	parking garage
+6	880 Ames Ct	IsAddressOf	Webster Garage
+6	parking garage	IsTypeOf	Webster Garage
+6	Webster Garage	HasTraffic	heavy traffic
+6	Webster Garage	HasDistance	1 miles
+6	heavy traffic	IsTrafficOf	Webster Garage
+6	1 miles	IsDistanceFrom	Webster Garage
+-1	today	IsEqualTo	monday

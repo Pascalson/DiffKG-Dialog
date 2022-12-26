@@ -1,0 +1,65 @@
+0	The Clement Hotel	HasAddress	657 Ames Ave
+0	The Clement Hotel	HasType	rest stop
+0	657 Ames Ave	IsAddressOf	The Clement Hotel
+0	rest stop	IsTypeOf	The Clement Hotel
+0	The Clement Hotel	HasTraffic	no traffic
+0	The Clement Hotel	HasDistance	2 miles
+0	no traffic	IsTrafficOf	The Clement Hotel
+0	2 miles	IsDistanceFrom	The Clement Hotel
+1	Dish Parking	HasAddress	550 Alester Ave
+1	Dish Parking	HasType	parking garage
+1	550 Alester Ave	IsAddressOf	Dish Parking
+1	parking garage	IsTypeOf	Dish Parking
+1	Dish Parking	HasTraffic	moderate traffic
+1	Dish Parking	HasDistance	2 miles
+1	moderate traffic	IsTrafficOf	Dish Parking
+1	2 miles	IsDistanceFrom	Dish Parking
+2	toms house	HasAddress	580 Van Ness Ave
+2	toms house	HasType	friends house
+2	580 Van Ness Ave	IsAddressOf	toms house
+2	friends house	IsTypeOf	toms house
+2	toms house	HasTraffic	no traffic
+2	toms house	HasDistance	4 miles
+2	no traffic	IsTrafficOf	toms house
+2	4 miles	IsDistanceFrom	toms house
+3	Palo Alto Medical Foundation	HasAddress	611 Ames Ave
+3	Palo Alto Medical Foundation	HasType	hospital
+3	611 Ames Ave	IsAddressOf	Palo Alto Medical Foundation
+3	hospital	IsTypeOf	Palo Alto Medical Foundation
+3	Palo Alto Medical Foundation	HasTraffic	moderate traffic
+3	Palo Alto Medical Foundation	HasDistance	1 miles
+3	moderate traffic	IsTrafficOf	Palo Alto Medical Foundation
+3	1 miles	IsDistanceFrom	Palo Alto Medical Foundation
+4	tai pan	HasAddress	830 Almanor Ln
+4	tai pan	HasType	chinese restaurant
+4	830 Almanor Ln	IsAddressOf	tai pan
+4	chinese restaurant	IsTypeOf	tai pan
+4	tai pan	HasTraffic	no traffic
+4	tai pan	HasDistance	6 miles
+4	no traffic	IsTrafficOf	tai pan
+4	6 miles	IsDistanceFrom	tai pan
+5	Teavana	HasAddress	145 Amherst St
+5	Teavana	HasType	coffee or tea place
+5	145 Amherst St	IsAddressOf	Teavana
+5	coffee or tea place	IsTypeOf	Teavana
+5	Teavana	HasTraffic	moderate traffic
+5	Teavana	HasDistance	1 miles
+5	moderate traffic	IsTrafficOf	Teavana
+5	1 miles	IsDistanceFrom	Teavana
+6	Palo Alto Cafe	HasAddress	436 Alger Dr
+6	Palo Alto Cafe	HasType	coffee or tea place
+6	436 Alger Dr	IsAddressOf	Palo Alto Cafe
+6	coffee or tea place	IsTypeOf	Palo Alto Cafe
+6	Palo Alto Cafe	HasTraffic	road block nearby
+6	Palo Alto Cafe	HasDistance	6 miles
+6	road block nearby	IsTrafficOf	Palo Alto Cafe
+6	6 miles	IsDistanceFrom	Palo Alto Cafe
+7	Trader Joes	HasAddress	408 University Ave
+7	Trader Joes	HasType	grocery store
+7	408 University Ave	IsAddressOf	Trader Joes
+7	grocery store	IsTypeOf	Trader Joes
+7	Trader Joes	HasTraffic	heavy traffic
+7	Trader Joes	HasDistance	5 miles
+7	heavy traffic	IsTrafficOf	Trader Joes
+7	5 miles	IsDistanceFrom	Trader Joes
+-1	today	IsEqualTo	monday

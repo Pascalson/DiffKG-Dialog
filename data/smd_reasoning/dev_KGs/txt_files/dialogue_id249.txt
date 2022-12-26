@@ -1,0 +1,57 @@
+0	Hotel Keen	HasAddress	578 Arbol Dr
+0	Hotel Keen	HasType	rest stop
+0	578 Arbol Dr	IsAddressOf	Hotel Keen
+0	rest stop	IsTypeOf	Hotel Keen
+0	Hotel Keen	HasTraffic	heavy traffic
+0	Hotel Keen	HasDistance	6 miles
+0	heavy traffic	IsTrafficOf	Hotel Keen
+0	6 miles	IsDistanceFrom	Hotel Keen
+1	5677 springer street	HasAddress	5677 springer street
+1	5677 springer street	HasType	certain address
+1	5677 springer street	IsAddressOf	5677 springer street
+1	certain address	IsTypeOf	5677 springer street
+1	5677 springer street	HasTraffic	no traffic
+1	5677 springer street	HasDistance	5 miles
+1	no traffic	IsTrafficOf	5677 springer street
+1	5 miles	IsDistanceFrom	5677 springer street
+2	home	HasAddress	56 cadwell street
+2	home	HasType	home
+2	56 cadwell street	IsAddressOf	home
+2	home	IsTypeOf	home
+2	home	HasTraffic	moderate traffic
+2	home	HasDistance	4 miles
+2	moderate traffic	IsTrafficOf	home
+2	4 miles	IsDistanceFrom	home
+3	Dominos	HasAddress	776 Arastradero Rd
+3	Dominos	HasType	pizza restaurant
+3	776 Arastradero Rd	IsAddressOf	Dominos
+3	pizza restaurant	IsTypeOf	Dominos
+3	Dominos	HasTraffic	no traffic
+3	Dominos	HasDistance	4 miles
+3	no traffic	IsTrafficOf	Dominos
+3	4 miles	IsDistanceFrom	Dominos
+4	Philz	HasAddress	583 Alester Ave
+4	Philz	HasType	coffee or tea place
+4	583 Alester Ave	IsAddressOf	Philz
+4	coffee or tea place	IsTypeOf	Philz
+4	Philz	HasTraffic	heavy traffic
+4	Philz	HasDistance	6 miles
+4	heavy traffic	IsTrafficOf	Philz
+4	6 miles	IsDistanceFrom	Philz
+5	Pizza Hut	HasAddress	704 El Camino Real
+5	Pizza Hut	HasType	pizza restaurant
+5	704 El Camino Real	IsAddressOf	Pizza Hut
+5	pizza restaurant	IsTypeOf	Pizza Hut
+5	Pizza Hut	HasTraffic	heavy traffic
+5	Pizza Hut	HasDistance	2 miles
+5	heavy traffic	IsTrafficOf	Pizza Hut
+5	2 miles	IsDistanceFrom	Pizza Hut
+6	Ravenswood Shopping Center	HasAddress	434 Arastradero Rd
+6	Ravenswood Shopping Center	HasType	shopping center
+6	434 Arastradero Rd	IsAddressOf	Ravenswood Shopping Center
+6	shopping center	IsTypeOf	Ravenswood Shopping Center
+6	Ravenswood Shopping Center	HasTraffic	no traffic
+6	Ravenswood Shopping Center	HasDistance	3 miles
+6	no traffic	IsTrafficOf	Ravenswood Shopping Center
+6	3 miles	IsDistanceFrom	Ravenswood Shopping Center
+-1	today	IsEqualTo	monday

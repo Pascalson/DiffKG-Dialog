@@ -1,0 +1,57 @@
+0	home	HasAddress	56 cadwell street
+0	home	HasType	home
+0	56 cadwell street	IsAddressOf	home
+0	home	IsTypeOf	home
+0	home	HasTraffic	no traffic
+0	home	HasDistance	5 miles
+0	no traffic	IsTrafficOf	home
+0	5 miles	IsDistanceFrom	home
+1	5677 southwest 4th street	HasAddress	5677 southwest 4th street
+1	5677 southwest 4th street	HasType	certain address
+1	5677 southwest 4th street	IsAddressOf	5677 southwest 4th street
+1	certain address	IsTypeOf	5677 southwest 4th street
+1	5677 southwest 4th street	HasTraffic	moderate traffic
+1	5677 southwest 4th street	HasDistance	1 miles
+1	moderate traffic	IsTrafficOf	5677 southwest 4th street
+1	1 miles	IsDistanceFrom	5677 southwest 4th street
+2	Stanford Express Care	HasAddress	214 El Camino Real
+2	Stanford Express Care	HasType	hospital
+2	214 El Camino Real	IsAddressOf	Stanford Express Care
+2	hospital	IsTypeOf	Stanford Express Care
+2	Stanford Express Care	HasTraffic	moderate traffic
+2	Stanford Express Care	HasDistance	6 miles
+2	moderate traffic	IsTrafficOf	Stanford Express Care
+2	6 miles	IsDistanceFrom	Stanford Express Care
+3	Hotel Keen	HasAddress	578 Arbol Dr
+3	Hotel Keen	HasType	rest stop
+3	578 Arbol Dr	IsAddressOf	Hotel Keen
+3	rest stop	IsTypeOf	Hotel Keen
+3	Hotel Keen	HasTraffic	moderate traffic
+3	Hotel Keen	HasDistance	4 miles
+3	moderate traffic	IsTrafficOf	Hotel Keen
+3	4 miles	IsDistanceFrom	Hotel Keen
+4	Panda Express	HasAddress	842 Arrowhead Way
+4	Panda Express	HasType	chinese restaurant
+4	842 Arrowhead Way	IsAddressOf	Panda Express
+4	chinese restaurant	IsTypeOf	Panda Express
+4	Panda Express	HasTraffic	moderate traffic
+4	Panda Express	HasDistance	2 miles
+4	moderate traffic	IsTrafficOf	Panda Express
+4	2 miles	IsDistanceFrom	Panda Express
+5	Sigona Farmers Market	HasAddress	638 Amherst St
+5	Sigona Farmers Market	HasType	grocery store
+5	638 Amherst St	IsAddressOf	Sigona Farmers Market
+5	grocery store	IsTypeOf	Sigona Farmers Market
+5	Sigona Farmers Market	HasTraffic	heavy traffic
+5	Sigona Farmers Market	HasDistance	1 miles
+5	heavy traffic	IsTrafficOf	Sigona Farmers Market
+5	1 miles	IsDistanceFrom	Sigona Farmers Market
+6	Chef Chu's	HasAddress	593 Arrowhead Way
+6	Chef Chu's	HasType	chinese restaurant
+6	593 Arrowhead Way	IsAddressOf	Chef Chu's
+6	chinese restaurant	IsTypeOf	Chef Chu's
+6	Chef Chu's	HasTraffic	no traffic
+6	Chef Chu's	HasDistance	1 miles
+6	no traffic	IsTrafficOf	Chef Chu's
+6	1 miles	IsDistanceFrom	Chef Chu's
+-1	today	IsEqualTo	monday

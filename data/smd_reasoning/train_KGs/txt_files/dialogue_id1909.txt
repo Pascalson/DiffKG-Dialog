@@ -1,0 +1,57 @@
+0	The Westin	HasAddress	329 El Camino Real
+0	The Westin	HasType	rest stop
+0	329 El Camino Real	IsAddressOf	The Westin
+0	rest stop	IsTypeOf	The Westin
+0	The Westin	HasTraffic	moderate traffic
+0	The Westin	HasDistance	4 miles
+0	moderate traffic	IsTrafficOf	The Westin
+0	4 miles	IsDistanceFrom	The Westin
+1	Four Seasons	HasAddress	465 Arcadia Pl
+1	Four Seasons	HasType	rest stop
+1	465 Arcadia Pl	IsAddressOf	Four Seasons
+1	rest stop	IsTypeOf	Four Seasons
+1	Four Seasons	HasTraffic	no traffic
+1	Four Seasons	HasDistance	5 miles
+1	no traffic	IsTrafficOf	Four Seasons
+1	5 miles	IsDistanceFrom	Four Seasons
+2	Dish Parking	HasAddress	550 Alester Ave
+2	Dish Parking	HasType	parking garage
+2	550 Alester Ave	IsAddressOf	Dish Parking
+2	parking garage	IsTypeOf	Dish Parking
+2	Dish Parking	HasTraffic	moderate traffic
+2	Dish Parking	HasDistance	4 miles
+2	moderate traffic	IsTrafficOf	Dish Parking
+2	4 miles	IsDistanceFrom	Dish Parking
+3	home	HasAddress	56 cadwell street
+3	home	HasType	home
+3	56 cadwell street	IsAddressOf	home
+3	home	IsTypeOf	home
+3	home	HasTraffic	heavy traffic
+3	home	HasDistance	6 miles
+3	heavy traffic	IsTrafficOf	home
+3	6 miles	IsDistanceFrom	home
+4	Chef Chu's	HasAddress	593 Arrowhead Way
+4	Chef Chu's	HasType	chinese restaurant
+4	593 Arrowhead Way	IsAddressOf	Chef Chu's
+4	chinese restaurant	IsTypeOf	Chef Chu's
+4	Chef Chu's	HasTraffic	heavy traffic
+4	Chef Chu's	HasDistance	6 miles
+4	heavy traffic	IsTrafficOf	Chef Chu's
+4	6 miles	IsDistanceFrom	Chef Chu's
+5	Palo Alto Cafe	HasAddress	436 Alger Dr
+5	Palo Alto Cafe	HasType	coffee or tea place
+5	436 Alger Dr	IsAddressOf	Palo Alto Cafe
+5	coffee or tea place	IsTypeOf	Palo Alto Cafe
+5	Palo Alto Cafe	HasTraffic	moderate traffic
+5	Palo Alto Cafe	HasDistance	2 miles
+5	moderate traffic	IsTrafficOf	Palo Alto Cafe
+5	2 miles	IsDistanceFrom	Palo Alto Cafe
+6	Stanford Childrens Health	HasAddress	899 Ames Ct
+6	Stanford Childrens Health	HasType	hospital
+6	899 Ames Ct	IsAddressOf	Stanford Childrens Health
+6	hospital	IsTypeOf	Stanford Childrens Health
+6	Stanford Childrens Health	HasTraffic	heavy traffic
+6	Stanford Childrens Health	HasDistance	1 miles
+6	heavy traffic	IsTrafficOf	Stanford Childrens Health
+6	1 miles	IsDistanceFrom	Stanford Childrens Health
+-1	today	IsEqualTo	monday

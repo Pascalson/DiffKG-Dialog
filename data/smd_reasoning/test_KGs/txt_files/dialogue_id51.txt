@@ -1,0 +1,65 @@
+0	Chef Chu's	HasAddress	593 Arrowhead Way
+0	Chef Chu's	HasType	chinese restaurant
+0	593 Arrowhead Way	IsAddressOf	Chef Chu's
+0	chinese restaurant	IsTypeOf	Chef Chu's
+0	Chef Chu's	HasTraffic	heavy traffic
+0	Chef Chu's	HasDistance	4 miles
+0	heavy traffic	IsTrafficOf	Chef Chu's
+0	4 miles	IsDistanceFrom	Chef Chu's
+1	Whole Foods	HasAddress	819 Alma St
+1	Whole Foods	HasType	grocery store
+1	819 Alma St	IsAddressOf	Whole Foods
+1	grocery store	IsTypeOf	Whole Foods
+1	Whole Foods	HasTraffic	heavy traffic
+1	Whole Foods	HasDistance	5 miles
+1	heavy traffic	IsTrafficOf	Whole Foods
+1	5 miles	IsDistanceFrom	Whole Foods
+2	Stanford Childrens Health	HasAddress	899 Ames Ct
+2	Stanford Childrens Health	HasType	hospital
+2	899 Ames Ct	IsAddressOf	Stanford Childrens Health
+2	hospital	IsTypeOf	Stanford Childrens Health
+2	Stanford Childrens Health	HasTraffic	car collision nearby
+2	Stanford Childrens Health	HasDistance	1 miles
+2	car collision nearby	IsTrafficOf	Stanford Childrens Health
+2	1 miles	IsDistanceFrom	Stanford Childrens Health
+3	Ravenswood Shopping Center	HasAddress	434 Arastradero Rd
+3	Ravenswood Shopping Center	HasType	shopping center
+3	434 Arastradero Rd	IsAddressOf	Ravenswood Shopping Center
+3	shopping center	IsTypeOf	Ravenswood Shopping Center
+3	Ravenswood Shopping Center	HasTraffic	car collision nearby
+3	Ravenswood Shopping Center	HasDistance	6 miles
+3	car collision nearby	IsTrafficOf	Ravenswood Shopping Center
+3	6 miles	IsDistanceFrom	Ravenswood Shopping Center
+4	Webster Garage	HasAddress	880 Ames Ct
+4	Webster Garage	HasType	parking garage
+4	880 Ames Ct	IsAddressOf	Webster Garage
+4	parking garage	IsTypeOf	Webster Garage
+4	Webster Garage	HasTraffic	no traffic
+4	Webster Garage	HasDistance	2 miles
+4	no traffic	IsTrafficOf	Webster Garage
+4	2 miles	IsDistanceFrom	Webster Garage
+5	Four Seasons	HasAddress	465 Arcadia Pl
+5	Four Seasons	HasType	rest stop
+5	465 Arcadia Pl	IsAddressOf	Four Seasons
+5	rest stop	IsTypeOf	Four Seasons
+5	Four Seasons	HasTraffic	road block nearby
+5	Four Seasons	HasDistance	2 miles
+5	road block nearby	IsTrafficOf	Four Seasons
+5	2 miles	IsDistanceFrom	Four Seasons
+6	Chevron	HasAddress	783 Arcadia Pl
+6	Chevron	HasType	gas station
+6	783 Arcadia Pl	IsAddressOf	Chevron
+6	gas station	IsTypeOf	Chevron
+6	Chevron	HasTraffic	no traffic
+6	Chevron	HasDistance	5 miles
+6	no traffic	IsTrafficOf	Chevron
+6	5 miles	IsDistanceFrom	Chevron
+7	Sigona Farmers Market	HasAddress	638 Amherst St
+7	Sigona Farmers Market	HasType	grocery store
+7	638 Amherst St	IsAddressOf	Sigona Farmers Market
+7	grocery store	IsTypeOf	Sigona Farmers Market
+7	Sigona Farmers Market	HasTraffic	road block nearby
+7	Sigona Farmers Market	HasDistance	1 miles
+7	road block nearby	IsTrafficOf	Sigona Farmers Market
+7	1 miles	IsDistanceFrom	Sigona Farmers Market
+-1	today	IsEqualTo	monday

@@ -1,0 +1,65 @@
+0	Willows Market	HasAddress	409 Bollard St
+0	Willows Market	HasType	grocery store
+0	409 Bollard St	IsAddressOf	Willows Market
+0	grocery store	IsTypeOf	Willows Market
+0	Willows Market	HasTraffic	moderate traffic
+0	Willows Market	HasDistance	6 miles
+0	moderate traffic	IsTrafficOf	Willows Market
+0	6 miles	IsDistanceFrom	Willows Market
+1	Stanford Childrens Health	HasAddress	899 Ames Ct
+1	Stanford Childrens Health	HasType	hospital
+1	899 Ames Ct	IsAddressOf	Stanford Childrens Health
+1	hospital	IsTypeOf	Stanford Childrens Health
+1	Stanford Childrens Health	HasTraffic	no traffic
+1	Stanford Childrens Health	HasDistance	8 miles
+1	no traffic	IsTrafficOf	Stanford Childrens Health
+1	8 miles	IsDistanceFrom	Stanford Childrens Health
+2	Palo Alto Medical Foundation	HasAddress	611 Ames Ave
+2	Palo Alto Medical Foundation	HasType	hospital
+2	611 Ames Ave	IsAddressOf	Palo Alto Medical Foundation
+2	hospital	IsTypeOf	Palo Alto Medical Foundation
+2	Palo Alto Medical Foundation	HasTraffic	heavy traffic
+2	Palo Alto Medical Foundation	HasDistance	1 miles
+2	heavy traffic	IsTrafficOf	Palo Alto Medical Foundation
+2	1 miles	IsDistanceFrom	Palo Alto Medical Foundation
+3	Civic Center Garage	HasAddress	270 Altaire Walk
+3	Civic Center Garage	HasType	parking garage
+3	270 Altaire Walk	IsAddressOf	Civic Center Garage
+3	parking garage	IsTypeOf	Civic Center Garage
+3	Civic Center Garage	HasTraffic	moderate traffic
+3	Civic Center Garage	HasDistance	2 miles
+3	moderate traffic	IsTrafficOf	Civic Center Garage
+3	2 miles	IsDistanceFrom	Civic Center Garage
+4	Pizza My Heart	HasAddress	528 Anton Ct
+4	Pizza My Heart	HasType	pizza restaurant
+4	528 Anton Ct	IsAddressOf	Pizza My Heart
+4	pizza restaurant	IsTypeOf	Pizza My Heart
+4	Pizza My Heart	HasTraffic	moderate traffic
+4	Pizza My Heart	HasDistance	4 miles
+4	moderate traffic	IsTrafficOf	Pizza My Heart
+4	4 miles	IsDistanceFrom	Pizza My Heart
+5	home	HasAddress	5671 barringer street
+5	home	HasType	home
+5	5671 barringer street	IsAddressOf	home
+5	home	IsTypeOf	home
+5	home	HasTraffic	road block nearby
+5	home	HasDistance	1 miles
+5	road block nearby	IsTrafficOf	home
+5	1 miles	IsDistanceFrom	home
+6	Cafe Venetia	HasAddress	269 Alger Dr
+6	Cafe Venetia	HasType	coffee or tea place
+6	269 Alger Dr	IsAddressOf	Cafe Venetia
+6	coffee or tea place	IsTypeOf	Cafe Venetia
+6	Cafe Venetia	HasTraffic	moderate traffic
+6	Cafe Venetia	HasDistance	5 miles
+6	moderate traffic	IsTrafficOf	Cafe Venetia
+6	5 miles	IsDistanceFrom	Cafe Venetia
+7	home	HasAddress	56 cadwell street
+7	home	HasType	home
+7	56 cadwell street	IsAddressOf	home
+7	home	IsTypeOf	home
+7	home	HasTraffic	moderate traffic
+7	home	HasDistance	5 miles
+7	moderate traffic	IsTrafficOf	home
+7	5 miles	IsDistanceFrom	home
+-1	today	IsEqualTo	monday

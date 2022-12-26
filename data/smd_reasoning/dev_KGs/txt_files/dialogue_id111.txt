@@ -1,0 +1,65 @@
+0	tennis activity	HasTime	10am
+0	10am	IsTimeOf	tennis activity
+0	tennis activity	HasDate	the 4th
+0	the 4th	IsDateOf	tennis activity
+0	tennis activity	HasParty	Jeff
+0	Jeff	IsPartyOf	tennis activity
+1	tennis activity	HasTime	11am
+1	11am	IsTimeOf	tennis activity
+1	tennis activity	HasDate	the 12th
+1	the 12th	IsDateOf	tennis activity
+1	tennis activity	HasParty	Ana
+1	Ana	IsPartyOf	tennis activity
+2	meeting	HasTime	1pm
+2	1pm	IsTimeOf	meeting
+2	meeting	HasDate	the 3rd
+2	the 3rd	IsDateOf	meeting
+2	meeting	HasParty	sales team
+2	sales team	IsPartyOf	meeting
+2	meeting	HasRoom	conference room 102
+2	conference room 102	IsRoomOf	meeting
+2	meeting	HasAgenda	go over budget
+2	go over budget	IsAgendaOf	meeting
+3	football activity	HasTime	11am
+3	11am	IsTimeOf	football activity
+3	football activity	HasDate	saturday
+3	saturday	IsDateOf	football activity
+3	football activity	HasParty	aunt
+3	aunt	IsPartyOf	football activity
+4	optometrist appointment	HasTime	2pm
+4	2pm	IsTimeOf	optometrist appointment
+4	optometrist appointment	HasDate	the 3rd
+4	the 3rd	IsDateOf	optometrist appointment
+4	optometrist appointment	HasParty	mother
+4	mother	IsPartyOf	optometrist appointment
+5	conference	HasTime	4pm
+5	4pm	IsTimeOf	conference
+5	conference	HasDate	the 6th
+5	the 6th	IsDateOf	conference
+5	conference	HasParty	sales team
+5	sales team	IsPartyOf	conference
+5	conference	HasRoom	conference room 50
+5	conference room 50	IsRoomOf	conference
+5	conference	HasAgenda	go over quarterly report
+5	go over quarterly report	IsAgendaOf	conference
+6	meeting	HasTime	9am
+6	9am	IsTimeOf	meeting
+6	meeting	HasDate	the 3rd
+6	the 3rd	IsDateOf	meeting
+6	meeting	HasParty	sales team
+6	sales team	IsPartyOf	meeting
+6	meeting	HasRoom	conference room 100
+6	conference room 100	IsRoomOf	meeting
+6	meeting	HasAgenda	sign the NDA
+6	sign the NDA	IsAgendaOf	meeting
+7	meeting	HasTime	1pm
+7	1pm	IsTimeOf	meeting
+7	meeting	HasDate	the 12th
+7	the 12th	IsDateOf	meeting
+7	meeting	HasParty	boss
+7	boss	IsPartyOf	meeting
+7	meeting	HasRoom	conference room 102
+7	conference room 102	IsRoomOf	meeting
+7	meeting	HasAgenda	discuss the company picnic
+7	discuss the company picnic	IsAgendaOf	meeting
+-1	today	IsEqualTo	monday

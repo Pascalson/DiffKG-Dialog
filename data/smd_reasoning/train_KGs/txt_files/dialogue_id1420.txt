@@ -1,0 +1,57 @@
+0	Civic Center Garage	HasAddress	270 Altaire Walk
+0	Civic Center Garage	HasType	parking garage
+0	270 Altaire Walk	IsAddressOf	Civic Center Garage
+0	parking garage	IsTypeOf	Civic Center Garage
+0	Civic Center Garage	HasTraffic	moderate traffic
+0	Civic Center Garage	HasDistance	2 miles
+0	moderate traffic	IsTrafficOf	Civic Center Garage
+0	2 miles	IsDistanceFrom	Civic Center Garage
+1	Palo Alto Medical Foundation	HasAddress	611 Ames Ave
+1	Palo Alto Medical Foundation	HasType	hospital
+1	611 Ames Ave	IsAddressOf	Palo Alto Medical Foundation
+1	hospital	IsTypeOf	Palo Alto Medical Foundation
+1	Palo Alto Medical Foundation	HasTraffic	heavy traffic
+1	Palo Alto Medical Foundation	HasDistance	5 miles
+1	heavy traffic	IsTrafficOf	Palo Alto Medical Foundation
+1	5 miles	IsDistanceFrom	Palo Alto Medical Foundation
+2	Pizza Chicago	HasAddress	915 Arbol Dr
+2	Pizza Chicago	HasType	pizza restaurant
+2	915 Arbol Dr	IsAddressOf	Pizza Chicago
+2	pizza restaurant	IsTypeOf	Pizza Chicago
+2	Pizza Chicago	HasTraffic	moderate traffic
+2	Pizza Chicago	HasDistance	2 miles
+2	moderate traffic	IsTrafficOf	Pizza Chicago
+2	2 miles	IsDistanceFrom	Pizza Chicago
+3	Jing Jing	HasAddress	113 Arbol Dr
+3	Jing Jing	HasType	chinese restaurant
+3	113 Arbol Dr	IsAddressOf	Jing Jing
+3	chinese restaurant	IsTypeOf	Jing Jing
+3	Jing Jing	HasTraffic	moderate traffic
+3	Jing Jing	HasDistance	4 miles
+3	moderate traffic	IsTrafficOf	Jing Jing
+3	4 miles	IsDistanceFrom	Jing Jing
+4	Stanford Shopping Center	HasAddress	773 Alger Dr
+4	Stanford Shopping Center	HasType	shopping center
+4	773 Alger Dr	IsAddressOf	Stanford Shopping Center
+4	shopping center	IsTypeOf	Stanford Shopping Center
+4	Stanford Shopping Center	HasTraffic	moderate traffic
+4	Stanford Shopping Center	HasDistance	5 miles
+4	moderate traffic	IsTrafficOf	Stanford Shopping Center
+4	5 miles	IsDistanceFrom	Stanford Shopping Center
+5	Palo Alto Garage R	HasAddress	481 Amaranta Ave
+5	Palo Alto Garage R	HasType	parking garage
+5	481 Amaranta Ave	IsAddressOf	Palo Alto Garage R
+5	parking garage	IsTypeOf	Palo Alto Garage R
+5	Palo Alto Garage R	HasTraffic	no traffic
+5	Palo Alto Garage R	HasDistance	6 miles
+5	no traffic	IsTrafficOf	Palo Alto Garage R
+5	6 miles	IsDistanceFrom	Palo Alto Garage R
+6	Round Table	HasAddress	113 Anton Ct
+6	Round Table	HasType	pizza restaurant
+6	113 Anton Ct	IsAddressOf	Round Table
+6	pizza restaurant	IsTypeOf	Round Table
+6	Round Table	HasTraffic	heavy traffic
+6	Round Table	HasDistance	2 miles
+6	heavy traffic	IsTrafficOf	Round Table
+6	2 miles	IsDistanceFrom	Round Table
+-1	today	IsEqualTo	monday

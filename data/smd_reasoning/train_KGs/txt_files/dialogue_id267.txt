@@ -1,0 +1,65 @@
+0	jacks house	HasAddress	864 Almanor Ln
+0	jacks house	HasType	friends house
+0	864 Almanor Ln	IsAddressOf	jacks house
+0	friends house	IsTypeOf	jacks house
+0	jacks house	HasTraffic	heavy traffic
+0	jacks house	HasDistance	2 miles
+0	heavy traffic	IsTrafficOf	jacks house
+0	2 miles	IsDistanceFrom	jacks house
+1	Mandarin Roots	HasAddress	271 Springer Street
+1	Mandarin Roots	HasType	chinese restaurant
+1	271 Springer Street	IsAddressOf	Mandarin Roots
+1	chinese restaurant	IsTypeOf	Mandarin Roots
+1	Mandarin Roots	HasTraffic	car collision nearby
+1	Mandarin Roots	HasDistance	1 miles
+1	car collision nearby	IsTrafficOf	Mandarin Roots
+1	1 miles	IsDistanceFrom	Mandarin Roots
+2	Pizza Chicago	HasAddress	915 Arbol Dr
+2	Pizza Chicago	HasType	pizza restaurant
+2	915 Arbol Dr	IsAddressOf	Pizza Chicago
+2	pizza restaurant	IsTypeOf	Pizza Chicago
+2	Pizza Chicago	HasTraffic	no traffic
+2	Pizza Chicago	HasDistance	5 miles
+2	no traffic	IsTrafficOf	Pizza Chicago
+2	5 miles	IsDistanceFrom	Pizza Chicago
+3	Stanford Express Care	HasAddress	214 El Camino Real
+3	Stanford Express Care	HasType	hospital
+3	214 El Camino Real	IsAddressOf	Stanford Express Care
+3	hospital	IsTypeOf	Stanford Express Care
+3	Stanford Express Care	HasTraffic	road block nearby
+3	Stanford Express Care	HasDistance	4 miles
+3	road block nearby	IsTrafficOf	Stanford Express Care
+3	4 miles	IsDistanceFrom	Stanford Express Care
+4	Dish Parking	HasAddress	550 Alester Ave
+4	Dish Parking	HasType	parking garage
+4	550 Alester Ave	IsAddressOf	Dish Parking
+4	parking garage	IsTypeOf	Dish Parking
+4	Dish Parking	HasTraffic	moderate traffic
+4	Dish Parking	HasDistance	2 miles
+4	moderate traffic	IsTrafficOf	Dish Parking
+4	2 miles	IsDistanceFrom	Dish Parking
+5	Safeway	HasAddress	452 Arcadia Pl
+5	Safeway	HasType	grocery store
+5	452 Arcadia Pl	IsAddressOf	Safeway
+5	grocery store	IsTypeOf	Safeway
+5	Safeway	HasTraffic	road block nearby
+5	Safeway	HasDistance	4 miles
+5	road block nearby	IsTrafficOf	Safeway
+5	4 miles	IsDistanceFrom	Safeway
+6	Pizza My Heart	HasAddress	528 Anton Ct
+6	Pizza My Heart	HasType	pizza restaurant
+6	528 Anton Ct	IsAddressOf	Pizza My Heart
+6	pizza restaurant	IsTypeOf	Pizza My Heart
+6	Pizza My Heart	HasTraffic	heavy traffic
+6	Pizza My Heart	HasDistance	6 miles
+6	heavy traffic	IsTrafficOf	Pizza My Heart
+6	6 miles	IsDistanceFrom	Pizza My Heart
+7	Stanford Childrens Health	HasAddress	899 Ames Ct
+7	Stanford Childrens Health	HasType	hospital
+7	899 Ames Ct	IsAddressOf	Stanford Childrens Health
+7	hospital	IsTypeOf	Stanford Childrens Health
+7	Stanford Childrens Health	HasTraffic	heavy traffic
+7	Stanford Childrens Health	HasDistance	1 miles
+7	heavy traffic	IsTrafficOf	Stanford Childrens Health
+7	1 miles	IsDistanceFrom	Stanford Childrens Health
+-1	today	IsEqualTo	monday

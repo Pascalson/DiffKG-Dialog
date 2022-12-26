@@ -1,0 +1,65 @@
+0	Stanford Express Care	HasAddress	214 El Camino Real
+0	Stanford Express Care	HasType	hospital
+0	214 El Camino Real	IsAddressOf	Stanford Express Care
+0	hospital	IsTypeOf	Stanford Express Care
+0	Stanford Express Care	HasTraffic	car collision nearby
+0	Stanford Express Care	HasDistance	4 miles
+0	car collision nearby	IsTrafficOf	Stanford Express Care
+0	4 miles	IsDistanceFrom	Stanford Express Care
+1	home	HasAddress	5671 barringer street
+1	home	HasType	home
+1	5671 barringer street	IsAddressOf	home
+1	home	IsTypeOf	home
+1	home	HasTraffic	moderate traffic
+1	home	HasDistance	7 miles
+1	moderate traffic	IsTrafficOf	home
+1	7 miles	IsDistanceFrom	home
+2	Hacienda Market	HasAddress	1313 Chester Ave
+2	Hacienda Market	HasType	grocery store
+2	1313 Chester Ave	IsAddressOf	Hacienda Market
+2	grocery store	IsTypeOf	Hacienda Market
+2	Hacienda Market	HasTraffic	car collision nearby
+2	Hacienda Market	HasDistance	5 miles
+2	car collision nearby	IsTrafficOf	Hacienda Market
+2	5 miles	IsDistanceFrom	Hacienda Market
+3	Mandarin Roots	HasAddress	271 Springer Street
+3	Mandarin Roots	HasType	chinese restaurant
+3	271 Springer Street	IsAddressOf	Mandarin Roots
+3	chinese restaurant	IsTypeOf	Mandarin Roots
+3	Mandarin Roots	HasTraffic	no traffic
+3	Mandarin Roots	HasDistance	1 miles
+3	no traffic	IsTrafficOf	Mandarin Roots
+3	1 miles	IsDistanceFrom	Mandarin Roots
+4	Cafe Venetia	HasAddress	269 Alger Dr
+4	Cafe Venetia	HasType	coffee or tea place
+4	269 Alger Dr	IsAddressOf	Cafe Venetia
+4	coffee or tea place	IsTypeOf	Cafe Venetia
+4	Cafe Venetia	HasTraffic	road block nearby
+4	Cafe Venetia	HasDistance	2 miles
+4	road block nearby	IsTrafficOf	Cafe Venetia
+4	2 miles	IsDistanceFrom	Cafe Venetia
+5	Pizza Chicago	HasAddress	915 Arbol Dr
+5	Pizza Chicago	HasType	pizza restaurant
+5	915 Arbol Dr	IsAddressOf	Pizza Chicago
+5	pizza restaurant	IsTypeOf	Pizza Chicago
+5	Pizza Chicago	HasTraffic	road block nearby
+5	Pizza Chicago	HasDistance	3 miles
+5	road block nearby	IsTrafficOf	Pizza Chicago
+5	3 miles	IsDistanceFrom	Pizza Chicago
+6	Valero	HasAddress	200 Alester Ave
+6	Valero	HasType	gas station
+6	200 Alester Ave	IsAddressOf	Valero
+6	gas station	IsTypeOf	Valero
+6	Valero	HasTraffic	no traffic
+6	Valero	HasDistance	6 miles
+6	no traffic	IsTrafficOf	Valero
+6	6 miles	IsDistanceFrom	Valero
+7	Stanford Childrens Health	HasAddress	899 Ames Ct
+7	Stanford Childrens Health	HasType	hospital
+7	899 Ames Ct	IsAddressOf	Stanford Childrens Health
+7	hospital	IsTypeOf	Stanford Childrens Health
+7	Stanford Childrens Health	HasTraffic	car collision nearby
+7	Stanford Childrens Health	HasDistance	3 miles
+7	car collision nearby	IsTrafficOf	Stanford Childrens Health
+7	3 miles	IsDistanceFrom	Stanford Childrens Health
+-1	today	IsEqualTo	monday

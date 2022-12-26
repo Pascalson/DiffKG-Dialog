@@ -1,0 +1,65 @@
+0	Valero	HasAddress	200 Alester Ave
+0	Valero	HasType	gas station
+0	200 Alester Ave	IsAddressOf	Valero
+0	gas station	IsTypeOf	Valero
+0	Valero	HasTraffic	heavy traffic
+0	Valero	HasDistance	3 miles
+0	heavy traffic	IsTrafficOf	Valero
+0	3 miles	IsDistanceFrom	Valero
+1	Philz	HasAddress	583 Alester Ave
+1	Philz	HasType	coffee or tea place
+1	583 Alester Ave	IsAddressOf	Philz
+1	coffee or tea place	IsTypeOf	Philz
+1	Philz	HasTraffic	road block nearby
+1	Philz	HasDistance	1 miles
+1	road block nearby	IsTrafficOf	Philz
+1	1 miles	IsDistanceFrom	Philz
+2	Pizza Hut	HasAddress	704 El Camino Real
+2	Pizza Hut	HasType	pizza restaurant
+2	704 El Camino Real	IsAddressOf	Pizza Hut
+2	pizza restaurant	IsTypeOf	Pizza Hut
+2	Pizza Hut	HasTraffic	no traffic
+2	Pizza Hut	HasDistance	3 miles
+2	no traffic	IsTrafficOf	Pizza Hut
+2	3 miles	IsDistanceFrom	Pizza Hut
+3	Mandarin Roots	HasAddress	271 Springer Street
+3	Mandarin Roots	HasType	chinese restaurant
+3	271 Springer Street	IsAddressOf	Mandarin Roots
+3	chinese restaurant	IsTypeOf	Mandarin Roots
+3	Mandarin Roots	HasTraffic	heavy traffic
+3	Mandarin Roots	HasDistance	3 miles
+3	heavy traffic	IsTrafficOf	Mandarin Roots
+3	3 miles	IsDistanceFrom	Mandarin Roots
+4	Hacienda Market	HasAddress	1313 Chester Ave
+4	Hacienda Market	HasType	grocery store
+4	1313 Chester Ave	IsAddressOf	Hacienda Market
+4	grocery store	IsTypeOf	Hacienda Market
+4	Hacienda Market	HasTraffic	no traffic
+4	Hacienda Market	HasDistance	5 miles
+4	no traffic	IsTrafficOf	Hacienda Market
+4	5 miles	IsDistanceFrom	Hacienda Market
+5	Pizza Chicago	HasAddress	915 Arbol Dr
+5	Pizza Chicago	HasType	pizza restaurant
+5	915 Arbol Dr	IsAddressOf	Pizza Chicago
+5	pizza restaurant	IsTypeOf	Pizza Chicago
+5	Pizza Chicago	HasTraffic	heavy traffic
+5	Pizza Chicago	HasDistance	2 miles
+5	heavy traffic	IsTrafficOf	Pizza Chicago
+5	2 miles	IsDistanceFrom	Pizza Chicago
+6	Chef Chu's	HasAddress	593 Arrowhead Way
+6	Chef Chu's	HasType	chinese restaurant
+6	593 Arrowhead Way	IsAddressOf	Chef Chu's
+6	chinese restaurant	IsTypeOf	Chef Chu's
+6	Chef Chu's	HasTraffic	no traffic
+6	Chef Chu's	HasDistance	2 miles
+6	no traffic	IsTrafficOf	Chef Chu's
+6	2 miles	IsDistanceFrom	Chef Chu's
+7	Civic Center Garage	HasAddress	270 Altaire Walk
+7	Civic Center Garage	HasType	parking garage
+7	270 Altaire Walk	IsAddressOf	Civic Center Garage
+7	parking garage	IsTypeOf	Civic Center Garage
+7	Civic Center Garage	HasTraffic	moderate traffic
+7	Civic Center Garage	HasDistance	6 miles
+7	moderate traffic	IsTrafficOf	Civic Center Garage
+7	6 miles	IsDistanceFrom	Civic Center Garage
+-1	today	IsEqualTo	monday

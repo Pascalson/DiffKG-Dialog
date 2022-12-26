@@ -1,0 +1,65 @@
+0	Jing Jing	HasAddress	113 Arbol Dr
+0	Jing Jing	HasType	chinese restaurant
+0	113 Arbol Dr	IsAddressOf	Jing Jing
+0	chinese restaurant	IsTypeOf	Jing Jing
+0	Jing Jing	HasTraffic	moderate traffic
+0	Jing Jing	HasDistance	2 miles
+0	moderate traffic	IsTrafficOf	Jing Jing
+0	2 miles	IsDistanceFrom	Jing Jing
+1	5677 springer street	HasAddress	5677 springer street
+1	5677 springer street	HasType	certain address
+1	5677 springer street	IsAddressOf	5677 springer street
+1	certain address	IsTypeOf	5677 springer street
+1	5677 springer street	HasTraffic	no traffic
+1	5677 springer street	HasDistance	5 miles
+1	no traffic	IsTrafficOf	5677 springer street
+1	5 miles	IsDistanceFrom	5677 springer street
+2	home	HasAddress	56 cadwell street
+2	home	HasType	home
+2	56 cadwell street	IsAddressOf	home
+2	home	IsTypeOf	home
+2	home	HasTraffic	car collision nearby
+2	home	HasDistance	3 miles
+2	car collision nearby	IsTrafficOf	home
+2	3 miles	IsDistanceFrom	home
+3	Willows Market	HasAddress	409 Bollard St
+3	Willows Market	HasType	grocery store
+3	409 Bollard St	IsAddressOf	Willows Market
+3	grocery store	IsTypeOf	Willows Market
+3	Willows Market	HasTraffic	road block nearby
+3	Willows Market	HasDistance	6 miles
+3	road block nearby	IsTrafficOf	Willows Market
+3	6 miles	IsDistanceFrom	Willows Market
+4	Coupa	HasAddress	394 Van Ness Ave
+4	Coupa	HasType	coffee or tea place
+4	394 Van Ness Ave	IsAddressOf	Coupa
+4	coffee or tea place	IsTypeOf	Coupa
+4	Coupa	HasTraffic	road block nearby
+4	Coupa	HasDistance	8 miles
+4	road block nearby	IsTrafficOf	Coupa
+4	8 miles	IsDistanceFrom	Coupa
+5	Hacienda Market	HasAddress	1313 Chester Ave
+5	Hacienda Market	HasType	grocery store
+5	1313 Chester Ave	IsAddressOf	Hacienda Market
+5	grocery store	IsTypeOf	Hacienda Market
+5	Hacienda Market	HasTraffic	no traffic
+5	Hacienda Market	HasDistance	3 miles
+5	no traffic	IsTrafficOf	Hacienda Market
+5	3 miles	IsDistanceFrom	Hacienda Market
+6	Pizza My Heart	HasAddress	528 Anton Ct
+6	Pizza My Heart	HasType	pizza restaurant
+6	528 Anton Ct	IsAddressOf	Pizza My Heart
+6	pizza restaurant	IsTypeOf	Pizza My Heart
+6	Pizza My Heart	HasTraffic	car collision nearby
+6	Pizza My Heart	HasDistance	4 miles
+6	car collision nearby	IsTrafficOf	Pizza My Heart
+6	4 miles	IsDistanceFrom	Pizza My Heart
+7	Sigona Farmers Market	HasAddress	638 Amherst St
+7	Sigona Farmers Market	HasType	grocery store
+7	638 Amherst St	IsAddressOf	Sigona Farmers Market
+7	grocery store	IsTypeOf	Sigona Farmers Market
+7	Sigona Farmers Market	HasTraffic	moderate traffic
+7	Sigona Farmers Market	HasDistance	5 miles
+7	moderate traffic	IsTrafficOf	Sigona Farmers Market
+7	5 miles	IsDistanceFrom	Sigona Farmers Market
+-1	today	IsEqualTo	monday

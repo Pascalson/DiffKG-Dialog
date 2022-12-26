@@ -1,0 +1,65 @@
+0	Dominos	HasAddress	776 Arastradero Rd
+0	Dominos	HasType	pizza restaurant
+0	776 Arastradero Rd	IsAddressOf	Dominos
+0	pizza restaurant	IsTypeOf	Dominos
+0	Dominos	HasTraffic	road block nearby
+0	Dominos	HasDistance	5 miles
+0	road block nearby	IsTrafficOf	Dominos
+0	5 miles	IsDistanceFrom	Dominos
+1	Valero	HasAddress	200 Alester Ave
+1	Valero	HasType	gas station
+1	200 Alester Ave	IsAddressOf	Valero
+1	gas station	IsTypeOf	Valero
+1	Valero	HasTraffic	car collision nearby
+1	Valero	HasDistance	6 miles
+1	car collision nearby	IsTrafficOf	Valero
+1	6 miles	IsDistanceFrom	Valero
+2	Stanford Express Care	HasAddress	214 El Camino Real
+2	Stanford Express Care	HasType	hospital
+2	214 El Camino Real	IsAddressOf	Stanford Express Care
+2	hospital	IsTypeOf	Stanford Express Care
+2	Stanford Express Care	HasTraffic	road block nearby
+2	Stanford Express Care	HasDistance	7 miles
+2	road block nearby	IsTrafficOf	Stanford Express Care
+2	7 miles	IsDistanceFrom	Stanford Express Care
+3	Starbucks	HasAddress	792 Bedoin Street
+3	Starbucks	HasType	coffee or tea place
+3	792 Bedoin Street	IsAddressOf	Starbucks
+3	coffee or tea place	IsTypeOf	Starbucks
+3	Starbucks	HasTraffic	road block nearby
+3	Starbucks	HasDistance	4 miles
+3	road block nearby	IsTrafficOf	Starbucks
+3	4 miles	IsDistanceFrom	Starbucks
+4	Papa Johns	HasAddress	110 Arastradero Rd
+4	Papa Johns	HasType	pizza restaurant
+4	110 Arastradero Rd	IsAddressOf	Papa Johns
+4	pizza restaurant	IsTypeOf	Papa Johns
+4	Papa Johns	HasTraffic	heavy traffic
+4	Papa Johns	HasDistance	6 miles
+4	heavy traffic	IsTrafficOf	Papa Johns
+4	6 miles	IsDistanceFrom	Papa Johns
+5	Pizza Hut	HasAddress	704 El Camino Real
+5	Pizza Hut	HasType	pizza restaurant
+5	704 El Camino Real	IsAddressOf	Pizza Hut
+5	pizza restaurant	IsTypeOf	Pizza Hut
+5	Pizza Hut	HasTraffic	no traffic
+5	Pizza Hut	HasDistance	5 miles
+5	no traffic	IsTrafficOf	Pizza Hut
+5	5 miles	IsDistanceFrom	Pizza Hut
+6	Mandarin Roots	HasAddress	271 Springer Street
+6	Mandarin Roots	HasType	chinese restaurant
+6	271 Springer Street	IsAddressOf	Mandarin Roots
+6	chinese restaurant	IsTypeOf	Mandarin Roots
+6	Mandarin Roots	HasTraffic	heavy traffic
+6	Mandarin Roots	HasDistance	2 miles
+6	heavy traffic	IsTrafficOf	Mandarin Roots
+6	2 miles	IsDistanceFrom	Mandarin Roots
+7	Stanford Childrens Health	HasAddress	899 Ames Ct
+7	Stanford Childrens Health	HasType	hospital
+7	899 Ames Ct	IsAddressOf	Stanford Childrens Health
+7	hospital	IsTypeOf	Stanford Childrens Health
+7	Stanford Childrens Health	HasTraffic	heavy traffic
+7	Stanford Childrens Health	HasDistance	5 miles
+7	heavy traffic	IsTrafficOf	Stanford Childrens Health
+7	5 miles	IsDistanceFrom	Stanford Childrens Health
+-1	today	IsEqualTo	monday

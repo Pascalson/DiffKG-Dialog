@@ -1,0 +1,61 @@
+0	conference	HasTime	7pm
+0	7pm	IsTimeOf	conference
+0	conference	HasDate	the 16th
+0	the 16th	IsDateOf	conference
+0	conference	HasParty	sales team
+0	sales team	IsPartyOf	conference
+0	conference	HasRoom	conference room 102
+0	conference room 102	IsRoomOf	conference
+0	conference	HasAgenda	go over budget
+0	go over budget	IsAgendaOf	conference
+1	conference	HasTime	9am
+1	9am	IsTimeOf	conference
+1	conference	HasDate	the 3rd
+1	the 3rd	IsDateOf	conference
+1	conference	HasParty	management
+1	management	IsPartyOf	conference
+1	conference	HasRoom	conference room 100
+1	conference room 100	IsRoomOf	conference
+1	conference	HasAgenda	discuss the merger
+1	discuss the merger	IsAgendaOf	conference
+2	optometrist appointment	HasTime	6pm
+2	6pm	IsTimeOf	optometrist appointment
+2	optometrist appointment	HasDate	friday
+2	friday	IsDateOf	optometrist appointment
+2	optometrist appointment	HasParty	Martha
+2	Martha	IsPartyOf	optometrist appointment
+3	swimming activity	HasTime	2pm
+3	2pm	IsTimeOf	swimming activity
+3	swimming activity	HasDate	the 18th
+3	the 18th	IsDateOf	swimming activity
+3	swimming activity	HasParty	aunt
+3	aunt	IsPartyOf	swimming activity
+4	yoga activity	HasTime	10am
+4	10am	IsTimeOf	yoga activity
+4	yoga activity	HasDate	the 20th
+4	the 20th	IsDateOf	yoga activity
+4	yoga activity	HasParty	sister
+4	sister	IsPartyOf	yoga activity
+5	conference	HasTime	2pm
+5	2pm	IsTimeOf	conference
+5	conference	HasDate	the 4th
+5	the 4th	IsDateOf	conference
+5	conference	HasParty	sales team
+5	sales team	IsPartyOf	conference
+5	conference	HasRoom	conference room 50
+5	conference room 50	IsRoomOf	conference
+5	conference	HasAgenda	sign the NDA
+5	sign the NDA	IsAgendaOf	conference
+6	swimming activity	HasTime	4pm
+6	4pm	IsTimeOf	swimming activity
+6	swimming activity	HasDate	the 14th
+6	the 14th	IsDateOf	swimming activity
+6	swimming activity	HasParty	brother
+6	brother	IsPartyOf	swimming activity
+7	yoga activity	HasTime	2pm
+7	2pm	IsTimeOf	yoga activity
+7	yoga activity	HasDate	the 12th
+7	the 12th	IsDateOf	yoga activity
+7	yoga activity	HasParty	aunt
+7	aunt	IsPartyOf	yoga activity
+-1	today	IsEqualTo	monday

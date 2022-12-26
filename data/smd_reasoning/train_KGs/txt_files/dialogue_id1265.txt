@@ -1,0 +1,65 @@
+0	Peets Coffee	HasAddress	9981 Archuleta Ave
+0	Peets Coffee	HasType	coffee or tea place
+0	9981 Archuleta Ave	IsAddressOf	Peets Coffee
+0	coffee or tea place	IsTypeOf	Peets Coffee
+0	Peets Coffee	HasTraffic	moderate traffic
+0	Peets Coffee	HasDistance	1 miles
+0	moderate traffic	IsTrafficOf	Peets Coffee
+0	1 miles	IsDistanceFrom	Peets Coffee
+1	tai pan	HasAddress	830 Almanor Ln
+1	tai pan	HasType	chinese restaurant
+1	830 Almanor Ln	IsAddressOf	tai pan
+1	chinese restaurant	IsTypeOf	tai pan
+1	tai pan	HasTraffic	road block nearby
+1	tai pan	HasDistance	1 miles
+1	road block nearby	IsTrafficOf	tai pan
+1	1 miles	IsDistanceFrom	tai pan
+2	Round Table	HasAddress	113 Anton Ct
+2	Round Table	HasType	pizza restaurant
+2	113 Anton Ct	IsAddressOf	Round Table
+2	pizza restaurant	IsTypeOf	Round Table
+2	Round Table	HasTraffic	road block nearby
+2	Round Table	HasDistance	2 miles
+2	road block nearby	IsTrafficOf	Round Table
+2	2 miles	IsDistanceFrom	Round Table
+3	Palo Alto Medical Foundation	HasAddress	611 Ames Ave
+3	Palo Alto Medical Foundation	HasType	hospital
+3	611 Ames Ave	IsAddressOf	Palo Alto Medical Foundation
+3	hospital	IsTypeOf	Palo Alto Medical Foundation
+3	Palo Alto Medical Foundation	HasTraffic	moderate traffic
+3	Palo Alto Medical Foundation	HasDistance	4 miles
+3	moderate traffic	IsTrafficOf	Palo Alto Medical Foundation
+3	4 miles	IsDistanceFrom	Palo Alto Medical Foundation
+4	Pizza Chicago	HasAddress	915 Arbol Dr
+4	Pizza Chicago	HasType	pizza restaurant
+4	915 Arbol Dr	IsAddressOf	Pizza Chicago
+4	pizza restaurant	IsTypeOf	Pizza Chicago
+4	Pizza Chicago	HasTraffic	moderate traffic
+4	Pizza Chicago	HasDistance	2 miles
+4	moderate traffic	IsTrafficOf	Pizza Chicago
+4	2 miles	IsDistanceFrom	Pizza Chicago
+5	Papa Johns	HasAddress	110 Arastradero Rd
+5	Papa Johns	HasType	pizza restaurant
+5	110 Arastradero Rd	IsAddressOf	Papa Johns
+5	pizza restaurant	IsTypeOf	Papa Johns
+5	Papa Johns	HasTraffic	no traffic
+5	Papa Johns	HasDistance	5 miles
+5	no traffic	IsTrafficOf	Papa Johns
+5	5 miles	IsDistanceFrom	Papa Johns
+6	Cafe Venetia	HasAddress	269 Alger Dr
+6	Cafe Venetia	HasType	coffee or tea place
+6	269 Alger Dr	IsAddressOf	Cafe Venetia
+6	coffee or tea place	IsTypeOf	Cafe Venetia
+6	Cafe Venetia	HasTraffic	road block nearby
+6	Cafe Venetia	HasDistance	2 miles
+6	road block nearby	IsTrafficOf	Cafe Venetia
+6	2 miles	IsDistanceFrom	Cafe Venetia
+7	P.F. Changs	HasAddress	669 El Camino Real
+7	P.F. Changs	HasType	chinese restaurant
+7	669 El Camino Real	IsAddressOf	P.F. Changs
+7	chinese restaurant	IsTypeOf	P.F. Changs
+7	P.F. Changs	HasTraffic	no traffic
+7	P.F. Changs	HasDistance	6 miles
+7	no traffic	IsTrafficOf	P.F. Changs
+7	6 miles	IsDistanceFrom	P.F. Changs
+-1	today	IsEqualTo	monday

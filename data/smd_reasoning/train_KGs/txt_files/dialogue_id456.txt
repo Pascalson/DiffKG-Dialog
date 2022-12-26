@@ -1,0 +1,65 @@
+0	Mandarin Roots	HasAddress	271 Springer Street
+0	Mandarin Roots	HasType	chinese restaurant
+0	271 Springer Street	IsAddressOf	Mandarin Roots
+0	chinese restaurant	IsTypeOf	Mandarin Roots
+0	Mandarin Roots	HasTraffic	moderate traffic
+0	Mandarin Roots	HasDistance	3 miles
+0	moderate traffic	IsTrafficOf	Mandarin Roots
+0	3 miles	IsDistanceFrom	Mandarin Roots
+1	Stanford Express Care	HasAddress	214 El Camino Real
+1	Stanford Express Care	HasType	hospital
+1	214 El Camino Real	IsAddressOf	Stanford Express Care
+1	hospital	IsTypeOf	Stanford Express Care
+1	Stanford Express Care	HasTraffic	heavy traffic
+1	Stanford Express Care	HasDistance	5 miles
+1	heavy traffic	IsTrafficOf	Stanford Express Care
+1	5 miles	IsDistanceFrom	Stanford Express Care
+2	Palo Alto Garage R	HasAddress	481 Amaranta Ave
+2	Palo Alto Garage R	HasType	parking garage
+2	481 Amaranta Ave	IsAddressOf	Palo Alto Garage R
+2	parking garage	IsTypeOf	Palo Alto Garage R
+2	Palo Alto Garage R	HasTraffic	car collision nearby
+2	Palo Alto Garage R	HasDistance	2 miles
+2	car collision nearby	IsTrafficOf	Palo Alto Garage R
+2	2 miles	IsDistanceFrom	Palo Alto Garage R
+3	Topanga Mall	HasAddress	171 Oak Rd
+3	Topanga Mall	HasType	shopping center
+3	171 Oak Rd	IsAddressOf	Topanga Mall
+3	shopping center	IsTypeOf	Topanga Mall
+3	Topanga Mall	HasTraffic	no traffic
+3	Topanga Mall	HasDistance	4 miles
+3	no traffic	IsTrafficOf	Topanga Mall
+3	4 miles	IsDistanceFrom	Topanga Mall
+4	Safeway	HasAddress	452 Arcadia Pl
+4	Safeway	HasType	grocery store
+4	452 Arcadia Pl	IsAddressOf	Safeway
+4	grocery store	IsTypeOf	Safeway
+4	Safeway	HasTraffic	car collision nearby
+4	Safeway	HasDistance	2 miles
+4	car collision nearby	IsTrafficOf	Safeway
+4	2 miles	IsDistanceFrom	Safeway
+5	Town and Country	HasAddress	383 University Ave
+5	Town and Country	HasType	shopping center
+5	383 University Ave	IsAddressOf	Town and Country
+5	shopping center	IsTypeOf	Town and Country
+5	Town and Country	HasTraffic	road block nearby
+5	Town and Country	HasDistance	2 miles
+5	road block nearby	IsTrafficOf	Town and Country
+5	2 miles	IsDistanceFrom	Town and Country
+6	toms house	HasAddress	580 Van Ness Ave
+6	toms house	HasType	friends house
+6	580 Van Ness Ave	IsAddressOf	toms house
+6	friends house	IsTypeOf	toms house
+6	toms house	HasTraffic	moderate traffic
+6	toms house	HasDistance	4 miles
+6	moderate traffic	IsTrafficOf	toms house
+6	4 miles	IsDistanceFrom	toms house
+7	Civic Center Garage	HasAddress	270 Altaire Walk
+7	Civic Center Garage	HasType	parking garage
+7	270 Altaire Walk	IsAddressOf	Civic Center Garage
+7	parking garage	IsTypeOf	Civic Center Garage
+7	Civic Center Garage	HasTraffic	road block nearby
+7	Civic Center Garage	HasDistance	4 miles
+7	road block nearby	IsTrafficOf	Civic Center Garage
+7	4 miles	IsDistanceFrom	Civic Center Garage
+-1	today	IsEqualTo	monday

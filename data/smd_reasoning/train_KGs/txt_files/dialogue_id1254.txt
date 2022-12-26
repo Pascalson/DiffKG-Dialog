@@ -1,0 +1,65 @@
+0	Civic Center Garage	HasAddress	270 Altaire Walk
+0	Civic Center Garage	HasType	parking garage
+0	270 Altaire Walk	IsAddressOf	Civic Center Garage
+0	parking garage	IsTypeOf	Civic Center Garage
+0	Civic Center Garage	HasTraffic	car collision nearby
+0	Civic Center Garage	HasDistance	1 miles
+0	car collision nearby	IsTrafficOf	Civic Center Garage
+0	1 miles	IsDistanceFrom	Civic Center Garage
+1	Starbucks	HasAddress	792 Bedoin Street
+1	Starbucks	HasType	coffee or tea place
+1	792 Bedoin Street	IsAddressOf	Starbucks
+1	coffee or tea place	IsTypeOf	Starbucks
+1	Starbucks	HasTraffic	moderate traffic
+1	Starbucks	HasDistance	4 miles
+1	moderate traffic	IsTrafficOf	Starbucks
+1	4 miles	IsDistanceFrom	Starbucks
+2	Stanford Express Care	HasAddress	214 El Camino Real
+2	Stanford Express Care	HasType	hospital
+2	214 El Camino Real	IsAddressOf	Stanford Express Care
+2	hospital	IsTypeOf	Stanford Express Care
+2	Stanford Express Care	HasTraffic	heavy traffic
+2	Stanford Express Care	HasDistance	2 miles
+2	heavy traffic	IsTrafficOf	Stanford Express Care
+2	2 miles	IsDistanceFrom	Stanford Express Care
+3	Dish Parking	HasAddress	550 Alester Ave
+3	Dish Parking	HasType	parking garage
+3	550 Alester Ave	IsAddressOf	Dish Parking
+3	parking garage	IsTypeOf	Dish Parking
+3	Dish Parking	HasTraffic	moderate traffic
+3	Dish Parking	HasDistance	7 miles
+3	moderate traffic	IsTrafficOf	Dish Parking
+3	7 miles	IsDistanceFrom	Dish Parking
+4	Valero	HasAddress	200 Alester Ave
+4	Valero	HasType	gas station
+4	200 Alester Ave	IsAddressOf	Valero
+4	gas station	IsTypeOf	Valero
+4	Valero	HasTraffic	heavy traffic
+4	Valero	HasDistance	1 miles
+4	heavy traffic	IsTrafficOf	Valero
+4	1 miles	IsDistanceFrom	Valero
+5	Palo Alto Cafe	HasAddress	436 Alger Dr
+5	Palo Alto Cafe	HasType	coffee or tea place
+5	436 Alger Dr	IsAddressOf	Palo Alto Cafe
+5	coffee or tea place	IsTypeOf	Palo Alto Cafe
+5	Palo Alto Cafe	HasTraffic	car collision nearby
+5	Palo Alto Cafe	HasDistance	1 miles
+5	car collision nearby	IsTrafficOf	Palo Alto Cafe
+5	1 miles	IsDistanceFrom	Palo Alto Cafe
+6	Comfort Inn	HasAddress	753 University Ave
+6	Comfort Inn	HasType	rest stop
+6	753 University Ave	IsAddressOf	Comfort Inn
+6	rest stop	IsTypeOf	Comfort Inn
+6	Comfort Inn	HasTraffic	car collision nearby
+6	Comfort Inn	HasDistance	4 miles
+6	car collision nearby	IsTrafficOf	Comfort Inn
+6	4 miles	IsDistanceFrom	Comfort Inn
+7	Ravenswood Shopping Center	HasAddress	434 Arastradero Rd
+7	Ravenswood Shopping Center	HasType	shopping center
+7	434 Arastradero Rd	IsAddressOf	Ravenswood Shopping Center
+7	shopping center	IsTypeOf	Ravenswood Shopping Center
+7	Ravenswood Shopping Center	HasTraffic	moderate traffic
+7	Ravenswood Shopping Center	HasDistance	6 miles
+7	moderate traffic	IsTrafficOf	Ravenswood Shopping Center
+7	6 miles	IsDistanceFrom	Ravenswood Shopping Center
+-1	today	IsEqualTo	monday

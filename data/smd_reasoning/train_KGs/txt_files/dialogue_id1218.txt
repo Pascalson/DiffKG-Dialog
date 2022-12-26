@@ -1,0 +1,57 @@
+0	Round Table	HasAddress	113 Anton Ct
+0	Round Table	HasType	pizza restaurant
+0	113 Anton Ct	IsAddressOf	Round Table
+0	pizza restaurant	IsTypeOf	Round Table
+0	Round Table	HasTraffic	moderate traffic
+0	Round Table	HasDistance	6 miles
+0	moderate traffic	IsTrafficOf	Round Table
+0	6 miles	IsDistanceFrom	Round Table
+1	Sigona Farmers Market	HasAddress	638 Amherst St
+1	Sigona Farmers Market	HasType	grocery store
+1	638 Amherst St	IsAddressOf	Sigona Farmers Market
+1	grocery store	IsTypeOf	Sigona Farmers Market
+1	Sigona Farmers Market	HasTraffic	no traffic
+1	Sigona Farmers Market	HasDistance	4 miles
+1	no traffic	IsTrafficOf	Sigona Farmers Market
+1	4 miles	IsDistanceFrom	Sigona Farmers Market
+2	Teavana	HasAddress	145 Amherst St
+2	Teavana	HasType	coffee or tea place
+2	145 Amherst St	IsAddressOf	Teavana
+2	coffee or tea place	IsTypeOf	Teavana
+2	Teavana	HasTraffic	no traffic
+2	Teavana	HasDistance	4 miles
+2	no traffic	IsTrafficOf	Teavana
+2	4 miles	IsDistanceFrom	Teavana
+3	Comfort Inn	HasAddress	753 University Ave
+3	Comfort Inn	HasType	rest stop
+3	753 University Ave	IsAddressOf	Comfort Inn
+3	rest stop	IsTypeOf	Comfort Inn
+3	Comfort Inn	HasTraffic	heavy traffic
+3	Comfort Inn	HasDistance	1 miles
+3	heavy traffic	IsTrafficOf	Comfort Inn
+3	1 miles	IsDistanceFrom	Comfort Inn
+4	Panda Express	HasAddress	842 Arrowhead Way
+4	Panda Express	HasType	chinese restaurant
+4	842 Arrowhead Way	IsAddressOf	Panda Express
+4	chinese restaurant	IsTypeOf	Panda Express
+4	Panda Express	HasTraffic	moderate traffic
+4	Panda Express	HasDistance	6 miles
+4	moderate traffic	IsTrafficOf	Panda Express
+4	6 miles	IsDistanceFrom	Panda Express
+5	P.F. Changs	HasAddress	669 El Camino Real
+5	P.F. Changs	HasType	chinese restaurant
+5	669 El Camino Real	IsAddressOf	P.F. Changs
+5	chinese restaurant	IsTypeOf	P.F. Changs
+5	P.F. Changs	HasTraffic	moderate traffic
+5	P.F. Changs	HasDistance	5 miles
+5	moderate traffic	IsTrafficOf	P.F. Changs
+5	5 miles	IsDistanceFrom	P.F. Changs
+6	Civic Center Garage	HasAddress	270 Altaire Walk
+6	Civic Center Garage	HasType	parking garage
+6	270 Altaire Walk	IsAddressOf	Civic Center Garage
+6	parking garage	IsTypeOf	Civic Center Garage
+6	Civic Center Garage	HasTraffic	moderate traffic
+6	Civic Center Garage	HasDistance	2 miles
+6	moderate traffic	IsTrafficOf	Civic Center Garage
+6	2 miles	IsDistanceFrom	Civic Center Garage
+-1	today	IsEqualTo	monday

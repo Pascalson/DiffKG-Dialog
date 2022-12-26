@@ -1,0 +1,65 @@
+0	Travelers Lodge	HasAddress	333 Arbol Dr
+0	Travelers Lodge	HasType	rest stop
+0	333 Arbol Dr	IsAddressOf	Travelers Lodge
+0	rest stop	IsTypeOf	Travelers Lodge
+0	Travelers Lodge	HasTraffic	road block nearby
+0	Travelers Lodge	HasDistance	4 miles
+0	road block nearby	IsTrafficOf	Travelers Lodge
+0	4 miles	IsDistanceFrom	Travelers Lodge
+1	Four Seasons	HasAddress	465 Arcadia Pl
+1	Four Seasons	HasType	rest stop
+1	465 Arcadia Pl	IsAddressOf	Four Seasons
+1	rest stop	IsTypeOf	Four Seasons
+1	Four Seasons	HasTraffic	heavy traffic
+1	Four Seasons	HasDistance	6 miles
+1	heavy traffic	IsTrafficOf	Four Seasons
+1	6 miles	IsDistanceFrom	Four Seasons
+2	Willows Market	HasAddress	409 Bollard St
+2	Willows Market	HasType	grocery store
+2	409 Bollard St	IsAddressOf	Willows Market
+2	grocery store	IsTypeOf	Willows Market
+2	Willows Market	HasTraffic	road block nearby
+2	Willows Market	HasDistance	6 miles
+2	road block nearby	IsTrafficOf	Willows Market
+2	6 miles	IsDistanceFrom	Willows Market
+3	Coupa	HasAddress	394 Van Ness Ave
+3	Coupa	HasType	coffee or tea place
+3	394 Van Ness Ave	IsAddressOf	Coupa
+3	coffee or tea place	IsTypeOf	Coupa
+3	Coupa	HasTraffic	moderate traffic
+3	Coupa	HasDistance	5 miles
+3	moderate traffic	IsTrafficOf	Coupa
+3	5 miles	IsDistanceFrom	Coupa
+4	Chevron	HasAddress	783 Arcadia Pl
+4	Chevron	HasType	gas station
+4	783 Arcadia Pl	IsAddressOf	Chevron
+4	gas station	IsTypeOf	Chevron
+4	Chevron	HasTraffic	car collision nearby
+4	Chevron	HasDistance	4 miles
+4	car collision nearby	IsTrafficOf	Chevron
+4	4 miles	IsDistanceFrom	Chevron
+5	Dish Parking	HasAddress	550 Alester Ave
+5	Dish Parking	HasType	parking garage
+5	550 Alester Ave	IsAddressOf	Dish Parking
+5	parking garage	IsTypeOf	Dish Parking
+5	Dish Parking	HasTraffic	moderate traffic
+5	Dish Parking	HasDistance	2 miles
+5	moderate traffic	IsTrafficOf	Dish Parking
+5	2 miles	IsDistanceFrom	Dish Parking
+6	Pizza Chicago	HasAddress	915 Arbol Dr
+6	Pizza Chicago	HasType	pizza restaurant
+6	915 Arbol Dr	IsAddressOf	Pizza Chicago
+6	pizza restaurant	IsTypeOf	Pizza Chicago
+6	Pizza Chicago	HasTraffic	moderate traffic
+6	Pizza Chicago	HasDistance	3 miles
+6	moderate traffic	IsTrafficOf	Pizza Chicago
+6	3 miles	IsDistanceFrom	Pizza Chicago
+7	Pizza My Heart	HasAddress	528 Anton Ct
+7	Pizza My Heart	HasType	pizza restaurant
+7	528 Anton Ct	IsAddressOf	Pizza My Heart
+7	pizza restaurant	IsTypeOf	Pizza My Heart
+7	Pizza My Heart	HasTraffic	road block nearby
+7	Pizza My Heart	HasDistance	4 miles
+7	road block nearby	IsTrafficOf	Pizza My Heart
+7	4 miles	IsDistanceFrom	Pizza My Heart
+-1	today	IsEqualTo	monday

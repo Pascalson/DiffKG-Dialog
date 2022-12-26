@@ -1,0 +1,65 @@
+0	Palo Alto Medical Foundation	HasAddress	611 Ames Ave
+0	Palo Alto Medical Foundation	HasType	hospital
+0	611 Ames Ave	IsAddressOf	Palo Alto Medical Foundation
+0	hospital	IsTypeOf	Palo Alto Medical Foundation
+0	Palo Alto Medical Foundation	HasTraffic	moderate traffic
+0	Palo Alto Medical Foundation	HasDistance	2 miles
+0	moderate traffic	IsTrafficOf	Palo Alto Medical Foundation
+0	2 miles	IsDistanceFrom	Palo Alto Medical Foundation
+1	Chef Chu's	HasAddress	593 Arrowhead Way
+1	Chef Chu's	HasType	chinese restaurant
+1	593 Arrowhead Way	IsAddressOf	Chef Chu's
+1	chinese restaurant	IsTypeOf	Chef Chu's
+1	Chef Chu's	HasTraffic	road block nearby
+1	Chef Chu's	HasDistance	6 miles
+1	road block nearby	IsTrafficOf	Chef Chu's
+1	6 miles	IsDistanceFrom	Chef Chu's
+2	Stanford Childrens Health	HasAddress	899 Ames Ct
+2	Stanford Childrens Health	HasType	hospital
+2	899 Ames Ct	IsAddressOf	Stanford Childrens Health
+2	hospital	IsTypeOf	Stanford Childrens Health
+2	Stanford Childrens Health	HasTraffic	heavy traffic
+2	Stanford Childrens Health	HasDistance	1 miles
+2	heavy traffic	IsTrafficOf	Stanford Childrens Health
+2	1 miles	IsDistanceFrom	Stanford Childrens Health
+3	Philz	HasAddress	583 Alester Ave
+3	Philz	HasType	coffee or tea place
+3	583 Alester Ave	IsAddressOf	Philz
+3	coffee or tea place	IsTypeOf	Philz
+3	Philz	HasTraffic	heavy traffic
+3	Philz	HasDistance	1 miles
+3	heavy traffic	IsTrafficOf	Philz
+3	1 miles	IsDistanceFrom	Philz
+4	home	HasAddress	56 cadwell street
+4	home	HasType	home
+4	56 cadwell street	IsAddressOf	home
+4	home	IsTypeOf	home
+4	home	HasTraffic	moderate traffic
+4	home	HasDistance	4 miles
+4	moderate traffic	IsTrafficOf	home
+4	4 miles	IsDistanceFrom	home
+5	Dominos	HasAddress	776 Arastradero Rd
+5	Dominos	HasType	pizza restaurant
+5	776 Arastradero Rd	IsAddressOf	Dominos
+5	pizza restaurant	IsTypeOf	Dominos
+5	Dominos	HasTraffic	no traffic
+5	Dominos	HasDistance	3 miles
+5	no traffic	IsTrafficOf	Dominos
+5	3 miles	IsDistanceFrom	Dominos
+6	jacks house	HasAddress	864 Almanor Ln
+6	jacks house	HasType	friends house
+6	864 Almanor Ln	IsAddressOf	jacks house
+6	friends house	IsTypeOf	jacks house
+6	jacks house	HasTraffic	heavy traffic
+6	jacks house	HasDistance	1 miles
+6	heavy traffic	IsTrafficOf	jacks house
+6	1 miles	IsDistanceFrom	jacks house
+7	Civic Center Garage	HasAddress	270 Altaire Walk
+7	Civic Center Garage	HasType	parking garage
+7	270 Altaire Walk	IsAddressOf	Civic Center Garage
+7	parking garage	IsTypeOf	Civic Center Garage
+7	Civic Center Garage	HasTraffic	no traffic
+7	Civic Center Garage	HasDistance	2 miles
+7	no traffic	IsTrafficOf	Civic Center Garage
+7	2 miles	IsDistanceFrom	Civic Center Garage
+-1	today	IsEqualTo	monday

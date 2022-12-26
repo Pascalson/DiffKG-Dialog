@@ -1,0 +1,57 @@
+0	Cafe Venetia	HasAddress	269 Alger Dr
+0	Cafe Venetia	HasType	coffee or tea place
+0	269 Alger Dr	IsAddressOf	Cafe Venetia
+0	coffee or tea place	IsTypeOf	Cafe Venetia
+0	Cafe Venetia	HasTraffic	moderate traffic
+0	Cafe Venetia	HasDistance	1 miles
+0	moderate traffic	IsTrafficOf	Cafe Venetia
+0	1 miles	IsDistanceFrom	Cafe Venetia
+1	Palo Alto Garage R	HasAddress	481 Amaranta Ave
+1	Palo Alto Garage R	HasType	parking garage
+1	481 Amaranta Ave	IsAddressOf	Palo Alto Garage R
+1	parking garage	IsTypeOf	Palo Alto Garage R
+1	Palo Alto Garage R	HasTraffic	no traffic
+1	Palo Alto Garage R	HasDistance	5 miles
+1	no traffic	IsTrafficOf	Palo Alto Garage R
+1	5 miles	IsDistanceFrom	Palo Alto Garage R
+2	Stanford Oval Parking	HasAddress	610 Amarillo Ave
+2	Stanford Oval Parking	HasType	parking garage
+2	610 Amarillo Ave	IsAddressOf	Stanford Oval Parking
+2	parking garage	IsTypeOf	Stanford Oval Parking
+2	Stanford Oval Parking	HasTraffic	moderate traffic
+2	Stanford Oval Parking	HasDistance	5 miles
+2	moderate traffic	IsTrafficOf	Stanford Oval Parking
+2	5 miles	IsDistanceFrom	Stanford Oval Parking
+3	Ravenswood Shopping Center	HasAddress	434 Arastradero Rd
+3	Ravenswood Shopping Center	HasType	shopping center
+3	434 Arastradero Rd	IsAddressOf	Ravenswood Shopping Center
+3	shopping center	IsTypeOf	Ravenswood Shopping Center
+3	Ravenswood Shopping Center	HasTraffic	moderate traffic
+3	Ravenswood Shopping Center	HasDistance	3 miles
+3	moderate traffic	IsTrafficOf	Ravenswood Shopping Center
+3	3 miles	IsDistanceFrom	Ravenswood Shopping Center
+4	Stanford Shopping Center	HasAddress	773 Alger Dr
+4	Stanford Shopping Center	HasType	shopping center
+4	773 Alger Dr	IsAddressOf	Stanford Shopping Center
+4	shopping center	IsTypeOf	Stanford Shopping Center
+4	Stanford Shopping Center	HasTraffic	moderate traffic
+4	Stanford Shopping Center	HasDistance	3 miles
+4	moderate traffic	IsTrafficOf	Stanford Shopping Center
+4	3 miles	IsDistanceFrom	Stanford Shopping Center
+5	Comfort Inn	HasAddress	753 University Ave
+5	Comfort Inn	HasType	rest stop
+5	753 University Ave	IsAddressOf	Comfort Inn
+5	rest stop	IsTypeOf	Comfort Inn
+5	Comfort Inn	HasTraffic	moderate traffic
+5	Comfort Inn	HasDistance	5 miles
+5	moderate traffic	IsTrafficOf	Comfort Inn
+5	5 miles	IsDistanceFrom	Comfort Inn
+6	home	HasAddress	5671 barringer street
+6	home	HasType	home
+6	5671 barringer street	IsAddressOf	home
+6	home	IsTypeOf	home
+6	home	HasTraffic	moderate traffic
+6	home	HasDistance	3 miles
+6	moderate traffic	IsTrafficOf	home
+6	3 miles	IsDistanceFrom	home
+-1	today	IsEqualTo	monday

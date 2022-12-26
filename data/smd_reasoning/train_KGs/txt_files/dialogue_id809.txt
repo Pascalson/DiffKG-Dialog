@@ -1,0 +1,57 @@
+0	Stanford Shopping Center	HasAddress	773 Alger Dr
+0	Stanford Shopping Center	HasType	shopping center
+0	773 Alger Dr	IsAddressOf	Stanford Shopping Center
+0	shopping center	IsTypeOf	Stanford Shopping Center
+0	Stanford Shopping Center	HasTraffic	moderate traffic
+0	Stanford Shopping Center	HasDistance	3 miles
+0	moderate traffic	IsTrafficOf	Stanford Shopping Center
+0	3 miles	IsDistanceFrom	Stanford Shopping Center
+1	Panda Express	HasAddress	842 Arrowhead Way
+1	Panda Express	HasType	chinese restaurant
+1	842 Arrowhead Way	IsAddressOf	Panda Express
+1	chinese restaurant	IsTypeOf	Panda Express
+1	Panda Express	HasTraffic	heavy traffic
+1	Panda Express	HasDistance	4 miles
+1	heavy traffic	IsTrafficOf	Panda Express
+1	4 miles	IsDistanceFrom	Panda Express
+2	home	HasAddress	5671 barringer street
+2	home	HasType	home
+2	5671 barringer street	IsAddressOf	home
+2	home	IsTypeOf	home
+2	home	HasTraffic	heavy traffic
+2	home	HasDistance	1 miles
+2	heavy traffic	IsTrafficOf	home
+2	1 miles	IsDistanceFrom	home
+3	Stanford Childrens Health	HasAddress	899 Ames Ct
+3	Stanford Childrens Health	HasType	hospital
+3	899 Ames Ct	IsAddressOf	Stanford Childrens Health
+3	hospital	IsTypeOf	Stanford Childrens Health
+3	Stanford Childrens Health	HasTraffic	heavy traffic
+3	Stanford Childrens Health	HasDistance	4 miles
+3	heavy traffic	IsTrafficOf	Stanford Childrens Health
+3	4 miles	IsDistanceFrom	Stanford Childrens Health
+4	Webster Garage	HasAddress	880 Ames Ct
+4	Webster Garage	HasType	parking garage
+4	880 Ames Ct	IsAddressOf	Webster Garage
+4	parking garage	IsTypeOf	Webster Garage
+4	Webster Garage	HasTraffic	no traffic
+4	Webster Garage	HasDistance	6 miles
+4	no traffic	IsTrafficOf	Webster Garage
+4	6 miles	IsDistanceFrom	Webster Garage
+5	tai pan	HasAddress	830 Almanor Ln
+5	tai pan	HasType	chinese restaurant
+5	830 Almanor Ln	IsAddressOf	tai pan
+5	chinese restaurant	IsTypeOf	tai pan
+5	tai pan	HasTraffic	moderate traffic
+5	tai pan	HasDistance	2 miles
+5	moderate traffic	IsTrafficOf	tai pan
+5	2 miles	IsDistanceFrom	tai pan
+6	Trader Joes	HasAddress	408 University Ave
+6	Trader Joes	HasType	grocery store
+6	408 University Ave	IsAddressOf	Trader Joes
+6	grocery store	IsTypeOf	Trader Joes
+6	Trader Joes	HasTraffic	heavy traffic
+6	Trader Joes	HasDistance	3 miles
+6	heavy traffic	IsTrafficOf	Trader Joes
+6	3 miles	IsDistanceFrom	Trader Joes
+-1	today	IsEqualTo	monday

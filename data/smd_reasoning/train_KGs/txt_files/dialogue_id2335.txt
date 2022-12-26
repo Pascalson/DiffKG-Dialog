@@ -1,0 +1,65 @@
+0	Palo Alto Medical Foundation	HasAddress	611 Ames Ave
+0	Palo Alto Medical Foundation	HasType	hospital
+0	611 Ames Ave	IsAddressOf	Palo Alto Medical Foundation
+0	hospital	IsTypeOf	Palo Alto Medical Foundation
+0	Palo Alto Medical Foundation	HasTraffic	moderate traffic
+0	Palo Alto Medical Foundation	HasDistance	4 miles
+0	moderate traffic	IsTrafficOf	Palo Alto Medical Foundation
+0	4 miles	IsDistanceFrom	Palo Alto Medical Foundation
+1	Travelers Lodge	HasAddress	333 Arbol Dr
+1	Travelers Lodge	HasType	rest stop
+1	333 Arbol Dr	IsAddressOf	Travelers Lodge
+1	rest stop	IsTypeOf	Travelers Lodge
+1	Travelers Lodge	HasTraffic	road block nearby
+1	Travelers Lodge	HasDistance	3 miles
+1	road block nearby	IsTrafficOf	Travelers Lodge
+1	3 miles	IsDistanceFrom	Travelers Lodge
+2	Pizza Chicago	HasAddress	915 Arbol Dr
+2	Pizza Chicago	HasType	pizza restaurant
+2	915 Arbol Dr	IsAddressOf	Pizza Chicago
+2	pizza restaurant	IsTypeOf	Pizza Chicago
+2	Pizza Chicago	HasTraffic	moderate traffic
+2	Pizza Chicago	HasDistance	2 miles
+2	moderate traffic	IsTrafficOf	Pizza Chicago
+2	2 miles	IsDistanceFrom	Pizza Chicago
+3	Whole Foods	HasAddress	819 Alma St
+3	Whole Foods	HasType	grocery store
+3	819 Alma St	IsAddressOf	Whole Foods
+3	grocery store	IsTypeOf	Whole Foods
+3	Whole Foods	HasTraffic	car collision nearby
+3	Whole Foods	HasDistance	6 miles
+3	car collision nearby	IsTrafficOf	Whole Foods
+3	6 miles	IsDistanceFrom	Whole Foods
+4	Pizza Hut	HasAddress	704 El Camino Real
+4	Pizza Hut	HasType	pizza restaurant
+4	704 El Camino Real	IsAddressOf	Pizza Hut
+4	pizza restaurant	IsTypeOf	Pizza Hut
+4	Pizza Hut	HasTraffic	moderate traffic
+4	Pizza Hut	HasDistance	2 miles
+4	moderate traffic	IsTrafficOf	Pizza Hut
+4	2 miles	IsDistanceFrom	Pizza Hut
+5	Stanford Childrens Health	HasAddress	899 Ames Ct
+5	Stanford Childrens Health	HasType	hospital
+5	899 Ames Ct	IsAddressOf	Stanford Childrens Health
+5	hospital	IsTypeOf	Stanford Childrens Health
+5	Stanford Childrens Health	HasTraffic	moderate traffic
+5	Stanford Childrens Health	HasDistance	6 miles
+5	moderate traffic	IsTrafficOf	Stanford Childrens Health
+5	6 miles	IsDistanceFrom	Stanford Childrens Health
+6	Dish Parking	HasAddress	550 Alester Ave
+6	Dish Parking	HasType	parking garage
+6	550 Alester Ave	IsAddressOf	Dish Parking
+6	parking garage	IsTypeOf	Dish Parking
+6	Dish Parking	HasTraffic	road block nearby
+6	Dish Parking	HasDistance	6 miles
+6	road block nearby	IsTrafficOf	Dish Parking
+6	6 miles	IsDistanceFrom	Dish Parking
+7	Teavana	HasAddress	145 Amherst St
+7	Teavana	HasType	coffee or tea place
+7	145 Amherst St	IsAddressOf	Teavana
+7	coffee or tea place	IsTypeOf	Teavana
+7	Teavana	HasTraffic	no traffic
+7	Teavana	HasDistance	6 miles
+7	no traffic	IsTrafficOf	Teavana
+7	6 miles	IsDistanceFrom	Teavana
+-1	today	IsEqualTo	monday

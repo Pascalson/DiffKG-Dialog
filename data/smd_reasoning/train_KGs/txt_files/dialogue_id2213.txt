@@ -1,0 +1,65 @@
+0	Chevron	HasAddress	783 Arcadia Pl
+0	Chevron	HasType	gas station
+0	783 Arcadia Pl	IsAddressOf	Chevron
+0	gas station	IsTypeOf	Chevron
+0	Chevron	HasTraffic	moderate traffic
+0	Chevron	HasDistance	5 miles
+0	moderate traffic	IsTrafficOf	Chevron
+0	5 miles	IsDistanceFrom	Chevron
+1	jills house	HasAddress	347 Alta Mesa Ave
+1	jills house	HasType	friends house
+1	347 Alta Mesa Ave	IsAddressOf	jills house
+1	friends house	IsTypeOf	jills house
+1	jills house	HasTraffic	heavy traffic
+1	jills house	HasDistance	5 miles
+1	heavy traffic	IsTrafficOf	jills house
+1	5 miles	IsDistanceFrom	jills house
+2	home	HasAddress	10 ames street
+2	home	HasType	home
+2	10 ames street	IsAddressOf	home
+2	home	IsTypeOf	home
+2	home	HasTraffic	heavy traffic
+2	home	HasDistance	3 miles
+2	heavy traffic	IsTrafficOf	home
+2	3 miles	IsDistanceFrom	home
+3	Stanford Express Care	HasAddress	214 El Camino Real
+3	Stanford Express Care	HasType	hospital
+3	214 El Camino Real	IsAddressOf	Stanford Express Care
+3	hospital	IsTypeOf	Stanford Express Care
+3	Stanford Express Care	HasTraffic	moderate traffic
+3	Stanford Express Care	HasDistance	5 miles
+3	moderate traffic	IsTrafficOf	Stanford Express Care
+3	5 miles	IsDistanceFrom	Stanford Express Care
+4	Mandarin Roots	HasAddress	271 Springer Street
+4	Mandarin Roots	HasType	chinese restaurant
+4	271 Springer Street	IsAddressOf	Mandarin Roots
+4	chinese restaurant	IsTypeOf	Mandarin Roots
+4	Mandarin Roots	HasTraffic	road block nearby
+4	Mandarin Roots	HasDistance	2 miles
+4	road block nearby	IsTrafficOf	Mandarin Roots
+4	2 miles	IsDistanceFrom	Mandarin Roots
+5	Teavana	HasAddress	145 Amherst St
+5	Teavana	HasType	coffee or tea place
+5	145 Amherst St	IsAddressOf	Teavana
+5	coffee or tea place	IsTypeOf	Teavana
+5	Teavana	HasTraffic	heavy traffic
+5	Teavana	HasDistance	3 miles
+5	heavy traffic	IsTrafficOf	Teavana
+5	3 miles	IsDistanceFrom	Teavana
+6	Papa Johns	HasAddress	110 Arastradero Rd
+6	Papa Johns	HasType	pizza restaurant
+6	110 Arastradero Rd	IsAddressOf	Papa Johns
+6	pizza restaurant	IsTypeOf	Papa Johns
+6	Papa Johns	HasTraffic	moderate traffic
+6	Papa Johns	HasDistance	5 miles
+6	moderate traffic	IsTrafficOf	Papa Johns
+6	5 miles	IsDistanceFrom	Papa Johns
+7	Pizza Chicago	HasAddress	915 Arbol Dr
+7	Pizza Chicago	HasType	pizza restaurant
+7	915 Arbol Dr	IsAddressOf	Pizza Chicago
+7	pizza restaurant	IsTypeOf	Pizza Chicago
+7	Pizza Chicago	HasTraffic	moderate traffic
+7	Pizza Chicago	HasDistance	4 miles
+7	moderate traffic	IsTrafficOf	Pizza Chicago
+7	4 miles	IsDistanceFrom	Pizza Chicago
+-1	today	IsEqualTo	monday

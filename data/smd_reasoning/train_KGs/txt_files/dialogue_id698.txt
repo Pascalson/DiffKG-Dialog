@@ -1,0 +1,65 @@
+0	toms house	HasAddress	580 Van Ness Ave
+0	toms house	HasType	friends house
+0	580 Van Ness Ave	IsAddressOf	toms house
+0	friends house	IsTypeOf	toms house
+0	toms house	HasTraffic	car collision nearby
+0	toms house	HasDistance	2 miles
+0	car collision nearby	IsTrafficOf	toms house
+0	2 miles	IsDistanceFrom	toms house
+1	Whole Foods	HasAddress	819 Alma St
+1	Whole Foods	HasType	grocery store
+1	819 Alma St	IsAddressOf	Whole Foods
+1	grocery store	IsTypeOf	Whole Foods
+1	Whole Foods	HasTraffic	no traffic
+1	Whole Foods	HasDistance	6 miles
+1	no traffic	IsTrafficOf	Whole Foods
+1	6 miles	IsDistanceFrom	Whole Foods
+2	Jing Jing	HasAddress	113 Arbol Dr
+2	Jing Jing	HasType	chinese restaurant
+2	113 Arbol Dr	IsAddressOf	Jing Jing
+2	chinese restaurant	IsTypeOf	Jing Jing
+2	Jing Jing	HasTraffic	no traffic
+2	Jing Jing	HasDistance	1 miles
+2	no traffic	IsTrafficOf	Jing Jing
+2	1 miles	IsDistanceFrom	Jing Jing
+3	Four Seasons	HasAddress	465 Arcadia Pl
+3	Four Seasons	HasType	rest stop
+3	465 Arcadia Pl	IsAddressOf	Four Seasons
+3	rest stop	IsTypeOf	Four Seasons
+3	Four Seasons	HasTraffic	road block nearby
+3	Four Seasons	HasDistance	2 miles
+3	road block nearby	IsTrafficOf	Four Seasons
+3	2 miles	IsDistanceFrom	Four Seasons
+4	Shell	HasAddress	53 University Av
+4	Shell	HasType	gas station
+4	53 University Av	IsAddressOf	Shell
+4	gas station	IsTypeOf	Shell
+4	Shell	HasTraffic	no traffic
+4	Shell	HasDistance	6 miles
+4	no traffic	IsTrafficOf	Shell
+4	6 miles	IsDistanceFrom	Shell
+5	The Westin	HasAddress	329 El Camino Real
+5	The Westin	HasType	rest stop
+5	329 El Camino Real	IsAddressOf	The Westin
+5	rest stop	IsTypeOf	The Westin
+5	The Westin	HasTraffic	moderate traffic
+5	The Westin	HasDistance	3 miles
+5	moderate traffic	IsTrafficOf	The Westin
+5	3 miles	IsDistanceFrom	The Westin
+6	Coupa	HasAddress	394 Van Ness Ave
+6	Coupa	HasType	coffee or tea place
+6	394 Van Ness Ave	IsAddressOf	Coupa
+6	coffee or tea place	IsTypeOf	Coupa
+6	Coupa	HasTraffic	car collision nearby
+6	Coupa	HasDistance	6 miles
+6	car collision nearby	IsTrafficOf	Coupa
+6	6 miles	IsDistanceFrom	Coupa
+7	5672 barringer street	HasAddress	5672 barringer street
+7	5672 barringer street	HasType	certain address
+7	5672 barringer street	IsAddressOf	5672 barringer street
+7	certain address	IsTypeOf	5672 barringer street
+7	5672 barringer street	HasTraffic	road block nearby
+7	5672 barringer street	HasDistance	3 miles
+7	road block nearby	IsTrafficOf	5672 barringer street
+7	3 miles	IsDistanceFrom	5672 barringer street
+-1	today	IsEqualTo	monday

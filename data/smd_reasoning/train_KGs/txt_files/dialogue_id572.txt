@@ -1,0 +1,57 @@
+0	5677 springer street	HasAddress	5677 springer street
+0	5677 springer street	HasType	certain address
+0	5677 springer street	IsAddressOf	5677 springer street
+0	certain address	IsTypeOf	5677 springer street
+0	5677 springer street	HasTraffic	no traffic
+0	5677 springer street	HasDistance	1 miles
+0	no traffic	IsTrafficOf	5677 springer street
+0	1 miles	IsDistanceFrom	5677 springer street
+1	Teavana	HasAddress	145 Amherst St
+1	Teavana	HasType	coffee or tea place
+1	145 Amherst St	IsAddressOf	Teavana
+1	coffee or tea place	IsTypeOf	Teavana
+1	Teavana	HasTraffic	heavy traffic
+1	Teavana	HasDistance	2 miles
+1	heavy traffic	IsTrafficOf	Teavana
+1	2 miles	IsDistanceFrom	Teavana
+2	Palo Alto Garage R	HasAddress	481 Amaranta Ave
+2	Palo Alto Garage R	HasType	parking garage
+2	481 Amaranta Ave	IsAddressOf	Palo Alto Garage R
+2	parking garage	IsTypeOf	Palo Alto Garage R
+2	Palo Alto Garage R	HasTraffic	moderate traffic
+2	Palo Alto Garage R	HasDistance	2 miles
+2	moderate traffic	IsTrafficOf	Palo Alto Garage R
+2	2 miles	IsDistanceFrom	Palo Alto Garage R
+3	Chef Chu's	HasAddress	593 Arrowhead Way
+3	Chef Chu's	HasType	chinese restaurant
+3	593 Arrowhead Way	IsAddressOf	Chef Chu's
+3	chinese restaurant	IsTypeOf	Chef Chu's
+3	Chef Chu's	HasTraffic	heavy traffic
+3	Chef Chu's	HasDistance	5 miles
+3	heavy traffic	IsTrafficOf	Chef Chu's
+3	5 miles	IsDistanceFrom	Chef Chu's
+4	Jing Jing	HasAddress	113 Arbol Dr
+4	Jing Jing	HasType	chinese restaurant
+4	113 Arbol Dr	IsAddressOf	Jing Jing
+4	chinese restaurant	IsTypeOf	Jing Jing
+4	Jing Jing	HasTraffic	heavy traffic
+4	Jing Jing	HasDistance	5 miles
+4	heavy traffic	IsTrafficOf	Jing Jing
+4	5 miles	IsDistanceFrom	Jing Jing
+5	Civic Center Garage	HasAddress	270 Altaire Walk
+5	Civic Center Garage	HasType	parking garage
+5	270 Altaire Walk	IsAddressOf	Civic Center Garage
+5	parking garage	IsTypeOf	Civic Center Garage
+5	Civic Center Garage	HasTraffic	no traffic
+5	Civic Center Garage	HasDistance	4 miles
+5	no traffic	IsTrafficOf	Civic Center Garage
+5	4 miles	IsDistanceFrom	Civic Center Garage
+6	Cafe Venetia	HasAddress	269 Alger Dr
+6	Cafe Venetia	HasType	coffee or tea place
+6	269 Alger Dr	IsAddressOf	Cafe Venetia
+6	coffee or tea place	IsTypeOf	Cafe Venetia
+6	Cafe Venetia	HasTraffic	no traffic
+6	Cafe Venetia	HasDistance	4 miles
+6	no traffic	IsTrafficOf	Cafe Venetia
+6	4 miles	IsDistanceFrom	Cafe Venetia
+-1	today	IsEqualTo	monday

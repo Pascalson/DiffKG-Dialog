@@ -1,0 +1,57 @@
+0	Chef Chu's	HasAddress	593 Arrowhead Way
+0	Chef Chu's	HasType	chinese restaurant
+0	593 Arrowhead Way	IsAddressOf	Chef Chu's
+0	chinese restaurant	IsTypeOf	Chef Chu's
+0	Chef Chu's	HasTraffic	no traffic
+0	Chef Chu's	HasDistance	5 miles
+0	no traffic	IsTrafficOf	Chef Chu's
+0	5 miles	IsDistanceFrom	Chef Chu's
+1	Comfort Inn	HasAddress	753 University Ave
+1	Comfort Inn	HasType	rest stop
+1	753 University Ave	IsAddressOf	Comfort Inn
+1	rest stop	IsTypeOf	Comfort Inn
+1	Comfort Inn	HasTraffic	moderate traffic
+1	Comfort Inn	HasDistance	4 miles
+1	moderate traffic	IsTrafficOf	Comfort Inn
+1	4 miles	IsDistanceFrom	Comfort Inn
+2	Cafe Venetia	HasAddress	269 Alger Dr
+2	Cafe Venetia	HasType	coffee or tea place
+2	269 Alger Dr	IsAddressOf	Cafe Venetia
+2	coffee or tea place	IsTypeOf	Cafe Venetia
+2	Cafe Venetia	HasTraffic	moderate traffic
+2	Cafe Venetia	HasDistance	3 miles
+2	moderate traffic	IsTrafficOf	Cafe Venetia
+2	3 miles	IsDistanceFrom	Cafe Venetia
+3	Trader Joes	HasAddress	408 University Ave
+3	Trader Joes	HasType	grocery store
+3	408 University Ave	IsAddressOf	Trader Joes
+3	grocery store	IsTypeOf	Trader Joes
+3	Trader Joes	HasTraffic	moderate traffic
+3	Trader Joes	HasDistance	3 miles
+3	moderate traffic	IsTrafficOf	Trader Joes
+3	3 miles	IsDistanceFrom	Trader Joes
+4	home	HasAddress	56 cadwell street
+4	home	HasType	home
+4	56 cadwell street	IsAddressOf	home
+4	home	IsTypeOf	home
+4	home	HasTraffic	heavy traffic
+4	home	HasDistance	2 miles
+4	heavy traffic	IsTrafficOf	home
+4	2 miles	IsDistanceFrom	home
+5	Jing Jing	HasAddress	113 Arbol Dr
+5	Jing Jing	HasType	chinese restaurant
+5	113 Arbol Dr	IsAddressOf	Jing Jing
+5	chinese restaurant	IsTypeOf	Jing Jing
+5	Jing Jing	HasTraffic	no traffic
+5	Jing Jing	HasDistance	6 miles
+5	no traffic	IsTrafficOf	Jing Jing
+5	6 miles	IsDistanceFrom	Jing Jing
+6	5677 springer street	HasAddress	5677 springer street
+6	5677 springer street	HasType	certain address
+6	5677 springer street	IsAddressOf	5677 springer street
+6	certain address	IsTypeOf	5677 springer street
+6	5677 springer street	HasTraffic	moderate traffic
+6	5677 springer street	HasDistance	2 miles
+6	moderate traffic	IsTrafficOf	5677 springer street
+6	2 miles	IsDistanceFrom	5677 springer street
+-1	today	IsEqualTo	monday

@@ -1,0 +1,65 @@
+0	swimming activity	HasTime	4pm
+0	4pm	IsTimeOf	swimming activity
+0	swimming activity	HasDate	the 5th
+0	the 5th	IsDateOf	swimming activity
+0	swimming activity	HasParty	Jon
+0	Jon	IsPartyOf	swimming activity
+1	meeting	HasTime	7pm
+1	7pm	IsTimeOf	meeting
+1	meeting	HasDate	sunday
+1	sunday	IsDateOf	meeting
+1	meeting	HasParty	vice president
+1	vice president	IsPartyOf	meeting
+1	meeting	HasRoom	conference room 50
+1	conference room 50	IsRoomOf	meeting
+1	meeting	HasAgenda	sign the NDA
+1	sign the NDA	IsAgendaOf	meeting
+2	meeting	HasTime	11am
+2	11am	IsTimeOf	meeting
+2	meeting	HasDate	the 8th
+2	the 8th	IsDateOf	meeting
+2	meeting	HasParty	management
+2	management	IsPartyOf	meeting
+2	meeting	HasRoom	conference room 100
+2	conference room 100	IsRoomOf	meeting
+2	meeting	HasAgenda	go over quarterly report
+2	go over quarterly report	IsAgendaOf	meeting
+3	meeting	HasTime	6pm
+3	6pm	IsTimeOf	meeting
+3	meeting	HasDate	friday
+3	friday	IsDateOf	meeting
+3	meeting	HasParty	vice president
+3	vice president	IsPartyOf	meeting
+3	meeting	HasRoom	conference room 50
+3	conference room 50	IsRoomOf	meeting
+3	meeting	HasAgenda	go over budget
+3	go over budget	IsAgendaOf	meeting
+4	meeting	HasTime	1pm
+4	1pm	IsTimeOf	meeting
+4	meeting	HasDate	sunday
+4	sunday	IsDateOf	meeting
+4	meeting	HasParty	boss
+4	boss	IsPartyOf	meeting
+4	meeting	HasRoom	conference room 50
+4	conference room 50	IsRoomOf	meeting
+4	meeting	HasAgenda	onboard new members
+4	onboard new members	IsAgendaOf	meeting
+5	dinner	HasTime	5pm
+5	5pm	IsTimeOf	dinner
+5	dinner	HasDate	the 13th
+5	the 13th	IsDateOf	dinner
+5	dinner	HasParty	father
+5	father	IsPartyOf	dinner
+6	dinner	HasTime	7pm
+6	7pm	IsTimeOf	dinner
+6	dinner	HasDate	saturday
+6	saturday	IsDateOf	dinner
+6	dinner	HasParty	aunt
+6	aunt	IsPartyOf	dinner
+7	dinner	HasTime	6pm
+7	6pm	IsTimeOf	dinner
+7	dinner	HasDate	wednesday
+7	wednesday	IsDateOf	dinner
+7	dinner	HasParty	aunt
+7	aunt	IsPartyOf	dinner
+-1	today	IsEqualTo	monday

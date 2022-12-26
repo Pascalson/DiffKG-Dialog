@@ -1,0 +1,57 @@
+0	jills house	HasAddress	347 Alta Mesa Ave
+0	jills house	HasType	friends house
+0	347 Alta Mesa Ave	IsAddressOf	jills house
+0	friends house	IsTypeOf	jills house
+0	jills house	HasTraffic	moderate traffic
+0	jills house	HasDistance	5 miles
+0	moderate traffic	IsTrafficOf	jills house
+0	5 miles	IsDistanceFrom	jills house
+1	5677 springer street	HasAddress	5677 springer street
+1	5677 springer street	HasType	certain address
+1	5677 springer street	IsAddressOf	5677 springer street
+1	certain address	IsTypeOf	5677 springer street
+1	5677 springer street	HasTraffic	no traffic
+1	5677 springer street	HasDistance	6 miles
+1	no traffic	IsTrafficOf	5677 springer street
+1	6 miles	IsDistanceFrom	5677 springer street
+2	5677 southwest 4th street	HasAddress	5677 southwest 4th street
+2	5677 southwest 4th street	HasType	certain address
+2	5677 southwest 4th street	IsAddressOf	5677 southwest 4th street
+2	certain address	IsTypeOf	5677 southwest 4th street
+2	5677 southwest 4th street	HasTraffic	no traffic
+2	5677 southwest 4th street	HasDistance	3 miles
+2	no traffic	IsTrafficOf	5677 southwest 4th street
+2	3 miles	IsDistanceFrom	5677 southwest 4th street
+3	Valero	HasAddress	200 Alester Ave
+3	Valero	HasType	gas station
+3	200 Alester Ave	IsAddressOf	Valero
+3	gas station	IsTypeOf	Valero
+3	Valero	HasTraffic	no traffic
+3	Valero	HasDistance	6 miles
+3	no traffic	IsTrafficOf	Valero
+3	6 miles	IsDistanceFrom	Valero
+4	home	HasAddress	5671 barringer street
+4	home	HasType	home
+4	5671 barringer street	IsAddressOf	home
+4	home	IsTypeOf	home
+4	home	HasTraffic	moderate traffic
+4	home	HasDistance	3 miles
+4	moderate traffic	IsTrafficOf	home
+4	3 miles	IsDistanceFrom	home
+5	jacks house	HasAddress	864 Almanor Ln
+5	jacks house	HasType	friends house
+5	864 Almanor Ln	IsAddressOf	jacks house
+5	friends house	IsTypeOf	jacks house
+5	jacks house	HasTraffic	no traffic
+5	jacks house	HasDistance	3 miles
+5	no traffic	IsTrafficOf	jacks house
+5	3 miles	IsDistanceFrom	jacks house
+6	Midtown Shopping Center	HasAddress	338 Alester Ave
+6	Midtown Shopping Center	HasType	shopping center
+6	338 Alester Ave	IsAddressOf	Midtown Shopping Center
+6	shopping center	IsTypeOf	Midtown Shopping Center
+6	Midtown Shopping Center	HasTraffic	no traffic
+6	Midtown Shopping Center	HasDistance	2 miles
+6	no traffic	IsTrafficOf	Midtown Shopping Center
+6	2 miles	IsDistanceFrom	Midtown Shopping Center
+-1	today	IsEqualTo	monday

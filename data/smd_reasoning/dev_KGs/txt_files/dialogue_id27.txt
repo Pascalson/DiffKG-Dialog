@@ -1,0 +1,57 @@
+0	Civic Center Garage	HasAddress	270 Altaire Walk
+0	Civic Center Garage	HasType	parking garage
+0	270 Altaire Walk	IsAddressOf	Civic Center Garage
+0	parking garage	IsTypeOf	Civic Center Garage
+0	Civic Center Garage	HasTraffic	heavy traffic
+0	Civic Center Garage	HasDistance	6 miles
+0	heavy traffic	IsTrafficOf	Civic Center Garage
+0	6 miles	IsDistanceFrom	Civic Center Garage
+1	Stanford Express Care	HasAddress	214 El Camino Real
+1	Stanford Express Care	HasType	hospital
+1	214 El Camino Real	IsAddressOf	Stanford Express Care
+1	hospital	IsTypeOf	Stanford Express Care
+1	Stanford Express Care	HasTraffic	moderate traffic
+1	Stanford Express Care	HasDistance	3 miles
+1	moderate traffic	IsTrafficOf	Stanford Express Care
+1	3 miles	IsDistanceFrom	Stanford Express Care
+2	Palo Alto Medical Foundation	HasAddress	611 Ames Ave
+2	Palo Alto Medical Foundation	HasType	hospital
+2	611 Ames Ave	IsAddressOf	Palo Alto Medical Foundation
+2	hospital	IsTypeOf	Palo Alto Medical Foundation
+2	Palo Alto Medical Foundation	HasTraffic	heavy traffic
+2	Palo Alto Medical Foundation	HasDistance	5 miles
+2	heavy traffic	IsTrafficOf	Palo Alto Medical Foundation
+2	5 miles	IsDistanceFrom	Palo Alto Medical Foundation
+3	5672 barringer street	HasAddress	5672 barringer street
+3	5672 barringer street	HasType	certain address
+3	5672 barringer street	IsAddressOf	5672 barringer street
+3	certain address	IsTypeOf	5672 barringer street
+3	5672 barringer street	HasTraffic	moderate traffic
+3	5672 barringer street	HasDistance	1 miles
+3	moderate traffic	IsTrafficOf	5672 barringer street
+3	1 miles	IsDistanceFrom	5672 barringer street
+4	Webster Garage	HasAddress	880 Ames Ct
+4	Webster Garage	HasType	parking garage
+4	880 Ames Ct	IsAddressOf	Webster Garage
+4	parking garage	IsTypeOf	Webster Garage
+4	Webster Garage	HasTraffic	heavy traffic
+4	Webster Garage	HasDistance	5 miles
+4	heavy traffic	IsTrafficOf	Webster Garage
+4	5 miles	IsDistanceFrom	Webster Garage
+5	Valero	HasAddress	200 Alester Ave
+5	Valero	HasType	gas station
+5	200 Alester Ave	IsAddressOf	Valero
+5	gas station	IsTypeOf	Valero
+5	Valero	HasTraffic	no traffic
+5	Valero	HasDistance	1 miles
+5	no traffic	IsTrafficOf	Valero
+5	1 miles	IsDistanceFrom	Valero
+6	Sigona Farmers Market	HasAddress	638 Amherst St
+6	Sigona Farmers Market	HasType	grocery store
+6	638 Amherst St	IsAddressOf	Sigona Farmers Market
+6	grocery store	IsTypeOf	Sigona Farmers Market
+6	Sigona Farmers Market	HasTraffic	no traffic
+6	Sigona Farmers Market	HasDistance	1 miles
+6	no traffic	IsTrafficOf	Sigona Farmers Market
+6	1 miles	IsDistanceFrom	Sigona Farmers Market
+-1	today	IsEqualTo	monday

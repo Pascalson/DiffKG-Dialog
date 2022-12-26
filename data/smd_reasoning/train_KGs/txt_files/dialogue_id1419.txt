@@ -1,0 +1,57 @@
+0	toms house	HasAddress	580 Van Ness Ave
+0	toms house	HasType	friends house
+0	580 Van Ness Ave	IsAddressOf	toms house
+0	friends house	IsTypeOf	toms house
+0	toms house	HasTraffic	no traffic
+0	toms house	HasDistance	1 miles
+0	no traffic	IsTrafficOf	toms house
+0	1 miles	IsDistanceFrom	toms house
+1	5672 barringer street	HasAddress	5672 barringer street
+1	5672 barringer street	HasType	certain address
+1	5672 barringer street	IsAddressOf	5672 barringer street
+1	certain address	IsTypeOf	5672 barringer street
+1	5672 barringer street	HasTraffic	heavy traffic
+1	5672 barringer street	HasDistance	5 miles
+1	heavy traffic	IsTrafficOf	5672 barringer street
+1	5 miles	IsDistanceFrom	5672 barringer street
+2	Philz	HasAddress	583 Alester Ave
+2	Philz	HasType	coffee or tea place
+2	583 Alester Ave	IsAddressOf	Philz
+2	coffee or tea place	IsTypeOf	Philz
+2	Philz	HasTraffic	moderate traffic
+2	Philz	HasDistance	2 miles
+2	moderate traffic	IsTrafficOf	Philz
+2	2 miles	IsDistanceFrom	Philz
+3	Stanford Childrens Health	HasAddress	899 Ames Ct
+3	Stanford Childrens Health	HasType	hospital
+3	899 Ames Ct	IsAddressOf	Stanford Childrens Health
+3	hospital	IsTypeOf	Stanford Childrens Health
+3	Stanford Childrens Health	HasTraffic	heavy traffic
+3	Stanford Childrens Health	HasDistance	5 miles
+3	heavy traffic	IsTrafficOf	Stanford Childrens Health
+3	5 miles	IsDistanceFrom	Stanford Childrens Health
+4	Webster Garage	HasAddress	880 Ames Ct
+4	Webster Garage	HasType	parking garage
+4	880 Ames Ct	IsAddressOf	Webster Garage
+4	parking garage	IsTypeOf	Webster Garage
+4	Webster Garage	HasTraffic	heavy traffic
+4	Webster Garage	HasDistance	3 miles
+4	heavy traffic	IsTrafficOf	Webster Garage
+4	3 miles	IsDistanceFrom	Webster Garage
+5	Safeway	HasAddress	452 Arcadia Pl
+5	Safeway	HasType	grocery store
+5	452 Arcadia Pl	IsAddressOf	Safeway
+5	grocery store	IsTypeOf	Safeway
+5	Safeway	HasTraffic	moderate traffic
+5	Safeway	HasDistance	4 miles
+5	moderate traffic	IsTrafficOf	Safeway
+5	4 miles	IsDistanceFrom	Safeway
+6	Round Table	HasAddress	113 Anton Ct
+6	Round Table	HasType	pizza restaurant
+6	113 Anton Ct	IsAddressOf	Round Table
+6	pizza restaurant	IsTypeOf	Round Table
+6	Round Table	HasTraffic	heavy traffic
+6	Round Table	HasDistance	2 miles
+6	heavy traffic	IsTrafficOf	Round Table
+6	2 miles	IsDistanceFrom	Round Table
+-1	today	IsEqualTo	monday

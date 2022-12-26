@@ -1,0 +1,61 @@
+0	taking medicine	HasTime	11am
+0	11am	IsTimeOf	taking medicine
+0	taking medicine	HasDate	the 5th
+0	the 5th	IsDateOf	taking medicine
+0	taking medicine	HasParty	Jeff
+0	Jeff	IsPartyOf	taking medicine
+1	conference	HasTime	10am
+1	10am	IsTimeOf	conference
+1	conference	HasDate	sunday
+1	sunday	IsDateOf	conference
+1	conference	HasParty	HR
+1	HR	IsPartyOf	conference
+1	conference	HasRoom	conference room 100
+1	conference room 100	IsRoomOf	conference
+1	conference	HasAgenda	discuss dress code
+1	discuss dress code	IsAgendaOf	conference
+2	conference	HasTime	10am
+2	10am	IsTimeOf	conference
+2	conference	HasDate	the 13th
+2	the 13th	IsDateOf	conference
+2	conference	HasParty	executive team
+2	executive team	IsPartyOf	conference
+2	conference	HasRoom	conference room 50
+2	conference room 50	IsRoomOf	conference
+2	conference	HasAgenda	discuss the merger
+2	discuss the merger	IsAgendaOf	conference
+3	yoga activity	HasTime	10am
+3	10am	IsTimeOf	yoga activity
+3	yoga activity	HasDate	the 13th
+3	the 13th	IsDateOf	yoga activity
+3	yoga activity	HasParty	Marie
+3	Marie	IsPartyOf	yoga activity
+4	dentist appointment	HasTime	2pm
+4	2pm	IsTimeOf	dentist appointment
+4	dentist appointment	HasDate	the 4th
+4	the 4th	IsDateOf	dentist appointment
+4	dentist appointment	HasParty	aunt
+4	aunt	IsPartyOf	dentist appointment
+5	meeting	HasTime	3pm
+5	3pm	IsTimeOf	meeting
+5	meeting	HasDate	saturday
+5	saturday	IsDateOf	meeting
+5	meeting	HasParty	vice president
+5	vice president	IsPartyOf	meeting
+5	meeting	HasRoom	conference room 102
+5	conference room 102	IsRoomOf	meeting
+5	meeting	HasAgenda	go over budget
+5	go over budget	IsAgendaOf	meeting
+6	swimming activity	HasTime	6pm
+6	6pm	IsTimeOf	swimming activity
+6	swimming activity	HasDate	the 10th
+6	the 10th	IsDateOf	swimming activity
+6	swimming activity	HasParty	mother
+6	mother	IsPartyOf	swimming activity
+7	swimming activity	HasTime	7pm
+7	7pm	IsTimeOf	swimming activity
+7	swimming activity	HasDate	monday
+7	monday	IsDateOf	swimming activity
+7	swimming activity	HasParty	Jon
+7	Jon	IsPartyOf	swimming activity
+-1	today	IsEqualTo	monday

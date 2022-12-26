@@ -1,0 +1,57 @@
+0	Philz	HasAddress	583 Alester Ave
+0	Philz	HasType	coffee or tea place
+0	583 Alester Ave	IsAddressOf	Philz
+0	coffee or tea place	IsTypeOf	Philz
+0	Philz	HasTraffic	moderate traffic
+0	Philz	HasDistance	3 miles
+0	moderate traffic	IsTrafficOf	Philz
+0	3 miles	IsDistanceFrom	Philz
+1	Midtown Shopping Center	HasAddress	338 Alester Ave
+1	Midtown Shopping Center	HasType	shopping center
+1	338 Alester Ave	IsAddressOf	Midtown Shopping Center
+1	shopping center	IsTypeOf	Midtown Shopping Center
+1	Midtown Shopping Center	HasTraffic	moderate traffic
+1	Midtown Shopping Center	HasDistance	2 miles
+1	moderate traffic	IsTrafficOf	Midtown Shopping Center
+1	2 miles	IsDistanceFrom	Midtown Shopping Center
+2	Pizza Hut	HasAddress	704 El Camino Real
+2	Pizza Hut	HasType	pizza restaurant
+2	704 El Camino Real	IsAddressOf	Pizza Hut
+2	pizza restaurant	IsTypeOf	Pizza Hut
+2	Pizza Hut	HasTraffic	heavy traffic
+2	Pizza Hut	HasDistance	5 miles
+2	heavy traffic	IsTrafficOf	Pizza Hut
+2	5 miles	IsDistanceFrom	Pizza Hut
+3	Ravenswood Shopping Center	HasAddress	434 Arastradero Rd
+3	Ravenswood Shopping Center	HasType	shopping center
+3	434 Arastradero Rd	IsAddressOf	Ravenswood Shopping Center
+3	shopping center	IsTypeOf	Ravenswood Shopping Center
+3	Ravenswood Shopping Center	HasTraffic	moderate traffic
+3	Ravenswood Shopping Center	HasDistance	6 miles
+3	moderate traffic	IsTrafficOf	Ravenswood Shopping Center
+3	6 miles	IsDistanceFrom	Ravenswood Shopping Center
+4	Jing Jing	HasAddress	113 Arbol Dr
+4	Jing Jing	HasType	chinese restaurant
+4	113 Arbol Dr	IsAddressOf	Jing Jing
+4	chinese restaurant	IsTypeOf	Jing Jing
+4	Jing Jing	HasTraffic	heavy traffic
+4	Jing Jing	HasDistance	3 miles
+4	heavy traffic	IsTrafficOf	Jing Jing
+4	3 miles	IsDistanceFrom	Jing Jing
+5	Dominos	HasAddress	776 Arastradero Rd
+5	Dominos	HasType	pizza restaurant
+5	776 Arastradero Rd	IsAddressOf	Dominos
+5	pizza restaurant	IsTypeOf	Dominos
+5	Dominos	HasTraffic	no traffic
+5	Dominos	HasDistance	5 miles
+5	no traffic	IsTrafficOf	Dominos
+5	5 miles	IsDistanceFrom	Dominos
+6	toms house	HasAddress	580 Van Ness Ave
+6	toms house	HasType	friends house
+6	580 Van Ness Ave	IsAddressOf	toms house
+6	friends house	IsTypeOf	toms house
+6	toms house	HasTraffic	heavy traffic
+6	toms house	HasDistance	3 miles
+6	heavy traffic	IsTrafficOf	toms house
+6	3 miles	IsDistanceFrom	toms house
+-1	today	IsEqualTo	monday

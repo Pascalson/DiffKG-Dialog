@@ -1,0 +1,61 @@
+0	swimming activity	HasTime	2pm
+0	2pm	IsTimeOf	swimming activity
+0	swimming activity	HasDate	sunday
+0	sunday	IsDateOf	swimming activity
+0	swimming activity	HasParty	brother
+0	brother	IsPartyOf	swimming activity
+1	conference	HasTime	6pm
+1	6pm	IsTimeOf	conference
+1	conference	HasDate	the 10th
+1	the 10th	IsDateOf	conference
+1	conference	HasParty	sales team
+1	sales team	IsPartyOf	conference
+1	conference	HasRoom	conference room 100
+1	conference room 100	IsRoomOf	conference
+1	conference	HasAgenda	discuss dress code
+1	discuss dress code	IsAgendaOf	conference
+2	meeting	HasTime	7pm
+2	7pm	IsTimeOf	meeting
+2	meeting	HasDate	the 4th
+2	the 4th	IsDateOf	meeting
+2	meeting	HasParty	executive team
+2	executive team	IsPartyOf	meeting
+2	meeting	HasRoom	conference room 100
+2	conference room 100	IsRoomOf	meeting
+2	meeting	HasAgenda	discuss the merger
+2	discuss the merger	IsAgendaOf	meeting
+3	tennis activity	HasTime	11am
+3	11am	IsTimeOf	tennis activity
+3	tennis activity	HasDate	sunday
+3	sunday	IsDateOf	tennis activity
+3	tennis activity	HasParty	Alex
+3	Alex	IsPartyOf	tennis activity
+4	football activity	HasTime	1pm
+4	1pm	IsTimeOf	football activity
+4	football activity	HasDate	thursday
+4	thursday	IsDateOf	football activity
+4	football activity	HasParty	Jeff
+4	Jeff	IsPartyOf	football activity
+5	conference	HasTime	3pm
+5	3pm	IsTimeOf	conference
+5	conference	HasDate	wednesday
+5	wednesday	IsDateOf	conference
+5	conference	HasParty	executive team
+5	executive team	IsPartyOf	conference
+5	conference	HasRoom	conference room 102
+5	conference room 102	IsRoomOf	conference
+5	conference	HasAgenda	go over quarterly report
+5	go over quarterly report	IsAgendaOf	conference
+6	dentist appointment	HasTime	7pm
+6	7pm	IsTimeOf	dentist appointment
+6	dentist appointment	HasDate	sunday
+6	sunday	IsDateOf	dentist appointment
+6	dentist appointment	HasParty	Ana
+6	Ana	IsPartyOf	dentist appointment
+7	swimming activity	HasTime	11am
+7	11am	IsTimeOf	swimming activity
+7	swimming activity	HasDate	the 13th
+7	the 13th	IsDateOf	swimming activity
+7	swimming activity	HasParty	Marie
+7	Marie	IsPartyOf	swimming activity
+-1	today	IsEqualTo	monday

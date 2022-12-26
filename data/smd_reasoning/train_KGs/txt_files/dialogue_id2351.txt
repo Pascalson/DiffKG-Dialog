@@ -1,0 +1,65 @@
+0	76	HasAddress	91 El Camino Real
+0	76	HasType	gas station
+0	91 El Camino Real	IsAddressOf	76
+0	gas station	IsTypeOf	76
+0	76	HasTraffic	no traffic
+0	76	HasDistance	4 miles
+0	no traffic	IsTrafficOf	76
+0	4 miles	IsDistanceFrom	76
+1	Stanford Childrens Health	HasAddress	899 Ames Ct
+1	Stanford Childrens Health	HasType	hospital
+1	899 Ames Ct	IsAddressOf	Stanford Childrens Health
+1	hospital	IsTypeOf	Stanford Childrens Health
+1	Stanford Childrens Health	HasTraffic	car collision nearby
+1	Stanford Childrens Health	HasDistance	7 miles
+1	car collision nearby	IsTrafficOf	Stanford Childrens Health
+1	7 miles	IsDistanceFrom	Stanford Childrens Health
+2	Palo Alto Cafe	HasAddress	436 Alger Dr
+2	Palo Alto Cafe	HasType	coffee or tea place
+2	436 Alger Dr	IsAddressOf	Palo Alto Cafe
+2	coffee or tea place	IsTypeOf	Palo Alto Cafe
+2	Palo Alto Cafe	HasTraffic	road block nearby
+2	Palo Alto Cafe	HasDistance	4 miles
+2	road block nearby	IsTrafficOf	Palo Alto Cafe
+2	4 miles	IsDistanceFrom	Palo Alto Cafe
+3	Trader Joes	HasAddress	408 University Ave
+3	Trader Joes	HasType	grocery store
+3	408 University Ave	IsAddressOf	Trader Joes
+3	grocery store	IsTypeOf	Trader Joes
+3	Trader Joes	HasTraffic	heavy traffic
+3	Trader Joes	HasDistance	4 miles
+3	heavy traffic	IsTrafficOf	Trader Joes
+3	4 miles	IsDistanceFrom	Trader Joes
+4	Chef Chu's	HasAddress	593 Arrowhead Way
+4	Chef Chu's	HasType	chinese restaurant
+4	593 Arrowhead Way	IsAddressOf	Chef Chu's
+4	chinese restaurant	IsTypeOf	Chef Chu's
+4	Chef Chu's	HasTraffic	car collision nearby
+4	Chef Chu's	HasDistance	4 miles
+4	car collision nearby	IsTrafficOf	Chef Chu's
+4	4 miles	IsDistanceFrom	Chef Chu's
+5	The Clement Hotel	HasAddress	657 Ames Ave
+5	The Clement Hotel	HasType	rest stop
+5	657 Ames Ave	IsAddressOf	The Clement Hotel
+5	rest stop	IsTypeOf	The Clement Hotel
+5	The Clement Hotel	HasTraffic	heavy traffic
+5	The Clement Hotel	HasDistance	1 miles
+5	heavy traffic	IsTrafficOf	The Clement Hotel
+5	1 miles	IsDistanceFrom	The Clement Hotel
+6	The Westin	HasAddress	329 El Camino Real
+6	The Westin	HasType	rest stop
+6	329 El Camino Real	IsAddressOf	The Westin
+6	rest stop	IsTypeOf	The Westin
+6	The Westin	HasTraffic	road block nearby
+6	The Westin	HasDistance	4 miles
+6	road block nearby	IsTrafficOf	The Westin
+6	4 miles	IsDistanceFrom	The Westin
+7	toms house	HasAddress	580 Van Ness Ave
+7	toms house	HasType	friends house
+7	580 Van Ness Ave	IsAddressOf	toms house
+7	friends house	IsTypeOf	toms house
+7	toms house	HasTraffic	road block nearby
+7	toms house	HasDistance	4 miles
+7	road block nearby	IsTrafficOf	toms house
+7	4 miles	IsDistanceFrom	toms house
+-1	today	IsEqualTo	monday

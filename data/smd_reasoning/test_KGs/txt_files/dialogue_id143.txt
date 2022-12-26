@@ -1,0 +1,65 @@
+0	Panda Express	HasAddress	842 Arrowhead Way
+0	Panda Express	HasType	chinese restaurant
+0	842 Arrowhead Way	IsAddressOf	Panda Express
+0	chinese restaurant	IsTypeOf	Panda Express
+0	Panda Express	HasTraffic	heavy traffic
+0	Panda Express	HasDistance	4 miles
+0	heavy traffic	IsTrafficOf	Panda Express
+0	4 miles	IsDistanceFrom	Panda Express
+1	Peets Coffee	HasAddress	9981 Archuleta Ave
+1	Peets Coffee	HasType	coffee or tea place
+1	9981 Archuleta Ave	IsAddressOf	Peets Coffee
+1	coffee or tea place	IsTypeOf	Peets Coffee
+1	Peets Coffee	HasTraffic	moderate traffic
+1	Peets Coffee	HasDistance	2 miles
+1	moderate traffic	IsTrafficOf	Peets Coffee
+1	2 miles	IsDistanceFrom	Peets Coffee
+2	Jing Jing	HasAddress	113 Arbol Dr
+2	Jing Jing	HasType	chinese restaurant
+2	113 Arbol Dr	IsAddressOf	Jing Jing
+2	chinese restaurant	IsTypeOf	Jing Jing
+2	Jing Jing	HasTraffic	road block nearby
+2	Jing Jing	HasDistance	4 miles
+2	road block nearby	IsTrafficOf	Jing Jing
+2	4 miles	IsDistanceFrom	Jing Jing
+3	Coupa	HasAddress	394 Van Ness Ave
+3	Coupa	HasType	coffee or tea place
+3	394 Van Ness Ave	IsAddressOf	Coupa
+3	coffee or tea place	IsTypeOf	Coupa
+3	Coupa	HasTraffic	heavy traffic
+3	Coupa	HasDistance	5 miles
+3	heavy traffic	IsTrafficOf	Coupa
+3	5 miles	IsDistanceFrom	Coupa
+4	Stanford Childrens Health	HasAddress	899 Ames Ct
+4	Stanford Childrens Health	HasType	hospital
+4	899 Ames Ct	IsAddressOf	Stanford Childrens Health
+4	hospital	IsTypeOf	Stanford Childrens Health
+4	Stanford Childrens Health	HasTraffic	heavy traffic
+4	Stanford Childrens Health	HasDistance	4 miles
+4	heavy traffic	IsTrafficOf	Stanford Childrens Health
+4	4 miles	IsDistanceFrom	Stanford Childrens Health
+5	tai pan	HasAddress	830 Almanor Ln
+5	tai pan	HasType	chinese restaurant
+5	830 Almanor Ln	IsAddressOf	tai pan
+5	chinese restaurant	IsTypeOf	tai pan
+5	tai pan	HasTraffic	no traffic
+5	tai pan	HasDistance	4 miles
+5	no traffic	IsTrafficOf	tai pan
+5	4 miles	IsDistanceFrom	tai pan
+6	home	HasAddress	5671 barringer street
+6	home	HasType	home
+6	5671 barringer street	IsAddressOf	home
+6	home	IsTypeOf	home
+6	home	HasTraffic	moderate traffic
+6	home	HasDistance	1 miles
+6	moderate traffic	IsTrafficOf	home
+6	1 miles	IsDistanceFrom	home
+7	P.F. Changs	HasAddress	669 El Camino Real
+7	P.F. Changs	HasType	chinese restaurant
+7	669 El Camino Real	IsAddressOf	P.F. Changs
+7	chinese restaurant	IsTypeOf	P.F. Changs
+7	P.F. Changs	HasTraffic	moderate traffic
+7	P.F. Changs	HasDistance	2 miles
+7	moderate traffic	IsTrafficOf	P.F. Changs
+7	2 miles	IsDistanceFrom	P.F. Changs
+-1	today	IsEqualTo	monday

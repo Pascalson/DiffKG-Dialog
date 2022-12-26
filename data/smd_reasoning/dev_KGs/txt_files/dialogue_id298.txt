@@ -1,0 +1,65 @@
+0	Topanga Mall	HasAddress	171 Oak Rd
+0	Topanga Mall	HasType	shopping center
+0	171 Oak Rd	IsAddressOf	Topanga Mall
+0	shopping center	IsTypeOf	Topanga Mall
+0	Topanga Mall	HasTraffic	car collision nearby
+0	Topanga Mall	HasDistance	3 miles
+0	car collision nearby	IsTrafficOf	Topanga Mall
+0	3 miles	IsDistanceFrom	Topanga Mall
+1	Round Table	HasAddress	113 Anton Ct
+1	Round Table	HasType	pizza restaurant
+1	113 Anton Ct	IsAddressOf	Round Table
+1	pizza restaurant	IsTypeOf	Round Table
+1	Round Table	HasTraffic	heavy traffic
+1	Round Table	HasDistance	5 miles
+1	heavy traffic	IsTrafficOf	Round Table
+1	5 miles	IsDistanceFrom	Round Table
+2	Ravenswood Shopping Center	HasAddress	434 Arastradero Rd
+2	Ravenswood Shopping Center	HasType	shopping center
+2	434 Arastradero Rd	IsAddressOf	Ravenswood Shopping Center
+2	shopping center	IsTypeOf	Ravenswood Shopping Center
+2	Ravenswood Shopping Center	HasTraffic	no traffic
+2	Ravenswood Shopping Center	HasDistance	6 miles
+2	no traffic	IsTrafficOf	Ravenswood Shopping Center
+2	6 miles	IsDistanceFrom	Ravenswood Shopping Center
+3	5677 southwest 4th street	HasAddress	5677 southwest 4th street
+3	5677 southwest 4th street	HasType	certain address
+3	5677 southwest 4th street	IsAddressOf	5677 southwest 4th street
+3	certain address	IsTypeOf	5677 southwest 4th street
+3	5677 southwest 4th street	HasTraffic	heavy traffic
+3	5677 southwest 4th street	HasDistance	5 miles
+3	heavy traffic	IsTrafficOf	5677 southwest 4th street
+3	5 miles	IsDistanceFrom	5677 southwest 4th street
+4	Hotel Keen	HasAddress	578 Arbol Dr
+4	Hotel Keen	HasType	rest stop
+4	578 Arbol Dr	IsAddressOf	Hotel Keen
+4	rest stop	IsTypeOf	Hotel Keen
+4	Hotel Keen	HasTraffic	no traffic
+4	Hotel Keen	HasDistance	6 miles
+4	no traffic	IsTrafficOf	Hotel Keen
+4	6 miles	IsDistanceFrom	Hotel Keen
+5	Chevron	HasAddress	783 Arcadia Pl
+5	Chevron	HasType	gas station
+5	783 Arcadia Pl	IsAddressOf	Chevron
+5	gas station	IsTypeOf	Chevron
+5	Chevron	HasTraffic	heavy traffic
+5	Chevron	HasDistance	7 miles
+5	heavy traffic	IsTrafficOf	Chevron
+5	7 miles	IsDistanceFrom	Chevron
+6	76	HasAddress	91 El Camino Real
+6	76	HasType	gas station
+6	91 El Camino Real	IsAddressOf	76
+6	gas station	IsTypeOf	76
+6	76	HasTraffic	heavy traffic
+6	76	HasDistance	4 miles
+6	heavy traffic	IsTrafficOf	76
+6	4 miles	IsDistanceFrom	76
+7	Starbucks	HasAddress	792 Bedoin Street
+7	Starbucks	HasType	coffee or tea place
+7	792 Bedoin Street	IsAddressOf	Starbucks
+7	coffee or tea place	IsTypeOf	Starbucks
+7	Starbucks	HasTraffic	heavy traffic
+7	Starbucks	HasDistance	4 miles
+7	heavy traffic	IsTrafficOf	Starbucks
+7	4 miles	IsDistanceFrom	Starbucks
+-1	today	IsEqualTo	monday

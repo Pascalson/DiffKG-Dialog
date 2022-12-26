@@ -1,0 +1,65 @@
+0	Willows Market	HasAddress	409 Bollard St
+0	Willows Market	HasType	grocery store
+0	409 Bollard St	IsAddressOf	Willows Market
+0	grocery store	IsTypeOf	Willows Market
+0	Willows Market	HasTraffic	no traffic
+0	Willows Market	HasDistance	1 miles
+0	no traffic	IsTrafficOf	Willows Market
+0	1 miles	IsDistanceFrom	Willows Market
+1	Palo Alto Garage R	HasAddress	481 Amaranta Ave
+1	Palo Alto Garage R	HasType	parking garage
+1	481 Amaranta Ave	IsAddressOf	Palo Alto Garage R
+1	parking garage	IsTypeOf	Palo Alto Garage R
+1	Palo Alto Garage R	HasTraffic	car collision nearby
+1	Palo Alto Garage R	HasDistance	8 miles
+1	car collision nearby	IsTrafficOf	Palo Alto Garage R
+1	8 miles	IsDistanceFrom	Palo Alto Garage R
+2	home	HasAddress	5671 barringer street
+2	home	HasType	home
+2	5671 barringer street	IsAddressOf	home
+2	home	IsTypeOf	home
+2	home	HasTraffic	heavy traffic
+2	home	HasDistance	4 miles
+2	heavy traffic	IsTrafficOf	home
+2	4 miles	IsDistanceFrom	home
+3	Jing Jing	HasAddress	113 Arbol Dr
+3	Jing Jing	HasType	chinese restaurant
+3	113 Arbol Dr	IsAddressOf	Jing Jing
+3	chinese restaurant	IsTypeOf	Jing Jing
+3	Jing Jing	HasTraffic	moderate traffic
+3	Jing Jing	HasDistance	6 miles
+3	moderate traffic	IsTrafficOf	Jing Jing
+3	6 miles	IsDistanceFrom	Jing Jing
+4	jacks house	HasAddress	864 Almanor Ln
+4	jacks house	HasType	friends house
+4	864 Almanor Ln	IsAddressOf	jacks house
+4	friends house	IsTypeOf	jacks house
+4	jacks house	HasTraffic	moderate traffic
+4	jacks house	HasDistance	6 miles
+4	moderate traffic	IsTrafficOf	jacks house
+4	6 miles	IsDistanceFrom	jacks house
+5	5672 barringer street	HasAddress	5672 barringer street
+5	5672 barringer street	HasType	certain address
+5	5672 barringer street	IsAddressOf	5672 barringer street
+5	certain address	IsTypeOf	5672 barringer street
+5	5672 barringer street	HasTraffic	moderate traffic
+5	5672 barringer street	HasDistance	3 miles
+5	moderate traffic	IsTrafficOf	5672 barringer street
+5	3 miles	IsDistanceFrom	5672 barringer street
+6	Chevron	HasAddress	783 Arcadia Pl
+6	Chevron	HasType	gas station
+6	783 Arcadia Pl	IsAddressOf	Chevron
+6	gas station	IsTypeOf	Chevron
+6	Chevron	HasTraffic	heavy traffic
+6	Chevron	HasDistance	4 miles
+6	heavy traffic	IsTrafficOf	Chevron
+6	4 miles	IsDistanceFrom	Chevron
+7	Cafe Venetia	HasAddress	269 Alger Dr
+7	Cafe Venetia	HasType	coffee or tea place
+7	269 Alger Dr	IsAddressOf	Cafe Venetia
+7	coffee or tea place	IsTypeOf	Cafe Venetia
+7	Cafe Venetia	HasTraffic	car collision nearby
+7	Cafe Venetia	HasDistance	2 miles
+7	car collision nearby	IsTrafficOf	Cafe Venetia
+7	2 miles	IsDistanceFrom	Cafe Venetia
+-1	today	IsEqualTo	monday

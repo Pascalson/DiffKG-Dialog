@@ -1,0 +1,65 @@
+0	Panda Express	HasAddress	842 Arrowhead Way
+0	Panda Express	HasType	chinese restaurant
+0	842 Arrowhead Way	IsAddressOf	Panda Express
+0	chinese restaurant	IsTypeOf	Panda Express
+0	Panda Express	HasTraffic	heavy traffic
+0	Panda Express	HasDistance	5 miles
+0	heavy traffic	IsTrafficOf	Panda Express
+0	5 miles	IsDistanceFrom	Panda Express
+1	Palo Alto Cafe	HasAddress	436 Alger Dr
+1	Palo Alto Cafe	HasType	coffee or tea place
+1	436 Alger Dr	IsAddressOf	Palo Alto Cafe
+1	coffee or tea place	IsTypeOf	Palo Alto Cafe
+1	Palo Alto Cafe	HasTraffic	car collision nearby
+1	Palo Alto Cafe	HasDistance	2 miles
+1	car collision nearby	IsTrafficOf	Palo Alto Cafe
+1	2 miles	IsDistanceFrom	Palo Alto Cafe
+2	Round Table	HasAddress	113 Anton Ct
+2	Round Table	HasType	pizza restaurant
+2	113 Anton Ct	IsAddressOf	Round Table
+2	pizza restaurant	IsTypeOf	Round Table
+2	Round Table	HasTraffic	heavy traffic
+2	Round Table	HasDistance	4 miles
+2	heavy traffic	IsTrafficOf	Round Table
+2	4 miles	IsDistanceFrom	Round Table
+3	Pizza Hut	HasAddress	704 El Camino Real
+3	Pizza Hut	HasType	pizza restaurant
+3	704 El Camino Real	IsAddressOf	Pizza Hut
+3	pizza restaurant	IsTypeOf	Pizza Hut
+3	Pizza Hut	HasTraffic	road block nearby
+3	Pizza Hut	HasDistance	5 miles
+3	road block nearby	IsTrafficOf	Pizza Hut
+3	5 miles	IsDistanceFrom	Pizza Hut
+4	Cafe Venetia	HasAddress	269 Alger Dr
+4	Cafe Venetia	HasType	coffee or tea place
+4	269 Alger Dr	IsAddressOf	Cafe Venetia
+4	coffee or tea place	IsTypeOf	Cafe Venetia
+4	Cafe Venetia	HasTraffic	car collision nearby
+4	Cafe Venetia	HasDistance	4 miles
+4	car collision nearby	IsTrafficOf	Cafe Venetia
+4	4 miles	IsDistanceFrom	Cafe Venetia
+5	Chevron	HasAddress	783 Arcadia Pl
+5	Chevron	HasType	gas station
+5	783 Arcadia Pl	IsAddressOf	Chevron
+5	gas station	IsTypeOf	Chevron
+5	Chevron	HasTraffic	moderate traffic
+5	Chevron	HasDistance	3 miles
+5	moderate traffic	IsTrafficOf	Chevron
+5	3 miles	IsDistanceFrom	Chevron
+6	Travelers Lodge	HasAddress	333 Arbol Dr
+6	Travelers Lodge	HasType	rest stop
+6	333 Arbol Dr	IsAddressOf	Travelers Lodge
+6	rest stop	IsTypeOf	Travelers Lodge
+6	Travelers Lodge	HasTraffic	road block nearby
+6	Travelers Lodge	HasDistance	1 miles
+6	road block nearby	IsTrafficOf	Travelers Lodge
+6	1 miles	IsDistanceFrom	Travelers Lodge
+7	Philz	HasAddress	583 Alester Ave
+7	Philz	HasType	coffee or tea place
+7	583 Alester Ave	IsAddressOf	Philz
+7	coffee or tea place	IsTypeOf	Philz
+7	Philz	HasTraffic	no traffic
+7	Philz	HasDistance	4 miles
+7	no traffic	IsTrafficOf	Philz
+7	4 miles	IsDistanceFrom	Philz
+-1	today	IsEqualTo	monday

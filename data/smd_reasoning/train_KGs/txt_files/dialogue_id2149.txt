@@ -1,0 +1,57 @@
+0	Palo Alto Medical Foundation	HasAddress	611 Ames Ave
+0	Palo Alto Medical Foundation	HasType	hospital
+0	611 Ames Ave	IsAddressOf	Palo Alto Medical Foundation
+0	hospital	IsTypeOf	Palo Alto Medical Foundation
+0	Palo Alto Medical Foundation	HasTraffic	no traffic
+0	Palo Alto Medical Foundation	HasDistance	3 miles
+0	no traffic	IsTrafficOf	Palo Alto Medical Foundation
+0	3 miles	IsDistanceFrom	Palo Alto Medical Foundation
+1	Pizza Chicago	HasAddress	915 Arbol Dr
+1	Pizza Chicago	HasType	pizza restaurant
+1	915 Arbol Dr	IsAddressOf	Pizza Chicago
+1	pizza restaurant	IsTypeOf	Pizza Chicago
+1	Pizza Chicago	HasTraffic	no traffic
+1	Pizza Chicago	HasDistance	1 miles
+1	no traffic	IsTrafficOf	Pizza Chicago
+1	1 miles	IsDistanceFrom	Pizza Chicago
+2	Starbucks	HasAddress	792 Bedoin Street
+2	Starbucks	HasType	coffee or tea place
+2	792 Bedoin Street	IsAddressOf	Starbucks
+2	coffee or tea place	IsTypeOf	Starbucks
+2	Starbucks	HasTraffic	heavy traffic
+2	Starbucks	HasDistance	1 miles
+2	heavy traffic	IsTrafficOf	Starbucks
+2	1 miles	IsDistanceFrom	Starbucks
+3	tai pan	HasAddress	830 Almanor Ln
+3	tai pan	HasType	chinese restaurant
+3	830 Almanor Ln	IsAddressOf	tai pan
+3	chinese restaurant	IsTypeOf	tai pan
+3	tai pan	HasTraffic	no traffic
+3	tai pan	HasDistance	6 miles
+3	no traffic	IsTrafficOf	tai pan
+3	6 miles	IsDistanceFrom	tai pan
+4	home	HasAddress	56 cadwell street
+4	home	HasType	home
+4	56 cadwell street	IsAddressOf	home
+4	home	IsTypeOf	home
+4	home	HasTraffic	heavy traffic
+4	home	HasDistance	1 miles
+4	heavy traffic	IsTrafficOf	home
+4	1 miles	IsDistanceFrom	home
+5	5677 springer street	HasAddress	5677 springer street
+5	5677 springer street	HasType	certain address
+5	5677 springer street	IsAddressOf	5677 springer street
+5	certain address	IsTypeOf	5677 springer street
+5	5677 springer street	HasTraffic	no traffic
+5	5677 springer street	HasDistance	3 miles
+5	no traffic	IsTrafficOf	5677 springer street
+5	3 miles	IsDistanceFrom	5677 springer street
+6	Midtown Shopping Center	HasAddress	338 Alester Ave
+6	Midtown Shopping Center	HasType	shopping center
+6	338 Alester Ave	IsAddressOf	Midtown Shopping Center
+6	shopping center	IsTypeOf	Midtown Shopping Center
+6	Midtown Shopping Center	HasTraffic	moderate traffic
+6	Midtown Shopping Center	HasDistance	1 miles
+6	moderate traffic	IsTrafficOf	Midtown Shopping Center
+6	1 miles	IsDistanceFrom	Midtown Shopping Center
+-1	today	IsEqualTo	monday

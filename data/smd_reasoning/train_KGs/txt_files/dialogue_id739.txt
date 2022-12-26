@@ -1,0 +1,57 @@
+0	Palo Alto Cafe	HasAddress	436 Alger Dr
+0	Palo Alto Cafe	HasType	coffee or tea place
+0	436 Alger Dr	IsAddressOf	Palo Alto Cafe
+0	coffee or tea place	IsTypeOf	Palo Alto Cafe
+0	Palo Alto Cafe	HasTraffic	moderate traffic
+0	Palo Alto Cafe	HasDistance	5 miles
+0	moderate traffic	IsTrafficOf	Palo Alto Cafe
+0	5 miles	IsDistanceFrom	Palo Alto Cafe
+1	Stanford Express Care	HasAddress	214 El Camino Real
+1	Stanford Express Care	HasType	hospital
+1	214 El Camino Real	IsAddressOf	Stanford Express Care
+1	hospital	IsTypeOf	Stanford Express Care
+1	Stanford Express Care	HasTraffic	heavy traffic
+1	Stanford Express Care	HasDistance	1 miles
+1	heavy traffic	IsTrafficOf	Stanford Express Care
+1	1 miles	IsDistanceFrom	Stanford Express Care
+2	Pizza Chicago	HasAddress	915 Arbol Dr
+2	Pizza Chicago	HasType	pizza restaurant
+2	915 Arbol Dr	IsAddressOf	Pizza Chicago
+2	pizza restaurant	IsTypeOf	Pizza Chicago
+2	Pizza Chicago	HasTraffic	no traffic
+2	Pizza Chicago	HasDistance	1 miles
+2	no traffic	IsTrafficOf	Pizza Chicago
+2	1 miles	IsDistanceFrom	Pizza Chicago
+3	5677 southwest 4th street	HasAddress	5677 southwest 4th street
+3	5677 southwest 4th street	HasType	certain address
+3	5677 southwest 4th street	IsAddressOf	5677 southwest 4th street
+3	certain address	IsTypeOf	5677 southwest 4th street
+3	5677 southwest 4th street	HasTraffic	heavy traffic
+3	5677 southwest 4th street	HasDistance	4 miles
+3	heavy traffic	IsTrafficOf	5677 southwest 4th street
+3	4 miles	IsDistanceFrom	5677 southwest 4th street
+4	Sigona Farmers Market	HasAddress	638 Amherst St
+4	Sigona Farmers Market	HasType	grocery store
+4	638 Amherst St	IsAddressOf	Sigona Farmers Market
+4	grocery store	IsTypeOf	Sigona Farmers Market
+4	Sigona Farmers Market	HasTraffic	moderate traffic
+4	Sigona Farmers Market	HasDistance	3 miles
+4	moderate traffic	IsTrafficOf	Sigona Farmers Market
+4	3 miles	IsDistanceFrom	Sigona Farmers Market
+5	Cafe Venetia	HasAddress	269 Alger Dr
+5	Cafe Venetia	HasType	coffee or tea place
+5	269 Alger Dr	IsAddressOf	Cafe Venetia
+5	coffee or tea place	IsTypeOf	Cafe Venetia
+5	Cafe Venetia	HasTraffic	heavy traffic
+5	Cafe Venetia	HasDistance	4 miles
+5	heavy traffic	IsTrafficOf	Cafe Venetia
+5	4 miles	IsDistanceFrom	Cafe Venetia
+6	Jing Jing	HasAddress	113 Arbol Dr
+6	Jing Jing	HasType	chinese restaurant
+6	113 Arbol Dr	IsAddressOf	Jing Jing
+6	chinese restaurant	IsTypeOf	Jing Jing
+6	Jing Jing	HasTraffic	no traffic
+6	Jing Jing	HasDistance	2 miles
+6	no traffic	IsTrafficOf	Jing Jing
+6	2 miles	IsDistanceFrom	Jing Jing
+-1	today	IsEqualTo	monday

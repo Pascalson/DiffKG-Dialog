@@ -1,0 +1,57 @@
+0	Town and Country	HasAddress	383 University Ave
+0	Town and Country	HasType	shopping center
+0	383 University Ave	IsAddressOf	Town and Country
+0	shopping center	IsTypeOf	Town and Country
+0	Town and Country	HasTraffic	moderate traffic
+0	Town and Country	HasDistance	4 miles
+0	moderate traffic	IsTrafficOf	Town and Country
+0	4 miles	IsDistanceFrom	Town and Country
+1	jacks house	HasAddress	864 Almanor Ln
+1	jacks house	HasType	friends house
+1	864 Almanor Ln	IsAddressOf	jacks house
+1	friends house	IsTypeOf	jacks house
+1	jacks house	HasTraffic	moderate traffic
+1	jacks house	HasDistance	4 miles
+1	moderate traffic	IsTrafficOf	jacks house
+1	4 miles	IsDistanceFrom	jacks house
+2	toms house	HasAddress	580 Van Ness Ave
+2	toms house	HasType	friends house
+2	580 Van Ness Ave	IsAddressOf	toms house
+2	friends house	IsTypeOf	toms house
+2	toms house	HasTraffic	heavy traffic
+2	toms house	HasDistance	6 miles
+2	heavy traffic	IsTrafficOf	toms house
+2	6 miles	IsDistanceFrom	toms house
+3	Pizza My Heart	HasAddress	528 Anton Ct
+3	Pizza My Heart	HasType	pizza restaurant
+3	528 Anton Ct	IsAddressOf	Pizza My Heart
+3	pizza restaurant	IsTypeOf	Pizza My Heart
+3	Pizza My Heart	HasTraffic	no traffic
+3	Pizza My Heart	HasDistance	1 miles
+3	no traffic	IsTrafficOf	Pizza My Heart
+3	1 miles	IsDistanceFrom	Pizza My Heart
+4	Stanford Express Care	HasAddress	214 El Camino Real
+4	Stanford Express Care	HasType	hospital
+4	214 El Camino Real	IsAddressOf	Stanford Express Care
+4	hospital	IsTypeOf	Stanford Express Care
+4	Stanford Express Care	HasTraffic	no traffic
+4	Stanford Express Care	HasDistance	6 miles
+4	no traffic	IsTrafficOf	Stanford Express Care
+4	6 miles	IsDistanceFrom	Stanford Express Care
+5	Midtown Shopping Center	HasAddress	338 Alester Ave
+5	Midtown Shopping Center	HasType	shopping center
+5	338 Alester Ave	IsAddressOf	Midtown Shopping Center
+5	shopping center	IsTypeOf	Midtown Shopping Center
+5	Midtown Shopping Center	HasTraffic	moderate traffic
+5	Midtown Shopping Center	HasDistance	3 miles
+5	moderate traffic	IsTrafficOf	Midtown Shopping Center
+5	3 miles	IsDistanceFrom	Midtown Shopping Center
+6	Palo Alto Garage R	HasAddress	481 Amaranta Ave
+6	Palo Alto Garage R	HasType	parking garage
+6	481 Amaranta Ave	IsAddressOf	Palo Alto Garage R
+6	parking garage	IsTypeOf	Palo Alto Garage R
+6	Palo Alto Garage R	HasTraffic	heavy traffic
+6	Palo Alto Garage R	HasDistance	4 miles
+6	heavy traffic	IsTrafficOf	Palo Alto Garage R
+6	4 miles	IsDistanceFrom	Palo Alto Garage R
+-1	today	IsEqualTo	monday

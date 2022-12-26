@@ -1,0 +1,65 @@
+0	Travelers Lodge	HasAddress	333 Arbol Dr
+0	Travelers Lodge	HasType	rest stop
+0	333 Arbol Dr	IsAddressOf	Travelers Lodge
+0	rest stop	IsTypeOf	Travelers Lodge
+0	Travelers Lodge	HasTraffic	no traffic
+0	Travelers Lodge	HasDistance	3 miles
+0	no traffic	IsTrafficOf	Travelers Lodge
+0	3 miles	IsDistanceFrom	Travelers Lodge
+1	Hacienda Market	HasAddress	1313 Chester Ave
+1	Hacienda Market	HasType	grocery store
+1	1313 Chester Ave	IsAddressOf	Hacienda Market
+1	grocery store	IsTypeOf	Hacienda Market
+1	Hacienda Market	HasTraffic	car collision nearby
+1	Hacienda Market	HasDistance	4 miles
+1	car collision nearby	IsTrafficOf	Hacienda Market
+1	4 miles	IsDistanceFrom	Hacienda Market
+2	Town and Country	HasAddress	383 University Ave
+2	Town and Country	HasType	shopping center
+2	383 University Ave	IsAddressOf	Town and Country
+2	shopping center	IsTypeOf	Town and Country
+2	Town and Country	HasTraffic	no traffic
+2	Town and Country	HasDistance	1 miles
+2	no traffic	IsTrafficOf	Town and Country
+2	1 miles	IsDistanceFrom	Town and Country
+3	Midtown Shopping Center	HasAddress	338 Alester Ave
+3	Midtown Shopping Center	HasType	shopping center
+3	338 Alester Ave	IsAddressOf	Midtown Shopping Center
+3	shopping center	IsTypeOf	Midtown Shopping Center
+3	Midtown Shopping Center	HasTraffic	no traffic
+3	Midtown Shopping Center	HasDistance	4 miles
+3	no traffic	IsTrafficOf	Midtown Shopping Center
+3	4 miles	IsDistanceFrom	Midtown Shopping Center
+4	Willows Market	HasAddress	409 Bollard St
+4	Willows Market	HasType	grocery store
+4	409 Bollard St	IsAddressOf	Willows Market
+4	grocery store	IsTypeOf	Willows Market
+4	Willows Market	HasTraffic	car collision nearby
+4	Willows Market	HasDistance	1 miles
+4	car collision nearby	IsTrafficOf	Willows Market
+4	1 miles	IsDistanceFrom	Willows Market
+5	Shell	HasAddress	53 University Av
+5	Shell	HasType	gas station
+5	53 University Av	IsAddressOf	Shell
+5	gas station	IsTypeOf	Shell
+5	Shell	HasTraffic	road block nearby
+5	Shell	HasDistance	4 miles
+5	road block nearby	IsTrafficOf	Shell
+5	4 miles	IsDistanceFrom	Shell
+6	Starbucks	HasAddress	792 Bedoin Street
+6	Starbucks	HasType	coffee or tea place
+6	792 Bedoin Street	IsAddressOf	Starbucks
+6	coffee or tea place	IsTypeOf	Starbucks
+6	Starbucks	HasTraffic	heavy traffic
+6	Starbucks	HasDistance	6 miles
+6	heavy traffic	IsTrafficOf	Starbucks
+6	6 miles	IsDistanceFrom	Starbucks
+7	Chevron	HasAddress	783 Arcadia Pl
+7	Chevron	HasType	gas station
+7	783 Arcadia Pl	IsAddressOf	Chevron
+7	gas station	IsTypeOf	Chevron
+7	Chevron	HasTraffic	car collision nearby
+7	Chevron	HasDistance	1 miles
+7	car collision nearby	IsTrafficOf	Chevron
+7	1 miles	IsDistanceFrom	Chevron
+-1	today	IsEqualTo	monday

@@ -1,0 +1,65 @@
+0	Travelers Lodge	HasAddress	333 Arbol Dr
+0	Travelers Lodge	HasType	rest stop
+0	333 Arbol Dr	IsAddressOf	Travelers Lodge
+0	rest stop	IsTypeOf	Travelers Lodge
+0	Travelers Lodge	HasTraffic	heavy traffic
+0	Travelers Lodge	HasDistance	6 miles
+0	heavy traffic	IsTrafficOf	Travelers Lodge
+0	6 miles	IsDistanceFrom	Travelers Lodge
+1	Stanford Express Care	HasAddress	214 El Camino Real
+1	Stanford Express Care	HasType	hospital
+1	214 El Camino Real	IsAddressOf	Stanford Express Care
+1	hospital	IsTypeOf	Stanford Express Care
+1	Stanford Express Care	HasTraffic	no traffic
+1	Stanford Express Care	HasDistance	4 miles
+1	no traffic	IsTrafficOf	Stanford Express Care
+1	4 miles	IsDistanceFrom	Stanford Express Care
+2	Hacienda Market	HasAddress	1313 Chester Ave
+2	Hacienda Market	HasType	grocery store
+2	1313 Chester Ave	IsAddressOf	Hacienda Market
+2	grocery store	IsTypeOf	Hacienda Market
+2	Hacienda Market	HasTraffic	car collision nearby
+2	Hacienda Market	HasDistance	6 miles
+2	car collision nearby	IsTrafficOf	Hacienda Market
+2	6 miles	IsDistanceFrom	Hacienda Market
+3	home	HasAddress	5671 barringer street
+3	home	HasType	home
+3	5671 barringer street	IsAddressOf	home
+3	home	IsTypeOf	home
+3	home	HasTraffic	road block nearby
+3	home	HasDistance	1 miles
+3	road block nearby	IsTrafficOf	home
+3	1 miles	IsDistanceFrom	home
+4	Civic Center Garage	HasAddress	270 Altaire Walk
+4	Civic Center Garage	HasType	parking garage
+4	270 Altaire Walk	IsAddressOf	Civic Center Garage
+4	parking garage	IsTypeOf	Civic Center Garage
+4	Civic Center Garage	HasTraffic	moderate traffic
+4	Civic Center Garage	HasDistance	6 miles
+4	moderate traffic	IsTrafficOf	Civic Center Garage
+4	6 miles	IsDistanceFrom	Civic Center Garage
+5	Comfort Inn	HasAddress	753 University Ave
+5	Comfort Inn	HasType	rest stop
+5	753 University Ave	IsAddressOf	Comfort Inn
+5	rest stop	IsTypeOf	Comfort Inn
+5	Comfort Inn	HasTraffic	no traffic
+5	Comfort Inn	HasDistance	1 miles
+5	no traffic	IsTrafficOf	Comfort Inn
+5	1 miles	IsDistanceFrom	Comfort Inn
+6	Coupa	HasAddress	394 Van Ness Ave
+6	Coupa	HasType	coffee or tea place
+6	394 Van Ness Ave	IsAddressOf	Coupa
+6	coffee or tea place	IsTypeOf	Coupa
+6	Coupa	HasTraffic	no traffic
+6	Coupa	HasDistance	6 miles
+6	no traffic	IsTrafficOf	Coupa
+6	6 miles	IsDistanceFrom	Coupa
+7	jacks house	HasAddress	864 Almanor Ln
+7	jacks house	HasType	friends house
+7	864 Almanor Ln	IsAddressOf	jacks house
+7	friends house	IsTypeOf	jacks house
+7	jacks house	HasTraffic	road block nearby
+7	jacks house	HasDistance	2 miles
+7	road block nearby	IsTrafficOf	jacks house
+7	2 miles	IsDistanceFrom	jacks house
+-1	today	IsEqualTo	monday

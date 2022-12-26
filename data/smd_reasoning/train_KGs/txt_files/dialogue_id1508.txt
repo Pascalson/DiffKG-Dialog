@@ -1,0 +1,61 @@
+0	dentist appointment	HasTime	3pm
+0	3pm	IsTimeOf	dentist appointment
+0	dentist appointment	HasDate	the 13th
+0	the 13th	IsDateOf	dentist appointment
+0	dentist appointment	HasParty	aunt
+0	aunt	IsPartyOf	dentist appointment
+1	yoga activity	HasTime	9am
+1	9am	IsTimeOf	yoga activity
+1	yoga activity	HasDate	the 7th
+1	the 7th	IsDateOf	yoga activity
+1	yoga activity	HasParty	Jon
+1	Jon	IsPartyOf	yoga activity
+2	meeting	HasTime	5pm
+2	5pm	IsTimeOf	meeting
+2	meeting	HasDate	the 16th
+2	the 16th	IsDateOf	meeting
+2	meeting	HasParty	management
+2	management	IsPartyOf	meeting
+2	meeting	HasRoom	conference room 50
+2	conference room 50	IsRoomOf	meeting
+2	meeting	HasAgenda	discuss the merger
+2	discuss the merger	IsAgendaOf	meeting
+3	conference	HasTime	1pm
+3	1pm	IsTimeOf	conference
+3	conference	HasDate	the 15th
+3	the 15th	IsDateOf	conference
+3	conference	HasParty	executive team
+3	executive team	IsPartyOf	conference
+3	conference	HasRoom	conference room 100
+3	conference room 100	IsRoomOf	conference
+3	conference	HasAgenda	go over budget
+3	go over budget	IsAgendaOf	conference
+4	conference	HasTime	5pm
+4	5pm	IsTimeOf	conference
+4	conference	HasDate	the 20th
+4	the 20th	IsDateOf	conference
+4	conference	HasParty	executive team
+4	executive team	IsPartyOf	conference
+4	conference	HasRoom	conference room 100
+4	conference room 100	IsRoomOf	conference
+4	conference	HasAgenda	go over budget
+4	go over budget	IsAgendaOf	conference
+5	swimming activity	HasTime	11am
+5	11am	IsTimeOf	swimming activity
+5	swimming activity	HasDate	the 17th
+5	the 17th	IsDateOf	swimming activity
+5	swimming activity	HasParty	Alex
+5	Alex	IsPartyOf	swimming activity
+6	dentist appointment	HasTime	9am
+6	9am	IsTimeOf	dentist appointment
+6	dentist appointment	HasDate	the 18th
+6	the 18th	IsDateOf	dentist appointment
+6	dentist appointment	HasParty	Jon
+6	Jon	IsPartyOf	dentist appointment
+7	optometrist appointment	HasTime	3pm
+7	3pm	IsTimeOf	optometrist appointment
+7	optometrist appointment	HasDate	the 2nd
+7	the 2nd	IsDateOf	optometrist appointment
+7	optometrist appointment	HasParty	mother
+7	mother	IsPartyOf	optometrist appointment
+-1	today	IsEqualTo	monday

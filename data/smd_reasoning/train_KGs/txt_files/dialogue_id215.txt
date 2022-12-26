@@ -1,0 +1,65 @@
+0	Travelers Lodge	HasAddress	333 Arbol Dr
+0	Travelers Lodge	HasType	rest stop
+0	333 Arbol Dr	IsAddressOf	Travelers Lodge
+0	rest stop	IsTypeOf	Travelers Lodge
+0	Travelers Lodge	HasTraffic	road block nearby
+0	Travelers Lodge	HasDistance	2 miles
+0	road block nearby	IsTrafficOf	Travelers Lodge
+0	2 miles	IsDistanceFrom	Travelers Lodge
+1	Civic Center Garage	HasAddress	270 Altaire Walk
+1	Civic Center Garage	HasType	parking garage
+1	270 Altaire Walk	IsAddressOf	Civic Center Garage
+1	parking garage	IsTypeOf	Civic Center Garage
+1	Civic Center Garage	HasTraffic	road block nearby
+1	Civic Center Garage	HasDistance	6 miles
+1	road block nearby	IsTrafficOf	Civic Center Garage
+1	6 miles	IsDistanceFrom	Civic Center Garage
+2	home	HasAddress	10 ames street
+2	home	HasType	home
+2	10 ames street	IsAddressOf	home
+2	home	IsTypeOf	home
+2	home	HasTraffic	moderate traffic
+2	home	HasDistance	5 miles
+2	moderate traffic	IsTrafficOf	home
+2	5 miles	IsDistanceFrom	home
+3	home	HasAddress	10 ames street
+3	home	HasType	home
+3	10 ames street	IsAddressOf	home
+3	home	IsTypeOf	home
+3	home	HasTraffic	car collision nearby
+3	home	HasDistance	1 miles
+3	car collision nearby	IsTrafficOf	home
+3	1 miles	IsDistanceFrom	home
+4	Comfort Inn	HasAddress	753 University Ave
+4	Comfort Inn	HasType	rest stop
+4	753 University Ave	IsAddressOf	Comfort Inn
+4	rest stop	IsTypeOf	Comfort Inn
+4	Comfort Inn	HasTraffic	car collision nearby
+4	Comfort Inn	HasDistance	2 miles
+4	car collision nearby	IsTrafficOf	Comfort Inn
+4	2 miles	IsDistanceFrom	Comfort Inn
+5	jacks house	HasAddress	864 Almanor Ln
+5	jacks house	HasType	friends house
+5	864 Almanor Ln	IsAddressOf	jacks house
+5	friends house	IsTypeOf	jacks house
+5	jacks house	HasTraffic	moderate traffic
+5	jacks house	HasDistance	4 miles
+5	moderate traffic	IsTrafficOf	jacks house
+5	4 miles	IsDistanceFrom	jacks house
+6	Whole Foods	HasAddress	819 Alma St
+6	Whole Foods	HasType	grocery store
+6	819 Alma St	IsAddressOf	Whole Foods
+6	grocery store	IsTypeOf	Whole Foods
+6	Whole Foods	HasTraffic	road block nearby
+6	Whole Foods	HasDistance	6 miles
+6	road block nearby	IsTrafficOf	Whole Foods
+6	6 miles	IsDistanceFrom	Whole Foods
+7	76	HasAddress	91 El Camino Real
+7	76	HasType	gas station
+7	91 El Camino Real	IsAddressOf	76
+7	gas station	IsTypeOf	76
+7	76	HasTraffic	heavy traffic
+7	76	HasDistance	3 miles
+7	heavy traffic	IsTrafficOf	76
+7	3 miles	IsDistanceFrom	76
+-1	today	IsEqualTo	monday

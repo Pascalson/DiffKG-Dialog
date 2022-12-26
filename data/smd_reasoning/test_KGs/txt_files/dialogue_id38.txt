@@ -1,0 +1,57 @@
+0	Dominos	HasAddress	776 Arastradero Rd
+0	Dominos	HasType	pizza restaurant
+0	776 Arastradero Rd	IsAddressOf	Dominos
+0	pizza restaurant	IsTypeOf	Dominos
+0	Dominos	HasTraffic	moderate traffic
+0	Dominos	HasDistance	1 miles
+0	moderate traffic	IsTrafficOf	Dominos
+0	1 miles	IsDistanceFrom	Dominos
+1	Stanford Express Care	HasAddress	214 El Camino Real
+1	Stanford Express Care	HasType	hospital
+1	214 El Camino Real	IsAddressOf	Stanford Express Care
+1	hospital	IsTypeOf	Stanford Express Care
+1	Stanford Express Care	HasTraffic	moderate traffic
+1	Stanford Express Care	HasDistance	1 miles
+1	moderate traffic	IsTrafficOf	Stanford Express Care
+1	1 miles	IsDistanceFrom	Stanford Express Care
+2	5672 barringer street	HasAddress	5672 barringer street
+2	5672 barringer street	HasType	certain address
+2	5672 barringer street	IsAddressOf	5672 barringer street
+2	certain address	IsTypeOf	5672 barringer street
+2	5672 barringer street	HasTraffic	heavy traffic
+2	5672 barringer street	HasDistance	5 miles
+2	heavy traffic	IsTrafficOf	5672 barringer street
+2	5 miles	IsDistanceFrom	5672 barringer street
+3	Stanford Oval Parking	HasAddress	610 Amarillo Ave
+3	Stanford Oval Parking	HasType	parking garage
+3	610 Amarillo Ave	IsAddressOf	Stanford Oval Parking
+3	parking garage	IsTypeOf	Stanford Oval Parking
+3	Stanford Oval Parking	HasTraffic	no traffic
+3	Stanford Oval Parking	HasDistance	1 miles
+3	no traffic	IsTrafficOf	Stanford Oval Parking
+3	1 miles	IsDistanceFrom	Stanford Oval Parking
+4	home	HasAddress	5671 barringer street
+4	home	HasType	home
+4	5671 barringer street	IsAddressOf	home
+4	home	IsTypeOf	home
+4	home	HasTraffic	no traffic
+4	home	HasDistance	5 miles
+4	no traffic	IsTrafficOf	home
+4	5 miles	IsDistanceFrom	home
+5	Civic Center Garage	HasAddress	270 Altaire Walk
+5	Civic Center Garage	HasType	parking garage
+5	270 Altaire Walk	IsAddressOf	Civic Center Garage
+5	parking garage	IsTypeOf	Civic Center Garage
+5	Civic Center Garage	HasTraffic	no traffic
+5	Civic Center Garage	HasDistance	2 miles
+5	no traffic	IsTrafficOf	Civic Center Garage
+5	2 miles	IsDistanceFrom	Civic Center Garage
+6	Hotel Keen	HasAddress	578 Arbol Dr
+6	Hotel Keen	HasType	rest stop
+6	578 Arbol Dr	IsAddressOf	Hotel Keen
+6	rest stop	IsTypeOf	Hotel Keen
+6	Hotel Keen	HasTraffic	heavy traffic
+6	Hotel Keen	HasDistance	1 miles
+6	heavy traffic	IsTrafficOf	Hotel Keen
+6	1 miles	IsDistanceFrom	Hotel Keen
+-1	today	IsEqualTo	monday

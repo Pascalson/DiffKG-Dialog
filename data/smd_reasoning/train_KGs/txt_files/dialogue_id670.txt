@@ -1,0 +1,65 @@
+0	5677 springer street	HasAddress	5677 springer street
+0	5677 springer street	HasType	certain address
+0	5677 springer street	IsAddressOf	5677 springer street
+0	certain address	IsTypeOf	5677 springer street
+0	5677 springer street	HasTraffic	heavy traffic
+0	5677 springer street	HasDistance	4 miles
+0	heavy traffic	IsTrafficOf	5677 springer street
+0	4 miles	IsDistanceFrom	5677 springer street
+1	Shell	HasAddress	53 University Av
+1	Shell	HasType	gas station
+1	53 University Av	IsAddressOf	Shell
+1	gas station	IsTypeOf	Shell
+1	Shell	HasTraffic	no traffic
+1	Shell	HasDistance	1 miles
+1	no traffic	IsTrafficOf	Shell
+1	1 miles	IsDistanceFrom	Shell
+2	Palo Alto Garage R	HasAddress	481 Amaranta Ave
+2	Palo Alto Garage R	HasType	parking garage
+2	481 Amaranta Ave	IsAddressOf	Palo Alto Garage R
+2	parking garage	IsTypeOf	Palo Alto Garage R
+2	Palo Alto Garage R	HasTraffic	moderate traffic
+2	Palo Alto Garage R	HasDistance	5 miles
+2	moderate traffic	IsTrafficOf	Palo Alto Garage R
+2	5 miles	IsDistanceFrom	Palo Alto Garage R
+3	Chevron	HasAddress	783 Arcadia Pl
+3	Chevron	HasType	gas station
+3	783 Arcadia Pl	IsAddressOf	Chevron
+3	gas station	IsTypeOf	Chevron
+3	Chevron	HasTraffic	moderate traffic
+3	Chevron	HasDistance	2 miles
+3	moderate traffic	IsTrafficOf	Chevron
+3	2 miles	IsDistanceFrom	Chevron
+4	Coupa	HasAddress	394 Van Ness Ave
+4	Coupa	HasType	coffee or tea place
+4	394 Van Ness Ave	IsAddressOf	Coupa
+4	coffee or tea place	IsTypeOf	Coupa
+4	Coupa	HasTraffic	moderate traffic
+4	Coupa	HasDistance	3 miles
+4	moderate traffic	IsTrafficOf	Coupa
+4	3 miles	IsDistanceFrom	Coupa
+5	5677 southwest 4th street	HasAddress	5677 southwest 4th street
+5	5677 southwest 4th street	HasType	certain address
+5	5677 southwest 4th street	IsAddressOf	5677 southwest 4th street
+5	certain address	IsTypeOf	5677 southwest 4th street
+5	5677 southwest 4th street	HasTraffic	heavy traffic
+5	5677 southwest 4th street	HasDistance	5 miles
+5	heavy traffic	IsTrafficOf	5677 southwest 4th street
+5	5 miles	IsDistanceFrom	5677 southwest 4th street
+6	76	HasAddress	91 El Camino Real
+6	76	HasType	gas station
+6	91 El Camino Real	IsAddressOf	76
+6	gas station	IsTypeOf	76
+6	76	HasTraffic	moderate traffic
+6	76	HasDistance	3 miles
+6	moderate traffic	IsTrafficOf	76
+6	3 miles	IsDistanceFrom	76
+7	Pizza Chicago	HasAddress	915 Arbol Dr
+7	Pizza Chicago	HasType	pizza restaurant
+7	915 Arbol Dr	IsAddressOf	Pizza Chicago
+7	pizza restaurant	IsTypeOf	Pizza Chicago
+7	Pizza Chicago	HasTraffic	moderate traffic
+7	Pizza Chicago	HasDistance	1 miles
+7	moderate traffic	IsTrafficOf	Pizza Chicago
+7	1 miles	IsDistanceFrom	Pizza Chicago
+-1	today	IsEqualTo	monday

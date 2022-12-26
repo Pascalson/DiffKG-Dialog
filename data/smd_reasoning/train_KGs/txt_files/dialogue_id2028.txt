@@ -1,0 +1,65 @@
+0	Travelers Lodge	HasAddress	333 Arbol Dr
+0	Travelers Lodge	HasType	rest stop
+0	333 Arbol Dr	IsAddressOf	Travelers Lodge
+0	rest stop	IsTypeOf	Travelers Lodge
+0	Travelers Lodge	HasTraffic	road block nearby
+0	Travelers Lodge	HasDistance	5 miles
+0	road block nearby	IsTrafficOf	Travelers Lodge
+0	5 miles	IsDistanceFrom	Travelers Lodge
+1	Sigona Farmers Market	HasAddress	638 Amherst St
+1	Sigona Farmers Market	HasType	grocery store
+1	638 Amherst St	IsAddressOf	Sigona Farmers Market
+1	grocery store	IsTypeOf	Sigona Farmers Market
+1	Sigona Farmers Market	HasTraffic	car collision nearby
+1	Sigona Farmers Market	HasDistance	2 miles
+1	car collision nearby	IsTrafficOf	Sigona Farmers Market
+1	2 miles	IsDistanceFrom	Sigona Farmers Market
+2	Philz	HasAddress	583 Alester Ave
+2	Philz	HasType	coffee or tea place
+2	583 Alester Ave	IsAddressOf	Philz
+2	coffee or tea place	IsTypeOf	Philz
+2	Philz	HasTraffic	no traffic
+2	Philz	HasDistance	5 miles
+2	no traffic	IsTrafficOf	Philz
+2	5 miles	IsDistanceFrom	Philz
+3	Shell	HasAddress	53 University Av
+3	Shell	HasType	gas station
+3	53 University Av	IsAddressOf	Shell
+3	gas station	IsTypeOf	Shell
+3	Shell	HasTraffic	car collision nearby
+3	Shell	HasDistance	2 miles
+3	car collision nearby	IsTrafficOf	Shell
+3	2 miles	IsDistanceFrom	Shell
+4	Stanford Express Care	HasAddress	214 El Camino Real
+4	Stanford Express Care	HasType	hospital
+4	214 El Camino Real	IsAddressOf	Stanford Express Care
+4	hospital	IsTypeOf	Stanford Express Care
+4	Stanford Express Care	HasTraffic	car collision nearby
+4	Stanford Express Care	HasDistance	1 miles
+4	car collision nearby	IsTrafficOf	Stanford Express Care
+4	1 miles	IsDistanceFrom	Stanford Express Care
+5	Jing Jing	HasAddress	113 Arbol Dr
+5	Jing Jing	HasType	chinese restaurant
+5	113 Arbol Dr	IsAddressOf	Jing Jing
+5	chinese restaurant	IsTypeOf	Jing Jing
+5	Jing Jing	HasTraffic	car collision nearby
+5	Jing Jing	HasDistance	1 miles
+5	car collision nearby	IsTrafficOf	Jing Jing
+5	1 miles	IsDistanceFrom	Jing Jing
+6	The Clement Hotel	HasAddress	657 Ames Ave
+6	The Clement Hotel	HasType	rest stop
+6	657 Ames Ave	IsAddressOf	The Clement Hotel
+6	rest stop	IsTypeOf	The Clement Hotel
+6	The Clement Hotel	HasTraffic	car collision nearby
+6	The Clement Hotel	HasDistance	6 miles
+6	car collision nearby	IsTrafficOf	The Clement Hotel
+6	6 miles	IsDistanceFrom	The Clement Hotel
+7	Palo Alto Medical Foundation	HasAddress	611 Ames Ave
+7	Palo Alto Medical Foundation	HasType	hospital
+7	611 Ames Ave	IsAddressOf	Palo Alto Medical Foundation
+7	hospital	IsTypeOf	Palo Alto Medical Foundation
+7	Palo Alto Medical Foundation	HasTraffic	no traffic
+7	Palo Alto Medical Foundation	HasDistance	4 miles
+7	no traffic	IsTrafficOf	Palo Alto Medical Foundation
+7	4 miles	IsDistanceFrom	Palo Alto Medical Foundation
+-1	today	IsEqualTo	monday

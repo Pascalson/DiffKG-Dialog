@@ -1,0 +1,65 @@
+0	Civic Center Garage	HasAddress	270 Altaire Walk
+0	Civic Center Garage	HasType	parking garage
+0	270 Altaire Walk	IsAddressOf	Civic Center Garage
+0	parking garage	IsTypeOf	Civic Center Garage
+0	Civic Center Garage	HasTraffic	road block nearby
+0	Civic Center Garage	HasDistance	3 miles
+0	road block nearby	IsTrafficOf	Civic Center Garage
+0	3 miles	IsDistanceFrom	Civic Center Garage
+1	Chevron	HasAddress	783 Arcadia Pl
+1	Chevron	HasType	gas station
+1	783 Arcadia Pl	IsAddressOf	Chevron
+1	gas station	IsTypeOf	Chevron
+1	Chevron	HasTraffic	road block nearby
+1	Chevron	HasDistance	6 miles
+1	road block nearby	IsTrafficOf	Chevron
+1	6 miles	IsDistanceFrom	Chevron
+2	Palo Alto Garage R	HasAddress	481 Amaranta Ave
+2	Palo Alto Garage R	HasType	parking garage
+2	481 Amaranta Ave	IsAddressOf	Palo Alto Garage R
+2	parking garage	IsTypeOf	Palo Alto Garage R
+2	Palo Alto Garage R	HasTraffic	road block nearby
+2	Palo Alto Garage R	HasDistance	3 miles
+2	road block nearby	IsTrafficOf	Palo Alto Garage R
+2	3 miles	IsDistanceFrom	Palo Alto Garage R
+3	The Westin	HasAddress	329 El Camino Real
+3	The Westin	HasType	rest stop
+3	329 El Camino Real	IsAddressOf	The Westin
+3	rest stop	IsTypeOf	The Westin
+3	The Westin	HasTraffic	moderate traffic
+3	The Westin	HasDistance	4 miles
+3	moderate traffic	IsTrafficOf	The Westin
+3	4 miles	IsDistanceFrom	The Westin
+4	P.F. Changs	HasAddress	669 El Camino Real
+4	P.F. Changs	HasType	chinese restaurant
+4	669 El Camino Real	IsAddressOf	P.F. Changs
+4	chinese restaurant	IsTypeOf	P.F. Changs
+4	P.F. Changs	HasTraffic	road block nearby
+4	P.F. Changs	HasDistance	2 miles
+4	road block nearby	IsTrafficOf	P.F. Changs
+4	2 miles	IsDistanceFrom	P.F. Changs
+5	Palo Alto Medical Foundation	HasAddress	611 Ames Ave
+5	Palo Alto Medical Foundation	HasType	hospital
+5	611 Ames Ave	IsAddressOf	Palo Alto Medical Foundation
+5	hospital	IsTypeOf	Palo Alto Medical Foundation
+5	Palo Alto Medical Foundation	HasTraffic	heavy traffic
+5	Palo Alto Medical Foundation	HasDistance	1 miles
+5	heavy traffic	IsTrafficOf	Palo Alto Medical Foundation
+5	1 miles	IsDistanceFrom	Palo Alto Medical Foundation
+6	Ravenswood Shopping Center	HasAddress	434 Arastradero Rd
+6	Ravenswood Shopping Center	HasType	shopping center
+6	434 Arastradero Rd	IsAddressOf	Ravenswood Shopping Center
+6	shopping center	IsTypeOf	Ravenswood Shopping Center
+6	Ravenswood Shopping Center	HasTraffic	no traffic
+6	Ravenswood Shopping Center	HasDistance	5 miles
+6	no traffic	IsTrafficOf	Ravenswood Shopping Center
+6	5 miles	IsDistanceFrom	Ravenswood Shopping Center
+7	Round Table	HasAddress	113 Anton Ct
+7	Round Table	HasType	pizza restaurant
+7	113 Anton Ct	IsAddressOf	Round Table
+7	pizza restaurant	IsTypeOf	Round Table
+7	Round Table	HasTraffic	heavy traffic
+7	Round Table	HasDistance	4 miles
+7	heavy traffic	IsTrafficOf	Round Table
+7	4 miles	IsDistanceFrom	Round Table
+-1	today	IsEqualTo	monday

@@ -1,0 +1,57 @@
+0	Comfort Inn	HasAddress	753 University Ave
+0	Comfort Inn	HasType	rest stop
+0	753 University Ave	IsAddressOf	Comfort Inn
+0	rest stop	IsTypeOf	Comfort Inn
+0	Comfort Inn	HasTraffic	moderate traffic
+0	Comfort Inn	HasDistance	2 miles
+0	moderate traffic	IsTrafficOf	Comfort Inn
+0	2 miles	IsDistanceFrom	Comfort Inn
+1	Stanford Shopping Center	HasAddress	773 Alger Dr
+1	Stanford Shopping Center	HasType	shopping center
+1	773 Alger Dr	IsAddressOf	Stanford Shopping Center
+1	shopping center	IsTypeOf	Stanford Shopping Center
+1	Stanford Shopping Center	HasTraffic	no traffic
+1	Stanford Shopping Center	HasDistance	1 miles
+1	no traffic	IsTrafficOf	Stanford Shopping Center
+1	1 miles	IsDistanceFrom	Stanford Shopping Center
+2	home	HasAddress	10 ames street
+2	home	HasType	home
+2	10 ames street	IsAddressOf	home
+2	home	IsTypeOf	home
+2	home	HasTraffic	moderate traffic
+2	home	HasDistance	2 miles
+2	moderate traffic	IsTrafficOf	home
+2	2 miles	IsDistanceFrom	home
+3	Starbucks	HasAddress	792 Bedoin Street
+3	Starbucks	HasType	coffee or tea place
+3	792 Bedoin Street	IsAddressOf	Starbucks
+3	coffee or tea place	IsTypeOf	Starbucks
+3	Starbucks	HasTraffic	moderate traffic
+3	Starbucks	HasDistance	2 miles
+3	moderate traffic	IsTrafficOf	Starbucks
+3	2 miles	IsDistanceFrom	Starbucks
+4	tai pan	HasAddress	830 Almanor Ln
+4	tai pan	HasType	chinese restaurant
+4	830 Almanor Ln	IsAddressOf	tai pan
+4	chinese restaurant	IsTypeOf	tai pan
+4	tai pan	HasTraffic	no traffic
+4	tai pan	HasDistance	4 miles
+4	no traffic	IsTrafficOf	tai pan
+4	4 miles	IsDistanceFrom	tai pan
+5	Valero	HasAddress	200 Alester Ave
+5	Valero	HasType	gas station
+5	200 Alester Ave	IsAddressOf	Valero
+5	gas station	IsTypeOf	Valero
+5	Valero	HasTraffic	no traffic
+5	Valero	HasDistance	3 miles
+5	no traffic	IsTrafficOf	Valero
+5	3 miles	IsDistanceFrom	Valero
+6	Sigona Farmers Market	HasAddress	638 Amherst St
+6	Sigona Farmers Market	HasType	grocery store
+6	638 Amherst St	IsAddressOf	Sigona Farmers Market
+6	grocery store	IsTypeOf	Sigona Farmers Market
+6	Sigona Farmers Market	HasTraffic	no traffic
+6	Sigona Farmers Market	HasDistance	3 miles
+6	no traffic	IsTrafficOf	Sigona Farmers Market
+6	3 miles	IsDistanceFrom	Sigona Farmers Market
+-1	today	IsEqualTo	monday

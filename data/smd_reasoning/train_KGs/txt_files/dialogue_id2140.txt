@@ -1,0 +1,65 @@
+0	dentist appointment	HasTime	2pm
+0	2pm	IsTimeOf	dentist appointment
+0	dentist appointment	HasDate	the 6th
+0	the 6th	IsDateOf	dentist appointment
+0	dentist appointment	HasParty	Jon
+0	Jon	IsPartyOf	dentist appointment
+1	conference	HasTime	7pm
+1	7pm	IsTimeOf	conference
+1	conference	HasDate	monday
+1	monday	IsDateOf	conference
+1	conference	HasParty	vice president
+1	vice president	IsPartyOf	conference
+1	conference	HasRoom	conference room 100
+1	conference room 100	IsRoomOf	conference
+1	conference	HasAgenda	discuss dress code
+1	discuss dress code	IsAgendaOf	conference
+2	conference	HasTime	11am
+2	11am	IsTimeOf	conference
+2	conference	HasDate	the 7th
+2	the 7th	IsDateOf	conference
+2	conference	HasParty	boss
+2	boss	IsPartyOf	conference
+2	conference	HasRoom	conference room 102
+2	conference room 102	IsRoomOf	conference
+2	conference	HasAgenda	discuss dress code
+2	discuss dress code	IsAgendaOf	conference
+3	football activity	HasTime	6pm
+3	6pm	IsTimeOf	football activity
+3	football activity	HasDate	the 12th
+3	the 12th	IsDateOf	football activity
+3	football activity	HasParty	Ana
+3	Ana	IsPartyOf	football activity
+4	meeting	HasTime	1pm
+4	1pm	IsTimeOf	meeting
+4	meeting	HasDate	friday
+4	friday	IsDateOf	meeting
+4	meeting	HasParty	HR
+4	HR	IsPartyOf	meeting
+4	meeting	HasRoom	conference room 50
+4	conference room 50	IsRoomOf	meeting
+4	meeting	HasAgenda	sign the NDA
+4	sign the NDA	IsAgendaOf	meeting
+5	doctor appointment	HasTime	11am
+5	11am	IsTimeOf	doctor appointment
+5	doctor appointment	HasDate	the 1st
+5	the 1st	IsDateOf	doctor appointment
+5	doctor appointment	HasParty	mother
+5	mother	IsPartyOf	doctor appointment
+6	lab appointment	HasTime	10am
+6	10am	IsTimeOf	lab appointment
+6	lab appointment	HasDate	thursday
+6	thursday	IsDateOf	lab appointment
+6	lab appointment	HasParty	Marie
+6	Marie	IsPartyOf	lab appointment
+7	conference	HasTime	11am
+7	11am	IsTimeOf	conference
+7	conference	HasDate	thursday
+7	thursday	IsDateOf	conference
+7	conference	HasParty	infrastructure team
+7	infrastructure team	IsPartyOf	conference
+7	conference	HasRoom	conference room 50
+7	conference room 50	IsRoomOf	conference
+7	conference	HasAgenda	discuss the company picnic
+7	discuss the company picnic	IsAgendaOf	conference
+-1	today	IsEqualTo	monday

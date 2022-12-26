@@ -1,0 +1,65 @@
+0	The Westin	HasAddress	329 El Camino Real
+0	The Westin	HasType	rest stop
+0	329 El Camino Real	IsAddressOf	The Westin
+0	rest stop	IsTypeOf	The Westin
+0	The Westin	HasTraffic	no traffic
+0	The Westin	HasDistance	1 miles
+0	no traffic	IsTrafficOf	The Westin
+0	1 miles	IsDistanceFrom	The Westin
+1	Palo Alto Medical Foundation	HasAddress	611 Ames Ave
+1	Palo Alto Medical Foundation	HasType	hospital
+1	611 Ames Ave	IsAddressOf	Palo Alto Medical Foundation
+1	hospital	IsTypeOf	Palo Alto Medical Foundation
+1	Palo Alto Medical Foundation	HasTraffic	road block nearby
+1	Palo Alto Medical Foundation	HasDistance	2 miles
+1	road block nearby	IsTrafficOf	Palo Alto Medical Foundation
+1	2 miles	IsDistanceFrom	Palo Alto Medical Foundation
+2	Hacienda Market	HasAddress	1313 Chester Ave
+2	Hacienda Market	HasType	grocery store
+2	1313 Chester Ave	IsAddressOf	Hacienda Market
+2	grocery store	IsTypeOf	Hacienda Market
+2	Hacienda Market	HasTraffic	heavy traffic
+2	Hacienda Market	HasDistance	1 miles
+2	heavy traffic	IsTrafficOf	Hacienda Market
+2	1 miles	IsDistanceFrom	Hacienda Market
+3	Civic Center Garage	HasAddress	270 Altaire Walk
+3	Civic Center Garage	HasType	parking garage
+3	270 Altaire Walk	IsAddressOf	Civic Center Garage
+3	parking garage	IsTypeOf	Civic Center Garage
+3	Civic Center Garage	HasTraffic	no traffic
+3	Civic Center Garage	HasDistance	3 miles
+3	no traffic	IsTrafficOf	Civic Center Garage
+3	3 miles	IsDistanceFrom	Civic Center Garage
+4	Willows Market	HasAddress	409 Bollard St
+4	Willows Market	HasType	grocery store
+4	409 Bollard St	IsAddressOf	Willows Market
+4	grocery store	IsTypeOf	Willows Market
+4	Willows Market	HasTraffic	moderate traffic
+4	Willows Market	HasDistance	4 miles
+4	moderate traffic	IsTrafficOf	Willows Market
+4	4 miles	IsDistanceFrom	Willows Market
+5	Chef Chu's	HasAddress	593 Arrowhead Way
+5	Chef Chu's	HasType	chinese restaurant
+5	593 Arrowhead Way	IsAddressOf	Chef Chu's
+5	chinese restaurant	IsTypeOf	Chef Chu's
+5	Chef Chu's	HasTraffic	no traffic
+5	Chef Chu's	HasDistance	3 miles
+5	no traffic	IsTrafficOf	Chef Chu's
+5	3 miles	IsDistanceFrom	Chef Chu's
+6	jills house	HasAddress	347 Alta Mesa Ave
+6	jills house	HasType	friends house
+6	347 Alta Mesa Ave	IsAddressOf	jills house
+6	friends house	IsTypeOf	jills house
+6	jills house	HasTraffic	car collision nearby
+6	jills house	HasDistance	1 miles
+6	car collision nearby	IsTrafficOf	jills house
+6	1 miles	IsDistanceFrom	jills house
+7	Pizza Hut	HasAddress	704 El Camino Real
+7	Pizza Hut	HasType	pizza restaurant
+7	704 El Camino Real	IsAddressOf	Pizza Hut
+7	pizza restaurant	IsTypeOf	Pizza Hut
+7	Pizza Hut	HasTraffic	no traffic
+7	Pizza Hut	HasDistance	3 miles
+7	no traffic	IsTrafficOf	Pizza Hut
+7	3 miles	IsDistanceFrom	Pizza Hut
+-1	today	IsEqualTo	monday
